@@ -1,0 +1,50 @@
+PHI-base accession no	none
+PHI-base accession	phi_base_acc
+Obsolete PHI accession	obsolete_acc
+DB_Type	db_type
+Accession	accession
+Obsolete EMBL accession	none
+Locus ID	none
+AA sequence #no EMBL#	aa_sequence
+NT sequence #no EMBL#	nt_sequence
+Associated strain	assoc_strain
+Gene name	gene_name
+Genome location	none
+Multiple mutation	multiple_mutation
+Pathogen NCBI Taxonomy ID	patho_tax
+Pathogen species	patho_name
+Strain	strain
+Disease name	disease_name
+Monocot/Dicot plant	mon_dic
+Host NCBI Taxonomy ID	host_tax
+Experimental host	host_name
+Function	function
+GO annotation	go_annotation
+Database	database
+Pathway	pathway
+Phenotype of mutant	phenotype
+Mating defect prior to penetration	mating_defect
+Pre-penetration defect	prepenetration
+Penetration defect	penetration
+Post-penetration defect	postpenetration
+Vegetative spores	vegetative_spores
+Sexual spores	sexual_spores
+In vitro growth	in_vitro_growth
+Spore germination	spore_germination
+Essential gene (Lethal knockout)	essential_gene
+Inducer	inducer
+CAS	cas
+Host target	host_target
+Host response	host_response
+Experimental evidence	experimental_evidence
+Species Expert	species_expert
+Entered by	entered_by
+Manual (M) or textmining (T)	retrieval
+Literature ID	literature_id
+Literature source	literature_source
+DOI	doi
+Full citation	full_citation
+Author email	author_email
+Comments	comments
+Reference	none
+Year published	none
