@@ -2,9 +2,20 @@
 use strict;
 use warnings;
 
+# load perl postgresql module
+use DBI;
+
+# define credentials for phibase database
+my $db_name = "phibase";
+my $db_user = "postgres";
+my $db_host = "localhost";
+my $db_pw = "Jake0001"; 
+
+# connect to database
+my $db_conn = DBI->connect("DBI:Pg:dbname=$db_name;host=$db_host","$db_user","$db_pw");
+
 # parse text file that maps columns headings of the spreadsheet to database field names
 # saving the column name and db field name as key/value pairs in a hash
-
 open (COL_NAMES_FILE, "column2accession.txt") || die "Error opening input file\n";
 
 # hash to map spreadsheet headings to PHI-base3 db field names
@@ -115,9 +126,76 @@ while (<TSV_FILE>) {
           and $required_fields_annot{"literature_id"} ne ""
           and $required_fields_annot{"db_type"} eq "Uniprot"
           and $required_fields_annot{"patho_tax"} == 5518 ) {
+
         $fusarium_gram_data{$phi_acc_num} = {%required_fields_annot};
-     }
-   }
+
+	#print "PHI-base Accession:$required_fields_annot{'phi_base_acc'}\n";
+	#print "UniProt Accession:$required_fields_annot{'accession'}\n";
+	#print "Gene Name: $required_fields_annot{'gene_name'}\n";
+	#print "Pathogen Species NCBI Taxon ID:$required_fields_annot{'patho_tax'}\n";
+	#print "Host Species NCBI Taxon ID:$required_fields_annot{'host_tax'}\n";
+	#print "PubMed ID:$required_fields_annot{'literature_id'}\n\n";
+
+=pod
+	my $sql_query = qq(SELECT * FROM interaction WHERE phi_base_accession = '$required_fields_annot{"phi_base_acc"}';);
+	my $sql_stmt = $db_conn->prepare($sql_query);
+	my $sql_result = $sql_stmt->execute() or die $DBI::errstr; 
+
+	while (my @row = $sql_stmt->fetchrow_array()) {
+	  print "Interaction ID: ".$row[0]."\n";
+	#  print "PHI-base Acc: ".$row[1]."\n";
+	#  print "Date: ".$row[2]."\n\n" if defined $row[2];
+	}
+=cut
+
+	# test insert statement
+	my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
+			       VALUES ('$required_fields_annot{"phi_base_acc"}',current_date) RETURNING id;);
+	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name) 
+			       VALUES ('$required_fields_annot{"patho_tax"}','$required_fields_annot{"gene_name"}') RETURNING id;);
+
+	my $sql_result1 = $db_conn->prepare($sql_statement1);
+	$sql_result1->execute() or die $DBI::errstr;
+
+	my $sql_result2 = $db_conn->prepare($sql_statement2);
+	$sql_result2->execute() or die $DBI::errstr;
+
+	my $sql_statement3;
+
+	while ( my @row2 = $sql_result2->fetchrow_array() ) {
+	  my $pathogen_gene_id = $row2[0];
+	  #print "Pathogen_gene ID: ".$pathogen_gene_id."\n";
+	  
+	  $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
+			       VALUES ($pathogen_gene_id,'$required_fields_annot{"patho_tax"}',
+                                      '$required_fields_annot{"accession"}') RETURNING id;);
+	}
+
+	my $sql_result3 = $db_conn->prepare($sql_statement3);
+	$sql_result3->execute() or die $DBI::errstr;
+	#print "pathogen_gene_mutant record inserted successfully\n";
+
+	while ( my @row1 = $sql_result1->fetchrow_array() and my @row3 = $sql_result3->fetchrow_array() ) {
+	  my $interaction_id = $row1[0];
+	  my $pathogen_gene_mutant_id = $row3[0];
+	  #print "Interaction ID: ".$interaction_id."\n";
+	  #print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
+	  
+	  my $inner_sql_statement = qq(
+				       INSERT INTO interaction_literature (interaction_id,pubmed_id) 
+					 VALUES ($interaction_id,'$required_fields_annot{"literature_id"}');
+				       INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
+					 VALUES ($interaction_id,'$required_fields_annot{"host_tax"}');
+				       INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
+					 VALUES ($interaction_id,'$pathogen_gene_mutant_id');
+				    );
+	   my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+	   #print "Interaction_literature, interaction_host, interaction_pathogen_gene_mutant records inserted successfully\n";
+	} 
+
+     } # end if pathogen id = fusarium gram 
+
+   }  # end if PHI-base accession exists
 
 } # end of file
 close (TSV_FILE);
@@ -167,4 +245,23 @@ foreach my $phi_base_ann (sort {$a<=>$b} keys %fusarium_gram_data) {
 close (SPECIES_FILE);
 print "Total valid interactions for Fusarium gram: $interaction_counter\n";
 
+
+my $sql_query = qq(SELECT * FROM interaction, interaction_pathogen_gene_mutant, pathogen_gene_mutant, pathogen_gene
+                   WHERE interaction.id = interaction_pathogen_gene_mutant.interaction_id
+                   AND pathogen_gene_mutant.id = interaction_pathogen_gene_mutant.pathogen_gene_mutant_id
+                   AND pathogen_gene.id = pathogen_gene_mutant.pathogen_gene_id
+                 ;);
+my $sql_stmt = $db_conn->prepare($sql_query);
+my $sql_result = $sql_stmt->execute() or die $DBI::errstr; 
+while (my @row = $sql_stmt->fetchrow_array()) {
+  my $col_count = 0;
+  foreach my $column (@row) {
+     $col_count++;
+     print "Col $col_count: $column\n" if defined $column; 
+  }
+  print "\n";
+}
+
+$sql_stmt->finish() or die "Failed to finish SQL statement\n";
+$db_conn->disconnect() or die "Failed to disconnect database\n";
 
