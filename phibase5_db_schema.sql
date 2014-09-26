@@ -30,7 +30,9 @@ CREATE TABLE host_response (
 
 CREATE TABLE pathogen_gene (
     id SERIAL PRIMARY KEY,
-    uniprot_accession varchar(50),
+    ncbi_taxon_id varchar(50),
+    gene_name varchar(50),
+    uniparc_id varchar(50),
     genbank_locus_id varchar(50),
     pathway_ontology_id varchar(50)
 );
@@ -43,11 +45,12 @@ CREATE TABLE phenotype_of_mutant (
 CREATE TABLE pathogen_gene_mutant (
     id SERIAL PRIMARY KEY,
     pathogen_gene_id integer REFERENCES pathogen_gene,
+    ncbi_taxon_id varchar(50),
     uniprot_accession varchar(50),
     phenotype_of_mutant_id integer REFERENCES phenotype_of_mutant
 );
 
-CREATE TABLE interaction_mutant (
+CREATE TABLE interaction_pathogen_gene_mutant (
     interaction_id integer REFERENCES interaction,
     pathogen_gene_mutant_id integer REFERENCES pathogen_gene_mutant,
     PRIMARY KEY (interaction_id, pathogen_gene_mutant_id)
