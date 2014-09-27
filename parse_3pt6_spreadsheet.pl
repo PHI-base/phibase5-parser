@@ -136,23 +136,16 @@ while (<TSV_FILE>) {
 	#print "Host Species NCBI Taxon ID:$required_fields_annot{'host_tax'}\n";
 	#print "PubMed ID:$required_fields_annot{'literature_id'}\n\n";
 
-=pod
-	my $sql_query = qq(SELECT * FROM interaction WHERE phi_base_accession = '$required_fields_annot{"phi_base_acc"}';);
-	my $sql_stmt = $db_conn->prepare($sql_query);
-	my $sql_result = $sql_stmt->execute() or die $DBI::errstr; 
-
-	while (my @row = $sql_stmt->fetchrow_array()) {
-	  print "Interaction ID: ".$row[0]."\n";
-	#  print "PHI-base Acc: ".$row[1]."\n";
-	#  print "Date: ".$row[2]."\n\n" if defined $row[2];
-	}
-=cut
-
 	# test insert statement
 	my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
 			       VALUES ('$required_fields_annot{"phi_base_acc"}',current_date) RETURNING id;);
 	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name) 
-			       VALUES ('$required_fields_annot{"patho_tax"}','$required_fields_annot{"gene_name"}') RETURNING id;);
+			        SELECT '$required_fields_annot{"patho_tax"}','$required_fields_annot{"gene_name"}'
+                                WHERE NOT EXISTS (
+                                  SELECT 1 FROM pathogen_gene
+                                  WHERE ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                  AND gene_name = '$required_fields_annot{"gene_name"}'
+                               ));
 
 	my $sql_result1 = $db_conn->prepare($sql_statement1);
 	$sql_result1->execute() or die $DBI::errstr;
@@ -160,24 +153,47 @@ while (<TSV_FILE>) {
 	my $sql_result2 = $db_conn->prepare($sql_statement2);
 	$sql_result2->execute() or die $DBI::errstr;
 
+        my $sql_statement4 = qq(SELECT id FROM pathogen_gene
+                                WHERE ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                AND gene_name = '$required_fields_annot{"gene_name"}');
+
+	my $sql_result4 = $db_conn->prepare($sql_statement4);
+	$sql_result4->execute() or die $DBI::errstr;
+
 	my $sql_statement3;
 
-	while ( my @row2 = $sql_result2->fetchrow_array() ) {
-	  my $pathogen_gene_id = $row2[0];
+        my $pathogen_gene_id;
+
+	while ( my @row4 = $sql_result4->fetchrow_array() ) {
+	  $pathogen_gene_id = $row4[0];
 	  #print "Pathogen_gene ID: ".$pathogen_gene_id."\n";
 	  
 	  $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
-			       VALUES ($pathogen_gene_id,'$required_fields_annot{"patho_tax"}',
-                                      '$required_fields_annot{"accession"}') RETURNING id;);
+			       SELECT $pathogen_gene_id,'$required_fields_annot{"patho_tax"}',
+                                      '$required_fields_annot{"accession"}'
+                               WHERE NOT EXISTS (
+                                 SELECT 1 FROM pathogen_gene_mutant
+			         WHERE pathogen_gene_id = $pathogen_gene_id
+                                 AND ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                 AND uniprot_accession = '$required_fields_annot{"accession"}'
+                               ));
 	}
 
 	my $sql_result3 = $db_conn->prepare($sql_statement3);
 	$sql_result3->execute() or die $DBI::errstr;
 	#print "pathogen_gene_mutant record inserted successfully\n";
 
-	while ( my @row1 = $sql_result1->fetchrow_array() and my @row3 = $sql_result3->fetchrow_array() ) {
+        my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
+			        WHERE pathogen_gene_id = $pathogen_gene_id
+                                AND ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                AND uniprot_accession = '$required_fields_annot{"accession"}');
+
+	my $sql_result5 = $db_conn->prepare($sql_statement5);
+	$sql_result5->execute() or die $DBI::errstr;
+
+	while ( my @row1 = $sql_result1->fetchrow_array() and my @row5 = $sql_result5->fetchrow_array() ) {
 	  my $interaction_id = $row1[0];
-	  my $pathogen_gene_mutant_id = $row3[0];
+	  my $pathogen_gene_mutant_id = $row5[0];
 	  #print "Interaction ID: ".$interaction_id."\n";
 	  #print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
 	  
