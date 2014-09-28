@@ -220,14 +220,43 @@ while (<TSV_FILE>) {
 
 
         if ($multiple_mutation) {
-             print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to $fusarium_gram_data{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
-# need to find the correct interaction_id for the corresponding multiple mutant gene - there could be several interactions for this gene, so needs to be based on a combination of phi_base_acc + gene_name + uniprot accession + host_tax ();
+             print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $fusarium_gram_data{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+# need to find the correct interaction_id for the corresponding multiple mutant gene - there could be several interactions for this gene, so needs to be based on a combination of phi_base_acc + gene_name + uniprot accession + host_tax;
 
 # use select statement at bottom of this file as a guide
 
 # then insert new interaction_pathogen_gene_mutant record, based on the returned interaction_id
 
-        } else {
+my $sql_query = qq(SELECT interaction.id FROM interaction, interaction_pathogen_gene_mutant, pathogen_gene_mutant, pathogen_gene, interaction_host
+                   WHERE interaction.phi_base_accession = '$fusarium_gram_data{$multi_mut_phi_acc_num}{"phi_base_acc"}'
+                   AND interaction.id = interaction_pathogen_gene_mutant.interaction_id
+                   AND pathogen_gene_mutant.id = interaction_pathogen_gene_mutant.pathogen_gene_mutant_id
+                 --  AND pathogen_gene_mutant.uniprot_accession = '$required_fields_annot{"accession"}'
+                   AND pathogen_gene.id = pathogen_gene_mutant.pathogen_gene_id
+                 --  AND pathogen_gene.gene_name = '$required_fields_annot{"gene_name"}'
+                   AND interaction.id = interaction_host.interaction_id
+                   AND interaction_host.ncbi_taxon_id = '$required_fields_annot{"host_tax"}'
+                 ;);
+print "\n$sql_query\n";
+my $sql_stmt = $db_conn->prepare($sql_query);
+$sql_stmt->execute() or die $DBI::errstr;
+          while ( my @mult_mut_row = $sql_stmt->fetchrow_array() and my @row5 = $sql_result5->fetchrow_array() ) {
+	     my $mult_mut_interaction_id = $mult_mut_row[0];
+	     my $pathogen_gene_mutant_id = $row5[0];
+	     print "Mult Mutant Partner Interaction ID: ".$mult_mut_interaction_id."\n";
+	     print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
+	  
+	     my $inner_sql_statement = qq(
+				          INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
+					    VALUES ($mult_mut_interaction_id,$pathogen_gene_mutant_id);
+				         );
+	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+	     print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
+	  } # end while
+
+
+        } else {  # annotation is not a multiple mutant, so insert new interaction records
+
 	  my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
 	                          VALUES ('$required_fields_annot{"phi_base_acc"}',current_date) RETURNING id;);
 	  my $sql_result1 = $db_conn->prepare($sql_statement1);
