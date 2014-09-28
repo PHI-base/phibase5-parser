@@ -4,6 +4,8 @@ db_type	Uniprot
 gene_name	GIP1
 host_tax	112509
 literature_id	15811992
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:712
 
@@ -13,6 +15,8 @@ db_type	Uniprot
 gene_name	PLSP1
 host_tax	4564
 literature_id	16278459
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:717
 
@@ -22,6 +26,8 @@ db_type	Uniprot
 gene_name	GzFUS1
 host_tax	4564
 literature_id	16278459
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:719
 
@@ -31,6 +37,8 @@ db_type	Uniprot
 gene_name	AUR1
 host_tax	4564
 literature_id	16278459
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:720
 
@@ -40,6 +48,8 @@ db_type	Uniprot
 gene_name	GRS1
 host_tax	4564
 literature_id	16278459
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:721
 
@@ -49,6 +59,8 @@ db_type	Uniprot
 gene_name	PGL1
 host_tax	4564
 literature_id	16278459
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:722
 
@@ -58,6 +70,8 @@ db_type	Uniprot
 gene_name	PKS1
 host_tax	4564
 literature_id	16278459
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:723
 
@@ -67,6 +81,8 @@ db_type	Uniprot
 gene_name	PKS17
 host_tax	4564
 literature_id	16278459
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:727
 
@@ -76,6 +92,8 @@ db_type	Uniprot
 gene_name	KSA1
 host_tax	4564
 literature_id	16278459
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:730
 
@@ -85,26 +103,10 @@ db_type	Uniprot
 gene_name	FBP1
 host_tax	112509
 literature_id	17302802
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:733
-
-PHI:743
-accession	I1RE63
-db_type	Uniprot
-gene_name	ARG2
-host_tax	112509
-literature_id	0172-8083
-patho_tax	5518
-phi_base_acc	PHI:743
-
-PHI:744
-accession	I1RFM6
-db_type	Uniprot
-gene_name	ADE5
-host_tax	112509
-literature_id	0172-8083
-patho_tax	5518
-phi_base_acc	PHI:744
 
 PHI:861
 accession	I1S095
@@ -112,17 +114,10 @@ db_type	Uniprot
 gene_name	RAS2
 host_tax	4564
 literature_id	17555271
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:861
-
-PHI:1002
-accession	I1RPI4
-db_type	Uniprot
-gene_name	GCS1
-host_tax	4081
-literature_id	17908205
-patho_tax	5518
-phi_base_acc	PHI:1002
 
 PHI:1004
 accession	I1RZQ2
@@ -130,6 +125,8 @@ db_type	Uniprot
 gene_name	STE7
 host_tax	4081
 literature_id	17253976
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1004
 
@@ -139,17 +136,10 @@ db_type	Uniprot
 gene_name	NPS6
 host_tax	4564
 literature_id	17056706
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1007
-
-PHI:1011
-accession	I1RMG9
-db_type	Uniprot
-gene_name	FET3
-host_tax	4564
-literature_id	1464-6722
-patho_tax	5518
-phi_base_acc	PHI:1011
 
 PHI:1012
 accession	I1RNF9
@@ -157,6 +147,8 @@ db_type	Uniprot
 gene_name	GzGPA1
 host_tax	112509
 literature_id	18227243
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1012
 
@@ -166,6 +158,8 @@ db_type	Uniprot
 gene_name	GzGPA2
 host_tax	112509
 literature_id	18227243
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1013
 
@@ -175,6 +169,8 @@ db_type	Uniprot
 gene_name	GzGPA3
 host_tax	112509
 literature_id	18227243
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1014
 
@@ -184,6 +180,8 @@ db_type	Uniprot
 gene_name	GzGPB1
 host_tax	112509
 literature_id	18227243
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1015
 
@@ -193,6 +191,8 @@ db_type	Uniprot
 gene_name	STE11
 host_tax	4081
 literature_id	17253976
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1016
 
@@ -202,6 +202,8 @@ db_type	Uniprot
 gene_name	Mes1
 host_tax	4564
 literature_id	18339563
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1078
 
@@ -211,6 +213,8 @@ db_type	Uniprot
 gene_name	Pls1
 host_tax	4564
 literature_id	18339563
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1079
 
@@ -220,6 +224,8 @@ db_type	Uniprot
 gene_name	Cch1
 host_tax	4564
 literature_id	18083828
+literature_source	PubMed
+multiple_mutation	PHI:2350
 patho_tax	5518
 phi_base_acc	PHI:1080
 
@@ -229,6 +235,8 @@ db_type	Uniprot
 gene_name	FGSG_00416
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1086
 
@@ -238,6 +246,8 @@ db_type	Uniprot
 gene_name	FGSG_04510
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1087
 
@@ -247,6 +257,8 @@ db_type	Uniprot
 gene_name	FGSG_09759
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1088
 
@@ -256,6 +268,8 @@ db_type	Uniprot
 gene_name	FGSG_02549
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1089
 
@@ -265,6 +279,8 @@ db_type	Uniprot
 gene_name	FGSG_10057
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1090
 
@@ -274,6 +290,8 @@ db_type	Uniprot
 gene_name	FGSG_08737
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1091
 
@@ -283,6 +301,8 @@ db_type	Uniprot
 gene_name	FGSG_12753
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1092
 
@@ -292,6 +312,8 @@ db_type	Uniprot
 gene_name	FGSG_02077
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1093
 
@@ -301,6 +323,8 @@ db_type	Uniprot
 gene_name	FGSG_04610
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1094
 
@@ -310,6 +334,8 @@ db_type	Uniprot
 gene_name	FGSG_09905
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1095
 
@@ -319,6 +345,8 @@ db_type	Uniprot
 gene_name	FGSG_07062
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1096
 
@@ -328,6 +356,8 @@ db_type	Uniprot
 gene_name	FGSG_01974
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1097
 
@@ -337,6 +367,8 @@ db_type	Uniprot
 gene_name	FGSG_12019
 host_tax	4564
 literature_id	18926918
+literature_source	PubMed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1098
 
@@ -346,6 +378,8 @@ db_type	Uniprot
 gene_name	HDF1
 host_tax	4564
 literature_id	21138346
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1168
 
@@ -355,6 +389,8 @@ db_type	Uniprot
 gene_name	HDF2
 host_tax	4564
 literature_id	21138346
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1169
 
@@ -364,6 +400,8 @@ db_type	Uniprot
 gene_name	HDF3
 host_tax	4564
 literature_id	21138346
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1170
 
@@ -373,6 +411,8 @@ db_type	Uniprot
 gene_name	HDF1
 host_tax	4564
 literature_id	21138346
+literature_source	Pubmed
+multiple_mutation	PHI:1169
 patho_tax	5518
 phi_base_acc	PHI:1171
 
@@ -382,6 +422,8 @@ db_type	Uniprot
 gene_name	HDF2
 host_tax	4564
 literature_id	21138346
+literature_source	Pubmed
+multiple_mutation	PHI:1168
 patho_tax	5518
 phi_base_acc	PHI:1172
 
@@ -391,6 +433,8 @@ db_type	Uniprot
 gene_name	HDF1
 host_tax	4564
 literature_id	21138346
+literature_source	Pubmed
+multiple_mutation	PHI:1170
 patho_tax	5518
 phi_base_acc	PHI:1173
 
@@ -400,6 +444,8 @@ db_type	Uniprot
 gene_name	HDF3
 host_tax	4564
 literature_id	21138346
+literature_source	Pubmed
+multiple_mutation	PHI:1168
 patho_tax	5518
 phi_base_acc	PHI:1174
 
@@ -409,6 +455,8 @@ db_type	Uniprot
 gene_name	Sc Srb10 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1175
 
@@ -418,6 +466,8 @@ db_type	Uniprot
 gene_name	Sc Atg1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1176
 
@@ -427,6 +477,8 @@ db_type	Uniprot
 gene_name	Sc Fpk1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1177
 
@@ -436,6 +488,8 @@ db_type	Uniprot
 gene_name	Sc Cdc28 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1178
 
@@ -445,6 +499,8 @@ db_type	Uniprot
 gene_name	Sc Ste7 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1179
 
@@ -454,6 +510,8 @@ db_type	Uniprot
 gene_name	Sc Sat4 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1180
 
@@ -463,6 +521,8 @@ db_type	Uniprot
 gene_name	Sc Kic1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1181
 
@@ -472,6 +532,8 @@ db_type	Uniprot
 gene_name	Sc Mec1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1182
 
@@ -481,6 +543,8 @@ db_type	Uniprot
 gene_name	Sc Cmk1/Cmk2)
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1183
 
@@ -490,6 +554,8 @@ db_type	Uniprot
 gene_name	Sc Gin4-like homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1184
 
@@ -499,6 +565,8 @@ db_type	Uniprot
 gene_name	Sc Swe1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1185
 
@@ -508,6 +576,8 @@ db_type	Uniprot
 gene_name	Sc Cdc15 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1186
 
@@ -517,6 +587,8 @@ db_type	Uniprot
 gene_name	Sc Dbf2/Dbf20 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1187
 
@@ -526,6 +598,8 @@ db_type	Uniprot
 gene_name	Sc Sak1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1188
 
@@ -535,6 +609,8 @@ db_type	Uniprot
 gene_name	Gpmk1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1189
 
@@ -544,6 +620,8 @@ db_type	Uniprot
 gene_name	Sc Pbs2 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1190
 
@@ -553,6 +631,8 @@ db_type	Uniprot
 gene_name	Sc  Cak1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1192
 
@@ -562,6 +642,8 @@ db_type	Uniprot
 gene_name	Sc Sky1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1193
 
@@ -571,6 +653,8 @@ db_type	Uniprot
 gene_name	Sc Mkk1/Mkk2 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1194
 
@@ -580,6 +664,8 @@ db_type	Uniprot
 gene_name	Sc Bck1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1195
 
@@ -589,6 +675,8 @@ db_type	Uniprot
 gene_name	Mgv1homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1196
 
@@ -598,6 +686,8 @@ db_type	Uniprot
 gene_name	Snf1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1197
 
@@ -607,6 +697,8 @@ db_type	Uniprot
 gene_name	Sc Ssk2/Ssk22 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1198
 
@@ -616,6 +708,8 @@ db_type	Uniprot
 gene_name	Sc Tpk2 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1199
 
@@ -625,6 +719,8 @@ db_type	Uniprot
 gene_name	Gsk3 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1200
 
@@ -634,6 +730,8 @@ db_type	Uniprot
 gene_name	Bud32 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1201
 
@@ -643,6 +741,8 @@ db_type	Uniprot
 gene_name	Sc Cla4 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1202
 
@@ -652,6 +752,8 @@ db_type	Uniprot
 gene_name	Sc Yck1/2/3 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1203
 
@@ -661,6 +763,8 @@ db_type	Uniprot
 gene_name	Sc Cbk1 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1204
 
@@ -670,6 +774,8 @@ db_type	Uniprot
 gene_name	Sc CDC15 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1205
 
@@ -679,6 +785,8 @@ db_type	Uniprot
 gene_name	Sp Prp4 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1206
 
@@ -688,6 +796,8 @@ db_type	Uniprot
 gene_name	Sc Kin1/Kin2 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1207
 
@@ -697,6 +807,8 @@ db_type	Uniprot
 gene_name	Sc Sch9 homolog
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1208
 
@@ -706,6 +818,8 @@ db_type	Uniprot
 gene_name	FGSG_04770
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1209
 
@@ -715,6 +829,8 @@ db_type	Uniprot
 gene_name	FGSG_01058
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1210
 
@@ -724,6 +840,8 @@ db_type	Uniprot
 gene_name	FGSG_06970
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1211
 
@@ -733,6 +851,8 @@ db_type	Uniprot
 gene_name	FGSG_12149
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1212
 
@@ -742,6 +862,8 @@ db_type	Uniprot
 gene_name	FGSG_07816
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1214
 
@@ -751,6 +873,8 @@ db_type	Uniprot
 gene_name	FGSG_02838
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1215
 
@@ -760,6 +884,8 @@ db_type	Uniprot
 gene_name	FGSG_06420
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1216
 
@@ -769,6 +895,8 @@ db_type	Uniprot
 gene_name	FGSG_00792
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1217
 
@@ -778,6 +906,8 @@ db_type	Uniprot
 gene_name	FGSG_01559
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1218
 
@@ -787,6 +917,8 @@ db_type	Uniprot
 gene_name	FGSG_05549
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1219
 
@@ -796,6 +928,8 @@ db_type	Uniprot
 gene_name	FGSG_02488
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1220
 
@@ -805,6 +939,8 @@ db_type	Uniprot
 gene_name	FGSG_03146
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1221
 
@@ -814,6 +950,8 @@ db_type	Uniprot
 gene_name	FGSG_00132
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1222
 
@@ -823,6 +961,8 @@ db_type	Uniprot
 gene_name	FGSG_12887
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1223
 
@@ -832,6 +972,8 @@ db_type	Uniprot
 gene_name	FGSG_09150
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1224
 
@@ -841,6 +983,8 @@ db_type	Uniprot
 gene_name	FGSG_12132
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1225
 
@@ -850,6 +994,8 @@ db_type	Uniprot
 gene_name	FGSG_11614
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1226
 
@@ -859,6 +1005,8 @@ db_type	Uniprot
 gene_name	FGSG_07742
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1227
 
@@ -868,6 +1016,8 @@ db_type	Uniprot
 gene_name	FGSG_07745
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1228
 
@@ -877,6 +1027,8 @@ db_type	Uniprot
 gene_name	FGSG_02153
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1229
 
@@ -886,6 +1038,8 @@ db_type	Uniprot
 gene_name	FGSG_10591
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1231
 
@@ -895,6 +1049,8 @@ db_type	Uniprot
 gene_name	FGSG_03499
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1232
 
@@ -904,6 +1060,8 @@ db_type	Uniprot
 gene_name	FGSG_13944
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1233
 
@@ -913,6 +1071,8 @@ db_type	Uniprot
 gene_name	FGSG_07812
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1234
 
@@ -922,6 +1082,8 @@ db_type	Uniprot
 gene_name	FGSG_04416
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1235
 
@@ -931,6 +1093,8 @@ db_type	Uniprot
 gene_name	FGSG_04770
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1236
 
@@ -940,6 +1104,8 @@ db_type	Uniprot
 gene_name	FGSG_01058
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1237
 
@@ -949,6 +1115,8 @@ db_type	Uniprot
 gene_name	FGSG_06970
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1238
 
@@ -958,6 +1126,8 @@ db_type	Uniprot
 gene_name	FGSG_12149
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1239
 
@@ -967,6 +1137,8 @@ db_type	Uniprot
 gene_name	FGSG_05586
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1240
 
@@ -976,6 +1148,8 @@ db_type	Uniprot
 gene_name	FGSG_07816
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1241
 
@@ -985,6 +1159,8 @@ db_type	Uniprot
 gene_name	FGSG_02838
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1242
 
@@ -994,6 +1170,8 @@ db_type	Uniprot
 gene_name	FGSG_06420
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1243
 
@@ -1003,6 +1181,8 @@ db_type	Uniprot
 gene_name	FGSG_00792
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1244
 
@@ -1012,6 +1192,8 @@ db_type	Uniprot
 gene_name	FGSG_01559
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1245
 
@@ -1021,6 +1203,8 @@ db_type	Uniprot
 gene_name	FGSG_05549
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1246
 
@@ -1030,6 +1214,8 @@ db_type	Uniprot
 gene_name	FGSG_02488
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1247
 
@@ -1039,6 +1225,8 @@ db_type	Uniprot
 gene_name	FGSG_03146
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1248
 
@@ -1048,6 +1236,8 @@ db_type	Uniprot
 gene_name	FGSG_00132
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1249
 
@@ -1057,6 +1247,8 @@ db_type	Uniprot
 gene_name	FGSG_12887
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1250
 
@@ -1066,6 +1258,8 @@ db_type	Uniprot
 gene_name	FGSG_09150
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1251
 
@@ -1075,6 +1269,8 @@ db_type	Uniprot
 gene_name	FGSG_12132
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1252
 
@@ -1084,6 +1280,8 @@ db_type	Uniprot
 gene_name	FGSG_11614
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1253
 
@@ -1093,6 +1291,8 @@ db_type	Uniprot
 gene_name	FGSG_07742
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1254
 
@@ -1102,6 +1302,8 @@ db_type	Uniprot
 gene_name	FGSG_07745
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1255
 
@@ -1111,6 +1313,8 @@ db_type	Uniprot
 gene_name	FGSG_02153
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1256
 
@@ -1120,6 +1324,8 @@ db_type	Uniprot
 gene_name	FGSG_13509
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1257
 
@@ -1129,6 +1335,8 @@ db_type	Uniprot
 gene_name	FGSG_10591
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1258
 
@@ -1138,6 +1346,8 @@ db_type	Uniprot
 gene_name	FGSG_03499
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1259
 
@@ -1147,6 +1357,8 @@ db_type	Uniprot
 gene_name	FGSG_13944
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1260
 
@@ -1156,6 +1368,8 @@ db_type	Uniprot
 gene_name	FGSG_07812
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1261
 
@@ -1165,6 +1379,8 @@ db_type	Uniprot
 gene_name	FGSG_04416
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1262
 
@@ -1174,6 +1390,8 @@ db_type	Uniprot
 gene_name	FGSG_04770
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1263
 
@@ -1183,6 +1401,8 @@ db_type	Uniprot
 gene_name	FGSG_01058
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1264
 
@@ -1192,6 +1412,8 @@ db_type	Uniprot
 gene_name	FGSG_06970
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1265
 
@@ -1201,6 +1423,8 @@ db_type	Uniprot
 gene_name	FGSG_12149
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1266
 
@@ -1210,6 +1434,8 @@ db_type	Uniprot
 gene_name	FGSG_05586
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1267
 
@@ -1219,6 +1445,8 @@ db_type	Uniprot
 gene_name	FGSG_07816
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1268
 
@@ -1228,6 +1456,8 @@ db_type	Uniprot
 gene_name	FGSG_02838
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1269
 
@@ -1237,6 +1467,8 @@ db_type	Uniprot
 gene_name	FGSG_06420
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1270
 
@@ -1246,6 +1478,8 @@ db_type	Uniprot
 gene_name	FGSG_00792
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1271
 
@@ -1255,6 +1489,8 @@ db_type	Uniprot
 gene_name	FGSG_01559
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1272
 
@@ -1264,6 +1500,8 @@ db_type	Uniprot
 gene_name	FGSG_05549
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1273
 
@@ -1273,6 +1511,8 @@ db_type	Uniprot
 gene_name	FGSG_02488
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1274
 
@@ -1282,6 +1522,8 @@ db_type	Uniprot
 gene_name	FGSG_03146
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1275
 
@@ -1291,6 +1533,8 @@ db_type	Uniprot
 gene_name	FGSG_00132
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1276
 
@@ -1300,6 +1544,8 @@ db_type	Uniprot
 gene_name	FGSG_12887
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1277
 
@@ -1309,6 +1555,8 @@ db_type	Uniprot
 gene_name	FGSG_09150
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1278
 
@@ -1318,6 +1566,8 @@ db_type	Uniprot
 gene_name	FGSG_12132
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1279
 
@@ -1327,6 +1577,8 @@ db_type	Uniprot
 gene_name	FGSG_11614
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1280
 
@@ -1336,6 +1588,8 @@ db_type	Uniprot
 gene_name	FGSG_07742
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1281
 
@@ -1345,6 +1599,8 @@ db_type	Uniprot
 gene_name	FGSG_07745
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1282
 
@@ -1354,6 +1610,8 @@ db_type	Uniprot
 gene_name	FGSG_02153
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1283
 
@@ -1363,6 +1621,8 @@ db_type	Uniprot
 gene_name	FGSG_13509
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1284
 
@@ -1372,6 +1632,8 @@ db_type	Uniprot
 gene_name	FGSG_10591
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1285
 
@@ -1381,6 +1643,8 @@ db_type	Uniprot
 gene_name	FGSG_03499
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1286
 
@@ -1390,6 +1654,8 @@ db_type	Uniprot
 gene_name	FGSG_13944
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1287
 
@@ -1399,6 +1665,8 @@ db_type	Uniprot
 gene_name	FGSG_07812
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1288
 
@@ -1408,6 +1676,8 @@ db_type	Uniprot
 gene_name	FGSG_04416
 host_tax	4564
 literature_id	22216007
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1289
 
@@ -1417,6 +1687,8 @@ db_type	Uniprot
 gene_name	FgFRP1
 host_tax	112509
 literature_id	21722294
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2294
 
@@ -1426,6 +1698,8 @@ db_type	Uniprot
 gene_name	MYT2
 host_tax	4564
 literature_id	22649560
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2385
 
@@ -1435,6 +1709,8 @@ db_type	Uniprot
 gene_name	ACL1
 host_tax	4564
 literature_id	21237280
+literature_source	Pubmed
+multiple_mutation	PHI:2387
 patho_tax	5518
 phi_base_acc	PHI:2386
 
@@ -1444,6 +1720,8 @@ db_type	Uniprot
 gene_name	ACL2
 host_tax	4564
 literature_id	21237280
+literature_source	Pubmed
+multiple_mutation	PHI:2386
 patho_tax	5518
 phi_base_acc	PHI:2387
 
@@ -1453,6 +1731,8 @@ db_type	Uniprot
 gene_name	Related to O-methylsterigmatocystin oxidoreductase
 host_tax	4564
 literature_id	19888824
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2393
 
@@ -1462,6 +1742,8 @@ db_type	Uniprot
 gene_name	Conserved hypothetical protein 
 host_tax	4564
 literature_id	19888824
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2394
 
@@ -1471,6 +1753,8 @@ db_type	Uniprot
 gene_name	GzSYN1
 host_tax	112514
 literature_id	20102747
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2395
 
@@ -1480,6 +1764,8 @@ db_type	Uniprot
 gene_name	GzSYN2
 host_tax	112514
 literature_id	20102747
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2396
 
@@ -1489,6 +1775,8 @@ db_type	Uniprot
 gene_name	Fgp1
 host_tax	4081
 literature_id	22693448
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2399
 
@@ -1498,6 +1786,8 @@ db_type	Uniprot
 gene_name	Fgp2
 host_tax	4081
 literature_id	22693448
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2400
 
@@ -1507,6 +1797,8 @@ db_type	Uniprot
 gene_name	CID1
 host_tax	4577
 literature_id	19909822
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2418
 
@@ -1516,6 +1808,8 @@ db_type	Uniprot
 gene_name	CID1
 host_tax	4564
 literature_id	19909822
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2419
 
@@ -1525,6 +1819,8 @@ db_type	Uniprot
 gene_name	FgVELB
 host_tax	4564
 literature_id	22713714
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2427
 
@@ -1534,6 +1830,8 @@ db_type	Uniprot
 gene_name	areA
 host_tax	4564
 literature_id	22702217
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2430
 
@@ -1543,6 +1841,8 @@ db_type	Uniprot
 gene_name	FgRgsA
 host_tax	4564
 literature_id	22634273
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2432
 
@@ -1552,6 +1852,8 @@ db_type	Uniprot
 gene_name	FgRgsB
 host_tax	4564
 literature_id	22634273
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2433
 
@@ -1561,6 +1863,8 @@ db_type	Uniprot
 gene_name	FgFlbA
 host_tax	4564
 literature_id	22634273
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2434
 
@@ -1570,6 +1874,8 @@ db_type	Uniprot
 gene_name	FAEB1
 host_tax	4564
 literature_id	22483046
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2451
 
@@ -1579,6 +1885,8 @@ db_type	Uniprot
 gene_name	FAED1
 host_tax	4564
 literature_id	22483046
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2452
 
@@ -1588,6 +1896,8 @@ db_type	Uniprot
 gene_name	FgPTC1
 host_tax	4564
 literature_id	20447276
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2491
 
@@ -1597,6 +1907,8 @@ db_type	Uniprot
 gene_name	FgTep1p
 host_tax	4564
 literature_id	20618707
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2502
 
@@ -1606,6 +1918,8 @@ db_type	Uniprot
 gene_name	Tri12
 host_tax	4565
 literature_id	22835271
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2704
 
@@ -1615,6 +1929,8 @@ db_type	Uniprot
 gene_name	PEX5
 host_tax	4565
 literature_id	22913493
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2714
 
@@ -1624,6 +1940,8 @@ db_type	Uniprot
 gene_name	PEX6 
 host_tax	4565
 literature_id	22913493
+literature_source	Pubmed
+multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2715
 
@@ -1633,6 +1951,8 @@ db_type	Uniprot
 gene_name	Cyp51A
 host_tax	3750
 literature_id	23442154
+literature_source	Pubmed
+multiple_mutation	PHI:2909
 patho_tax	5518
 phi_base_acc	PHI:2907
 

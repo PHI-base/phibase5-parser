@@ -102,16 +102,19 @@ while (<TSV_FILE>) {
      "db_type",
      "accession",
      "gene_name",
+     "multiple_mutation",
      "patho_tax",
      "host_tax",
-     "literature_id"
+     "literature_id",
+     "literature_source"
      );
      my %required_fields_annot;
      @required_fields_annot{@required_fields} = @phi_base_annotation{@required_fields};
      $required_fields_data{$phi_acc_num} = {%required_fields_annot};
 
      # get subset of these where pathogen taxonomy ID = 5518 (Fusarium graminearum),
-     # with all required fields defined and a UniProt accession
+     # with all required fields defined (except multiple mutation)
+     # A UniProt accession and PubMed ID are also required
      if ( defined $required_fields_annot{"phi_base_acc"}
           and defined $required_fields_annot{"db_type"}
           and defined $required_fields_annot{"accession"}
@@ -125,6 +128,7 @@ while (<TSV_FILE>) {
           and $required_fields_annot{"host_tax"} ne ""
           and $required_fields_annot{"literature_id"} ne ""
           and $required_fields_annot{"db_type"} eq "Uniprot"
+          and lc $required_fields_annot{"literature_source"} eq "pubmed"
           and $required_fields_annot{"patho_tax"} == 5518 ) {
 
         $fusarium_gram_data{$phi_acc_num} = {%required_fields_annot};
@@ -137,8 +141,6 @@ while (<TSV_FILE>) {
 	#print "PubMed ID:$required_fields_annot{'literature_id'}\n\n";
 
 	# test insert statement
-	my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
-			       VALUES ('$required_fields_annot{"phi_base_acc"}',current_date) RETURNING id;);
 	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name) 
 			        SELECT '$required_fields_annot{"patho_tax"}','$required_fields_annot{"gene_name"}'
                                 WHERE NOT EXISTS (
@@ -146,9 +148,6 @@ while (<TSV_FILE>) {
                                   WHERE ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
                                   AND gene_name = '$required_fields_annot{"gene_name"}'
                                ));
-
-	my $sql_result1 = $db_conn->prepare($sql_statement1);
-	$sql_result1->execute() or die $DBI::errstr;
 
 	my $sql_result2 = $db_conn->prepare($sql_statement2);
 	$sql_result2->execute() or die $DBI::errstr;
@@ -191,23 +190,68 @@ while (<TSV_FILE>) {
 	my $sql_result5 = $db_conn->prepare($sql_statement5);
 	$sql_result5->execute() or die $DBI::errstr;
 
-	while ( my @row1 = $sql_result1->fetchrow_array() and my @row5 = $sql_result5->fetchrow_array() ) {
-	  my $interaction_id = $row1[0];
-	  my $pathogen_gene_mutant_id = $row5[0];
-	  #print "Interaction ID: ".$interaction_id."\n";
-	  #print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
+        # before inserting a new interaction, we need to find out if the current PHI-base accession
+        # should be part of an existing interaction (i.e. in a multiple mutation)
+
+        # mutliple mutation flag
+        my $multiple_mutation = 0;
+        # PHI-base accession number of multiple mutation partner - MAY NEED TO CONVERT TO ARRAY TO COPE WITH MULTIPLE PARTNERS
+        my $multi_mut_phi_acc_num;
+
+        # check if the annotation part of a is a "multiple mutation" interaction
+        if ($required_fields_annot{"multiple_mutation"} ne "") {
+
+          print $required_fields_annot{"phi_base_acc"}."\t";
+          print $required_fields_annot{"gene_name"}."\t";
+          print $required_fields_annot{"accession"}."\t";
+          print $required_fields_annot{"host_tax"}."\t";
+          print $required_fields_annot{"multiple_mutation"}."\n";
+
+          $multi_mut_phi_acc_num  = $required_fields_annot{"multiple_mutation"}; # MAY NEED TO SPLIT BASED ON SEMI-COLON
+          $multi_mut_phi_acc_num  =~ s/PHI://;
+	  # confirm if the multiple mutation partner gene already exists
+          # only an annotation where the partner already exists needs to be treated differently from other annotations
+	  if (exists $fusarium_gram_data{$multi_mut_phi_acc_num}) {
+            $multiple_mutation = 1;
+	    #print "Other annotation exists: $fusarium_gram_data{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+	  }
+
+        } # end if multiple mutation
+
+
+        if ($multiple_mutation) {
+             print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to $fusarium_gram_data{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+# need to find the correct interaction_id for the corresponding multiple mutant gene - there could be several interactions for this gene, so needs to be based on a combination of phi_base_acc + gene_name + uniprot accession + host_tax ();
+
+# use select statement at bottom of this file as a guide
+
+# then insert new interaction_pathogen_gene_mutant record, based on the returned interaction_id
+
+        } else {
+	  my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
+	                          VALUES ('$required_fields_annot{"phi_base_acc"}',current_date) RETURNING id;);
+	  my $sql_result1 = $db_conn->prepare($sql_statement1);
+	  $sql_result1->execute() or die $DBI::errstr;
+
+          while ( my @row1 = $sql_result1->fetchrow_array() and my @row5 = $sql_result5->fetchrow_array() ) {
+	     my $interaction_id = $row1[0];
+	     my $pathogen_gene_mutant_id = $row5[0];
+	     #print "Interaction ID: ".$interaction_id."\n";
+	     #print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
 	  
-	  my $inner_sql_statement = qq(
-				       INSERT INTO interaction_literature (interaction_id,pubmed_id) 
-					 VALUES ($interaction_id,'$required_fields_annot{"literature_id"}');
-				       INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
-					 VALUES ($interaction_id,'$required_fields_annot{"host_tax"}');
-				       INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
-					 VALUES ($interaction_id,'$pathogen_gene_mutant_id');
-				    );
-	   my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
-	   #print "Interaction_literature, interaction_host, interaction_pathogen_gene_mutant records inserted successfully\n";
-	} 
+	     my $inner_sql_statement = qq(
+		  		          INSERT INTO interaction_literature (interaction_id,pubmed_id) 
+					    VALUES ($interaction_id,'$required_fields_annot{"literature_id"}');
+				          INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
+				            VALUES ($interaction_id,'$required_fields_annot{"host_tax"}');
+				          INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
+					    VALUES ($interaction_id,'$pathogen_gene_mutant_id');
+				         );
+	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+	     #print "Interaction_literature, interaction_host, interaction_pathogen_gene_mutant records inserted successfully\n";
+	  } # end while
+
+        } # end else multiple mutation
 
      } # end if pathogen id = fusarium gram 
 
@@ -262,21 +306,32 @@ close (SPECIES_FILE);
 print "Total valid interactions for Fusarium gram: $interaction_counter\n";
 
 
-my $sql_query = qq(SELECT * FROM interaction, interaction_pathogen_gene_mutant, pathogen_gene_mutant, pathogen_gene
+my $sql_query = qq(SELECT * FROM interaction, interaction_pathogen_gene_mutant, pathogen_gene_mutant, pathogen_gene, interaction_literature, interaction_host
                    WHERE interaction.id = interaction_pathogen_gene_mutant.interaction_id
                    AND pathogen_gene_mutant.id = interaction_pathogen_gene_mutant.pathogen_gene_mutant_id
                    AND pathogen_gene.id = pathogen_gene_mutant.pathogen_gene_id
+                   AND interaction.id = interaction_literature.interaction_id
+                   AND interaction.id = interaction_host.interaction_id
                  ;);
 my $sql_stmt = $db_conn->prepare($sql_query);
-my $sql_result = $sql_stmt->execute() or die $DBI::errstr; 
+my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
+my $row_count = 0; 
+  
+open (DATABASE_DATA_FILE, "> ./output/database_data.tsv") or die "Error opening output file\n";
+
+print DATABASE_DATA_FILE "int id\tPHI-base acc\tcuration date\tint_path_gene_mut int_id\tint_path_gene_mut path_gene_id\tpath_gene_mutant_id\tpath_gene_mutant path_gene_id\tpath_gene_mutant ncbi_taxon_id\tuniprot_accession\tpath_gene id\tpath_gene ncbi_taxon_id\tpath_gene gene_name\tint_lit int_id\tint_lit PubMed ID\tint_host id\tint_host int_id\tint_host ncbi_taxon_id\n";
+
 while (my @row = $sql_stmt->fetchrow_array()) {
+  $row_count++;
   my $col_count = 0;
   foreach my $column (@row) {
      $col_count++;
-     print "Col $col_count: $column\n" if defined $column; 
+     print DATABASE_DATA_FILE "$column\t" if defined $column; 
   }
-  print "\n";
+  print DATABASE_DATA_FILE "\n";
 }
+print "Total interactions:$row_count\n";
+close (DATABASE_DATA_FILE);
 
 $sql_stmt->finish() or die "Failed to finish SQL statement\n";
 $db_conn->disconnect() or die "Failed to disconnect database\n";
