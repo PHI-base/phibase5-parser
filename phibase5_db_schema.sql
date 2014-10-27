@@ -14,7 +14,8 @@ CREATE TABLE interaction_host (
     interaction_id integer REFERENCES interaction,
     ncbi_taxon_id integer,
     interaction_host_phenotype_id integer REFERENCES interaction_host_phenotype,
-    first_target_uniprot_accession varchar(50)
+    first_target_uniprot_accession varchar(50),
+    genbank_locus_id varchar(50),
 );
 
 CREATE TABLE response_ontology (
@@ -22,7 +23,7 @@ CREATE TABLE response_ontology (
     response varchar(50)    
 );
 
-CREATE TABLE host_response (
+CREATE TABLE interaction_host_response (
     interaction_host integer REFERENCES interaction_host,
     response_ontology_id integer REFERENCES response_ontology,
     PRIMARY KEY (interaction_host, response_ontology_id)
@@ -56,11 +57,10 @@ CREATE TABLE interaction_pathogen_gene_mutant (
     PRIMARY KEY (interaction_id, pathogen_gene_mutant_id)
 );
 
-CREATE TABLE gene_in_literature (
-    pathogen_gene_id integer REFERENCES pathogen_gene,
-    pubmed_id varchar(50),
-    old_phi_base_accession varchar(50),
-    PRIMARY KEY (pathogen_gene_id, pubmed_id)
+CREATE TABLE obsolete_reference (
+    id SERIAL PRIMARY KEY,
+    phi_base_accession varchar(50),
+    obsolete_accession varchar(50)
 );
 
 CREATE TABLE interaction_literature (
@@ -175,9 +175,8 @@ CREATE TABLE disease_severity (
 
 CREATE TABLE interaction_disease (
     interaction_id integer REFERENCES interaction,
-    animal_disease_ontology_id integer,
-    plant_disease_ontology_id integer,
-    disease_severity_id integer REFERENCES disease_severity
-    --PRIMARY KEY ???       
+    disease_id integer,
+    disease_severity_id integer REFERENCES disease_severity,
+    PRIMARY KEY (interaction_id, disease_id)       
 );
 
