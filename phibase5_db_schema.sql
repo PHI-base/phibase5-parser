@@ -15,7 +15,7 @@ CREATE TABLE interaction_host (
     ncbi_taxon_id integer,
     interaction_host_phenotype_id integer REFERENCES interaction_host_phenotype,
     first_target_uniprot_accession varchar(50),
-    genbank_locus_id varchar(50),
+    genbank_locus_id varchar(50)
 );
 
 CREATE TABLE response_ontology (
