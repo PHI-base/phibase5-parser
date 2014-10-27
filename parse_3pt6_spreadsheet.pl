@@ -227,7 +227,7 @@ while (<TSV_FILE>) {
           # then insert new interaction_pathogen_gene_mutant record, based on the returned interaction_id
 
           my $sql_query = qq(SELECT interaction.id 
-                   FROM interaction, interaction_pathogen_gene_mutant, pathogen_gene_mutant, pathogen_gene, interaction_host
+                   FROM interaction, interaction_host
                    WHERE interaction.phi_base_accession = '$fusarium_gram_data{$multi_mut_phi_acc_num}{"phi_base_acc"}'
                    AND interaction.id = interaction_host.interaction_id
                    AND interaction_host.ncbi_taxon_id = '$required_fields_annot{"host_tax"}'
