@@ -61,6 +61,9 @@ my %required_fields_data;
 # create another hash for fusarium graminearum data
 my %fusarium_gram_data;
 
+# counter for interaction number (used for new PHI-base accession)
+my $interaction_num = 0;
+
 # go through each of the remaining lines of the TSV file (each representing a single annotation)
 # save the values of each column to the approriate output file
 while (<TSV_FILE>) {
@@ -254,10 +257,22 @@ while (<TSV_FILE>) {
 
         } else {  # annotation is not a multiple mutant, so insert new interaction records
 
+#	  my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
+#	                          VALUES ('$required_fields_annot{"phi_base_acc"}',current_date) RETURNING id;);
+          # increment interaction counter, to become new PHI-base accession
+          $interaction_num++;
+          my $phi_base_accession = "PHI:I".$interaction_num;
 	  my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
-	                          VALUES ('$required_fields_annot{"phi_base_acc"}',current_date) RETURNING id;);
+	                            VALUES ('$phi_base_accession',current_date) RETURNING id;);
 	  my $sql_result1 = $db_conn->prepare($sql_statement1);
 	  $sql_result1->execute() or die $DBI::errstr;
+
+          # insert record to reference back to old phibase accession
+          my $sql_statement6 = qq(INSERT INTO obsolete_reference (phi_base_accession,obsolete_accession)
+                                    VALUES ('$phi_base_accession','$required_fields_annot{"phi_base_acc"}');
+                                 );
+	  my $sql_result6 = $db_conn->prepare($sql_statement6);
+	  $sql_result6->execute() or die $DBI::errstr;
 
           while ( my @row1 = $sql_result1->fetchrow_array() and my @row5 = $sql_result5->fetchrow_array() ) {
 	     my $interaction_id = $row1[0];
@@ -332,8 +347,9 @@ close (SPECIES_FILE);
 print "Total valid interactions for Fusarium gram: $interaction_counter\n";
 
 
-my $sql_query = qq(SELECT * FROM interaction, interaction_pathogen_gene_mutant, pathogen_gene_mutant, pathogen_gene, interaction_literature, interaction_host
-                   WHERE interaction.id = interaction_pathogen_gene_mutant.interaction_id
+my $sql_query = qq(SELECT * FROM interaction, obsolete_reference, interaction_pathogen_gene_mutant, pathogen_gene_mutant, pathogen_gene, interaction_literature, interaction_host
+                   WHERE interaction.phi_base_accession = obsolete_reference.phi_base_accession 
+                   AND interaction.id = interaction_pathogen_gene_mutant.interaction_id
                    AND pathogen_gene_mutant.id = interaction_pathogen_gene_mutant.pathogen_gene_mutant_id
                    AND pathogen_gene.id = pathogen_gene_mutant.pathogen_gene_id
                    AND interaction.id = interaction_literature.interaction_id
@@ -345,7 +361,7 @@ my $row_count = 0;
   
 open (DATABASE_DATA_FILE, "> ./output/database_data.tsv") or die "Error opening output file\n";
 
-print DATABASE_DATA_FILE "int id\tPHI-base acc\tcuration date\tint_path_gene_mut int_id\tint_path_gene_mut path_gene_id\tpath_gene_mutant_id\tpath_gene_mutant path_gene_id\tpath_gene_mutant ncbi_taxon_id\tuniprot_accession\tpath_gene id\tpath_gene ncbi_taxon_id\tpath_gene gene_name\tint_lit int_id\tint_lit PubMed ID\tint_host id\tint_host int_id\tint_host ncbi_taxon_id\n";
+print DATABASE_DATA_FILE "int id\tPHI-base acc\tcuration date\tobsolete ref id\tobsolete ref new accession\tobsolete ref old accession\tint_path_gene_mut int_id\tint_path_gene_mut path_gene_id\tpath_gene_mutant_id\tpath_gene_mutant path_gene_id\tpath_gene_mutant ncbi_taxon_id\tuniprot_accession\tpath_gene id\tpath_gene ncbi_taxon_id\tpath_gene gene_name\tint_lit int_id\tint_lit PubMed ID\tint_host id\tint_host int_id\tint_host ncbi_taxon_id\n";
 
 while (my @row = $sql_stmt->fetchrow_array()) {
   $row_count++;
