@@ -1,0 +1,3066 @@
+FRAC chemical	ofurace
+moa_code	A
+frac_code	4
+chebi_id	81969
+cas_registry	58810-48-3
+group_name	PA - fungicides (PhenylAmides)
+moa_name	nucleic acids synthesis
+resistance_risk	high
+target_site	RNA polymerase I
+chemical_group	butyrolactones
+target_code	A1
+comment	Resistance and cross resistance well known in various Oomycetes but mechanism unknown. High risk. See FRAC Phenylamide Guidelines for resistance management.
+common_name	ofurace
+
+FRAC chemical	thiram
+chebi_id	9495
+moa_code	M
+frac_code	M3
+moa_name	multi-site contact activity
+group_name	dithiocarbamates and relatives
+cas_registry	137-26-8
+target_site	multi-site contact activity
+resistance_risk	low
+common_name	thiram
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+chemical_group	dithiocarbamates and relatives
+target_code	M
+
+FRAC chemical	prochloraz
+cas_registry	67747-09-5
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+frac_code	3
+moa_code	G
+chebi_id	
+chemical_group	imidazoles
+target_code	G1
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	prochloraz
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+
+FRAC chemical	teclofthalam (Bactericide)
+resistance_risk	unknown
+target_site	unknown
+chemical_group	phthalamic acids
+target_code	U3
+comment	Resistance not known
+common_name	teclofthalam (Bactericide)
+frac_code	34
+moa_code	U
+chebi_id	83341
+cas_registry	76280-91-6
+group_name	phthalamic acids
+moa_name	unknown
+
+FRAC chemical	dicloran
+chemical_group	aromatic hydrocarbons
+target_code	F3
+comment	Resistance known in some fungi. Low to medium risk. Cross resistance patterns complex due to different activity spectra.
+common_name	dicloran
+resistance_risk	low/medium
+target_site	lipid peroxidation (proposed)
+group_name	AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+moa_name	lipid synthesis and membrane integrity
+cas_registry	99-30-9
+chebi_id	27864
+frac_code	14
+moa_code	F
+
+FRAC chemical	penconazole
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+target_code	G1
+chemical_group	triazoles
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	penconazole
+frac_code	3
+moa_code	G
+chebi_id	
+cas_registry	66246-88-6
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+
+FRAC chemical	triclopyricarb
+chebi_id	83213
+moa_code	C
+frac_code	11
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+cas_registry	902760-40-1
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	triclopyricarb
+chemical_group	methoxy-carbamates
+target_code	C3
+
+FRAC chemical	zoxamide
+cas_registry	156052-68-5
+moa_name	mitosis and cell division
+group_name	benzamides
+moa_code	B
+frac_code	22
+chebi_id	82048
+common_name	zoxamide
+comment	Low to medium risk. Resistance management required.
+chemical_group	toluamides
+target_code	B3
+target_site	ß-tubulin assembly in mitosis
+resistance_risk	low/medium
+
+FRAC chemical	famoxadone
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	famoxadone
+target_code	C3
+chemical_group	oxazolidine-diones
+frac_code	11
+moa_code	C
+chebi_id	59340
+cas_registry	131807-57-3
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+
+FRAC chemical	fludioxonil
+target_code	E2
+chemical_group	phenylpyrroles
+common_name	fludioxonil
+comment	Resistance found sporadically, mechanism speculative. Low to medium risk. Resistance management required.
+resistance_risk	low/medium
+target_site	MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+group_name	PP-fungicides (PhenylPyrroles)
+moa_name	signal transduction
+cas_registry	131341-86-1
+chebi_id	81763
+moa_code	E
+frac_code	12
+
+FRAC chemical	probenazole (also antibacterial and antifungal activity)
+frac_code	P2
+moa_code	P
+chebi_id	
+cas_registry	27605-76-1
+moa_name	host plant defence induction
+group_name	benzisothiazole
+target_site	none
+resistance_risk	unknown
+common_name	probenazole (also antibacterial and antifungal activity)
+comment	Resistance not known
+target_code	P2
+chemical_group	benzisothiazole
+
+FRAC chemical	metconazole
+chebi_id	
+moa_code	G
+frac_code	3
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	125116-23-6
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+common_name	metconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	triazoles
+target_code	G1
+
+FRAC chemical	cyprodinil
+cas_registry	121552-61-2
+moa_name	amino acids and protein synthesis
+group_name	AP - fungicides (Anilino-Pyrimidines)
+frac_code	9
+moa_code	D
+chebi_id	4045
+common_name	cyprodinil
+comment	Resistance known in Botrytis and Venturia, sporadically in Oculimacula . Medium risk. See FRAC Anilinopyrimidine Guidelines for resistance management.
+target_code	D1
+chemical_group	anilino-pyrimidines
+resistance_risk	medium
+target_site	methionine biosynthesis (proposed) (cgs gene)
+
+FRAC chemical	tebufloquin
+chebi_id	83266
+frac_code	U16
+moa_code	U
+moa_name	unknown
+group_name	4-quinolyl-acetate
+cas_registry	376645-78-2
+resistance_risk	medium
+target_site	complex III: cytochrome bc1, unknown binding site (proposed)
+comment	Not cross resistant to QoI. Resistance risk unknown but assumed to be medium. Resistance management required.
+common_name	tebufloquin
+target_code	U16
+chemical_group	4-quinolyl-acetate
+
+FRAC chemical	dimethirimol
+target_code	A2
+chemical_group	hydroxy-(2-amino-) pyrimidines
+comment	Medium risk. Resistance and cross resistance known in powdery mildews. Resistance management required.
+common_name	dimethirimol
+resistance_risk	medium
+target_site	adenosin-deaminase
+cas_registry	5221-53-4
+group_name	hydroxy-(2-amino-) pyrimidines
+moa_name	nucleic acids synthesis
+frac_code	8
+moa_code	A
+chebi_id	81958
+
+FRAC chemical	oxathiapiprolin
+comment	Resistance risk assumed to be medium to high (single site inhibitor). Resistance management required.
+common_name	oxathiapiprolin
+chemical_group	piperidinyl-thiazole-isoxazolines
+target_code	U15
+target_site	oxysterol binding protein (OSBP) inhibition (proposed)
+resistance_risk	medium/high
+cas_registry	1003318-67-9
+moa_name	unknown
+group_name	piperidinyl- thiazole-isoxazolines
+frac_code	U15
+moa_code	U
+chebi_id	83268
+
+FRAC chemical	dodemorph
+cas_registry	1593-77-7
+moa_name	sterol biosynthesis in membranes
+group_name	amines (“morpholines”) (SBI: Class II)
+moa_code	G
+frac_code	5
+chebi_id	81960
+comment	Decreased sensitivity for powdery mildews. Cross resistance within the group generally found but not to other SBI classes. Low to medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	dodemorph
+target_code	G2
+chemical_group	morpholines
+resistance_risk	low/medium
+target_site	delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+
+FRAC chemical	procymidone
+moa_name	signal transduction
+group_name	dicarboximides
+cas_registry	32809-16-8
+chebi_id	8450
+moa_code	E
+frac_code	2
+comment	Resistance common in Botrytis and some other pathogens. Several mutations in OS-1, mostly I365S. Cross resistance common between the group members. Medium to high risk. See FRAC Dicarboximide Guidelines for resistance management.
+common_name	procymidone
+chemical_group	dicarboximides
+target_code	E3
+target_site	MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+resistance_risk	medium/high
+
+FRAC chemical	pyrimorph
+comment	Resistance known in Plasmopara viticola but not in Phytophthora infestans. Cross resistance between all members of the CAA group. Low to medium risk. See FRAC CAA Guidelines for resistance management
+common_name	pyrimorph
+chemical_group	cinnamic acid amides
+target_code	H5
+target_site	cellulose synthase
+resistance_risk	low/medium
+moa_name	cell wall biosynthesis
+group_name	CAA-fungicides (Carboxylic Acid Amides)
+cas_registry	868390-90-3
+chebi_id	83663
+frac_code	40
+moa_code	H
+
+FRAC chemical	furalaxyl
+resistance_risk	high
+target_site	RNA polymerase I
+chemical_group	acylalanines
+target_code	A1
+common_name	furalaxyl
+comment	Resistance and cross resistance well known in various Oomycetes but mechanism unknown. High risk. See FRAC Phenylamide Guidelines for resistance management.
+frac_code	4
+moa_code	A
+chebi_id	5194
+cas_registry	57646-30-7
+group_name	PA - fungicides (PhenylAmides)
+moa_name	nucleic acids synthesis
+
+FRAC chemical	tebuconazole
+cas_registry	107534-96-3
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_code	G
+frac_code	3
+chebi_id	
+common_name	tebuconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	triazoles
+target_code	G1
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+
+FRAC chemical	fenhexamid
+common_name	fenhexamid
+comment	Low to medium risk. Resistance management required.
+chemical_group	hydroxyanilides
+target_code	G3
+target_site	3-keto reduc-tase, C4- de-methylation (erg27)
+resistance_risk	low/medium
+cas_registry	126833-17-8
+moa_name	sterol biosynthesis in membranes
+group_name	(SBI: Class III)
+moa_code	G
+frac_code	17
+chebi_id	81853
+
+FRAC chemical	pefurazoate
+moa_code	G
+frac_code	3
+chebi_id	
+cas_registry	101903-30-4
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+chemical_group	imidazoles
+target_code	G1
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	pefurazoate
+
+FRAC chemical	benalaxyl-M (=kiralaxyl)
+frac_code	4
+moa_code	A
+chebi_id	82779
+cas_registry	98243-83-5
+group_name	PA - fungicides (PhenylAmides)
+moa_name	nucleic acids synthesis
+target_site	RNA polymerase I
+resistance_risk	high
+target_code	A1
+chemical_group	acylalanines
+common_name	benalaxyl-M (=kiralaxyl)
+comment	Resistance and cross resistance well known in various Oomycetes but mechanism unknown. High risk. See FRAC Phenylamide Guidelines for resistance management.
+
+FRAC chemical	biphenyl
+moa_name	lipid synthesis and membrane integrity
+group_name	AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+cas_registry	92-52-4
+chebi_id	17097
+frac_code	14
+moa_code	F
+comment	Resistance known in some fungi. Low to medium risk. Cross resistance patterns complex due to different activity spectra.
+common_name	biphenyl
+chemical_group	aromatic hydrocarbons
+target_code	F3
+target_site	lipid peroxidation (proposed)
+resistance_risk	low/medium
+
+FRAC chemical	fosetyl-Al
+target_code	U2
+chemical_group	ethyl phosphonates
+common_name	fosetyl-Al
+comment	Few resistance cases reported in few pathogens. Low risk
+target_site	unknown
+resistance_risk	low
+cas_registry	39148-24-8
+group_name	phosphonates
+moa_name	unknown
+moa_code	U
+frac_code	33
+chebi_id	
+
+FRAC chemical	dithianon
+resistance_risk	low
+target_site	multi-site contact activity
+common_name	dithianon
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+target_code	M
+chemical_group	quinones (anthraquinones)
+moa_code	M
+frac_code	M9
+chebi_id	81842
+cas_registry	3347-22-6
+moa_name	multi-site contact activity
+group_name	quinones (anthraquinones)
+
+FRAC chemical	flutolanil
+common_name	flutolanil
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+target_code	C2
+chemical_group	phenyl-benzamides
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+cas_registry	66332-96-5
+moa_name	respiration
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_code	C
+frac_code	7
+chebi_id	81792
+
+FRAC chemical	tiadinil
+moa_name	host plant defence induction
+group_name	thiadiazole-carboxamide
+cas_registry	223580-51-6
+chebi_id	81825
+frac_code	P3
+moa_code	P
+common_name	tiadinil
+comment	Resistance not known
+target_code	P3
+chemical_group	thiadiazole-carboxamide
+target_site	none
+resistance_risk	unknown
+
+FRAC chemical	pyrisoxazole
+target_code	G1
+chemical_group	pyridines
+common_name	pyrisoxazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+cas_registry	847749-37-5
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+moa_code	G
+frac_code	3
+chebi_id	
+
+FRAC chemical	ferbam
+frac_code	M3
+moa_code	M
+chebi_id	5015
+cas_registry	14484-64-1
+group_name	dithiocarbamates and relatives
+moa_name	multi-site contact activity
+target_site	multi-site contact activity
+resistance_risk	low
+target_code	M
+chemical_group	dithiocarbamates and relatives
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	ferbam
+
+FRAC chemical	flutianil
+chebi_id	83277
+frac_code	U13
+moa_code	U
+group_name	thiazolidine
+moa_name	unknown
+cas_registry	958647-10-4
+target_site	unknown
+resistance_risk	unknown
+target_code	U13
+chemical_group	cyano-methylene-thiazolidine
+common_name	flutianil
+comment	Resistance not known
+
+FRAC chemical	iprovalicarb
+common_name	iprovalicarb
+comment	Resistance known in Plasmopara viticola but not in Phytophthora infestans. Cross resistance between all members of the CAA group. Low to medium risk. See FRAC CAA Guidelines for resistance management
+target_code	H5
+chemical_group	valinamide carbamates
+resistance_risk	low/medium
+target_site	cellulose synthase
+moa_name	cell wall biosynthesis
+group_name	CAA-fungicides (Carboxylic Acid Amides)
+cas_registry	140923-17-7
+chebi_id	82023
+frac_code	40
+moa_code	H
+
+FRAC chemical	carboxin
+chebi_id	3405
+frac_code	7
+moa_code	C
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+cas_registry	5234-68-4
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+target_code	C2
+chemical_group	oxathiin- carboxamides
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	carboxin
+
+FRAC chemical	fentin acetate
+chebi_id	81918
+moa_code	C
+frac_code	30
+group_name	organo tin compounds
+moa_name	respiration
+cas_registry	900-95-8
+resistance_risk	low/medium
+target_site	inhibitors of oxidative phos-phorylation, ATP synthase
+target_code	C6
+chemical_group	tri-phenyl tin compounds
+common_name	fentin acetate
+comment	Some resistance cases known. Low to medium risk.
+
+FRAC chemical	fenaminstrobin
+cas_registry	366815-39-6
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+moa_code	C
+frac_code	11
+chebi_id	83220
+chemical_group	oximino-acetamides
+target_code	C3
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	fenaminstrobin
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+
+FRAC chemical	etridiazole
+cas_registry	2593-15-9
+moa_name	lipid synthesis and membrane integrity
+group_name	heteroaromatics
+moa_code	F
+frac_code	14
+chebi_id	81761
+comment	Resistance known in some fungi. Low to medium risk. Cross resistance patterns complex due to different activity spectra.
+common_name	etridiazole
+target_code	F3
+chemical_group	1,2,4-thiadiazoles
+target_site	lipid peroxidation (proposed)
+resistance_risk	low/medium
+
+FRAC chemical	copper (different salts)
+target_site	multi-site contact activity
+resistance_risk	low
+target_code	M
+chemical_group	inorganic
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	copper (different salts)
+frac_code	M1
+moa_code	M
+chebi_id	
+cas_registry	7440-50-8
+group_name	inorganic
+moa_name	multi-site contact activity
+
+FRAC chemical	ethirimol
+chemical_group	hydroxy-(2-amino-) pyrimidines
+target_code	A2
+common_name	ethirimol
+comment	Medium risk. Resistance and cross resistance known in powdery mildews. Resistance management required.
+target_site	adenosin-deaminase
+resistance_risk	medium
+group_name	hydroxy-(2-amino-) pyrimidines
+moa_name	nucleic acids synthesis
+cas_registry	23947-60-6
+chebi_id	81989
+moa_code	A
+frac_code	8
+
+FRAC chemical	captan
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	captan
+chemical_group	phthalimides
+target_code	M
+resistance_risk	low
+target_site	multi-site contact activity
+cas_registry	133-06-2
+moa_name	multi-site contact activity
+group_name	phthalimides
+moa_code	M
+frac_code	M4
+chebi_id	34608
+
+FRAC chemical	kasugamycin
+chebi_id	81419
+frac_code	24
+moa_code	D
+group_name	hexopyranosyl antibiotic
+moa_name	amino acids and protein synthesis
+cas_registry	6980-18-3
+target_site	protein synthesis
+resistance_risk	medium
+chemical_group	hexopyranosyl antibiotic
+target_code	D3
+comment	Resistance known in fungal and bacterial (P. glumae) pathogens. Medium risk. Resistance management required.
+common_name	kasugamycin
+
+FRAC chemical	carpropamid
+chemical_group	cyclopropane-carboxamide
+target_code	I2
+common_name	carpropamid
+comment	Resistance known. Medium risk. Resistance management required.
+resistance_risk	medium
+target_site	dehydratase in melanin biosynthesis
+group_name	MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+moa_name	melanin synthesis in cell wall
+cas_registry	104030-54-8
+chebi_id	
+frac_code	16.2
+moa_code	I
+
+FRAC chemical	extract from Reynoutria sachalinensis (giant knotweed)
+comment	Resistance not known
+common_name	extract from Reynoutria sachalinensis (giant knotweed)
+target_code	P5
+chemical_group	complex mixture, ethanol extract
+resistance_risk	unknown
+target_site	none
+moa_name	host plant defence induction
+group_name	plant extract
+cas_registry	
+chebi_id	
+moa_code	P
+frac_code	P5
+
+FRAC chemical	triflumizole
+common_name	triflumizole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+target_code	G1
+chemical_group	imidazoles
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	68694-11-1
+chebi_id	
+frac_code	3
+moa_code	G
+
+FRAC chemical	dimethomorph
+group_name	CAA-fungicides (Carboxylic Acid Amides)
+moa_name	cell wall biosynthesis
+cas_registry	110488-70-5
+chebi_id	81848
+frac_code	40
+moa_code	H
+chemical_group	cinnamic acid amides
+target_code	H5
+comment	Resistance known in Plasmopara viticola but not in Phytophthora infestans. Cross resistance between all members of the CAA group. Low to medium risk. See FRAC CAA Guidelines for resistance management
+common_name	dimethomorph
+resistance_risk	low/medium
+target_site	cellulose synthase
+
+FRAC chemical	tolclofos-methyl
+moa_code	F
+frac_code	14
+chebi_id	81731
+cas_registry	57018-04-9
+moa_name	lipid synthesis and membrane integrity
+group_name	AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+resistance_risk	low/medium
+target_site	lipid peroxidation (proposed)
+comment	Resistance known in some fungi. Low to medium risk. Cross resistance patterns complex due to different activity spectra.
+common_name	tolclofos-methyl
+target_code	F3
+chemical_group	aromatic hydrocarbons
+
+FRAC chemical	picoxystrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	picoxystrobin
+target_code	C3
+chemical_group	methoxy-acrylates
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+cas_registry	117428-22-5
+chebi_id	83197
+frac_code	11
+moa_code	C
+
+FRAC chemical	anilazine
+target_code	M
+chemical_group	triazines
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	anilazine
+resistance_risk	low
+target_site	multi-site contact activity
+group_name	triazines
+moa_name	multi-site contact activity
+cas_registry	101-05-3
+chebi_id	82076
+frac_code	M8
+moa_code	M
+
+FRAC chemical	iprodione
+target_site	MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+resistance_risk	medium/high
+target_code	E3
+chemical_group	dicarboximides
+common_name	iprodione
+comment	Resistance common in Botrytis and some other pathogens. Several mutations in OS-1, mostly I365S. Cross resistance common between the group members. Medium to high risk. See FRAC Dicarboximide Guidelines for resistance management.
+chebi_id	28909
+moa_code	E
+frac_code	2
+group_name	dicarboximides
+moa_name	signal transduction
+cas_registry	36734-19-7
+
+FRAC chemical	isoprothiolane
+group_name	dithiolanes
+moa_name	lipid synthesis and membrane integrity
+cas_registry	50512-35-1
+chebi_id	
+moa_code	F
+frac_code	6
+chemical_group	dithiolanes
+target_code	F2
+common_name	isoprothiolane
+comment	Resistance known in specific fungi. Low to medium risk. Resistance management required if used for risky pathogens.
+target_site	phospholipid biosynthesis, methyltrans-ferase
+resistance_risk	low/medium
+
+FRAC chemical	ametoctradin
+group_name	QoSI fungicides (Quinone outside Inhibitor, stigmatellin binding type)
+moa_name	respiration
+cas_registry	865318-97-4
+chebi_id	83398
+frac_code	45
+moa_code	C
+chemical_group	triazolo-pyrimidylamine
+target_code	C8
+common_name	ametoctradin
+comment	Not cross resistant to QoI fungicides. Resistance risk assumed to be medium to high (single site inhibitor). Resistance management required.
+target_site	complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+resistance_risk	medium/high
+
+FRAC chemical	chinomethionat / quinomethionate
+cas_registry	2439-01-2
+moa_name	multi-site contact activity
+group_name	quinoxalines
+frac_code	M10
+moa_code	M
+chebi_id	34620
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	chinomethionat / quinomethionate
+target_code	M
+chemical_group	quinoxalines
+resistance_risk	low
+target_site	multi-site contact activity
+
+FRAC chemical	meptyldinocap
+frac_code	29
+moa_code	C
+chebi_id	83372
+cas_registry	131-72-6
+moa_name	respiration
+group_name	none
+target_site	uncouplers of oxidative phos-phorylation
+resistance_risk	unknown
+common_name	meptyldinocap
+comment	Resistance not known. Also acaricidal activity.
+target_code	C5
+chemical_group	dinitrophenyl crotonates
+
+FRAC chemical	dichlofluanid
+moa_name	multi-site contact activity
+group_name	sulfamides
+cas_registry	1085-98-9
+chebi_id	74875
+moa_code	M
+frac_code	M6
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	dichlofluanid
+chemical_group	sulfamides
+target_code	M
+resistance_risk	low
+target_site	multi-site contact activity
+
+FRAC chemical	blasticidin-S
+resistance_risk	low/medium
+target_site	protein synthesis
+target_code	D2
+chemical_group	enopyranuronic acid antibiotic
+comment	Low to medium risk. Resistance management required.
+common_name	blasticidin-S
+moa_code	D
+frac_code	23
+chebi_id	15353
+cas_registry	2079-00-7
+group_name	enopyranuronic acid antibiotic
+moa_name	amino acids and protein synthesis
+
+FRAC chemical	flufenoxystrobin
+chemical_group	methoxy-acrylates
+target_code	C3
+common_name	flufenoxystrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+cas_registry	918162-02-4
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+frac_code	11
+moa_code	C
+chebi_id	83194
+
+FRAC chemical	dodine
+target_site	cell membrane disruption (proposed)
+resistance_risk	low/medium
+chemical_group	guanidines
+target_code	F7
+comment	Resistance known in Venturia inaequalis. Low to medium risk. Resistance management recommended.
+common_name	dodine
+chebi_id	74889
+frac_code	U12
+moa_code	U
+group_name	guanidines
+moa_name	unknown
+cas_registry	2439-10-3
+
+FRAC chemical	benomyl
+chebi_id	3015
+frac_code	1
+moa_code	B
+moa_name	mitosis and cell division
+group_name	MBC - fungicides (Methyl Benzimidazole Carbamates)
+cas_registry	17804-35-2
+target_site	ß-tubuline assembly in mitosis
+resistance_risk	high
+common_name	benomyl
+comment	Resistance common in many fungal species. Several target site mutations, mostly E198A/G/K, F200Y in β-tubulin gene. Positive cross resistance between the group members. Negative cross resistance to N-Phenylcarbamates. High risk. See FRAC Benzimidazole Guidelines for resistance management.
+chemical_group	benzimidazoles
+target_code	B1
+
+FRAC chemical	propamocarb
+resistance_risk	low/medium
+target_site	cell membrane permeability, fatty acids (proposed)
+target_code	F4
+chemical_group	carbamates
+common_name	propamocarb
+comment	Low to medium risk. Resistance management required.
+chebi_id	82033
+moa_code	F
+frac_code	28
+group_name	carbamates
+moa_name	lipid synthesis and membrane integrity
+cas_registry	24579-73-5
+
+FRAC chemical	benzovindiflupyr
+moa_code	C
+frac_code	7
+chebi_id	83092
+cas_registry	1072957-71-1
+moa_name	respiration
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+resistance_risk	medium/high
+target_site	complex II: succinate-dehydro-genase
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	benzovindiflupyr
+target_code	C2
+chemical_group	pyrazole-4- carboxamides
+
+FRAC chemical	trifloxystrobin
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+chemical_group	oximino-acetates
+target_code	C3
+common_name	trifloxystrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+moa_code	C
+frac_code	11
+chebi_id	81833
+cas_registry	141517-21-7
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+
+FRAC chemical	extract from Melaleuca alternifolia (tea tree)
+cas_registry	
+moa_name	lipid synthesis and membrane integrity
+group_name	plant extract
+frac_code	46
+moa_code	F
+chebi_id	83629
+comment	Resistance not known
+common_name	extract from Melaleuca alternifolia (tea tree)
+target_code	F7
+chemical_group	terpene hydrocarbons and terpene alcohols
+target_site	cell membrane disruption (proposed)
+resistance_risk	unknown
+
+FRAC chemical	benalaxyl
+cas_registry	71626-11-4
+moa_name	nucleic acids synthesis
+group_name	PA - fungicides (PhenylAmides)
+frac_code	4
+moa_code	A
+chebi_id	3009
+common_name	benalaxyl
+comment	Resistance and cross resistance well known in various Oomycetes but mechanism unknown. High risk. See FRAC Phenylamide Guidelines for resistance management.
+target_code	A1
+chemical_group	acylalanines
+target_site	RNA polymerase I
+resistance_risk	high
+
+FRAC chemical	pyribencarb
+moa_code	C
+frac_code	11
+chebi_id	83261
+cas_registry	799247-52-2
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+target_code	C3
+chemical_group	benzyl-carbamates
+common_name	pyribencarb
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+
+FRAC chemical	laminarin
+resistance_risk	unknown
+target_site	none
+common_name	laminarin
+comment	Resistance not known
+chemical_group	polysaccharides
+target_code	P4
+moa_code	P
+frac_code	P4
+chebi_id	
+cas_registry	9008-22-4
+moa_name	host plant defence induction
+group_name	natural compound
+
+FRAC chemical	mandestrobin
+frac_code	11
+moa_code	C
+chebi_id	83205
+cas_registry	173662-97-0
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	mandestrobin
+chemical_group	methoxy-acetamide
+target_code	C3
+
+FRAC chemical	diclocymet
+chebi_id	
+frac_code	16.2
+moa_code	I
+moa_name	melanin synthesis in cell wall
+group_name	MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+cas_registry	139920-32-4
+target_site	dehydratase in melanin biosynthesis
+resistance_risk	medium
+common_name	diclocymet
+comment	Resistance known. Medium risk. Resistance management required.
+target_code	I2
+chemical_group	carboxamide
+
+FRAC chemical	bupirimate
+chemical_group	hydroxy-(2-amino-) pyrimidines
+target_code	A2
+common_name	bupirimate
+comment	Medium risk. Resistance and cross resistance known in powdery mildews. Resistance management required.
+resistance_risk	medium
+target_site	adenosin-deaminase
+cas_registry	41483-43-6
+group_name	hydroxy-(2-amino-) pyrimidines
+moa_name	nucleic acids synthesis
+moa_code	A
+frac_code	8
+chebi_id	81952
+
+FRAC chemical	tetraconazole
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	112281-77-3
+chebi_id	
+frac_code	3
+moa_code	G
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	tetraconazole
+target_code	G1
+chemical_group	triazoles
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+
+FRAC chemical	maneb
+resistance_risk	low
+target_site	multi-site contact activity
+target_code	M
+chemical_group	dithiocarbamates and relatives
+common_name	maneb
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+chebi_id	52497
+frac_code	M3
+moa_code	M
+group_name	dithiocarbamates and relatives
+moa_name	multi-site contact activity
+cas_registry	12427-38-2
+
+FRAC chemical	oxytetracycline
+moa_name	amino acids and protein synthesis
+group_name	tetracycline antibiotic
+cas_registry	79-57-2
+chebi_id	27701
+moa_code	D
+frac_code	41
+comment	Bactericide. Resistance known. High risk. Resistance management required.
+common_name	oxytetracycline
+chemical_group	tetracycline antibiotic
+target_code	D5
+target_site	protein synthesis
+resistance_risk	high
+
+FRAC chemical	coumoxystrobin
+target_code	C3
+chemical_group	methoxy-acrylates
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	coumoxystrobin
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+cas_registry	850881-70-8
+chebi_id	83185
+moa_code	C
+frac_code	11
+
+FRAC chemical	terbinafine
+cas_registry	91161-71-6
+moa_name	sterol biosynthesis in membranes
+group_name	(SBI class IV)
+moa_code	G
+frac_code	18
+chebi_id	9448
+comment	Medical fungicides only
+common_name	terbinafine
+target_code	G4
+chemical_group	allylamines
+target_site	squalene-epoxidase in sterol biosynthesis (erg1)
+resistance_risk	unknown
+
+FRAC chemical	tecnazene (TCNB)
+frac_code	14
+moa_code	F
+chebi_id	82044
+cas_registry	117-18-0
+group_name	AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+moa_name	lipid synthesis and membrane integrity
+resistance_risk	low/medium
+target_site	lipid peroxidation (proposed)
+target_code	F3
+chemical_group	aromatic hydrocarbons
+common_name	tecnazene (TCNB)
+comment	Resistance known in some fungi. Low to medium risk. Cross resistance patterns complex due to different activity spectra.
+
+FRAC chemical	enoxastrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	enoxastrobin
+target_code	C3
+chemical_group	methoxy-acrylates
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+cas_registry	238410-11-2
+chebi_id	83187
+moa_code	C
+frac_code	11
+
+FRAC chemical	oxadixyl
+target_code	A1
+chemical_group	oxazolidinones
+comment	Resistance and cross resistance well known in various Oomycetes but mechanism unknown. High risk. See FRAC Phenylamide Guidelines for resistance management.
+common_name	oxadixyl
+resistance_risk	high
+target_site	RNA polymerase I
+cas_registry	77732-09-3
+group_name	PA - fungicides (PhenylAmides)
+moa_name	nucleic acids synthesis
+frac_code	4
+moa_code	A
+chebi_id	81937
+
+FRAC chemical	pyrametostrobin
+chemical_group	methoxy-carbamates
+target_code	C3
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	pyrametostrobin
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+cas_registry	915410-70-7
+chebi_id	83212
+moa_code	C
+frac_code	11
+
+FRAC chemical	phosphorous acid and salts
+chebi_id	
+moa_code	U
+frac_code	33
+moa_name	unknown
+group_name	phosphonates
+cas_registry	13598-36-2
+resistance_risk	low
+target_site	unknown
+common_name	phosphorous acid and salts
+comment	Few resistance cases reported in few pathogens. Low risk
+chemical_group	phosphorous acid and salts
+target_code	U2
+
+FRAC chemical	fluquinconazole
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	fluquinconazole
+chemical_group	triazoles
+target_code	G1
+moa_code	G
+frac_code	3
+chebi_id	
+cas_registry	136426-54-5
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+
+FRAC chemical	imibenconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	imibenconazole
+target_code	G1
+chemical_group	triazoles
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+cas_registry	86598-92-7
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_code	G
+frac_code	3
+chebi_id	
+
+FRAC chemical	flumorph
+target_code	H5
+chemical_group	cinnamic acid amides
+comment	Resistance known in Plasmopara viticola but not in Phytophthora infestans. Cross resistance between all members of the CAA group. Low to medium risk. See FRAC CAA Guidelines for resistance management
+common_name	flumorph
+resistance_risk	low/medium
+target_site	cellulose synthase
+cas_registry	211867-47-9
+group_name	CAA-fungicides (Carboxylic Acid Amides)
+moa_name	cell wall biosynthesis
+moa_code	H
+frac_code	40
+chebi_id	83428
+
+FRAC chemical	fenarimol
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+common_name	fenarimol
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	pyrimidines
+target_code	G1
+chebi_id	4998
+moa_code	G
+frac_code	3
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	60168-88-9
+
+FRAC chemical	fenamidone
+frac_code	11
+moa_code	C
+chebi_id	83258
+cas_registry	161326-34-7
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+chemical_group	Imidazolinones
+target_code	C3
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	fenamidone
+
+FRAC chemical	simeconazole
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+chemical_group	triazoles
+target_code	G1
+common_name	simeconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+moa_code	G
+frac_code	3
+chebi_id	
+cas_registry	149508-90-7
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+
+FRAC chemical	myclobutanil
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	myclobutanil
+chemical_group	triazoles
+target_code	G1
+chebi_id	
+moa_code	G
+frac_code	3
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	88671-89-0
+
+FRAC chemical	aldimorph
+moa_code	G
+frac_code	5
+chebi_id	83295
+cas_registry	91315-15-0
+group_name	amines (“morpholines”) (SBI: Class II)
+moa_name	sterol biosynthesis in membranes
+target_site	delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+resistance_risk	low/medium
+target_code	G2
+chemical_group	morpholines
+comment	Decreased sensitivity for powdery mildews. Cross resistance within the group generally found but not to other SBI classes. Low to medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	aldimorph
+
+FRAC chemical	oxpoconazole
+cas_registry	134074-64-9
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+moa_code	G
+frac_code	3
+chebi_id	
+chemical_group	imidazoles
+target_code	G1
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	oxpoconazole
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+
+FRAC chemical	amisulbrom
+chemical_group	sulfamoyl-triazole
+target_code	C4
+comment	Resistance risk unknown but assumed to be medium to high (mutations at target site known in model organisms). Resistance management required.
+common_name	amisulbrom
+resistance_risk	medium/high
+target_site	complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+group_name	QiI - fungicides (Quinone inside Inhibitors)
+moa_name	respiration
+cas_registry	348635-87-0
+chebi_id	81846
+moa_code	C
+frac_code	21
+
+FRAC chemical	methasulfocarb
+resistance_risk	unknown
+target_site	unknown
+common_name	methasulfocarb
+comment	Resistance not known
+chemical_group	thiocarbamate
+target_code	U7
+moa_code	U
+frac_code	42
+chebi_id	81933
+cas_registry	66952-49-6
+moa_name	unknown
+group_name	thiocarbamate
+
+FRAC chemical	diflumetorim
+target_code	C1
+chemical_group	pyrimidinamines
+common_name	diflumetorim
+comment	Resistance not known.
+target_site	complex I NADH Oxido-reductase
+resistance_risk	unknown
+group_name	pyrimidinamines
+moa_name	respiration
+cas_registry	130339-07-0
+chebi_id	82860
+frac_code	39
+moa_code	C
+
+FRAC chemical	binapacryl
+target_site	uncouplers of oxidative phos-phorylation
+resistance_risk	unknown
+chemical_group	dinitrophenyl crotonates
+target_code	C5
+common_name	binapacryl
+comment	Resistance not known. Also acaricidal activity.
+chebi_id	82153
+frac_code	29
+moa_code	C
+group_name	none
+moa_name	respiration
+cas_registry	485-31-4
+
+FRAC chemical	fenbuconazole
+common_name	fenbuconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+target_code	G1
+chemical_group	triazoles
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	114369-43-6
+chebi_id	
+moa_code	G
+frac_code	3
+
+FRAC chemical	triticonazole
+chebi_id	
+frac_code	3
+moa_code	G
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+cas_registry	131983-72-7
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+chemical_group	triazoles
+target_code	G1
+common_name	triticonazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+
+FRAC chemical	furametpyr
+moa_name	respiration
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+cas_registry	123572-88-3
+chebi_id	81793
+frac_code	7
+moa_code	C
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	furametpyr
+target_code	C2
+chemical_group	pyrazole-4- carboxamides
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+
+FRAC chemical	fentin hydroxide
+frac_code	30
+moa_code	C
+chebi_id	30473
+cas_registry	76-87-9
+moa_name	respiration
+group_name	organo tin compounds
+target_site	inhibitors of oxidative phos-phorylation, ATP synthase
+resistance_risk	low/medium
+common_name	fentin hydroxide
+comment	Some resistance cases known. Low to medium risk.
+chemical_group	tri-phenyl tin compounds
+target_code	C6
+
+FRAC chemical	diethofencarb
+cas_registry	87130-20-9
+moa_name	mitosis and cell division
+group_name	N-phenyl carbamates
+frac_code	10
+moa_code	B
+chebi_id	4520
+comment	Resistance known. Target site mutation E198K. Negative cross resistance to benzimidazoles. High risk. Resistance management required.
+common_name	diethofencarb
+target_code	B2
+chemical_group	N-phenyl carbamates
+resistance_risk	high
+target_site	ß-tubulin assembly in mitosis
+
+FRAC chemical	mepronil
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+cas_registry	55814-41-0
+chebi_id	81823
+moa_code	C
+frac_code	7
+target_code	C2
+chemical_group	phenyl-benzamides
+common_name	mepronil
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+
+FRAC chemical	Bacillus amyloliquefaciens strain FZB24
+chebi_id	
+moa_code	F
+frac_code	44
+moa_name	lipid synthesis and membrane integrity
+group_name	microbial (Bacillus sp.)
+cas_registry	
+target_site	microbial disrupters of pathogen cell membranes
+resistance_risk	unknown
+common_name	Bacillus amyloliquefaciens strain FZB24
+comment	*Synonyms for Bacillus amyloliquefaciens are Bacillus subtilis and B. subtilis var. amyloliquefaciens (previous taxonomic classification). Resistance not known. Induction of host plant defence described as additional mode of action for strain FZB24.
+chemical_group	Bacillus sp. and the fungicidal lipopeptides produced
+target_code	F6
+
+FRAC chemical	hymexazole
+target_code	A3
+chemical_group	isoxazoles
+comment	Resistance not known.
+common_name	hymexazole
+resistance_risk	unknown
+target_site	DNA/RNA synthesis (proposed)
+cas_registry	10004-44-1
+group_name	heteroaromatics
+moa_name	nucleic acids synthesis
+moa_code	A
+frac_code	32
+chebi_id	5827
+
+FRAC chemical	pencycuron
+cas_registry	66063-05-6
+moa_name	mitosis and cell division
+group_name	phenylureas
+moa_code	B
+frac_code	20
+chebi_id	7957
+common_name	pencycuron
+comment	Resistance not known
+chemical_group	phenylureas
+target_code	B4
+resistance_risk	unknown
+target_site	cell division (proposed)
+
+FRAC chemical	metrafenone
+chemical_group	benzophenone
+target_code	U8
+comment	Less sensitive isolates detected in wheat powdery mildew. Medium risk. Resistance management required.
+common_name	metrafenone
+target_site	actin disruption (proposed)
+resistance_risk	medium
+cas_registry	220899-03-6
+group_name	aryl-phenyl-ketone
+moa_name	unknown
+moa_code	U
+frac_code	U8
+chebi_id	83345
+
+FRAC chemical	prothioconazole
+frac_code	3
+moa_code	G
+chebi_id	
+cas_registry	178928-70-6
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+common_name	prothioconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	triazolinthiones
+target_code	G1
+
+FRAC chemical	pyrazophos
+common_name	pyrazophos
+comment	Resistance known in specific fungi. Low to medium risk. Resistance management required if used for risky pathogens.
+target_code	F2
+chemical_group	phosphoro-thiolates
+resistance_risk	low/medium
+target_site	phospholipid biosynthesis, methyltrans-ferase
+moa_name	lipid synthesis and membrane integrity
+group_name	phosphoro-thiolates
+cas_registry	13457-18-6
+chebi_id	
+moa_code	F
+frac_code	6
+
+FRAC chemical	imazalil
+cas_registry	35554-44-0
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+moa_code	G
+frac_code	3
+chebi_id	
+chemical_group	imidazoles
+target_code	G1
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	imazalil
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+
+FRAC chemical	cyazofamid
+resistance_risk	medium/high
+target_site	complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+comment	Resistance risk unknown but assumed to be medium to high (mutations at target site known in model organisms). Resistance management required.
+common_name	cyazofamid
+chemical_group	cyano-imidazole
+target_code	C4
+frac_code	21
+moa_code	C
+chebi_id	81841
+cas_registry	120116-88-3
+moa_name	respiration
+group_name	QiI - fungicides (Quinone inside Inhibitors)
+
+FRAC chemical	dinocap
+target_site	uncouplers of oxidative phos-phorylation
+resistance_risk	unknown
+common_name	dinocap
+comment	Resistance not known. Also acaricidal activity.
+target_code	C5
+chemical_group	dinitrophenyl crotonates
+chebi_id	83379
+frac_code	29
+moa_code	C
+moa_name	respiration
+group_name	none
+cas_registry	39300-45-3
+
+FRAC chemical	fluoxastrobin
+chemical_group	dihydro-dioxazines
+target_code	C3
+common_name	fluoxastrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+cas_registry	361377-29-9
+chebi_id	83253
+frac_code	11
+moa_code	C
+
+FRAC chemical	tricyclazole
+target_code	I1
+chemical_group	triazolobenzo-thiazole
+common_name	tricyclazole
+comment	Resistance not known
+target_site	reductase in melanin biosynthesis
+resistance_risk	unknown
+cas_registry	41814-78-2
+group_name	MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+moa_name	melanin synthesis in cell wall
+moa_code	I
+frac_code	16.1
+chebi_id	81783
+
+FRAC chemical	cyproconazole
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	cyproconazole
+chemical_group	triazoles
+target_code	G1
+moa_code	G
+frac_code	3
+chebi_id	
+cas_registry	94361-06-5
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+
+FRAC chemical	Bacillus amyloliquefaciens strain MBI600
+target_site	microbial disrupters of pathogen cell membranes
+resistance_risk	unknown
+target_code	F6
+chemical_group	Bacillus sp. and the fungicidal lipopeptides produced
+common_name	Bacillus amyloliquefaciens strain MBI600
+comment	*Synonyms for Bacillus amyloliquefaciens are Bacillus subtilis and B. subtilis var. amyloliquefaciens (previous taxonomic classification). Resistance not known. Induction of host plant defence described as additional mode of action for strain FZB24.
+chebi_id	
+frac_code	44
+moa_code	F
+group_name	microbial (Bacillus sp.)
+moa_name	lipid synthesis and membrane integrity
+cas_registry	
+
+FRAC chemical	oxycarboxin
+target_code	C2
+chemical_group	oxathiin- carboxamides
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	oxycarboxin
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+cas_registry	5259-88-1
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+frac_code	7
+moa_code	C
+chebi_id	7858
+
+FRAC chemical	orysastrobin
+cas_registry	248593-16-0
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_code	C
+frac_code	11
+chebi_id	81832
+common_name	orysastrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+chemical_group	oximino-acetamides
+target_code	C3
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+
+FRAC chemical	diclomezine
+resistance_risk	unknown
+target_site	unknown
+chemical_group	pyridazinones
+target_code	U6
+comment	Resistance not known
+common_name	diclomezine
+chebi_id	81759
+frac_code	37
+moa_code	U
+group_name	pyridazinones
+moa_name	unknown
+cas_registry	62865-36-5
+
+FRAC chemical	octhilinone
+common_name	octhilinone
+comment	Resistance not known.
+target_code	A3
+chemical_group	isothiazolones
+target_site	DNA/RNA synthesis (proposed)
+resistance_risk	unknown
+cas_registry	26530-20-1
+moa_name	nucleic acids synthesis
+group_name	heteroaromatics
+moa_code	A
+frac_code	32
+chebi_id	81936
+
+FRAC chemical	nuarimol
+chemical_group	pyrimidines
+target_code	G1
+common_name	nuarimol
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+cas_registry	63284-71-9
+chebi_id	7645
+frac_code	3
+moa_code	G
+
+FRAC chemical	
+target_site	none
+resistance_risk	n/a
+target_code	F5
+chemical_group	n/a
+comment	n/a
+common_name	
+chebi_id	
+frac_code	NA
+moa_code	F
+group_name	formerly CAA-fungicides
+moa_name	lipid synthesis and membrane integrity
+cas_registry	
+
+FRAC chemical	fenoxanil
+frac_code	16.2
+moa_code	I
+chebi_id	
+cas_registry	115852-48-7
+moa_name	melanin synthesis in cell wall
+group_name	MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+target_site	dehydratase in melanin biosynthesis
+resistance_risk	medium
+common_name	fenoxanil
+comment	Resistance known. Medium risk. Resistance management required.
+target_code	I2
+chemical_group	propionamide
+
+FRAC chemical	iminoctadine
+resistance_risk	low
+target_site	multi-site contact activity
+chemical_group	guanidines
+target_code	M
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	iminoctadine
+chebi_id	5569
+moa_code	M
+frac_code	M7
+group_name	guanidines
+moa_name	multi-site contact activity
+cas_registry	13516-27-3
+
+FRAC chemical	tolylfluanid
+resistance_risk	low
+target_site	multi-site contact activity
+target_code	M
+chemical_group	sulfamides
+common_name	tolylfluanid
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+chebi_id	75182
+frac_code	M6
+moa_code	M
+group_name	sulfamides
+moa_name	multi-site contact activity
+cas_registry	731-27-1
+
+FRAC chemical	boscalid
+resistance_risk	medium/high
+target_site	complex II: succinate-dehydro-genase
+chemical_group	pyridine- carboxamides
+target_code	C2
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	boscalid
+frac_code	7
+moa_code	C
+chebi_id	81822
+cas_registry	188425-85-6
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+
+FRAC chemical	fenpyrazamine
+resistance_risk	low/medium
+target_site	3-keto reduc-tase, C4- de-methylation (erg27)
+chemical_group	amino-pyrazolinone
+target_code	G3
+common_name	fenpyrazamine
+comment	Low to medium risk. Resistance management required.
+chebi_id	83327
+frac_code	17
+moa_code	G
+group_name	(SBI: Class III)
+moa_name	sterol biosynthesis in membranes
+cas_registry	473798-59-3
+
+FRAC chemical	fenpropimorph
+frac_code	5
+moa_code	G
+chebi_id	50145
+cas_registry	67564-91-4
+group_name	amines (“morpholines”) (SBI: Class II)
+moa_name	sterol biosynthesis in membranes
+resistance_risk	low/medium
+target_site	delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+target_code	G2
+chemical_group	morpholines
+common_name	fenpropimorph
+comment	Decreased sensitivity for powdery mildews. Cross resistance within the group generally found but not to other SBI classes. Low to medium risk. See FRAC SBI Guidelines for resistance management.
+
+FRAC chemical	etaconazole
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+chemical_group	triazoles
+target_code	G1
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	etaconazole
+chebi_id	
+frac_code	3
+moa_code	G
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+cas_registry	60207-93-4
+
+FRAC chemical	polyoxin
+cas_registry	11113-80-7
+moa_name	cell wall biosynthesis
+group_name	polyoxins
+frac_code	19
+moa_code	H
+chebi_id	
+common_name	polyoxin
+comment	Resistance known. Medium risk. Resistance management required.
+chemical_group	peptidyl pyrimidine nucleoside
+target_code	H4
+target_site	chitin synthase
+resistance_risk	medium
+
+FRAC chemical	mancozeb
+frac_code	M3
+moa_code	M
+chebi_id	52492
+cas_registry	8018-01-7
+moa_name	multi-site contact activity
+group_name	dithiocarbamates and relatives
+resistance_risk	low
+target_site	multi-site contact activity
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	mancozeb
+target_code	M
+chemical_group	dithiocarbamates and relatives
+
+FRAC chemical	proquinazid
+common_name	proquinazid
+comment	Resistance to quinoxyfen known. Medium risk. Resistance management required. Cross resistance found in Erysiphe (Uncinula) necator but not in Blumeria graminis.
+chemical_group	quinazolinone
+target_code	E1
+resistance_risk	medium
+target_site	signal transduction (mechanism unknown)
+moa_name	signal transduction
+group_name	aza-naphthalenes
+cas_registry	189278-12-4
+chebi_id	83555
+frac_code	13
+moa_code	E
+
+FRAC chemical	mepanipyrim
+comment	Resistance known in Botrytis and Venturia, sporadically in Oculimacula . Medium risk. See FRAC Anilinopyrimidine Guidelines for resistance management.
+common_name	mepanipyrim
+target_code	D1
+chemical_group	anilino-pyrimidines
+target_site	methionine biosynthesis (proposed) (cgs gene)
+resistance_risk	medium
+cas_registry	110235-47-7
+moa_name	amino acids and protein synthesis
+group_name	AP - fungicides (Anilino-Pyrimidines)
+moa_code	D
+frac_code	9
+chebi_id	6751
+
+FRAC chemical	kresoxim-methyl
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	kresoxim-methyl
+chemical_group	oximino-acetates
+target_code	C3
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+cas_registry	143390-89-0
+chebi_id	2962
+frac_code	11
+moa_code	C
+
+FRAC chemical	fentin chloride
+chebi_id	35036
+frac_code	30
+moa_code	C
+group_name	organo tin compounds
+moa_name	respiration
+cas_registry	639-58-7
+target_site	inhibitors of oxidative phos-phorylation, ATP synthase
+resistance_risk	low/medium
+target_code	C6
+chemical_group	tri-phenyl tin compounds
+common_name	fentin chloride
+comment	Some resistance cases known. Low to medium risk.
+
+FRAC chemical	propiconazole
+moa_code	G
+frac_code	3
+chebi_id	
+cas_registry	60207-90-1
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+common_name	propiconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	triazoles
+target_code	G1
+
+FRAC chemical	sedaxane
+cas_registry	874967-67-6
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+frac_code	7
+moa_code	C
+chebi_id	83173
+chemical_group	pyrazole-4- carboxamides
+target_code	C2
+common_name	sedaxane
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+resistance_risk	medium/high
+target_site	complex II: succinate-dehydro-genase
+
+FRAC chemical	acibenzolar-S-methyl
+chebi_id	
+frac_code	P1
+moa_code	P
+moa_name	host plant defence induction
+group_name	benzo-thiadiazole BTH
+cas_registry	135158-54-2
+target_site	salicylic acid pathway
+resistance_risk	unknown
+common_name	acibenzolar-S-methyl
+comment	Resistance not known
+target_code	P1
+chemical_group	benzo-thiadiazole BTH
+
+FRAC chemical	Bacillus subtilis syn. B.amyloliquefaciens* strain QST 713
+common_name	Bacillus subtilis syn. B.amyloliquefaciens* strain QST 713
+comment	*Synonyms for Bacillus amyloliquefaciens are Bacillus subtilis and B. subtilis var. amyloliquefaciens (previous taxonomic classification). Resistance not known. Induction of host plant defence described as additional mode of action for strain FZB24.
+target_code	F6
+chemical_group	Bacillus sp. and the fungicidal lipopeptides produced
+resistance_risk	unknown
+target_site	microbial disrupters of pathogen cell membranes
+moa_name	lipid synthesis and membrane integrity
+group_name	microbial (Bacillus sp.)
+cas_registry	
+chebi_id	
+frac_code	44
+moa_code	F
+
+FRAC chemical	fenpropidin
+target_code	G2
+chemical_group	piperidines
+common_name	fenpropidin
+comment	Decreased sensitivity for powdery mildews. Cross resistance within the group generally found but not to other SBI classes. Low to medium risk. See FRAC SBI Guidelines for resistance management.
+target_site	delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+resistance_risk	low/medium
+group_name	amines (“morpholines”) (SBI: Class II)
+moa_name	sterol biosynthesis in membranes
+cas_registry	67306-00-7
+chebi_id	81917
+frac_code	5
+moa_code	G
+
+FRAC chemical	flusilazole
+cas_registry	85509-19-9
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+frac_code	3
+moa_code	G
+chebi_id	
+chemical_group	triazoles
+target_code	G1
+common_name	flusilazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+
+FRAC chemical	hexaconazole
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+common_name	hexaconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	triazoles
+target_code	G1
+chebi_id	
+moa_code	G
+frac_code	3
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	79983-71-4
+
+FRAC chemical	piperalin
+resistance_risk	low/medium
+target_site	delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+target_code	G2
+chemical_group	piperidines
+common_name	piperalin
+comment	Decreased sensitivity for powdery mildews. Cross resistance within the group generally found but not to other SBI classes. Low to medium risk. See FRAC SBI Guidelines for resistance management.
+chebi_id	83283
+frac_code	5
+moa_code	G
+group_name	amines (“morpholines”) (SBI: Class II)
+moa_name	sterol biosynthesis in membranes
+cas_registry	3478-94-2
+
+FRAC chemical	metiram
+moa_code	M
+frac_code	M3
+chebi_id	81539
+cas_registry	9006-42-2
+group_name	dithiocarbamates and relatives
+moa_name	multi-site contact activity
+resistance_risk	low
+target_site	multi-site contact activity
+chemical_group	dithiocarbamates and relatives
+target_code	M
+common_name	metiram
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+
+FRAC chemical	guazatine
+target_site	multi-site contact activity
+resistance_risk	low
+common_name	guazatine
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+chemical_group	guanidines
+target_code	M
+chebi_id	82843
+frac_code	M7
+moa_code	M
+moa_name	multi-site contact activity
+group_name	guanidines
+cas_registry	108173-90-6
+
+FRAC chemical	penthiopyrad
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	penthiopyrad
+chemical_group	pyrazole-4- carboxamides
+target_code	C2
+chebi_id	81777
+moa_code	C
+frac_code	7
+moa_name	respiration
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+cas_registry	183675-82-3
+
+FRAC chemical	oxolinic acid
+comment	Bactericide. Resistance known. Risk in fungi unknown. Resistance management required.
+common_name	oxolinic acid
+chemical_group	carboxylic acids
+target_code	A4
+target_site	DNA topoisomerase type II (gyrase)
+resistance_risk	unknown
+cas_registry	14698-29-4
+moa_name	nucleic acids synthesis
+group_name	carboxylic acids
+moa_code	A
+frac_code	31
+chebi_id	138856
+
+FRAC chemical	dimoxystrobin
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+common_name	dimoxystrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+target_code	C3
+chemical_group	oximino-acetamides
+frac_code	11
+moa_code	C
+chebi_id	83218
+cas_registry	149961-52-4
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+
+FRAC chemical	pyriofenone
+moa_code	U
+frac_code	U8
+chebi_id	83346
+cas_registry	688046-61-9
+moa_name	unknown
+group_name	aryl-phenyl-ketone
+resistance_risk	medium
+target_site	actin disruption (proposed)
+comment	Less sensitive isolates detected in wheat powdery mildew. Medium risk. Resistance management required.
+common_name	pyriofenone
+target_code	U8
+chemical_group	benzoylpyridine
+
+FRAC chemical	fluopicolide
+resistance_risk	unknown
+target_site	delocalisation of spectrin-like proteins
+chemical_group	pyridinylmethyl-benzamides
+target_code	B5
+comment	Resistance not known
+common_name	fluopicolide
+frac_code	43
+moa_code	B
+chebi_id	81764
+cas_registry	239110-15-7
+group_name	benzamides
+moa_name	mitosis and cell division
+
+FRAC chemical	triadimefon
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+common_name	triadimefon
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+target_code	G1
+chemical_group	triazoles
+frac_code	3
+moa_code	G
+chebi_id	
+cas_registry	43121-43-3
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+
+FRAC chemical	epoxiconazole
+chebi_id	
+moa_code	G
+frac_code	3
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	133855-98-8
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+common_name	epoxiconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	triazoles
+target_code	G1
+
+FRAC chemical	ziram
+cas_registry	137-30-4
+group_name	dithiocarbamates and relatives
+moa_name	multi-site contact activity
+frac_code	M3
+moa_code	M
+chebi_id	79736
+chemical_group	dithiocarbamates and relatives
+target_code	M
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	ziram
+resistance_risk	low
+target_site	multi-site contact activity
+
+FRAC chemical	fluazinam
+chebi_id	81843
+frac_code	29
+moa_code	C
+group_name	none
+moa_name	respiration
+cas_registry	79622-59-6
+target_site	uncouplers of oxidative phos-phorylation
+resistance_risk	low
+target_code	C5
+chemical_group	2,6-dinitro-anilines
+common_name	fluazinam
+comment	Low risk. However, resistance claimed in Botrytis in Japan.
+
+FRAC chemical	benodanil
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	benodanil
+chemical_group	phenyl-benzamides
+target_code	C2
+frac_code	7
+moa_code	C
+chebi_id	82052
+cas_registry	15310-01-7
+moa_name	respiration
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+
+FRAC chemical	bitertanol
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+chemical_group	triazoles
+target_code	G1
+common_name	bitertanol
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+moa_code	G
+frac_code	3
+chebi_id	
+cas_registry	55179-31-2
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+
+FRAC chemical	quintozene (PCNB)
+moa_name	lipid synthesis and membrane integrity
+group_name	AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+cas_registry	82-68-8
+chebi_id	34908
+moa_code	F
+frac_code	14
+comment	Resistance known in some fungi. Low to medium risk. Cross resistance patterns complex due to different activity spectra.
+common_name	quintozene (PCNB)
+target_code	F3
+chemical_group	aromatic hydrocarbons
+target_site	lipid peroxidation (proposed)
+resistance_risk	low/medium
+
+FRAC chemical	chlozolinate
+resistance_risk	medium/high
+target_site	MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+chemical_group	dicarboximides
+target_code	E3
+comment	Resistance common in Botrytis and some other pathogens. Several mutations in OS-1, mostly I365S. Cross resistance common between the group members. Medium to high risk. See FRAC Dicarboximide Guidelines for resistance management.
+common_name	chlozolinate
+chebi_id	3656
+moa_code	E
+frac_code	2
+group_name	dicarboximides
+moa_name	signal transduction
+cas_registry	84332-86-5
+
+FRAC chemical	vinclozolin
+comment	Resistance common in Botrytis and some other pathogens. Several mutations in OS-1, mostly I365S. Cross resistance common between the group members. Medium to high risk. See FRAC Dicarboximide Guidelines for resistance management.
+common_name	vinclozolin
+chemical_group	dicarboximides
+target_code	E3
+target_site	MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+resistance_risk	medium/high
+moa_name	signal transduction
+group_name	dicarboximides
+cas_registry	50471-44-8
+chebi_id	
+moa_code	E
+frac_code	2
+
+FRAC chemical	zineb
+common_name	zineb
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+target_code	M
+chemical_group	dithiocarbamates and relatives
+target_site	multi-site contact activity
+resistance_risk	low
+moa_name	multi-site contact activity
+group_name	dithiocarbamates and relatives
+cas_registry	12122-67-7
+chebi_id	52498
+moa_code	M
+frac_code	M3
+
+FRAC chemical	prothiocarb
+chebi_id	82084
+frac_code	28
+moa_code	F
+group_name	carbamates
+moa_name	lipid synthesis and membrane integrity
+cas_registry	19622-08-3
+resistance_risk	low/medium
+target_site	cell membrane permeability, fatty acids (proposed)
+chemical_group	carbamates
+target_code	F4
+common_name	prothiocarb
+comment	Low to medium risk. Resistance management required.
+
+FRAC chemical	flutriafol
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	76674-21-0
+chebi_id	
+frac_code	3
+moa_code	G
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	flutriafol
+chemical_group	triazoles
+target_code	G1
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+
+FRAC chemical	(ferimzone)
+target_site	uncouplers of oxidative phos-phorylation
+resistance_risk	low
+comment	Reclassified to U 14 in 2012.
+common_name	(ferimzone)
+chemical_group	(pyr.-hydrazones)
+target_code	C5
+chebi_id	81844
+moa_code	C
+frac_code	29
+moa_name	respiration
+group_name	none
+cas_registry	89269-64-7
+
+FRAC chemical	triadimenol
+moa_code	G
+frac_code	3
+chebi_id	
+cas_registry	55219-65-3
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+target_code	G1
+chemical_group	triazoles
+common_name	triadimenol
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+
+FRAC chemical	triazoxide
+cas_registry	72459-58-6
+moa_name	unknown
+group_name	benzotriazines
+moa_code	U
+frac_code	35
+chebi_id	83335
+comment	Resistance not known
+common_name	triazoxide
+target_code	U4
+chemical_group	benzotriazines
+target_site	unknown
+resistance_risk	unknown
+
+FRAC chemical	quinoxyfen
+moa_name	signal transduction
+group_name	aza-naphthalenes
+cas_registry	124495-18-7
+chebi_id	82040
+moa_code	E
+frac_code	13
+comment	Resistance to quinoxyfen known. Medium risk. Resistance management required. Cross resistance found in Erysiphe (Uncinula) necator but not in Blumeria graminis.
+common_name	quinoxyfen
+chemical_group	aryloxyquinoline
+target_code	E1
+target_site	signal transduction (mechanism unknown)
+resistance_risk	medium
+
+FRAC chemical	fthalide
+moa_code	I
+frac_code	16.1
+chebi_id	47617
+cas_registry	27355-22-2
+group_name	MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+moa_name	melanin synthesis in cell wall
+target_site	reductase in melanin biosynthesis
+resistance_risk	unknown
+target_code	I1
+chemical_group	isobenzo-furanone
+common_name	fthalide
+comment	Resistance not known
+
+FRAC chemical	spiroxamine
+target_site	delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+resistance_risk	low/medium
+comment	Decreased sensitivity for powdery mildews. Cross resistance within the group generally found but not to other SBI classes. Low to medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	spiroxamine
+target_code	G2
+chemical_group	spiroketal-amines
+chebi_id	9242
+frac_code	5
+moa_code	G
+moa_name	sterol biosynthesis in membranes
+group_name	amines (“morpholines”) (SBI: Class II)
+cas_registry	118134-30-8
+
+FRAC chemical	validamycin
+group_name	glucopyranosyl antibiotic
+moa_name	cell wall biosynthesis
+cas_registry	37248-47-8
+chebi_id	
+moa_code	H
+frac_code	26
+target_code	H3
+chemical_group	glucopyranosyl antibiotic
+common_name	validamycin
+comment	Resistance not known
+target_site	trehalase and inositol-biosynthesis
+resistance_risk	unknown
+
+FRAC chemical	carbendazim
+common_name	carbendazim
+comment	Resistance common in many fungal species. Several target site mutations, mostly E198A/G/K, F200Y in β-tubulin gene. Positive cross resistance between the group members. Negative cross resistance to N-Phenylcarbamates. High risk. See FRAC Benzimidazole Guidelines for resistance management.
+target_code	B1
+chemical_group	benzimidazoles
+target_site	ß-tubuline assembly in mitosis
+resistance_risk	high
+cas_registry	10605-21-7
+moa_name	mitosis and cell division
+group_name	MBC - fungicides (Methyl Benzimidazole Carbamates)
+moa_code	B
+frac_code	1
+chebi_id	3392
+
+FRAC chemical	fluopyram
+chemical_group	pyridinyl-ethyl-benzamides
+target_code	C2
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	fluopyram
+resistance_risk	medium/high
+target_site	complex II: succinate-dehydro-genase
+cas_registry	658066-35-4
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+frac_code	7
+moa_code	C
+chebi_id	83070
+
+FRAC chemical	azaconazole
+chebi_id	
+moa_code	G
+frac_code	3
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	60207-31-0
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+common_name	azaconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+target_code	G1
+chemical_group	triazoles
+
+FRAC chemical	tolfenpyrad
+target_site	complex I NADH Oxido-reductase
+resistance_risk	unknown
+target_code	C1
+chemical_group	pyrazole-5-carboxamides
+comment	Resistance not known.
+common_name	tolfenpyrad
+chebi_id	38628
+moa_code	C
+frac_code	39
+group_name	pyrazole-MET1
+moa_name	respiration
+cas_registry	129558-76-5
+
+FRAC chemical	diniconazole
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	83657-18-5
+chebi_id	
+moa_code	G
+frac_code	3
+common_name	diniconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	triazoles
+target_code	G1
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+
+FRAC chemical	triforine
+target_code	G1
+chemical_group	piperazines
+common_name	triforine
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+cas_registry	26644-46-2
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+moa_code	G
+frac_code	3
+chebi_id	
+
+FRAC chemical	valifenalate
+frac_code	40
+moa_code	H
+chebi_id	83610
+cas_registry	283159-90-0
+group_name	CAA-fungicides (Carboxylic Acid Amides)
+moa_name	cell wall biosynthesis
+target_site	cellulose synthase
+resistance_risk	low/medium
+chemical_group	valinamide carbamates
+target_code	H5
+common_name	valifenalate
+comment	Resistance known in Plasmopara viticola but not in Phytophthora infestans. Cross resistance between all members of the CAA group. Low to medium risk. See FRAC CAA Guidelines for resistance management
+
+FRAC chemical	isopyrazam
+chebi_id	83126
+frac_code	7
+moa_code	C
+moa_name	respiration
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+cas_registry	881685-58-1
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+common_name	isopyrazam
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+target_code	C2
+chemical_group	pyrazole-4- carboxamides
+
+FRAC chemical	metalaxyl-M (=mefenoxam)
+frac_code	4
+moa_code	A
+chebi_id	60607
+cas_registry	70630-17-0
+moa_name	nucleic acids synthesis
+group_name	PA - fungicides (PhenylAmides)
+resistance_risk	high
+target_site	RNA polymerase I
+common_name	metalaxyl-M (=mefenoxam)
+comment	Resistance and cross resistance well known in various Oomycetes but mechanism unknown. High risk. See FRAC Phenylamide Guidelines for resistance management.
+target_code	A1
+chemical_group	acylalanines
+
+FRAC chemical	cyflufenamid
+moa_code	U
+frac_code	U6
+chebi_id	81797
+cas_registry	180409-60-3
+group_name	phenyl-acetamide
+moa_name	unknown
+target_site	unknown
+resistance_risk	unknown
+chemical_group	phenyl-acetamide
+target_code	U6
+common_name	cyflufenamid
+comment	Resistance in Sphaerotheca. Resistance management required
+
+FRAC chemical	bixafen
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+cas_registry	581809-46-3
+chebi_id	83106
+frac_code	7
+moa_code	C
+chemical_group	pyrazole-4- carboxamides
+target_code	C2
+common_name	bixafen
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+resistance_risk	medium/high
+target_site	complex II: succinate-dehydro-genase
+
+FRAC chemical	mineral oils, organic oils, potassium bicarbonate, material of biological origin
+chebi_id	
+moa_code	N
+frac_code	NC
+moa_name	not classified
+group_name	diverse
+cas_registry	
+resistance_risk	unknown
+target_site	unknown
+comment	Resistance not known
+common_name	mineral oils, organic oils, potassium bicarbonate, material of biological origin
+target_code	NC
+chemical_group	diverse
+
+FRAC chemical	thiophanate
+cas_registry	23564-06-9
+group_name	MBC - fungicides (Methyl Benzimidazole Carbamates)
+moa_name	mitosis and cell division
+moa_code	B
+frac_code	1
+chebi_id	82060
+target_code	B1
+chemical_group	thiophanates
+comment	Resistance common in many fungal species. Several target site mutations, mostly E198A/G/K, F200Y in β-tubulin gene. Positive cross resistance between the group members. Negative cross resistance to N-Phenylcarbamates. High risk. See FRAC Benzimidazole Guidelines for resistance management.
+common_name	thiophanate
+resistance_risk	high
+target_site	ß-tubuline assembly in mitosis
+
+FRAC chemical	isotianil
+group_name	thiadiazole-carboxamide
+moa_name	host plant defence induction
+cas_registry	224049-04-1
+chebi_id	83657
+frac_code	P3
+moa_code	P
+target_code	P3
+chemical_group	thiadiazole-carboxamide
+common_name	isotianil
+comment	Resistance not known
+resistance_risk	unknown
+target_site	none
+
+FRAC chemical	edifenphos
+chebi_id	
+moa_code	F
+frac_code	6
+moa_name	lipid synthesis and membrane integrity
+group_name	phosphoro-thiolates
+cas_registry	17109-49-8
+target_site	phospholipid biosynthesis, methyltrans-ferase
+resistance_risk	low/medium
+comment	Resistance known in specific fungi. Low to medium risk. Resistance management required if used for risky pathogens.
+common_name	edifenphos
+target_code	F2
+chemical_group	phosphoro-thiolates
+
+FRAC chemical	Bacillus amyloliquefaciens strain D747
+moa_name	lipid synthesis and membrane integrity
+group_name	microbial (Bacillus sp.)
+cas_registry	
+chebi_id	
+moa_code	F
+frac_code	44
+comment	*Synonyms for Bacillus amyloliquefaciens are Bacillus subtilis and B. subtilis var. amyloliquefaciens (previous taxonomic classification). Resistance not known. Induction of host plant defence described as additional mode of action for strain FZB24.
+common_name	Bacillus amyloliquefaciens strain D747
+chemical_group	Bacillus sp. and the fungicidal lipopeptides produced
+target_code	F6
+resistance_risk	unknown
+target_site	microbial disrupters of pathogen cell membranes
+
+FRAC chemical	pyraoxystrobin
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+cas_registry	862588-11-2
+chebi_id	83202
+frac_code	11
+moa_code	C
+common_name	pyraoxystrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+target_code	C3
+chemical_group	methoxy-acrylates
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+
+FRAC chemical	fenfuram
+chebi_id	81994
+frac_code	7
+moa_code	C
+moa_name	respiration
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+cas_registry	24691-80-3
+resistance_risk	medium/high
+target_site	complex II: succinate-dehydro-genase
+common_name	fenfuram
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+target_code	C2
+chemical_group	furan- carboxamides
+
+FRAC chemical	propineb
+cas_registry	12071-83-9
+moa_name	multi-site contact activity
+group_name	dithiocarbamates and relatives
+moa_code	M
+frac_code	M3
+chebi_id	81755
+common_name	propineb
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+chemical_group	dithiocarbamates and relatives
+target_code	M
+target_site	multi-site contact activity
+resistance_risk	low
+
+FRAC chemical	captafol
+moa_name	multi-site contact activity
+group_name	phthalimides
+cas_registry	2425-06-1
+chebi_id	81938
+moa_code	M
+frac_code	M4
+common_name	captafol
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+target_code	M
+chemical_group	phthalimides
+target_site	multi-site contact activity
+resistance_risk	low
+
+FRAC chemical	folpet
+group_name	phthalimides
+moa_name	multi-site contact activity
+cas_registry	133-07-3
+chebi_id	82019
+frac_code	M4
+moa_code	M
+target_code	M
+chemical_group	phthalimides
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	folpet
+target_site	multi-site contact activity
+resistance_risk	low
+
+FRAC chemical	ipconazole
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+common_name	ipconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+target_code	G1
+chemical_group	triazoles
+chebi_id	
+frac_code	3
+moa_code	G
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	125225-28-7
+
+FRAC chemical	isofetamid
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+cas_registry	875915-78-9
+chebi_id	83065
+frac_code	7
+moa_code	C
+chemical_group	phenyl-oxo-ethyl thiophene amide
+target_code	C2
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	isofetamid
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+
+FRAC chemical	difenoconazole
+target_code	G1
+chemical_group	triazoles
+common_name	difenoconazole
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+moa_name	sterol biosynthesis in membranes
+cas_registry	119446-68-3
+chebi_id	
+frac_code	3
+moa_code	G
+
+FRAC chemical	tridemorph
+target_site	delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+resistance_risk	low/medium
+target_code	G2
+chemical_group	morpholines
+comment	Decreased sensitivity for powdery mildews. Cross resistance within the group generally found but not to other SBI classes. Low to medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	tridemorph
+frac_code	5
+moa_code	G
+chebi_id	9700
+cas_registry	81412-43-3
+group_name	amines (“morpholines”) (SBI: Class II)
+moa_name	sterol biosynthesis in membranes
+
+FRAC chemical	ferimzone
+target_site	unknown
+resistance_risk	unknown
+chemical_group	pyrimidinone-hydrazones
+target_code	U14
+common_name	ferimzone
+comment	Resistance not known. Reclassified from C5 in 2012.
+chebi_id	81844
+moa_code	U
+frac_code	U14
+group_name	pyrimidinone-hydrazones
+moa_name	unknown
+cas_registry	89269-64-7
+
+FRAC chemical	pyributicarb
+cas_registry	88678-67-5
+group_name	(SBI class IV)
+moa_name	sterol biosynthesis in membranes
+frac_code	18
+moa_code	G
+chebi_id	81736
+target_code	G4
+chemical_group	thiocarbamates
+common_name	pyributicarb
+comment	Resistance not known, fungicidal and herbicidal activity
+target_site	squalene-epoxidase in sterol biosynthesis (erg1)
+resistance_risk	unknown
+
+FRAC chemical	thiophanate-methyl
+chemical_group	thiophanates
+target_code	B1
+common_name	thiophanate-methyl
+comment	Resistance common in many fungal species. Several target site mutations, mostly E198A/G/K, F200Y in β-tubulin gene. Positive cross resistance between the group members. Negative cross resistance to N-Phenylcarbamates. High risk. See FRAC Benzimidazole Guidelines for resistance management.
+target_site	ß-tubuline assembly in mitosis
+resistance_risk	high
+group_name	MBC - fungicides (Methyl Benzimidazole Carbamates)
+moa_name	mitosis and cell division
+cas_registry	23564-05-8
+chebi_id	35014
+moa_code	B
+frac_code	1
+
+FRAC chemical	fluoroimide
+target_site	multi-site contact activity
+resistance_risk	low
+common_name	fluoroimide
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+chemical_group	maleimide
+target_code	M
+moa_code	M
+frac_code	M11
+chebi_id	81826
+cas_registry	41205-21-4
+moa_name	multi-site contact activity
+group_name	maleimide
+
+FRAC chemical	fuberidazole
+frac_code	1
+moa_code	B
+chebi_id	81926
+cas_registry	3878-19-1
+moa_name	mitosis and cell division
+group_name	MBC - fungicides (Methyl Benzimidazole Carbamates)
+resistance_risk	high
+target_site	ß-tubuline assembly in mitosis
+common_name	fuberidazole
+comment	Resistance common in many fungal species. Several target site mutations, mostly E198A/G/K, F200Y in β-tubulin gene. Positive cross resistance between the group members. Negative cross resistance to N-Phenylcarbamates. High risk. See FRAC Benzimidazole Guidelines for resistance management.
+target_code	B1
+chemical_group	benzimidazoles
+
+FRAC chemical	metominostrobin
+moa_name	respiration
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+cas_registry	133408-50-1
+chebi_id	81831
+moa_code	C
+frac_code	11
+common_name	metominostrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+target_code	C3
+chemical_group	oximino-acetamides
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+
+FRAC chemical	mandipropamid
+moa_name	cell wall biosynthesis
+group_name	CAA-fungicides (Carboxylic Acid Amides)
+cas_registry	374726-62-2
+chebi_id	81802
+moa_code	H
+frac_code	40
+comment	Resistance known in Plasmopara viticola but not in Phytophthora infestans. Cross resistance between all members of the CAA group. Low to medium risk. See FRAC CAA Guidelines for resistance management
+common_name	mandipropamid
+target_code	H5
+chemical_group	mandelic acid amides
+target_site	cellulose synthase
+resistance_risk	low/medium
+
+FRAC chemical	thifluzamide
+frac_code	7
+moa_code	C
+chebi_id	81794
+cas_registry	130000-40-7
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+resistance_risk	medium/high
+target_site	complex II: succinate-dehydro-genase
+chemical_group	thiazole- carboxamides
+target_code	C2
+common_name	thifluzamide
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+
+FRAC chemical	chloroneb
+cas_registry	2675-77-6
+group_name	AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+moa_name	lipid synthesis and membrane integrity
+frac_code	14
+moa_code	F
+chebi_id	3628
+chemical_group	aromatic hydrocarbons
+target_code	F3
+common_name	chloroneb
+comment	Resistance known in some fungi. Low to medium risk. Cross resistance patterns complex due to different activity spectra.
+resistance_risk	low/medium
+target_site	lipid peroxidation (proposed)
+
+FRAC chemical	benthiavalicarb
+chebi_id	83601
+moa_code	H
+frac_code	40
+moa_name	cell wall biosynthesis
+group_name	CAA-fungicides (Carboxylic Acid Amides)
+cas_registry	413615-35-7
+resistance_risk	low/medium
+target_site	cellulose synthase
+comment	Resistance known in Plasmopara viticola but not in Phytophthora infestans. Cross resistance between all members of the CAA group. Low to medium risk. See FRAC CAA Guidelines for resistance management
+common_name	benthiavalicarb
+chemical_group	valinamide carbamates
+target_code	H5
+
+FRAC chemical	azoxystrobin
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+cas_registry	131860-33-8
+chebi_id	40909
+moa_code	C
+frac_code	11
+target_code	C3
+chemical_group	methoxy-acrylates
+common_name	azoxystrobin
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+resistance_risk	high
+
+FRAC chemical	fenpiclonil
+common_name	fenpiclonil
+comment	Resistance found sporadically, mechanism speculative. Low to medium risk. Resistance management required.
+target_code	E2
+chemical_group	phenylpyrroles
+target_site	MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+resistance_risk	low/medium
+cas_registry	74738-17-3
+moa_name	signal transduction
+group_name	PP-fungicides (PhenylPyrroles)
+frac_code	12
+moa_code	E
+chebi_id	34759
+
+FRAC chemical	naftifine
+chemical_group	allylamines
+target_code	G4
+common_name	naftifine
+comment	Medical fungicides only
+target_site	squalene-epoxidase in sterol biosynthesis (erg1)
+resistance_risk	unknown
+cas_registry	65472-88-0
+group_name	(SBI class IV)
+moa_name	sterol biosynthesis in membranes
+frac_code	18
+moa_code	G
+chebi_id	7451
+
+FRAC chemical	iprobenfos (IBP)
+moa_code	F
+frac_code	6
+chebi_id	
+cas_registry	26087-47-8
+group_name	phosphoro-thiolates
+moa_name	lipid synthesis and membrane integrity
+target_site	phospholipid biosynthesis, methyltrans-ferase
+resistance_risk	low/medium
+target_code	F2
+chemical_group	phosphoro-thiolates
+comment	Resistance known in specific fungi. Low to medium risk. Resistance management required if used for risky pathogens.
+common_name	iprobenfos (IBP)
+
+FRAC chemical	metalaxyl
+resistance_risk	high
+target_site	RNA polymerase I
+chemical_group	acylalanines
+target_code	A1
+common_name	metalaxyl
+comment	Resistance and cross resistance well known in various Oomycetes but mechanism unknown. High risk. See FRAC Phenylamide Guidelines for resistance management.
+chebi_id	6790
+moa_code	A
+frac_code	4
+group_name	PA - fungicides (PhenylAmides)
+moa_name	nucleic acids synthesis
+cas_registry	57837-19-1
+
+FRAC chemical	ethaboxam
+target_site	ß-tubulin assembly in mitosis
+resistance_risk	low/medium
+chemical_group	ethylamino-thiazole-carboxamide
+target_code	B3
+comment	Low to medium risk. Resistance management required.
+common_name	ethaboxam
+chebi_id	82856
+frac_code	22
+moa_code	B
+group_name	thiazole carboxamide
+moa_name	mitosis and cell division
+cas_registry	162650-77-3
+
+FRAC chemical	pyroquilon
+comment	Resistance not known
+common_name	pyroquilon
+chemical_group	pyrrolo-quinolinone
+target_code	I1
+target_site	reductase in melanin biosynthesis
+resistance_risk	unknown
+cas_registry	57369-32-1
+moa_name	melanin synthesis in cell wall
+group_name	MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+frac_code	16.1
+moa_code	I
+chebi_id	45141
+
+FRAC chemical	iodocarb
+target_site	cell membrane permeability, fatty acids (proposed)
+resistance_risk	low/medium
+target_code	F4
+chemical_group	carbamates
+common_name	iodocarb
+comment	Low to medium risk. Resistance management required.
+chebi_id	83279
+frac_code	28
+moa_code	F
+group_name	carbamates
+moa_name	lipid synthesis and membrane integrity
+cas_registry	55406-53-6
+
+FRAC chemical	sulphur
+group_name	inorganic
+moa_name	multi-site contact activity
+cas_registry	7704-34-9
+chebi_id	17909
+moa_code	M
+frac_code	M2
+target_code	M
+chemical_group	inorganic
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+common_name	sulphur
+resistance_risk	low
+target_site	multi-site contact activity
+
+FRAC chemical	penflufen
+resistance_risk	medium/high
+target_site	complex II: succinate-dehydro-genase
+target_code	C2
+chemical_group	pyrazole-4- carboxamides
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	penflufen
+moa_code	C
+frac_code	7
+chebi_id	83134
+cas_registry	494793-67-8
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+moa_name	respiration
+
+FRAC chemical	pyrifenox
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	88283-41-4
+chebi_id	
+frac_code	3
+moa_code	G
+common_name	pyrifenox
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+chemical_group	pyridines
+target_code	G1
+resistance_risk	medium
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+
+FRAC chemical	silthiofam
+target_site	ATP production (proposed)
+resistance_risk	low
+target_code	C7
+chemical_group	thiophene-carboxamides
+comment	Resistance reported. Risk low.
+common_name	silthiofam
+chebi_id	83393
+frac_code	38
+moa_code	C
+group_name	thiophene-carboxamides
+moa_name	respiration
+cas_registry	175217-20-6
+
+FRAC chemical	flusulfamide
+frac_code	36
+moa_code	U
+chebi_id	81801
+cas_registry	106917-52-6
+group_name	benzene-sulfonamides
+moa_name	unknown
+resistance_risk	unknown
+target_site	unknown
+chemical_group	benzene-sulfonamides
+target_code	U5
+comment	Resistance not known
+common_name	flusulfamide
+
+FRAC chemical	pyraclostrobin
+moa_code	C
+frac_code	11
+chebi_id	78780
+cas_registry	175013-18-0
+group_name	QoI-fungicides (Quinone outside Inhibitors)
+moa_name	respiration
+resistance_risk	high
+target_site	complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+chemical_group	methoxy-carbamates
+target_code	C3
+comment	Resistance known in various fungal species. Target site mutations in cyt b gene (G143A, F129L) and additional mechanisms. Cross resistance shown between all members of the QoI group. High risk. See FRAC QoI Guidelines for resistance management.
+common_name	pyraclostrobin
+
+FRAC chemical	chlorothalonil
+cas_registry	1897-45-6
+group_name	chloronitriles (phthalonitriles)
+moa_name	multi-site contact activity
+frac_code	M5
+moa_code	M
+chebi_id	3639
+target_code	M
+chemical_group	chloronitriles (phthalonitriles)
+common_name	chlorothalonil
+comment	Generally considered as a low risk group without any signs of resistance developing to the fungicides
+target_site	multi-site contact activity
+resistance_risk	low
+
+FRAC chemical	fluxapyroxad
+comment	Resistance known for several fungal species in field populations and lab mutants. Target site mutations in sdh gene, e.g. H/Y (or H/L) at 257, 267, 272 or P225L, dependent on fungal species. Resistance management required. Medium to high risk. See FRAC SDHI Guidelines for resistance management.
+common_name	fluxapyroxad
+chemical_group	pyrazole-4- carboxamides
+target_code	C2
+target_site	complex II: succinate-dehydro-genase
+resistance_risk	medium/high
+cas_registry	907204-31-3
+moa_name	respiration
+group_name	SDHI (Succinate dehydrogenase inhibitors)
+frac_code	7
+moa_code	C
+chebi_id	83113
+
+FRAC chemical	bromuconazole
+chebi_id	
+frac_code	3
+moa_code	G
+moa_name	sterol biosynthesis in membranes
+group_name	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+cas_registry	116255-48-2
+target_site	C14-demethylase in sterol biosynthesis (erg11/cyp51)
+resistance_risk	medium
+comment	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.
+common_name	bromuconazole
+chemical_group	triazoles
+target_code	G1
+
+FRAC chemical	pyrimethanil
+cas_registry	53112-28-0
+group_name	AP - fungicides (Anilino-Pyrimidines)
+moa_name	amino acids and protein synthesis
+frac_code	9
+moa_code	D
+chebi_id	8674
+target_code	D1
+chemical_group	anilino-pyrimidines
+comment	Resistance known in Botrytis and Venturia, sporadically in Oculimacula . Medium risk. See FRAC Anilinopyrimidine Guidelines for resistance management.
+common_name	pyrimethanil
+target_site	methionine biosynthesis (proposed) (cgs gene)
+resistance_risk	medium
+
+FRAC chemical	cymoxanil
+resistance_risk	low/medium
+target_site	unknown
+target_code	U1
+chemical_group	cyanoacetamide-oxime
+common_name	cymoxanil
+comment	Resistance claims described. Low to medium risk. Resistance management required.
+frac_code	27
+moa_code	U
+chebi_id	
+cas_registry	57966-95-7
+group_name	cyanoacetamide-oxime
+moa_name	unknown
+
+FRAC chemical	streptomycin
+group_name	glucopyranosyl antibiotic
+moa_name	amino acids and protein synthesis
+cas_registry	57-92-1
+chebi_id	17076
+moa_code	D
+frac_code	25
+chemical_group	glucopyranosyl antibiotic
+target_code	D4
+comment	Bactericide. Resistance known. High risk. Resistance management required.
+common_name	streptomycin
+resistance_risk	high
+target_site	protein synthesis
+
+FRAC chemical	thiabendazole
+comment	Resistance common in many fungal species. Several target site mutations, mostly E198A/G/K, F200Y in β-tubulin gene. Positive cross resistance between the group members. Negative cross resistance to N-Phenylcarbamates. High risk. See FRAC Benzimidazole Guidelines for resistance management.
+common_name	thiabendazole
+chemical_group	benzimidazoles
+target_code	B1
+target_site	ß-tubuline assembly in mitosis
+resistance_risk	high
+cas_registry	148-79-8
+moa_name	mitosis and cell division
+group_name	MBC - fungicides (Methyl Benzimidazole Carbamates)
+moa_code	B
+frac_code	1
+chebi_id	45979
+
