@@ -142,18 +142,23 @@ CREATE TABLE interaction_tissue (
 CREATE TABLE frac (
     id SERIAL PRIMARY KEY,
     frac_code varchar(50),    
-    mode_of_action varchar(50),    
-    target_site varchar(50),    
-    group_name varchar(50),    
-    chem_group varchar(50)    
+    moa_code varchar(50),
+    moa_name varchar(100),
+    target_code varchar(50),    
+    target_site varchar(100),    
+    group_name varchar(100),    
+    chemical_group varchar(100),
+    common_name varchar(100),
+    resistance_risk varchar(50),
+    comments varchar(1000)
 );
 
 CREATE TABLE chemical (
     id SERIAL PRIMARY KEY,
-    chebi_id varchar(50),    
+    chebi_id varchar(50),
+    cas_registry varchar(50),    
     frac_id integer REFERENCES frac,
-    mode_in_planta varchar(50),
-    comment varchar(50)
+    mode_in_planta varchar(50)
 );
 
 CREATE TABLE interaction_anti_infective_chemical (
