@@ -1,6 +1,1628 @@
 
+CHEBI:3009
+Name: benalaxyl
+Synonym: (+-)-benalaxyl
+Synonym: (Dimethylphenyl)-N-(phenylacetyl)-DL-alanine methyl ester
+Synonym: (RS)-benalaxyl
+Synonym: M 9834
+Synonym: methyl N-(2,6-dimethylphenyl)-N-(phenylacetyl)-DL-alaninate
+Synonym: methyl N-(phenylacetyl)-N-(2,6-xylyl)-DL-alaninate
+Synonym: Methyl N-phenylacetyl-N-2,6-xylyl-DL-alaninate
+Synonym: rac-benalaxyl
+Synonym: racemic benalaxyl
+CAS Registry: 71626-11-4
+
+CHEBI:82779
+Name: benalaxyl-M
+Synonym: (-)-R-Benalaxyl
+Synonym: D-Benalaxyl
+Synonym: IR 6141
+Synonym: Kiralaxyl
+Synonym: methyl N-(phenylacetyl)-N-(2,6-xylyl)-D-alaninate
+CAS Registry: 98243-83-5
+
+CHEBI:5194
+Name: furalaxyl
+Synonym: (+-)-furalaxyl
+Synonym: (RS)-furalaxyl
+Synonym: A 5430
+Synonym: CGA 38140
+Synonym: CGA-38140
+Synonym: Fongarid
+Synonym: Furalaxyl
+Synonym: Methyl N-(2,6-dimethylphenyl)-N-(2-furanylcarbonyl)-DL-alaninate
+Synonym: Methyl N-(2,6-dimethylphenyl)-N-(2-furoyl)-DL-alaninate
+Synonym: Methyl N-(2-furoyl)-N-(2,6-xylyl)-DL-alaninate
+Synonym: N-(2,6-Dimethylphenyl)-N-(2-furanylcarbonyl)-DL-alanine methyl ester
+Synonym: rac-furalaxyl
+Synonym: racemic furalaxyl
+CAS Registry: 57646-30-7
+
+CHEBI:6790
+Name: metalaxyl
+Synonym: (+-)-metalaxyl
+Synonym: (RS)-metalaxyl
+Synonym: D,L-N-(2,6-dimethylphenyl)-N-(2'-methoxyacetyl)alaninate de methyle
+Synonym: Metalaxyl
+Synonym: methyl 2-[(methoxyacetyl)-2,6-dimethylanilino]propanoate
+Synonym: methyl N-(2,6-dimethylphenyl)-N-(methoxyacetyl)-DL-alaninate
+Synonym: methyl N-(2-methoxyacetyl)-N-(2,6-xylyl)-DL-alaninate
+Synonym: N-(2,6-dimethylphenyl)-N-(methoxyacetyl)-alanine methyl ester
+Synonym: rac-metalaxyl
+CAS Registry: 57837-19-1
+
+CHEBI:60607
+Name: metalaxyl-M
+Synonym: (-)-metalaxyl
+Synonym: (R)-metalaxyl
+Synonym: (R)-N-(2,6-dimethylphenyl)-N-(methoxyacetylamino)propionic acid methyl ester
+Synonym: mefenoxam
+Synonym: methyl (R)-2-{[(2,6-dimethylphenyl)methoxyacetyl]amino} propionate
+Synonym: methyl (R)-N-(2,6-dimethylphenyl)-N-(methoxyacetyl)alaninate
+Synonym: methyl N-(methoxyacetyl)-N-(2,6-xylyl)-D-alaninate
+Synonym: R-metalaxyl
+CAS Registry: 70630-17-0
+
+CHEBI:81937
+Name: oxadixyl
+Synonym: 2-Methoxy-N-(2-oxo-1,3-oxazolidin-3-yl)acet-2',6'-xylidide
+Synonym: 2-Methoxy-N-(2-oxo-1,3-oxazolidine-3-yl)-acet-2,6-xylidine
+Synonym: M 10797
+Synonym: N-(2,6-dimethylphenyl)-2-methoxy-N-(2-oxo-3-oxazolidinyl)acetamide
+Synonym: SAN 371
+Synonym: SAN 371F
+Synonym: Sandofan
+CAS Registry: 77732-09-3
+
+CHEBI:81969
+Name: ofurace
+Synonym: (+-)-alpha-2-Chloro-N-2,6-xylylacetamido-gamma-butyrolactone
+Synonym: (RS)-alpha-(2-chloro-N-2,6-xylylacetamido)-gamma-butyrolactone
+Synonym: 2-Chloro-2',6'-dimethyl-N-(2-oxotetrahydro-3-furyl)acetanilide
+Synonym: 2-Chloro-N-(2,6-dimethylphenyl)-N-(tetrahydro-2-oxo-3-furanyl)acetamide
+Synonym: Milfuram
+Synonym: RE 20615
+CAS Registry: 58810-48-3
+
+CHEBI:81952
+Name: bupirimate
+Synonym: 2-Aethylamino-5-butyl-4-yl-dimethylsulfamat
+Synonym: 5-Butyl-2-(ethylamino)-6-methyl-4-pyrimidinyl dimethylsulfamate
+Synonym: 5-Butyl-2-ethylamino-6-methylpyrimidin-4-yl dimethylsulphamate
+Synonym: Dimethylsulfamic acid 5-butyl-2-(ethylamino)-6-methyl-4-pyrimidinyl ester
+CAS Registry: 41483-43-6
+
+CHEBI:81958
+Name: dimethirimol
+Synonym: 2-Dimethylamino-4-hydroxy-5-n-butyl-6-methylpyrimidine
+Synonym: 2-Dimethylamino-4-methyl-5-n-butyl-6-hydroxypyrimidine
+Synonym: 5-Butyl-2-(dimethylamino)-6-methyl-4(1H)-pyrimidinone
+Synonym: 5-Butyl-2-(dimethylamino)-6-methyl-4-pyrimidinol
+Synonym: 5-n-Butyl-2-dimethylamino-4-hydroxy-6-methylpyrimidine
+Synonym: Dimethyrimol
+CAS Registry: 5221-53-4
+
+CHEBI:81989
+Name: ethirimol
+Synonym: 2-Ethylamino-4-methyl-5-n-butyl-6-hydroxypyrimidine
+Synonym: 5-Butyl-2-(ethylamino)-6-methyl-4(1H)-pyrimidinone
+Synonym: 5-Butyl-2-(ethylamino)-6-methyl-4-pyrimidinol
+Synonym: 5-n-Butyl-2-ethylamino-4-hydroxy-6-methylpyrimidine
+CAS Registry: 23947-60-6
+
+CHEBI:5827
+Name: hymexazol
+Synonym: 3-Hydroxy-5-methylisoxazole
+Synonym: 5-Methyl-3(2H)-isoxazolone
+Synonym: 5-Methyl-3-hydroxyisoxazole
+Synonym: 5-Methylisoxazol-3-ol
+Synonym: F 319
+Synonym: F-319
+Synonym: Hydroxyisoxazole
+Synonym: Hymexazole
+Synonym: NSC 217971
+Synonym: SF-6505
+CAS Registry: 10004-44-1
+
+CHEBI:81936
+Name: octhilinone
+Synonym: 2-n-Octyl-4-isothiazolin-3-one
+Synonym: 2-octyl-2H-isothiazol-3-one
+Synonym: 2-Octyl-3(2H)-isothiazolone
+Synonym: 2-Octyl-3-isothiazolinone
+Synonym: 2-Octyl-3-isothiazolone
+Synonym: 2-Octyl-3-isothioazolone
+Synonym: 2-Octyl-4-isothiazolin-3-one
+Synonym: Octyl-3(2H)-isothiazolone
+Synonym: Octyl-4-isothiazol-3-one
+CAS Registry: 26530-20-1
+
+CHEBI:138856
+Name: oxolinic acid
+Synonym: 1-Ethyl-1,4-dihydro-6,7-methylenedioxy-4-oxo-3-quinolinecarboxylic acid
+Synonym: 1-Ethyl-6,7-methylenedioxy-4-quinolone-3-carboxylic acid
+Synonym: 5-Ethyl-5,8-dihydro-8-oxo-1,3-dioxolo(4,5-g)quinoline-7-carboxylic acid
+Synonym: acide oxolinique
+Synonym: acido oxolinico
+Synonym: acidum oxolinicum
+Synonym: OA
+Synonym: oxolinic acid
+Synonym: oxolinic acid
+CAS Registry: 14698-29-4
+
+CHEBI:3015
+Name: benomyl
+Synonym: 1-(Butylcarbamoyl)-2-benzimidazol-methylcarbamat
+Synonym: 1-(Butylcarbamoyl)-2-benzimidazolecarbamic acid, methyl ester
+Synonym: 1-(N-Butylcarbamoyl)-2-(methoxy-carboxamido)-benzimidazol
+Synonym: Benlate
+Synonym: Benlate
+Synonym: Benomyl
+Synonym: Methyl 1-(butylamino)carbonyl-1H-benzimidazol-2-ylcarbamate
+Synonym: Methyl 1-(butylcarbamoyl)-2-benzimidazolecarbamate
+Synonym: Methyl N-(1-butylcarbamoyl-2-benzimidazole)carbamate
+CAS Registry: 17804-35-2
+
+CHEBI:3392
+Name: carbendazim
+Synonym: 1H-benzimidazol-2-ylcarbamic acid methyl ester
+Synonym: 2-(Methoxy-carbonylamino)-benzimidazol
+Synonym: 2-(methoxycarbonylamino)-benzimidazole
+Synonym: 2-(methoxycarbonylamino)benzimidazole
+Synonym: 2-benzimidazolecarbamic acid methyl ester
+Synonym: BMC
+Synonym: Carbendazim
+Synonym: carbendazime
+Synonym: MBC
+Synonym: Mecarzole
+Synonym: methyl 2-benzimidazolecarbamate
+Synonym: methyl benzimidazol-2-ylcarbamate
+CAS Registry: 10605-21-7
+
+CHEBI:81926
+Name: fuberidazole
+Synonym: 2-(2'-Furyl)-benzimidazole
+Synonym: 2-(2-Furanyl)-1H-benzimidazole
+Synonym: 2-(2-Furyl)benzimidazole
+Synonym: 2-(furan-2-yl)-benzimidazole
+Synonym: BAY 33172
+Synonym: Bayer 33172
+Synonym: Fuberidatol
+Synonym: Fuberidazol
+Synonym: Fubridazole
+Synonym: Furidazol
+Synonym: Furidazole
+CAS Registry: 3878-19-1
+
+CHEBI:45979
+Name: thiabendazole
+Synonym: 2-(1,3-THIAZOL-4-YL)-1H-BENZIMIDAZOLE
+Synonym: 2-(1,3-thiazol-4-yl)benzimidazole
+Synonym: 2-(4-thiazolyl)-1H-benzimidazole
+Synonym: 2-(thiazol-4-yl)benzimidazole
+Synonym: 4-(2-benzimidazolyl)thiazole
+Synonym: Equizole
+Synonym: Mintezol
+Synonym: MK 360
+Synonym: TBZ
+Synonym: Thiabendazole
+Synonym: Thibenzole
+Synonym: Tiabendazole
+CAS Registry: 148-79-8
+
+CHEBI:82060
+Name: thiophanate
+Synonym: 1,2-Bis(3-(ethoxycarbonyl)-2-thioureido)benzene
+Synonym: 1,2-Bis(3-ethoxycarbonyl-2-thioureido) benzene
+Synonym: 1,2-Di-(3-ethoxycarbonyl-2-thioureido)benzene
+Synonym: 4,4'-o-Phenylenebis(ethyl 3-thioallophanate)
+Synonym: Diethyl 4,4'-o-phenylenebis(3-thioallophanate)
+Synonym: diethyl N,N'-[1,2-phenylenebis(azanediylcarbonothioyl)]dicarbamate
+Synonym: diethyl N,N'-[1,2-phenylenebis(iminocarbonothioyl)]bis[carbamate]
+Synonym: Ethyl thiophanate
+Synonym: Thiophanat
+CAS Registry: 23564-06-9
+
+CHEBI:35014
+Name: thiophanate-methyl
+Synonym: 1,2-Bis(3-(methoxycarbonyl)-2-thioureido)benzene
+Synonym: 1,2-Bis(methoxycarbonylthioureido)benzene
+Synonym: 1,2-Di-(3-methoxycarbonyl-2-thioureido)benzene
+Synonym: 1,2-Di-(3-methoxycarbonyl-2-thioureido)benzene
+Synonym: dimethyl 4,4'-(o-phenylene)bis(3-thioallophanate)
+Synonym: dimethyl N,N'-[1,2-phenylenebis(azanediylcarbonothioyl)]dicarbamate
+Synonym: dimethyl N,N'-[1,2-phenylenebis(iminocarbonothioyl)]bis[carbamate]
+Synonym: Methyl thiophanate
+Synonym: Methylthiofanate
+Synonym: Methylthiophanate
+Synonym: o-Bis(3-methoxycarbonyl-2-thioureido)benzene
+CAS Registry: 23564-05-8
+
+CHEBI:4520
+Name: diethofencarb
+Synonym: 1-Methylethyl (3,4-diethoxyphenyl)carbamate
+Synonym: 1-methylethyl N-(3,4-diethoxyphenyl)carbamate
+Synonym: isopropyl (3,4-diethoxyphenyl)carbamate
+Synonym: Isopropyl 3,4-diethoxycarbanilate
+CAS Registry: 87130-20-9
+
+CHEBI:82048
+Name: zoxamide
+Synonym: (+-)-zoxamide
+Synonym: (RS)-3,5-dichloro-N-(3-chloro-1-ethyl-1-methyl-2-oxopropyl)-p-toluamide
+Synonym: (RS)-zoxamide
+Synonym: 3,5-dichloro-N-(3-chloro-1-ethyl-1-methyl-2-oxopropyl)-4-methylbenzamide
+Synonym: 3,5-Dichloro-N-(3-chloro-1-ethyl-1-methyl-2-oxopropyl)-p-toluamide
+Synonym: rac-zoxamide
+Synonym: racemic zoxamide
+CAS Registry: 156052-68-5
+
+CHEBI:82856
+Name: ethaboxam
+Synonym: (+-)-ethaboxam
+Synonym: (RS)-ethaboxam
+Synonym: (RS)-N-(alpha-cyano-2-thenyl)-4-ethyl-2-(ethylamino)-1,3-thiazole-5-carboxamide
+Synonym: N-(cyano-2-thienylmethyl)-4-ethyl-2-(ethylamino)-5-thiazolecarboxamide
+Synonym: rac-ethaboxam
+Synonym: racemic ethaboxam
+CAS Registry: 162650-77-3
+
+CHEBI:7957
+Name: pencycuron
+Synonym: 1-(p-Chlorobenzyl)-1-cyclopentyl-3-phenylurea
+Synonym: 1-[(4-chlorophenyl)methyl]-1-cyclopentyl-3-phenylurea
+Synonym: [(Chlorophenyl)-methyl]-N-cyclopentyl-N'-phenylurea
+Synonym: Monceren
+Synonym: N-((4-Chlorophenyl)methyl)-N-cyclopentyl-N'-phenylurea
+CAS Registry: 66063-05-6
+
+CHEBI:81764
+Name: fluopicolide
+Synonym: 2,6-dichloro-N-[3-chloro-5-(trifluoromethyl)-2-pyridylmethyl]benzamide
+CAS Registry: 239110-15-7
+
+CHEBI:82860
+Name: diflumetorim
+Synonym: (+-)-diflumetorim
+Synonym: (RS)-5-chloro-N-{1-[4-(difluoromethoxy)phenyl]propyl}-6-methylpyrimidin-4-ylamine
+Synonym: (RS)-diflumetorim
+Synonym: 5-chloro-N-[1-[4-(difluoromethoxy)phenyl]propyl]-6-methyl-4-pyrimidinamine
+Synonym: rac-diflumetorim
+Synonym: racemic diflumetorim
+CAS Registry: 130339-07-0
+
+CHEBI:38628
+Name: tolfenpyrad
+Synonym: 4-chloro-3-ethyl-1-methyl-N-(4-(p-tolyloxy)benzyl)pyrazole-5-carboxamide
+Synonym: tolfenpyrad
+CAS Registry: 129558-76-5
+
+CHEBI:82052
+Name: benodanil
+Synonym: 2-Iodobenzanilide
+Synonym: 2-Iodobenzoic acid anilide
+Synonym: BAS 3170F
+Synonym: BAS-3170
+CAS Registry: 15310-01-7
+
+CHEBI:81792
+Name: flutolanil
+Synonym: 3'-isopropoxy-2-trifloromethylbenzoic acid anilide
+Synonym: alpha,alpha,alpha-trifluoro-3'-isopropoxy-o-toluanilide
+Synonym: alpha,alpha,alpha-Trifluoro-3'-isopropoxy-o-toluanilide
+Synonym: Moncut
+Synonym: N-(3-(1-Methylethoxy)phenyl)-2-(trifluoromethyl)benzamide
+Synonym: N-(3-isopropoxyphenyl)-2-(trifluoromethyl)benzamide
+Synonym: NNF-136
+Synonym: o-trifluoromethyl-m'-isopropoxybenzoic anilide
+CAS Registry: 66332-96-5
+
+CHEBI:81823
+Name: mepronil
+Synonym: 2-Methyl-3'-isopropoxybenzanilide
+Synonym: 2-Methyl-N-(3-(1-methylethoxy)phenyl)benzamide
+Synonym: 2-methyl-N-[3-(propan-2-yloxy)phenyl]benzamide
+Synonym: 3'-Isopropoxy-2-methylbenzanilide
+Synonym: 3'-isopropoxy-2-methylbenzoic acid anilide
+Synonym: 3'-Isopropoxy-o-toluanilide
+Synonym: B1-2459
+Synonym: Basitac
+CAS Registry: 55814-41-0
+
+CHEBI:83065
+Name: isofetamid
+Synonym: 3-methyl-N-{2-methyl-1-[2-methyl-4-(propan-2-yloxy)phenyl]-1-oxopropan-2-yl}thiophene-2-carboxamide
+Synonym: IKF 5411
+Synonym: IKF-5411
+Synonym: N-[1,1-dimethyl-2-(4-isopropoxy-o-tolyl)-2-oxoethyl]-3-methylthiophene-2-carboxamide
+Synonym: N-[1,1-dimethyl-2-[2-methyl-4-(1-methylethoxy)phenyl]-2-oxoethyl]-3-methyl-2-thiophenecarboxamide
+CAS Registry: 875915-78-9
+
+CHEBI:83070
+Name: fluopyram
+Synonym: N-{2-(3-chloro-5-(trifluoromethyl)-2-pyridyl)ethyl}-alpha,alpha,alpha-trifluoro-o-toluamide
+Synonym: N-{2-[3-chloro-5-(trifluoromethyl)-2-pyridyl]ethyl}-alpha,alpha,alpha-trifluoro-o-toluamide
+CAS Registry: 658066-35-4
+
+CHEBI:81994
+Name: fenfuram
+Synonym: 2-Methyl-3-furanilide
+Synonym: 2-Methyl-N-phenyl-3-furancarboxamide
+Synonym: 2-Methyl-N-phenylfuran-3-carboxamide
+Synonym: 2-Methylfuran-3-carboxanilide
+Synonym: Fenfurame
+CAS Registry: 24691-80-3
+
+CHEBI:3405
+Name: carboxin
+Synonym: 2,3-Dihydro-5-carboxanilido-6-methyl-1,4-oxathiin
+Synonym: 2,3-Dihydro-6-methyl-1,4-oxathiin-5-carboxanilide
+Synonym: 2,3-Dihydro-6-methyl-5-phenylcarbamoyl-1,4-oxathiin
+Synonym: 5,6-Dihydro-2-methyl-1,4-oxathiin-3-carboxanilide
+Synonym: 5,6-Dihydro-2-methyl-3-carboxanilido-1,4-oxathiin
+Synonym: 5,6-Dihydro-2-methyl-N-phenyl-1,4-oxathiin-3-carboxamide
+Synonym: 5-Carboxanilido-2,3-dihydro-6-methyl-1,4-oxathiin
+Synonym: Carbathiin
+Synonym: Carboxine
+Synonym: oxatin
+CAS Registry: 5234-68-4
+
+CHEBI:7858
+Name: oxycarboxin
+Synonym: 5,6-Dihydro-2-methyl-N-phenyl-1,4-oxathiin-3-carboxamide 4,4-dioxide
+Synonym: Dihydro-2-methyl-1,4-oxathiin-3-carboxanilide 4,4-dioxide
+CAS Registry: 5259-88-1
+
+CHEBI:81794
+Name: thifluzamide
+Synonym: 2',6'-dibromo-2-methyl-4'-trifluoromethoxy-4-trifluoromethyl-1,3-thiazole-5-carboxanilide
+Synonym: N-[2,6-dibromo-4-(trifluoromethoxy)phenyl]-2-methyl-4-(trifluoromethyl)-5-thiazolecarboxamide
+CAS Registry: 130000-40-7
+
+CHEBI:83092
+Name: benzovindiflupyr
+Synonym: N-[(1RS,4SR)-9-(dichloromethylene)-1,2,3,4-tetrahydro-1,4-methanonaphthalen-5-yl]-3-(difluoromethyl)-1-methylpyrazole-4-carboxamide
+Synonym: N-[9-(dichloromethylene)-1,2,3,4-tetrahydro-1,4-methanonaphthalen-5-yl]-3-(difluoromethyl)-1-methyl-1H-pyrazole-4-carboxamide
+Synonym: rac-benzovindiflupyr
+Synonym: racemic benzovindiflupyr
+Synonym: Solatenol
+
+CHEBI:83106
+Name: bixafen
+Synonym: N-(3',4'-dichloro-5-fluorobiphenyl-2-yl)-3-(difluoromethyl)-1-methylpyrazole-4-carboxamide
+Synonym: N-(3,4-dichloro-5-fluorobiphenyl-2-yl)-3-(difluoromethyl)-1-methylpyrazole-4-carboxamide
+CAS Registry: 581809-46-3
+
+CHEBI:83113
+Name: fluxapyroxad
+Synonym: 3-(difluoromethyl)-1-methyl-N-(3',4',5'-trifluorobiphenyl-2-yl)pyrazole-4-carboxamide
+CAS Registry: 907204-31-3
+
+CHEBI:81793
+Name: furametpyr
+Synonym: (+-)-furametpyr
+Synonym: (RS)-5-chloro-N-(1,3-dihydro-1,1,3-trimethylisobenzofuran-4-yl)-1,3-dimethylpyrazole-4-carboxamide
+Synonym: (RS)-furametpyr
+Synonym: rac-furametpyr
+Synonym: racemic furametpyr
+CAS Registry: 123572-88-3
+
+CHEBI:83126
+Name: isopyrazam
+Synonym: 3-(difluoromethyl)-1-methyl-N-(1,2,3,4-tetrahydro-9-(1-methylethyl)-1,4-methanonaphthalen-5-yl)-1H-pyrazole-4-carboxamide
+Synonym: 3-(difluoromethyl)-1-methyl-N-[1,2,3,4-tetrahydro-9-(propan-2-yl)-1,4-methanonaphthalen-5-yl]-1H-pyrazole-4-carboxamide
+Synonym: 3-(difluoromethyl)-N-(9-isopropyl-1,2,3,4-tetrahydro-1,4-methanonaphthalen-5-yl)-1-methyl-1H-pyrazole-4-carboxamide
+CAS Registry: 881685-58-1
+
+CHEBI:83134
+Name: 5-fluoro-1,3-dimethyl-N-[2-(4-methylpentan-2-yl)phenyl]pyrazole-4-carboxamide
+
+CHEBI:81777
+Name: penthiopyrad
+Synonym: (+-)-penthiopyrad
+Synonym: (RS)-penthiopyrad
+Synonym: N-[2-(1,3-dimethylbutyl)-3-thienyl]-1-methyl-3-(trifluoromethyl)-1H-pyrazole-4-carboxamide
+Synonym: rac-penthiopyrad
+Synonym: racemic penthiopyrad
+CAS Registry: 183675-82-3
+
+CHEBI:83173
+Name: sedaxane
+Synonym: N-(2-(1,1'-bicyclopropyl)-2-ylphenyl)-3-(difluoromethyl)-1-methyl-1H-pyrazole-4-carboxamide
+CAS Registry: 874967-67-6
+
+CHEBI:81822
+Name: boscalid
+Synonym: 2-chloro-N-(4'-chloro[1,1'-biphenyl]-2-yl)-3-pyridinecarboxamide
+Synonym: 2-chloro-N-(4'-chloro[1,1'-biphenyl]-2-yl)pyridine-3-carboxamide
+CAS Registry: 188425-85-6
+
 CHEBI:40909
 Name: azoxystrobin
 Synonym: (alphaE)-2-[[6-(2-cyanophenoxy)-4-pyrimidinyl]oxy]-alpha-(methoxymethylene) benzeneacetic acid methyl ester
 Synonym: methyl (E)-2-[2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl]-3-methoxyacrylate
 CAS Registry: 131860-33-8
+
+CHEBI:83185
+Name: coumoxystrobin
+Synonym: Coumoxystrobine
+Synonym: methyl (2E)-2-(2-{[(3-butyl-4-methyl-2-oxo-2H-1-benzopyran-7-yl)oxy]methyl}phenyl)-3-methoxyprop-2-enoate
+Synonym: Methyl (alphaE)-2-(((3-butyl-4-methyl-2-oxo-2H-1-benzopyran-7-yl)oxy)methyl)-alpha-(methoxymethylene)benzeneacetate
+Synonym: methyl (betaE)-2-[[(3-butyl-4-methyl-2-oxo-2H-1-benzopyran-7-yl)oxy]methyl]-alpha-(methoxymethylene)benzeneacetate
+CAS Registry: 850881-70-8
+
+CHEBI:83187
+Name: enoxastrobin
+Synonym: methyl (2E)-2-{2-[({(E)-[(2E)-3-(4-chlorophenyl)-1-methylprop-2-enylidene]amino}oxy)methyl]phenyl}-3-methoxyacrylate
+Synonym: methyl (alphaE)-2-[[[(E)-[(2E)-3-(4-chlorophenyl)-1-methyl-2-propen-1-ylidene]amino]oxy]methyl]-alpha-(methoxymethylene)benzeneaceate
+CAS Registry: 238410-11-2
+
+CHEBI:83194
+Name: flufenoxystrobin
+Synonym: Flufenoxystrobine
+Synonym: methyl (2E)-2-{2-[(2-chloro-alpha,alpha,alpha-trifluoro-p-tolyloxy)methyl]phenyl}-3-methoxyacrylate
+Synonym: Methyl (alphaE)-2-((2-chloro-4-(trifluoromethyl)phenoxy)methyl)-alpha-(methoxymethylene)benzeneacetate
+Synonym: methyl (alphaE)-2-[[2-chloro-4-(trifluoromethyl)phenoxy]methyl]-alpha-(methoxymethylene)benzeneacetate
+CAS Registry: 918162-02-4
+
+CHEBI:83197
+Name: picoxystrobin
+Synonym: methyl (2E)-3-methoxy-2-{2-[6-(trifluoromethyl)-2-pyridyloxymethyl]phenyl}acrylate
+Synonym: methyl (alphaE)-alpha-(methoxymethylene)-2-[[[6-(trifluoromethyl)-2-pyridinyl]oxy]methyl]benzeneacetate
+CAS Registry: 117428-22-5
+
+CHEBI:83202
+Name: pyraoxystrobin
+Synonym: methyl (2E)-2-(2-{[3-(4-chlorophenyl)-1-methylpyrazol-5-yl]oxymethyl}phenyl)-3-methoxyacrylate
+Synonym: methyl (alphaE)-2-[[[3-(4-chlorophenyl)-1-methyl-1H-pyrazol-5-yl]oxy]methyl]-alpha-(methoxymethylene)benzeneacetate
+CAS Registry: 862588-11-2
+
+CHEBI:83205
+Name: mandestrobin
+Synonym: (+-)-mandestrobin
+Synonym: (RS)-2-methoxy-N-methyl-2-[alpha-(2,5-xylyloxy)-o-tolyl]acetamide
+Synonym: (RS)-mandestrobin
+Synonym: 2-[(2,5-dimethylphenoxy)methyl]-alpha-methoxy-N-methylbenzeneacetamide
+Synonym: rac-mandestrobin
+Synonym: racemic mandestrobin
+CAS Registry: 173662-97-0
+
+CHEBI:78780
+Name: pyraclostrobin
+Synonym: Pyraclostrobine
+CAS Registry: 175013-18-0
+
+CHEBI:83212
+Name: pyrametostrobin
+Synonym: methyl 2-[(1,4-dimethyl-3-phenylpyrazol-5-yl)oxymethyl]-N-methoxycarbanilate
+Synonym: methyl N-[2-[[(1,4-dimethyl-3-phenyl-1H-pyrazol-5-yl)oxy]methyl]phenyl]-O-methoxycarbamate
+CAS Registry: 915410-70-7
+
+CHEBI:83213
+Name: triclopyricarb
+Synonym: methyl N-methoxy-2-(3,5,6-trichloro-2-pyridyloxymethyl)carbanilate
+Synonym: Methyl N-methoxy-N-(2-(((3,5,6-trichloro-2-pyridinyl)oxy)methyl)phenyl)carbamate
+CAS Registry: 902760-40-1
+
+CHEBI:2962
+Name: kresoxim-methyl
+Synonym: BAS 490 F
+Synonym: methyl (alphaE)-alpha-(methoxyimino)-2-[(2-methylphenoxy)methyl]benzeneacetate
+Synonym: Methyl (E)-alpha-(methoxyimino)-2-((2-methylphenoxy)methyl)benzeneacetate
+Synonym: methyl (E)-methoxyimino[alpha-(o-tolyloxy)-o-tolyl]acetate
+CAS Registry: 143390-89-0
+
+CHEBI:81833
+Name: trifloxystrobin
+Synonym: CGA 279202
+Synonym: methyl (alphaE)-alpha-(methoxyimino)-2-[[[[(1E)-1-[3-(trifluoromethyl)phenyl]ethylidene]amino]oxy]methyl]benzeneacetate
+Synonym: methyl (E)-methoxyimino-{(E)-alpha-[1-(alpha,alpha,alpha-trifluoro-m-tolyl)ethylideneaminooxy]-o-tolyl}acetate
+Synonym: Methyl methoxyimino(alpha-(1-(alpha,alpha,alpha-trifluoro-3-tolyl)ethylideneaminooxy)-2-tolyl)acetate
+CAS Registry: 141517-21-7
+
+CHEBI:83218
+Name: dimoxystrobin
+Synonym: (alphaE)-2-[(2,5-dimethylphenoxy)methyl]-alpha-(methoxyimino)-N-methylbenzeneacetamide
+Synonym: (E)-2-(methoxyimino)-N-methyl-2-[alpha-(2,5-xylyloxy)-o-tolyl]acetamide
+CAS Registry: 149961-52-4
+
+CHEBI:83220
+Name: fenaminstrobin
+Synonym: (2E)-2-{2-[({[(2E,3E)-4-(2,6-dichlorophenyl)but-3-en-2-ylidene]amino}oxy)methyl]phenyl}-2-(methoxyimino)-N-methylacetamide
+Synonym: (alphaE)-2-((((E)-((2E)-3-(2,6-dichlorophenyl)-1-methyl-2-propen-1-ylidene)amino)oxy)methyl)-alpha-(methoxyimino)-N-methylbenzeneacetamide
+Synonym: (alphaE)-2-[[[(E)-[(2E)-3-(2,6-dichlorophenyl)-1-methyl-2-propen-1-ylidene]amino]oxy]methyl]-alpha-(methoxyimino)-N-methylbenzeneacetamide
+Synonym: Fenaminstrobine
+Synonym: SYP 1620
+Synonym: Xiwojunan
+CAS Registry: 366815-39-6
+
+CHEBI:81831
+Name: metominostrobin
+Synonym: (alphaE)-alpha-(methoxyimino)-N-methyl-2-phenoxybenzeneacetamide
+CAS Registry: 133408-50-1
+
+CHEBI:81832
+Name: orysastrobin
+CAS Registry: 248593-16-0
+
+CHEBI:59340
+Name: famoxadone
+Synonym: (+-)-famoxadone
+Synonym: (RS)-3-anilino-5-methyl-5-(4-phenoxyphenyl)-1,3-oxazolidine-2,4-dione
+Synonym: (RS)-famoxadone
+Synonym: 3-anilino-5-methyl-5-(4-phenoxyphenyl)-1,3-oxazolidine-2,4-dione
+Synonym: 5-methyl-5-(4-phenoxyphenyl)-3-(phenylamino)-2,4-oxazolidinedione
+Synonym: rac-famoxadone
+Synonym: racemic famoxadone
+CAS Registry: 131807-57-3
+
+CHEBI:83253
+Name: fluoxastrobin
+Synonym: (1E)-(2-((6-(2-chlorophenoxy)-5-fluoro-4-pyrimidinyl)oxy)phenyl)(5,6-dihydro-1,4,2-dioxazin-3-yl)methanone O-methyloxime
+CAS Registry: 361377-29-9
+
+CHEBI:83258
+Name: fenamidone
+Synonym: (5S)-3,5-dihydro-5-methyl-2-(methylthio)-5-phenyl-3-(phenylamino)-4H-imidazol-4-one
+Synonym: (S)-1-anilino-4-methyl-2-methylthio-4-phenylimidazolin-5-one
+Synonym: 1-Anilino-4-methyl-2-methylthio-4-phenylimidazolin-5-one
+CAS Registry: 161326-34-7
+
+CHEBI:83261
+Name: pyribencarb
+Synonym: methyl N-[[2-chloro-5-[(1E)-1-[[(6-methyl-2-pyridinyl)methoxy]imino]ethyl]phenyl]methyl]carbamate
+Synonym: methyl {2-chloro-5-[(1E)-1-(6-methyl-2-pyridylmethoxyimino)ethyl]benzyl}carbamate
+CAS Registry: 799247-52-2
+
+CHEBI:81841
+Name: cyazofamid
+Synonym: 4-chloro-2-cyano-N,N-dimethyl-5-p-tolylimidazole-1-sulfonamide
+CAS Registry: 120116-88-3
+
+CHEBI:81846
+Name: amisulbrom
+CAS Registry: 348635-87-0
+
+CHEBI:82153
+Name: binapacryl
+Synonym: (+-)-binapacryl
+Synonym: (RS)-2-sec-butyl-4,6-dinitrophenyl 3-methylcrotonate
+Synonym: (RS)-binapacryl
+Synonym: 2,4-Dinitro-6-sec-butylphenyl 2-methylcrotonate
+Synonym: 2,4-Dinitro-6-sec-butylphenyl 2-methylcrotonate
+Synonym: 2-(1-Methylpropyl)-4,6-dinitrophenyl 3,3-dimethylacrylate
+Synonym: 2-(1-Methylpropyl)-4,6-dinitrophenyl 3-methyl-2-butenoate
+Synonym: 2-(1-Methylpropyl)-4,6-dinitrophenyl beta,beta-dimethacrylate
+Synonym: 2-sec-Butyl-4,6-dinitrophenyl 3-methyl-2-butenoate
+Synonym: 2-sec-Butyl-4,6-dinitrophenyl 3-methylcrotonate
+Synonym: 2-sec-Butyl-4,6-dinitrophenyl beta,beta-dimethylacrylate
+Synonym: 2-sec-Butyl-4,6-dinitrophenyl-3,3-dimethylacrylate
+Synonym: 3,3-Dimethylacrylic acid 2-sec-butyl-4,6-dinitrophenyl ester
+Synonym: 3-Methyl-2-butenoic acid 2-(1-methylpropyl)-4,6-dinitrophenyl ester
+Synonym: 3-Methyl-2-butenoic acid 2-sec-butyl-4,6-dinitrophenyl ester
+Synonym: 3-Methylcrotonic acid 2-sec-butyl-4,6-dinitrophenyl ester
+Synonym: 4,6-Dinitro-2-sec-butylphenyl beta,beta-dimethylacrylate
+Synonym: 4,6-Dinitrophenyl-2-sec-butyl-3-methyl-2-butenonate
+Synonym: Dinoseb methacrylate
+Synonym: rac-binapacryl
+Synonym: racemic binapacryl
+CAS Registry: 485-31-4
+
+CHEBI:83372
+Name: meptyldinocap
+Synonym: (+-)-meptyldinocap
+Synonym: (E)-2-(1-Methylheptyl)-4,6-dinitrophenyl 2-butenoate
+Synonym: (RS)-2-(1-methylheptyl)-4,6-dinitrophenyl crotonate
+Synonym: (RS)-meptyldinocap
+Synonym: 2-(1-methylheptyl)-4,6-dinitrophenyl (2E)-2-butenoate
+Synonym: 2-(1-Methylheptyl)-4,6-dinitrophenyl crotonate
+Synonym: rac-meptyldinocap
+Synonym: racemic meptyldinocap
+CAS Registry: 131-72-6
+
+CHEBI:83379
+Name: dinocap
+
+CHEBI:81843
+Name: fluazinam
+Synonym: 3-chloro-N-(3-chloro-5-trifluoromethyl-2-pyridyl)-alpha,alpha,alpha-trifluoro-2,6-dinitro-p-toluidine
+Synonym: Shirlan
+CAS Registry: 79622-59-6
+
+CHEBI:81844
+Name: ferimzone
+Synonym: (Z)-2'-methylacetophenone 4,6-dimethylpyrimidin-2-ylhydrazone
+Synonym: (Z)-2'-Methylacetophenone 4,6-dimethylpyrimidin-2-ylhydrazone
+Synonym: (Z)-4,6-Dimethyl-2(1H)-pyrimidinone (1-(2-methylphenyl)ethylidene)hydrazone
+Synonym: (Z)-Ferimzone
+Synonym: 4,6-dimethyl-2(1H)-pyrimidinone (2Z)-[1-(2-methylphenyl)ethylidene]hydrazone
+Synonym: 4,6-dimethyl-2-{2-[(1Z)-1-(2-methylphenyl)ethylidene]hydrazinyl}pyrimidine
+Synonym: Meferimzone
+Synonym: TF 164
+CAS Registry: 89269-64-7
+
+CHEBI:81918
+Name: fentin acetate
+Synonym: (Acetyloxy)triphenylstannane
+Synonym: Acetatotriphenylstannane
+Synonym: Acetic acid, triphenylstannyl ester
+Synonym: Acetoxy-triphenyl-stannan
+Synonym: Acetoxytriphenylstannane
+Synonym: Acetoxytriphenyltin
+Synonym: Fentin azetat
+Synonym: Phentin acetate
+Synonym: Phentinoacetate
+Synonym: Tin triphenyl acetate
+Synonym: Triphenyl-zinnacetat
+Synonym: Triphenylaceto stannane
+Synonym: Triphenylstannium acetate
+Synonym: triphenylstannyl acetate
+Synonym: Triphenyltin acetate
+Synonym: Triphenyltin(IV) acetate
+CAS Registry: 900-95-8
+
+CHEBI:35036
+Name: fentin chloride
+Synonym: Chlorotriphenylstannane
+Synonym: Chlorotriphenyltin
+Synonym: TPTC
+Synonym: Triphenylchlorostannane
+Synonym: Triphenylchlorotin
+Synonym: triphenylstannylium chloride
+Synonym: Triphenyltin chloride
+Synonym: Triphenyltin chloride
+CAS Registry: 639-58-7
+
+CHEBI:30473
+Name: fentin hydroxide
+Synonym: [Sn(OH)Ph3]
+Synonym: Fentin
+Synonym: hydroxytriphenylstannane
+Synonym: hydroxytriphenyltin
+Synonym: Sn(OH)Ph3
+Synonym: triphenylstannylium hydroxide
+Synonym: triphenyltin hydroxide
+CAS Registry: 76-87-9
+
+CHEBI:83393
+Name: silthiofam
+Synonym: 4,5-dimethyl-N-2-propen-1-yl-2-(trimethylsilyl)-3-thiophenecarboxamide
+Synonym: 4,5-dimethyl-N-2-propenyl-2-(trimethylsilyl)-3-thiophenecarboxamide
+Synonym: N-allyl-4,5-dimethyl-2-(trimethylsilyl)thiophene-3-carboxamide
+Synonym: Silthiopham
+CAS Registry: 175217-20-6
+
+CHEBI:83398
+Name: ametoctradin
+Synonym: BAS-650F
+CAS Registry: 865318-97-4
+
+CHEBI:4045
+Name: cyprodinil
+Synonym: 2-Anilino-4-cyclopropyl-6-methylpyrimidine
+Synonym: 4-Cyclopropyl-6-methyl-N-phenyl-2-pyrimidinamine
+Synonym: HSDB 7019
+CAS Registry: 121552-61-2
+
+CHEBI:6751
+Name: mepanipyrim
+Synonym: 4-methyl-N-phenyl-6-(1-propynyl)-2-pyrimidinamine
+Synonym: 4-Methyl-N-phenyl-6-(1-propynyl)-2-pyrimidinamine
+Synonym: N-(4-methyl-6-prop-1-ynylpyrimidin-2-yl)aniline
+Synonym: N-(4-Methyl-6-prop-1-ynylpyrimidin-2-yl)aniline
+CAS Registry: 110235-47-7
+
+CHEBI:8674
+Name: pyrimethanil
+Synonym: 2-Anilino-4,6-dimethylpyrimidine
+Synonym: 4,6-Dimethyl-N-phenyl-2-pyrimidinamine
+Synonym: N-(4,6-dimethylpyrimidin-2-yl)aniline
+CAS Registry: 53112-28-0
+
+CHEBI:15353
+Name: blasticidin S
+Synonym: Blasticidin S
+Synonym: Blasticidin-S
+CAS Registry: 2079-00-7
+
+CHEBI:81419
+Name: kasugamycin
+Synonym: 3-O-[2-amino-4-[(carboxyiminomethyl)amino]-2,3,4,6-tetradeoxy-alpha-D-arabino-hexopyranosyl]-D-chiro-inositol
+Synonym: Kasumin 2L
+Synonym: Kasumin L
+CAS Registry: 6980-18-3
+
+CHEBI:17076
+Name: streptomycin
+Synonym: 2,4-Diguanidino-3,5,6-trihydroxycyclohexyl 5-deoxy-2-O-(2-deoxy-2-methylamino-alpha-L-glucopyranosyl)-3-C-formyl-beta-L-lyxopentanofuranoside
+Synonym: [2-deoxy-2-(dimethylamino)-alpha-L-glucopyranosyl]-(1->2)-[5-deoxy-3-C-formyl-alpha-L-lyxofuranosyl]-(1->4)-{N',N'''-[(1,3,5/2,4,6)-2,4,5,6-tetrahydroxycyclohexane-1,3-diyl]diguanidine}
+Synonym: Kantrex
+Synonym: SM
+Synonym: STREPTOMYCIN
+Synonym: streptomycin
+CAS Registry: 57-92-1
+
+CHEBI:27701
+Name: oxytetracycline
+Synonym: 5-Hydroxytetracycline
+Synonym: oxitetraciclina
+Synonym: Oxyterracin
+Synonym: Oxyterracine
+Synonym: Oxytetracyclin
+Synonym: Oxytetracycline (anhydrous)
+Synonym: Oxytetracycline amphoteric
+Synonym: oxytetracyclinum
+CAS Registry: 79-57-2
+
+CHEBI:82040
+Name: quinoxyfen
+Synonym: 5,7-dichloro-4-quinolyl 4-fluorophenyl ether
+Synonym: DE 795
+Synonym: HSDB 7946
+CAS Registry: 124495-18-7
+
+CHEBI:83555
+Name: proquinazid
+Synonym: 6-iodo-2-propoxy-3-propyl-4(3H)-quinazolinone
+CAS Registry: 189278-12-4
+
+CHEBI:34759
+Name: fenpiclonil
+Synonym: 3-(2,3-Dichlorophenyl)-4-cyanopyrrole
+Synonym: 4-(2,3-Dichlorophenyl)pyrrole-3-carbonitrile
+Synonym: 4-Cyano-3-(2,3-dichlorophenyl)pyrrole
+Synonym: CGA 142705
+CAS Registry: 74738-17-3
+
+CHEBI:81763
+Name: fludioxonil
+CAS Registry: 131341-86-1
+
+CHEBI:3656
+Name: chlozolinate
+Synonym: (+-)-chlozolinate
+Synonym: (RS)-chlozolinate
+Synonym: Dichlozolinate
+Synonym: Ethyl (+-)-3-(3,5-dichlorophenyl)-5-methyl-2,4-dioxo-1,3-oxazolidine-5-carboxylate
+Synonym: Ethyl 3-(3,5-dichlorophenyl)-5-methyl-2,4-dioxo-5-oxazolidine carboxylate
+Synonym: ethyl 3-(3,5-dichlorophenyl)-5-methyl-2,4-dioxo-5-oxazolidinecarboxylate
+Synonym: M 8164
+Synonym: rac-chlozolinate
+Synonym: racemic chlozolinate
+CAS Registry: 72391-46-9
+
+CHEBI:28909
+Name: iprodione
+Synonym: 3-(3,5-dichlorophenyl)-1-(1-methylethyl)carbamoylhydantoin
+Synonym: 3-(3,5-dichlorophenyl)-N-(1-methylethyl)-2,4-dioxo-1-imidazolidinecarboxamide
+Synonym: 3-(3,5-dichlorophenyl)-N-(1-methylethyl)-2,4-dioxo-1-imidazolidinecarboxamide
+Synonym: 3-(3,5-dichlorophenyl)-N-(1-methylethyl)-2,4-dioxoimidazolidine-1-carboxamide
+Synonym: 3-(3,5-dichlorophenyl)-N-isopropyl-2,4-dioxoimidazolidine-1-carboxamide
+Synonym: 3-(3,5-dichlorophenyl)hydantoin-1-carboxylic acid isopropylamide
+Synonym: Iprodione
+Synonym: Rovral
+Synonym: Rovral
+Synonym: Rovrol
+CAS Registry: 36734-19-7
+
+CHEBI:8450
+Name: procymidone
+Synonym: Dicyclidine
+Synonym: N-(3',5'-Dichlorophenyl)-1,2-dimethylcyclopropane-1,2-dicarboximide
+CAS Registry: 32809-16-8
+
+CHEBI:17097
+Name: biphenyl
+Synonym: 1,1'-Biphenyl
+Synonym: 1,1'-Diphenyl
+Synonym: Biphenyl
+Synonym: E230
+Synonym: Phenylbenzene
+CAS Registry: 92-52-4
+
+CHEBI:3628
+Name: chloroneb
+Synonym: 2,5-dichloro-1,4-dimethoxybenzene
+Synonym: chloronebe
+Synonym: Demasan
+Synonym: Demosan
+Synonym: Terraneb
+CAS Registry: 2675-77-6
+
+CHEBI:27864
+Name: 2,6-dichloro-4-nitroaniline
+Synonym: 1-amino-2,6-dichloro-4-nitrobenzene
+Synonym: 2,6-dichloro-4-nitrobenzenamine
+Synonym: 4-nitro-2,6-dichloroaniline
+Synonym: Allisan
+Synonym: Batran
+Synonym: Bortran
+Synonym: Botran
+Synonym: CNA
+Synonym: DCNA
+Synonym: Dichloran
+Synonym: dicloran
+Synonym: Ditranil
+Synonym: Resisan
+CAS Registry: 99-30-9
+
+CHEBI:34908
+Name: pentachloronitrobenzene
+Synonym: 2,3,4,5,6-pentachloronitrobenzene
+Synonym: Avicol
+Synonym: Batrilex
+Synonym: Botrilex
+Synonym: Brassicol
+Synonym: Earthcide
+Synonym: Fartox
+Synonym: Folosan
+Synonym: Fungiclor
+Synonym: nitropentachlorobenzene
+Synonym: PCNB
+Synonym: pentachlornitrobenzol
+Synonym: Pentachlornitrobenzol
+Synonym: Pentachloronitrobenzene
+Synonym: Pentachloronitrobenzene
+Synonym: Pentagen
+Synonym: Phomasan
+Synonym: PKhNC
+Synonym: Quintozene
+Synonym: Terrachlor
+Synonym: Terraclor
+Synonym: Terrafun
+Synonym: Tilcarex
+CAS Registry: 82-68-8
+
+CHEBI:82044
+Name: tecnazene
+Synonym: 2,3,5,6-TCNB
+Synonym: 2,3,5,6-Tetrachlor-1-nitrobenzol
+Synonym: 2,3,5,6-Tetrachloro-1-nitrobenzene
+Synonym: 2,3,5,6-tetrachloronitrobenzene
+Synonym: Altritan
+Synonym: Arena
+Synonym: Bygran
+Synonym: Easytec
+Synonym: Folosan
+Synonym: Fumite
+Synonym: Fusarex
+Synonym: Hickstor
+Synonym: Hystore
+Synonym: Myfusan
+Synonym: Nebulin
+Synonym: TCNB
+Synonym: Tecnazen
+Synonym: tecnazene
+Synonym: tetrachloronitrobenzene
+Synonym: Turbostore
+CAS Registry: 117-18-0
+
+CHEBI:81731
+Name: tolclofos-methyl
+Synonym: Basilex
+Synonym: Grancer
+Synonym: O-(2,6-dichloro-4-methylphenyl)phosphorothioic acid O,O-dimethyl ester
+Synonym: O-2,6-dichloro-p-tolyl O,O-dimethyl phosphorothioate
+Synonym: Risolex
+Synonym: Rizolex
+Synonym: S-3349
+Synonym: tolclofos-Me
+Synonym: tolclofos-methyl
+CAS Registry: 57018-04-9
+
+CHEBI:81761
+Name: etridiazole
+Synonym: 5-Aethoxy-3-trichlormethyl-1,2,4-thiadiazol
+Synonym: 5-ethoxy-3-trichloromethyl-1,2,4-thiadiazole
+Synonym: Banrot
+Synonym: Echlomezole
+Synonym: Olin mathieson 2,424
+Synonym: OM 2424
+Synonym: Pansoil
+Synonym: Planvate
+Synonym: Terracoat
+Synonym: Terrazole
+CAS Registry: 2593-15-9
+
+CHEBI:83279
+Name: 3-iodoprop-2-yn-1-yl butylcarbamate
+Synonym: 3-iodo-2-propyn-1-yl N-butylcarbamate
+Synonym: 3-iodo-2-propynyl butylcarbamate
+Synonym: 3-iodoprop-2-ynyl butylcarbamate
+Synonym: butyl-3-iodo-2-propynylcarbamate
+Synonym: iodocarb
+Synonym: iodocarbe
+Synonym: Iodopropynyl butylcarbamate
+Synonym: IPBC
+Synonym: Troysan KK-108A
+Synonym: Troysan polyphase anti-mildew
+Synonym: Woodlife
+CAS Registry: 55406-53-6
+
+CHEBI:82033
+Name: propamocarb
+Synonym: propamocarbe
+Synonym: Propyl (3-(dimethylamino)propyl)carbamate
+Synonym: propyl 3-(dimethylamino)propylcarbamate
+Synonym: propyl N-[3-(dimethylamino)propyl]carbamate
+CAS Registry: 24579-73-5
+
+CHEBI:82084
+Name: prothiocarb
+Synonym: N-(3-dimethylaminopropyl)thiocarbamic acid S-ethyl ester
+Synonym: S-ethyl (3-dimethylaminopropyl)thiocarbamate
+Synonym: S-ethyl N-[3-(dimethylamino)propyl]carbamothioate
+CAS Registry: 19622-08-3
+
+CHEBI:83629
+Name: tea tree oil
+Synonym: extract from Melaleuca alternifolia
+Synonym: extract from tea tree
+Synonym: Melaleuca alternifolia extract
+Synonym: Melaleuca alternifolia oil
+Synonym: Melaleuca extract
+Synonym: Melaleuca oil
+Synonym: tea tree extract
+Synonym: TTO
+CAS Registry: 68647-73-4
+
+CHEBI:4998
+Name: fenarimol
+Synonym: (+-)-2,4'-dichloro-alpha-(pyrimidin-5-yl)benzhydryl alcohol
+Synonym: (+-)-fenarimol
+Synonym: (2-chlorophenyl)-alpha-(4-chlorophenyl)-5-pyrimidinemethanol
+Synonym: (RS)-2,4'-dichloro-alpha-(pyrimidin-5-yl)benzhydryl alcohol
+Synonym: 2,4'-dichloro-alpha(pyrimidin-5-yl)benzhydryl alcohol
+Synonym: alpha-(2-chlorophenyl)-alpha-(4-chlorophenyl)-5-pyrimidinemethanol
+Synonym: EL 222
+Synonym: fenarimol
+Synonym: rac-(R)-(2-chlorophenyl)(4-chlorophenyl)(pyrimidin-5-yl)methanol
+Synonym: rac-fenarimol
+Synonym: Rimidin
+Synonym: Rubigan
+CAS Registry: 60168-88-9
+
+CHEBI:7645
+Name: nuarimol
+Synonym: (+-)-nuarimol
+Synonym: (RS)-2-chloro-4'-fluoro-alpha-(pyrimidin-5-yl)benzhydryl alcohol
+Synonym: 5-(2-chloro-4'-fluorobenzhydryl)-4-hydroxypyrimidine
+Synonym: alpha-(2-chlorophenyl)-alpha-(4-fluorophenyl)-5-pyrimidinemethanol
+Synonym: Caswell No. 419G
+Synonym: EL 228
+Synonym: EL 2289
+Synonym: Guantlet
+Synonym: Murox
+Synonym: rac-(R)-(2-chlorophenyl)(4-fluorophenyl)(pyrimidin-5-yl)methanol
+Synonym: rac-nuarimol
+Synonym: Trimidal
+Synonym: Trimifruit
+Synonym: Triminol
+CAS Registry: 63284-71-9
+
+CHEBI:83295
+Name: aldimorph
+Synonym: aldimorphe
+CAS Registry: 91315-15-0
+
+CHEBI:81960
+Name: dodemorph
+Synonym: Doazine
+Synonym: dodemorphe
+Synonym: Meltatox
+CAS Registry: 1593-77-7
+
+CHEBI:50145
+Name: fenpropimorph
+Synonym: (+-)-cis-4-(3-(4-tert-butylphenyl)-2-methylpropyl)-2,6-dimethylmorpholine
+Synonym: BAS 42100F
+Synonym: BAS 421F
+Synonym: cis-2,6-dimethyl-4-(3-(4-(1,1-dimethylethyl)phenyl)-2-methylpropyl)morpholine
+Synonym: cis-4-(3-(4-(1,1-dimethylethyl)phenyl)-2-methylpropyl)-2,6-dimethylmorpholine
+Synonym: cis-4-(3-(p-tert-butylphenyl)-2-methylpropyl)-2,6-dimethylmorpholine
+Synonym: fenpropimorph
+Synonym: fenpropimorph cis-form
+Synonym: fenpropimorphe
+Synonym: Forbel 750
+Synonym: Funbas
+Synonym: Mildofix
+Synonym: Mistral
+Synonym: Ro 14-3169/000
+CAS Registry: 67564-91-4
+
+CHEBI:9700
+Name: tridemorph
+Synonym: BAS 2203F
+Synonym: Calixin
+Synonym: Tridemorph
+Synonym: tridemorphe
+CAS Registry: 81412-43-3
+
+CHEBI:81917
+Name: fenpropidin
+Synonym: (+-)-1-[3-(4-tert-butylphenyl)-2-methylpropyl]piperidine
+Synonym: (RS)-1-[3-(4-tert-butylphenyl)-2-methylpropyl]piperidine
+Synonym: fenpropidine
+Synonym: Patrol
+Synonym: Ro 12-3049
+Synonym: Ro-12-3049
+CAS Registry: 67306-00-7
+
+CHEBI:83283
+Name: piperalin
+CAS Registry: 3478-94-2
+
+CHEBI:9242
+Name: spiroxamine
+Synonym: (8-tert-Butyl-1,4-dioxa-spiro[4.5]dec-2-ylmethyl)-ethyl-propyl-amine
+Synonym: 8-(1,1-dimethylethyl)-N-ethyl-N-propyl-1,4-dioxaspiro(4.5)decane-2-methanamine
+Synonym: Impulse
+Synonym: KWG4168
+Synonym: Prosper
+Synonym: Spiroxamine
+CAS Registry: 118134-30-8
+
+CHEBI:81853
+Name: fenhexamid
+Synonym: 2',3'-dichloro-4'-hydroxy-1-methylcyclohexanecarboxanilide
+Synonym: fenhexamide
+Synonym: KBR 2738
+Synonym: KBR-2738
+Synonym: N-(2,3-dichloro-4-hydroxyphenyl)-1-methylcyclohexane-1-carboxamide
+Synonym: Teldor
+CAS Registry: 126833-17-8
+
+CHEBI:83327
+Name: fenpyrazamine
+Synonym: 5-amino-2-isopropyl-3-oxo-4-o-tolyl-2,3-dihydropyrazole-1-thiocarboxylic acid S-allyl ester
+Synonym: Botrycide
+Synonym: S-2-propen-1-yl 5-amino-2,3-dihydro-2-(1-methylethyl)-4-(2-methylphenyl)-3-oxo-1H-pyrazole-1-carbothioate
+Synonym: S-allyl 5-amino-2,3-dihydro-2-isopropyl-3-oxo-4-(o-tolyl)pyrazole-1-carbothioate
+CAS Registry: 473798-59-3
+
+CHEBI:81736
+Name: pyributicarb
+Synonym: O-3-tert-butylphenyl 6-methoxy-2-pyridyl(methyl)thiocarbamate
+Synonym: O-[3-(1,1-dimethylethyl)phenyl] N-(6-methoxy-2-pyridinyl)-N-methylcarbamothioate
+Synonym: pyributicarbe
+Synonym: TSH-888
+CAS Registry: 88678-67-5
+
+CHEBI:7451
+Name: naftifine
+Synonym: (E)-N-cinnamyl-N-methyl-1-naphthalenemethylamine
+Synonym: naftifin
+Synonym: naftifina
+Synonym: naftifine
+Synonym: naftifine
+Synonym: naftifinum
+Synonym: trans-N-cinnamyl-N-methyl-(1-naphthylmethyl)amine
+CAS Registry: 65472-88-0
+
+CHEBI:9448
+Name: terbinafine
+Synonym: (E)-N-(6,6-Dimethyl-2-hepten-4-ynyl)-N-methyl-1-naphthalene methanamine
+Synonym: (E)-N-(6,6-Dimethyl-2-hepten-4-ynyl)-N-methyl-1-naphthalenemethylamine
+Synonym: terbinafina
+Synonym: terbinafine
+Synonym: terbinafine
+Synonym: terbinafinum
+CAS Registry: 91161-71-6
+
+CHEBI:81848
+Name: dimethomorph
+Synonym: 4-(3-(4-chlorophenyl)-3-(3,4-dimethoxyphenyl)-1-oxo-2-propenyl)morpholine
+CAS Registry: 110488-70-5
+
+CHEBI:83428
+Name: flumorph
+CAS Registry: 211867-47-9
+
+CHEBI:83663
+Name: pyrimorph
+Synonym: 3-(p-tert-butylphenyl)-3-(6-chloropyridin-3-yl)-1-(morpholin-4-yl)prop-2-en-1-one
+CAS Registry: 868390-90-3
+
+CHEBI:83601
+Name: benthiavalicarb
+Synonym: [(1S)-1-{[(1R)-1-(6-fluoro-1,3-benzothiazol-2-yl)ethyl]carbamoyl}-2-methylpropyl]carbamic acid
+Synonym: benthiavalicarbe
+Synonym: N-[(1S)-1-[[[(1R)-1-(6-fluoro-2-benzothiazolyl)ethyl]amino]carbonyl]-2-methylpropyl]carbamic acid
+CAS Registry: 413615-35-7
+
+CHEBI:82023
+Name: iprovalicarb
+Synonym: 1-methylethyl N-[(1S)-2-methyl-1-[[[1-(4-methylphenyl)ethyl]amino]carbonyl]propyl]carbamate
+Synonym: isopropyl [(1S)-2-methyl-1-{[(1RS)-1-p-tolylethyl]carbamoyl}propyl]carbamate
+CAS Registry: 140923-17-7
+
+CHEBI:83610
+Name: valifenalate
+Synonym: methyl N-(isopropoxycarbonyl)-L-valyl-3-(4-chlorophenyl)-beta-alaninate
+Synonym: methyl N-(isopropoxycarbonyl)-L-valyl-3-(p-chlorophenyl)-beta-alaninate
+Synonym: methyl N-[(1-methylethoxy)carbonyl]-L-valyl-3-(4-chlorophenyl)-beta-alaninate
+Synonym: valifenalate
+CAS Registry: 283159-90-0
+
+CHEBI:81802
+Name: mandipropamid
+Synonym: Pergado
+CAS Registry: 374726-62-2
+
+CHEBI:47617
+Name: 4,5,6,7-tetrachloro-2-benzofuran-1(3H)-one
+Synonym: 4,5,6,7-tetrachloro-1(3H)-isobenzofuranone
+Synonym: 4,5,6,7-tetrachlorophthalide
+Synonym: Bayer 96610
+Synonym: fthalide
+Synonym: KF-32
+Synonym: Rabcide
+CAS Registry: 27355-22-2
+
+CHEBI:45141
+Name: pyroquilon
+Synonym: 1,2,5,6-tetrahydropyrrolo[3,2,1-ij]quinolin-4-one
+Synonym: Coratop
+Synonym: Fongoren
+Synonym: Fongorene
+Synonym: Lilolidone
+Synonym: pyroquilone
+CAS Registry: 57369-32-1
+
+CHEBI:81783
+Name: tricyclazole
+Synonym: 5-methyl-1,2,4-triazolo[3,4-b]benzothiazole
+Synonym: 5-methyl-striazolo-[3,4-b]benzothiazole
+Synonym: Blas-T
+Synonym: Blascide
+Synonym: Pilarblas
+Synonym: Sivic
+Synonym: Tizole
+Synonym: Trizole
+CAS Registry: 41814-78-2
+
+CHEBI:81825
+Name: tiadinil
+Synonym: 3'-chloro-4,4'-dimethyl-1,2,3-thiadiazole-5-carboxanilide
+Synonym: TDL
+CAS Registry: 223580-51-6
+
+CHEBI:83657
+Name: isotianil
+Synonym: 3,4-dichloro-2'-cyano-1,2-thiazole-5-carboxanilide
+CAS Registry: 224049-04-1
+
+CHEBI:83341
+Name: tecloftalam
+Synonym: 2',3',3,4,5,6-hexachloro phthalanilic acid
+Synonym: 2',3,3',4,5,6-hexachlorophthalanilic acid
+Synonym: 2,3,4,5-tetrachloro-6-[[(2,3-dichlorophenyl)amino]carbonyl]benzoic acid
+Synonym: 3,4,5,6-tetrachloro-N-(2,3-dichlorophenyl)phthalamic acid
+Synonym: 6-(((2,3-dichlorophenyl)amino)carbonyl)-2,3,4,5-tetrachlorobenzoic acid
+Synonym: N-(2,3-dichlorophenyl)-3,4,5,6-tetrachlorophthalamic acid
+Synonym: Shiragen
+Synonym: Shirahagen S
+Synonym: techlofthalam
+Synonym: tecloftalame
+CAS Registry: 76280-91-6
+
+CHEBI:83335
+Name: triazoxide
+Synonym: 7-chloro-3-imidazol-1-yl-1,2,4-benzotriazine 1-oxide
+CAS Registry: 72459-58-6
+
+CHEBI:81801
+Name: flusulfamide
+Synonym: 2',4-dichloro-alpha,alpha,alpha-trifluoro-4'-nitro-m-toluenesulfonanilide
+Synonym: MTF 651
+Synonym: Nebijin
+CAS Registry: 106917-52-6
+
+CHEBI:81759
+Name: diclomezine
+Synonym: 6-(3,5-dichloro-4-methylphenyl)-3(2H)-pyridazinone
+Synonym: 6-(3,5-dichloro-4-methylphenyl)-3-pyridazone
+Synonym: 6-(3,5-dichloro-p-tolyl)pyridazin-3(2H)-one
+Synonym: diclomezine
+Synonym: Monguard
+CAS Registry: 62865-36-5
+
+CHEBI:81933
+Name: methasulfocarb
+Synonym: Kayabest
+Synonym: methasulfocarb
+Synonym: NK-191
+Synonym: S-4-(mesyloxy)phenyl methyl(thiocarbamate)
+Synonym: S-[4-(methanesulfonyloxy)phenyl] methylcarbamothioate
+Synonym: S-[4-[(methylsulfonyl)oxy]phenyl] N-methylcarbamothioate
+CAS Registry: 66952-49-6
+
+CHEBI:81797
+Name: cyflufenamid
+Synonym: (Z)-N-[alpha-(cyclopropylmethoxyimino)-2,3-difluoro-6-(trifluoromethyl)benzyl]-2-phenylacetamide
+Synonym: [N(Z)]-N-[[(cyclopropylmethoxy)amino][2,3-difluoro-6-(trifluoromethyl)phenyl]methylene]benzeneacetamide
+Synonym: N-{(Z)-[(cyclopropylmethoxy)amino][2,3-difluoro-6-(trifluoromethyl)phenyl]methylene}-2-phenylacetamide
+CAS Registry: 180409-60-3
+
+CHEBI:83345
+Name: metrafenone
+Synonym: 3'-bromo-2,3,4,6'-tetramethoxy-2',6-dimethylbenzophenone
+Synonym: BAS 560 02F
+Synonym: metrafenone
+CAS Registry: 220899-03-6
+
+CHEBI:83346
+Name: pyriofenone
+Synonym: (5-chloro-2-methoxy-4-methyl-3-pyridinyl)(2,3,4-trimethoxy-6-methylphenyl)methanone
+Synonym: (5-chloro-2-methoxy-4-methyl-3-pyridyl)(4,5,6-trimethoxy-o-tolyl)methanone
+Synonym: IKF-309
+Synonym: pyriofenone
+CAS Registry: 688046-61-9
+
+CHEBI:74889
+Name: 1-dodecylguanidine acetate
+Synonym: (dodecylamino)(imino)methanaminium acetate
+Synonym: 1-dodecylguanidinium acetate
+Synonym: aceto de N-dodecilguanidina
+Synonym: amino(dodecylamino)methaniminium acetate
+Synonym: dodecylguanidine acetate
+Synonym: dodecylguanidine monoacetate
+Synonym: dodine
+Synonym: dodine acetate
+Synonym: laurylguanidine acetate
+Synonym: n-dodecylguanidine acetate
+Synonym: n-dodecylguanidine monoacetate
+Synonym: N-Dodecylguanidineacetat
+Synonym: n-dodecylguanidinium acetate
+Synonym: n-dodecylguanidinium monoacetate
+CAS Registry: 2439-10-3
+
+CHEBI:83277
+Name: flutianil
+Synonym: (2Z)-2-[[2-fluoro-5-(trifluoromethyl)phenyl]thio]-2-[3-(2-methoxyphenyl)-2-thiazolidinylidene]acetonitrile
+Synonym: (Z)-[3-(2-methoxyphenyl)-1,3-thiazolidin-2-ylidene](alpha,alpha,alpha,4-tetrafluoro-m-tolylthio)acetonitrile
+CAS Registry: 958647-10-4
+
+CHEBI:81844
+Name: ferimzone
+Synonym: (Z)-2'-methylacetophenone 4,6-dimethylpyrimidin-2-ylhydrazone
+Synonym: (Z)-2'-Methylacetophenone 4,6-dimethylpyrimidin-2-ylhydrazone
+Synonym: (Z)-4,6-Dimethyl-2(1H)-pyrimidinone (1-(2-methylphenyl)ethylidene)hydrazone
+Synonym: (Z)-Ferimzone
+Synonym: 4,6-dimethyl-2(1H)-pyrimidinone (2Z)-[1-(2-methylphenyl)ethylidene]hydrazone
+Synonym: 4,6-dimethyl-2-{2-[(1Z)-1-(2-methylphenyl)ethylidene]hydrazinyl}pyrimidine
+Synonym: Meferimzone
+Synonym: TF 164
+CAS Registry: 89269-64-7
+
+CHEBI:83268
+Name: oxathiapiprolin
+Synonym: DPX-QGU42
+Synonym: oxathiapiproline
+Synonym: QGU42
+CAS Registry: 1003318-67-9
+
+CHEBI:83266
+Name: tebufloquin
+CAS Registry: 376645-78-2
+
+CHEBI:17909
+Name: polysulfur
+Synonym: S
+Synonym: Sn
+Synonym: Sulfur
+Synonym: sulfur, homopolymer
+Synonym: Sulfur, precipitated
+Synonym: sulphur
+CAS Registry: 7704-34-9
+
+CHEBI:5015
+Name: ferbam
+Synonym: Carbamate
+Synonym: Cormate
+Synonym: Eisendimethyldithiocarbamat
+Synonym: Ferbeck
+Synonym: Fermacide
+Synonym: Fermate
+Synonym: Ferradow
+Synonym: Ferric dimethyldithiocarbamate
+Synonym: Fuklasin
+Synonym: Hexaferb
+Synonym: Hokmate
+Synonym: iron(III) dimethyldithiocarbamate
+Synonym: iron(3+) dimethyldithiocarbamate
+Synonym: Karbam Black
+Synonym: Trifungol
+Synonym: Trimanzone
+Synonym: tris(N,N-dimethyldithiocarbamato)iron(III)
+CAS Registry: 14484-64-1
+
+CHEBI:52492
+Name: mancozeb
+Synonym: Dithane
+Synonym: ethylenebis(dithiocarbamic acid) manganese zinc complex
+Synonym: Karamate
+Synonym: Mancofol
+Synonym: Mancomix
+Synonym: Mancozeb
+Synonym: Manzate
+Synonym: Manzeb
+Synonym: Manzin
+Synonym: Novozir
+Synonym: Othane
+Synonym: Penncozeb
+CAS Registry: 8018-01-7
+
+CHEBI:52497
+Name: maneb
+Synonym: manganese ethane-1,2-diyldicarbamodithioate
+CAS Registry: 12427-38-2
+
+CHEBI:81539
+Name: metiram
+Synonym: Amarex
+Synonym: metirame
+Synonym: metirame zinc
+Synonym: Polyram 80
+Synonym: zinc ammoniate ethylenebis(dithiocarbamate)-poly(ethylenethiuram disulfide)
+Synonym: zinc metiram
+CAS Registry: 9006-42-2
+
+CHEBI:81755
+Name: propineb
+Synonym: Airone
+Synonym: Antracol
+Synonym: BAY 46131
+Synonym: Bayer 46131
+Synonym: methylzineb
+Synonym: mezineb
+Synonym: polymeric zinc propylenebis(dithiocarbamate)
+Synonym: propinebe
+Synonym: Taifen
+Synonym: zinc 1,2-propylene bisdithiocarbamate
+Synonym: zinc propylene bisdithiocarbamate
+CAS Registry: 12071-83-9
+
+CHEBI:9495
+Name: thiram
+Synonym: [Me2NC(S)S]2
+Synonym: alpha,alpha'-dithiobis(dimethylthio)formamide
+Synonym: Arasan
+Synonym: bis((dimethylamino)carbonothioyl) disulfide
+Synonym: bis(dimethyl thiocarbamoyl)disulfide
+Synonym: Bis(dimethyl-thiocarbamoyl)-disulfid
+Synonym: bis(dimethylthiocarbamoyl) disulfide
+Synonym: disulfure de tetramethylthiourame
+Synonym: N,N'-(dithiodicarbonothioyl)bis(N-methylmethanamine)
+Synonym: N,N-tetramethylthiuram disulfide
+Synonym: N(1),N(1),N(3),N(3)-tetramethyl-2-dithioperoxy-1,3-dithiodicarbonic diamide
+Synonym: Nomersan
+Synonym: Pomarsol
+Synonym: Rezifilm
+Synonym: Tetramethyl-thiram disulfid
+Synonym: tetramethylenethiuram disulfide
+Synonym: Tetramethylthioperoxydicarbonic diamide
+Synonym: Tetramethylthioperoxydicarbonic diamide
+Synonym: tetramethylthiuram disulfide
+Synonym: tetramethylthiurane disulfide
+Synonym: tetrathiuram disulfide
+Synonym: Thiram
+Synonym: thiram
+Synonym: thirame
+Synonym: thiramum
+Synonym: thiuram
+Synonym: tiramo
+Synonym: TMTD
+CAS Registry: 137-26-8
+
+CHEBI:52498
+Name: zineb
+Synonym: zinc ethane-1,2-diyldicarbamodithioate
+CAS Registry: 12122-67-7
+
+CHEBI:79736
+Name: ziram
+Synonym: (T-4)-bis(dimethylcarbamodithioato-kappaS,kappaS')zinc
+Synonym: bis(dimethylcarbamodithioato-S,S')zinc
+Synonym: bis(dimethyldithiocarbamato)zinc
+Synonym: bis-dimethyldithiocarbamate de zinc
+Synonym: dimethyldithiocarbamate zinc salt
+Synonym: zinc bis(dimethyldithiocarbamate)
+Synonym: zinc bis(dimethyldithiocarbamoyl)disulphide
+Synonym: zinc bis(dimethylthiocarbamoyl)disulfide
+CAS Registry: 137-30-4
+
+CHEBI:34608
+Name: captan
+Synonym: 1,2,3,6-tetrahydro-N-(trichloromethylthio)phthalimide
+Synonym: 3a,4,7,7a-Tetrahydro-2-((trichloromethyl)thio)-1H-isoindole-1,3(2H)-dione
+Synonym: 3a,4,7,7a-tetrahydro-N-(trichloromethanesulphenyl)phthalimide
+Synonym: Amercide
+Synonym: Bangton
+Synonym: Captab
+Synonym: Captadin
+Synonym: Captaf
+Synonym: captane
+Synonym: Captanex
+Synonym: Captex
+Synonym: ENT 26,538
+Synonym: Hexacap
+Synonym: Kaptan
+Synonym: Malipur
+Synonym: Merpan
+Synonym: N-(trichloromethylmercapto)-Delta(4)-tetrahydrophthalimide
+Synonym: N-[(trichloromethyl)thio]tetrahydrophthalimide
+Synonym: N-trichloromethylmercapto-4-cyclohexene-1,2-dicarboximide
+Synonym: N-trichloromethylthio-3a,4,7,7a-tetrahydrophthalimide
+Synonym: N-trichloromethylthiocyclohex-4-ene-1,2-dicarboximide
+Synonym: Neracid
+Synonym: Orthocide
+Synonym: Osocide
+Synonym: SR 406
+Synonym: SR406
+Synonym: Vanicide
+Synonym: Venturin
+Synonym: Vondcaptan
+Synonym: Zenecal
+CAS Registry: 133-06-2
+
+CHEBI:81938
+Name: captafol
+Synonym: (tetrachloroethylthio)tetrahydrophthalimide
+Synonym: 1,2,3,6-tetrahydro-N-(1,1,2,2-tetrachloroethylthio)phthalimide
+Synonym: 3a,4,7,7a-tetrahydro-2-[(1,1,2,2-tetrachloroethyl)thio]-1H-isoindole-1,3(2H)-dione
+Synonym: 3a,4,7,7a-tetrahydro-N-(1,1,2,2-tetrachloroethanesulphenyl)phthalimide
+Synonym: Captaspor
+Synonym: Difolatan
+Synonym: Difosan
+Synonym: Folcid
+Synonym: Haipen
+Synonym: Kenofol
+Synonym: Merpafol
+Synonym: N-(1,1,2,2-tetrachloroethylthio)-Delta(4)-tetrahydrophthalimide
+Synonym: N-1,1,2,2-tetrachloroethylmercapto-4-cyclohexene-1,2-carboximide
+Synonym: N-[(1,1,2,2-tetrachloroethyl)sulfenyl]-4-cyclohexene-1,2-dicarboximide
+Synonym: Sanspor
+Synonym: Terrazol
+CAS Registry: 2425-06-1
+
+CHEBI:82019
+Name: folpet
+Synonym: Acryptan
+Synonym: Cosan I
+Synonym: Faltan
+Synonym: Faltex
+Synonym: folpel
+Synonym: N-(Trichlor-methylthio)-phthalamid
+Synonym: N-(trichloromethanesulfenyl)phthalimide
+Synonym: N-(trichloromethanesulphenyl)phthalimide
+Synonym: N-(trichloromethylthio)phthalimide
+Synonym: Orthophaltan
+Synonym: Phthaltan
+Synonym: trichloromethylthiophthalimide
+CAS Registry: 133-07-3
+
+CHEBI:3639
+Name: chlorothalonil
+Synonym: 1,3-Dicyanotetrachlorobenzene
+Synonym: 2,4,5,6-Tetrachloro-3-cyanobenzonitrile
+Synonym: Chlorothalonil
+Synonym: Daconil
+Synonym: m-TCPN
+Synonym: m-Tetrachlorophthalonitrile
+Synonym: meta-TCPN
+Synonym: meta-Tetrachlorophthalodinitrile
+Synonym: Tetrachloroisophthalonitrile
+Synonym: TPN
+CAS Registry: 1897-45-6
+
+CHEBI:74875
+Name: dichlofluanid
+Synonym: 1,1-dichloro-N-((dimethylamino)sulfonyl)-1-fluoro-N-phenylmethanesulfenamide
+Synonym: BAY 47531
+Synonym: Bayer 47531
+Synonym: dichlofluanide
+Synonym: N,N-dimethyl-N'-phenyl-N'-fluorodichloromethylthiosulfamide
+Synonym: N-(Dichlor-fluor-methyl-thio)-N',N'-dimethyl-N-phenylschwefel-saeurediamid
+Synonym: N-(dichlorofluoromethylthio)-N',N'-dimethyl-N-phenylsulfamide
+Synonym: N-(dichlorofluoromethylthio)-N-(dimethylsulfamoyl)-aniline
+Synonym: NSC 218451
+CAS Registry: 1085-98-9
+
+CHEBI:75182
+Name: tolylfluanid
+Synonym: 1,1-Dichloro-N-((dimethylamino)sulfonyl)-1-fluoro-N-(4-methylphenyl)methanesulfenamide
+Synonym: Dichloro-N-((dimethylamino)sulphonyl)fluoro-N-(p-tolyl)methanesulphenamide
+Synonym: Euparen Multi
+Synonym: Tolylfluanide
+CAS Registry: 731-27-1
+
+CHEBI:82843
+Name: guazatine
+Synonym: MC 25
+Synonym: Mitrol
+Synonym: Murbenine
+Synonym: Panolil
+CAS Registry: 108173-90-6
+
+CHEBI:5569
+Name: iminoctadine
+Synonym: Guazatine
+CAS Registry: 13516-27-3
+
+CHEBI:82076
+Name: anilazine
+Synonym: (o-chloroanilino)dichlorotriazine
+Synonym: 2,4-dichloro-6-(2-chloroanilino)-1,3,5-triazine
+Synonym: 2,4-dichloro-6-(o-chloroanilino)-s-triazine
+Synonym: 2-(2-Chloranilin)-4,6-dichlor-1,3,5-triazin
+Synonym: 2-chloro-N-(4,6-dichloro-1,3,5-triazin-2-yl)aniline
+Synonym: anilazin
+Synonym: Aniyaline
+Synonym: Dairene
+Synonym: Dyrene
+Synonym: Kemate
+Synonym: Triasym
+Synonym: Triasyn
+Synonym: Zinochlor
+CAS Registry: 101-05-3
+
+CHEBI:81842
+Name: dithianon
+Synonym: 1,4-dithiaanthraquinone-2,3-dinitrile
+Synonym: 2,3-Dicarbonitrilo-1,4-diathiaanthrachinon
+Synonym: 2,3-dicyano-1,4-dithia-anthraquinone
+Synonym: 2,3-dinitrilo-1,4-dithia-9,10-anthraquinone
+Synonym: 2,3-dinitrilo-1,4-dithia-anthraquinone
+Synonym: 5,10-dihydro-5,10-dioxonaphtho[2,3-b]-1,4-dithiin-2,3-dicarbonitrile
+Synonym: Delan
+Synonym: dithianone
+CAS Registry: 3347-22-6
+
+CHEBI:34620
+Name: quinomethionate
+Synonym: 6-methyl-2,3-quinoxalinedithiol cyclic dithiocarbonate
+Synonym: 6-Methyl-2,3-quinoxalinedithiol cyclic S,S-dithiocarbonate
+Synonym: Chinomethionat
+Synonym: chinomethionate
+Synonym: Morestan
+Synonym: oxythioquinox
+Synonym: Quinomethionate
+Synonym: S,S-(6-methylquinoxaline-2,3-diyl) dithiocarbonate
+CAS Registry: 2439-01-2
+
+CHEBI:81826
+Name: fluoroimide
+Synonym: 2,3-dichloro-N-4-fluorophenylmaleimide
+Synonym: fluoromide
+Synonym: MK 23
+Synonym: N-p-fluorophenyl-2,3-dichloromaleimide
+CAS Registry: 41205-21-4
+
+CHEBI:47519
+Name: cis-ketoconazole
+Synonym: (+-)-cis-1-acetyl-4-(p-((2-(2,4-dichlorophenyl)-2-(imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazine
+Synonym: cis-1-acetyl-4-(4-((2-(2,4-dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazine
+Synonym: Fungarest
+Synonym: Fungoral
+Synonym: ketoconazole
+Synonym: ketoconazolum
+Synonym: Ketoderm
+Synonym: Ketoisdin
+Synonym: Nizoral
+Synonym: Panfungol
+Synonym: Xolegel
+CAS Registry: 65277-42-1
+
+CHEBI:46081
+Name: fluconazole
+Synonym: 2,4-difluoro-alpha,alpha-bis(1H-1,2,4-triazol-1-ylmethyl)benzyl alcohol
+Synonym: 2-(2,4-DIFLUOROPHENYL)-1,3-DI(1H-1,2,4-TRIAZOL-1-YL)PROPAN-2-OL
+Synonym: Biozole
+Synonym: Diflucan
+Synonym: Elazor
+Synonym: fluconazol
+Synonym: fluconazole
+Synonym: fluconazolum
+Synonym: Triflucan
+CAS Registry: 86386-73-4
