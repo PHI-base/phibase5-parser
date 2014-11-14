@@ -170,30 +170,25 @@ while (<TSV_FILE>) {
 
 	my $sql_result4 = $db_conn->prepare($sql_statement4);
 	$sql_result4->execute() or die $DBI::errstr;
+	my @row4 = $sql_result4->fetchrow_array();
+	my $pathogen_gene_id = $row4[0];
 
-	my $sql_statement3;
-
-        my $pathogen_gene_id;
-
-	while ( my @row4 = $sql_result4->fetchrow_array() ) {
-	  $pathogen_gene_id = $row4[0];
-	  #print "Pathogen_gene ID: ".$pathogen_gene_id."\n";
-	  
-	  $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
-			       SELECT $pathogen_gene_id,'$required_fields_annot{"patho_tax"}',
-                                      '$required_fields_annot{"accession"}'
-                               WHERE NOT EXISTS (
-                                 SELECT 1 FROM pathogen_gene_mutant
-			         WHERE pathogen_gene_id = $pathogen_gene_id
-                                 AND ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
-                                 AND uniprot_accession = '$required_fields_annot{"accession"}'
-                               ));
-	}
+        # insert data into pathogen_gene_mutant table, including foreign key to pathogen_gene table 
+	my $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
+			         SELECT $pathogen_gene_id,'$required_fields_annot{"patho_tax"}',
+                                        '$required_fields_annot{"accession"}'
+                                 WHERE NOT EXISTS (
+                                   SELECT 1 FROM pathogen_gene_mutant
+			           WHERE pathogen_gene_id = $pathogen_gene_id
+                                   AND ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                   AND uniprot_accession = '$required_fields_annot{"accession"}'
+                                 )
+                               );
 
 	my $sql_result3 = $db_conn->prepare($sql_statement3);
 	$sql_result3->execute() or die $DBI::errstr;
-	#print "pathogen_gene_mutant record inserted successfully\n";
 
+	# get the unique identifier for the inserted pathogen_gene_mutant record
         my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
 			        WHERE pathogen_gene_id = $pathogen_gene_id
                                 AND ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
@@ -201,6 +196,8 @@ while (<TSV_FILE>) {
 
 	my $sql_result5 = $db_conn->prepare($sql_statement5);
 	$sql_result5->execute() or die $DBI::errstr;
+	my @row5 = $sql_result5->fetchrow_array();
+	my $pathogen_gene_mutant_id = $row5[0];
 
         # before inserting a new interaction, we need to find out if the current PHI-base accession
         # should be part of an existing interaction (i.e. in a multiple mutation)
@@ -247,10 +244,10 @@ while (<TSV_FILE>) {
           # print "\n$sql_query\n";
           my $sql_stmt = $db_conn->prepare($sql_query);
           $sql_stmt->execute() or die $DBI::errstr;
+	  my @mult_mut_row = $sql_stmt->fetchrow_array();
+	  my $mult_mut_interaction_id = $mult_mut_row[0];
 
-          while ( my @mult_mut_row = $sql_stmt->fetchrow_array() and my @row5 = $sql_result5->fetchrow_array() ) {
-	     my $mult_mut_interaction_id = $mult_mut_row[0];
-	     my $pathogen_gene_mutant_id = $row5[0];
+          if ( $mult_mut_interaction_id and $pathogen_gene_mutant_id ) {
 	     print "Mult Mutant Partner Interaction ID: ".$mult_mut_interaction_id."\n";
 	     print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
 	  
@@ -261,20 +258,22 @@ while (<TSV_FILE>) {
 	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
 	     print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
-	  } # end while
+	  }
 
 
         } else {  # annotation is not a multiple mutant, so insert new interaction records
 
-#	  my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
-#	                          VALUES ('$required_fields_annot{"phi_base_acc"}',current_date) RETURNING id;);
           # increment interaction counter, to become new PHI-base accession
           $interaction_num++;
           my $phi_base_accession = "PHI:I".$interaction_num;
+
+          # insert a new record into the interaction table, returning the interaction identifier
 	  my $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
 	                            VALUES ('$phi_base_accession',current_date) RETURNING id;);
 	  my $sql_result1 = $db_conn->prepare($sql_statement1);
 	  $sql_result1->execute() or die $DBI::errstr;
+	  my @row1 = $sql_result1->fetchrow_array();
+	  my $interaction_id = $row1[0];
 
           # insert record to reference back to old phibase accession
           my $sql_statement6 = qq(INSERT INTO obsolete_reference (phi_base_accession,obsolete_accession)
@@ -283,12 +282,12 @@ while (<TSV_FILE>) {
 	  my $sql_result6 = $db_conn->prepare($sql_statement6);
 	  $sql_result6->execute() or die $DBI::errstr;
 
-          while ( my @row1 = $sql_result1->fetchrow_array() and my @row5 = $sql_result5->fetchrow_array() ) {
-	     my $interaction_id = $row1[0];
-	     my $pathogen_gene_mutant_id = $row5[0];
+          if ( $interaction_id and $pathogen_gene_mutant_id ) {
 	     #print "Interaction ID: ".$interaction_id."\n";
 	     #print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
 	  
+             # add records for the other tables associated with the interaction,
+             # using the interaction id as a foreign key to the interaction table
 	     my $inner_sql_statement = qq(
 		  		          INSERT INTO interaction_literature (interaction_id,pubmed_id) 
 					    VALUES ($interaction_id,'$required_fields_annot{"literature_id"}');
@@ -299,7 +298,7 @@ while (<TSV_FILE>) {
 				         );
 	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 	     #print "Interaction_literature, interaction_host, interaction_pathogen_gene_mutant records inserted successfully\n";
-	  } # end while
+	  }
 
         } # end else multiple mutation
 
