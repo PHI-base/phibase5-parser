@@ -1,0 +1,6 @@
+
+CHEBI:40909
+Name: azoxystrobin
+Synonym: (alphaE)-2-[[6-(2-cyanophenoxy)-4-pyrimidinyl]oxy]-alpha-(methoxymethylene) benzeneacetic acid methyl ester
+Synonym: methyl (E)-2-[2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl]-3-methoxyacrylate
+CAS Registry: 131860-33-8
