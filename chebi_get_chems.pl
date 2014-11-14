@@ -6,7 +6,7 @@
 use SOAP::Lite;
 
 # open output file
-my $chebi_filename = './output/chebi_chem_details.tsv';
+my $chebi_filename = './output/chebi_chem_details.txt';
 open (CHEBI_FILE, "> $chebi_filename") or die "Error opening output file\n";
 
 print "Printing to ChEBI output file $chebi_filename...\n";

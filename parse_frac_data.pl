@@ -8,7 +8,9 @@ use phibase_subroutines qw(connect_to_phibase query_uniprot); # load PHI-base fu
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
 # open the tab separated values (TSV) version of the FRAC table
-open (TSV_FILE, "frac_data.tsv") || die "Error opening input file\n";
+my $frac_tsv_filename = 'frac_data.tsv';
+open (TSV_FILE, $frac_tsv_filename) || die "Error opening input file\n";
+print "Processing FRAC data from $frac_tsv_filename...\n";
 
 # first line gives the spreadsheet column headings
 chomp(my $col_header_line = <TSV_FILE>);
@@ -33,7 +35,7 @@ while (<TSV_FILE>) {
    # initialise column iterator
    my $column_num=0;
 
-   # create separate hash to store values for the current FRAC chemical
+   # hash to store values for the current FRAC chemical
    my %frac_chem_hash;
 
    # iterate through each column of the current FRAC chemical, saving it to the appropriate text file
@@ -118,7 +120,7 @@ while (<TSV_FILE>) {
    # then insert should include mode_in_planta column,
    # otherwise use insert statement without this optional column
    if ( defined $mode_in_planta ) {
-       print "ChEBI ID: $frac_chem_hash{'chebi_id'}, Mode in planta: $mode_in_planta\n"; 
+       #print "ChEBI ID: $frac_chem_hash{'chebi_id'}, Mode in planta: $mode_in_planta\n"; 
        $sql_statement = qq(INSERT INTO chemical (chebi_id, cas_registry, frac_id, mode_in_planta) 
                             VALUES ('$frac_chem_hash{"chebi_id"}', '$frac_chem_hash{"cas_registry"}',
                                      $frac_id, '$mode_in_planta');
@@ -152,7 +154,7 @@ my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 # formatted with the common name as the first row
 # then a separate row for each column heading and value, separated by tab
 # with a blank line between each FRAC chemical
-my $all_data_filename = './output/all_frac_data.tsv';
+my $all_data_filename = './output/all_frac_data.txt';
 open (ALL_DATA_FILE, "> $all_data_filename") or die "Error opening output file\n";
 foreach my $frac_chem (keys %all_frac_data) {
    print ALL_DATA_FILE "FRAC chemical\t$frac_chem\n";
@@ -198,6 +200,6 @@ $db_conn->disconnect() or die "Failed to disconnect database\n";
 print "Process completed successfully.\n";
 print "Total FRAC chemicals:$frac_chemical_count\n";
 print "Output file of all FRAC data: $all_data_filename\n";
-print "Tab-separated file of all chemical data inserted to chemical and frac tables: $db_frac_filename\n";
+print "Tab-separated file of all chemical data inserted into chemical and frac tables: $db_frac_filename\n";
 
 
