@@ -26,7 +26,7 @@ my %all_frac_data;
 my %previous_chem_hash;
 
 # go through each of the remaining lines of the tab-delimited file (each representing a single chemical)
-# save the values of each column to the approriate output file
+# save the values of each column to the approriate output file, then insert into the appropriate database table
 while (<TSV_FILE>) {
 
    # each value is separated based on the tab, then saved as an element of the array
@@ -184,9 +184,7 @@ print DATABASE_FRAC_FILE "chem_id\tchebi_id\tcas_registry\tfrac_id(FK)\tfrac_id\
 
 while (my @row = $sql_stmt->fetchrow_array()) {
   $frac_chemical_count++;
-  my $col_count = 0;
   foreach my $column (@row) {
-     $col_count++;
      print DATABASE_FRAC_FILE "$column\t" if defined $column; 
   }
   print DATABASE_FRAC_FILE "\n";

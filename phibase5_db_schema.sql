@@ -112,11 +112,12 @@ CREATE TABLE interaction_experimental_evidence (
 
 CREATE TABLE curation_organisation (
     id SERIAL PRIMARY KEY,
-    organisation varchar(50)    
+    name varchar(50)    
 );
 
 CREATE TABLE curator (
     id SERIAL PRIMARY KEY,
+    initials varchar(50),
     name varchar(50),
     curation_organisation_id integer REFERENCES curation_organisation
 );

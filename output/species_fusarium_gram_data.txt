@@ -1,6 +1,7 @@
 PHI:712
 accession	I1RF62
 db_type	Uniprot
+entered_by	AB
 gene_name	GIP1
 host_tax	112509
 literature_id	15811992
@@ -12,6 +13,7 @@ phi_base_acc	PHI:712
 PHI:717
 accession	I1RKS2
 db_type	Uniprot
+entered_by	AB
 gene_name	PLSP1
 host_tax	4564
 literature_id	16278459
@@ -23,6 +25,7 @@ phi_base_acc	PHI:717
 PHI:719
 accession	I1RUB2
 db_type	Uniprot
+entered_by	AB
 gene_name	GzFUS1
 host_tax	4564
 literature_id	16278459
@@ -34,6 +37,7 @@ phi_base_acc	PHI:719
 PHI:720
 accession	I1RF58
 db_type	Uniprot
+entered_by	AB
 gene_name	AUR1
 host_tax	4564
 literature_id	16278459
@@ -45,6 +49,7 @@ phi_base_acc	PHI:720
 PHI:721
 accession	I1RJE8
 db_type	Uniprot
+entered_by	AB
 gene_name	GRS1
 host_tax	4564
 literature_id	16278459
@@ -56,6 +61,7 @@ phi_base_acc	PHI:721
 PHI:722
 accession	I1RXV6
 db_type	Uniprot
+entered_by	AB
 gene_name	PGL1
 host_tax	4564
 literature_id	16278459
@@ -67,6 +73,7 @@ phi_base_acc	PHI:722
 PHI:723
 accession	FGSG_03340 
 db_type	Uniprot
+entered_by	AB
 gene_name	PKS1
 host_tax	4564
 literature_id	16278459
@@ -78,6 +85,7 @@ phi_base_acc	PHI:723
 PHI:727
 accession	I1RHS7
 db_type	Uniprot
+entered_by	AB
 gene_name	PKS17
 host_tax	4564
 literature_id	16278459
@@ -89,6 +97,7 @@ phi_base_acc	PHI:727
 PHI:730
 accession	I1RSU2
 db_type	Uniprot
+entered_by	AB
 gene_name	KSA1
 host_tax	4564
 literature_id	16278459
@@ -100,6 +109,7 @@ phi_base_acc	PHI:730
 PHI:733
 accession	I1REK5
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FBP1
 host_tax	112509
 literature_id	17302802
@@ -111,6 +121,7 @@ phi_base_acc	PHI:733
 PHI:861
 accession	I1S095
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	RAS2
 host_tax	4564
 literature_id	17555271
@@ -122,6 +133,7 @@ phi_base_acc	PHI:861
 PHI:1004
 accession	I1RZQ2
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	STE7
 host_tax	4081
 literature_id	17253976
@@ -133,6 +145,7 @@ phi_base_acc	PHI:1004
 PHI:1007
 accession	I1RIV2
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	NPS6
 host_tax	4564
 literature_id	17056706
@@ -144,6 +157,7 @@ phi_base_acc	PHI:1007
 PHI:1012
 accession	I1RNF9
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	GzGPA1
 host_tax	112509
 literature_id	18227243
@@ -155,6 +169,7 @@ phi_base_acc	PHI:1012
 PHI:1013
 accession	I1RYZ7
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	GzGPA2
 host_tax	112509
 literature_id	18227243
@@ -166,6 +181,7 @@ phi_base_acc	PHI:1013
 PHI:1014
 accession	I1RZX9
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	GzGPA3
 host_tax	112509
 literature_id	18227243
@@ -177,6 +193,7 @@ phi_base_acc	PHI:1014
 PHI:1015
 accession	I1RJS2
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	GzGPB1
 host_tax	112509
 literature_id	18227243
@@ -188,6 +205,7 @@ phi_base_acc	PHI:1015
 PHI:1016
 accession	FG05484
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	STE11
 host_tax	4081
 literature_id	17253976
@@ -199,6 +217,7 @@ phi_base_acc	PHI:1016
 PHI:1078
 accession	I1RRG0
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	Mes1
 host_tax	4564
 literature_id	18339563
@@ -210,6 +229,7 @@ phi_base_acc	PHI:1078
 PHI:1079
 accession	I1RWL9
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	Pls1
 host_tax	4564
 literature_id	18339563
@@ -221,6 +241,7 @@ phi_base_acc	PHI:1079
 PHI:1080
 accession	I1RCP1
 db_type	Uniprot
+entered_by	AB
 gene_name	Cch1
 host_tax	4564
 literature_id	18083828
@@ -232,6 +253,7 @@ phi_base_acc	PHI:1080
 PHI:1086
 accession	I1RA89
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_00416
 host_tax	4564
 literature_id	18926918
@@ -243,6 +265,7 @@ phi_base_acc	PHI:1086
 PHI:1087
 accession	I1RKU0
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_04510
 host_tax	4564
 literature_id	18926918
@@ -254,6 +277,7 @@ phi_base_acc	PHI:1087
 PHI:1088
 accession	I1RZC6
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_09759
 host_tax	4564
 literature_id	18926918
@@ -265,6 +289,7 @@ phi_base_acc	PHI:1088
 PHI:1089
 accession	I1RFR2
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_02549
 host_tax	4564
 literature_id	18926918
@@ -276,6 +301,7 @@ phi_base_acc	PHI:1089
 PHI:1090
 accession	I1S042
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_10057
 host_tax	4564
 literature_id	18926918
@@ -287,6 +313,7 @@ phi_base_acc	PHI:1090
 PHI:1091
 accession	I1RWQ7
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_08737
 host_tax	4564
 literature_id	18926918
@@ -298,6 +325,7 @@ phi_base_acc	PHI:1091
 PHI:1092
 accession	I1S7D0
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_12753
 host_tax	4564
 literature_id	18926918
@@ -309,6 +337,7 @@ phi_base_acc	PHI:1092
 PHI:1093
 accession	I1REI8
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_02077
 host_tax	4564
 literature_id	18926918
@@ -320,6 +349,7 @@ phi_base_acc	PHI:1093
 PHI:1094
 accession	I1RL30
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_04610
 host_tax	4564
 literature_id	18926918
@@ -331,6 +361,7 @@ phi_base_acc	PHI:1094
 PHI:1095
 accession	I1RZQ3
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_09905
 host_tax	4564
 literature_id	18926918
@@ -342,6 +373,7 @@ phi_base_acc	PHI:1095
 PHI:1096
 accession	I1RSE4
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_07062
 host_tax	4564
 literature_id	18926918
@@ -353,6 +385,7 @@ phi_base_acc	PHI:1096
 PHI:1097
 accession	I1RE92
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_01974
 host_tax	4564
 literature_id	18926918
@@ -364,6 +397,7 @@ phi_base_acc	PHI:1097
 PHI:1098
 accession	I1S5A1
 db_type	Uniprot
+entered_by	AB; AC
 gene_name	FGSG_12019
 host_tax	4564
 literature_id	18926918
@@ -375,6 +409,7 @@ phi_base_acc	PHI:1098
 PHI:1168
 accession	I1RCN2
 db_type	Uniprot
+entered_by	MU
 gene_name	HDF1
 host_tax	4564
 literature_id	21138346
@@ -386,6 +421,7 @@ phi_base_acc	PHI:1168
 PHI:1169
 accession	I1RKC4
 db_type	Uniprot
+entered_by	MU
 gene_name	HDF2
 host_tax	4564
 literature_id	21138346
@@ -397,6 +433,7 @@ phi_base_acc	PHI:1169
 PHI:1170
 accession	I1RNQ2
 db_type	Uniprot
+entered_by	MU
 gene_name	HDF3
 host_tax	4564
 literature_id	21138346
@@ -408,6 +445,7 @@ phi_base_acc	PHI:1170
 PHI:1171
 accession	I1RCN2
 db_type	Uniprot
+entered_by	MU
 gene_name	HDF1
 host_tax	4564
 literature_id	21138346
@@ -419,6 +457,7 @@ phi_base_acc	PHI:1171
 PHI:1172
 accession	I1RKC4
 db_type	Uniprot
+entered_by	MU
 gene_name	HDF2
 host_tax	4564
 literature_id	21138346
@@ -430,6 +469,7 @@ phi_base_acc	PHI:1172
 PHI:1173
 accession	I1RCN2
 db_type	Uniprot
+entered_by	MU
 gene_name	HDF1
 host_tax	4564
 literature_id	21138346
@@ -441,6 +481,7 @@ phi_base_acc	PHI:1173
 PHI:1174
 accession	I1RNQ2
 db_type	Uniprot
+entered_by	MU
 gene_name	HDF3
 host_tax	4564
 literature_id	21138346
@@ -452,6 +493,7 @@ phi_base_acc	PHI:1174
 PHI:1175
 accession	I1RKR8
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Srb10 homolog
 host_tax	4564
 literature_id	22216007
@@ -463,6 +505,7 @@ phi_base_acc	PHI:1175
 PHI:1176
 accession	I1RNG8
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Atg1 homolog
 host_tax	4564
 literature_id	22216007
@@ -474,6 +517,7 @@ phi_base_acc	PHI:1176
 PHI:1177
 accession	I1RKH9
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Fpk1 homolog
 host_tax	4564
 literature_id	22216007
@@ -485,6 +529,7 @@ phi_base_acc	PHI:1177
 PHI:1178
 accession	I1RW16
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Cdc28 homolog
 host_tax	4564
 literature_id	22216007
@@ -496,6 +541,7 @@ phi_base_acc	PHI:1178
 PHI:1179
 accession	I1RZQ2
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Ste7 homolog
 host_tax	4564
 literature_id	22216007
@@ -507,6 +553,7 @@ phi_base_acc	PHI:1179
 PHI:1180
 accession	I1RS32
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Sat4 homolog
 host_tax	4564
 literature_id	22216007
@@ -518,6 +565,7 @@ phi_base_acc	PHI:1180
 PHI:1181
 accession	I1RNY7
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Kic1 homolog
 host_tax	4564
 literature_id	22216007
@@ -529,6 +577,7 @@ phi_base_acc	PHI:1181
 PHI:1182
 accession	I1S8Y9
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Mec1 homolog
 host_tax	4564
 literature_id	22216007
@@ -540,6 +589,7 @@ phi_base_acc	PHI:1182
 PHI:1183
 accession	I1RRX7
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Cmk1/Cmk2)
 host_tax	4564
 literature_id	22216007
@@ -551,6 +601,7 @@ phi_base_acc	PHI:1183
 PHI:1184
 accession	I1RWM5
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Gin4-like homolog
 host_tax	4564
 literature_id	22216007
@@ -562,6 +613,7 @@ phi_base_acc	PHI:1184
 PHI:1185
 accession	I1S0J9
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Swe1 homolog
 host_tax	4564
 literature_id	22216007
@@ -573,6 +625,7 @@ phi_base_acc	PHI:1185
 PHI:1186
 accession	I1S0Y9
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Cdc15 homolog
 host_tax	4564
 literature_id	22216007
@@ -584,6 +637,7 @@ phi_base_acc	PHI:1186
 PHI:1187
 accession	I1RWG6
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Dbf2/Dbf20 homolog
 host_tax	4564
 literature_id	22216007
@@ -595,6 +649,7 @@ phi_base_acc	PHI:1187
 PHI:1188
 accession	I1RDE5
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Sak1 homolog
 host_tax	4564
 literature_id	22216007
@@ -606,6 +661,7 @@ phi_base_acc	PHI:1188
 PHI:1189
 accession	I1RQN9
 db_type	Uniprot
+entered_by	MU
 gene_name	Gpmk1 homolog
 host_tax	4564
 literature_id	22216007
@@ -617,6 +673,7 @@ phi_base_acc	PHI:1189
 PHI:1190
 accession	I1RWL6
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Pbs2 homolog
 host_tax	4564
 literature_id	22216007
@@ -628,6 +685,7 @@ phi_base_acc	PHI:1190
 PHI:1192
 accession	I1RLX6
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc  Cak1 homolog
 host_tax	4564
 literature_id	22216007
@@ -639,6 +697,7 @@ phi_base_acc	PHI:1192
 PHI:1193
 accession	I1RGD6
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Sky1 homolog
 host_tax	4564
 literature_id	22216007
@@ -650,6 +709,7 @@ phi_base_acc	PHI:1193
 PHI:1194
 accession	I1RT06
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Mkk1/Mkk2 homolog
 host_tax	4564
 literature_id	22216007
@@ -661,6 +721,7 @@ phi_base_acc	PHI:1194
 PHI:1195
 accession	I1RQI2
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Bck1 homolog
 host_tax	4564
 literature_id	22216007
@@ -672,6 +733,7 @@ phi_base_acc	PHI:1195
 PHI:1196
 accession	I1S0S6
 db_type	Uniprot
+entered_by	MU
 gene_name	Mgv1homolog
 host_tax	4564
 literature_id	22216007
@@ -683,6 +745,7 @@ phi_base_acc	PHI:1196
 PHI:1197
 accession	I1RZP6
 db_type	Uniprot
+entered_by	MU
 gene_name	Snf1 homolog
 host_tax	4564
 literature_id	22216007
@@ -694,6 +757,7 @@ phi_base_acc	PHI:1197
 PHI:1198
 accession	I1RA81
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Ssk2/Ssk22 homolog
 host_tax	4564
 literature_id	22216007
@@ -705,6 +769,7 @@ phi_base_acc	PHI:1198
 PHI:1199
 accession	I1RSW5
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Tpk2 homolog
 host_tax	4564
 literature_id	22216007
@@ -716,6 +781,7 @@ phi_base_acc	PHI:1199
 PHI:1200
 accession	I1RT36
 db_type	Uniprot
+entered_by	MU
 gene_name	Gsk3 homolog
 host_tax	4564
 literature_id	22216007
@@ -727,6 +793,7 @@ phi_base_acc	PHI:1200
 PHI:1201
 accession	Q4HYC1
 db_type	Uniprot
+entered_by	MU
 gene_name	Bud32 homolog
 host_tax	4564
 literature_id	22216007
@@ -738,6 +805,7 @@ phi_base_acc	PHI:1201
 PHI:1202
 accession	I1RS48
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Cla4 homolog
 host_tax	4564
 literature_id	22216007
@@ -749,6 +817,7 @@ phi_base_acc	PHI:1202
 PHI:1203
 accession	I1S050
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Yck1/2/3 homolog
 host_tax	4564
 literature_id	22216007
@@ -760,6 +829,7 @@ phi_base_acc	PHI:1203
 PHI:1204
 accession	I1RC85
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Cbk1 homolog
 host_tax	4564
 literature_id	22216007
@@ -771,6 +841,7 @@ phi_base_acc	PHI:1204
 PHI:1205
 accession	I1RA39
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc CDC15 homolog
 host_tax	4564
 literature_id	22216007
@@ -782,6 +853,7 @@ phi_base_acc	PHI:1205
 PHI:1206
 accession	I1RJM8
 db_type	Uniprot
+entered_by	MU
 gene_name	Sp Prp4 homolog
 host_tax	4564
 literature_id	22216007
@@ -793,6 +865,7 @@ phi_base_acc	PHI:1206
 PHI:1207
 accession	I1RY42
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Kin1/Kin2 homolog
 host_tax	4564
 literature_id	22216007
@@ -804,6 +877,7 @@ phi_base_acc	PHI:1207
 PHI:1208
 accession	I1RAE5
 db_type	Uniprot
+entered_by	MU
 gene_name	Sc Sch9 homolog
 host_tax	4564
 literature_id	22216007
@@ -815,6 +889,7 @@ phi_base_acc	PHI:1208
 PHI:1209
 accession	I1RLH1
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_04770
 host_tax	4564
 literature_id	22216007
@@ -826,6 +901,7 @@ phi_base_acc	PHI:1209
 PHI:1210
 accession	I1S077
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_01058
 host_tax	4564
 literature_id	22216007
@@ -837,6 +913,7 @@ phi_base_acc	PHI:1210
 PHI:1211
 accession	I1RRQ8
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_06970
 host_tax	4564
 literature_id	22216007
@@ -848,6 +925,7 @@ phi_base_acc	PHI:1211
 PHI:1212
 accession	I1RCJ5
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12149
 host_tax	4564
 literature_id	22216007
@@ -859,6 +937,7 @@ phi_base_acc	PHI:1212
 PHI:1214
 accession	I1RN54
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07816
 host_tax	4564
 literature_id	22216007
@@ -870,6 +949,7 @@ phi_base_acc	PHI:1214
 PHI:1215
 accession	I1RX56
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02838
 host_tax	4564
 literature_id	22216007
@@ -881,6 +961,7 @@ phi_base_acc	PHI:1215
 PHI:1216
 accession	I1RT48
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_06420
 host_tax	4564
 literature_id	22216007
@@ -892,6 +973,7 @@ phi_base_acc	PHI:1216
 PHI:1217
 accession	1S4P4
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_00792
 host_tax	4564
 literature_id	22216007
@@ -903,6 +985,7 @@ phi_base_acc	PHI:1217
 PHI:1218
 accession	I1RAY2
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_01559
 host_tax	4564
 literature_id	22216007
@@ -914,6 +997,7 @@ phi_base_acc	PHI:1218
 PHI:1219
 accession	I1RC35
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_05549
 host_tax	4564
 literature_id	22216007
@@ -925,6 +1009,7 @@ phi_base_acc	PHI:1219
 PHI:1220
 accession	I1RCF7
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02488
 host_tax	4564
 literature_id	22216007
@@ -936,6 +1021,7 @@ phi_base_acc	PHI:1220
 PHI:1221
 accession	I1RJM9
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_03146
 host_tax	4564
 literature_id	22216007
@@ -947,6 +1033,7 @@ phi_base_acc	PHI:1221
 PHI:1222
 accession	I1RMV6
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_00132
 host_tax	4564
 literature_id	22216007
@@ -958,6 +1045,7 @@ phi_base_acc	PHI:1222
 PHI:1223
 accession	I1RN31
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12887
 host_tax	4564
 literature_id	22216007
@@ -969,6 +1057,7 @@ phi_base_acc	PHI:1223
 PHI:1224
 accession	Q4IB89
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_09150
 host_tax	4564
 literature_id	22216007
@@ -980,6 +1069,7 @@ phi_base_acc	PHI:1224
 PHI:1225
 accession	I1RP25
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12132
 host_tax	4564
 literature_id	22216007
@@ -991,6 +1081,7 @@ phi_base_acc	PHI:1225
 PHI:1226
 accession	I1RP88
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_11614
 host_tax	4564
 literature_id	22216007
@@ -1002,6 +1093,7 @@ phi_base_acc	PHI:1226
 PHI:1227
 accession	I1RPV7
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07742
 host_tax	4564
 literature_id	22216007
@@ -1013,6 +1105,7 @@ phi_base_acc	PHI:1227
 PHI:1228
 accession	I1RR00
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07745
 host_tax	4564
 literature_id	22216007
@@ -1024,6 +1117,7 @@ phi_base_acc	PHI:1228
 PHI:1229
 accession	I1RRB9
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02153
 host_tax	4564
 literature_id	22216007
@@ -1035,6 +1129,7 @@ phi_base_acc	PHI:1229
 PHI:1231
 accession	Q4I5U9
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_10591
 host_tax	4564
 literature_id	22216007
@@ -1046,6 +1141,7 @@ phi_base_acc	PHI:1231
 PHI:1232
 accession	I1RTC2
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_03499
 host_tax	4564
 literature_id	22216007
@@ -1057,6 +1153,7 @@ phi_base_acc	PHI:1232
 PHI:1233
 accession	I1RUG2
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_13944
 host_tax	4564
 literature_id	22216007
@@ -1068,6 +1165,7 @@ phi_base_acc	PHI:1233
 PHI:1234
 accession	I1RV69
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07812
 host_tax	4564
 literature_id	22216007
@@ -1079,6 +1177,7 @@ phi_base_acc	PHI:1234
 PHI:1235
 accession	I1RWQ2
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_04416
 host_tax	4564
 literature_id	22216007
@@ -1090,6 +1189,7 @@ phi_base_acc	PHI:1235
 PHI:1236
 accession	I1RYF8
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_04770
 host_tax	4564
 literature_id	22216007
@@ -1101,6 +1201,7 @@ phi_base_acc	PHI:1236
 PHI:1237
 accession	I1RZ37
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_01058
 host_tax	4564
 literature_id	22216007
@@ -1112,6 +1213,7 @@ phi_base_acc	PHI:1237
 PHI:1238
 accession	I1S1V3
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_06970
 host_tax	4564
 literature_id	22216007
@@ -1123,6 +1225,7 @@ phi_base_acc	PHI:1238
 PHI:1239
 accession	I1RFC7
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12149
 host_tax	4564
 literature_id	22216007
@@ -1134,6 +1237,7 @@ phi_base_acc	PHI:1239
 PHI:1240
 accession	I1RWQ0
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_05586
 host_tax	4564
 literature_id	22216007
@@ -1145,6 +1249,7 @@ phi_base_acc	PHI:1240
 PHI:1241
 accession	I1RAE2
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07816
 host_tax	4564
 literature_id	22216007
@@ -1156,6 +1261,7 @@ phi_base_acc	PHI:1241
 PHI:1242
 accession	I1RWG2
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02838
 host_tax	4564
 literature_id	22216007
@@ -1167,6 +1273,7 @@ phi_base_acc	PHI:1242
 PHI:1243
 accession	I1RBW7
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_06420
 host_tax	4564
 literature_id	22216007
@@ -1178,6 +1285,7 @@ phi_base_acc	PHI:1243
 PHI:1244
 accession	I1RA20
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_00792
 host_tax	4564
 literature_id	22216007
@@ -1189,6 +1297,7 @@ phi_base_acc	PHI:1244
 PHI:1245
 accession	I1RTL1
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_01559
 host_tax	4564
 literature_id	22216007
@@ -1200,6 +1309,7 @@ phi_base_acc	PHI:1245
 PHI:1246
 accession	I1RYQ5
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_05549
 host_tax	4564
 literature_id	22216007
@@ -1211,6 +1321,7 @@ phi_base_acc	PHI:1246
 PHI:1247
 accession	I1S0G8
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02488
 host_tax	4564
 literature_id	22216007
@@ -1222,6 +1333,7 @@ phi_base_acc	PHI:1247
 PHI:1248
 accession	I1RRU2
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_03146
 host_tax	4564
 literature_id	22216007
@@ -1233,6 +1345,7 @@ phi_base_acc	PHI:1248
 PHI:1249
 accession	I1RB79
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_00132
 host_tax	4564
 literature_id	22216007
@@ -1244,6 +1357,7 @@ phi_base_acc	PHI:1249
 PHI:1250
 accession	I1RS33
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12887
 host_tax	4564
 literature_id	22216007
@@ -1255,6 +1369,7 @@ phi_base_acc	PHI:1250
 PHI:1251
 accession	I1RD19
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_09150
 host_tax	4564
 literature_id	22216007
@@ -1266,6 +1381,7 @@ phi_base_acc	PHI:1251
 PHI:1252
 accession	I1RP15
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12132
 host_tax	4564
 literature_id	22216007
@@ -1277,6 +1393,7 @@ phi_base_acc	PHI:1252
 PHI:1253
 accession	I1RS57
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_11614
 host_tax	4564
 literature_id	22216007
@@ -1288,6 +1405,7 @@ phi_base_acc	PHI:1253
 PHI:1254
 accession	I1RDX3
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07742
 host_tax	4564
 literature_id	22216007
@@ -1299,6 +1417,7 @@ phi_base_acc	PHI:1254
 PHI:1255
 accession	I1RQ67
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07745
 host_tax	4564
 literature_id	22216007
@@ -1310,6 +1429,7 @@ phi_base_acc	PHI:1255
 PHI:1256
 accession	I1RAA6
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02153
 host_tax	4564
 literature_id	22216007
@@ -1321,6 +1441,7 @@ phi_base_acc	PHI:1256
 PHI:1257
 accession	I1RSK0
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_13509
 host_tax	4564
 literature_id	22216007
@@ -1332,6 +1453,7 @@ phi_base_acc	PHI:1257
 PHI:1258
 accession	I1S5M8
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_10591
 host_tax	4564
 literature_id	22216007
@@ -1343,6 +1465,7 @@ phi_base_acc	PHI:1258
 PHI:1259
 accession	I1RNK3
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_03499
 host_tax	4564
 literature_id	22216007
@@ -1354,6 +1477,7 @@ phi_base_acc	PHI:1259
 PHI:1260
 accession	I1RUC7
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_13944
 host_tax	4564
 literature_id	22216007
@@ -1365,6 +1489,7 @@ phi_base_acc	PHI:1260
 PHI:1261
 accession	I1RGH4
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07812
 host_tax	4564
 literature_id	22216007
@@ -1376,6 +1501,7 @@ phi_base_acc	PHI:1261
 PHI:1262
 accession	I1RQS1
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_04416
 host_tax	4564
 literature_id	22216007
@@ -1387,6 +1513,7 @@ phi_base_acc	PHI:1262
 PHI:1263
 accession	I1RB84
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_04770
 host_tax	4564
 literature_id	22216007
@@ -1398,6 +1525,7 @@ phi_base_acc	PHI:1263
 PHI:1264
 accession	I1RD70
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_01058
 host_tax	4564
 literature_id	22216007
@@ -1409,6 +1537,7 @@ phi_base_acc	PHI:1264
 PHI:1265
 accession	I1RNH0
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_06970
 host_tax	4564
 literature_id	22216007
@@ -1420,6 +1549,7 @@ phi_base_acc	PHI:1265
 PHI:1266
 accession	I1RH87
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12149
 host_tax	4564
 literature_id	22216007
@@ -1431,6 +1561,7 @@ phi_base_acc	PHI:1266
 PHI:1267
 accession	I1RKK7
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_05586
 host_tax	4564
 literature_id	22216007
@@ -1442,6 +1573,7 @@ phi_base_acc	PHI:1267
 PHI:1268
 accession	I1RN43
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07816
 host_tax	4564
 literature_id	22216007
@@ -1453,6 +1585,7 @@ phi_base_acc	PHI:1268
 PHI:1269
 accession	I1RFK9
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02838
 host_tax	4564
 literature_id	22216007
@@ -1464,6 +1597,7 @@ phi_base_acc	PHI:1269
 PHI:1270
 accession	I1RHA1
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_06420
 host_tax	4564
 literature_id	22216007
@@ -1475,6 +1609,7 @@ phi_base_acc	PHI:1270
 PHI:1271
 accession	I1R9J1
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_00792
 host_tax	4564
 literature_id	22216007
@@ -1486,6 +1621,7 @@ phi_base_acc	PHI:1271
 PHI:1272
 accession	I1RYN5
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_01559
 host_tax	4564
 literature_id	22216007
@@ -1497,6 +1633,7 @@ phi_base_acc	PHI:1272
 PHI:1273
 accession	I1RCM6
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_05549
 host_tax	4564
 literature_id	22216007
@@ -1508,6 +1645,7 @@ phi_base_acc	PHI:1273
 PHI:1274
 accession	I1RME6
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02488
 host_tax	4564
 literature_id	22216007
@@ -1519,6 +1657,7 @@ phi_base_acc	PHI:1274
 PHI:1275
 accession	I1S7R2
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_03146
 host_tax	4564
 literature_id	22216007
@@ -1530,6 +1669,7 @@ phi_base_acc	PHI:1275
 PHI:1276
 accession	I1RXS5
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_00132
 host_tax	4564
 literature_id	22216007
@@ -1541,6 +1681,7 @@ phi_base_acc	PHI:1276
 PHI:1277
 accession	I1S5L1
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12887
 host_tax	4564
 literature_id	22216007
@@ -1552,6 +1693,7 @@ phi_base_acc	PHI:1277
 PHI:1278
 accession	I1S453
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_09150
 host_tax	4564
 literature_id	22216007
@@ -1563,6 +1705,7 @@ phi_base_acc	PHI:1278
 PHI:1279
 accession	I1RU59
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_12132
 host_tax	4564
 literature_id	22216007
@@ -1574,6 +1717,7 @@ phi_base_acc	PHI:1279
 PHI:1280
 accession	I1RU62
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_11614
 host_tax	4564
 literature_id	22216007
@@ -1585,6 +1729,7 @@ phi_base_acc	PHI:1280
 PHI:1281
 accession	I1REQ8
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07742
 host_tax	4564
 literature_id	22216007
@@ -1596,6 +1741,7 @@ phi_base_acc	PHI:1281
 PHI:1282
 accession	I1S9H8
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07745
 host_tax	4564
 literature_id	22216007
@@ -1607,6 +1753,7 @@ phi_base_acc	PHI:1282
 PHI:1283
 accession	I1S1I6
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_02153
 host_tax	4564
 literature_id	22216007
@@ -1618,6 +1765,7 @@ phi_base_acc	PHI:1283
 PHI:1284
 accession	I1RI73
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_13509
 host_tax	4564
 literature_id	22216007
@@ -1629,6 +1777,7 @@ phi_base_acc	PHI:1284
 PHI:1285
 accession	I1SAR3
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_10591
 host_tax	4564
 literature_id	22216007
@@ -1640,6 +1789,7 @@ phi_base_acc	PHI:1285
 PHI:1286
 accession	I1RUC3
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_03499
 host_tax	4564
 literature_id	22216007
@@ -1651,6 +1801,7 @@ phi_base_acc	PHI:1286
 PHI:1287
 accession	I1RT82
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_13944
 host_tax	4564
 literature_id	22216007
@@ -1662,6 +1813,7 @@ phi_base_acc	PHI:1287
 PHI:1288
 accession	I1RE83
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_07812
 host_tax	4564
 literature_id	22216007
@@ -1673,6 +1825,7 @@ phi_base_acc	PHI:1288
 PHI:1289
 accession	I1RKK5
 db_type	Uniprot
+entered_by	MU
 gene_name	FGSG_04416
 host_tax	4564
 literature_id	22216007
@@ -1684,6 +1837,7 @@ phi_base_acc	PHI:1289
 PHI:2294
 accession	I1RCK7
 db_type	Uniprot
+entered_by	RP
 gene_name	FgFRP1
 host_tax	112509
 literature_id	21722294
@@ -1695,6 +1849,7 @@ phi_base_acc	PHI:2294
 PHI:2385
 accession	I1RTN5
 db_type	Uniprot
+entered_by	RP
 gene_name	MYT2
 host_tax	4564
 literature_id	22649560
@@ -1706,6 +1861,7 @@ phi_base_acc	PHI:2385
 PHI:2386
 accession	I1S7N4
 db_type	Uniprot
+entered_by	RP
 gene_name	ACL1
 host_tax	4564
 literature_id	21237280
@@ -1717,6 +1873,7 @@ phi_base_acc	PHI:2386
 PHI:2387
 accession	I1RPR1
 db_type	Uniprot
+entered_by	RP
 gene_name	ACL2
 host_tax	4564
 literature_id	21237280
@@ -1728,6 +1885,7 @@ phi_base_acc	PHI:2387
 PHI:2393
 accession	I1R980
 db_type	Uniprot
+entered_by	RP
 gene_name	Related to O-methylsterigmatocystin oxidoreductase
 host_tax	4564
 literature_id	19888824
@@ -1739,6 +1897,7 @@ phi_base_acc	PHI:2393
 PHI:2394
 accession	I1S104
 db_type	Uniprot
+entered_by	RP
 gene_name	Conserved hypothetical protein 
 host_tax	4564
 literature_id	19888824
@@ -1750,6 +1909,7 @@ phi_base_acc	PHI:2394
 PHI:2395
 accession	I1RBM2
 db_type	Uniprot
+entered_by	RP
 gene_name	GzSYN1
 host_tax	112514
 literature_id	20102747
@@ -1761,6 +1921,7 @@ phi_base_acc	PHI:2395
 PHI:2396
 accession	I1RZS5
 db_type	Uniprot
+entered_by	RP
 gene_name	GzSYN2
 host_tax	112514
 literature_id	20102747
@@ -1772,6 +1933,7 @@ phi_base_acc	PHI:2396
 PHI:2399
 accession	I1S5P3
 db_type	Uniprot
+entered_by	RP
 gene_name	Fgp1
 host_tax	4081
 literature_id	22693448
@@ -1783,6 +1945,7 @@ phi_base_acc	PHI:2399
 PHI:2400
 accession	I1S215
 db_type	Uniprot
+entered_by	RP
 gene_name	Fgp2
 host_tax	4081
 literature_id	22693448
@@ -1794,6 +1957,7 @@ phi_base_acc	PHI:2400
 PHI:2418
 accession	I1RKF3
 db_type	Uniprot
+entered_by	RP
 gene_name	CID1
 host_tax	4577
 literature_id	19909822
@@ -1805,6 +1969,7 @@ phi_base_acc	PHI:2418
 PHI:2419
 accession	I1RKF3
 db_type	Uniprot
+entered_by	RP
 gene_name	CID1
 host_tax	4564
 literature_id	19909822
@@ -1816,6 +1981,7 @@ phi_base_acc	PHI:2419
 PHI:2427
 accession	I1RCN9
 db_type	Uniprot
+entered_by	RP
 gene_name	FgVELB
 host_tax	4564
 literature_id	22713714
@@ -1827,6 +1993,7 @@ phi_base_acc	PHI:2427
 PHI:2430
 accession	I1RWG5
 db_type	Uniprot
+entered_by	RP
 gene_name	areA
 host_tax	4564
 literature_id	22702217
@@ -1838,6 +2005,7 @@ phi_base_acc	PHI:2430
 PHI:2432
 accession	I1RKA4
 db_type	Uniprot
+entered_by	RP
 gene_name	FgRgsA
 host_tax	4564
 literature_id	22634273
@@ -1849,6 +2017,7 @@ phi_base_acc	PHI:2432
 PHI:2433
 accession	I1RD16
 db_type	Uniprot
+entered_by	RP
 gene_name	FgRgsB
 host_tax	4564
 literature_id	22634273
@@ -1860,6 +2029,7 @@ phi_base_acc	PHI:2433
 PHI:2434
 accession	I1RQ89
 db_type	Uniprot
+entered_by	RP
 gene_name	FgFlbA
 host_tax	4564
 literature_id	22634273
@@ -1871,6 +2041,7 @@ phi_base_acc	PHI:2434
 PHI:2451
 accession	I1S3N8
 db_type	Uniprot
+entered_by	RP
 gene_name	FAEB1
 host_tax	4564
 literature_id	22483046
@@ -1882,6 +2053,7 @@ phi_base_acc	PHI:2451
 PHI:2452
 accession	I1S2N6
 db_type	Uniprot
+entered_by	RP
 gene_name	FAED1
 host_tax	4564
 literature_id	22483046
@@ -1893,6 +2065,7 @@ phi_base_acc	PHI:2452
 PHI:2491
 accession	I1RJS9
 db_type	Uniprot
+entered_by	RP
 gene_name	FgPTC1
 host_tax	4564
 literature_id	20447276
@@ -1904,6 +2077,7 @@ phi_base_acc	PHI:2491
 PHI:2502
 accession	I1RM09 
 db_type	Uniprot
+entered_by	RP
 gene_name	FgTep1p
 host_tax	4564
 literature_id	20618707
@@ -1915,6 +2089,7 @@ phi_base_acc	PHI:2502
 PHI:2704
 accession	 F6MFB4
 db_type	Uniprot
+entered_by	RP
 gene_name	Tri12
 host_tax	4565
 literature_id	22835271
@@ -1926,6 +2101,7 @@ phi_base_acc	PHI:2704
 PHI:2714
 accession	I1RC71
 db_type	Uniprot
+entered_by	RP
 gene_name	PEX5
 host_tax	4565
 literature_id	22913493
@@ -1937,6 +2113,7 @@ phi_base_acc	PHI:2714
 PHI:2715
 accession	I1RNL3
 db_type	Uniprot
+entered_by	RP
 gene_name	PEX6 
 host_tax	4565
 literature_id	22913493
@@ -1948,6 +2125,7 @@ phi_base_acc	PHI:2715
 PHI:2907
 accession	I6YDU0
 db_type	Uniprot
+entered_by	RP
 gene_name	Cyp51A
 host_tax	3750
 literature_id	23442154

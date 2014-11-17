@@ -116,7 +116,8 @@ while (<TSV_FILE>) {
      "patho_tax",
      "host_tax",
      "literature_id",
-     "literature_source"
+     "literature_source",
+     "entered_by"
      );
      my %required_fields_annot;
      @required_fields_annot{@required_fields} = @phi_base_annotation{@required_fields};
@@ -132,11 +133,13 @@ while (<TSV_FILE>) {
           and defined $required_fields_annot{"patho_tax"}
           and defined $required_fields_annot{"host_tax"}
           and defined $required_fields_annot{"literature_id"}
+          and defined $required_fields_annot{"entered_by"}
           and $required_fields_annot{"phi_base_acc"} ne ""
           and $required_fields_annot{"accession"} ne ""
           and $required_fields_annot{"gene_name"} ne ""
           and $required_fields_annot{"host_tax"} ne ""
           and $required_fields_annot{"literature_id"} ne ""
+          and $required_fields_annot{"entered_by"} ne ""
           and $required_fields_annot{"db_type"} eq "Uniprot"
           and lc $required_fields_annot{"literature_source"} eq "pubmed"
           and $required_fields_annot{"patho_tax"} == 5518 ) {
@@ -151,7 +154,8 @@ while (<TSV_FILE>) {
 	#print "Host Species NCBI Taxon ID:$required_fields_annot{'host_tax'}\n";
 	#print "PubMed ID:$required_fields_annot{'literature_id'}\n\n";
 
-	# insert data into the pathogen_gene table
+	# insert data into the pathogen_gene table,
+        # if it does not exist already (based on combination of taxon id and gene name)
 	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name) 
 			        SELECT '$required_fields_annot{"patho_tax"}','$required_fields_annot{"gene_name"}'
                                 WHERE NOT EXISTS (
@@ -300,16 +304,85 @@ while (<TSV_FILE>) {
 	     #print "Interaction_literature, interaction_host, interaction_pathogen_gene_mutant records inserted successfully\n";
 	  }
 
+          # for the curators, need to split list of curators base on semi-colon delimiter
+          my $curators_string = $required_fields_annot{"entered_by"};
+
+	  # get the unique identifier for the curator,
+          # based on initials given in the entered_by field
+          my @curators = split(";",$curators_string);
+
+          # for each curator, need to get the curator identifier,
+          # then insert an interaction_curator record
+          foreach my $curator_init (@curators) {
+
+            $curator_init =~ s/^\s+//; # remove blank space from start of curator initials
+            $curator_init =~ s/\s+$//; # remove blank space from end of curator initials
+
+            my $sql_statement = qq(SELECT id FROM curator
+                                     WHERE initials = '$curator_init';
+                                  );
+
+	    my $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+	    my @row = $sql_result->fetchrow_array();
+	    my $curator_id = shift @row;
+
+            # insert data into interaction_curator table,
+            # with foreign keys to the interaction table and the curator table 
+	    $sql_statement = qq(INSERT INTO interaction_curator (interaction_id, curator_id)
+                                  VALUES ($interaction_id, $curator_id);
+                               );
+	    $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+
+          } # end foreach curator
+
+          # if a valid species expert exists,
+          # need to retrieve the curator identifier, based on the initials
+          # then insert the appropriate species expert record (if it does not already exist)
+          # based on both the curator id and the pathogen taxon id
+          my $species_expert_init = $phi_base_annotation{"species_expert"};
+
+          $species_expert_init =~ s/^\s+//; # remove blank space from start of species expert initials
+          $species_expert_init =~ s/\s+$//; # remove blank space from end of species expert initials
+
+          my $sql_statement = qq(SELECT id FROM curator
+                                   WHERE initials = '$species_expert_init';
+                                );
+
+	  my $sql_result = $db_conn->prepare($sql_statement);
+	  $sql_result->execute() or die $DBI::errstr;
+	  my @row = $sql_result->fetchrow_array();
+	  my $curator_id = shift @row;
+
+          # insert data into species_expert table (if it does not already exist),
+          # using the pathogen taxon id and foreign key to the curator table 
+	  if (defined $curator_id and $curator_id ne "" and $curator_id ne "na") {
+  	     $sql_statement = qq(INSERT INTO species_expert (ncbi_taxon_id, curator_id)
+                                 SELECT '$required_fields_annot{"patho_tax"}', $curator_id
+                                 WHERE NOT EXISTS (
+                                     SELECT 1 FROM species_expert
+                                     WHERE ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                     AND curator_id = $curator_id
+                                   )
+                                );
+	     $sql_result = $db_conn->prepare($sql_statement);
+	     $sql_result->execute() or die $DBI::errstr;
+          }
+
         } # end else multiple mutation
 
      } # end if pathogen id = fusarium gram 
 
    } else { # else PHI-base accession does not exist, or is not valid
+
      # add the PHI-base accession string to the invalid accession array
      push(@invalid_phibase_acc,$phi_base_annotation{"phi_base_acc"});
+
    }
 
 } # end of file
+
 close (TSV_FILE);
 
 # save all of the valid phibase data to file (sorted by PHI-base accession)
@@ -368,13 +441,17 @@ close (SPECIES_FILE);
 # retrieve all of the data inserted into the relevant tables of phibase
 # and save the file in a tab-delimited file, with appropriate headings
 my $sql_query = qq(SELECT * FROM interaction, obsolete_reference, interaction_pathogen_gene_mutant, 
-                     pathogen_gene_mutant, pathogen_gene, interaction_literature, interaction_host
+                     pathogen_gene_mutant, pathogen_gene, interaction_literature, interaction_host,
+                     interaction_curator, curator, curation_organisation, species_expert
                    WHERE interaction.phi_base_accession = obsolete_reference.phi_base_accession 
                      AND interaction.id = interaction_pathogen_gene_mutant.interaction_id
                      AND pathogen_gene_mutant.id = interaction_pathogen_gene_mutant.pathogen_gene_mutant_id
                      AND pathogen_gene.id = pathogen_gene_mutant.pathogen_gene_id
                      AND interaction.id = interaction_literature.interaction_id
                      AND interaction.id = interaction_host.interaction_id
+                     AND interaction.id = interaction_curator.interaction_id
+                     AND interaction_curator.curator_id = curator.id
+                     AND curation_organisation.id = curator.curation_organisation_id
                  ;);
 my $sql_stmt = $db_conn->prepare($sql_query);
 my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
@@ -384,7 +461,7 @@ my $annotation_count = 0;
 my $db_data_filename = './output/database_data.tsv';  
 open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output file\n";
 
-print DATABASE_DATA_FILE "int id\tPHI-base acc\tcuration date\tobsolete ref id\tobsolete ref new accession\tobsolete ref old accession\tint_path_gene_mut int_id\tint_path_gene_mut path_gene_id\tpath_gene_mutant_id\tpath_gene_mutant path_gene_id\tpath_gene_mutant ncbi_taxon_id\tuniprot_accession\tpath_gene id\tpath_gene ncbi_taxon_id\tpath_gene gene_name\tint_lit int_id\tint_lit PubMed ID\tint_host id\tint_host int_id\tint_host ncbi_taxon_id\n";
+print DATABASE_DATA_FILE "int id\tPHI-base acc\tcuration date\tobsolete ref id\tobsolete ref new accession\tobsolete ref old accession\tint_path_gene_mut int_id\tint_path_gene_mut path_gene_id\tpath_gene_mutant_id\tpath_gene_mutant path_gene_id\tpath_gene_mutant ncbi_taxon_id\tuniprot_accession\tpath_gene id\tpath_gene ncbi_taxon_id\tpath_gene gene_name\tint_lit int_id\tint_lit PubMed ID\tint_host id\tint_host int_id\tint_host ncbi_taxon_id\tint_cur int_id\tint_cur cur_id\tcurator id\tcurator init\tcurator name\tcurator org_id\tcur_org id\tcur_org name\tsp_expert taxon_id\tsp_expert curator_id\n";
 
 while (my @row = $sql_stmt->fetchrow_array()) {
   $annotation_count++;

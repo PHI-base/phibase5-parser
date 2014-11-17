@@ -1,0 +1,170 @@
+Curator ID	SD
+ID	SD
+Organisation	
+Name	Sian Deller
+
+Curator ID	AB
+Organisation	
+Name	Andrew Beacham
+ID	AB
+
+Curator ID	KM
+ID	KM
+Organisation	
+Name	Kerry Maguire
+
+Curator ID	BO
+Organisation	
+Name	Birgit Oeser
+ID	BO
+
+Curator ID	NB
+Name	Neil Brown
+Organisation	
+ID	NB
+
+Curator ID	AC
+Name	Alayne Cuzick
+Organisation	Rothamsted Research
+ID	AC
+
+Curator ID	JK
+ID	JK
+Organisation	
+Name	John Keon
+
+Curator ID	TKB
+ID	TKB
+Name	Thomas Baldwin
+Organisation	
+
+Curator ID	RK
+ID	RK
+Name	Roland Krause
+Organisation	
+
+Curator ID	JA
+ID	JA
+Name	John Antoniw
+Organisation	
+
+Curator ID	SH
+ID	SH
+Organisation	
+Name	Sabrina Holland
+
+Curator ID	DG
+ID	DG
+Name	Donald Gardiner
+Organisation	
+
+Curator ID	AS
+ID	AS
+Organisation	
+Name	Ane Sesma
+
+Curator ID	ML
+ID	ML
+Name	Magdalen Lindeberg
+Organisation	
+
+Curator ID	ND
+Organisation	
+Name	Noemie Desmenceux
+ID	ND
+
+Curator ID	BH
+ID	BH
+Organisation	
+Name	Barbara Howlett
+
+Curator ID	AI
+ID	AI
+Organisation	
+Name	Alexander Idnurm
+
+Curator ID	KHK
+ID	KHK
+Name	Kim Hammond-Kosack
+Organisation	Rothamsted Research
+
+Curator ID	RP
+Organisation	Molecular Connections
+Name	Rashmi Pant
+ID	RP
+
+Curator ID	MHK
+ID	MHK
+Organisation	Rothamsted Research
+Name	Michael Hammond-Kosack
+
+Curator ID	JVK
+ID	JVK
+Organisation	
+Name	Jan van Kan
+
+Curator ID	DS
+Name	Darren Soanes
+Organisation	
+ID	DS
+
+Curator ID	AGI
+ID	AGI
+Organisation	Rothamsted Research
+Name	Alistair Irvine
+
+Curator ID	HH
+ID	HH
+Organisation	
+Name	Hilde Hansen
+
+Curator ID	MC
+Name	Molecular Connections
+Organisation	Molecular Connections
+ID	MC
+
+Curator ID	AR
+Organisation	Molecular Connections
+Name	Arathi Raghunath
+ID	AR
+
+Curator ID	SK
+Organisation	
+Name	Sophien Kamoun
+ID	SK
+
+Curator ID	HJC
+Organisation	
+Name	Hans Cools
+ID	HJC
+
+Curator ID	HJ
+ID	HJ
+Name	Helen Jenkins
+Organisation	Rothamsted Research
+
+Curator ID	RM
+Name	Ros Marshall
+Organisation	
+ID	RM
+
+Curator ID	MU
+Name	Martin Urban
+Organisation	Rothamsted Research
+ID	MU
+
+Curator ID	PR
+Organisation	
+Name	Pam Ronald
+ID	PR
+
+Curator ID	RO
+Name	Richard Oliver
+Organisation	
+ID	RO
+
+Curator ID	JR
+ID	JR
+Name	Jason Rudd
+Organisation	
+
