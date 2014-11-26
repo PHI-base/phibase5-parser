@@ -370,6 +370,74 @@ while (<TSV_FILE>) {
 	     $sql_result->execute() or die $DBI::errstr;
           }
 
+
+          # create hash of key/value pairs for attribute/value of all the defects
+          my %defects = (
+                           'Mating Defect'     => $phi_base_annotation{"mating_defect"},
+                           'Pre-penetration'   => $phi_base_annotation{"prepenetration"},
+                           'Penetration'       => $phi_base_annotation{"penetration"},
+                           'Post-penetration'  => $phi_base_annotation{"postprepenetration"},
+                           'Vegetative Spores' => $phi_base_annotation{"vegetative_spores"},
+                           'Sexual Spores'     => $phi_base_annotation{"sexual_spores"},
+                           'In Vitro Growth'   => $phi_base_annotation{"in_vitro_growth"},
+                           'Spore Germination' => $phi_base_annotation{"spore_germination"}
+                        );
+
+=pod
+                           mating_defect => $phi_base_annotation{"mating_defect"},
+                           prepenetration => $phi_base_annotation{"prepenetration"},
+                           penetration => $phi_base_annotation{"penetration"},
+                           postpenetration => $phi_base_annotation{"postprepenetration"},
+                           vegetative_spores => $phi_base_annotation{"vegetative_spores"},
+                           sexual_spores => $phi_base_annotation{"sexual_spores"},
+                           in_vitro_growth => $phi_base_annotation{"in_vitro_growth"},
+                           spore_germination => $phi_base_annotation{"spore_germination"}
+=cut
+          # for each of the defects, retrieve the id for the relevant defect,
+          # then retrieve the id for the defect value (if available)
+          # then insert a interaction_defect record,
+          # based on combination of interaction id, defect attribute id and defect value id
+          foreach my $defect_attribute (keys %defects)
+          {
+
+             my $defect_value = $defects{$defect_attribute};
+
+             if (defined $defect_value and $defect_value ne "" and lc($defect_value) ne "none") {
+
+		# get the id for the current defect attribute
+		my $sql_statement = qq(SELECT id FROM defect_attribute
+		               	         WHERE attribute = '$defect_attribute';
+				      );
+		my $sql_result = $db_conn->prepare($sql_statement);
+		$sql_result->execute() or die $DBI::errstr;
+		my @row = $sql_result->fetchrow_array();
+		my $defect_attr_id = shift @row;
+
+		# get the id for the current defect value, if it is a valid value
+		$sql_statement = qq(SELECT id FROM defect_value
+		 	            WHERE lower(value) = lower('$defect_value');
+				   );
+		$sql_result = $db_conn->prepare($sql_statement);
+		$sql_result->execute() or die $DBI::errstr;
+		@row = $sql_result->fetchrow_array();
+		my $defect_value_id = shift @row;
+
+		# insert data into interaction_defect table,
+		# using the interaction id, defect attribute id and defect value id as foreign keys 
+		if (defined $defect_attr_id and defined $defect_value_id) {
+		   $sql_statement = qq(INSERT INTO interaction_defect (interaction_id, defect_attribute_id, defect_value_id)
+					 VALUES ($interaction_id, $defect_attr_id, $defect_value_id);
+					);
+		   $sql_result = $db_conn->prepare($sql_statement);
+		   $sql_result->execute() or die $DBI::errstr;
+                } else {
+                   print "Defect value $defect_value not valid for $defect_attribute (Interaction ID: $interaction_id)\n"
+                }
+
+             } # end if defect value
+
+          } # end foreach defect
+      
         } # end else multiple mutation
 
      } # end if pathogen id = fusarium gram 

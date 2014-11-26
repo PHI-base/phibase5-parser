@@ -186,3 +186,19 @@ CREATE TABLE interaction_disease (
     PRIMARY KEY (interaction_id, disease_id)       
 );
 
+CREATE TABLE defect_attribute (
+    id SERIAL PRIMARY KEY,
+    attribute varchar(50)
+);
+
+CREATE TABLE defect_value (
+    id SERIAL PRIMARY KEY,
+    value varchar(50)
+);
+
+CREATE TABLE interaction_defect (
+    interaction_id integer REFERENCES interaction,
+    defect_attribute_id integer REFERENCES defect_attribute,
+    defect_value_id integer REFERENCES defect_value
+);
+
