@@ -5,7 +5,6 @@ Uniprot
 Uniprot
 Entrez Protein
 Uniprot
-
 Entrez Protein
 Entrez Protein
 Entrez Protein
@@ -384,7 +383,6 @@ Entrez Protein
 Entrez Protein
 Entrez Protein
 Uniprot
-
 Entrez Protein
 Entrez Protein
 Entrez Protein
@@ -445,9 +443,7 @@ Uniprot
 Entrez Protein
 Uniprot
 Uniprot
-
 Entrez Protein
-
 Entrez Protein
 Entrez Protein
 Entrez Protein
@@ -479,17 +475,11 @@ Entrez Protein
 Entrez Protein
 Entrez Protein
 Uniprot
-
 Uniprot
-
 Uniprot
-
 Uniprot
-
 Uniprot
-
 Uniprot
-
 Uniprot
 Uniprot
 Uniprot
@@ -497,7 +487,7 @@ Uniprot
 NULL
 Uniprot
 NULL
-
+T5
 Entrez Protein
 Entrez Protein
 Entrez Protein
@@ -1157,11 +1147,8 @@ Entrez Gene
 Uniprot
 Uniprot
 Uniprot
-
 Uniprot
-
 Uniprot
-
 Uniprot
 NULL
 NULL
@@ -2286,11 +2273,8 @@ Entrez Nucleotide
 Entrez Gene
 Entrez Nucleotide
 Entrez Protein
-
 Entrez Protein
-
 Entrez Protein
-
 Entrez Nucleotide
 Entrez Nucleotide
 Entrez Nucleotide
@@ -2411,7 +2395,6 @@ Entrez Nucleotide
 Uniprot
 Uniprot
 Entrez Protein
-
 Entrez Protein
 Entrez Protein
 Entrez Protein
@@ -2507,7 +2490,6 @@ Entrez Nucleotide
 Entrez Nucleotide
 Entrez Nucleotide
 Entrez Protein
-
 Entrez Protein
 Entrez Protein
 Entrez Protein

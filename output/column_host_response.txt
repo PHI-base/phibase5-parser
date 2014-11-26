@@ -474,19 +474,19 @@
 
 
 
-Seong et al. (2005) PHYTOPATHOLOGY 95(7) 744-750
-Seong et al. (2005) PHYTOPATHOLOGY 95(7) 744-750
-Seong et al. (2005) PHYTOPATHOLOGY. 95(7) 744-750
-Seong et al. (2005) PHYTOPATHOLOGY. 95(7) 744-750
-Seong et al. (2005) PHYTOPATHOLOGY. 95(7) 744-750
-Seong et al. (2005) PHYTOPATHOLOGY. 95(7) 744-750
 
 
 
 
 
 
-M
+
+
+
+
+
+
+TKB; MU; AC
 
 
 
@@ -1145,9 +1145,9 @@ Hypersensitive reaction
 
 
 
-Ramamoorthy et al. (2007) Cellular Microbiology 9(6): 1491-1506
-Ramamoorthy et al. (2007) Cellular Microbiology 9(6): 1491-1506
-Seong et al. (2006) Fungal Genetics and Biology 43(1): 34-41
+
+
+
 
 
 
@@ -2602,7 +2602,7 @@ oxidative burst
 
 
 
-"strong host response elicited by SG200Dcmu1-cmu1R183A,K194A mutant"
+strong host response elicited by SG200Dcmu1-cmu1R183A,K194A mutant
 
 elevated host response
 elevated host response
@@ -2795,7 +2795,7 @@ Hypersensitive response
 
 
 
-"more ROS production, stronger defense response"
+more ROS production, stronger defense response
 
 
 
@@ -3625,10 +3625,6 @@ Induced a rice basal defence response
 
 
 
-
-
-
-
 Cell death
 Cell death
 
@@ -3669,8 +3665,6 @@ Cell death
 
 Increased inflammatory response
 Increased inflammatory response
-
-
 
 
 

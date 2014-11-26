@@ -54,7 +54,7 @@ Transcription factor
 Scytalone dehydratase 
 Reductase
 Toxin Pump
-"Cell wall 1,3-beta-glucosyltransferase (bgl2p)"
+Cell wall 1,3-beta-glucosyltransferase (bgl2p)
 Cell morphogenesis
 G beta protein subunit
 Tyrosine phosphatase
@@ -130,8 +130,8 @@ Capsule associated protein
 Trehalose-6-phosphate synthase
 Toxin efflux pump 
 ABC transporter
-"Carboxyl-activating enzyme, essential for AK Toxin"
-"Unknown, mutant is AK toxin non-producer"
+Carboxyl-activating enzyme, essential for AK Toxin
+Unknown, mutant is AK toxin non-producer
 Adhesin
 Histidine Kinase
 Histidine Kinase
@@ -196,7 +196,7 @@ MAP kinase kinase
 Urease
 Phosphatidylinositol 3-kinase
 Phosphoribosylaminoimidazole carboxylase
-"D-arabinono-1,4-lactone oxidase"
+D-arabinono-1,4-lactone oxidase
 Cell surface protein
 Cell surface protein
 Cell surface protein
@@ -288,7 +288,7 @@ GTP-binding protein
 GTP-binding protein
 Superoxide dismutase
 Adhesin
-"Mating, sporulation and normal filamentation"
+Mating, sporulation and normal filamentation
 UDP-xylose synthase
 Alternative oxidase
 Chitin Synthase
@@ -349,9 +349,9 @@ Guanine nucleotide exchange factor
 Global transcriptional co-repressor
 Transcription factor
 Trehalose-6-phosphate synthase
-"Beta-1,6-glucanase "
+Beta-1,6-glucanase 
 Adenylyl cyclase-associated protein
-"Effector protein, polyketide synthase"
+Effector protein, polyketide synthase
 Transcription factor
 Effector protein
 Tetraspanin
@@ -382,7 +382,7 @@ ABC transporter
 Glyoxal oxidase
 G alpha protein subunit
 G alpha protein subunit
-
+Homoserine O-acetyltransferase
 Woronin body assembly
 G1 cyclin-related protein
 Acetolactate synthase
@@ -420,7 +420,7 @@ UDP-glucose dehydrogenase
 Chitin synthase
 Chitin Synthase
 ABC transporter
-"Alpha-1,2-mannosyltransferase"
+Alpha-1,2-mannosyltransferase
 Serine/threonine protein kinase
 CDK-related kinase
 G alpha protein subunit
@@ -442,8 +442,8 @@ Glyoxalase
 3-isopropylmalate dehydrogenase
 Non-ribosomal peptide synthetase
 Non-ribosomal peptide synthetase
-Yes
-Yes
+MAP kinase kinase
+MAP kinase kinase kinase
 Cell surface protein
 Superoxide dismutase
 Superoxide dismutase
@@ -462,7 +462,7 @@ Transcription factor; Zinc finger DNA binding domain; UV/Blue Light Response
 Secreted Lipase
 Secreted Lipase
 Polyketide synthase
-"Beta-1,3-glucanosyltransferase"
+Beta-1,3-glucanosyltransferase
 H+-ATPase
 Peptidyl-prolyl cis/trans isomerases
 Endopolygalacturonase
@@ -474,19 +474,19 @@ G-protein coupled receptor
 G-protein coupled receptor
 G-protein coupled receptor
 G-protein coupled receptor
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
+Methionine synthase
+Methionine synthase
+Cystathionine beta-lyase
+Cystathionine beta-lyase
+b-ZIP transcription factor
+b-ZIP transcription factor
 Ubiquinone oxidoreductase
 Ubiquinone oxidoreductase
 Transducin beta-subunit
 Transducin beta-subunit
 Methylcitrate synthase
 MAP kinase
-Reduced virulence
+
 Transcription factor
 Mannosyltransferase
 Mannosyltransferase
@@ -577,8 +577,8 @@ PAK kinase
 PAK kinase
 Transcription regulator
 Unknown
-"Beta-1,3-glucanosyltransferase"
-"Beta-1,3-glucanosyltransferase"
+Beta-1,3-glucanosyltransferase
+Beta-1,3-glucanosyltransferase
 Transcription factor
 G1 cyclin
 G1 cyclin
@@ -618,10 +618,10 @@ MFS transporters
 MFS transporters
 MFS transporters
 MAP Kinase
-"endo-beta-1,4-xylanase"
-"endo-beta-1,4-xylanase"
-"endo-beta-1,4-xylanase"
-"endo-beta-1,4-xylanase"
+endo-beta-1,4-xylanase
+endo-beta-1,4-xylanase
+endo-beta-1,4-xylanase
+endo-beta-1,4-xylanase
 Unknown
 Unknown
 Chitin Synthase
@@ -648,33 +648,33 @@ Type III secretion
 
 Chitin synthase 
 Chitin synthase 
-"Endo-beta-1,4-glucanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
-"Endo-beta-1,4-xylanase"
+Endo-beta-1,4-glucanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
+Endo-beta-1,4-xylanase
 G protein alpha subunit
 NADPH oxidase
 NADPH oxidase
@@ -831,7 +831,7 @@ UDP-glucose: sterol glucosyltransferase
 UDP-glucose: sterol glucosyltransferase
 Cholera toxin (CT) 
 Cholera toxin (CT) 
-Toxin-coregulated pilus (TCP) � an intestinal colonization factor
+Toxin-coregulated pilus (TCP) – an intestinal colonization factor
 Controls expression of CT and TCP
 Required for philus assembly and CT secretion
 O-antigen biosynthesis
@@ -925,7 +925,7 @@ Hypothetical protein
 Hypothetical protein
 neutral trehalase
 Hypothetical protein
-"HDEL sequence binding protein, putative"
+HDEL sequence binding protein, putative
 Hypothetical protein
 Predicted protein 
 Hypothetical protein
@@ -1077,7 +1077,7 @@ conserved hypothetical Ustilago-specific protein
 hypothetical protein
 conserved hypothetical Ustilago-specific protein
 conserved hypothetical Ustilago-specific protein
-"related to transposase, pseudogene"
+related to transposase, pseudogene
 conserved hypothetical Ustilago-specific protein
 hypothetical protein
 conserved hypothetical Ustilago-specific protein
@@ -1145,9 +1145,9 @@ Glycosylceramide synthase
 secreted protein
 MAPKK
 MAPKK
-
-
-
+MAPK
+MAPK
+HMG-CoA Reductase
 Non-ribosomal peptide synthetase
 Non-ribosomal peptide synthetase
 Non-ribosomal peptide synthetase
@@ -2203,7 +2203,7 @@ intracellular triacylglycerol lipases
 intracellular triacylglycerol lipases
 intracellular triacylglycerol lipases
 peroxisome biogenesis
-?-oxidation
+β-oxidation
 Serine/Threonine kinase; autophagy
 Serine/Threonine kinase; autophagy
 Serine/Threonine kinase; autophagy
@@ -2238,7 +2238,7 @@ host specificity
 multidrug resistance; protection from oxidative stress
 multidrug resistance; protection from oxidative stress
 multidrug resistance; protection from oxidative stress
-"endo-beta -1,4-D-Xylanase"
+endo-beta -1,4-D-Xylanase
 Transcriptional Regulators
 Transcriptional Regulators
 Transcriptional Regulators
@@ -2270,7 +2270,7 @@ actin cytoskeleton organization and polarized cell growth; conidiogenesis
 actin cytoskeleton organization and polarized cell growth; conidiogenesis
 fungal pathogenicity factor
 fungal pathogenicity factor
-modulator of calcium ?ux
+modulator of calcium ﬂux
 Endoplasmic Reticulum Chaperone
 Endoplasmic Reticulum Chaperone
 Endoplasmic Reticulum Chaperone
@@ -2525,28 +2525,28 @@ Maintenance of cell wall integrity; Regulation of surface hydrophobicity; Regula
 Maintenance of cell wall integrity; Regulation of surface hydrophobicity; Regulation of intracellular cAMP levels; Regulation of extracellular laccase and peroxidase activities
 Maintenance of cell wall integrity; Regulation of surface hydrophobicity; Regulation of intracellular cAMP levels; Regulation of extracellular laccase and peroxidase activities
 Melanin biosynthesis; Regulation of transcription
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
-"Endo-beta-1,4 xylanase"
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
+Endo-beta-1,4 xylanase
 Regulation of cell cycle
 Protein elicitor
 Regulates plant defense responses
@@ -2616,9 +2616,8 @@ encodes spermidine synthase/saccharopine dehydrogenase
 encodes spermidine synthase/saccharopine dehydrogenase
 Sucrose Transporter
 
-"GTP-binding proteins involved in multiple cellular functions, including cell division and morphogenesis"
-
-"GTP-binding proteins involved in multiple cellular functions, including cell division and morphogenesis"
+GTP-binding proteins involved in multiple cellular functions, including cell division and morphogenesis
+GTP-binding proteins involved in multiple cellular functions, including cell division and morphogenesis
 AGC Ser/Thr kinase
 AGC Ser/Thr kinase
 Short-Chain Dehydrogenase
@@ -2705,9 +2704,9 @@ Chitin Synthase
 Chitin Synthase
 Chitin Synthase
 
-NO detoxi?cation
-NO detoxi?cation
-NO detoxi?cation
+NO detoxiﬁcation
+NO detoxiﬁcation
+NO detoxiﬁcation
 Rapamycin sensitivity
 Rapamycin sensitivity
 Rapamycin sensitivity
@@ -2761,7 +2760,7 @@ Emopamil Binding Domain Protein
 Emopamil Binding Domain Protein
 Nitrate reductase
 Nitrate reductase
-"Needed for proper localization of actin, morphogenesis, cell wall synthesis, and responding to cell wall stress"
+Needed for proper localization of actin, morphogenesis, cell wall synthesis, and responding to cell wall stress
 Cell-wall Integrity
 Cell-wall Integrity
 
@@ -2778,8 +2777,8 @@ Mitogen-activated protein kinase
 Polygalacturonases
 Polygalacturonases
 transducin-beta-like gene acting as a component of the Set3 complex involved in late stages of ascospore formation
-"fungal development, secondary metabolism and virulence"
-"fungal development, secondary metabolism and virulence"
+fungal development, secondary metabolism and virulence
+fungal development, secondary metabolism and virulence
 stretch-activated calcium-permeable ion channel
 stretch-activated calcium-permeable ion channel
 Arginine Methyltransferase
@@ -2942,7 +2941,7 @@ T-toxin production
 Effector protein
 Effector protein
 Effector protein
-"Vegetative differentiation, secondary metabolism and virulence"
+Vegetative differentiation, secondary metabolism and virulence
 Phosphotransfer Protein
 Phosphotransfer Protein
 MAP kinase
@@ -2952,23 +2951,23 @@ ACT-Toxin Biosynthesis
 Regulators of G protein
 Regulators of G protein
 Regulators of G protein
-"Key regulator for the biosynthesis of the major virulence factors, stress resistance and alternative carbon source utilization"
+Key regulator for the biosynthesis of the major virulence factors, stress resistance and alternative carbon source utilization
 Putative MAP kinase
 Putative MAP kinase
 Sensor histidine kinase / two-component regulatory system (TCRS)
 Sensor histidine kinase / two-component regulatory system (TCRS)
 Response regulator/ two-component regulatory
 Response regulator/ two-component regulatory
-"Alpha-1,2-mannosyltransferase"
-"Bacterial bio?lm formation, surface motility and virulence"
-"Bacterial bio?lm formation, surface motility and virulence"
+Alpha-1,2-mannosyltransferase
+Bacterial bioﬁlm formation, surface motility and virulence
+Bacterial bioﬁlm formation, surface motility and virulence
 
 
 bZIP transcription factor
 bZIP transcription factor
 Production of ROS
 Production of ROS
-"Tobacco hypersensitive responses, grape necrosis"
+Tobacco hypersensitive responses, grape necrosis
 Production of host-selective toxins
 Feruloyl esterase gene family
 Feruloyl esterase gene family
@@ -2977,7 +2976,7 @@ Feruloyl esterase gene family
 BAH/PHD-containing transcription factor
 BAH/PHD-containing transcription factor
 Positive regulator of nitrogen utilization / GATA transcription factor
-Transcriptional repressor in ?lamentous fungi known to repress several CWDE genes and other genes required for assimilation of non-sugar carbon sources
+Transcriptional repressor in ﬁlamentous fungi known to repress several CWDE genes and other genes required for assimilation of non-sugar carbon sources
 Alternative sigma factor HrpL positively regulates the transcrip-tion of structural and translocated components of the T3SS via hrp promoter elements
 Membrane protein
 XRE transcriptional regulator
@@ -3030,16 +3029,16 @@ Transcription factor
 Transcription factor
 Transcription factor
 Transcription factor
-"a-1,2-mannosidase"
+a-1,2-mannosidase
 RNA-binding protein
-"Metacaspase; cell death; cell cycle control, differentiation and clearance of aggregates"
-"Metacaspase; cell death; cell cycle control, differentiation and clearance of aggregates"
+Metacaspase; cell death; cell cycle control, differentiation and clearance of aggregates
+Metacaspase; cell death; cell cycle control, differentiation and clearance of aggregates
 Type 2C protein phosphatase
 Harpin
-"Cyclic di-GMP binding protein domain; proteins with this domain are involved in regulation of speci?c cellular processes, including the virulence of animal pathogens"
-"Cyclic di-GMP binding protein domain; proteins with this domain are involved in regulation of speci?c cellular processes, including the virulence of animal pathogens"
-"Cyclic di-GMP binding protein domain; proteins with this domain are involved in regulation of speci?c cellular processes, including the virulence of animal pathogens"
-"Cyclic di-GMP binding protein domain; proteins with this domain are involved in regulation of speci?c cellular processes, including the virulence of animal pathogens"
+Cyclic di-GMP binding protein domain; proteins with this domain are involved in regulation of speciﬁc cellular processes, including the virulence of animal pathogens
+Cyclic di-GMP binding protein domain; proteins with this domain are involved in regulation of speciﬁc cellular processes, including the virulence of animal pathogens
+Cyclic di-GMP binding protein domain; proteins with this domain are involved in regulation of speciﬁc cellular processes, including the virulence of animal pathogens
+Cyclic di-GMP binding protein domain; proteins with this domain are involved in regulation of speciﬁc cellular processes, including the virulence of animal pathogens
 Autophagy
 Autophagy
 Autophagy
@@ -3050,12 +3049,12 @@ Phosphorelay system
 Phosphorelay system
 Phosphorelay system
 
-"Putative alpha-1,3-glucan synthase"
-"Putative alpha-1,3-glucan synthase"
+Putative alpha-1,3-glucan synthase
+Putative alpha-1,3-glucan synthase
 Putative transcription factor
 Putative transcription factor
 Pathogenesis associated transcription factor
-"Produces a melanin-intermediate product, 1,3,6,8-tetrahy-droxynaphthalene (T4HN)"
+Produces a melanin-intermediate product, 1,3,6,8-tetrahy-droxynaphthalene (T4HN)
 C2H2 transcription factor
 a-Mannosidases
 Nonribosomal peptide synthetase gene
@@ -3084,7 +3083,7 @@ Tubulin alpha-1 chain
 Tubulin alpha-1 chain
 DNA primase small subunit
 Ferrochelatase
-"Beta 1,3 Glucan synthase"
+Beta 1,3 Glucan synthase
 14 alpha-demethylase
 14 alpha-demethylase
 14 alpha-demethylase
@@ -3105,7 +3104,7 @@ Transcription factor controlling morphogenesis
 Inorganic pyrophosphatase
 Transcription factor controlling morphogenesis
 Stearoyl-CoA desaturase
-Hypha-speci?c G1 cyclin-related protein
+Hypha-speciﬁc G1 cyclin-related protein
 Mavalonate kinase
 Cell wall protein involved in cell wall metabolism
 Translation initiation factor eIF2B
@@ -3124,10 +3123,10 @@ Component of 90S preribosomal particles
 Multifunctional signal-modulating
 Probable RNA-helicase of the DEAD box family
 GPI protein
-"Essential protein that functions in 20S proteasome maturation and 26S proteasome assembly, component of pre-40S ribosomal particle"
+Essential protein that functions in 20S proteasome maturation and 26S proteasome assembly, component of pre-40S ribosomal particle
 Component of the 40S ribosomal subunit
 Protein involved in biogenesis of the 60S ribosomal subunit
-Zinc ?nger containing transcriptional regulators
+Zinc ﬁnger containing transcriptional regulators
 Nucleolar protein required for ribosome biogenesis
 Small cell wall protein
 Pre-vacuolar protein sorting gene 
@@ -3138,7 +3137,7 @@ Protein kinase
 Sodium/substrate symporter family (SSSF)
 Maintaining fungal cell wall integrity
 Maintaining fungal cell wall integrity
-Serine-threonine-speci?c protein phosphatase
+Serine-threonine-speciﬁc protein phosphatase
 Transcription factor
 Transcription factor involved in cell wall architecture
 Phosphatase which converts farnesyl pyrophosphate to farnesol
@@ -3151,49 +3150,49 @@ Temperature induced transcriptional regulator
 Lactate dehydrogenase
 Potential fungal transcription factor
 Potential zinc finger upstream protein 1
-Thiol�disulphide redox reactions
+Thiol–disulphide redox reactions
 Fumarate reductase activity
 Calmodulin-ubiquitin  associated  (CUB)  gene 
 Calmodulin-ubiquitin  associated  (CUB)  gene 
 Candidate Effector genes
 Candidate Effector genes
 Candidate Effector genes
-"Oligopeptidase B functions as a processing enzyme, generating an active Ca2 agonist from a cytosolic precursor molecule"
+Oligopeptidase B functions as a processing enzyme, generating an active Ca2 agonist from a cytosolic precursor molecule
 pH response /  involved in the formation of one of the signaling complexes located at the plasma membrane together with PalF/Rim21 and PalH/Rim8 proteins 
 pH response /  involvement in endosomal targeting
 pH response / encodes a putative calcium-activated cys-teine protease (calpain-like)
-pH response / putatively involved in endocytic traf?cking
+pH response / putatively involved in endocytic trafﬁcking
 Stress-responsive transcription regulator
 O-mannosyltransferase
 Putative polyketide synthase
 Putative polyketide synthase
 Sexual development and toxin production
 UDP-glucose 4 -epimerase is encoded by the TcGALE gene
-"3-carboxy- cis,cis-muconate lactonizing enzyme"
+3-carboxy- cis,cis-muconate lactonizing enzyme
 Effector protein
 
 
 
 Calmodulin-ubiquitin  associated  (CUB)  gene 
-Thiol�disulphide redox reactions
+Thiol–disulphide redox reactions
 Fumarate reductase activity
 Calmodulin-ubiquitin  associated  (CUB)  gene 
 Calmodulin-ubiquitin  associated  (CUB)  gene 
 Candidate Effector genes
 Candidate Effector genes
 Candidate Effector genes
-"Oligopeptidase B functions as a processing enzyme, generating an active Ca2 agonist from a cytosolic precursor molecule"
+Oligopeptidase B functions as a processing enzyme, generating an active Ca2 agonist from a cytosolic precursor molecule
 pH response /  involved in the formation of one of the signaling complexes located at the plasma membrane together with PalF/Rim21 and PalH/Rim8 proteins 
 pH response /  involvement in endosomal targeting
 pH response / encodes a putative calcium-activated cys-teine protease (calpain-like)
-pH response / putatively involved in endocytic traf?cking
+pH response / putatively involved in endocytic trafﬁcking
 Stress-responsive transcription regulator
 O-mannosyltransferase
 Putative polyketide synthase
 Putative polyketide synthase
 Sexual development and toxin production
 UDP-glucose 4 -epimerase is encoded by the TcGALE gene
-"3-carboxy- cis,cis-muconate lactonizing enzyme"
+3-carboxy- cis,cis-muconate lactonizing enzyme
 Effector protein
 
 
@@ -3202,7 +3201,7 @@ Pseudokinase
 
 Iron homeostasis
 Iron homeostasis
-"Responsible for the fluid secretion, inflammation, and colonic tissue damage associated with disease"
+Responsible for the fluid secretion, inflammation, and colonic tissue damage associated with disease
 Response regulator
 Pathogenicity island
 Pathogenicity island
@@ -3218,8 +3217,8 @@ Pathogenicity island
 Pathogenicity island
 Pathogenicity island
 Pathogenicity island
-4?-Phosphopantetheinyl Transferase
-4?-Phosphopantetheinyl Transferase
+4′-Phosphopantetheinyl Transferase
+4′-Phosphopantetheinyl Transferase
 Polyphosphate glucokinase
 Polyphosphate glucokinase
 Glucokinase
@@ -3256,16 +3255,16 @@ Regulatory protein linking light signals with development and secondary metaboli
 Urea metabolism
 "Cytoplasmic serine
 
-RP
+
 "Cytoplasmic serine
 
-RP
+
 "Cytoplasmic serine
 
-RP
+
 "Cytoplasmic serine
 
-RP
+
 4-amino-4-deoxy-L-arabinose (Ara4N) production
 Functions as a VirB8 chaperone to promote T4SS-mediated DNA transfer
 Alpha-crystallin-type small heat shock proteins
@@ -3317,10 +3316,10 @@ Virulence determinant; enabling actin polymerization
 Adhesion
 Transmembrane kinase/endoribonuclease
 Effector protein
-ABC ef?ux transporter
-Modulates plant cell wall�degrading enzymes
+ABC efﬂux transporter
+Modulates plant cell wall–degrading enzymes
 Repressor of the methionine biosynthesis regulon
-Modulates plant cell wall�degrading enzymes
+Modulates plant cell wall–degrading enzymes
 Repressor of the methionine biosynthesis regulon
 Effector protein
 Effector protein
@@ -3680,9 +3679,9 @@ Dual Regulator of Cell Wall Degrading Enzymes
 Transcription factor that regulates cell wall composition and the host-pathogen interface
 Transcription factor that regulates cell wall composition and the host-pathogen interface
 Periplasmic protein of the bacterial oligonucleotide/oligosaccharide-binding fold family
-Fe2+/?-ketoglutarate-dependent dioxygenase enzyme
+Fe2+/α-ketoglutarate-dependent dioxygenase enzyme
 Periplasmic protein of the bacterial oligonucleotide/oligosaccharide-binding fold family
-Fe2+/?-ketoglutarate-dependent dioxygenase enzyme
+Fe2+/α-ketoglutarate-dependent dioxygenase enzyme
 Effector protein
 Lae1-like methyltransferase
 Lae1-like methyltransferase
@@ -3692,20 +3691,20 @@ Tool for translocating pathogen effectors to monocot cells
 Tool for translocating pathogen effectors to monocot cells
 Tool for translocating pathogen effectors to monocot cells
 Surface protein and virulence factor
-"1,3,8 trihydroxynaphthalene reductase (3HNR)"
+1,3,8 trihydroxynaphthalene reductase (3HNR)
 Collagen type 1-binding protein
 Cu/Zn Superoxide Dismutase Gene
 Cu/Zn Superoxide Dismutase Gene
 Melanin formation and cell wall itegrity
 Melanin formation and cell wall itegrity
-"Putative ?-1,3-Glucanosyltransferase"
+Putative β-1,3-Glucanosyltransferase
 Regulator of extracellular proteolytic activity
 Regulates cell integrity
 Transcription factor of the AP-1 family
 Transcription factor of the AP-1 family
 Guards cells against oxidative damage by neutralizing reactive oxygen species
 Transcription factor and regulates resistance to a variety of drugs
-ATP binding cassette trans-porter of the plasma membrane implicated in general cellular detoxi?cation
+ATP binding cassette trans-porter of the plasma membrane implicated in general cellular detoxiﬁcation
 
 Endopolygalacturonase
 Endopolygalacturonase
@@ -3717,9 +3716,9 @@ Endopolygalacturonase
 Peptidyl-prolyl cis/trans isomerase
 Filamentous growth regulator
 Filamentous growth regulator
-"B 1,2-xylosyltransferase"
-"Pescadillo homologs are involved in cell cycle control and ribosome biogenesis, and are essential"
-"Beta-1,6-glucan biosyn-thesis"
+B 1,2-xylosyltransferase
+Pescadillo homologs are involved in cell cycle control and ribosome biogenesis, and are essential
+Beta-1,6-glucan biosyn-thesis
 Histone 3 lysine 4 methyltransferase
 G-protein subunit
 Required for virulence
@@ -3730,10 +3729,10 @@ Effector protein
 Effector protein
 "AK-Toxin
 
-RP
+
 "AK-Toxin
 
-RP
+
 Iron regulator
 Putative 3-hydroxyacyl-CoA dehydrogenase
 Putative short chain dehydrogenase
@@ -3858,36 +3857,36 @@ Effector protein
 Effector protein
 Effector protein
 Effector protein
-"Sigma factor, regulating essential virulence gene expression"
-"Sigma factor, regulating essential virulence gene expression"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
-"P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides"
+Sigma factor, regulating essential virulence gene expression
+Sigma factor, regulating essential virulence gene expression
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
+P450 sterol 14a -demethylase, an enzyme essential for sterol biosynthesis and the target of azole fungicides
 Two-component histidine kinase
 Two-component histidine kinase
 Two-component histidine kinase
@@ -3927,7 +3926,7 @@ NADPH oxidase
 NADPH oxidase
 Nonribosomal peptide synthethase-encoding gene responsible for cichofactin biosynthesis
 Nonribosomal peptide synthethase-encoding gene responsible for cichofactin biosynthesis
-"Response regulator involved in surface attachment, cell�cell aggregation, exopolysaccharide production and virulence"
+Response regulator involved in surface attachment, cell–cell aggregation, exopolysaccharide production and virulence
 
 
 Type III effector protein
@@ -3974,7 +3973,7 @@ Acetylglutamate kinase and acetylglutamyl-phosphate-reductase
 Ornithine transcarbamoyl transferase
 Cold shock protein
 Cold shock protein
-"Regulator of GI colonization, hyphal morphogenesis, and virulence"
+Regulator of GI colonization, hyphal morphogenesis, and virulence
 Type III Effector
 Type III Effector
 Type III Effector
@@ -3982,8 +3981,8 @@ Effector
 Effector
 Oligopeptide transporters of the OPT family
 Response regulator
-"Endo-1,3�1,4- ? -glucanases in GH family 12"
-"Endo-1,3�1,4- ? -glucanases in GH family 12"
+Endo-1,3–1,4- β -glucanases in GH family 12
+Endo-1,3–1,4- β -glucanases in GH family 12
 Virulence factor
 Auto -transporter protein
 Transcriptional activator of cutinase and lipase genes
@@ -4055,7 +4054,7 @@ Muropeptide permease
 Cardiolipin synthetase
 Peptide methionine sulfoxide reductase
 Multimodular transpeptidase-transglycosylase
-"5,10-Methylene-tetrahydrofolate reductase"
+5,10-Methylene-tetrahydrofolate reductase
 Indole acetamide hydrolase
 N -formylglutamate deformylase
 N -acetylglutamate synthase
@@ -4063,7 +4062,7 @@ Pyrroline-5-carboxylate reductase
 Anthranilate synthase
 Imidazole glycerol phosphate synthase cyclase
 Methionine biosynthesis protein
-"Cyanide insensitive terminal oxidase, subunit I"
+Cyanide insensitive terminal oxidase, subunit I
 Transaldolase
 Pseudouridine synthase A
 Cobyrinic acid-diamide synthase
@@ -4079,7 +4078,7 @@ Dethiobiotin synthetase
 O-acetylhomoserine sulfhydrylase
 Acetolactate synthase large subunit
 T3SS transcriptional regulator
-"1,3,8-trihydroxynaphthalene reductase"
+1,3,8-trihydroxynaphthalene reductase
 Cutinase
 Cutinase
 Cutinase

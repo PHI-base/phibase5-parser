@@ -61,7 +61,6 @@
 
 
 
-
 PHI:541
 PHI:541
 
@@ -383,7 +382,6 @@ PHI:420
 
 
 
-Homoserine O-acetyltransferase
 
 
 
@@ -443,8 +441,9 @@ Homoserine O-acetyltransferase
 
 
 
-MAP kinase kinase
-MAP kinase kinase kinase
+
+
+
 
 PHI:318
 
@@ -475,19 +474,19 @@ PHI:247
 
 
 
-Methionine synthase
-Methionine synthase
-Cystathionine beta-lyase
-Cystathionine beta-lyase
-b-ZIP transcription factor
-b-ZIP transcription factor
 
 
 
 
 
 
-Ergot
+
+
+
+
+
+
+20.1
 
 
 
@@ -1146,9 +1145,9 @@ PHI:856
 
 
 
-MAPK
-MAPK
-HMG-CoA Reductase
+
+
+
 
 
 
@@ -2280,9 +2279,6 @@ PHI:2044
 
 
 
-
-
-
 PHI:2062
 
 PHI:2061
@@ -2430,7 +2426,6 @@ PHI:2103
 
 
 
-
 PHI:2139
 
 
@@ -2482,7 +2477,6 @@ PHI:2159
 PHI:2172
 PHI:2172
 PHI:2172
-
 
 
 
@@ -2623,7 +2617,7 @@ PHI:2229; PHI:2230
 
 
 
-jperez@cnb .csic.es
+Pubmed
 
 
 

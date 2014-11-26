@@ -28,7 +28,7 @@ while (<COL_NAMES_FILE>) {
 close (COL_NAMES_FILE);
 
 # open the tab separated values (TSV) version of the PHI-base spreadsheet
-my $phibase_tsv_filename = 'phi-base-1_vs36.txt';
+my $phibase_tsv_filename = 'phi-base-1_vs36_reduced_columns.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid Fusarium graminearum annotations into PHI-base v5 database...\n";

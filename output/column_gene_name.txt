@@ -5,7 +5,6 @@ BE
 BW
 HTS1
 PELA
-
 ADE2
 ADE2
 MPG1
@@ -383,7 +382,7 @@ FcABC1
 GLO1
 GNA1
 GPAB
-4564
+GzmetE
 HEX1
 HGC1
 ILV2
@@ -443,8 +442,8 @@ GOX1
 IPMDH
 NPS6
 NPS6
-4530
-4530
+MST7
+MST11
 CSH1
 SOD2
 SOD2
@@ -475,19 +474,19 @@ BTP1
 BTP1
 BTP1
 BTP1
-4577
-4565
-4565
-4577
-4577
-4565
+MSY1
+MSY1
+CBL1
+CBL1
+ZIF1
+ZIF1
 NOS1
 NOS1
 TBL1
 TBL1
 MCSA
 MAK2
-Claviceps purpurea
+5111
 SKN7
 PMT1
 PMT6
@@ -824,7 +823,7 @@ URA5
 PMK1
 PMK1
 GCS1
-STE12? / NOG2
+STE12α / NOG2
 SP1
 NTH1
 NTH1
@@ -1146,9 +1145,9 @@ GCS1
 Nec1
 STE7
 STE7
-4564
-4081
-4564
+FgHOG1
+FgHOG1
+HMR1
 NPS6
 NPS6
 NPS6
@@ -2273,11 +2272,8 @@ PPT1
 PPT1
 MoPLC1
 LHS1
-
 LHS1
-
 LHS1
-
 MgCRZ1
 MgCRZ1
 MgLig4
@@ -2364,9 +2360,9 @@ MGG_04159.5
 MGG_01381.5
 MGG_01381.5
 MGG_01381.5
-"1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase delta 1 "
-"1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase delta 1 "
-"1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase delta 1 "
+1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase delta 1 
+1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase delta 1 
+1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase delta 1 
 MGG_05905
 MGG_05905
 MGG_05905
@@ -2398,7 +2394,6 @@ CHS7
 SPM1
 SPM1
 MgSM1
-
 MST11p
 MST7p
 MST50p
@@ -2440,7 +2435,7 @@ CDC15
 MoAP1
 MoAP1
 Erl1
-"7,8-LDS"
+7,8-LDS
 MoLDB1
 MoLDB1
 MoLDB1
@@ -2494,7 +2489,6 @@ MoAtg4
 MoAtg4
 MoAtg4
 CPXB
-
 HTF1
 PIC1
 PIC1
@@ -2531,18 +2525,18 @@ PdeL
 PdeH
 PdeH
 Transcription factor
-"endo-1,4-beta-xylanase [GH10 family]"
-"endo-1,4-beta-xylanase [GH10 family]"
+endo-1,4-beta-xylanase [GH10 family]
+endo-1,4-beta-xylanase [GH10 family]
 JmjC domain-containing protein 5 [GH10 family]
 JmjC domain-containing protein 5 [GH10 family]
-"endo-1,4-beta-xylanase precursor [GH10 family]"
-"endo-1,4-beta-xylanase precursor [GH10 family]"
-"endo-1,4-beta-xylanase [GH10 family]"
-"endo-1,4-beta-xylanase [GH10 family]"
-"endo-1,4-beta-xylanase [GH10 family]"
-"endo-1,4-beta-xylanase [GH10 family]"
-"endo-1,4-beta-xylanase [GH10 family]"
-"endo-1,4-beta-xylanase [GH10 family]"
+endo-1,4-beta-xylanase precursor [GH10 family]
+endo-1,4-beta-xylanase precursor [GH10 family]
+endo-1,4-beta-xylanase [GH10 family]
+endo-1,4-beta-xylanase [GH10 family]
+endo-1,4-beta-xylanase [GH10 family]
+endo-1,4-beta-xylanase [GH10 family]
+endo-1,4-beta-xylanase [GH10 family]
+endo-1,4-beta-xylanase [GH10 family]
 xylB
 xylB
 xylB
@@ -2623,7 +2617,7 @@ Spe-Sdh
 Srt1
 Rak1
 Sep3
-10.1371/journal .pone.00129 33
+RP
 Sep3
 Aga1
 Aga1
@@ -2663,8 +2657,8 @@ Mid1
 ku70
 avrLm4
 avrLm4
-Putative zinc ?nger transcription factor
-Putative zinc ?nger transcription factor
+Putative zinc ﬁnger transcription factor
+Putative zinc ﬁnger transcription factor
 MeaB
 Conserved hypothetical protein
 Conserved hypothetical protein
@@ -2999,7 +2993,7 @@ hrpN
 hrpJ
 hrpJ
 AcrB
-AroQ? 
+AroQγ 
 Ams
 Ams
 lsc
@@ -3259,7 +3253,7 @@ magA
 bcvel1
 bcvel1
 bcvel1
-"DUR1,2"
+DUR1,2
 lon
 
 lon

@@ -2637,7 +2637,6 @@ cAMP pathway
 
 
 
-
 Melanin biosynthesis pathway
 Iron metabolism
 
@@ -3095,7 +3094,7 @@ Amino acid biosynthesis
 
 
 
-RFG1-TUP1 and NRG1- TUP1 ?lamentous growth regulatory pathways
+RFG1-TUP1 and NRG1- TUP1 ﬁlamentous growth regulatory pathways
 
 
 
@@ -3253,11 +3252,11 @@ Cek1 MAPK pathway
 
 
 
-"IL-1 inflammatory pathway, IL-15 signaling, MAP kinase signaling, and the alternative complement pathway"
-Pubmed
-Pubmed
-Pubmed
-Pubmed
+IL-1 inflammatory pathway, IL-15 signaling, MAP kinase signaling, and the alternative complement pathway
+RP
+RP
+RP
+RP
 
 
 
@@ -3720,8 +3719,8 @@ cAMP-dependent and -independent pathways
 
 
 
-Pubmed
-Pubmed
+RP
+RP
 
 
 

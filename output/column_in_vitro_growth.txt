@@ -435,7 +435,7 @@ Wild type
 
 
 
-"Mating, pheromone response and filamentation defects"
+Mating, pheromone response and filamentation defects
 
 
 
@@ -485,7 +485,7 @@ Wild type
 
 
 
-"Reduced by 20% on solid media, 30% in liquid culture"
+Reduced by 20% on solid media, 30% in liquid culture
 
 
 
@@ -624,8 +624,8 @@ unaffected
 unaffected
 unaffected
 unaffected
-"reduced on solid medium, not in liquid medium"
-"reduced on solid medium, not in liquid medium"
+reduced on solid medium, not in liquid medium
+reduced on solid medium, not in liquid medium
 
 
 unaffected
@@ -1271,7 +1271,7 @@ Reduced aerial mycelium
 
 
 Yeast like cells defective
-"Yeast like cells defective, defective hyphal growth"
+Yeast like cells defective, defective hyphal growth
 Yeast-like cells thick
 Yeast-like cells slightly short
 Yeast like cells thick
@@ -2598,7 +2598,7 @@ reduced
 
 
 aberrant; reduced
-"aberrant, enhanced"
+aberrant, enhanced
 aberrant; defective
 
 
@@ -2617,8 +2617,6 @@ aberrant
 wild type
 aberrant; reduced
 aberrant
-
-
 
 aberrant; reduced
 aberrant; reduced
@@ -3268,10 +3266,6 @@ reduced
 
 
 
-
-
-
-
 aberrant
 
 
@@ -3718,8 +3712,6 @@ aberrant
 aberrant
 aberrant
 aberrant
-
-
 
 
 

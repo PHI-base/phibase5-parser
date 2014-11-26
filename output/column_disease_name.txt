@@ -5,7 +5,6 @@ Corn Smut
 Corn Smut
 Leaf spot
 Root Rot
-
 Cryptococcosis
 Cryptococcosis
 Rice blast
@@ -383,7 +382,7 @@ Fusarium ear blight
 Corn smut
 Glume blotch
 Aspergillosis
-Reduced virulence
+Fusarium ear blight
 Rice blast
 Candidiasis
 Cryptococcosis
@@ -443,8 +442,8 @@ Glume blotch
 Glume blotch
 Leaf blight
 Leaf blight
-Loss of pathogenicity 
-Loss of pathogenicity 
+Rice blast
+Rice blast
 Candidiasis
 Meningoencephalitis
 Meningoencephalitis
@@ -475,19 +474,19 @@ Grey mold rot
 Grey mold rot
 Grey mold rot
 Grey mold rot
-Reduced virulence
-Reduced virulence
-Reduced virulence
-Reduced virulence
-Reduced virulence
-Reduced virulence
+Fusarium ear blight
+Fusarium ear blight
+Fusarium ear blight
+Fusarium ear blight
+Fusarium ear blight
+Fusarium ear blight
 Fusarium ear blight
 Fusarium ear blight
 Fusarium ear blight
 Fusarium ear blight
 Aspergillosis
 Glume blotch
-GTPase
+Rye
 Cryptococcosis
 Candidiasis
 Candidiasis
@@ -1146,9 +1145,9 @@ Fusarium ear blight
 Potato scab
 Fusarium ear blight
 Fusarium ear blight
-Reduced virulence
-Unaffected pathogenicity 
-Reduced virulence
+Fusarium ear blight
+Fusarium ear blight
+Fusarium ear blight
 Fusarium ear blight
 Brown spot
 Black spot
@@ -2273,11 +2272,8 @@ Maize anthracnose
 Rice blast
 Rice blast
 Rice blast
-
 Rice blast
-
 Rice blast
-
 Rice blast
 Rice blast
 Rice blast
@@ -2398,7 +2394,6 @@ Rice blast
 Rice blast
 Rice blast
 Rice blast
-
 Rice blast
 Rice blast
 Rice blast
@@ -2494,7 +2489,6 @@ Rice blast
 Rice blast
 Rice blast
 Rice blast
-
 Rice blast
 Rice blast
 Rice blast
@@ -2623,7 +2617,6 @@ Corn smut
 Corn smut
 Corn smut
 Corn smut
-
 Corn smut
 Corn smut
 Corn smut
@@ -3004,7 +2997,7 @@ Fire blight
 Fire blight
 Fire blight
 Fire blight
-Stewart’s bacterial wilt and leaf blight
+Stewartâ€™s bacterial wilt and leaf blight
 Meningoencephalitis
 Meningoencephalitis
 Fire blight
@@ -3208,7 +3201,7 @@ Toxoplasmic encephalitis
 Gastroenteritis
 Disseminated candidiasis
 Disseminated candidiasis
-"Diarrhea, pseudomembranous colitis, and toxic megacolon"
+Diarrhea, pseudomembranous colitis, and toxic megacolon
 Septicemia
 Food poisoning
 Food poisoning
@@ -3245,17 +3238,17 @@ Leishmaniasis
 Food poisoning
 Food poisoning
 Bordetellosis
-"Colibacillosis, cellulitis and swollen head syndrome"
-"Colibacillosis, cellulitis and swollen head syndrome"
-"Colibacillosis, cellulitis and swollen head syndrome"
-"Colibacillosis, cellulitis and swollen head syndrome"
-"Colibacillosis, cellulitis and swollen head syndrome"
+Colibacillosis, cellulitis and swollen head syndrome
+Colibacillosis, cellulitis and swollen head syndrome
+Colibacillosis, cellulitis and swollen head syndrome
+Colibacillosis, cellulitis and swollen head syndrome
+Colibacillosis, cellulitis and swollen head syndrome
 Oral candidiasis
 Salmonellosis
 Salmonellosis
 Food poisoning
 Food poisoning
-"Urinary tract infections, nosocomial pneumonia, intra-abdominal infections"
+Urinary tract infections, nosocomial pneumonia, intra-abdominal infections
 Grey mould fungus
 Grey mould fungus
 Grey mould fungus
@@ -3316,7 +3309,7 @@ Food poisoning
 Food poisoning
 
 Listeriosis
-Crohn’s disease
+Crohnâ€™s disease
 Disseminated candidiasis
 Soybean stem and root rot
 
@@ -3648,20 +3641,20 @@ Fusarium head blight
 Bacterial leaf blight
 Bacterial leaf blight
 Vascular wilt
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
 Soft rot
 Soft rot
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
+Pneumonia, Otitis media, Septicaemia, Meningitis
 Leaf blight
 Leaf blight
 Leaf blight
 Leaf blight
-"Pneumonia, Meningitis, Sepsis"
+Pneumonia, Meningitis, Sepsis
 Tuberculosis
 Tuberculosis
 Bacterial specks
@@ -3693,16 +3686,16 @@ Southern Corn Leaf Blight
 Panicle blight
 Panicle blight
 Panicle blight
-"GAS pharyngitis, NF,  STSS"
+GAS pharyngitis, NF,  STSS
 Northern Leaf Blight
-"Pneumonia, Endocarditis, Meningitis, Arthritis"
+Pneumonia, Endocarditis, Meningitis, Arthritis
 
 
 
 
 Vascular wilt
 Invasive pulmonary aspergillosis
-"Pulmonary cryptococcosis (lung infection), basal meningitis, cerebral cryptococcomas"
+Pulmonary cryptococcosis (lung infection), basal meningitis, cerebral cryptococcomas
 
 
 
@@ -3927,9 +3920,9 @@ Brown Spot
 Brown Spot
 Lettuce midrib rot
 Lettuce midrib rot
-Pierce’s disease
-Pierce’s disease
-Pierce’s disease
+Pierceâ€™s disease
+Pierceâ€™s disease
+Pierceâ€™s disease
 Leaf blight
 Rice Blast
 Soybean stem and root rot agent
@@ -4011,11 +4004,11 @@ Grey mould disease
 Grey mould disease
 Skin infections; Food poisoning; Respiratory diseases
 Skin infections; Food poisoning; Respiratory diseases
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
-"Pneumonia, Otitis media, Septicaemia, Meningitis"
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
+Pneumonia, Otitis media, Septicaemia, Meningitis
 Food poisoning
 Food poisoning
 Food poisoning
@@ -4033,52 +4026,52 @@ Barley powdery mildew
 Barley powdery mildew
 Chagas Disease
 Tuberculosis
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
-"Tumors, galls or knots"
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
+Tumors, galls or knots
 Black Spot of pear
 Storage rots
 Storage rots

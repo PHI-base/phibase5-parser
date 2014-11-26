@@ -442,8 +442,8 @@ No
 
 
 
-
-
+Yes
+Yes
 
 
 
@@ -2618,7 +2618,6 @@ yes
 yes
 
 
-
 yes
 yes
 
@@ -3254,10 +3253,10 @@ no
 no
 no
 
- bob@hancocklab.com
- bob@hancocklab.com
- bob@hancocklab.com
- bob@hancocklab.com
+10.1371/journal.pone.0049123
+10.1371/journal.pone.0049123
+10.1371/journal.pone.0049123
+10.1371/journal.pone.0049123
 
 
 
@@ -3720,8 +3719,8 @@ yes
 
 
 
-ttsuge@agr.nagoya-u.ac.jp
-ttsuge@agr.nagoya-u.ac.jp
+10.1094/MPMI.2000.13.9.975
+10.1094/MPMI.2000.13.9.975
 
 
 

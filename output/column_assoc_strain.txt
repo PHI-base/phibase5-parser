@@ -5,7 +5,6 @@ race 5
 
 SB111
 
-
 clinical isolate
 clinical isolate
 Guy-11
@@ -383,7 +382,7 @@ SC5314
 521
 
 ATCC46645
-Monocot
+PH-1; NRRL 31084
 
 SC5314
 
@@ -443,8 +442,8 @@ H99
 
 
 
-Monocot
-Monocot
+
+
 R3b
 ATCC 32609; NIH 444
 ATCC 32609; NIH 444
@@ -475,19 +474,19 @@ SAS56
 SAS56
 SAS56
 SAS56
-Monocot
-Monocot
-Monocot
-Monocot
-Monocot
-Monocot
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
 PH-1; NRRL 31084
 PH-1; NRRL 31084
 PH-1; NRRL 31084
 PH-1; NRRL 31084
 ATCC 46645
 
-5111
+
 H99
 CAF3-1
 1006
@@ -501,8 +500,8 @@ SC5314
 
 SC5314
 70-15
-"Uh112 (MAT-1, ade)"
-"Uh112 (MAT-1, ade)"
+Uh112 (MAT-1, ade)
+Uh112 (MAT-1, ade)
 1066
 WO1
 
@@ -875,8 +874,8 @@ ATCC 34622
 ATCC 34622
 Not available
 70-15
-"BE0022, and BE9714"
-"BE9610, and BE0022"
+BE0022, and BE9714
+BE9610, and BE0022
 
 
 521
@@ -961,7 +960,7 @@ Not available
 Not available
 Not available
 Not available
-"IMI 103761, 521"
+IMI 103761, 521
 ST1/MBC
 Fel08
 Daf1
@@ -987,14 +986,14 @@ SC5314
 SC5314
 
 
-"Y34, 70-15"
-"Y34, 70-15"
+Y34, 70-15
+Y34, 70-15
 
 
 104-T
 AF14
 IPO323
-?
+β
 70-15
 70-15
 70-15
@@ -1146,9 +1145,9 @@ PH-1
 Hi-C-13
 
 
-Monocot
-Dicot
-Monocot
+
+
+
 
 
 
@@ -2273,11 +2272,8 @@ CgM2
 70-15
 70-15
 70-15
-
 70-15
-
 70-15
-
 70-15
 70-15
 70-15
@@ -2398,7 +2394,6 @@ CgM2
 70-15
 70-15
 70-15
-
 70-15
 70-15
 70-15
@@ -2494,7 +2489,6 @@ Guy11
 70-15
 70-15
 70-15
-
 70-15
 70-15
 70-15
@@ -2623,7 +2617,7 @@ Guy11
 
 
 521
-Pubmed
+na
 521
 521
 521

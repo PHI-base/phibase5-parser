@@ -5,7 +5,6 @@ Ustilago maydis
 Ustilago maydis
 Cochliobolus carbonum
 Nectria haematococca
-
 Cryptococcus neoformans
 Cryptococcus neoformans
 Magnaporthe oryzae (related: Magnaporthe grisea)
@@ -383,7 +382,7 @@ Fusarium culmorum
 Ustilago maydis
 Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Aspergillus fumigatus
-GO
+Gibberella zeae (related: Fusarium graminearum)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Candida albicans
 Cryptococcus neoformans
@@ -443,8 +442,8 @@ Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Cochliobolus heterostrophus
 Cochliobolus heterostrophus
-GO
-GO
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
 Candida albicans
 Cryptococcus gattii
 Cryptococcus gattii
@@ -475,19 +474,19 @@ Botrytis cinerea
 Botrytis cinerea
 Botrytis cinerea
 Botrytis cinerea
-GO
-GO
-GO
-GO
-GO
-GO
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Aspergillus fumigatus
 Stagonospora nodorum (related: Phaeosphaeria nodorum)
-4550
+Monocot
 Cryptococcus neoformans
 Candida albicans
 Candida albicans
@@ -1146,9 +1145,9 @@ Gibberella zeae (related: Fusarium graminearum)
 Streptomyces turgidiscabies
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
-GO
-
-GO
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Cochliobolus miyabeanus
 Alternaria Brassicicola
@@ -2273,11 +2272,8 @@ Colletotrichum graminicola (related: Glomerella graminicola)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
-
 Magnaporthe oryzae (related: Magnaporthe grisea)
-
 Magnaporthe oryzae (related: Magnaporthe grisea)
-
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
@@ -2398,7 +2394,6 @@ Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
-
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
@@ -2494,136 +2489,136 @@ Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
 Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+We found that the temperature-sensitive growth, the cell lysis defect and the morphological defect of the mutants were rescued by 1 M sorbitol, an osmotic stabilizer/Septin deficient cells were more susceptible to cell wall stressors than wild type
 
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Isabel Alvarez-Tabare´ s
 Ustilago maydis
 Ustilago maydis
 Ustilago maydis

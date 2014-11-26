@@ -382,7 +382,7 @@ Female Sterile
 
 
 
-gene disruption; complementation
+
 
 
 
@@ -442,8 +442,8 @@ Sterile
 
 
 
-gene deletion; complementation
-gene deletion; complementation
+
+
 
 
 
@@ -474,12 +474,12 @@ No Data
 
 
 
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption
-gene disruption
+
+
+
+
+
+
 
 
 
@@ -1145,9 +1145,9 @@ Defective
 
 
 
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
+
+
+
 
 
 
@@ -1240,7 +1240,7 @@ Reduced
 No forcible discharge
 No forcible discharge
 
-"Reduced on complex media, none on minimal media"
+Reduced on complex media, none on minimal media
 
 
 
@@ -2641,7 +2641,6 @@ reduced
 
 
 
-
 reduced
 
 
@@ -3360,15 +3359,9 @@ wild type
 
 
 
-
-
-
-
 reduced
 reduced
 wild type
-
-
 
 
 

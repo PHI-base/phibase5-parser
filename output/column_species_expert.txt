@@ -1145,9 +1145,9 @@ KHK
 KHK
 
 
-Didn’t grow in 1M NaCl
-Didn’t grow in 1M NaCl
-Partial gene deletion
+
+
+
 
 
 
@@ -3252,10 +3252,6 @@ na
 na
 na
 na
-
-
-
-
 na
 na
 na
@@ -3718,8 +3714,6 @@ na
 na
 na
 na
-
-
 na
 na
 na

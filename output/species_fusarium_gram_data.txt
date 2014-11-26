@@ -1,3 +1,15 @@
+PHI:355
+accession	I1RNS1
+db_type	Uniprot
+entered_by	TKB; AB; MU
+gene_name	GzmetE
+host_tax	4564
+literature_id	15378266
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5518
+phi_base_acc	PHI:355
+
 PHI:712
 accession	I1RF62
 db_type	Uniprot
@@ -141,6 +153,30 @@ literature_source	Pubmed
 multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1004
+
+PHI:1005
+accession	P0C431
+db_type	Uniprot
+entered_by	AB; AC
+gene_name	FgHOG1
+host_tax	4081
+literature_id	17253976
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5518
+phi_base_acc	PHI:1005
+
+PHI:1006
+accession	I1RXX1
+db_type	Uniprot
+entered_by	AB; AC
+gene_name	HMR1
+host_tax	4564
+literature_id	16377218
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5518
+phi_base_acc	PHI:1006
 
 PHI:1007
 accession	I1RIV2

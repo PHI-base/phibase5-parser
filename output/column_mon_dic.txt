@@ -7,8 +7,6 @@ Monocot
 Dicot
 
 
-
-
 Monocot
 Dicot
 
@@ -384,7 +382,7 @@ Monocot
 Monocot
 Monocot
 
-
+Monocot
 Monocot
 
 
@@ -444,8 +442,8 @@ Monocot
 Monocot
 Monocot
 Monocot
-
-
+Monocot
+Monocot
 
 
 
@@ -476,19 +474,19 @@ Dicot
 Dicot
 Dicot
 Dicot
-
-
-
-
-
-
+Monocot
+Monocot
 Monocot
 Monocot
 Monocot
 Monocot
+Monocot
+Monocot
+Monocot
+Monocot
 
 Monocot
-"GO:0009405, IMP; GO:0044412"
+GTPase
 
 
 
@@ -1147,9 +1145,9 @@ Dicot
 Dicot
 Monocot
 Dicot
-
-
-
+Monocot
+Dicot
+Monocot
 Monocot
 Monocot
 Dicot
@@ -2274,11 +2272,8 @@ Monocot
 Monocot
 Monocot
 Monocot
-
 Monocot
-
 Monocot
-
 Monocot
 Monocot
 Monocot
@@ -2399,7 +2394,6 @@ Monocot
 Monocot
 Monocot
 Dicot
-
 Monocot
 Monocot
 Monocot
@@ -2495,7 +2489,6 @@ Monocot
 Monocot
 Monocot
 Monocot
-
 Monocot
 Monocot
 Monocot
@@ -2624,7 +2617,6 @@ Monocot
 Monocot
 Monocot
 Monocot
-
 Monocot
 Monocot
 Monocot

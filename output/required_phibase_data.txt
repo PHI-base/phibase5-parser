@@ -157,7 +157,7 @@ phi_base_acc	PHI:19
 PHI:21
 accession	P41754
 db_type	Uniprot
-entered_by	M
+entered_by	
 gene_name	PCCUTINAS
 host_tax	4072
 literature_id	9508797 
@@ -3589,7 +3589,7 @@ phi_base_acc	PHI:348
 PHI:349
 accession	G1UA59
 db_type	Uniprot
-entered_by	M
+entered_by	
 gene_name	CTN3
 host_tax	
 literature_id	15219562
@@ -3661,6 +3661,13 @@ phi_base_acc	PHI:354
 PHI:355
 accession	I1RNS1
 db_type	Uniprot
+entered_by	TKB; AB; MU
+gene_name	GzmetE
+host_tax	4564
+literature_id	15378266
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5518
 phi_base_acc	PHI:355
 
 PHI:356
@@ -4302,11 +4309,25 @@ phi_base_acc	PHI:416
 PHI:417
 accession	EHA48601 
 db_type	Uniprot
+entered_by	TKB; MU
+gene_name	MST7
+host_tax	4530
+literature_id	15749760
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
 phi_base_acc	PHI:417
 
 PHI:418
 accession	EHA50924
 db_type	Entrez Protein
+entered_by	TKB; MU
+gene_name	MST11
+host_tax	4530
+literature_id	15749760
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
 phi_base_acc	PHI:418
 
 PHI:419
@@ -4576,16 +4597,37 @@ phi_base_acc	PHI:441
 PHI:442
 accession	I1S241
 db_type	Uniprot
+entered_by	TKB; AB; AC
+gene_name	MSY1
+host_tax	4565
+literature_id	
+literature_source	Not in PubMed
+multiple_mutation	
+patho_tax	5518
 phi_base_acc	PHI:442
 
 PHI:443
 accession	I1RE58
 db_type	Uniprot
+entered_by	TKB; AB; MU; AC
+gene_name	CBL1
+host_tax	4577
+literature_id	
+literature_source	Not in PubMed
+multiple_mutation	
+patho_tax	5518
 phi_base_acc	PHI:443
 
 PHI:444
 accession	I1RD66
 db_type	Uniprot
+entered_by	TKB; AB; MU; AC
+gene_name	ZIF1
+host_tax	4565
+literature_id	
+literature_source	Not in PubMed
+multiple_mutation	
+patho_tax	5518
 phi_base_acc	PHI:444
 
 PHI:445
@@ -7442,7 +7484,7 @@ PHI:694
 accession	AAS92520
 db_type	Entrez Protein
 entered_by	AB
-gene_name	STE12? / NOG2
+gene_name	STE12α / NOG2
 host_tax	10090
 literature_id	16825451
 literature_source	PubMed
@@ -10933,11 +10975,25 @@ phi_base_acc	PHI:1004
 PHI:1005
 accession	P0C431
 db_type	Uniprot
+entered_by	AB; AC
+gene_name	FgHOG1
+host_tax	4081
+literature_id	17253976
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5518
 phi_base_acc	PHI:1005
 
 PHI:1006
 accession	I1RXX1
 db_type	Uniprot
+entered_by	AB; AC
+gene_name	HMR1
+host_tax	4564
+literature_id	16377218
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5518
 phi_base_acc	PHI:1006
 
 PHI:1007
@@ -23856,7 +23912,7 @@ PHI:2106
 accession	MGG_05332
 db_type	Entrez Protein
 entered_by	AR
-gene_name	"1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase delta 1 "
+gene_name	1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase delta 1 
 host_tax	4564
 literature_id	18433453
 literature_source	PubMed
@@ -24312,7 +24368,7 @@ PHI:2148
 accession	EHA52010
 db_type	Entrez Protein
 entered_by	RP
-gene_name	"7,8-LDS"
+gene_name	7,8-LDS
 host_tax	4530
 literature_id	20023302
 literature_source	Pubmed
@@ -24912,7 +24968,7 @@ PHI:2204
 accession	MGG_01542
 db_type	Entrez Protein
 entered_by	RP
-gene_name	"endo-1,4-beta-xylanase [GH10 family]"
+gene_name	endo-1,4-beta-xylanase [GH10 family]
 host_tax	4564
 literature_id	21696466
 literature_source	Pubmed
@@ -24936,7 +24992,7 @@ PHI:2206
 accession	MGG_14243
 db_type	Entrez Protein
 entered_by	RP
-gene_name	"endo-1,4-beta-xylanase precursor [GH10 family]"
+gene_name	endo-1,4-beta-xylanase precursor [GH10 family]
 host_tax	4564
 literature_id	21696466
 literature_source	Pubmed
@@ -24948,7 +25004,7 @@ PHI:2207
 accession	MGG_02245
 db_type	Entrez Protein
 entered_by	RP
-gene_name	"endo-1,4-beta-xylanase [GH10 family]"
+gene_name	endo-1,4-beta-xylanase [GH10 family]
 host_tax	4564
 literature_id	21696466
 literature_source	Pubmed
@@ -24960,7 +25016,7 @@ PHI:2208
 accession	MGG_05464
 db_type	Entrez Protein
 entered_by	RP
-gene_name	"endo-1,4-beta-xylanase [GH10 family]"
+gene_name	endo-1,4-beta-xylanase [GH10 family]
 host_tax	4564
 literature_id	21696466
 literature_source	Pubmed
@@ -24972,7 +25028,7 @@ PHI:2209
 accession	MGG_07868
 db_type	Entrez Protein
 entered_by	RP
-gene_name	"endo-1,4-beta-xylanase [GH10 family]"
+gene_name	endo-1,4-beta-xylanase [GH10 family]
 host_tax	4564
 literature_id	21696466
 literature_source	Pubmed
@@ -25716,7 +25772,7 @@ PHI:2277
 accession	J9MB32
 db_type	Uniprot
 entered_by	AR
-gene_name	Putative zinc ?nger transcription factor
+gene_name	Putative zinc ﬁnger transcription factor
 host_tax	4081
 literature_id	19161356
 literature_source	Pubmed
@@ -27924,7 +27980,7 @@ PHI:2470
 accession	Q5H4Y2
 db_type	Uniprot
 entered_by	RP
-gene_name	AroQ? 
+gene_name	AroQγ 
 host_tax	4530
 literature_id	20128700
 literature_source	Pubmed
@@ -30120,7 +30176,7 @@ PHI:2654
 accession	Q59VF3
 db_type	Uniprot
 entered_by	RP
-gene_name	"DUR1,2"
+gene_name	DUR1,2
 host_tax	10090
 literature_id	23144764
 literature_source	Pubmed

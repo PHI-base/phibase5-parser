@@ -382,7 +382,6 @@ pectin and PGA
 
 
 
-15378266
 
 
 
@@ -442,8 +441,6 @@ pectin and PGA
 
 
 
-15749760
-15749760
 
 
 
@@ -486,7 +483,6 @@ pectin and PGA
 
 
 
-gene deletion; complementation
 
 
 
@@ -1145,9 +1141,13 @@ gene deletion; complementation
 
 
 
-17253976
-17253976
-16377218
+
+
+
+
+
+
+
 
 
 
@@ -2209,29 +2209,29 @@ PMSF (phenylmethylsulfonyl fluoride)
 PMSF (phenylmethylsulfonyl fluoride)
 PMSF (phenylmethylsulfonyl fluoride)
 8-Br-cAMP; IBMX
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
-"cAMP; IBMX; 1,16-hexadecanediol(Diol)"
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
+cAMP; IBMX; 1,16-hexadecanediol(Diol)
 
 
 
-"cAMP; 1,16-hexadecanediol(Diol); glucanex; nikkomycin Z"
-"cAMP; 1,16-hexadecanediol(Diol); glucanex; nikkomycin Z"
+cAMP; 1,16-hexadecanediol(Diol); glucanex; nikkomycin Z
+cAMP; 1,16-hexadecanediol(Diol); glucanex; nikkomycin Z
 
 
 
@@ -2247,8 +2247,8 @@ glycerol; Valinomycin; verapamil; Actinomycin D; Benomyl; Brefeldin A; Gramicidi
 
 
 
-"1,16-hexadecanediol; Cyclic Adenosine 3',5'-cyclophosphate; 3-Isobutyl-1-methylxanthine"
-"1,16-hexadecanediol; Cyclic Adenosine 3',5'-cyclophosphate; 3-Isobutyl-1-methylxanthine"
+1,16-hexadecanediol; Cyclic Adenosine 3',5'-cyclophosphate; 3-Isobutyl-1-methylxanthine
+1,16-hexadecanediol; Cyclic Adenosine 3',5'-cyclophosphate; 3-Isobutyl-1-methylxanthine
 
 NaCl; MnCl2; CaCl2; Congo red; Calcofluor white; SDS; Nikkomycin Z
 H2O2; KO2; FeSO4; FeCl3; ferric citrate
@@ -2271,9 +2271,9 @@ H2O2; KO2; coprogen; FeSO4; FeCl3; ferric citrate; ferricrocin; ferrichrome
 bathophenanthroline-disulfonate; desferri-ferrichrome; desferri-coprogen; H2O2; rose bengal
 bathophenanthroline-disulfonate; desferri-ferrichrome; desferri-coprogen; H2O2; rose bengal
 NaCl; Calcium; DAG (diacylglycerol)
-"Congo Red; methyl violo-gen; hydrogen peroxide; 3-amino-1,2,4 triazole; calcium chloride; sodium chloride; p -coumaric acid; SDS; MnCl2; CuSO4"
-"Congo Red; methyl violo-gen; hydrogen peroxide; 3-amino-1,2,4 triazole; calcium chloride; sodium chloride; p -coumaric acid; SDS; MnCl2; CuSO4"
-"Congo Red; methyl violo-gen; hydrogen peroxide; 3-amino-1,2,4 triazole; calcium chloride; sodium chloride; p -coumaric acid; SDS; MnCl2; CuSO4"
+Congo Red; methyl violo-gen; hydrogen peroxide; 3-amino-1,2,4 triazole; calcium chloride; sodium chloride; p -coumaric acid; SDS; MnCl2; CuSO4
+Congo Red; methyl violo-gen; hydrogen peroxide; 3-amino-1,2,4 triazole; calcium chloride; sodium chloride; p -coumaric acid; SDS; MnCl2; CuSO4
+Congo Red; methyl violo-gen; hydrogen peroxide; 3-amino-1,2,4 triazole; calcium chloride; sodium chloride; p -coumaric acid; SDS; MnCl2; CuSO4
 Ca+
 Ca+
 Camptothecin; Methyl methanesulfonate; Bleomycin; 4-nitroquinoline 1-oxidase; Hydroxyurea; Ethyl methanesulfonate; UV irradiation
@@ -2390,7 +2390,7 @@ Diphenyleneiodonium
 
 
 
-"1,16-hexadecanediol; 1,2-Dioctanoylglycerol; 8-((4-Chlorophenyl)thio)cyclic-3',5'-amp"
+1,16-hexadecanediol; 1,2-Dioctanoylglycerol; 8-((4-Chlorophenyl)thio)cyclic-3',5'-amp
 
 
 
@@ -2612,8 +2612,8 @@ Arabinose
 
 
 
-Sorbitol; Sodium chloride; Sodium Lauryl Sulfate; Calco?uor white
-Sorbitol; Sodium chloride; Sodium Lauryl Sulfate; Calco?uor white
+Sorbitol; Sodium chloride; Sodium Lauryl Sulfate; Calcoﬂuor white
+Sorbitol; Sodium chloride; Sodium Lauryl Sulfate; Calcoﬂuor white
 
 7-Diethylamino-4-methylcoumarin; Congo red; Sorbitol; Sodium chloride
 "Sorbitol; Caffeine; 7-Diethylamino-4-methylcoumarin; Chlorpromazine; Brefeldin A
@@ -2635,7 +2635,7 @@ L-Arabinose; Xylose
 L-Arabinose; Xylose
 L-Arabinose; Xylose
 L-Arabinose; Xylose
-"beta-Alanine, N-(2,4-dihydroxy-3,3-dimethyl-1-oxobutyl)-, ion(1-), (R)-"
+beta-Alanine, N-(2,4-dihydroxy-3,3-dimethyl-1-oxobutyl)-, ion(1-), (R)-
 Lysine; Bathophenanthroline disulfonic acid; Ferrichrome; Hydrogen peroxide
 Lysine
 
@@ -2712,7 +2712,7 @@ Sodium nitroprusside; Hydrogen peroxide
 
 
 
-"1,4-Dithiothreitol (DTT)"
+1,4-Dithiothreitol (DTT)
 
 Magnesium cation (Mg2+)
 Magnesium cation (Mg2+)
@@ -2734,11 +2734,11 @@ Hydrogen peroxide
 
 
 
-"7-Diethylamino-4-methylcoumarin; Congo red; 2-chloro-5-hydroxypyridine; 2,3,5-Triiodobenzoic acid"
+7-Diethylamino-4-methylcoumarin; Congo red; 2-chloro-5-hydroxypyridine; 2,3,5-Triiodobenzoic acid
 Iprodione
 Acetovanillone; Diphenyleneiodonium; Hydrogen peroxide; tert-Butyl hydroperoxide; Potassium superoxide; Hematoporphyrin
-"1,10-Phenanthrolinedisulfonic acid, 4,7-diphenyl-, sodium salt (1:2) (BPS); Hydrogen peroxide; Lovastatin"
-"1,10-Phenanthrolinedisulfonic acid, 4,7-diphenyl-, sodium salt (1:2) (BPS); Hydrogen peroxide; Lovastatin"
+1,10-Phenanthrolinedisulfonic acid, 4,7-diphenyl-, sodium salt (1:2) (BPS); Hydrogen peroxide; Lovastatin
+1,10-Phenanthrolinedisulfonic acid, 4,7-diphenyl-, sodium salt (1:2) (BPS); Hydrogen peroxide; Lovastatin
 Hydrogen peroxide; Menadione; Potassium chloride; Sodium chloride; Glucose; Sucrose
 
 
@@ -2761,7 +2761,7 @@ Caproic acid
 
 
 
-"Hydrogen peroxide ; Menadione; Cumene hydroperoxide; Diamide; Cadmium chloride, hydrate; Cercosporamide; Copper"
+Hydrogen peroxide ; Menadione; Cumene hydroperoxide; Diamide; Cadmium chloride, hydrate; Cercosporamide; Copper
 
 
 
@@ -2809,8 +2809,8 @@ Cyclosporine; Tacrolimus; Quinic acid; Caspofungin
 Cyclosporine; Tacrolimus; Quinic acid; Caspofungin
 
 
-?-tomatine
-?-tomatine
+α-tomatine
+α-tomatine
 Potassium chloride; Sorbitol; menadione
 Potassium chloride; Sorbitol; menadione
 Potassium chloride; Sorbitol; menadione
@@ -2883,8 +2883,8 @@ Potassium acetate
 
 
 
-"Hydrogen peroxide; Copper, ion (Cu2+)"
-"Hydrogen peroxide; Copper, ion (Cu2+)"
+Hydrogen peroxide; Copper, ion (Cu2+)
+Hydrogen peroxide; Copper, ion (Cu2+)
 
 
 
@@ -2922,8 +2922,8 @@ Cyclic AMP; 1-Methyl-3-isobutylxanthine; Theophylline; Atropine; Potassium chlor
 
 
 
-"Nickel, ion (Ni2+); Cadmium chloride, monohydrate; Hydrogen peroxide; Cadmium, ion (Cd2+)"
-"Nickel, ion (Ni2+); Cadmium chloride, monohydrate; Hydrogen peroxide; Cadmium, ion (Cd2+)"
+Nickel, ion (Ni2+); Cadmium chloride, monohydrate; Hydrogen peroxide; Cadmium, ion (Cd2+)
+Nickel, ion (Ni2+); Cadmium chloride, monohydrate; Hydrogen peroxide; Cadmium, ion (Cd2+)
 
 
 
@@ -3016,8 +3016,8 @@ Cyclosporine
 
 Sodium chloride; Sorbitol; Hydrogen peroxide; Polymyxin B
 Sodium chloride; Sorbitol; Hydrogen peroxide; Polymyxin B
-"N-(3,5-Dichlorophenyl)succinimide [Dim]; Fludioxonil [Flu]; Quintozene [PCNB]; Sodium chloride; Potassium chloride; Sorbitol; Glucose"
-"N-(3,5-Dichlorophenyl)succinimide [Dim]; Fludioxonil [Flu]; Quintozene [PCNB]; Sodium chloride; Potassium chloride; Sorbitol; Glucose"
+N-(3,5-Dichlorophenyl)succinimide [Dim]; Fludioxonil [Flu]; Quintozene [PCNB]; Sodium chloride; Potassium chloride; Sorbitol; Glucose
+N-(3,5-Dichlorophenyl)succinimide [Dim]; Fludioxonil [Flu]; Quintozene [PCNB]; Sodium chloride; Potassium chloride; Sorbitol; Glucose
 Copper
 Copper
 
@@ -3059,7 +3059,7 @@ Lithium chloride; Wortmannin
 Caspofungin; Nikkomycin; Tacrolimus [FK506]
 7-Diethylamino-4-methylcoumarin; Congo red
 Hypochlorous acid [HOCl]; Hydrogen peroxide
-"Tetracycline; Zinc, elemental; Bathophenanthroline disulfonic acid"
+Tetracycline; Zinc, elemental; Bathophenanthroline disulfonic acid
 
 
 
@@ -3169,7 +3169,7 @@ tert-Butyl hydroperoxide (t-BHP); Hydrogen peroxide; Cumene hydroperoxide; Gluco
 
 
 
-"Ferulic acid; p-Coumaric acid; Vanillic acid; 4-Hydroxybenzoic acid; p-Hydroxybenzaldehyde; 2-Propenoic acid, 3-phenyl-, (2E)-; Catechol; Lignin"
+Ferulic acid; p-Coumaric acid; Vanillic acid; 4-Hydroxybenzoic acid; p-Hydroxybenzaldehyde; 2-Propenoic acid, 3-phenyl-, (2E)-; Catechol; Lignin
 
 
 
@@ -3193,7 +3193,7 @@ tert-Butyl hydroperoxide (t-BHP); Hydrogen peroxide; Cumene hydroperoxide; Gluco
 
 
 
-"Ferulic acid; p-Coumaric acid; Vanillic acid; 4-Hydroxybenzoic acid; p-Hydroxybenzaldehyde; 2-Propenoic acid, 3-phenyl-, (2E)-; Catechol; Lignin"
+Ferulic acid; p-Coumaric acid; Vanillic acid; 4-Hydroxybenzoic acid; p-Hydroxybenzaldehyde; 2-Propenoic acid, 3-phenyl-, (2E)-; Catechol; Lignin
 
 
 
@@ -3253,10 +3253,6 @@ Vancomycin; Rifampin; Erythromycin; Novobiocin; Bacitracin
 Hydrogen peroxide
 Hydrogen peroxide
 Hydrogen peroxide
-
-
-
-
 
 
 
@@ -3633,8 +3629,8 @@ Hydrogen peroxide
 
 
 
-"Copper, ion (Cu2+); Magnesium cation; Calcium cation; Iron, ion (Fe3+); Aluminium, ion (Al3+);  Sodium chloride; Sorbitol; Hydrogen peroxide; Paraquat; Triadimefon; Tebuconazole; Tridemorph; Fenpropidin; Spiroxamine; Nystatin; Amphotericin B; Cellulase; Muramidase [lysozyme]; Snailase"
-"Copper, ion (Cu2+); Magnesium cation; Calcium cation; Iron, ion (Fe3+); Aluminium, ion (Al3+);  Sodium chloride; Sorbitol; Hydrogen peroxide; Paraquat; Triadimefon; Tebuconazole; Tridemorph; Fenpropidin; Spiroxamine; Nystatin; Amphotericin B; Cellulase; Muramidase [lysozyme]; Snailase"
+Copper, ion (Cu2+); Magnesium cation; Calcium cation; Iron, ion (Fe3+); Aluminium, ion (Al3+);  Sodium chloride; Sorbitol; Hydrogen peroxide; Paraquat; Triadimefon; Tebuconazole; Tridemorph; Fenpropidin; Spiroxamine; Nystatin; Amphotericin B; Cellulase; Muramidase [lysozyme]; Snailase
+Copper, ion (Cu2+); Magnesium cation; Calcium cation; Iron, ion (Fe3+); Aluminium, ion (Al3+);  Sodium chloride; Sorbitol; Hydrogen peroxide; Paraquat; Triadimefon; Tebuconazole; Tridemorph; Fenpropidin; Spiroxamine; Nystatin; Amphotericin B; Cellulase; Muramidase [lysozyme]; Snailase
 
 
 
@@ -3751,16 +3747,14 @@ caffeine; calcofluor white; congo red
 
 
 
-
-
-SDS; calco?uor white
-SDS; calco?uor white
-SDS; calco?uor white
-SDS; calco?uor white
-SDS; calco?uor white
-SDS; calco?uor white
-SDS; calco?uor white
-SDS; calco?uor white
+SDS; calcoﬂuor white
+SDS; calcoﬂuor white
+SDS; calcoﬂuor white
+SDS; calcoﬂuor white
+SDS; calcoﬂuor white
+SDS; calcoﬂuor white
+SDS; calcoﬂuor white
+SDS; calcoﬂuor white
 
 
 
@@ -3898,7 +3892,7 @@ Rose bengal;  H2O2
 Rose bengal;  H2O2
 Rose bengal;  H2O2
 
-"Rose bengal;  H2O2; Cumyl H2O2; Menadione; t -butyl H2O2; KO2 ;  Bathophenanthroline disulphonic acid; 2,2 ?-dipyridyl; Sodium nitroprusside; Hydroxylamine-HCl "
+Rose bengal;  H2O2; Cumyl H2O2; Menadione; t -butyl H2O2; KO2 ;  Bathophenanthroline disulphonic acid; 2,2 ′-dipyridyl; Sodium nitroprusside; Hydroxylamine-HCl 
 
 
 
@@ -3940,7 +3934,7 @@ NaCl; KCl; Sorbitol
 
 
 
- NaNO2; H2O2; OSU-03012; ?uconazole; amphotericin B
+ NaNO2; H2O2; OSU-03012; ﬂuconazole; amphotericin B
 
 
 

@@ -382,7 +382,6 @@ Conidia do not germinate
 
 
 
-TKB; AB; MU
 
 
 
@@ -442,8 +441,6 @@ TKB; AB; MU
 
 
 
-TKB; MU
-TKB; MU
 
 
 
@@ -474,12 +471,15 @@ TKB; MU
 
 
 
-TKB; AB; AC
-TKB; AB; AC
-TKB; AB; MU; AC
-TKB; AB; MU; AC
-TKB; AB; MU; AC
-TKB; AB; MU; AC
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1145,9 +1145,9 @@ Delayed
 
 
 
-AB; AC
-AB; AC
-AB; AC
+
+
+
 
 
 
@@ -3304,10 +3304,6 @@ wild type
 
 
 
-
-
-
-
 reduced
 
 
@@ -3637,8 +3633,6 @@ wild type
 
 
 wild type
-
-
 
 
 

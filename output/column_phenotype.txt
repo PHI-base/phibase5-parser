@@ -1,8 +1,8 @@
 Unaffected pathogenicity
 Reduced virulence
 Effector (plant avirulence determinant)
-Non-Pathogenic
-Non-Pathogenic
+Loss of pathogenicity 
+Loss of pathogenicity 
 Loss of pathogenicity 
 Unaffected pathogenicity
 Reduced virulence
@@ -192,7 +192,7 @@ Reduced virulence
 Loss of pathogenicity 
 Reduced virulence
 Unaffected pathogenicity
-Non-Pathogenic
+Loss of pathogenicity 
 Reduced virulence
 Loss of pathogenicity 
 Reduced virulence
@@ -306,7 +306,7 @@ Reduced virulence
 Reduced virulence
 Reduced virulence
 Loss of pathogenicity 
-Non-Pathogenic
+Loss of pathogenicity 
 Increased virulence (Hypervirulence)
 Loss of pathogenicity 
 Reduced virulence
@@ -382,7 +382,7 @@ Reduced virulence
 Loss of pathogenicity 
 Reduced virulence
 Reduced virulence
-
+Reduced virulence
 Reduced virulence
 Reduced virulence
 Loss of pathogenicity 
@@ -442,12 +442,12 @@ Unaffected pathogenicity
 Loss of pathogenicity 
 Reduced virulence
 Reduced virulence
-
-
+Loss of pathogenicity 
+Loss of pathogenicity 
 Reduced virulence
 Loss of pathogenicity 
 Loss of pathogenicity 
-Non-Pathogenic
+Loss of pathogenicity 
 Reduced virulence
 Reduced virulence
 Reduced virulence
@@ -474,19 +474,19 @@ Unaffected pathogenicity
 Unaffected pathogenicity
 Unaffected pathogenicity
 Reduced virulence
-
-
-
-
-
-
+Reduced virulence
+Reduced virulence
+Reduced virulence
+Reduced virulence
+Reduced virulence
+Reduced virulence
 Reduced virulence
 Reduced virulence
 Reduced virulence
 Reduced virulence
 Reduced virulence
 Loss of pathogenicity 
-Yes
+No
 Reduced virulence
 Loss of pathogenicity 
 Reduced virulence
@@ -956,11 +956,11 @@ Resistant to chemical
 Sensitive to chemical
 Resistant to chemical
 Resistant to chemical
-chemistry target
+Sensitive to chemical
 Resistant to chemical
 Resistant to chemical
-chemistry target
-chemistry target
+Sensitive to chemical
+Sensitive to chemical
 Resistant to chemical
 Resistant to chemical
 Resistant to chemical
@@ -1145,9 +1145,9 @@ Unaffected pathogenicity
 Reduced virulence
 Loss of pathogenicity 
 Loss of pathogenicity 
-
-
-
+Reduced virulence
+Unaffected pathogenicity 
+Reduced virulence
 Reduced virulence
 Reduced virulence
 Reduced virulence
@@ -2617,7 +2617,6 @@ reduced virulence
 reduced virulence
 reduced virulence
 Unaffected pathogenicity
-
 Unaffected pathogenicity
 Loss of pathogenicity
 Loss of pathogenicity
@@ -2943,8 +2942,8 @@ Effector (plant avirulence determinant)
 Effector (plant avirulence determinant)
 Effector (plant avirulence determinant)
 Reduced virulence
-essential
-essential
+Lethal
+Lethal
 Reduced virulence
 Reduced virulence
 Reduced virulence
@@ -3254,10 +3253,10 @@ Reduced virulence
 Reduced virulence
 Reduced virulence
 Reduced virulence
-10.1371/journal.pone.0049123
-10.1371/journal.pone.0049123
-10.1371/journal.pone.0049123
-10.1371/journal.pone.0049123
+23145092
+23145092
+23145092
+23145092
 Reduced virulence
 Reduced virulence
 Unaffected pathogenicity
@@ -3720,8 +3719,8 @@ Loss of pathogenicity
 Unaffected pathogenicity
 Effector (plant avirulence determinant)
 Effector (plant avirulence determinant)
-10.1094/MPMI.2000.13.9.975
-10.1094/MPMI.2000.13.9.975
+10975654
+10975654
 Loss of pathogenicity
 Reduced virulence
 Reduced virulence

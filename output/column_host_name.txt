@@ -382,7 +382,7 @@ Wheat
 Maize
 Wheat
 Mouse
-
+Wheat
 Rice
 Mouse
 Mouse
@@ -442,8 +442,8 @@ Wheat
 Wheat
 Maize
 Maize
-Yes
-Yes
+Rice
+Rice
 Mouse
 Mouse
 Mouse
@@ -474,19 +474,19 @@ Apple
 Tomato
 Green pepper
 Bean
-
-
-
-
-
-
+Maize
+Wheat
+Wheat
+Maize
+Maize
+Wheat
 Wheat
 Maize
 Maize
 Wheat
 Galleria mellonella
 Wheat
-
+GO
 Mouse
 Mouse
 Mouse
@@ -1145,9 +1145,9 @@ Tomato
 Raphanus sativus
 Wheat
 Tomato
-
-
-
+Wheat
+Tomato
+Wheat
 Wheat
 Rice
 Arabidopsis thaliana
@@ -2617,7 +2617,6 @@ Maize
 Maize
 Maize
 Maize
-
 Maize
 Maize
 Maize
@@ -3255,13 +3254,13 @@ Arabidopsis thaliana
 Grapes
 Mouse
 Mouse
-na
+
 Mouse
-na
+
 Rat
-na
+
 Rat
-na
+
 Mouse
 Potato
 Potato
@@ -3725,9 +3724,9 @@ Mouse
 Rice
 Rice
 Pear
-na
+
 Pear
-na
+
 Mouse
 Maize
 Maize
