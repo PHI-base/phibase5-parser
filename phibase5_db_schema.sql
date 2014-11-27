@@ -81,15 +81,14 @@ CREATE TABLE modification_within_mutant (
     PRIMARY KEY (pathogen_gene_mutant_id, psi_mod_id)
 );
 
-CREATE TABLE go_evidence_code (
-    id SERIAL PRIMARY KEY,
-    code varchar(50)
+CREATE TABLE go_evidence (
+    code varchar(50) PRIMARY KEY
 );
 
 CREATE TABLE interaction_go_term (
     interaction_id integer REFERENCES interaction,
     go_id varchar(50),
-    go_evidence_code_id integer REFERENCES go_evidence_code,
+    go_evidence_code varchar(50) REFERENCES go_evidence,
     PRIMARY KEY (interaction_id, go_id)
 );
 
