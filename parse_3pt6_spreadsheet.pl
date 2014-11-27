@@ -36,8 +36,14 @@ print "Inserting data for valid Fusarium graminearum annotations into PHI-base v
 # open output files
 my $defect_filename = './output/phibase_defects.tsv';
 my $invalid_defect_filename = './output/phibase_invalid_defects.tsv';
+my $go_with_evid_filename = './output/phibase_go_with_evid.tsv';
+my $go_without_evid_filename = './output/phibase_go_without_evid.tsv';
+my $invalid_go_filename = './output/phibase_invalid_go.tsv';
 open (DEFECT_FILE, "> $defect_filename") or die "Error opening output file\n";
 open (INVALID_DEFECT_FILE, "> $invalid_defect_filename") or die "Error opening output file\n";
+open (GO_WITH_EVID_FILE, "> $go_with_evid_filename") or die "Error opening output file\n";
+open (GO_WITHOUT_EVID_FILE, "> $go_without_evid_filename") or die "Error opening output file\n";
+open (INVALID_GO_FILE, "> $invalid_go_filename") or die "Error opening output file\n";
 
 # first line gives the spreadsheet column headings
 chomp(my $col_header_line = <TSV_FILE>);
@@ -76,6 +82,10 @@ my $invalid_defect_count = 0;
 my $curator_count = 0;
 my $species_expert_count = 0;
 my $anti_infective_count = 0;
+my $go_annotation_count = 0;
+my $go_with_evid_count = 0;
+my $go_without_evid_count = 0;
+my $invalid_go_count = 0;
 
 # go through each of the remaining lines of the TSV file (each representing a single annotation)
 # save the values of each column to the approriate output file
@@ -465,6 +475,78 @@ while (<TSV_FILE>) {
           } # end foreach defect attribute
 
           
+          # Get the GO annotations
+          my $go_annot_string = $phi_base_annotation{"go_annotation"};
+
+          # if the GO annotations string is empty, no GO annotations have been supplied
+          if (defined $go_annot_string and $go_annot_string ne "") {
+
+            # need to split list based on semi-colon delimiter
+            my @go_annotations = split(";",$go_annot_string);
+
+            # for each GO annotation, need to get the GO ID and the evidence code,
+            # then insert an interaction_go_term record for this GO annotation
+            foreach my $go_annotation (@go_annotations) {
+
+               $go_annotation_count++;
+
+               # entries sometimes have a name before the ID, separated by a colon,
+               # other times no name is given before the CAS Registry ID,
+               # so need to extract the ID, based on colon delimiter
+               # (which will always be the last part)
+               my @go_parts = split(",",$go_annotation);
+
+               # first part will be the GO ID
+               my $go_id = shift @go_parts;
+               $go_id =~ s/^\s+//; # remove blank space from start of GO ID
+               $go_id =~ s/\s+$//; # remove blank space from end of GO ID
+
+               # second part will be the GO evidence code, if supplied
+               my $go_evid_code = shift @go_parts;
+               if (defined $go_evid_code) {
+                 $go_evid_code =~ s/^\s+//; # remove blank space from start of GO evidence code
+                 $go_evid_code =~ s/\s+$//; # remove blank space from end of GO evidence code
+               }
+
+               if (defined $go_evid_code and $go_evid_code ne "") {
+
+                  # insert data into interaction_go_term table,
+                  # with foreign keys to the interaction table and the go_evidence_code_table 
+	          $sql_statement = qq(INSERT INTO interaction_go_term (interaction_id, go_id, go_evidence_code)
+                                        VALUES ($interaction_id, '$go_id', '$go_evid_code');
+                                     );
+	          $sql_result = $db_conn->prepare($sql_statement);
+
+                  # execute SQL insert and, if successful, print to file
+	          if ( $sql_result->execute() ) {
+                     $go_with_evid_count++;
+                     print GO_WITH_EVID_FILE "$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
+                  } else {  # SQL insert unsuccessful, then log error
+                     $invalid_go_count++;
+                     print "\nPHI-base ERROR: Evidence code $go_evid_code is not valid for $required_fields_annot{'phi_base_acc'}, $go_id\n\n";
+                     print INVALID_GO_FILE "$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
+                  }
+
+               } else { # GO evidence code not supplied
+
+                  # insert data into interaction_go_term table,
+                  # with foreign key to the interaction table, but without GO evidence code 
+	          $sql_statement = qq(INSERT INTO interaction_go_term (interaction_id, go_id)
+                                        VALUES ($interaction_id, '$go_id');
+                                     );
+	          $sql_result = $db_conn->prepare($sql_statement);
+	          $sql_result->execute() or die $DBI::errstr;
+
+                  $go_without_evid_count++;
+                  print GO_WITHOUT_EVID_FILE "$required_fields_annot{'phi_base_acc'}\t$go_id\n";
+    
+               } # else GO evidence code
+              
+             } # end foreach GO term
+
+          } # if GO terms supplied 
+
+          
           # anti-infective chemicals are given as CAS Registry IDs
           my $cas_string = $phi_base_annotation{"cas"};
 
@@ -645,6 +727,10 @@ print "Total curator entries for F gram: $curator_count\n";
 print "Total species expert entries for F gram: $species_expert_count\n";
 print "Total valid defects for F gram: $defect_count\n";
 print "Total invalid defects for F gram: $invalid_defect_count\n";
+print "Total GO annotations for F gram: $go_annotation_count\n";
+print "GO annotations with evidence code for F gram: $go_with_evid_count\n";
+print "GO annotations without evidence code for F gram: $go_without_evid_count\n";
+print "Invalid GO annotations for F gram: $invalid_go_count\n";
 print "Total anti-infective chemicals for F gram: $anti_infective_count\n";
 print "Total annotations retrieved from database: $annotation_count\n\n";
 
@@ -654,5 +740,8 @@ print "Output file of only the required data of valid PHI-base annotations: $req
 print "Output file of valid data from fusarium graminearum: $fus_gram_filename\n";
 print "Output file of valid defects from fusarium graminearum: $defect_filename\n";
 print "Output file of invalid defects from fusarium graminearum: $invalid_defect_filename\n";
+print "Output file of GO annotations with evidence code from fusarium graminearum: $go_with_evid_filename\n";
+print "Output file of GO annotations without evidence code from fusarium graminearum: $go_without_evid_filename\n";
+print "Output file of Invalid GO annotations from fusarium graminearum: $invalid_go_filename\n";
 print "Tab-separated file of all PHI-base data inserted into relevant tables: $db_data_filename\n\n";
 

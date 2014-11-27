@@ -2858,3 +2858,883 @@ triazines
 quinones (anthraquinones)
 quinoxalines
 maleimide
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+hydroxy-(2-amino-) pyrimidines
+hydroxy-(2-amino-) pyrimidines
+hydroxy-(2-amino-) pyrimidines
+heteroaromatics
+heteroaromatics
+carboxylic acids
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+N-phenyl carbamates
+benzamides
+thiazole carboxamide
+phenylureas
+benzamides
+pyrimidinamines
+pyrazole-MET1
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QiI - fungicides (Quinone inside Inhibitors)
+QiI - fungicides (Quinone inside Inhibitors)
+none
+none
+none
+none
+none
+organo tin compounds
+organo tin compounds
+organo tin compounds
+thiophene-carboxamides
+QoSI fungicides (Quinone outside Inhibitor, stigmatellin binding type)
+AP - fungicides (Anilino-Pyrimidines)
+AP - fungicides (Anilino-Pyrimidines)
+AP - fungicides (Anilino-Pyrimidines)
+enopyranuronic acid antibiotic
+hexopyranosyl antibiotic
+glucopyranosyl antibiotic
+tetracycline antibiotic
+aza-naphthalenes
+aza-naphthalenes
+PP-fungicides (PhenylPyrroles)
+PP-fungicides (PhenylPyrroles)
+dicarboximides
+dicarboximides
+dicarboximides
+dicarboximides
+formerly dicarboximides
+phosphoro-thiolates
+phosphoro-thiolates
+phosphoro-thiolates
+dithiolanes
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+heteroaromatics
+carbamates
+carbamates
+carbamates
+formerly CAA-fungicides
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+plant extract
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+(SBI: Class III)
+(SBI: Class III)
+(SBI class IV)
+(SBI class IV)
+(SBI class IV)
+glucopyranosyl antibiotic
+polyoxins
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+benzo-thiadiazole BTH
+benzisothiazole
+thiadiazole-carboxamide
+thiadiazole-carboxamide
+natural compound
+plant extract
+cyanoacetamide-oxime
+phosphonates
+phosphonates
+phthalamic acids
+benzotriazines
+benzene-sulfonamides
+pyridazinones
+thiocarbamate
+phenyl-acetamide
+aryl-phenyl-ketone
+aryl-phenyl-ketone
+guanidines
+thiazolidine
+pyrimidinone-hydrazones
+piperidinyl- thiazole-isoxazolines
+4-quinolyl-acetate
+diverse
+inorganic
+inorganic
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+phthalimides
+phthalimides
+phthalimides
+chloronitriles (phthalonitriles)
+sulfamides
+sulfamides
+guanidines
+guanidines
+triazines
+quinones (anthraquinones)
+quinoxalines
+maleimide
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+hydroxy-(2-amino-) pyrimidines
+hydroxy-(2-amino-) pyrimidines
+hydroxy-(2-amino-) pyrimidines
+heteroaromatics
+heteroaromatics
+carboxylic acids
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+N-phenyl carbamates
+benzamides
+thiazole carboxamide
+phenylureas
+benzamides
+pyrimidinamines
+pyrazole-MET1
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QiI - fungicides (Quinone inside Inhibitors)
+QiI - fungicides (Quinone inside Inhibitors)
+none
+none
+none
+none
+none
+organo tin compounds
+organo tin compounds
+organo tin compounds
+thiophene-carboxamides
+QoSI fungicides (Quinone outside Inhibitor, stigmatellin binding type)
+AP - fungicides (Anilino-Pyrimidines)
+AP - fungicides (Anilino-Pyrimidines)
+AP - fungicides (Anilino-Pyrimidines)
+enopyranuronic acid antibiotic
+hexopyranosyl antibiotic
+glucopyranosyl antibiotic
+tetracycline antibiotic
+aza-naphthalenes
+aza-naphthalenes
+PP-fungicides (PhenylPyrroles)
+PP-fungicides (PhenylPyrroles)
+dicarboximides
+dicarboximides
+dicarboximides
+dicarboximides
+formerly dicarboximides
+phosphoro-thiolates
+phosphoro-thiolates
+phosphoro-thiolates
+dithiolanes
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+heteroaromatics
+carbamates
+carbamates
+carbamates
+formerly CAA-fungicides
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+plant extract
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+(SBI: Class III)
+(SBI: Class III)
+(SBI class IV)
+(SBI class IV)
+(SBI class IV)
+glucopyranosyl antibiotic
+polyoxins
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+benzo-thiadiazole BTH
+benzisothiazole
+thiadiazole-carboxamide
+thiadiazole-carboxamide
+natural compound
+plant extract
+cyanoacetamide-oxime
+phosphonates
+phosphonates
+phthalamic acids
+benzotriazines
+benzene-sulfonamides
+pyridazinones
+thiocarbamate
+phenyl-acetamide
+aryl-phenyl-ketone
+aryl-phenyl-ketone
+guanidines
+thiazolidine
+pyrimidinone-hydrazones
+piperidinyl- thiazole-isoxazolines
+4-quinolyl-acetate
+diverse
+inorganic
+inorganic
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+phthalimides
+phthalimides
+phthalimides
+chloronitriles (phthalonitriles)
+sulfamides
+sulfamides
+guanidines
+guanidines
+triazines
+quinones (anthraquinones)
+quinoxalines
+maleimide
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+hydroxy-(2-amino-) pyrimidines
+hydroxy-(2-amino-) pyrimidines
+hydroxy-(2-amino-) pyrimidines
+heteroaromatics
+heteroaromatics
+carboxylic acids
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+N-phenyl carbamates
+benzamides
+thiazole carboxamide
+phenylureas
+benzamides
+pyrimidinamines
+pyrazole-MET1
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QiI - fungicides (Quinone inside Inhibitors)
+QiI - fungicides (Quinone inside Inhibitors)
+none
+none
+none
+none
+none
+organo tin compounds
+organo tin compounds
+organo tin compounds
+thiophene-carboxamides
+QoSI fungicides (Quinone outside Inhibitor, stigmatellin binding type)
+AP - fungicides (Anilino-Pyrimidines)
+AP - fungicides (Anilino-Pyrimidines)
+AP - fungicides (Anilino-Pyrimidines)
+enopyranuronic acid antibiotic
+hexopyranosyl antibiotic
+glucopyranosyl antibiotic
+tetracycline antibiotic
+aza-naphthalenes
+aza-naphthalenes
+PP-fungicides (PhenylPyrroles)
+PP-fungicides (PhenylPyrroles)
+dicarboximides
+dicarboximides
+dicarboximides
+dicarboximides
+formerly dicarboximides
+phosphoro-thiolates
+phosphoro-thiolates
+phosphoro-thiolates
+dithiolanes
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+heteroaromatics
+carbamates
+carbamates
+carbamates
+formerly CAA-fungicides
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+plant extract
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+(SBI: Class III)
+(SBI: Class III)
+(SBI class IV)
+(SBI class IV)
+(SBI class IV)
+glucopyranosyl antibiotic
+polyoxins
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+benzo-thiadiazole BTH
+benzisothiazole
+thiadiazole-carboxamide
+thiadiazole-carboxamide
+natural compound
+plant extract
+cyanoacetamide-oxime
+phosphonates
+phosphonates
+phthalamic acids
+benzotriazines
+benzene-sulfonamides
+pyridazinones
+thiocarbamate
+phenyl-acetamide
+aryl-phenyl-ketone
+aryl-phenyl-ketone
+guanidines
+thiazolidine
+pyrimidinone-hydrazones
+piperidinyl- thiazole-isoxazolines
+4-quinolyl-acetate
+diverse
+inorganic
+inorganic
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+phthalimides
+phthalimides
+phthalimides
+chloronitriles (phthalonitriles)
+sulfamides
+sulfamides
+guanidines
+guanidines
+triazines
+quinones (anthraquinones)
+quinoxalines
+maleimide
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+PA - fungicides (PhenylAmides)
+hydroxy-(2-amino-) pyrimidines
+hydroxy-(2-amino-) pyrimidines
+hydroxy-(2-amino-) pyrimidines
+heteroaromatics
+heteroaromatics
+carboxylic acids
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+MBC - fungicides (Methyl Benzimidazole Carbamates)
+N-phenyl carbamates
+benzamides
+thiazole carboxamide
+phenylureas
+benzamides
+pyrimidinamines
+pyrazole-MET1
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+SDHI (Succinate dehydrogenase inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QoI-fungicides (Quinone outside Inhibitors)
+QiI - fungicides (Quinone inside Inhibitors)
+QiI - fungicides (Quinone inside Inhibitors)
+none
+none
+none
+none
+none
+organo tin compounds
+organo tin compounds
+organo tin compounds
+thiophene-carboxamides
+QoSI fungicides (Quinone outside Inhibitor, stigmatellin binding type)
+AP - fungicides (Anilino-Pyrimidines)
+AP - fungicides (Anilino-Pyrimidines)
+AP - fungicides (Anilino-Pyrimidines)
+enopyranuronic acid antibiotic
+hexopyranosyl antibiotic
+glucopyranosyl antibiotic
+tetracycline antibiotic
+aza-naphthalenes
+aza-naphthalenes
+PP-fungicides (PhenylPyrroles)
+PP-fungicides (PhenylPyrroles)
+dicarboximides
+dicarboximides
+dicarboximides
+dicarboximides
+formerly dicarboximides
+phosphoro-thiolates
+phosphoro-thiolates
+phosphoro-thiolates
+dithiolanes
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)
+heteroaromatics
+carbamates
+carbamates
+carbamates
+formerly CAA-fungicides
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+microbial (Bacillus sp.)
+plant extract
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+amines (“morpholines”) (SBI: Class II)
+(SBI: Class III)
+(SBI: Class III)
+(SBI class IV)
+(SBI class IV)
+(SBI class IV)
+glucopyranosyl antibiotic
+polyoxins
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+CAA-fungicides (Carboxylic Acid Amides)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-R (Melanin Biosynthesis Inhibitors – Reductase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)
+benzo-thiadiazole BTH
+benzisothiazole
+thiadiazole-carboxamide
+thiadiazole-carboxamide
+natural compound
+plant extract
+cyanoacetamide-oxime
+phosphonates
+phosphonates
+phthalamic acids
+benzotriazines
+benzene-sulfonamides
+pyridazinones
+thiocarbamate
+phenyl-acetamide
+aryl-phenyl-ketone
+aryl-phenyl-ketone
+guanidines
+thiazolidine
+pyrimidinone-hydrazones
+piperidinyl- thiazole-isoxazolines
+4-quinolyl-acetate
+diverse
+inorganic
+inorganic
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+dithiocarbamates and relatives
+phthalimides
+phthalimides
+phthalimides
+chloronitriles (phthalonitriles)
+sulfamides
+sulfamides
+guanidines
+guanidines
+triazines
+quinones (anthraquinones)
+quinoxalines
+maleimide
