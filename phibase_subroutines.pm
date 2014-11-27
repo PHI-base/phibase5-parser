@@ -14,7 +14,7 @@ sub connect_to_phibase
   my $db_name = "phibase";
   my $db_host = "localhost";
   my $db_user = "postgres";
-  my $db_pw = "Jake0001";
+  my $db_pw = "";
 
   # connect to database
   my $db_conn = DBI->connect("DBI:Pg:dbname=$db_name;host=$db_host","$db_user","$db_pw");
