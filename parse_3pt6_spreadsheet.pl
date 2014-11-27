@@ -33,6 +33,12 @@ open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid Fusarium graminearum annotations into PHI-base v5 database...\n";
 
+# open output files
+my $defect_filename = './output/phibase_defects.tsv';
+my $invalid_defect_filename = './output/phibase_invalid_defects.tsv';
+open (DEFECT_FILE, "> $defect_filename") or die "Error opening output file\n";
+open (INVALID_DEFECT_FILE, "> $invalid_defect_filename") or die "Error opening output file\n";
+
 # first line gives the spreadsheet column headings
 chomp(my $col_header_line = <TSV_FILE>);
 my @col_headers = split(/\t/,$col_header_line);
@@ -63,9 +69,20 @@ my %fusarium_gram_data;
 # counter for interaction number (used for new PHI-base accession)
 my $interaction_num = 0;
 
+# counters to gather statistics
+my $annotation_count = 0;
+my $defect_count = 0;
+my $invalid_defect_count = 0;
+my $curator_count = 0;
+my $species_expert_count = 0;
+my $anti_infective_count = 0;
+
 # go through each of the remaining lines of the TSV file (each representing a single annotation)
 # save the values of each column to the approriate output file
 while (<TSV_FILE>) {
+
+   # increment annotation counter
+   $annotation_count++;
 
    # each value is separated based on the tab, then saved as an element of the array
    my @phi_array = split(/\t/,$_);
@@ -304,6 +321,7 @@ while (<TSV_FILE>) {
 	     #print "Interaction_literature, interaction_host, interaction_pathogen_gene_mutant records inserted successfully\n";
 	  }
 
+
           # for the curators, need to split list of curators base on semi-colon delimiter
           my $curators_string = $required_fields_annot{"entered_by"};
 
@@ -314,6 +332,8 @@ while (<TSV_FILE>) {
           # for each curator, need to get the curator identifier,
           # then insert an interaction_curator record
           foreach my $curator_init (@curators) {
+
+            $curator_count++;
 
             $curator_init =~ s/^\s+//; # remove blank space from start of curator initials
             $curator_init =~ s/\s+$//; # remove blank space from end of curator initials
@@ -358,6 +378,7 @@ while (<TSV_FILE>) {
           # insert data into species_expert table (if it does not already exist),
           # using the pathogen taxon id and foreign key to the curator table 
 	  if (defined $curator_id and $curator_id ne "" and $curator_id ne "na") {
+             $species_expert_count++;
   	     $sql_statement = qq(INSERT INTO species_expert (ncbi_taxon_id, curator_id)
                                  SELECT '$required_fields_annot{"patho_tax"}', $curator_id
                                  WHERE NOT EXISTS (
@@ -383,26 +404,17 @@ while (<TSV_FILE>) {
                            'Spore Germination' => $phi_base_annotation{"spore_germination"}
                         );
 
-=pod
-                           mating_defect => $phi_base_annotation{"mating_defect"},
-                           prepenetration => $phi_base_annotation{"prepenetration"},
-                           penetration => $phi_base_annotation{"penetration"},
-                           postpenetration => $phi_base_annotation{"postprepenetration"},
-                           vegetative_spores => $phi_base_annotation{"vegetative_spores"},
-                           sexual_spores => $phi_base_annotation{"sexual_spores"},
-                           in_vitro_growth => $phi_base_annotation{"in_vitro_growth"},
-                           spore_germination => $phi_base_annotation{"spore_germination"}
-=cut
+
           # for each of the defects, retrieve the id for the relevant defect,
-          # then retrieve the id for the defect value (if available)
+          # then retrieve the id for each defect value (if available)
           # then insert a interaction_defect record,
           # based on combination of interaction id, defect attribute id and defect value id
           foreach my $defect_attribute (keys %defects)
           {
 
-             my $defect_value = $defects{$defect_attribute};
+             my $defect_values_string = $defects{$defect_attribute};
 
-             if (defined $defect_value and $defect_value ne "" and lc($defect_value) ne "none") {
+             if (defined $defect_values_string and $defect_values_string ne "" and lc($defect_values_string) ne "none") {
 
 		# get the id for the current defect attribute
 		my $sql_statement = qq(SELECT id FROM defect_attribute
@@ -413,34 +425,114 @@ while (<TSV_FILE>) {
 		my @row = $sql_result->fetchrow_array();
 		my $defect_attr_id = shift @row;
 
-		# get the id for the current defect value, if it is a valid value
-		$sql_statement = qq(SELECT id FROM defect_value
-		 	            WHERE lower(value) = lower('$defect_value');
-				   );
-		$sql_result = $db_conn->prepare($sql_statement);
-		$sql_result->execute() or die $DBI::errstr;
-		@row = $sql_result->fetchrow_array();
-		my $defect_value_id = shift @row;
+                # separate list of defect values, based on semi-colon delimiter
+                my @defect_values = split (";",$defect_values_string);
 
-		# insert data into interaction_defect table,
-		# using the interaction id, defect attribute id and defect value id as foreign keys 
-		if (defined $defect_attr_id and defined $defect_value_id) {
-		   $sql_statement = qq(INSERT INTO interaction_defect (interaction_id, defect_attribute_id, defect_value_id)
-					 VALUES ($interaction_id, $defect_attr_id, $defect_value_id);
-					);
+                # insert interaction_defect record for each defect value
+                foreach my $defect_value (@defect_values) {
+
+                   $defect_value =~ s/^\s+//; # remove blank space from start of defect value
+                   $defect_value =~ s/\s+$//; # remove blank space from end of defect value
+
+		   # get the id for the current defect value, if it is a valid value
+		   $sql_statement = qq(SELECT id FROM defect_value
+		   	               WHERE lower(value) = lower('$defect_value');
+				      );
 		   $sql_result = $db_conn->prepare($sql_statement);
 		   $sql_result->execute() or die $DBI::errstr;
-                } else {
-                   print "Defect value $defect_value not valid for $defect_attribute (Interaction ID: $interaction_id)\n"
-                }
+		   @row = $sql_result->fetchrow_array();
+		   my $defect_value_id = shift @row;
 
-             } # end if defect value
+		   # insert data into interaction_defect table,
+		   # using the interaction id, defect attribute id and defect value id as foreign keys 
+		   if (defined $defect_value_id) {
+                      $defect_count++;
+		      $sql_statement = qq(INSERT INTO interaction_defect (interaction_id, defect_attribute_id, defect_value_id)
+		  			    VALUES ($interaction_id, $defect_attr_id, $defect_value_id);
+					 );
+		      $sql_result = $db_conn->prepare($sql_statement);
+		      $sql_result->execute() or die $DBI::errstr;
+                      print DEFECT_FILE "$required_fields_annot{'phi_base_acc'}\t$defect_attribute\t$defect_value\n";
+                   } else {
+                      $invalid_defect_count++;
+                      print INVALID_DEFECT_FILE "$required_fields_annot{'phi_base_acc'}\t$defect_attribute\t$defect_value\n";
+                   }
 
-          } # end foreach defect
-      
+                } # end foreach defect value
+
+             } # end if defect values
+
+          } # end foreach defect attribute
+
+          
+          # anti-infective chemicals are given as CAS Registry IDs
+          my $cas_string = $phi_base_annotation{"cas"};
+
+          # if the CAS string is empty, no anti-infectives have been supplied
+          if (defined $cas_string and $cas_string ne "") {
+
+            # need to split list based on semi-colon delimiter
+            my @cas_entries = split(";",$cas_string);
+
+            # for each anti-infective, need to get the CAS Registry ID, then insert
+            # a chemical record (if it does not already exist) and 
+            # an interaction_anti-infective_chemical record for this interaction
+            foreach my $cas_entry (@cas_entries) {
+
+               $anti_infective_count++;
+
+               # entries sometimes have a name before the ID, separated by a colon,
+               # other times no name is given before the CAS Registry ID,
+               # so need to extract the ID, based on colon delimiter
+               # (which will always be the last part)
+               my @cas_parts = split(":",$cas_entry);
+               my $cas_id = pop(@cas_parts);
+
+               $cas_id =~ s/^\s+//; # remove blank space from start of CAS ID
+               $cas_id =~ s/\s+$//; # remove blank space from end of CAS ID
+
+   	       # insert data into the chemical_table,
+               # if it does not exist already (based on CAS ID)
+  	       my $sql_statement = qq(INSERT INTO chemical (cas_registry) 
+	 		                 SELECT '$cas_id'
+                                       WHERE NOT EXISTS (
+                                         SELECT 1 FROM chemical
+                                         WHERE cas_registry = '$cas_id'
+                                       )
+                                     );
+
+	       my $sql_result = $db_conn->prepare($sql_statement);
+	       $sql_result->execute() or die $DBI::errstr;
+
+	       # get the unique identifier for the inserted chemical
+               $sql_statement = qq(SELECT id FROM chemical
+                                     WHERE cas_registry = '$cas_id';
+                                  );
+	       $sql_result = $db_conn->prepare($sql_statement);
+	       $sql_result->execute() or die $DBI::errstr;
+	       @row = $sql_result->fetchrow_array();
+	       my $chemical_id = shift @row;
+
+               # insert data into interaction_anti_infective_chemical table,
+               # with foreign keys to the interaction table and the chemical table 
+	       $sql_statement = qq(INSERT INTO interaction_anti_infective_chemical (interaction_id, chemical_id)
+                                     VALUES ($interaction_id, $chemical_id);
+                                  );
+	       $sql_result = $db_conn->prepare($sql_statement);
+	       $sql_result->execute() or die $DBI::errstr;
+              
+             } # end foreach anti-infective chemical
+
+          } # if anti-infectives supplied 
+
         } # end else multiple mutation
 
-     } # end if pathogen id = fusarium gram 
+     } # end if required criteria met and pathogen id = fusarium gram 
+
+     # TODO: ELSE (REQURIED FIELDS CRITERIA NOT MET - OUTPUT PHI-BASE ACCESSIONS TO SEPARATE FILE)
+     # ALSO POSSIBLE ADD ADDITIONAL IF STATEMENTS TO IDENTIFY EXACTLY WHAT THE PROLEM(S) MAY BE
+     # SEPERATE IFs FOR EACH CRITERIA (RATHER THAN ONE IF ELSE), SO THAT ANY PHI-BASE ENTRY
+     # WITH MULTIPLE PROBLEMS CAN HAVE ALL OF THOSE PROBLEMS IDENTIFIED (BY BEING PRESENT IN EACH OF THE ERROR FILES)
 
    } else { # else PHI-base accession does not exist, or is not valid
 
@@ -449,9 +541,14 @@ while (<TSV_FILE>) {
 
    }
 
+   # print message for every 500th PHI-base annotation processed
+   print "PHI-base annotations processed:$annotation_count\n" unless ($annotation_count % 500);
+
 } # end of file
 
 close (TSV_FILE);
+close (DEFECT_FILE);
+close (INVALID_DEFECT_FILE);
 
 # save all of the valid phibase data to file (sorted by PHI-base accession)
 # formatted with the PHI-base accession as the first row
@@ -524,15 +621,12 @@ my $sql_query = qq(SELECT * FROM interaction, obsolete_reference, interaction_pa
 my $sql_stmt = $db_conn->prepare($sql_query);
 my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
 
-my $annotation_count = 0; 
-
 my $db_data_filename = './output/database_data.tsv';  
 open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output file\n";
 
 print DATABASE_DATA_FILE "int id\tPHI-base acc\tcuration date\tobsolete ref id\tobsolete ref new accession\tobsolete ref old accession\tint_path_gene_mut int_id\tint_path_gene_mut path_gene_id\tpath_gene_mutant_id\tpath_gene_mutant path_gene_id\tpath_gene_mutant ncbi_taxon_id\tuniprot_accession\tpath_gene id\tpath_gene ncbi_taxon_id\tpath_gene gene_name\tint_lit int_id\tint_lit PubMed ID\tint_host id\tint_host int_id\tint_host ncbi_taxon_id\tint_cur int_id\tint_cur cur_id\tcurator id\tcurator init\tcurator name\tcurator org_id\tcur_org id\tcur_org name\tsp_expert taxon_id\tsp_expert curator_id\n";
 
 while (my @row = $sql_stmt->fetchrow_array()) {
-  $annotation_count++;
   foreach my $column (@row) {
      print DATABASE_DATA_FILE "$column\t" if defined $column; 
   }
@@ -547,10 +641,18 @@ print "\nProcess completed successfully.\n\n";
 print "Total PHI-base annotations with valid data: ".scalar(keys %valid_phibase_data)."\n";
 print "Total PHI-base annotations with an invalid accession: ".scalar(@invalid_phibase_acc)."\n";
 print "Total valid interactions for Fusarium graminearum: ".scalar(keys %fusarium_gram_data)."\n";
+print "Total curator entries for F gram: $curator_count\n";
+print "Total species expert entries for F gram: $species_expert_count\n";
+print "Total valid defects for F gram: $defect_count\n";
+print "Total invalid defects for F gram: $invalid_defect_count\n";
+print "Total anti-infective chemicals for F gram: $anti_infective_count\n";
 print "Total annotations retrieved from database: $annotation_count\n\n";
+
 print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
 print "Output file of accession string with an invalid PHI-base accession (if available): $invalid_accessions_filename\n";
 print "Output file of only the required data of valid PHI-base annotations: $required_data_filename\n";
 print "Output file of valid data from fusarium graminearum: $fus_gram_filename\n";
+print "Output file of valid defects from fusarium graminearum: $defect_filename\n";
+print "Output file of invalid defects from fusarium graminearum: $invalid_defect_filename\n";
 print "Tab-separated file of all PHI-base data inserted into relevant tables: $db_data_filename\n\n";
 
