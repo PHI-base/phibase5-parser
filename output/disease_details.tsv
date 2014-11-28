@@ -1,0 +1,152 @@
+DOID:1498
+Disease:cholera
+Definition:A primary bacterial infectious disease that is described as an acute, diarrheal illness caused by infection of the intestine with the bacterium Vibrio cholerae, which is characterized by profuse watery diarrhea, vomiting, leg cramps, circulatory collapse and shock.
+
+DOID:8913
+Disease:dermatophytosis
+Definition:A cutaneous mycosis that results_in fungal infection located_in scalp, located_in glabrous skin, or located_in nail, has_material_basis_in Ascomycota fungi that belong to a group called dermatophytes, which have the ability to utilize keratin as a nutrient source.
+
+DOID:9588
+Disease:encephalitis
+Definition:Encephalitis is a nervous system infectious disease characterized as an acute inflammation of the brain. The usual cause is a viral infection, but bacteria can also cause it. Cases can range from mild to severe. For mild cases, you could have flu-like symptoms. Serious cases can cause severe headache, sudden fever, drowsiness, vomiting, confusion and seizures.
+
+DOID:1508
+Disease:candidiasis
+Definition:An opportunistic mycosis that involves fungal infection of the mouth, throat, skin, scalp, vagina, fingers, nails, bronchi, lungs, heart and brain by Candida species, of which Candida albicans is the most common. Systemic Candida infections are usually confined to severely immunocompromised persons.
+
+DOID:9965
+Disease:toxoplasmosis
+Definition:A coccidiosis that has_material_basis_in protozoan Toxoplasma gondii. The parasite effects most genera of warm-blooded animals, including humans, but the primary host is the felid (cat) family. Animals are infected by eating infected meat, by ingestion of feces of a cat that has itself recently been infected, or transmission_by mother to fetus. The symptoms include bilateral, nontender cervical or axillary lymphadenopathy, fever, malaise, myalgia, hepatosplenomegaly, anemia and leukopenia.
+
+DOID:13564
+Disease:aspergillosis
+Definition:An opportunistic mycosis that involves a spectrum of diseases of humans and animals caused by members of the genus Aspergillus infecting lungs, brain, kidney,heart, bone, eyes, sinuses, skin and gastrointestinal tract. It is a serious illnesses in people with a weakened immune system.
+
+DOID:0050153
+Disease:pulmonary aspergilloma
+Definition:An aspergillosis that presents as a clump of tangled mass of Aspergillus fungus fibres, blood clots, and white blood cells, which exists in the cavities of the lungs that develop in an area of previous lung disease or lung scarring.
+
+DOID:10554
+Disease:meningoencephalitis
+Definition:A central nervous system disease that involves encephalitis which occurs along with meningitis.
+
+DOID:9065
+Disease:leishmaniasis
+Definition:A parasitic protozoa infectious disease that involves infection caused by protozoan parasite of the genus Leishmania, which is transmitted by the bite of sand fly (subfamily Phlebotominae).
+
+DOID:12140
+Disease:Chagas disease
+Definition:A trypanosomiasis that is a tropical parasitic disease caused by the flagellate protozoan Trypanosoma cruzi, which is transmitted to humans and other mammals by an insect vector, the blood-sucking assassin bugs of the subfamily Triatominae (family Reduviidae), most commonly species belonging to the Triatoma, Rhodnius, and Panstrongylus genera. The symptoms include fever, fatigue, body aches, headache, rash, loss of appetite, diarrhea, vomiting, swelling of the eyelids and myocarditis.
+
+DOID:1731
+Disease:histoplasmosis
+Definition:A primary systemic mycosis that results_in systemic fungal infection, has_material_basis_in Histoplasma capsulatum var capsulatum or has_material_basis_in Histoplasma capsulatum var duboisii, transmitted_by airborne spores and has_symptom nonproductive cough, has_symptom headache, has_symptom loss of appetite and has_symptom muscle pains.
+
+DOID:2326
+Disease:gastroenteritis
+Definition:A gastrointestinal system infectious disease that involves inflammation of the lining of the stomach and small and large intestines, which is caused by viruses, bacteria, or parasites. Chemicals and drugs also cause gastroenteritis. The symptoms include diarrhea, loss of appetite, nausea, vomiting, cramps, and discomfort in the abdomen.
+
+DOID:13250
+Disease:diarrhea
+Definition:A gastrointestinal system disease described as the condition of having frequent loose or liquid bowel movements. Acute diarrhea is a common cause of death in developing countries and the second most common cause of infant deaths worldwide. The loss of fluids through diarrhea can cause severe dehydration which is one cause of death in diarrhea sufferers. Along with water, sufferers also lose dangerous amounts of important salts, electrolytes, and other nutrients. There are at least four types of diarrhea: secretory diarrhea, osmotic diarrhea, motility-related diarrhea, and inflammatory diarrhea.
+
+DOID:0060185
+Disease:Clostridium difficile colitis
+Definition:A colitis characterized_by an overgrowth of Clostridium difficile bacteria.
+
+DOID:1770
+Disease:toxic megacolon
+Definition: None given
+
+DOID:399
+Disease:tuberculosis
+Definition:A primary bacterial infectious disease that is located_in lungs, located_in lymph nodes, located_in pericardium, located_in brain, located_in pleura or located_in gastrointestinal tract, has_material_basis_in Mycobacterium tuberculosis, which is transmitted_by droplets released into the air when an infected person coughs or sneezes.
+
+DOID:11729
+Disease:Lyme disease
+Definition:A primary bacterial infectious disease that results_in infection, has_material_basis_in Borrelia burgdorferi, which is transmitted_by blacklegged tick (Ixodes scapularis) or transmitted_by western blacklegged tick (Ixodes pacificus). The infection has_symptom fever, has_symptom headache, has_symptom fatigue, and has_symptom skin rash called erythema migrans. If left untreated, infection can spread to joints, the heart, and the nervous system.
+
+DOID:9065
+Disease:leishmaniasis
+Definition:A parasitic protozoa infectious disease that involves infection caused by protozoan parasite of the genus Leishmania, which is transmitted by the bite of sand fly (subfamily Phlebotominae).
+
+DOID:6132
+Disease:bronchitis
+Definition:A bronchial disease that is an inflammation of the bronchial tubes. It is caused by bacteria and viruses. The disease has_symptom cough with mucus, has_symptom shortness of breath, has_symptom low fever and has_symptom chest tightness.
+
+DOID:3488
+Disease:cellulitis
+Definition:A skin disease where there is a diffuse infection of connective tissue with severe inflammation of dermal and subcutaneous layers of the skin. Cellulitis can be caused by normal skin flora or by exogenous bacteria, and often occurs where the skin has previously been broken: cracks in the skin, cuts, blisters, burns, insect bites, surgical wounds, or sites of intravenous catheter insertion.
+
+DOID:14262
+Disease:oral candidiasis
+Definition:A candidiasis that involves fungal infection of the mucous membrane of the mouth by Candida species, which is characterized by thick white or cream-colored deposits on inflamed mucosal membranes.
+
+DOID:552
+Disease:pneumonia
+Definition:A lung disease that involves lung parenchyma or alveolar inflammation and abnormal alveolar filling with fluid (consolidation and exudation). It results from a variety of causes including infection with bacteria, viruses, fungi or parasites, and chemical or physical injury to the lungs. It is accompanied by fever, chills, cough, and difficulty in breathing.
+
+DOID:11573
+Disease:listeriosis
+Definition:A primary bacterial infectious disease that results_in infection, has_material_basis_in Listeria monocytogenes, which is transmitted_by ingestion of contaminated food or raw milk or transmitted_by congenital method. Ingestion of Listeria by pregnant women has_symptom nausea, has_symptom vomiting, has_symptom diarrhea, has_symptom fever, has_symptom malaise, has_symptom back pain, and has_symptom headache. Maternal infection with Listeria can result in chorioamnionitis, premature labor, spontaneous abortion, or stillbirth.
+
+DOID:8778
+Disease:Crohn's disease
+Definition:An intestinal disease that involves inflammation located_in intestine.
+
+DOID:10754
+Disease:otitis media
+Definition:A otitis which involves inflammation of the middle ear.
+
+DOID:9471
+Disease:meningitis
+Definition:Meningitis is a nervous system infectious disease characterized as an inflammation of the pia-arachnoid meninges. It can be caused by growth of bacteria, fungi, or parasites within the subarachnoid space or by the growth of bacteria or viruses within the meningeal or ependymal cells. Meningitis is a diffuse infection caused by a variety of different agents.
+
+DOID:1579
+Disease:respiratory system disease
+Definition:A disease of anatomical entity that located_in the respiratory system which extends from the nasal sinuses to the diaphragm.
+
+DOID:37
+Disease:skin disease
+Definition:An integumentary system disease that is located_in skin.
+
+DOID:2275
+Disease:pharyngitis
+Definition:An upper respiratory tract disease involving inflammation of the throat or pharynx resulting from bacterial, viral, fungal infections or irritants like pollutants or chemical substances and smoking. The infection is often referred to as \
+
+DOID:8712
+Disease:neurofibromatosis
+Definition: None given
+
+DOID:14115
+Disease:toxic shock syndrome
+Definition:A commensal bacterial infectious disease that results_in infection, has_material_basis_in Streptococcus pyogenes or has_material_basis_in Staphylococcus aureus , which produce toxins that are absorbed systemically and produce the systemic manifestations. The infection has_symptom fever, has_symptom rash, has_symptom hypotension, has_symptom multiorgan failure, has_symptom desquamation, has_symptom vomiting, has_symptom diarrhea, has_symptom headache, and has_symptom nonfocal neurologic abnormalities.
+
+DOID:10314
+Disease:endocarditis
+Definition:A endocardium disease characterized by inflammation of the endocardium of the heart chambers and valves.
+
+DOID:848
+Disease:arthritis
+Definition:A bone inflammation disease that involves a response to irritation or injury, characterized by joint pain, swelling, stiffness located_in joint and/or redness located_in skin over the joint.
+
+DOID:12053
+Disease:cryptococcosis
+Definition:An opportunistic mycosis that results_in fungal infection and has_material_basis_in Cryptococcus neoformans or Cryptococcus gattii.
+
+DOID:10398
+Disease:pneumonic plague
+Definition:A plague that results_in infection located_in lung, which results from direct inhalation of the bacillus and has_symptom fever, has_symptom chills, has_symptom cough and has_symptom difficulty breathing.
+
+DOID:10554
+Disease:meningoencephalitis
+Definition:A central nervous system disease that involves encephalitis which occurs along with meningitis.
+
+DOID:2123
+Disease:tularemia
+Definition:A primary bacterial infectious disease that has_material_basis_in Francisella tularensis, which is transmitted_by dog tick bite (Dermacentor variabilis), transmitted_by deer flies (Chrysops sp) or transmitted_by contact with infected animal tissues.
+
+DOID:12385
+Disease:shigellosis
+Definition:A primary bacterial infectious disease that results_in infection located_in epithelium of colon, has_material_basis_in Shigella boydii, has_material_basis_in Shigella dysenteriae, has_material_basis_in Shigella flexneri, or has_material_basis_in Shigella sonnei, which produce toxins that can attack the lining of the large intestine, causing swelling, ulcers on the intestinal wall, and bloody diarrhea. The bacteria are transmitted_by ingestion of food and water contaminated with feces.
+

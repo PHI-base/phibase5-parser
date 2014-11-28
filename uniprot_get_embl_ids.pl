@@ -12,7 +12,7 @@ my $sql_query = qq(SELECT DISTINCT uniprot_accession FROM pathogen_gene_mutant;)
 my $sql_stmt = $db_conn->prepare($sql_query);
 my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
 
-# iterators to gather statistics
+# counters to gather statistics
 my $uniprot_count = 0;
 my $embl_id_count = 0;
 my $no_embl_id_count = 0;
@@ -53,7 +53,7 @@ while (my @row = $sql_stmt->fetchrow_array()) {
      } else {
        # if not defined, there were no EMBL IDs for the UniProt entry
        $no_embl_id_count++;
-       print "No EMBL ID found for UniProt accession $uniprot_acc\n";
+       print STDERR "No EMBL ID found for UniProt accession $uniprot_acc\n";
        print NO_EMBL_FILE "$uniprot_acc\n";
      }
 

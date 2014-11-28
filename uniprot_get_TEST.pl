@@ -12,7 +12,7 @@ my $sql_query = qq(SELECT DISTINCT uniprot_accession FROM pathogen_gene_mutant;)
 my $sql_stmt = $db_conn->prepare($sql_query);
 my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
 
-# iterator to count rows
+# counter to gather statistics
 my $uniprot_count = 0;
 
 # open output file

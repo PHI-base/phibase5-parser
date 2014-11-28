@@ -64,7 +64,7 @@ while (<TSV_FILE>) {
 
    if ($curator_hash{"Organisation"} eq "") {
       $curator_without_org_count++;
-      print "No organisation available for curator $curator_hash{'Name'}\n";
+      print STDERR "No organisation available for curator $curator_hash{'Name'}\n";
       # prepare SQL statement to insert curator without organisation
       $sql_statement = qq(INSERT INTO curator (initials,name)
                           VALUES ('$curator_hash{"ID"}','$curator_hash{"Name"}');

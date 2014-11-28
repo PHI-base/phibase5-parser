@@ -120,7 +120,6 @@ while (<TSV_FILE>) {
    # then insert should include mode_in_planta column,
    # otherwise use insert statement without this optional column
    if ( defined $mode_in_planta ) {
-       #print "ChEBI ID: $frac_chem_hash{'chebi_id'}, Mode in planta: $mode_in_planta\n"; 
        $sql_statement = qq(INSERT INTO chemical (chebi_id, cas_registry, frac_id, mode_in_planta) 
                             VALUES ('$frac_chem_hash{"chebi_id"}', '$frac_chem_hash{"cas_registry"}',
                                      $frac_id, '$mode_in_planta');

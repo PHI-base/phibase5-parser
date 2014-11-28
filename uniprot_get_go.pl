@@ -12,7 +12,7 @@ my $sql_query = qq(SELECT DISTINCT uniprot_accession FROM pathogen_gene_mutant;)
 my $sql_stmt = $db_conn->prepare($sql_query);
 my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
 
-# iterators to gather statistics
+# counters to gather statistics
 my $uniprot_count = 0;
 my $go_term_count = 0;
 my $no_go_term_count = 0;
@@ -72,14 +72,14 @@ while (my @row = $sql_stmt->fetchrow_array()) {
        } else {
          # no GO terms found for the UniProt entry
          $no_go_term_count++;
-         print "No GO term found for UniProt accession $uniprot_acc\n";
+         print STDERR "No GO term found for UniProt accession $uniprot_acc\n";
          print NO_GO_FILE "$uniprot_acc\n";
        }
 
      } else {
        # no data found for UniProt entry
        $no_go_term_count++;
-       print "No data found for UniProt accession $uniprot_acc\n";
+       print STDERR "No data found for UniProt accession $uniprot_acc\n";
        print NO_GO_FILE "$uniprot_acc\n";
      }
 

@@ -523,7 +523,7 @@ while (<TSV_FILE>) {
                      print GO_WITH_EVID_FILE "$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
                   } else {  # SQL insert unsuccessful, then log error
                      $invalid_go_count++;
-                     print "\nPHI-base ERROR: Evidence code $go_evid_code is not valid for $required_fields_annot{'phi_base_acc'}, $go_id\n\n";
+                     print STDERR "\nPHI-base ERROR: Evidence code $go_evid_code is not valid for $required_fields_annot{'phi_base_acc'}, $go_id\n\n";
                      print INVALID_GO_FILE "$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
                   }
 

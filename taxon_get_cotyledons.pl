@@ -13,7 +13,7 @@ my $sql_query = qq(SELECT DISTINCT ncbi_taxon_id FROM interaction_host;);
 my $sql_stmt = $db_conn->prepare($sql_query);
 my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
 
-# iterator to count rows
+# counters to gather statistics
 my $host_taxon_count = 0;
 my $monocot_count = 0;
 my $dicot_count = 0;

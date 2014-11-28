@@ -12,7 +12,7 @@ my $sql_query = qq(SELECT DISTINCT uniprot_accession FROM pathogen_gene_mutant;)
 my $sql_stmt = $db_conn->prepare($sql_query);
 my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
 
-# iterators to gather statistics
+# counters to gather statistics
 my $uniprot_count = 0;
 my $fasta_seq_count = 0;
 my $no_fasta_seq_count = 0;
@@ -51,7 +51,7 @@ while (my @row = $sql_stmt->fetchrow_array()) {
         print FASTA_FILE $response->content."\n";
      }  else {
         $no_fasta_seq_count++;
-        print "Unable to get FASTA sequence for UniProt ID $uniprot_acc, tried URL ".$response->request->uri."\n";
+        print STDERR "Unable to get FASTA sequence for UniProt ID $uniprot_acc, tried URL ".$response->request->uri."\n";
         print NO_FASTA_FILE "$uniprot_acc\n";
         next;
      }

@@ -84,7 +84,7 @@ while (my @row = $sql_stmt->fetchrow_array()) {
 
    } else { # ChEBI entry not found
       $chebi_not_found_count++;
-      print "CHEBI:$chebi_id not found\n";
+      print STDERR "CHEBI:$chebi_id not found\n";
       print NO_CHEBI_FILE "CHEBI:$chebi_id\n";
    } 
 
