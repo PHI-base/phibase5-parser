@@ -1,0 +1,96 @@
+format-version: 1.2
+date: 01:12:2014 20:39
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: phenotype_outcome_ontology
+
+[Term]
+id: POO:0000000
+name: phenotype outcome
+def: "The phenotype that results from a pathogen-host interaction." []
+created_by: irvinea
+creation_date: 2014-12-01T20:17:43Z
+
+[Term]
+id: POO:0000001
+name: loss of pathogenicity
+def: "The transgenic strain fails to cause disease that is observed in the wild type (i.e. qualitative effect)." []
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:17:57Z
+
+[Term]
+id: POO:0000002
+name: reduced virulence
+def: "The transgenic strain still causes some disease formation but fewer symptoms than the wild-type strain (i.e. a quantitative effect)." []
+synonym: "reduced aggressiveness" EXACT []
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:18:15Z
+
+[Term]
+id: POO:0000003
+name: unaffected pathogenicity
+def: "The transgenic strain which expresses altered levels of a specific gene product(s) causes the same level of disease compared to the wild-type reference strain." []
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:18:20Z
+
+[Term]
+id: POO:0000004
+name: increased virulence (hypervirulence)
+def: "The transgenic strain causes greater incidence or severity of disease than the wild-type strain." []
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:18:29Z
+
+[Term]
+id: POO:0000005
+name: effector (plant avirulence determinant)
+def: "Some effector genes are required to cause disease on susceptible hosts but most are not. A plant pathogen-specific term which was previously referred to as a corresponding avirulence (Avr) gene. An effector gene is formally identified because its presence leads to the direct or indirect recognition of a pathogen in resistant host genotypes which possess the corresponding disease resistance (R) gene. Positive recognition leads to activation of plant defense and the pathogen either fails to cause disease or causes less disease. In the absence of the pathogen, effector delivery into a healthy plant possessing the corresponding R gene activates plant defense responses." []
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:18:42Z
+
+[Term]
+id: POO:0000006
+name: lethal
+def: "The transgenic strain is not viable. The gene product is essential for life of the organism." []
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:18:48Z
+
+[Term]
+id: POO:0000007
+name: enhanced antagonism
+def: "The transgenic strain shows greater endophytic biomass in the host and/or the formation of visible disease symptoms." []
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:18:57Z
+
+[Term]
+id: POO:0000008
+name: resistant to chemical
+def: "The transgenic strain grows and/or develops normally when exposed to chemistry concentrations that are detrimental to the wild-type strain." []
+comment: Molecular studies on natural field isolate population are also considered, once the natural target site has been identified.
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:19:06Z
+
+[Term]
+id: POO:0000009
+name: sensitive to chemical
+def: "The transgenic strain which expresses either no or reduced levels of a specific gene product(s) or possesses a specific gene mutation(s), has the same ability as the wild-type strain to grow and develop when exposed to detrimental chemistry concentrations." []
+comment: On rare occasions increased sensitivity to chemistry has been observed.
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:19:10Z
+
+[Term]
+id: POO:0000010
+name: mixed outcome
+def: "A range of phenotype outcomes have been observed." []
+is_a: POO:0000000 ! phenotype outcome
+created_by: irvinea
+creation_date: 2014-12-01T20:19:27Z
+

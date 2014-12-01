@@ -1,116 +1,21 @@
-Curator ID	HH
-ID	HH
-Name	Hilde Hansen
-Organisation	
-
-Curator ID	BO
-Organisation	
-ID	BO
-Name	Birgit Oeser
-
-Curator ID	HJ
-Name	Helen Jenkins
-ID	HJ
-Organisation	Rothamsted Research
-
-Curator ID	JK
-Organisation	
-ID	JK
-Name	John Keon
-
-Curator ID	SD
-Organisation	
-Name	Sian Deller
-ID	SD
-
-Curator ID	MHK
-Organisation	Rothamsted Research
-Name	Michael Hammond-Kosack
-ID	MHK
-
-Curator ID	PR
-Name	Pam Ronald
-ID	PR
-Organisation	
-
-Curator ID	RO
-Organisation	
-ID	RO
-Name	Richard Oliver
-
-Curator ID	DG
-Organisation	
-Name	Donald Gardiner
-ID	DG
-
-Curator ID	KM
-Organisation	
-ID	KM
-Name	Kerry Maguire
-
-Curator ID	SH
-Organisation	
-Name	Sabrina Holland
-ID	SH
-
 Curator ID	AS
 Organisation	
-ID	AS
 Name	Ane Sesma
+ID	AS
 
-Curator ID	MC
-Name	Molecular Connections
-ID	MC
-Organisation	Molecular Connections
+Curator ID	AC
+ID	AC
+Name	Alayne Cuzick
+Organisation	Rothamsted Research
 
-Curator ID	HJC
+Curator ID	ND
 Organisation	
-ID	HJC
-Name	Hans Cools
+ID	ND
+Name	Noemie Desmenceux
 
 Curator ID	ML
 Name	Magdalen Lindeberg
 ID	ML
-Organisation	
-
-Curator ID	NB
-Organisation	
-Name	Neil Brown
-ID	NB
-
-Curator ID	RK
-ID	RK
-Name	Roland Krause
-Organisation	
-
-Curator ID	MU
-Organisation	Rothamsted Research
-Name	Martin Urban
-ID	MU
-
-Curator ID	JR
-Name	Jason Rudd
-ID	JR
-Organisation	
-
-Curator ID	AB
-Organisation	
-Name	Andrew Beacham
-ID	AB
-
-Curator ID	DS
-Organisation	
-ID	DS
-Name	Darren Soanes
-
-Curator ID	RP
-Name	Rashmi Pant
-ID	RP
-Organisation	Molecular Connections
-
-Curator ID	SK
-ID	SK
-Name	Sophien Kamoun
 Organisation	
 
 Curator ID	RM
@@ -118,53 +23,148 @@ Name	Ros Marshall
 ID	RM
 Organisation	
 
-Curator ID	JVK
-Organisation	
-ID	JVK
-Name	Jan van Kan
+Curator ID	MC
+Organisation	Molecular Connections
+Name	Molecular Connections
+ID	MC
 
-Curator ID	AGI
+Curator ID	JK
+ID	JK
+Name	John Keon
+Organisation	
+
+Curator ID	HJ
+ID	HJ
+Name	Helen Jenkins
 Organisation	Rothamsted Research
-Name	Alistair Irvine
-ID	AGI
-
-Curator ID	JA
-ID	JA
-Name	John Antoniw
-Organisation	
-
-Curator ID	ND
-Name	Noemie Desmenceux
-ID	ND
-Organisation	
-
-Curator ID	AC
-Organisation	Rothamsted Research
-Name	Alayne Cuzick
-ID	AC
-
-Curator ID	AI
-ID	AI
-Name	Alexander Idnurm
-Organisation	
-
-Curator ID	TKB
-Name	Thomas Baldwin
-ID	TKB
-Organisation	
-
-Curator ID	BH
-Organisation	
-ID	BH
-Name	Barbara Howlett
 
 Curator ID	KHK
 Organisation	Rothamsted Research
 Name	Kim Hammond-Kosack
 ID	KHK
 
-Curator ID	AR
-ID	AR
-Name	Arathi Raghunath
+Curator ID	JR
+ID	JR
+Name	Jason Rudd
+Organisation	
+
+Curator ID	DS
+Organisation	
+Name	Darren Soanes
+ID	DS
+
+Curator ID	HH
+ID	HH
+Name	Hilde Hansen
+Organisation	
+
+Curator ID	HJC
+ID	HJC
+Name	Hans Cools
+Organisation	
+
+Curator ID	RO
+ID	RO
+Name	Richard Oliver
+Organisation	
+
+Curator ID	JVK
+Name	Jan van Kan
+ID	JVK
+Organisation	
+
+Curator ID	BH
+Organisation	
+Name	Barbara Howlett
+ID	BH
+
+Curator ID	RK
+Organisation	
+Name	Roland Krause
+ID	RK
+
+Curator ID	SD
+Name	Sian Deller
+ID	SD
+Organisation	
+
+Curator ID	BO
+ID	BO
+Name	Birgit Oeser
+Organisation	
+
+Curator ID	JA
+Name	John Antoniw
+ID	JA
+Organisation	
+
+Curator ID	PR
+Organisation	
+ID	PR
+Name	Pam Ronald
+
+Curator ID	DG
+Organisation	
+Name	Donald Gardiner
+ID	DG
+
+Curator ID	RP
 Organisation	Molecular Connections
+ID	RP
+Name	Rashmi Pant
+
+Curator ID	AB
+Organisation	
+Name	Andrew Beacham
+ID	AB
+
+Curator ID	AR
+Organisation	Molecular Connections
+Name	Arathi Raghunath
+ID	AR
+
+Curator ID	NB
+Organisation	
+Name	Neil Brown
+ID	NB
+
+Curator ID	MU
+Organisation	Rothamsted Research
+Name	Martin Urban
+ID	MU
+
+Curator ID	SK
+Organisation	
+Name	Sophien Kamoun
+ID	SK
+
+Curator ID	AI
+Organisation	
+ID	AI
+Name	Alexander Idnurm
+
+Curator ID	SH
+ID	SH
+Name	Sabrina Holland
+Organisation	
+
+Curator ID	AGI
+Organisation	Rothamsted Research
+ID	AGI
+Name	Alistair Irvine
+
+Curator ID	TKB
+Organisation	
+ID	TKB
+Name	Thomas Baldwin
+
+Curator ID	MHK
+ID	MHK
+Name	Michael Hammond-Kosack
+Organisation	Rothamsted Research
+
+Curator ID	KM
+Name	Kerry Maguire
+ID	KM
+Organisation	
 
