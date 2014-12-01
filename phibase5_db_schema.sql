@@ -82,7 +82,9 @@ CREATE TABLE modification_within_mutant (
 );
 
 CREATE TABLE go_evidence (
-    code varchar(50) PRIMARY KEY
+    code varchar(50) PRIMARY KEY,
+    category varchar(50),
+    description varchar (50)
 );
 
 CREATE TABLE interaction_go_term (
