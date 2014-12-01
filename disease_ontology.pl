@@ -23,7 +23,7 @@ my $disease_filename = './output/disease_details.tsv';
 my $no_disease_filename = './output/disease_not_found.tsv';
 open (DISEASE_FILE,"> $disease_filename") or die "Error opening output file\n";
 open (NO_DISEASE_FILE,"> $no_disease_filename") or die "Error opening output file\n";
-print "Printing Gene Ontology terms to output file $disease_filename...\n";
+print "Printing Disease Ontology terms to output file $disease_filename...\n";
 
 # disease ontology API url
 my $url = "http://www.disease-ontology.org/api/metadata/";
