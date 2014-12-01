@@ -58,8 +58,7 @@ foreach my $poid (@list_of_poids) {
     my $definition = $query_result->{'PO_term_detail_response'}[0]{'definition'};
 
     # output the plant ontology details to file
-    print PO_TERM_FILE "$poid\nPlant Ontology term:$name\n";
-    print PO_TERM_FILE "Definition:$definition\n\n";
+    print PO_TERM_FILE "$poid\nPlant Ontology term:$name\nDefinition:$definition\n\n";
 
   } else { # Plant Ontology term not found
 

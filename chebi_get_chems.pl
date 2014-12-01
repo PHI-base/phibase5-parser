@@ -3,7 +3,6 @@ use strict;
 use warnings;
 use LWP::UserAgent;
 use DBI; # load perl postgresql module
-#use SOAP::Lite + trace => qw(debug);
 use SOAP::Lite;
 
 use phibase_subroutines qw(connect_to_phibase query_uniprot); # load PHI-base functions
