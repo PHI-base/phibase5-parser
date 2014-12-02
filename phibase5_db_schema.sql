@@ -100,15 +100,10 @@ CREATE TABLE interaction_transient_assay (
     PRIMARY KEY (interaction_id, bioassay_ontology_id)    
 );
 
-CREATE TABLE evidence_ontology (
-    id SERIAL PRIMARY KEY,
-    evidence varchar(50)    
-);
-
-CREATE TABLE interaction_experimental_evidence (
+CREATE TABLE interaction_experiment_spec (
     interaction_id integer REFERENCES interaction,
-    evidence_ontology_id integer REFERENCES evidence_ontology,
-    PRIMARY KEY (interaction_id, evidence_ontology_id)    
+    experiment_spec_id varchar(50),
+    PRIMARY KEY (interaction_id, experiment_spec_id)    
 );
 
 CREATE TABLE curation_organisation (
