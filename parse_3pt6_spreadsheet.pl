@@ -86,6 +86,7 @@ my $go_annotation_count = 0;
 my $go_with_evid_count = 0;
 my $go_without_evid_count = 0;
 my $invalid_go_count = 0;
+my $exp_spec_count = 0;
 
 # go through each of the remaining lines of the TSV file (each representing a single annotation)
 # save the values of each column to the approriate output file
@@ -607,6 +608,87 @@ while (<TSV_FILE>) {
 
           } # if anti-infectives supplied 
 
+          
+          # get the experimental evidence
+          my $exp_evid_string = $phi_base_annotation{"experimental_evidence"};
+
+          # if the CAS string is empty, no anti-infectives have been supplied
+          if (defined $exp_evid_string and $exp_evid_string ne "") {
+
+            # need to split list based on semi-colon delimiter
+            my @exp_evid_entries = split(";",$exp_evid_string);
+
+            # for each anti-infective, need to get the CAS Registry ID, then insert
+            # a chemical record (if it does not already exist) and 
+            # an interaction_anti-infective_chemical record for this interaction
+            foreach my $exp_evid_entry (@exp_evid_entries) {
+
+               $exp_spec_count++;
+
+               # entries sometimes have a name before the ID, separated by a colon,
+               # other times no name is given before the CAS Registry ID,
+               # so need to extract the ID, based on colon delimiter
+               # (which will always be the last part)
+               #my @exp_evid_parts = split(":",$exp_evid_entry);
+               #my $exp_evid_id = pop(@exp_evid_parts);
+
+               $exp_evid_entry =~ s/^\s+//; # remove blank space from start of CAS ID
+               $exp_evid_entry =~ s/\s+$//; # remove blank space from end of CAS ID
+
+               my $exp_spec_id;
+               my $exp_spec_id2;
+
+               # swap the old experimental evidence string for an
+               # equivalent experiment specification ontology identifier
+               #for ($exp_evid_entry) {
+               if ($exp_evid_entry eq 'gene disruption') { $exp_spec_id = "ESO:0000001" }
+               elsif ($exp_evid_entry eq 'gene deletion') { $exp_spec_id = "ESO:0000002" }
+               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation') { $exp_spec_id = "ESO:0000024" }
+               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation: overexpression') { $exp_spec_id = "ESO:0000011" }
+               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation: downregulation') { $exp_spec_id = "ESO:0000012" }
+               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation: down- and upregulation') 
+                       { $exp_spec_id = "ESO:0000011"; $exp_spec_id2 = "ESO:0000012" }
+               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation: silencing') { $exp_spec_id = "ESO:0000013" }
+               elsif ($exp_evid_entry eq 'biochemical analysis') { $exp_spec_id = "ESO:0000005" }
+               elsif ($exp_evid_entry eq 'functional test in host') { $exp_spec_id = "ESO:0000006" }
+               elsif ($exp_evid_entry eq 'functional test in host: direct injection') { $exp_spec_id = "ESO:0000014" }
+               elsif ($exp_evid_entry eq 'functional test in host: transient expression') { $exp_spec_id = "ESO:0000015" }
+               elsif ($exp_evid_entry eq 'mutation' or 'gene mutation') { $exp_spec_id = "ESO:00000019" }
+               elsif ($exp_evid_entry eq 'mutation: characterised' or 'gene mutation: characterised') { $exp_spec_id = "ESO:00000016" }
+               elsif ($exp_evid_entry eq 'complementation') { $exp_spec_id = "ESO:0000007" }
+               elsif ($exp_evid_entry eq 'sequence analysis of sensitive and resistant strains') { $exp_spec_id = "ESO:0000017" }
+               elsif ($exp_evid_entry eq 'sexual cross, sequencing of resistance conferring allele') { $exp_spec_id = "ESO:0000018" }
+               elsif ($exp_evid_entry eq 'other evidence') { $exp_spec_id = "ESO:0000010" }
+               #}
+ 
+               # insert data into interaction_experiment_spec table,
+               # with foreign keys to the interaction table and the experiment spec ontology
+               # finding out if two, one, or no experiment specifications are to be entered
+               if (defined $exp_spec_id2) {
+                  # need two insert statements, one for each experiment spec id
+	          $sql_statement = qq(INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id)
+                                        VALUES ($interaction_id, '$exp_spec_id');
+	                              INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id)
+                                        VALUES ($interaction_id, '$exp_spec_id2');
+                                     );
+	          $sql_result = $db_conn->prepare($sql_statement);
+	          $sql_result->execute() or die $DBI::errstr;
+               } elsif (defined $exp_spec_id) {
+                  # need only one insert statement
+	          $sql_statement = qq(INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id)
+                                        VALUES ($interaction_id, '$exp_spec_id');
+                                     );
+	          $sql_result = $db_conn->prepare($sql_statement);
+	          $sql_result->execute() or die $DBI::errstr;
+               } else {
+                  # the experimental evidence is not valid
+                  print STDERR "ERROR: Experimental evidence $exp_evid_entry given for $required_fields_annot{'phi_base_acc'} is not valid\n";
+               }
+              
+             } # end foreach experimental evidence
+
+          } # if experimental evidence supplied 
+
         } # end else multiple mutation
 
      } # end if required criteria met and pathogen id = fusarium gram 
@@ -732,6 +814,7 @@ print "GO annotations with evidence code for F gram: $go_with_evid_count\n";
 print "GO annotations without evidence code for F gram: $go_without_evid_count\n";
 print "Invalid GO annotations for F gram: $invalid_go_count\n";
 print "Total anti-infective chemicals for F gram: $anti_infective_count\n";
+print "Total experiment specifications for F gram: $exp_spec_count\n";
 print "Total annotations retrieved from database: $annotation_count\n\n";
 
 print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
