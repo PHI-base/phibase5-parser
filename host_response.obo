@@ -1,0 +1,138 @@
+format-version: 1.2
+date: 02:12:2014 13:35
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: default_namespace
+
+[Term]
+id: HRO:0000000
+name: host response
+created_by: irvinea
+creation_date: 2014-12-02T13:18:21Z
+
+[Term]
+id: HRO:0000001
+name: host response strength
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-02T13:20:35Z
+
+[Term]
+id: HRO:0000002
+name: callose deposition
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-02T13:20:35Z
+
+[Term]
+id: HRO:0000003
+name: necrosis
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-02T13:20:35Z
+
+[Term]
+id: HRO:0000004
+name: chlorosis
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-02T13:20:35Z
+
+[Term]
+id: HRO:0000005
+name: no host response
+is_a: HRO:0000001 ! host response strength
+created_by: irvinea
+creation_date: 2014-12-02T13:33:07Z
+
+[Term]
+id: HRO:0000006
+name: reduced callose deposition
+is_a: HRO:0000002 ! callose deposition
+created_by: irvinea
+creation_date: 2014-12-02T13:23:06Z
+
+[Term]
+id: HRO:0000007
+name: wild-type callose deposition
+is_a: HRO:0000002 ! callose deposition
+created_by: irvinea
+creation_date: 2014-12-02T13:23:06Z
+
+[Term]
+id: HRO:0000008
+name: increased callose deposition
+is_a: HRO:0000002 ! callose deposition
+created_by: irvinea
+creation_date: 2014-12-02T13:23:06Z
+
+[Term]
+id: HRO:0000009
+name: reduced necrosis
+is_a: HRO:0000003 ! necrosis
+created_by: irvinea
+creation_date: 2014-12-02T13:24:03Z
+
+[Term]
+id: HRO:0000010
+name: wild-type necrosis
+is_a: HRO:0000003 ! necrosis
+created_by: irvinea
+creation_date: 2014-12-02T13:24:03Z
+
+[Term]
+id: HRO:0000011
+name: increased necrosis
+is_a: HRO:0000003 ! necrosis
+created_by: irvinea
+creation_date: 2014-12-02T13:24:03Z
+
+[Term]
+id: HRO:0000012
+name: reduced chlorosis
+is_a: HRO:0000004 ! chlorosis
+created_by: irvinea
+creation_date: 2014-12-02T13:25:42Z
+
+[Term]
+id: HRO:0000013
+name: wild-type chlorosis
+is_a: HRO:0000004 ! chlorosis
+created_by: irvinea
+creation_date: 2014-12-02T13:25:42Z
+
+[Term]
+id: HRO:0000014
+name: increased chlorosis
+is_a: HRO:0000004 ! chlorosis
+created_by: irvinea
+creation_date: 2014-12-02T13:25:42Z
+
+[Term]
+id: HRO:0000015
+name: target protein expression
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-02T13:26:27Z
+
+[Term]
+id: HRO:0000016
+name: reduced host response
+is_a: HRO:0000001 ! host response strength
+created_by: irvinea
+creation_date: 2014-12-02T13:33:07Z
+
+[Term]
+id: HRO:0000017
+name: wild-type host response
+is_a: HRO:0000001 ! host response strength
+created_by: irvinea
+creation_date: 2014-12-02T13:33:07Z
+
+[Term]
+id: HRO:0000018
+name: increased host response
+is_a: HRO:0000001 ! host response strength
+created_by: irvinea
+creation_date: 2014-12-02T13:33:07Z
+

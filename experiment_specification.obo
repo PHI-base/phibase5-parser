@@ -1,0 +1,239 @@
+format-version: 1.2
+date: 02:12:2014 15:24
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: default_namespace
+
+[Term]
+id: ESO:0000000
+name: experiment specification
+namespace: experiment_specification_ontology
+created_by: irvinea
+creation_date: 2014-12-02T10:27:26Z
+
+[Term]
+id: ESO:0000001
+name: gene disruption
+namespace: experiment_specification_ontology
+def: "The ORF or intergenic sequences within the gene was disrupted due to transposon insertion or by the insertion of a resistance gene cassette." []
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000002
+name: gene deletion
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000003
+name: gene mutation
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000004
+name: altered gene expression
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000005
+name: biochemical analysis
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000006
+name: functional test in host organism
+namespace: experiment_specification_ontology
+def: "The function of the gene was investigated by applying the protein to the host using a biological delivery system (i.e. expression of a stable transgene from the host, transient delivery with a virus, or transient delivery with Agrobacterium)." []
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000007
+name: gene complementation
+namespace: experiment_specification_ontology
+def: "The mutant phenotype was restored to wild-type by introducing a copy of the wild-type gene." []
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000008
+name: sequence analysis
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000009
+name: sexual cross
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000010
+name: other evidence
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T10:31:59Z
+
+[Term]
+id: ESO:0000011
+name: gene overexpression
+namespace: experiment_specification_ontology
+def: "Gene expression was altered by changing the promoter/regulatory sequences. Gene expression is increased as a consequence." []
+synonym: "upregulation" EXACT []
+is_a: ESO:0000004 ! altered gene expression
+created_by: irvinea
+creation_date: 2014-12-02T10:33:54Z
+
+[Term]
+id: ESO:0000012
+name: gene downregulation
+namespace: experiment_specification_ontology
+def: "Gene expression was altered by changing the promoter/regulatory sequences. Gene expression is reduced as a consequence." []
+synonym: "underexpression" EXACT []
+is_a: ESO:0000004 ! altered gene expression
+created_by: irvinea
+creation_date: 2014-12-02T10:34:56Z
+
+[Term]
+id: ESO:0000013
+name: gene silencing
+namespace: experiment_specification_ontology
+def: "Gene expression is reduced by gene silencing using an RNAi approach." []
+is_a: ESO:0000004 ! altered gene expression
+created_by: irvinea
+creation_date: 2014-12-02T10:36:06Z
+
+[Term]
+id: ESO:0000014
+name: direct injection into host organism
+namespace: experiment_specification_ontology
+def: "The protein was injected into the host using a device (i.e. syringe needle)." []
+is_a: ESO:0000006 ! functional test in host organism
+created_by: irvinea
+creation_date: 2014-12-02T10:38:27Z
+
+[Term]
+id: ESO:0000015
+name: transient expression in host organism
+namespace: experiment_specification_ontology
+def: "The protein was transiently expressed in the host." []
+is_a: ESO:0000006 ! functional test in host organism
+created_by: irvinea
+creation_date: 2014-12-02T10:39:44Z
+
+[Term]
+id: ESO:0000016
+name: characterised gene mutation
+namespace: experiment_specification_ontology
+def: "The UV or chemical gene mutation was characterised by sequencing or biochemistry." []
+is_a: ESO:0000003 ! gene mutation
+created_by: irvinea
+creation_date: 2014-12-02T10:42:51Z
+
+[Term]
+id: ESO:0000017
+name: sequence analysis of sensitive and resistant strains
+namespace: experiment_specification_ontology
+def: "Sequence information of both strains were analysed to infer the gene function." []
+is_a: ESO:0000008 ! sequence analysis
+created_by: irvinea
+creation_date: 2014-12-02T10:43:55Z
+
+[Term]
+id: ESO:0000018
+name: sequencing of resistance conferring allele
+namespace: experiment_specification_ontology
+def: "Mendelian crossing was used to delineate the function of an allele." []
+is_a: ESO:0000009 ! sexual cross
+created_by: irvinea
+creation_date: 2014-12-02T15:15:07Z
+
+[Term]
+id: ESO:0000019
+name: uncharacterised gene mutation
+namespace: experiment_specification_ontology
+def: "The gene was mutated using radiation (UV) or a chemical agent. The mutation itself is unknown." []
+is_a: ESO:0000003 ! gene mutation
+created_by: irvinea
+creation_date: 2014-12-02T11:05:17Z
+
+[Term]
+id: ESO:0000020
+name: full gene deletion
+namespace: experiment_specification_ontology
+def: "The entire gene was replaced with a resistance gene cassette." []
+is_a: ESO:0000002 ! gene deletion
+created_by: irvinea
+creation_date: 2014-12-02T14:50:35Z
+
+[Term]
+id: ESO:0000021
+name: partial gene deletion
+namespace: experiment_specification_ontology
+def: "A part of the gene was replaced with a resistance gene cassette." []
+is_a: ESO:0000002 ! gene deletion
+created_by: irvinea
+creation_date: 2014-12-02T14:50:35Z
+
+[Term]
+id: ESO:0000022
+name: promoter mutation
+namespace: experiment_specification_ontology
+def: "Putative promoter region upstream of a gene was disrupted due to transposon insertion or by the insertion of a resistance gene cassette." []
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T14:54:51Z
+
+[Term]
+id: ESO:0000023
+name: cluster deletion
+namespace: experiment_specification_ontology
+def: "A small chromosomal region containing more than one gene was replaced using a resistance gene cassette." []
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T14:56:51Z
+
+[Term]
+id: ESO:0000024
+name: unknown gene expression
+namespace: experiment_specification_ontology
+def: "Gene expression was altered by changing the promoter/regulatory sequences. It is not reported if the gene is down- or up-regulated as a consequence." []
+is_a: ESO:0000004 ! altered gene expression
+created_by: irvinea
+creation_date: 2014-12-02T15:05:41Z
+
+[Term]
+id: ESO:0000025
+name: heterologous expression
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T15:21:32Z
+
+[Term]
+id: ESO:0000026
+name: chemical complementation
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2014-12-02T15:22:02Z
+

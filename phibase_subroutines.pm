@@ -3,8 +3,9 @@ package phibase_subroutines;
 use strict;
 use warnings;
 use Exporter qw(import);
+use OBO::Parser::OBOParser;
 
-our @EXPORT_OK = qw(connect_to_phibase query_uniprot);
+our @EXPORT_OK = qw(connect_to_phibase query_uniprot print_ontology_terms);
 
 sub connect_to_phibase
 {
@@ -36,6 +37,64 @@ sub query_uniprot
   }
   $response->is_success ? $response->content : die 'Failed, got '.$response->status_line.' for '.$response->request->uri."\n";
 }
+
+sub print_ontology_terms
+{
+  my $ontology_name = shift;
+  my $obo_filename = shift;
+
+  # open output file
+  my $term_filename = './output/'.$ontology_name.'_term_details.tsv';
+  open (TERM_FILE,"> $term_filename") or die "Error opening output file\n";
+
+  # counter for statistics
+  my $ontology_term_count = 0;
+  my $term_with_def_count = 0;
+  my $term_without_def_count = 0;
+
+  # load and parse the ontology file
+  my $obo_parser = OBO::Parser::OBOParser->new;
+  my $ontology = $obo_parser->work($obo_filename);
+
+  # get the ontology term, based on the identifier
+  #my $ontology_term = $ontology->get_term_by_id("ID:0000001");
+
+  my @ontology_terms = @{$ontology->get_terms()}; # get all the terms in the ontology
+
+  foreach my $term (@ontology_terms) {
+
+     # increment counter
+     $ontology_term_count++;
+
+     # get the ID and name of the ontology term
+     my $term_id = $term->id;
+     my $term_name = $term->name;
+
+     # print to output file
+     print TERM_FILE "$term_id\nTerm:$term_name\n";
+
+     # get definition of the term
+     my $term_definition = $term->def->text();
+
+     # check if a definition was given
+     if ($term_definition) {
+        # print the definition
+        $term_with_def_count++;
+        print TERM_FILE "Definition:$term_definition\n\n";
+     } else {
+        $term_without_def_count++;
+        print TERM_FILE "Definition:None given\n\n";
+     }
+  }
+
+  close (TERM_FILE);
+
+  print "Number of $ontology_name terms:$ontology_term_count\n";
+  print "Number of terms defined:$term_with_def_count\n";
+  print "Number of terms not defined:$term_without_def_count\n";
+  print "$ontology_name term details output file $term_filename\n";
+
+} # end print_ontology_terms sub
 
 return 1;  # return true to calling function
 

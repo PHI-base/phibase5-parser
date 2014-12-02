@@ -1,0 +1,108 @@
+ESO:0000000
+Term:experiment specification
+Definition:None given
+
+ESO:0000001
+Term:gene disruption
+Definition:The ORF or intergenic sequences within the gene was disrupted due to transposon insertion or by the insertion of a resistance gene cassette.
+
+ESO:0000002
+Term:gene deletion
+Definition:None given
+
+ESO:0000003
+Term:gene mutation
+Definition:None given
+
+ESO:0000004
+Term:altered gene expression
+Definition:None given
+
+ESO:0000005
+Term:biochemical analysis
+Definition:None given
+
+ESO:0000006
+Term:functional test in host organism
+Definition:The function of the gene was investigated by applying the protein to the host using a biological delivery system (i.e. expression of a stable transgene from the host, transient delivery with a virus, or transient delivery with Agrobacterium).
+
+ESO:0000007
+Term:gene complementation
+Definition:The mutant phenotype was restored to wild-type by introducing a copy of the wild-type gene.
+
+ESO:0000008
+Term:sequence analysis
+Definition:None given
+
+ESO:0000009
+Term:sexual cross
+Definition:None given
+
+ESO:0000010
+Term:other evidence
+Definition:None given
+
+ESO:0000011
+Term:gene overexpression
+Definition:Gene expression was altered by changing the promoter/regulatory sequences. Gene expression is increased as a consequence.
+
+ESO:0000012
+Term:gene downregulation
+Definition:Gene expression was altered by changing the promoter/regulatory sequences. Gene expression is reduced as a consequence.
+
+ESO:0000013
+Term:gene silencing
+Definition:Gene expression is reduced by gene silencing using an RNAi approach.
+
+ESO:0000014
+Term:direct injection into host organism
+Definition:The protein was injected into the host using a device (i.e. syringe needle).
+
+ESO:0000015
+Term:transient expression in host organism
+Definition:The protein was transiently expressed in the host.
+
+ESO:0000016
+Term:characterised gene mutation
+Definition:The UV or chemical gene mutation was characterised by sequencing or biochemistry.
+
+ESO:0000017
+Term:sequence analysis of sensitive and resistant strains
+Definition:Sequence information of both strains were analysed to infer the gene function.
+
+ESO:0000018
+Term:sequencing of resistance conferring allele
+Definition:Mendelian crossing was used to delineate the function of an allele.
+
+ESO:0000019
+Term:uncharacterised gene mutation
+Definition:The gene was mutated using radiation (UV) or a chemical agent. The mutation itself is unknown.
+
+ESO:0000020
+Term:full gene deletion
+Definition:The entire gene was replaced with a resistance gene cassette.
+
+ESO:0000021
+Term:partial gene deletion
+Definition:A part of the gene was replaced with a resistance gene cassette.
+
+ESO:0000022
+Term:promoter mutation
+Definition:Putative promoter region upstream of a gene was disrupted due to transposon insertion or by the insertion of a resistance gene cassette.
+
+ESO:0000023
+Term:cluster deletion
+Definition:A small chromosomal region containing more than one gene was replaced using a resistance gene cassette.
+
+ESO:0000024
+Term:unknown gene expression
+Definition:Gene expression was altered by changing the promoter/regulatory sequences. It is not reported if the gene is down- or up-regulated as a consequence.
+
+ESO:0000025
+Term:heterologous expression
+Definition:None given
+
+ESO:0000026
+Term:chemical complementation
+Definition:None given
+
