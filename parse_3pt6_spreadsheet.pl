@@ -7,6 +7,7 @@ use phibase_subroutines qw(connect_to_phibase query_uniprot); # load PHI-base fu
 
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
+
 # parse text file that maps columns headings of the spreadsheet to database field names
 # saving the column name and db field name as key/value pairs in a hash
 open (COL_NAMES_FILE, "column2accession.txt") || die "Error opening input file\n";
@@ -27,6 +28,71 @@ while (<COL_NAMES_FILE>) {
 }
 close (COL_NAMES_FILE);
 
+
+# parse tab-separated file that maps experimental evidence values of the spreadsheet
+# to identifiers in the experiment specification ontology
+# saving the value and identifiers as key/value pairs in a hash
+open (EXP_SPEC_MAPPINGS_FILE, "experiment_spec_terms_in_phibase_3pt6.tsv") || die "Error opening input file\n";
+
+# hash to map experimental evidence to ontology identifiers
+my %exp_spec_mapping;
+
+# each row of the file contains a "valid spreadsheet value"
+# and corresponding "experiment spec ontology identifiers", separated by tab
+# mutliple ontology identifiers are separated by semi-colon
+# separate these fields and save as key/value pairs in a hash
+# where key becomes the valid value & value becomes ontology identifiers
+# (note that the identifiers themselves will be separated later)
+while (<EXP_SPEC_MAPPINGS_FILE>) {
+  chomp;
+  my ($exp_spec_value,$exp_spec_ontology_id_list) = split(/\t/,$_);
+  $exp_spec_mapping{$exp_spec_value} = $exp_spec_ontology_id_list;
+}
+close (EXP_SPEC_MAPPINGS_FILE);
+
+
+# parse tab-separated file that maps host response values of the spreadsheet
+# to identifiers in the host response ontology
+# saving the value and identifiers as key/value pairs in a hash
+open (HOST_RES_MAPPINGS_FILE, "host_response_terms_in_phibase_3pt6.tsv") || die "Error opening input file\n";
+
+# hash to map host response text to ontology identifiers
+my %host_response_mapping;
+
+# each row of the file contains a "valid spreadsheet value"
+# and corresponding "host response ontology identifiers", separated by tab
+# mutliple ontology identifiers are separated by semi-colon
+# separate these fields and save as key/value pairs in a hash
+# where key becomes the valid value & value becomes ontology identifiers
+# (note that the identifiers themselves will be separated later)
+while (<HOST_RES_MAPPINGS_FILE>) {
+  chomp;
+  my ($host_res_value,$host_res_ontology_id_list) = split(/\t/,$_);
+  $host_response_mapping{$host_res_value} = $host_res_ontology_id_list;
+}
+close (HOST_RES_MAPPINGS_FILE);
+
+
+# parse tab-separated file that maps phenotype outcome values of the spreadsheet
+# to the identifier in the phenotype outcome ontology
+# saving the value and identifier as key/value pairs in a hash
+open (PHEN_OUTCOME_MAPPINGS_FILE, "phenotype_outcome_terms_in_phibase_3pt6.tsv") || die "Error opening input file\n";
+
+# hash to map phenotype outcome text to ontology identifier
+my %phenotype_outcome_mapping;
+
+# each row of the file contains a "valid spreadsheet value"
+# and corresponding "phenotype outcome ontology identifier", separated by tab
+# separate these fields and save as key/value pairs in a hash
+# where key becomes the valid value & value becomes the ontology identifier
+while (<PHEN_OUTCOME_MAPPINGS_FILE>) {
+  chomp;
+  my ($phen_outcome_value,$phen_outcome_ontology_id_list) = split(/\t/,$_);
+  $phenotype_outcome_mapping{$phen_outcome_value} = $phen_outcome_ontology_id_list;
+}
+close (PHEN_OUTCOME_MAPPINGS_FILE);
+
+
 # open the tab separated values (TSV) version of the PHI-base spreadsheet
 my $phibase_tsv_filename = 'phi-base-1_vs36_reduced_columns.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
@@ -39,11 +105,23 @@ my $invalid_defect_filename = './output/phibase_invalid_defects.tsv';
 my $go_with_evid_filename = './output/phibase_go_with_evid.tsv';
 my $go_without_evid_filename = './output/phibase_go_without_evid.tsv';
 my $invalid_go_filename = './output/phibase_invalid_go.tsv';
+my $exp_spec_term_filename = './output/phibase_exp_spec_terms.tsv';
+my $invalid_exp_spec_filename = './output/phibase_invalid_exp_specs.tsv';
+my $host_res_term_filename = './output/phibase_host_response_terms.tsv';
+my $invalid_host_res_filename = './output/phibase_invalid_host_responses.tsv';
+my $phen_outcome_term_filename = './output/phibase_phenotype_outcome_terms.tsv';
+my $invalid_phen_outcome_filename = './output/phibase_invalid_phenotype_outcomes.tsv';
 open (DEFECT_FILE, "> $defect_filename") or die "Error opening output file\n";
 open (INVALID_DEFECT_FILE, "> $invalid_defect_filename") or die "Error opening output file\n";
 open (GO_WITH_EVID_FILE, "> $go_with_evid_filename") or die "Error opening output file\n";
 open (GO_WITHOUT_EVID_FILE, "> $go_without_evid_filename") or die "Error opening output file\n";
 open (INVALID_GO_FILE, "> $invalid_go_filename") or die "Error opening output file\n";
+open (EXP_SPEC_TERM_FILE, "> $exp_spec_term_filename") or die "Error opening output file\n";
+open (INVALID_EXP_SPEC_FILE, "> $invalid_exp_spec_filename") or die "Error opening output file\n";
+open (HOST_RES_TERM_FILE, "> $host_res_term_filename") or die "Error opening output file\n";
+open (INVALID_HOST_RES_FILE, "> $invalid_host_res_filename") or die "Error opening output file\n";
+open (PHEN_OUTCOME_TERM_FILE, "> $phen_outcome_term_filename") or die "Error opening output file\n";
+open (INVALID_PHEN_OUTCOME_FILE, "> $invalid_phen_outcome_filename") or die "Error opening output file\n";
 
 # first line gives the spreadsheet column headings
 chomp(my $col_header_line = <TSV_FILE>);
@@ -87,6 +165,14 @@ my $go_with_evid_count = 0;
 my $go_without_evid_count = 0;
 my $invalid_go_count = 0;
 my $exp_spec_count = 0;
+my $exp_spec_term_count = 0;
+my $invalid_exp_spec_count = 0;
+my $host_response_count = 0;
+my $host_response_term_count = 0;
+my $invalid_host_response_count = 0;
+my $phenotype_outcome_count = 0;
+my $phenotype_outcome_term_count = 0;
+my $invalid_phenotype_outcome_count = 0;
 
 # go through each of the remaining lines of the TSV file (each representing a single annotation)
 # save the values of each column to the approriate output file
@@ -315,9 +401,6 @@ while (<TSV_FILE>) {
 	  $sql_result6->execute() or die $DBI::errstr;
 
           if ( $interaction_id and $pathogen_gene_mutant_id ) {
-	     #print "Interaction ID: ".$interaction_id."\n";
-	     #print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
-	  
              # add records for the other tables associated with the interaction,
              # using the interaction id as a foreign key to the interaction table
 	     my $inner_sql_statement = qq(
@@ -329,7 +412,6 @@ while (<TSV_FILE>) {
 					    VALUES ($interaction_id,'$pathogen_gene_mutant_id');
 				         );
 	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
-	     #print "Interaction_literature, interaction_host, interaction_pathogen_gene_mutant records inserted successfully\n";
 	  }
 
 
@@ -463,10 +545,10 @@ while (<TSV_FILE>) {
 					 );
 		      $sql_result = $db_conn->prepare($sql_statement);
 		      $sql_result->execute() or die $DBI::errstr;
-                      print DEFECT_FILE "$required_fields_annot{'phi_base_acc'}\t$defect_attribute\t$defect_value\n";
+                      print DEFECT_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$defect_attribute\t$defect_value\n";
                    } else {
                       $invalid_defect_count++;
-                      print INVALID_DEFECT_FILE "$required_fields_annot{'phi_base_acc'}\t$defect_attribute\t$defect_value\n";
+                      print INVALID_DEFECT_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$defect_attribute\t$defect_value\n";
                    }
 
                 } # end foreach defect value
@@ -521,11 +603,11 @@ while (<TSV_FILE>) {
                   # execute SQL insert and, if successful, print to file
 	          if ( $sql_result->execute() ) {
                      $go_with_evid_count++;
-                     print GO_WITH_EVID_FILE "$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
+                     print GO_WITH_EVID_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
                   } else {  # SQL insert unsuccessful, then log error
                      $invalid_go_count++;
                      print STDERR "\nPHI-base ERROR: Evidence code $go_evid_code is not valid for $required_fields_annot{'phi_base_acc'}, $go_id\n\n";
-                     print INVALID_GO_FILE "$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
+                     print INVALID_GO_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
                   }
 
                } else { # GO evidence code not supplied
@@ -539,7 +621,7 @@ while (<TSV_FILE>) {
 	          $sql_result->execute() or die $DBI::errstr;
 
                   $go_without_evid_count++;
-                  print GO_WITHOUT_EVID_FILE "$required_fields_annot{'phi_base_acc'}\t$go_id\n";
+                  print GO_WITHOUT_EVID_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\n";
     
                } # else GO evidence code
               
@@ -612,83 +694,144 @@ while (<TSV_FILE>) {
           # get the experimental evidence
           my $exp_evid_string = $phi_base_annotation{"experimental_evidence"};
 
-          # if the CAS string is empty, no anti-infectives have been supplied
+          # if the experimental evidence string is empty, no evidence have been supplied
           if (defined $exp_evid_string and $exp_evid_string ne "") {
 
-            # need to split list based on semi-colon delimiter
-            my @exp_evid_entries = split(";",$exp_evid_string);
+             $exp_spec_count++;
 
-            # for each anti-infective, need to get the CAS Registry ID, then insert
-            # a chemical record (if it does not already exist) and 
-            # an interaction_anti-infective_chemical record for this interaction
-            foreach my $exp_evid_entry (@exp_evid_entries) {
+             $exp_evid_string =~ s/^\s+//; # remove blank space from start of string
+             $exp_evid_string =~ s/\s+$//; # remove blank space from end of string
 
-               $exp_spec_count++;
+             # using the experiment specification mappings,
+             # get the appropriate ontology identifiers associated with the exp evidence
+             my $exp_spec_id_list = $exp_spec_mapping{$exp_evid_string};
 
-               # entries sometimes have a name before the ID, separated by a colon,
-               # other times no name is given before the CAS Registry ID,
-               # so need to extract the ID, based on colon delimiter
-               # (which will always be the last part)
-               #my @exp_evid_parts = split(":",$exp_evid_entry);
-               #my $exp_evid_id = pop(@exp_evid_parts);
+             # if identifiers are present, then insert the appropriate
+             # records into the interaction_experiment_spec table
+             if ($exp_spec_id_list) {
 
-               $exp_evid_entry =~ s/^\s+//; # remove blank space from start of CAS ID
-               $exp_evid_entry =~ s/\s+$//; # remove blank space from end of CAS ID
+                $exp_spec_id_list =~ s/^\s+//; # remove blank space from start of string
+                $exp_spec_id_list =~ s/\s+$//; # remove blank space from end of string
 
-               my $exp_spec_id;
-               my $exp_spec_id2;
+                # need to split list based on semi-colon delimiter
+                my @exp_spec_ontology_ids = split(";",$exp_spec_id_list);
 
-               # swap the old experimental evidence string for an
-               # equivalent experiment specification ontology identifier
-               #for ($exp_evid_entry) {
-               if ($exp_evid_entry eq 'gene disruption') { $exp_spec_id = "ESO:0000001" }
-               elsif ($exp_evid_entry eq 'gene deletion') { $exp_spec_id = "ESO:0000002" }
-               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation') { $exp_spec_id = "ESO:0000024" }
-               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation: overexpression') { $exp_spec_id = "ESO:0000011" }
-               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation: downregulation') { $exp_spec_id = "ESO:0000012" }
-               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation: down- and upregulation') 
-                       { $exp_spec_id = "ESO:0000011"; $exp_spec_id2 = "ESO:0000012" }
-               elsif ($exp_evid_entry eq 'altered gene expression / gene regulation: silencing') { $exp_spec_id = "ESO:0000013" }
-               elsif ($exp_evid_entry eq 'biochemical analysis') { $exp_spec_id = "ESO:0000005" }
-               elsif ($exp_evid_entry eq 'functional test in host') { $exp_spec_id = "ESO:0000006" }
-               elsif ($exp_evid_entry eq 'functional test in host: direct injection') { $exp_spec_id = "ESO:0000014" }
-               elsif ($exp_evid_entry eq 'functional test in host: transient expression') { $exp_spec_id = "ESO:0000015" }
-               elsif ($exp_evid_entry eq 'mutation' or 'gene mutation') { $exp_spec_id = "ESO:00000019" }
-               elsif ($exp_evid_entry eq 'mutation: characterised' or 'gene mutation: characterised') { $exp_spec_id = "ESO:00000016" }
-               elsif ($exp_evid_entry eq 'complementation') { $exp_spec_id = "ESO:0000007" }
-               elsif ($exp_evid_entry eq 'sequence analysis of sensitive and resistant strains') { $exp_spec_id = "ESO:0000017" }
-               elsif ($exp_evid_entry eq 'sexual cross, sequencing of resistance conferring allele') { $exp_spec_id = "ESO:0000018" }
-               elsif ($exp_evid_entry eq 'other evidence') { $exp_spec_id = "ESO:0000010" }
-               #}
+                # for each exp spec id, insert data into interaction_experiment_spec table,
+                # with foreign keys to the interaction_host table and the experiment spec ontology
+                foreach my $exp_spec_id (@exp_spec_ontology_ids) {
+                  $exp_spec_term_count++;
+	          $sql_statement = qq(INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id)
+                                        VALUES ($interaction_id, '$exp_spec_id');
+                                     );
+	          $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+                  print EXP_SPEC_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$exp_evid_string\t$exp_spec_id\n";
+                }
+
+             } else { # no experiment spec identifiers
+                $invalid_exp_spec_count++;
+                print STDERR "ERROR:Experiment evidence $exp_evid_string given for $required_fields_annot{'phi_base_acc'} is not valid\n";
+                print INVALID_EXP_SPEC_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$exp_evid_string\n";
+             }
+
+          } # end if experiment evidence supplied 
+         
  
-               # insert data into interaction_experiment_spec table,
-               # with foreign keys to the interaction table and the experiment spec ontology
-               # finding out if two, one, or no experiment specifications are to be entered
-               if (defined $exp_spec_id2) {
-                  # need two insert statements, one for each experiment spec id
-	          $sql_statement = qq(INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id)
-                                        VALUES ($interaction_id, '$exp_spec_id');
-	                              INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id)
-                                        VALUES ($interaction_id, '$exp_spec_id2');
-                                     );
-	          $sql_result = $db_conn->prepare($sql_statement);
-	          $sql_result->execute() or die $DBI::errstr;
-               } elsif (defined $exp_spec_id) {
-                  # need only one insert statement
-	          $sql_statement = qq(INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id)
-                                        VALUES ($interaction_id, '$exp_spec_id');
-                                     );
-	          $sql_result = $db_conn->prepare($sql_statement);
-	          $sql_result->execute() or die $DBI::errstr;
-               } else {
-                  # the experimental evidence is not valid
-                  print STDERR "ERROR: Experimental evidence $exp_evid_entry given for $required_fields_annot{'phi_base_acc'} is not valid\n";
-               }
-              
-             } # end foreach experimental evidence
+          # get the host response
+          my $host_response = $phi_base_annotation{"host_response"};
 
-          } # if experimental evidence supplied 
+          # if the host response string is empty, no host response has been supplied
+          if (defined $host_response and $host_response ne "") {
 
+             $host_response_count++;
+
+             $host_response =~ s/^\s+//; # remove blank space from start of string
+             $host_response =~ s/\s+$//; # remove blank space from end of string
+
+             # using the host response mappings,
+             # get the appropriate ontology identifiers associated with the host response
+             my $host_response_id_list = $host_response_mapping{$host_response};
+
+             # if identifiers are present, then insert the appropriate
+             # records into the interaction_host_response table
+             if ($host_response_id_list) {
+
+                my $sql_statement = qq(SELECT id FROM interaction_host
+                                         WHERE interaction_id = $interaction_id
+                                         AND ncbi_taxon_id = '$required_fields_annot{"host_tax"}'
+                                      );
+
+	        my $sql_result = $db_conn->prepare($sql_statement);
+	        $sql_result->execute() or die $DBI::errstr;
+	        my @row = $sql_result->fetchrow_array();
+	        my $interaction_host_id = shift @row;
+
+                $host_response_id_list =~ s/^\s+//; # remove blank space from start of string
+                $host_response_id_list =~ s/\s+$//; # remove blank space from end of string
+
+                # need to split list based on semi-colon delimiter
+                my @host_res_ontology_ids = split(";",$host_response_id_list);
+
+                # for each host response id, insert data into interaction_host_response table,
+                # with foreign keys to the interaction_host table and the host response ontology
+                foreach my $host_response_id (@host_res_ontology_ids) {
+                  $host_response_term_count++;
+	          $sql_statement = qq(INSERT INTO interaction_host_response (interaction_host_id, host_response_id)
+                                        VALUES ($interaction_host_id, '$host_response_id');
+                                     );
+	          $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+                  print HOST_RES_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$host_response\t$host_response_id\n";
+                }
+
+             } else { # no host response identifiers
+                $invalid_host_response_count++;
+                print STDERR "ERROR:Host response $host_response given for $required_fields_annot{'phi_base_acc'} is not valid\n";
+                print INVALID_HOST_RES_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$host_response\n";
+             }
+
+          } # end if host response supplied 
+          
+          
+          # get the phenotype outcome
+          my $phenotype_outcome_string = $phi_base_annotation{"phenotype"};
+
+          # if the phenotype outcome string is empty, no evidence have been supplied
+          if (defined $phenotype_outcome_string and $phenotype_outcome_string ne "") {
+
+             $phenotype_outcome_count++;
+
+             $phenotype_outcome_string =~ s/^\s+//; # remove blank space from start of string
+             $phenotype_outcome_string =~ s/\s+$//; # remove blank space from end of string
+
+             # using the phenotype outcome mappings,
+             # get the appropriate ontology identifier associated with the phenotype outcome
+             my $phenotype_outcome_id = $phenotype_outcome_mapping{$phenotype_outcome_string};
+
+             # if identifier is present, then insert the appropriate
+             # record into the pathogen_gene_mutant table
+             if ($phenotype_outcome_id) {
+
+                $phenotype_outcome_id =~ s/^\s+//; # remove blank space from start of string
+                $phenotype_outcome_id =~ s/\s+$//; # remove blank space from end of string
+
+                # insert data into the appropriate pathogen_gene_mutant table,
+                # with for a foreign key to the phenotype_outcome ontology
+                $phenotype_outcome_term_count++;
+	        $sql_statement = qq(UPDATE pathogen_gene_mutant 
+                                      SET phenotype_outcome_id = '$phenotype_outcome_id'
+                                      WHERE id = $pathogen_gene_mutant_id;
+                                   );
+	        $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+                print PHEN_OUTCOME_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$phenotype_outcome_string\t$phenotype_outcome_id\n";
+
+             } else { # no phenotype outcome identifier
+                $invalid_phenotype_outcome_count++;
+                print STDERR "ERROR:Phenotype outcome $phenotype_outcome_string given for $required_fields_annot{'phi_base_acc'} is not valid\n";
+                print INVALID_PHEN_OUTCOME_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$phenotype_outcome_string\n";
+             }
+
+          } # end if phenotype outcome supplied 
+          
+          
         } # end else multiple mutation
 
      } # end if required criteria met and pathogen id = fusarium gram 
@@ -814,7 +957,15 @@ print "GO annotations with evidence code for F gram: $go_with_evid_count\n";
 print "GO annotations without evidence code for F gram: $go_without_evid_count\n";
 print "Invalid GO annotations for F gram: $invalid_go_count\n";
 print "Total anti-infective chemicals for F gram: $anti_infective_count\n";
-print "Total experiment specifications for F gram: $exp_spec_count\n";
+print "Total annotations with a experiment specification for F gram: $exp_spec_count\n";
+print "Total experiment specification terms for F gram: $exp_spec_term_count\n";
+print "Invalid experiment specifications for F gram: $invalid_exp_spec_count\n";
+print "Total annotations with a host response for F gram: $host_response_count\n";
+print "Total host response terms for F gram: $host_response_term_count\n";
+print "Invalid host responses for F gram: $invalid_host_response_count\n";
+print "Total annotations with a phenotype outcome for F gram: $phenotype_outcome_count\n";
+print "Total phenotype outcome terms for F gram: $phenotype_outcome_term_count\n";
+print "Invalid phenotype outcomes for F gram: $invalid_phenotype_outcome_count\n";
 print "Total annotations retrieved from database: $annotation_count\n\n";
 
 print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
@@ -825,6 +976,12 @@ print "Output file of valid defects from fusarium graminearum: $defect_filename\
 print "Output file of invalid defects from fusarium graminearum: $invalid_defect_filename\n";
 print "Output file of GO annotations with evidence code from fusarium graminearum: $go_with_evid_filename\n";
 print "Output file of GO annotations without evidence code from fusarium graminearum: $go_without_evid_filename\n";
-print "Output file of Invalid GO annotations from fusarium graminearum: $invalid_go_filename\n";
+print "Output file of invalid GO annotations from fusarium graminearum: $invalid_go_filename\n";
+print "Output file of experiment spec annotations from fusarium graminearum: $exp_spec_term_filename\n";
+print "Output file of invalid experiment specs from fusarium graminearum: $invalid_exp_spec_filename\n";
+print "Output file of host response annotations from fusarium graminearum: $host_res_term_filename\n";
+print "Output file of invalid host responses from fusarium graminearum: $invalid_host_res_filename\n";
+print "Output file of phenotype outcome annotations from fusarium graminearum: $phen_outcome_term_filename\n";
+print "Output file of invalid phenotype outcomes from fusarium graminearum: $invalid_phen_outcome_filename\n";
 print "Tab-separated file of all PHI-base data inserted into relevant tables: $db_data_filename\n\n";
 

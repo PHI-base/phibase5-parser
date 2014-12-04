@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:12:2014 13:35
+date: 03:12:2014 22:28
 saved-by: irvinea
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: default_namespace
@@ -7,12 +7,14 @@ default-namespace: default_namespace
 [Term]
 id: HRO:0000000
 name: host response
+namespace: host_response_ontology
 created_by: irvinea
 creation_date: 2014-12-02T13:18:21Z
 
 [Term]
 id: HRO:0000001
 name: host response strength
+namespace: host_response_ontology
 is_a: HRO:0000000 ! host response
 created_by: irvinea
 creation_date: 2014-12-02T13:20:35Z
@@ -20,6 +22,7 @@ creation_date: 2014-12-02T13:20:35Z
 [Term]
 id: HRO:0000002
 name: callose deposition
+namespace: host_response_ontology
 is_a: HRO:0000000 ! host response
 created_by: irvinea
 creation_date: 2014-12-02T13:20:35Z
@@ -27,6 +30,7 @@ creation_date: 2014-12-02T13:20:35Z
 [Term]
 id: HRO:0000003
 name: necrosis
+namespace: host_response_ontology
 is_a: HRO:0000000 ! host response
 created_by: irvinea
 creation_date: 2014-12-02T13:20:35Z
@@ -34,6 +38,7 @@ creation_date: 2014-12-02T13:20:35Z
 [Term]
 id: HRO:0000004
 name: chlorosis
+namespace: host_response_ontology
 is_a: HRO:0000000 ! host response
 created_by: irvinea
 creation_date: 2014-12-02T13:20:35Z
@@ -41,6 +46,7 @@ creation_date: 2014-12-02T13:20:35Z
 [Term]
 id: HRO:0000005
 name: no host response
+namespace: host_response_ontology
 is_a: HRO:0000001 ! host response strength
 created_by: irvinea
 creation_date: 2014-12-02T13:33:07Z
@@ -48,6 +54,7 @@ creation_date: 2014-12-02T13:33:07Z
 [Term]
 id: HRO:0000006
 name: reduced callose deposition
+namespace: host_response_ontology
 is_a: HRO:0000002 ! callose deposition
 created_by: irvinea
 creation_date: 2014-12-02T13:23:06Z
@@ -55,6 +62,7 @@ creation_date: 2014-12-02T13:23:06Z
 [Term]
 id: HRO:0000007
 name: wild-type callose deposition
+namespace: host_response_ontology
 is_a: HRO:0000002 ! callose deposition
 created_by: irvinea
 creation_date: 2014-12-02T13:23:06Z
@@ -62,6 +70,7 @@ creation_date: 2014-12-02T13:23:06Z
 [Term]
 id: HRO:0000008
 name: increased callose deposition
+namespace: host_response_ontology
 is_a: HRO:0000002 ! callose deposition
 created_by: irvinea
 creation_date: 2014-12-02T13:23:06Z
@@ -69,6 +78,7 @@ creation_date: 2014-12-02T13:23:06Z
 [Term]
 id: HRO:0000009
 name: reduced necrosis
+namespace: host_response_ontology
 is_a: HRO:0000003 ! necrosis
 created_by: irvinea
 creation_date: 2014-12-02T13:24:03Z
@@ -76,6 +86,7 @@ creation_date: 2014-12-02T13:24:03Z
 [Term]
 id: HRO:0000010
 name: wild-type necrosis
+namespace: host_response_ontology
 is_a: HRO:0000003 ! necrosis
 created_by: irvinea
 creation_date: 2014-12-02T13:24:03Z
@@ -83,6 +94,7 @@ creation_date: 2014-12-02T13:24:03Z
 [Term]
 id: HRO:0000011
 name: increased necrosis
+namespace: host_response_ontology
 is_a: HRO:0000003 ! necrosis
 created_by: irvinea
 creation_date: 2014-12-02T13:24:03Z
@@ -90,6 +102,7 @@ creation_date: 2014-12-02T13:24:03Z
 [Term]
 id: HRO:0000012
 name: reduced chlorosis
+namespace: host_response_ontology
 is_a: HRO:0000004 ! chlorosis
 created_by: irvinea
 creation_date: 2014-12-02T13:25:42Z
@@ -97,6 +110,7 @@ creation_date: 2014-12-02T13:25:42Z
 [Term]
 id: HRO:0000013
 name: wild-type chlorosis
+namespace: host_response_ontology
 is_a: HRO:0000004 ! chlorosis
 created_by: irvinea
 creation_date: 2014-12-02T13:25:42Z
@@ -104,6 +118,7 @@ creation_date: 2014-12-02T13:25:42Z
 [Term]
 id: HRO:0000014
 name: increased chlorosis
+namespace: host_response_ontology
 is_a: HRO:0000004 ! chlorosis
 created_by: irvinea
 creation_date: 2014-12-02T13:25:42Z
@@ -111,13 +126,15 @@ creation_date: 2014-12-02T13:25:42Z
 [Term]
 id: HRO:0000015
 name: target protein expression
-is_a: HRO:0000000 ! host response
+namespace: host_response_ontology
+is_a: HRO:0000029 ! protein expression
 created_by: irvinea
 creation_date: 2014-12-02T13:26:27Z
 
 [Term]
 id: HRO:0000016
 name: reduced host response
+namespace: host_response_ontology
 is_a: HRO:0000001 ! host response strength
 created_by: irvinea
 creation_date: 2014-12-02T13:33:07Z
@@ -125,6 +142,7 @@ creation_date: 2014-12-02T13:33:07Z
 [Term]
 id: HRO:0000017
 name: wild-type host response
+namespace: host_response_ontology
 is_a: HRO:0000001 ! host response strength
 created_by: irvinea
 creation_date: 2014-12-02T13:33:07Z
@@ -132,7 +150,227 @@ creation_date: 2014-12-02T13:33:07Z
 [Term]
 id: HRO:0000018
 name: increased host response
+namespace: host_response_ontology
 is_a: HRO:0000001 ! host response strength
 created_by: irvinea
 creation_date: 2014-12-02T13:33:07Z
+
+[Term]
+id: HRO:0000019
+name: hypersensitive host response
+namespace: host_response_ontology
+is_a: HRO:0000001 ! host response strength
+created_by: irvinea
+creation_date: 2014-12-03T11:08:31Z
+
+[Term]
+id: HRO:0000020
+name: inflammation
+namespace: host_response_ontology
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-03T11:13:48Z
+
+[Term]
+id: HRO:0000021
+name: increased inflammation
+namespace: host_response_ontology
+is_a: HRO:0000020 ! inflammation
+created_by: irvinea
+creation_date: 2014-12-03T11:14:14Z
+
+[Term]
+id: HRO:0000022
+name: increased target protein expression
+namespace: host_response_ontology
+is_a: HRO:0000015 ! target protein expression
+created_by: irvinea
+creation_date: 2014-12-03T11:52:27Z
+
+[Term]
+id: HRO:0000023
+name: decreased target protein expression
+namespace: host_response_ontology
+is_a: HRO:0000015 ! target protein expression
+created_by: irvinea
+creation_date: 2014-12-03T11:52:27Z
+
+[Term]
+id: HRO:0000024
+name: wild-type target protein expression
+namespace: host_response_ontology
+is_a: HRO:0000015 ! target protein expression
+created_by: irvinea
+creation_date: 2014-12-03T11:52:27Z
+
+[Term]
+id: HRO:0000025
+name: oxidative burst
+namespace: host_response_ontology
+synonym: "accumulation of hydrogen peroxide" EXACT []
+synonym: "increased production of reactive oxygen species" EXACT []
+synonym: "increased production of ROS" EXACT []
+is_a: HRO:0000027 ! chemical response
+created_by: irvinea
+creation_date: 2014-12-03T11:55:18Z
+
+[Term]
+id: HRO:0000026
+name: oxdiative burst in adjacent uninfected cells
+namespace: host_response_ontology
+is_a: HRO:0000025 ! oxidative burst
+created_by: irvinea
+creation_date: 2014-12-03T11:56:13Z
+
+[Term]
+id: HRO:0000027
+name: chemical response
+namespace: host_response_ontology
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-03T12:13:46Z
+
+[Term]
+id: HRO:0000028
+name: production of phenolic compounds
+namespace: host_response_ontology
+is_a: HRO:0000027 ! chemical response
+created_by: irvinea
+creation_date: 2014-12-03T12:16:04Z
+
+[Term]
+id: HRO:0000029
+name: protein expression
+namespace: host_response_ontology
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-03T14:10:45Z
+
+[Term]
+id: HRO:0000030
+name: defensive protein expression
+namespace: host_response_ontology
+is_a: HRO:0000029 ! protein expression
+created_by: irvinea
+creation_date: 2014-12-03T14:12:40Z
+
+[Term]
+id: HRO:0000031
+name: increased defensive protein expression
+namespace: host_response_ontology
+is_a: HRO:0000030 ! defensive protein expression
+created_by: irvinea
+creation_date: 2014-12-03T14:14:40Z
+
+[Term]
+id: HRO:0000032
+name: decreased defensive protein expression
+namespace: host_response_ontology
+is_a: HRO:0000030 ! defensive protein expression
+created_by: irvinea
+creation_date: 2014-12-03T14:14:40Z
+
+[Term]
+id: HRO:0000033
+name: wild-type defensive protein expression
+namespace: host_response_ontology
+is_a: HRO:0000030 ! defensive protein expression
+created_by: irvinea
+creation_date: 2014-12-03T14:14:40Z
+
+[Term]
+id: HRO:0000034
+name: lesions
+namespace: host_response_ontology
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-03T14:30:32Z
+
+[Term]
+id: HRO:0000035
+name: increased lesions
+namespace: host_response_ontology
+is_a: HRO:0000034 ! lesions
+created_by: irvinea
+creation_date: 2014-12-03T14:31:34Z
+
+[Term]
+id: HRO:0000036
+name: reduced lesions
+namespace: host_response_ontology
+is_a: HRO:0000034 ! lesions
+created_by: irvinea
+creation_date: 2014-12-03T14:31:55Z
+
+[Term]
+id: HRO:0000037
+name: wild-type lesions
+namespace: host_response_ontology
+is_a: HRO:0000034 ! lesions
+created_by: irvinea
+creation_date: 2014-12-03T14:32:16Z
+
+[Term]
+id: HRO:0000038
+name: resistance to infections
+namespace: host_response_ontology
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-03T14:52:42Z
+
+[Term]
+id: HRO:0000039
+name: increased resistance to infections
+namespace: host_response_ontology
+is_a: HRO:0000038 ! resistance to infections
+created_by: irvinea
+creation_date: 2014-12-03T14:54:13Z
+
+[Term]
+id: HRO:0000040
+name: reduced resistance to infections
+namespace: host_response_ontology
+is_a: HRO:0000038 ! resistance to infections
+created_by: irvinea
+creation_date: 2014-12-03T14:54:13Z
+
+[Term]
+id: HRO:0000041
+name: wild-type resistance to infections
+namespace: host_response_ontology
+is_a: HRO:0000038 ! resistance to infections
+created_by: irvinea
+creation_date: 2014-12-03T14:54:13Z
+
+[Term]
+id: HRO:0000042
+name: radical length
+namespace: host_response_ontology
+is_a: HRO:0000000 ! host response
+created_by: irvinea
+creation_date: 2014-12-03T14:57:21Z
+
+[Term]
+id: HRO:0000043
+name: increased radical length
+namespace: host_response_ontology
+is_a: HRO:0000042 ! radical length
+created_by: irvinea
+creation_date: 2014-12-03T14:58:38Z
+
+[Term]
+id: HRO:0000044
+name: decreased radical length
+namespace: host_response_ontology
+is_a: HRO:0000042 ! radical length
+created_by: irvinea
+creation_date: 2014-12-03T14:58:38Z
+
+[Term]
+id: HRO:0000045
+name: wild-type radical length
+namespace: host_response_ontology
+is_a: HRO:0000042 ! radical length
+created_by: irvinea
+creation_date: 2014-12-03T14:58:38Z
 

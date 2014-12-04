@@ -1,0 +1,200 @@
+PHI:I1	PHI:355	Reduced virulence	POO:0000002
+PHI:I2	PHI:712	Unaffected pathogenicity	POO:0000003
+PHI:I3	PHI:717	Unaffected pathogenicity	POO:0000003
+PHI:I4	PHI:719	Unaffected pathogenicity	POO:0000003
+PHI:I5	PHI:720	Unaffected pathogenicity	POO:0000003
+PHI:I6	PHI:721	Unaffected pathogenicity	POO:0000003
+PHI:I7	PHI:722	Unaffected pathogenicity	POO:0000003
+PHI:I8	PHI:723	Unaffected pathogenicity	POO:0000003
+PHI:I9	PHI:727	Unaffected pathogenicity	POO:0000003
+PHI:I10	PHI:730	Unaffected pathogenicity	POO:0000003
+PHI:I11	PHI:733	Reduced virulence	POO:0000002
+PHI:I12	PHI:861	Reduced virulence	POO:0000002
+PHI:I13	PHI:861	Reduced virulence	POO:0000002
+PHI:I14	PHI:1004	Loss of pathogenicity	POO:0000001
+PHI:I15	PHI:1004	Loss of pathogenicity	POO:0000001
+PHI:I16	PHI:1005	Reduced virulence	POO:0000002
+PHI:I17	PHI:1005	Unaffected pathogenicity	POO:0000003
+PHI:I18	PHI:1006	Reduced virulence	POO:0000002
+PHI:I19	PHI:1007	Reduced virulence	POO:0000002
+PHI:I20	PHI:1012	Unaffected pathogenicity	POO:0000003
+PHI:I21	PHI:1013	Reduced virulence	POO:0000002
+PHI:I22	PHI:1014	Unaffected pathogenicity	POO:0000003
+PHI:I23	PHI:1015	Reduced virulence	POO:0000002
+PHI:I24	PHI:1016	Loss of pathogenicity	POO:0000001
+PHI:I25	PHI:1016	Loss of pathogenicity	POO:0000001
+PHI:I26	PHI:1078	Reduced virulence	POO:0000002
+PHI:I27	PHI:1079	Unaffected pathogenicity	POO:0000003
+PHI:I28	PHI:1080	Unaffected pathogenicity	POO:0000003
+PHI:I29	PHI:1080	Unaffected pathogenicity	POO:0000003
+PHI:I30	PHI:1086	Reduced virulence	POO:0000002
+PHI:I31	PHI:1087	Unaffected pathogenicity	POO:0000003
+PHI:I32	PHI:1088	Unaffected pathogenicity	POO:0000003
+PHI:I33	PHI:1089	Reduced virulence	POO:0000002
+PHI:I34	PHI:1090	Reduced virulence	POO:0000002
+PHI:I35	PHI:1091	Unaffected pathogenicity	POO:0000003
+PHI:I36	PHI:1092	Reduced virulence	POO:0000002
+PHI:I37	PHI:1093	Reduced virulence	POO:0000002
+PHI:I38	PHI:1094	Unaffected pathogenicity	POO:0000003
+PHI:I39	PHI:1095	Unaffected pathogenicity	POO:0000003
+PHI:I40	PHI:1096	Unaffected pathogenicity	POO:0000003
+PHI:I41	PHI:1097	Reduced virulence	POO:0000002
+PHI:I42	PHI:1098	Reduced virulence	POO:0000002
+PHI:I43	PHI:1168	Reduced virulence	POO:0000002
+PHI:I44	PHI:1169	Reduced virulence	POO:0000002
+PHI:I45	PHI:1170	Unaffected pathogenicity	POO:0000003
+PHI:I46	PHI:1175	Reduced virulence	POO:0000002
+PHI:I47	PHI:1176	Reduced virulence	POO:0000002
+PHI:I48	PHI:1177	Reduced virulence	POO:0000002
+PHI:I49	PHI:1178	Reduced virulence	POO:0000002
+PHI:I50	PHI:1179	Reduced virulence	POO:0000002
+PHI:I51	PHI:1180	Reduced virulence	POO:0000002
+PHI:I52	PHI:1181	Reduced virulence	POO:0000002
+PHI:I53	PHI:1182	Reduced virulence	POO:0000002
+PHI:I54	PHI:1183	Reduced virulence	POO:0000002
+PHI:I55	PHI:1184	Reduced virulence	POO:0000002
+PHI:I56	PHI:1185	Reduced virulence	POO:0000002
+PHI:I57	PHI:1186	Reduced virulence	POO:0000002
+PHI:I58	PHI:1187	Reduced virulence	POO:0000002
+PHI:I59	PHI:1188	Reduced virulence	POO:0000002
+PHI:I60	PHI:1189	Reduced virulence	POO:0000002
+PHI:I61	PHI:1190	Reduced virulence	POO:0000002
+PHI:I62	PHI:1192	Reduced virulence	POO:0000002
+PHI:I63	PHI:1193	Reduced virulence	POO:0000002
+PHI:I64	PHI:1194	Reduced virulence	POO:0000002
+PHI:I65	PHI:1195	Reduced virulence	POO:0000002
+PHI:I66	PHI:1196	Reduced virulence	POO:0000002
+PHI:I67	PHI:1197	Reduced virulence	POO:0000002
+PHI:I68	PHI:1198	Reduced virulence	POO:0000002
+PHI:I69	PHI:1199	Reduced virulence	POO:0000002
+PHI:I70	PHI:1200	Reduced virulence	POO:0000002
+PHI:I71	PHI:1201	Reduced virulence	POO:0000002
+PHI:I72	PHI:1202	Reduced virulence	POO:0000002
+PHI:I73	PHI:1203	Reduced virulence	POO:0000002
+PHI:I74	PHI:1204	Reduced virulence	POO:0000002
+PHI:I75	PHI:1205	Reduced virulence	POO:0000002
+PHI:I76	PHI:1206	Reduced virulence	POO:0000002
+PHI:I77	PHI:1207	Reduced virulence	POO:0000002
+PHI:I78	PHI:1208	Reduced virulence	POO:0000002
+PHI:I79	PHI:1209	Reduced virulence	POO:0000002
+PHI:I80	PHI:1210	Reduced virulence	POO:0000002
+PHI:I81	PHI:1211	Reduced virulence	POO:0000002
+PHI:I82	PHI:1212	Reduced virulence	POO:0000002
+PHI:I83	PHI:1214	Reduced virulence	POO:0000002
+PHI:I84	PHI:1215	Reduced virulence	POO:0000002
+PHI:I85	PHI:1216	Reduced virulence	POO:0000002
+PHI:I86	PHI:1217	Reduced virulence	POO:0000002
+PHI:I87	PHI:1218	Lethal	POO:0000006
+PHI:I88	PHI:1219	Lethal	POO:0000006
+PHI:I89	PHI:1220	Lethal	POO:0000006
+PHI:I90	PHI:1221	Lethal	POO:0000006
+PHI:I91	PHI:1222	Lethal	POO:0000006
+PHI:I92	PHI:1223	Lethal	POO:0000006
+PHI:I93	PHI:1224	Lethal	POO:0000006
+PHI:I94	PHI:1225	Lethal	POO:0000006
+PHI:I95	PHI:1226	Lethal	POO:0000006
+PHI:I96	PHI:1227	Lethal	POO:0000006
+PHI:I97	PHI:1228	Lethal	POO:0000006
+PHI:I98	PHI:1229	Lethal	POO:0000006
+PHI:I99	PHI:1231	Lethal	POO:0000006
+PHI:I100	PHI:1232	Lethal	POO:0000006
+PHI:I101	PHI:1233	Lethal	POO:0000006
+PHI:I102	PHI:1234	Lethal	POO:0000006
+PHI:I103	PHI:1235	Lethal	POO:0000006
+PHI:I104	PHI:1236	Lethal	POO:0000006
+PHI:I105	PHI:1237	Lethal	POO:0000006
+PHI:I106	PHI:1238	Lethal	POO:0000006
+PHI:I107	PHI:1239	Unaffected pathogenicity	POO:0000003
+PHI:I108	PHI:1240	Unaffected pathogenicity	POO:0000003
+PHI:I109	PHI:1241	Unaffected pathogenicity	POO:0000003
+PHI:I110	PHI:1242	Unaffected pathogenicity	POO:0000003
+PHI:I111	PHI:1243	Unaffected pathogenicity	POO:0000003
+PHI:I112	PHI:1244	Unaffected pathogenicity	POO:0000003
+PHI:I113	PHI:1245	Unaffected pathogenicity	POO:0000003
+PHI:I114	PHI:1246	Unaffected pathogenicity	POO:0000003
+PHI:I115	PHI:1247	Unaffected pathogenicity	POO:0000003
+PHI:I116	PHI:1248	Unaffected pathogenicity	POO:0000003
+PHI:I117	PHI:1249	Unaffected pathogenicity	POO:0000003
+PHI:I118	PHI:1250	Unaffected pathogenicity	POO:0000003
+PHI:I119	PHI:1251	Unaffected pathogenicity	POO:0000003
+PHI:I120	PHI:1252	Unaffected pathogenicity	POO:0000003
+PHI:I121	PHI:1253	Unaffected pathogenicity	POO:0000003
+PHI:I122	PHI:1254	Unaffected pathogenicity	POO:0000003
+PHI:I123	PHI:1255	Unaffected pathogenicity	POO:0000003
+PHI:I124	PHI:1256	Unaffected pathogenicity	POO:0000003
+PHI:I125	PHI:1257	Unaffected pathogenicity	POO:0000003
+PHI:I126	PHI:1258	Unaffected pathogenicity	POO:0000003
+PHI:I127	PHI:1259	Unaffected pathogenicity	POO:0000003
+PHI:I128	PHI:1260	Unaffected pathogenicity	POO:0000003
+PHI:I129	PHI:1261	Unaffected pathogenicity	POO:0000003
+PHI:I130	PHI:1262	Unaffected pathogenicity	POO:0000003
+PHI:I131	PHI:1263	Unaffected pathogenicity	POO:0000003
+PHI:I132	PHI:1264	Unaffected pathogenicity	POO:0000003
+PHI:I133	PHI:1265	Unaffected pathogenicity	POO:0000003
+PHI:I134	PHI:1266	Unaffected pathogenicity	POO:0000003
+PHI:I135	PHI:1267	Unaffected pathogenicity	POO:0000003
+PHI:I136	PHI:1268	Unaffected pathogenicity	POO:0000003
+PHI:I137	PHI:1269	Unaffected pathogenicity	POO:0000003
+PHI:I138	PHI:1270	Unaffected pathogenicity	POO:0000003
+PHI:I139	PHI:1271	Unaffected pathogenicity	POO:0000003
+PHI:I140	PHI:1272	Unaffected pathogenicity	POO:0000003
+PHI:I141	PHI:1273	Unaffected pathogenicity	POO:0000003
+PHI:I142	PHI:1274	Unaffected pathogenicity	POO:0000003
+PHI:I143	PHI:1275	Unaffected pathogenicity	POO:0000003
+PHI:I144	PHI:1276	Unaffected pathogenicity	POO:0000003
+PHI:I145	PHI:1277	Unaffected pathogenicity	POO:0000003
+PHI:I146	PHI:1278	Unaffected pathogenicity	POO:0000003
+PHI:I147	PHI:1279	Unaffected pathogenicity	POO:0000003
+PHI:I148	PHI:1280	Unaffected pathogenicity	POO:0000003
+PHI:I149	PHI:1281	Unaffected pathogenicity	POO:0000003
+PHI:I150	PHI:1282	Unaffected pathogenicity	POO:0000003
+PHI:I151	PHI:1283	Unaffected pathogenicity	POO:0000003
+PHI:I152	PHI:1284	Unaffected pathogenicity	POO:0000003
+PHI:I153	PHI:1285	Unaffected pathogenicity	POO:0000003
+PHI:I154	PHI:1286	Unaffected pathogenicity	POO:0000003
+PHI:I155	PHI:1287	Unaffected pathogenicity	POO:0000003
+PHI:I156	PHI:1288	Unaffected pathogenicity	POO:0000003
+PHI:I157	PHI:1289	Unaffected pathogenicity	POO:0000003
+PHI:I158	PHI:2294	Unaffected pathogenicity	POO:0000003
+PHI:I159	PHI:2294	Reduced virulence	POO:0000002
+PHI:I160	PHI:2385	Reduced virulence	POO:0000002
+PHI:I161	PHI:2385	Reduced virulence	POO:0000002
+PHI:I162	PHI:2386	Loss of pathogenicity	POO:0000001
+PHI:I163	PHI:2386	Loss of pathogenicity	POO:0000001
+PHI:I164	PHI:2387	Loss of pathogenicity	POO:0000001
+PHI:I165	PHI:2393	Increased virulence (Hypervirulence)	POO:0000004
+PHI:I166	PHI:2393	Increased virulence (Hypervirulence)	POO:0000004
+PHI:I167	PHI:2394	Increased virulence (Hypervirulence)	POO:0000004
+PHI:I168	PHI:2395	Reduced virulence	POO:0000002
+PHI:I169	PHI:2396	Reduced virulence	POO:0000002
+PHI:I170	PHI:2399	Reduced virulence	POO:0000002
+PHI:I171	PHI:2399	Reduced virulence	POO:0000002
+PHI:I172	PHI:2399	Reduced virulence	POO:0000002
+PHI:I173	PHI:2400	Unaffected pathogenicity	POO:0000003
+PHI:I174	PHI:2400	Unaffected pathogenicity	POO:0000003
+PHI:I175	PHI:2400	Unaffected pathogenicity	POO:0000003
+PHI:I176	PHI:2418	Reduced virulence	POO:0000002
+PHI:I177	PHI:2419	Reduced virulence	POO:0000002
+PHI:I178	PHI:2427	Reduced virulence	POO:0000002
+PHI:I179	PHI:2430	Reduced virulence	POO:0000002
+PHI:I180	PHI:2430	Reduced virulence	POO:0000002
+PHI:I181	PHI:2432	Reduced virulence	POO:0000002
+PHI:I182	PHI:2433	Reduced virulence	POO:0000002
+PHI:I183	PHI:2434	Reduced virulence	POO:0000002
+PHI:I184	PHI:2451	Unaffected pathogenicity	POO:0000003
+PHI:I185	PHI:2451	Unaffected pathogenicity	POO:0000003
+PHI:I186	PHI:2452	Unaffected pathogenicity	POO:0000003
+PHI:I187	PHI:2452	Unaffected pathogenicity	POO:0000003
+PHI:I188	PHI:2491	Reduced virulence	POO:0000002
+PHI:I189	PHI:2502	Reduced virulence	POO:0000002
+PHI:I190	PHI:2704	Reduced virulence	POO:0000002
+PHI:I191	PHI:2714	Reduced virulence	POO:0000002
+PHI:I192	PHI:2715	Reduced virulence	POO:0000002
+PHI:I193	PHI:2907	Unaffected pathogenicity	POO:0000003
+PHI:I194	PHI:2907	Reduced virulence	POO:0000002
+PHI:I195	PHI:2907	Unaffected pathogenicity	POO:0000003
+PHI:I196	PHI:2907	Reduced virulence	POO:0000002
+PHI:I197	PHI:2907	Unaffected pathogenicity	POO:0000003
+PHI:I198	PHI:2907	Unaffected pathogenicity	POO:0000003
+PHI:I199	PHI:2907	Unaffected pathogenicity	POO:0000003
+PHI:I200	PHI:2907	Unaffected pathogenicity	POO:0000003
