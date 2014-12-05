@@ -1,0 +1,164 @@
+CHEBI:18320	1,4-dithiothreitol (dtt)	1,4-dithiothreitol
+CHEBI:73175	2,3,5-triiodobenzoic acid	2,3,5-triiodobenzoic acid
+CHEBI:38597	3-amino-1,2,4 triazole	triazole
+CHEBI:48518	3-isobutyl-1-methylxanthine	3-isobutyl-1-methylxanthine
+CHEBI:30763	4-hydroxybenzoic acid	4-hydroxybenzoic acid
+CHEBI:30089	acetate	acetate
+CHEBI:27666	actinomycin d	actinomycin D
+CHEBI:16708	adenine	adenine
+CHEBI:17549	aminolevulinic acid	5-aminolevulinic acid
+CHEBI:63038	ammonium nitrate	ammonium nitrate
+CHEBI:2682	amphotericin b	amphotericin B
+CHEBI:28971	ampicillin	ampicillin
+CHEBI:2781	apocynin (hydroxy-3-methoxyacetophenone)	apocynin
+CHEBI:22599	arabinose	arabinose
+CHEBI:63395	ascorbic acid	ascorbic acid derivative
+CHEBI:16684	atropine	atropine
+CHEBI:40909	azoxystrobin	azoxystrobin
+CHEBI:28669	bacitracin	bacitracin
+CHEBI:3015	benomyl	benomyl
+CHEBI:36622	benzimidazole	benzimidazole
+CHEBI:34582	bleomycin	bleomycin sulfate
+CHEBI:48080	brefeldin a	brefeldin A
+CHEBI:27732	caffeine	caffeine
+CHEBI:22984	calcium	calcium atom
+CHEBI:50011	calcofluor	Calcofluor White
+CHEBI:50011	calcofluor white	Calcofluor White
+CHEBI:50011	calcofluor white (cw)	Calcofluor White
+CHEBI:27656	camptothecin	camptothecin
+CHEBI:30776	caproic acid	caproic acid
+CHEBI:3392	carbendazim	carbendazim
+CHEBI:3393	carbenicillin	carbenicillin
+CHEBI:474180	caspofungin	caspofungin
+CHEBI:18135	catechol	catechol
+CHEBI:78696	cercosporamide	cercosporamide
+CHEBI:3556	cercosporin	Cercosporin
+CHEBI:17698	chloramphenicol	chloramphenicol
+CHEBI:3647	chlorpromazine	chlorpromazine
+CHEBI:27026	cholera toxin	toxin
+CHEBI:100241	ciprofloxacin	ciprofloxacin
+CHEBI:27638	cobalt	cobalt atom
+CHEBI:34653	congo red	Congo Red
+CHEBI:34653	congo red (cr)	Congo Red
+CHEBI:28694	copper	copper atom
+CHEBI:121741	copper sulphate	copper sulphate(5.H2O)
+CHEBI:83101	coprogen	coprogen
+CHEBI:78673	cumene hydroperoxide	cumene hydroperoxide
+CHEBI:16335	cyclic adenosine 3',5'-cyclophosphate	adenosine
+CHEBI:60879	cyclic amp	2',3'-cyclic AMP(1-)
+CHEBI:27641	cycloheximide	cycloheximide
+CHEBI:81760	difenoconazole	difenoconazole
+CHEBI:81913	diniconazole	diniconazole
+CHEBI:50317	di-phenylene iodonium (dpi)	iodonium
+CHEBI:4762	eflornithine	Eflornithine hydrochloride
+CHEBI:4811	epoxiconazole	epoxiconazole
+CHEBI:42355	erythromycin	erythromycin A
+CHEBI:16236	ethanol	ethanol
+CHEBI:25224	ethyl methanesulfonate	methanesulfonate
+CHEBI:28600	farnesol	farnesol
+CHEBI:81853	fenhexamid	fenhexamid
+CHEBI:81917	fenpropidin	fenpropidin
+CHEBI:31605	ferric citrate	Ferric citrate (59 Fe)
+CHEBI:5019	ferrichrome	ferrichrome
+CHEBI:64492	ferricrocin	ferricrocin
+CHEBI:17620	ferulic acid	ferulic acid
+CHEBI:46081	fluconazole	fluconazole
+CHEBI:81763	fludioxonil	fludioxonil
+CHEBI:81763	fludioxonil [flu]	fludioxonil
+CHEBI:83708	flutriafol	(R)-flutriafol
+CHEBI:28260	galactose	galactose
+CHEBI:17234	glucose	glucose
+CHEBI:83927	glucose-1-phosphate	sodium 3-aminopropyl 2-acetamido-2-deoxy-alpha-D-glucose-1-phosphate
+CHEBI:75150	glucose-6-phosphate	3-dehydro-D-glucose-6-phosphate
+CHEBI:17270	glycerol	glycerol 2-phosphate
+CHEBI:79092	h2o2	EC 1.11.2.* (oxidoreductase with H2O2 as acceptor, incorporating 1 O atom into product) inhibitor
+CHEBI:36162	hematoporphyrin	hematoporphyrin
+CHEBI:16240	hydrogen peroxide	hydrogen peroxide
+CHEBI:44423	hydroxyurea	hydroxyurea
+CHEBI:57971	hygromycin b	hygromycin B(3+)
+CHEBI:24757	hypochlorous acid [hocl]	hypochlorous acid
+CHEBI:5868	imazalil	Imazalil nitrate
+CHEBI:16411	indole-3-acetic acid (iaa)	indole-3-acetic acid
+CHEBI:28909	iprodione	iprodione
+CHEBI:6076	itraconazole	itraconazole
+CHEBI:47519	ketoconazole	cis-ketoconazole
+CHEBI:6182	l-arabinose	aldehydo-L-arabinose
+CHEBI:64476	lignin	syringal lignin
+CHEBI:30145	lithium	lithium atom
+CHEBI:48607	lithium chloride	lithium chloride
+CHEBI:40303	lovastatin	lovastatin
+CHEBI:53078	lysine	N(6)-(2,4-dinitrophenyl)lysine
+CHEBI:29864	mannitol	mannitol
+CHEBI:28869	menadione	menadione
+CHEBI:28869	menadione (mnd)	menadione
+CHEBI:81773	metconazole	metconazole
+CHEBI:44185	methotrexate	methotrexate
+CHEBI:6872	methylene blue	methylene blue
+CHEBI:34779	methyl glyoxal	glyoxal
+CHEBI:25255	methyl methanesulfonate	methyl methanesulfonate
+CHEBI:29309	methyl violo-gen	methyl
+CHEBI:600520	micafungin	micafungin
+CHEBI:6923	miconazole	miconazole
+CHEBI:75283	miltefosine	miltefosine
+CHEBI:7087	n-(3,5-dichlorophenyl)succinimide [dim]	N-(3,5-Dichlorophenyl)succinimide
+CHEBI:63510	na	EC 3.6.3.9 (Na(+)/K(+)-transporting ATPase) inhibitor
+CHEBI:58292	naringenin	(S)-naringenin(1-)
+CHEBI:28112	nickel	nickel atom
+CHEBI:7566	nifurtimox	Nifurtimox
+CHEBI:623918	nikkomycin	nikkomycin Z
+CHEBI:623918	nikkomycin z	nikkomycin Z
+CHEBI:100246	norfloxacin	norfloxacin
+CHEBI:71339	novobiocin	novobiocin(1-)
+CHEBI:7660	nystatin	nystatin
+CHEBI:16196	oleic acid	oleic acid
+CHEBI:34905	paraquat	paraquat
+CHEBI:23401	p -coumaric acid	coumaric acid
+CHEBI:16099	p-coumaric acid	4'-O-beta-D-glucosyl-cis-p-coumaric acid
+CHEBI:17309	pectin	pectin
+CHEBI:17309	pectin and pga	pectin
+CHEBI:26013	pheromone a1	pheromone
+CHEBI:26013	pheromone a2	pheromone
+CHEBI:17276	phloretin	phloretin
+CHEBI:16337	phosphatidic acid	phosphatidic acid
+CHEBI:8310	polymyxin b	Polymyxin B sulfate
+CHEBI:64355	posaconazole	posaconazole
+CHEBI:32029	potassium acetate	potassium acetate
+CHEBI:32588	potassium chloride	potassium chloride
+CHEBI:8434	prochloraz	prochloraz
+CHEBI:8489	propiconazole	propiconazole
+CHEBI:17234	pth2 gene expression induced by: glucose	glucose
+CHEBI:16243	quercetin	quercetin
+CHEBI:17521	quinic acid	(-)-quinic acid
+CHEBI:27810	resorcinol	resorcinol
+CHEBI:27881	resveratrol	resveratrol
+CHEBI:52904	rose bengal	rose bengal(2-)
+CHEBI:16945	scytalone	scytalone
+CHEBI:9168	sirolimus	sirolimus
+CHEBI:26710	sodium chloride	sodium chloride
+CHEBI:78870	sodium nitrite	sodium nitrite
+CHEBI:29321	sodium nitroprusside	sodium nitroprusside
+CHEBI:52549	sordarin	sordarin
+CHEBI:9242	spiroxamine	spiroxamine
+CHEBI:17992	sucrose	sucrose
+CHEBI:61049	tacrolimus	tacrolimus (anhydrous)
+CHEBI:81781	tebuconazole	tebuconazole
+CHEBI:64090	tert-butyl hydroperoxide	tert-butyl hydroperoxide
+CHEBI:64090	tert-butyl hydroperoxide (t-bhp)	tert-butyl hydroperoxide
+CHEBI:64090	tert-butyl hydroperoxide (t-booh)	tert-butyl hydroperoxide
+CHEBI:77932	tetracycline	tetracycline zwitterion
+CHEBI:28177	theophylline	theophylline
+CHEBI:27084	trehalose	trehalose phosphate
+CHEBI:9665	triadimefon	triadimefon
+CHEBI:81783	tricyclazole	tricyclazole
+CHEBI:9700	tridemorph	tridemorph
+CHEBI:53753	triolein	triolein
+CHEBI:35366	unsaturated fatty acids	fatty acid
+CHEBI:16199	urea	urea
+CHEBI:28545	valinomycin	valinomycin
+CHEBI:76842	vancomycin	vancomycin(1+)
+CHEBI:30816	vanillic acid	vanillic acid
+CHEBI:9948	verapamil	verapamil
+CHEBI:10023	voriconazole	voriconazole
+CHEBI:52289	wortmannin	wortmannin
+CHEBI:18222	xylose	xylose
+CHEBI:27363	zinc	zinc atom

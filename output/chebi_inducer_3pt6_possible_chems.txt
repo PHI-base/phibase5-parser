@@ -1,0 +1,84 @@
+CHEBI:9177	1,10-phenanthrolinedisulfonic acid, 4,7-diphenyl-, sodium salt (1:2) (bps)	sodium deoxycholate
+CHEBI:76979	1,2-dioctanoylglycerol	sn-1,2-dicaprilin
+CHEBI:34795	1-methyl-3-isobutylxanthine	3-isobutyl-1-methyl-7H-xanthine
+CHEBI:28243	1-octacosanol (c28)	octacosan-1-ol
+CHEBI:77481	1-triacontanol (c30)	C30 phosphomycoketide
+CHEBI:79194	2-propenoic acid, 3-phenyl-, (2e)-	(2E)-21-hydroxyhenicos-2-enoic acid
+CHEBI:16907	4-nitroquinoline 1-oxidase	4-nitroquinoline N-oxide
+CHEBI:64211	8-br-camp	8-bromo-3',5'-cyclic AMP
+CHEBI:2781	acetovanillone	apocynin
+CHEBI:49470	aluminium, ion (al3+)	aluminium(3+)
+CHEBI:10036	avocado surface wax	wax ester
+CHEBI:78158	bathophenanthroline-disulfonate	4,7-diphenyl-1,10-phenanthroline 4',4''-disulfonate
+CHEBI:78159	bathophenanthroline disulfonic acid	4,7-diphenyl-1,10-phenanthroline 4',4''-disulfonic acid
+CHEBI:34383	bathophenanthroline disulphonic acid	4-Acetamido-4'-isothiocyanostilbene-2,2'-disulphonic acid
+CHEBI:10036	bee wax	wax ester
+CHEBI:29032	beta-alanine, n-(2,4-dihydroxy-3,3-dimethyl-1-oxobutyl)-, ion(1-), (r)-	(R)-pantothenate
+CHEBI:48434	bovine serum albumin	Val(5)-angiotensin II
+CHEBI:3245	butyl alcohol	butyl acrylate
+CHEBI:60186	ca+	EC 3.6.3.8 (Ca(2+)-transporting ATPase) inhibitor
+CHEBI:3312	cacl2	calcium dichloride
+CHEBI:63938	cadmium chloride, hydrate	cadmium dichloride hemipentahydrate
+CHEBI:35456	cadmium chloride, monohydrate	cadmium dichloride
+CHEBI:48775	cadmium, ion (cd2+)	cadmium(2+)
+CHEBI:39099	calcium cation	calcium(1+)
+CHEBI:3312	calcium chloride	calcium dichloride
+CHEBI:3312	calcium chloride anhydrous	calcium dichloride
+CHEBI:77758	camp	EC 3.1.4.53 (3',5'-cyclic-AMP phosphodiesterase) inhibitor
+CHEBI:15600	cianidanol	(+)-catechin
+CHEBI:73504	cis-9-octadecen-1-ol	(9Z)-octadecen-1-ol
+CHEBI:29036	copper, ion (cu2+)	copper(2+)
+CHEBI:79092	cumyl h2o2	EC 1.11.2.* (oxidoreductase with H2O2 as acceptor, incorporating 1 O atom into product) inhibitor
+CHEBI:49553	cupric chloride anhydrous	copper(II) chloride
+CHEBI:31440	cuso4	copper(2+) sulfate pentahydrate
+CHEBI:4031	cyclosporine	cyclosporin A
+CHEBI:17962	dag (diacylglycerol)	CDP-diacylglycerol
+CHEBI:36956	diamide	tetrauret
+CHEBI:77967	diphenyleneiodonium	dibenziodolium chloride
+CHEBI:82587	ditiocarb sodium (detc)	Sodium diethyldithiocarbamate
+CHEBI:75991	dmso	trametinib dimethyl sulfoxide
+CHEBI:21092	d-sorbitol	D-glucitol 3-phosphate
+CHEBI:30810	fecl3	trichloroferrate(1-)
+CHEBI:75832	feso4	iron(2+) sulfate (anhydrous)
+CHEBI:77181	gentian violet	crystal violet cation
+CHEBI:75471	glycerin	1-linoleoyl-2-oleoyl-sn-glycerol
+CHEBI:5530	gramicidin d	gramicidin S
+CHEBI:4883	homidium bromide	ethidium bromide
+CHEBI:30742	host surface (hard surface contact and ethylene)	ethylene glycol
+CHEBI:48518	ibmx	3-isobutyl-1-methylxanthine
+CHEBI:64631	indoleacetic acid (iaa)	indoleacetic acid conjugate
+CHEBI:29034	iron, ion (fe3+)	iron(3+)
+CHEBI:32588	kcl	potassium chloride
+CHEBI:47802	leptomycin b	5H-dibenzo[b,f]azepine
+CHEBI:33974	magnesium cation	magnesium(1+)
+CHEBI:18420	magnesium cation (mg2+)	magnesium(2+)
+CHEBI:63928	menadione sodium bisulfite anhydrous	menadione sodium sulfonate
+CHEBI:64689	mycophenolic acid (mpa)	mycophenolic acid O-acyl-glucuronide
+CHEBI:26710	nacl	sodium chloride
+CHEBI:78870	nano2	sodium nitrite
+CHEBI:49786	nickel, ion (ni2+)	nickel(2+)
+CHEBI:27311	olive oil	volatile oil component
+CHEBI:10036	paraffin wax	wax ester
+CHEBI:47962	pectin and galacturonic acid	aldehydo-D-galacturonic acid
+CHEBI:17597	p-hydroxybenzaldehyde	4-hydroxybenzaldehyde
+CHEBI:8102	pmsf (phenylmethylsulfonyl fluoride)	phenylmethanesulfonyl fluoride
+CHEBI:63019	potassium antimonial tartrate (sbiii)	potassium sodium L-tartrate
+CHEBI:26216	potassium oxalate (koa)	potassium atom
+CHEBI:26216	potassium superoxide	potassium atom
+CHEBI:26216	potassium superoxide (ko2)	potassium atom
+CHEBI:34908	quintozene [pcnb]	pentachloronitrobenzene
+CHEBI:28077	rifampin	rifampicin
+CHEBI:52904	rose bengal (rb)	rose bengal(2-)
+CHEBI:8984	sds	sodium dodecyl sulfate
+CHEBI:32130	silver nitrate	silver(1+) nitrate
+CHEBI:8984	sodium dodecyl sulphate	sodium dodecyl sulfate
+CHEBI:32149	sodium lauryl sulfate	sodium sulfate
+CHEBI:8984	sodium lauryl sulfate (sds)	sodium dodecyl sulfate
+CHEBI:30911	sorbitol	glucitol
+CHEBI:30911	"sorbitol	glucitol
+CHEBI:78156	strobilurin a	mucidin
+CHEBI:61049	tacrolimus [fk506]	tacrolimus (anhydrous)
+CHEBI:64090	t -butyl h2o2	tert-butyl hydroperoxide
+CHEBI:73335	uv irradiation	ultraviolet filter
+CHEBI:27363	zinc, elemental	zinc atom
+CHEBI:32312	znso4	zinc sulfate heptahydrate
