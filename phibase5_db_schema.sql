@@ -142,6 +142,7 @@ CREATE TABLE frac (
 
 CREATE TABLE chemical (
     id SERIAL PRIMARY KEY,
+    name varchar(100),
     chebi_id varchar(50),
     cas_registry varchar(50),    
     frac_id integer REFERENCES frac,

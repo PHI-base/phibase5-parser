@@ -1,170 +1,170 @@
-Curator ID	BO
-ID	BO
+Curator ID	KM
 Organisation	
-Name	Birgit Oeser
-
-Curator ID	SD
-ID	SD
-Organisation	
-Name	Sian Deller
-
-Curator ID	ND
-Organisation	
-ID	ND
-Name	Noemie Desmenceux
-
-Curator ID	MC
-Organisation	Molecular Connections
-ID	MC
-Name	Molecular Connections
-
-Curator ID	RM
-Name	Ros Marshall
-ID	RM
-Organisation	
-
-Curator ID	HH
-Organisation	
-ID	HH
-Name	Hilde Hansen
-
-Curator ID	AS
-Name	Ane Sesma
-Organisation	
-ID	AS
-
-Curator ID	HJ
-ID	HJ
-Organisation	Rothamsted Research
-Name	Helen Jenkins
-
-Curator ID	HJC
-Name	Hans Cools
-ID	HJC
-Organisation	
-
-Curator ID	JVK
-ID	JVK
-Organisation	
-Name	Jan van Kan
+Name	Kerry Maguire
+ID	KM
 
 Curator ID	AI
 Name	Alexander Idnurm
 Organisation	
 ID	AI
 
-Curator ID	MHK
-Organisation	Rothamsted Research
-ID	MHK
-Name	Michael Hammond-Kosack
-
-Curator ID	DS
-Organisation	
-ID	DS
-Name	Darren Soanes
-
 Curator ID	JR
 ID	JR
 Organisation	
 Name	Jason Rudd
 
-Curator ID	SH
-Name	Sabrina Holland
-ID	SH
-Organisation	
-
-Curator ID	ML
-Name	Magdalen Lindeberg
-ID	ML
-Organisation	
-
 Curator ID	AC
+ID	AC
 Name	Alayne Cuzick
 Organisation	Rothamsted Research
-ID	AC
+
+Curator ID	AR
+ID	AR
+Organisation	Molecular Connections
+Name	Arathi Raghunath
+
+Curator ID	RM
+Name	Ros Marshall
+Organisation	
+ID	RM
+
+Curator ID	JVK
+ID	JVK
+Name	Jan van Kan
+Organisation	
+
+Curator ID	AS
+ID	AS
+Name	Ane Sesma
+Organisation	
+
+Curator ID	HH
+Name	Hilde Hansen
+Organisation	
+ID	HH
+
+Curator ID	MC
+ID	MC
+Name	Molecular Connections
+Organisation	Molecular Connections
+
+Curator ID	ND
+ID	ND
+Organisation	
+Name	Noemie Desmenceux
+
+Curator ID	BH
+ID	BH
+Organisation	
+Name	Barbara Howlett
+
+Curator ID	BO
+Organisation	
+Name	Birgit Oeser
+ID	BO
+
+Curator ID	SH
+Name	Sabrina Holland
+Organisation	
+ID	SH
+
+Curator ID	MHK
+Organisation	Rothamsted Research
+Name	Michael Hammond-Kosack
+ID	MHK
+
+Curator ID	DG
+ID	DG
+Name	Donald Gardiner
+Organisation	
+
+Curator ID	NB
+ID	NB
+Name	Neil Brown
+Organisation	
+
+Curator ID	PR
+ID	PR
+Name	Pam Ronald
+Organisation	
+
+Curator ID	SK
+Organisation	
+Name	Sophien Kamoun
+ID	SK
 
 Curator ID	KHK
 ID	KHK
-Organisation	Rothamsted Research
 Name	Kim Hammond-Kosack
-
-Curator ID	AB
-Organisation	
-ID	AB
-Name	Andrew Beacham
-
-Curator ID	PR
-Name	Pam Ronald
-ID	PR
-Organisation	
-
-Curator ID	JA
-Name	John Antoniw
-ID	JA
-Organisation	
+Organisation	Rothamsted Research
 
 Curator ID	RP
 Organisation	Molecular Connections
-ID	RP
 Name	Rashmi Pant
+ID	RP
+
+Curator ID	HJ
+Organisation	Rothamsted Research
+Name	Helen Jenkins
+ID	HJ
+
+Curator ID	TKB
+Organisation	
+Name	Thomas Baldwin
+ID	TKB
+
+Curator ID	JK
+Organisation	
+Name	John Keon
+ID	JK
+
+Curator ID	DS
+Organisation	
+Name	Darren Soanes
+ID	DS
+
+Curator ID	RK
+Organisation	
+Name	Roland Krause
+ID	RK
+
+Curator ID	AGI
+Organisation	Rothamsted Research
+Name	Alistair Irvine
+ID	AGI
+
+Curator ID	ML
+Organisation	
+Name	Magdalen Lindeberg
+ID	ML
 
 Curator ID	MU
 ID	MU
 Organisation	Rothamsted Research
 Name	Martin Urban
 
-Curator ID	BH
-Organisation	
-ID	BH
-Name	Barbara Howlett
-
-Curator ID	JK
-Name	John Keon
-Organisation	
-ID	JK
-
-Curator ID	RK
-ID	RK
-Organisation	
-Name	Roland Krause
-
 Curator ID	RO
+Organisation	
 Name	Richard Oliver
 ID	RO
+
+Curator ID	JA
 Organisation	
+Name	John Antoniw
+ID	JA
 
-Curator ID	DG
-Name	Donald Gardiner
-ID	DG
+Curator ID	SD
+Name	Sian Deller
 Organisation	
+ID	SD
 
-Curator ID	AGI
-Organisation	Rothamsted Research
-ID	AGI
-Name	Alistair Irvine
-
-Curator ID	NB
-Name	Neil Brown
+Curator ID	HJC
+ID	HJC
 Organisation	
-ID	NB
+Name	Hans Cools
 
-Curator ID	TKB
-ID	TKB
+Curator ID	AB
+ID	AB
+Name	Andrew Beacham
 Organisation	
-Name	Thomas Baldwin
-
-Curator ID	KM
-Name	Kerry Maguire
-Organisation	
-ID	KM
-
-Curator ID	AR
-Name	Arathi Raghunath
-ID	AR
-Organisation	Molecular Connections
-
-Curator ID	SK
-ID	SK
-Organisation	
-Name	Sophien Kamoun
 
