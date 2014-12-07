@@ -84,51 +84,69 @@ while (<TSV_FILE>) {
    my $sql_result = $db_conn->prepare($sql_statement);
    $sql_result->execute() or die $DBI::errstr;
 
+   # retrieve the FRAC id from the returned value of the insert
+   my @row = $sql_result->fetchrow_array();
+   my $frac_id = shift @row;
+
    # hash of known mode in planta, manually curated for phibase_v3pt6,
    # only available for a few previously annotated FRAC chemicals
    # for convenience, these are hard-coded in this hash
    my %mode_in_planta_hash = 
       (
-        "3405" => "Systemic",
-        "3015" => "Systemic",
-        "4520" => "Systemic",
-        "3392" => "Systemic",
-        "35014" => "Systemic",
-        "83295" => "Systemic",
-        "81960" => "Systemic",
-        "50145" => "Systemic",
-        "9700" => "Systemic",
-        "81917" => "Systemic",
-        "9242" => "Systemic",
-        "81853" => "Locally systemic",
-        "81736" => "Systemic",
-        "7451" => "Various",
-        "9448" => "Various",
-        "40909" => "Preventive, curative, and systemic",
-        "28909" => "Preventive, early curative, and systemic"
-        # "????",  #This chemical still needs to be curated into the ChEBI database (as of 13/11/2014, CAS reg: 94361-06-5)
+        "3405" => "systemic",
+        "3015" => "systemic",
+        "4520" => "systemic",
+        "3392" => "systemic",
+        "35014" => "systemic",
+        "83295" => "systemic",
+        "81960" => "systemic",
+        "50145" => "systemic",
+        "9700" => "systemic",
+        "81917" => "systemic",
+        "9242" => "systemic",
+        "81853" => "locally systemic",
+        "81736" => "systemic",
+        "7451" => "various",
+        "9448" => "various",
+        "40909" => "preventive, curative, and systemic",
+        "28909" => "preventive, early curative, and systemic",
+        "81758" => "curative and systemic"
       );
-
-   # retrieve the FRAC id from the returned value of the insert
-   my @row = $sql_result->fetchrow_array();
-   my $frac_id = $row[0];
 
    # retreive the mode_of_planta, if availble for the current ChEBI ID
    my $mode_in_planta  = $mode_in_planta_hash{ $frac_chem_hash{"chebi_id"} };
+
+   my $chebi_id = $frac_chem_hash{"chebi_id"};
+   my $cas_registry = $frac_chem_hash{"cas_registry"};
 
    # if the FRAC chemcial has a defined mode_in_planta value
    # then insert should include mode_in_planta column,
    # otherwise use insert statement without this optional column
    if ( defined $mode_in_planta ) {
        $sql_statement = qq(INSERT INTO chemical (chebi_id, cas_registry, frac_id, mode_in_planta) 
-                            VALUES ('$frac_chem_hash{"chebi_id"}', '$frac_chem_hash{"cas_registry"}',
+                            VALUES ('CHEBI:$frac_chem_hash{"chebi_id"}', '$frac_chem_hash{"cas_registry"}',
                                      $frac_id, '$mode_in_planta');
                           );
    } else {
        # create insert statement without mode_in_planta
-       $sql_statement = qq(INSERT INTO chemical (chebi_id,cas_registry,frac_id) 
-                            VALUES ('$frac_chem_hash{"chebi_id"}','$frac_chem_hash{"cas_registry"}',$frac_id);
-                          );
+       # the correct insert statement will depend on which values are not empty
+       if ($chebi_id ne "" and $cas_registry ne "") {
+         $sql_statement = qq(INSERT INTO chemical (chebi_id,cas_registry,frac_id) 
+                              VALUES ('CHEBI:$frac_chem_hash{"chebi_id"}','$frac_chem_hash{"cas_registry"}',$frac_id);
+                            );
+       } elsif ($chebi_id ne "") {
+         $sql_statement = qq(INSERT INTO chemical (chebi_id,frac_id) 
+                              VALUES ('CHEBI:$frac_chem_hash{"chebi_id"}',$frac_id);
+                            );
+       } elsif ($cas_registry ne "") {
+         $sql_statement = qq(INSERT INTO chemical (cas_registry,frac_id) 
+                              VALUES ('$frac_chem_hash{"cas_registry"}',$frac_id);
+                            );
+       } else {
+         $sql_statement = qq(INSERT INTO chemical (frac_id) 
+                              VALUES ($frac_id);
+                            );
+       }
    }
 
    $sql_result = $db_conn->prepare($sql_statement);
@@ -143,9 +161,9 @@ close (TSV_FILE);
 # obviously, no FRAC ID is included (these chemicals are not in the FRAC table)
 my $sql_statement = qq(
                        INSERT INTO chemical (chebi_id, cas_registry, mode_in_planta) 
-                          VALUES ('47519', '65277-42-1','Preventive and curative');
+                          VALUES ('CHEBI:47519', '65277-42-1','preventive and curative');
                        INSERT INTO chemical (chebi_id, cas_registry, mode_in_planta) 
-                          VALUES ('46081', '86386-73-4','Primarily fungistatic');
+                          VALUES ('CHEBI:46081', '86386-73-4','primarily fungistatic');
                       );
 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 

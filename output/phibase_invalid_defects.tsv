@@ -1,17 +1,17 @@
 PHI:I11	PHI:733	Sexual Spores	No perithecia formation
 PHI:I11	PHI:733	In Vitro Growth	Some impairment
-PHI:I12	PHI:861	In Vitro Growth	Slowed
 PHI:I12	PHI:861	Spore Germination	Delayed
-PHI:I13	PHI:861	Spore Germination	Delayed
+PHI:I12	PHI:861	In Vitro Growth	Slowed
 PHI:I13	PHI:861	In Vitro Growth	Slowed
+PHI:I13	PHI:861	Spore Germination	Delayed
 PHI:I20	PHI:1012	In Vitro Growth	Slightly affected
 PHI:I21	PHI:1013	In Vitro Growth	Slightly affected
 PHI:I22	PHI:1014	In Vitro Growth	Slightly affected
 PHI:I23	PHI:1015	In Vitro Growth	75% of wild type
 PHI:I26	PHI:1078	In Vitro Growth	Slightly reduced
 PHI:I26	PHI:1078	Vegetative Spores	Reduced, altered morphology
-PHI:I28	PHI:1080	Sexual Spores	No forcible discharge
 PHI:I28	PHI:1080	In Vitro Growth	Slowed
+PHI:I28	PHI:1080	Sexual Spores	No forcible discharge
 PHI:I29	PHI:1080	Sexual Spores	No forcible discharge
 PHI:I29	PHI:1080	In Vitro Growth	Slowed
 PHI:I31	PHI:1087	Sexual Spores	Perithecial initials only
@@ -23,7 +23,7 @@ PHI:I48	PHI:1177	Spore Germination	abberrant
 PHI:I82	PHI:1212	Spore Germination	abberrant
 PHI:I158	PHI:2294	In Vitro Growth	wildtype
 PHI:I159	PHI:2294	In Vitro Growth	wildtype
-PHI:I160	PHI:2385	In Vitro Growth	enhanced
 PHI:I160	PHI:2385	Sexual Spores	enhanced
+PHI:I160	PHI:2385	In Vitro Growth	enhanced
 PHI:I176	PHI:2418	Spore Germination	wildtype
 PHI:I177	PHI:2419	Spore Germination	wildtype

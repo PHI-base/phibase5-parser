@@ -58,7 +58,7 @@ while (<TSV_FILE>) {
                         WHERE cas_registry = '$cas_registry'
                       );
                    );
-   } elsif ($chebi_id) {
+   } elsif (defined $chebi_id) {
      $chebi_only_count++;
      # create insert statement to insert chemical
      # with only the ChEBI ID
@@ -70,7 +70,7 @@ while (<TSV_FILE>) {
                         WHERE chebi_id = '$chebi_id'
                       );
                    );
-   } elsif ($cas_registry) {
+   } elsif (defined $cas_registry) {
      $cas_only_count++;
      # create insert statement to insert chemical
      # with only the CAS registry number

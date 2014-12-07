@@ -32,3 +32,6 @@ perl parse_curator_data.pl
 echo "\nParsing FRAC fungicide chemical data..."
 perl parse_frac_data.pl
 
+echo "\nParsing Inducer chemical data..."
+perl parse_inducer_data.pl
+

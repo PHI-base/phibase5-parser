@@ -160,6 +160,9 @@ my $invalid_defect_count = 0;
 my $curator_count = 0;
 my $species_expert_count = 0;
 my $anti_infective_count = 0;
+my $no_anti_infective_count = 0;
+my $inducer_count = 0;
+my $no_inducer_count = 0;
 my $go_annotation_count = 0;
 my $go_with_evid_count = 0;
 my $go_without_evid_count = 0;
@@ -687,9 +690,70 @@ while (<TSV_FILE>) {
 	       $sql_result->execute() or die $DBI::errstr;
               
              } # end foreach anti-infective chemical
+ 
+          } else {  # no anti-infective supplied 
+             $no_anti_infective_count++;
+          }
 
-          } # if anti-infectives supplied 
+          
+          # get the inducer chemical names
+          my $inducer_string = $phi_base_annotation{"inducer"};
 
+          # if the inducer string is empty, no inducers have been supplied
+          if (defined $inducer_string and $inducer_string ne "") {
+
+            # need to split list based on semi-colon delimiter
+            my @inducer_names = split(";",$inducer_string);
+
+            # for each inducer, need to get the chemical identifier from the
+            # chemical table record, then insert 
+            # an interaction_inducer_chemical record for this interaction
+            foreach my $inducer_name (@inducer_names) {
+
+               $inducer_count++;
+
+               $inducer_name =~ s/^\s+//; # remove blank space from start of string
+               $inducer_name =~ s/\s+$//; # remove blank space from end of string
+
+               # to permit single-quote in inducer name
+               # need to escape it by adding a second single quote
+               $inducer_name =~ s/'/''/g; 
+
+   	       # insert data into the chemical_table,
+               # if it does not exist already (based on the inducer name)
+  	       my $sql_statement = qq(INSERT INTO chemical (name) 
+	 		                 SELECT lower('$inducer_name')
+                                       WHERE NOT EXISTS (
+                                         SELECT 1 FROM chemical
+                                         WHERE name = lower('$inducer_name')
+                                       )
+                                     );
+
+	       my $sql_result = $db_conn->prepare($sql_statement);
+	       $sql_result->execute() or die $DBI::errstr;
+
+	       # get the unique identifier for the chemical
+               $sql_statement = qq(SELECT id FROM chemical
+                                     WHERE name = lower('$inducer_name');
+                                  );
+	       $sql_result = $db_conn->prepare($sql_statement);
+	       $sql_result->execute() or die $DBI::errstr;
+	       @row = $sql_result->fetchrow_array();
+	       my $chemical_id = shift @row;
+
+               # insert data into interaction_inducer_chemical table,
+               # with foreign keys to the interaction table and the chemical table 
+	       $sql_statement = qq(INSERT INTO interaction_inducer_chemical (interaction_id, chemical_id)
+                                     VALUES ($interaction_id, $chemical_id);
+                                  );
+	       $sql_result = $db_conn->prepare($sql_statement);
+	       $sql_result->execute() or die $DBI::errstr;
+              
+             } # end foreach inducer chemical
+
+          } else {  # no inducers supplied 
+             $no_inducer_count++;
+          }
           
           # get the experimental evidence
           my $exp_evid_string = $phi_base_annotation{"experimental_evidence"};
@@ -957,6 +1021,9 @@ print "GO annotations with evidence code for F gram: $go_with_evid_count\n";
 print "GO annotations without evidence code for F gram: $go_without_evid_count\n";
 print "Invalid GO annotations for F gram: $invalid_go_count\n";
 print "Total anti-infective chemicals for F gram: $anti_infective_count\n";
+print "Annotations without anti-infective for F gram: $no_anti_infective_count\n";
+print "Total inducer chemicals for F gram: $inducer_count\n";
+print "Annotations without inducer for F gram: $no_inducer_count\n";
 print "Total annotations with a experiment specification for F gram: $exp_spec_count\n";
 print "Total experiment specification terms for F gram: $exp_spec_term_count\n";
 print "Invalid experiment specifications for F gram: $invalid_exp_spec_count\n";
