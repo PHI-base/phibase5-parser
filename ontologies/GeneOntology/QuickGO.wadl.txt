@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://research.sun.com/wadl/2006/10 wadl.xsd"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://research.sun.com/wadl/2006/10">
+
+	<resources base="http://www.ebi.ac.uk/QuickGO/">
+		<resource path="GTerm">
+			<method name="GET">
+				<request>
+					<param name="id" type="xsd:string" style="query" required="true"/>
+					<param name="format" style="query" required="true">
+						<option value="mini"/>
+						<option value="obo"/>
+						<option value="oboxml"/>
+					</param>
+				</request>
+				<response>
+					<representation mediaType="text/html"/>
+					<representation mediaType="text/plain"/>
+					<representation mediaType="application/xml" element="obo"/>
+				</response>
+			</method>
+		</resource>
+
+		<resource path="GAnnotation">
+			<method name="GET">
+				<request>
+					<param name="format" style="query" required="true" fixed="tsv"/>
+					<param name="limit" style="query" type="xsd:int"/>
+					<param name="gz" style="query" type="xsd:boolean"/>
+					<param name="goid" style="query" type="xsd:string"/>
+					<param name="aspect" style="query" type="xsd:string"/>
+					<param name="relType" style="query" type="xsd:string"/>
+					<param name="evidence" style="query" type="xsd:string"/>
+					<param name="source" style="query" type="xsd:string"/>
+					<param name="ref" style="query" type="xsd:string"/>
+					<param name="with" style="query" type="xsd:string"/>
+					<param name="tax" style="query" type="xsd:string"/>
+					<param name="protein" style="query" type="xsd:string"/>
+					<param name="qualifier" style="query" type="xsd:string"/>
+					<param name="db" style="query" type="xsd:string"/>
+					<param name="q" style="query" type="xsd:string"/>
+					<param name="col" style="query" type="xsd:string"/>
+				</request>
+				<response>
+					<representation mediaType="text/tab-separated-values"/>
+				</response>
+			</method>
+		</resource>
+	</resources>
+</application>
+

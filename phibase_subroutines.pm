@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 use OBO::Parser::OBOParser;
 
-our @EXPORT_OK = qw(connect_to_phibase query_uniprot print_ontology_terms);
+our @EXPORT_OK = qw(connect_to_phibase query_uniprot print_ontology_terms ontology_mapping);
 
 sub connect_to_phibase
 {
@@ -95,6 +95,66 @@ sub print_ontology_terms
   print "$ontology_name term details output file $term_filename\n";
 
 } # end print_ontology_terms sub
+
+
+sub ontology_mapping
+{
+#  my $ontology_name = shift;
+  my $obo_filename = shift;
+
+  # open output file
+  #my $term_filename = './output/'.$ontology_name.'_term_details.tsv';
+  #open (TERM_FILE,"> $term_filename") or die "Error opening output file\n";
+  my %ontology_hash;
+
+  # counter for statistics
+#  my $ontology_term_count = 0;
+#  my $term_with_def_count = 0;
+#  my $term_without_def_count = 0;
+
+  # load and parse the ontology file
+  my $obo_parser = OBO::Parser::OBOParser->new;
+  my $ontology = $obo_parser->work($obo_filename);
+
+  # get the ontology term, based on the identifier
+  #my $ontology_term = $ontology->get_term_by_id("ID:0000001");
+
+  my @ontology_terms = @{$ontology->get_terms()}; # get all the terms in the ontology
+
+  foreach my $term (@ontology_terms) {
+
+     # increment counter
+#     $ontology_term_count++;
+
+     # get the ID and name of the ontology term
+     my $term_id = $term->id;
+     my $term_name = $term->name;
+
+     # create hash to map term name to the
+     # corresponding term ID of the ontology
+     $ontology_hash{$term_name} = $term_id;
+     
+=pod
+     # print to output file
+     print TERM_FILE "$term_id\nTerm:$term_name\n";
+
+     # get definition of the term
+     my $term_definition = $term->def->text();
+
+     # check if a definition was given
+     if ($term_definition) {
+        # print the definition
+        $term_with_def_count++;
+        print TERM_FILE "Definition:$term_definition\n\n";
+     } else {
+        $term_without_def_count++;
+        print TERM_FILE "Definition:None given\n\n";
+     }
+=cut
+  }
+     return %ontology_hash;
+
+}
 
 return 1;  # return true to calling function
 

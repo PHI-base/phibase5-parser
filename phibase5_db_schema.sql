@@ -168,7 +168,7 @@ CREATE TABLE disease_severity (
 
 CREATE TABLE interaction_disease (
     interaction_id integer REFERENCES interaction,
-    disease_id integer,
+    disease_id varchar(50),
     disease_severity_id integer REFERENCES disease_severity,
     PRIMARY KEY (interaction_id, disease_id)       
 );

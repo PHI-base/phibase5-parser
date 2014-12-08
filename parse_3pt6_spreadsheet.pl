@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use DBI; # load perl postgresql module
 
-use phibase_subroutines qw(connect_to_phibase query_uniprot); # load PHI-base functions
+use phibase_subroutines qw(connect_to_phibase query_uniprot ontology_mapping); # load PHI-base functions
 
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
@@ -92,6 +92,14 @@ while (<PHEN_OUTCOME_MAPPINGS_FILE>) {
 }
 close (PHEN_OUTCOME_MAPPINGS_FILE);
 
+# disease terms for PHI-base should include the combined terms from
+# both the Plant Disease ontology and the [Human] Disease Ontology,
+# so a hash of key/value pairs is created where the key is the ontology identifier
+# and the value is the term name
+my %combined_disease_mapping = (
+      ontology_mapping('ontologies/Disease/PlantDisease/plant_disease_ontology.obo'),
+      ontology_mapping('ontologies/Disease/HumanDisease/doid.obo')
+   );
 
 # open the tab separated values (TSV) version of the PHI-base spreadsheet
 my $phibase_tsv_filename = 'phi-base-1_vs36_reduced_columns.tsv';
@@ -111,6 +119,9 @@ my $host_res_term_filename = './output/phibase_host_response_terms.tsv';
 my $invalid_host_res_filename = './output/phibase_invalid_host_responses.tsv';
 my $phen_outcome_term_filename = './output/phibase_phenotype_outcome_terms.tsv';
 my $invalid_phen_outcome_filename = './output/phibase_invalid_phenotype_outcomes.tsv';
+my $disease_term_filename = './output/phibase_disease_terms.tsv';
+my $invalid_disease_filename = './output/phibase_invalid_diseases.tsv';
+my $without_disease_filename = './output/phibase_without_diseases.tsv';
 open (DEFECT_FILE, "> $defect_filename") or die "Error opening output file\n";
 open (INVALID_DEFECT_FILE, "> $invalid_defect_filename") or die "Error opening output file\n";
 open (GO_WITH_EVID_FILE, "> $go_with_evid_filename") or die "Error opening output file\n";
@@ -122,6 +133,9 @@ open (HOST_RES_TERM_FILE, "> $host_res_term_filename") or die "Error opening out
 open (INVALID_HOST_RES_FILE, "> $invalid_host_res_filename") or die "Error opening output file\n";
 open (PHEN_OUTCOME_TERM_FILE, "> $phen_outcome_term_filename") or die "Error opening output file\n";
 open (INVALID_PHEN_OUTCOME_FILE, "> $invalid_phen_outcome_filename") or die "Error opening output file\n";
+open (DISEASE_TERM_FILE, "> $disease_term_filename") or die "Error opening output file\n";
+open (INVALID_DISEASE_FILE, "> $invalid_disease_filename") or die "Error opening output file\n";
+open (WITHOUT_DISEASE_FILE, "> $without_disease_filename") or die "Error opening output file\n";
 
 # first line gives the spreadsheet column headings
 chomp(my $col_header_line = <TSV_FILE>);
@@ -176,6 +190,10 @@ my $invalid_host_response_count = 0;
 my $phenotype_outcome_count = 0;
 my $phenotype_outcome_term_count = 0;
 my $invalid_phenotype_outcome_count = 0;
+my $disease_count = 0;
+my $disease_term_count = 0;
+my $invalid_disease_count = 0;
+my $without_disease_count = 0;
 
 # go through each of the remaining lines of the TSV file (each representing a single annotation)
 # save the values of each column to the approriate output file
@@ -858,7 +876,7 @@ while (<TSV_FILE>) {
           # get the phenotype outcome
           my $phenotype_outcome_string = $phi_base_annotation{"phenotype"};
 
-          # if the phenotype outcome string is empty, no evidence have been supplied
+          # if the phenotype outcome string is empty, no phenotype has been supplied
           if (defined $phenotype_outcome_string and $phenotype_outcome_string ne "") {
 
              $phenotype_outcome_count++;
@@ -896,6 +914,57 @@ while (<TSV_FILE>) {
           } # end if phenotype outcome supplied 
           
           
+          # get the diseases for this interaction
+          my $disease_string = $phi_base_annotation{"disease_name"};
+
+          # if the disease string is empty, no disease has been supplied
+          if (defined $disease_string and $disease_string ne "") {
+
+             $disease_count++;
+
+             # need to split list based on semi-colon delimiter
+             my @disease_names = split(";",$disease_string);
+
+             foreach my $disease_name (@disease_names) {
+
+               $disease_name =~ s/^\s+//; # remove blank space from start of string
+               $disease_name =~ s/\s+$//; # remove blank space from end of string
+
+               # using the disease mappings,
+               # get the appropriate ontology identifiers associated with the diseases
+               my $disease_id = $combined_disease_mapping{ lc($disease_name) };
+
+               # if identifier is present, then insert the appropriate
+               # record into the interaction_disease table
+               if ($disease_id) {
+
+                  # insert data into interaction_disease table,
+                  # with foreign keys to the interaction table and the disease ontology
+                  $disease_term_count++;
+  	          #$sql_statement = qq(INSERT INTO interaction_disease (interaction_id, disease_id, disease_severity_id)
+	          $sql_statement = qq(INSERT INTO interaction_disease (interaction_id, disease_id)
+                                        VALUES ($interaction_id, '$disease_id');
+                                     );
+	          $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+                  print DISEASE_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$disease_id\t$disease_name\n";
+
+               } else { # no disease identifier
+
+                  $invalid_disease_count++;
+                  #print STDERR "ERROR:Disease $disease_name given for $required_fields_annot{'phi_base_acc'} is not valid\n";
+                  print INVALID_DISEASE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$disease_name\n";
+
+               }
+
+             } # end foreach disease name
+          
+          } else { # no disease supplied
+
+              $without_disease_count++;
+              print WITHOUT_DISEASE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\n";
+          }
+          
+
         } # end else multiple mutation
 
      } # end if required criteria met and pathogen id = fusarium gram 
@@ -1033,6 +1102,9 @@ print "Invalid host responses for F gram: $invalid_host_response_count\n";
 print "Total annotations with a phenotype outcome for F gram: $phenotype_outcome_count\n";
 print "Total phenotype outcome terms for F gram: $phenotype_outcome_term_count\n";
 print "Invalid phenotype outcomes for F gram: $invalid_phenotype_outcome_count\n";
+print "Total disease terms for F gram: $disease_term_count\n";
+print "Invalid disease terms for F gram: $invalid_disease_count\n";
+print "Annotations without disease terms for F gram: $without_disease_count\n";
 print "Total annotations retrieved from database: $annotation_count\n\n";
 
 print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
@@ -1050,5 +1122,8 @@ print "Output file of host response annotations from fusarium graminearum: $host
 print "Output file of invalid host responses from fusarium graminearum: $invalid_host_res_filename\n";
 print "Output file of phenotype outcome annotations from fusarium graminearum: $phen_outcome_term_filename\n";
 print "Output file of invalid phenotype outcomes from fusarium graminearum: $invalid_phen_outcome_filename\n";
+print "Output file of disease annotations from fusarium graminearum: $disease_term_filename\n";
+print "Output file of invalid diseases from fusarium graminearum: $invalid_disease_filename\n";
+print "Output file of annotation without a diseases from fusarium graminearum: $without_disease_filename\n";
 print "Tab-separated file of all PHI-base data inserted into relevant tables: $db_data_filename\n\n";
 
