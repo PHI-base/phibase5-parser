@@ -26,28 +26,27 @@ CREATE TABLE interaction_host_response (
 
 CREATE TABLE pathogen_gene (
     id SERIAL PRIMARY KEY,
-    ncbi_taxon_id varchar(50),
+    ncbi_taxon_id integer,
     gene_name varchar(50),
     uniparc_id varchar(50),
-    genbank_locus_id varchar(50),
-    pathway_ontology_id varchar(50)
+    genbank_locus_id varchar(50)
 );
 
 CREATE TABLE pathogen_gene_mutant (
     id SERIAL PRIMARY KEY,
     pathogen_gene_id integer REFERENCES pathogen_gene,
-    ncbi_taxon_id varchar(50),
-    uniprot_accession varchar(50),
-    phenotype_outcome_id varchar(50)
+    ncbi_taxon_id integer,
+    uniprot_accession varchar(50)
 );
 
 CREATE TABLE interaction_pathogen_gene_mutant (
     interaction_id integer REFERENCES interaction,
     pathogen_gene_mutant_id integer REFERENCES pathogen_gene_mutant,
+    phenotype_outcome_id varchar(50),
     PRIMARY KEY (interaction_id, pathogen_gene_mutant_id)
 );
 
-CREATE TABLE obsolete_reference (
+CREATE TABLE obsolete (
     id SERIAL PRIMARY KEY,
     phi_base_accession varchar(50),
     obsolete_accession varchar(50)
@@ -77,7 +76,7 @@ CREATE TABLE go_evidence (
     description varchar (50)
 );
 
-CREATE TABLE interaction_go_term (
+CREATE TABLE interaction_go_annotation (
     interaction_id integer REFERENCES interaction,
     go_id varchar(50),
     go_evidence_code varchar(50) REFERENCES go_evidence,
@@ -115,7 +114,7 @@ CREATE TABLE interaction_curator (
 );
 
 CREATE TABLE species_expert (
-    ncbi_taxon_id varchar(50),
+    ncbi_taxon_id integer,
     curator_id integer REFERENCES curator,
     PRIMARY KEY (ncbi_taxon_id, curator_id)
 );

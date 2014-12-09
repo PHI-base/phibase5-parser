@@ -272,11 +272,12 @@ while (<TSV_FILE>) {
           and $required_fields_annot{"phi_base_acc"} ne ""
           and $required_fields_annot{"accession"} ne ""
           and $required_fields_annot{"gene_name"} ne ""
-          and $required_fields_annot{"host_tax"} ne ""
+          and $required_fields_annot{"host_tax"} =~ /^\d+$/  # taxon ID must be an integer
           and $required_fields_annot{"literature_id"} ne ""
           and $required_fields_annot{"entered_by"} ne ""
           and $required_fields_annot{"db_type"} eq "Uniprot"
           and lc $required_fields_annot{"literature_source"} eq "pubmed"
+          #and $required_fields_annot{"patho_tax"} =~ /^\d+$/  # taxon ID must be an integer) {
           and $required_fields_annot{"patho_tax"} == 5518 ) {
 
         # add the required fields of the current annotation to the fusarium hash
@@ -292,10 +293,10 @@ while (<TSV_FILE>) {
 	# insert data into the pathogen_gene table,
         # if it does not exist already (based on combination of taxon id and gene name)
 	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name) 
-			        SELECT '$required_fields_annot{"patho_tax"}','$required_fields_annot{"gene_name"}'
+			        SELECT $required_fields_annot{"patho_tax"},'$required_fields_annot{"gene_name"}'
                                 WHERE NOT EXISTS (
                                   SELECT 1 FROM pathogen_gene
-                                  WHERE ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                  WHERE ncbi_taxon_id = $required_fields_annot{"patho_tax"}
                                   AND gene_name = '$required_fields_annot{"gene_name"}'
                                ));
 
@@ -304,22 +305,22 @@ while (<TSV_FILE>) {
 
 	# get the unique identifier for the inserted pathogen_gene record
         my $sql_statement4 = qq(SELECT id FROM pathogen_gene
-                                WHERE ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                WHERE ncbi_taxon_id = $required_fields_annot{"patho_tax"}
                                 AND gene_name = '$required_fields_annot{"gene_name"}');
 
 	my $sql_result4 = $db_conn->prepare($sql_statement4);
 	$sql_result4->execute() or die $DBI::errstr;
 	my @row4 = $sql_result4->fetchrow_array();
-	my $pathogen_gene_id = $row4[0];
+	my $pathogen_gene_id = shift @row4;
 
         # insert data into pathogen_gene_mutant table, including foreign key to pathogen_gene table 
 	my $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
-			         SELECT $pathogen_gene_id,'$required_fields_annot{"patho_tax"}',
+			         SELECT $pathogen_gene_id,$required_fields_annot{"patho_tax"},
                                         '$required_fields_annot{"accession"}'
                                  WHERE NOT EXISTS (
                                    SELECT 1 FROM pathogen_gene_mutant
 			           WHERE pathogen_gene_id = $pathogen_gene_id
-                                   AND ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                   AND ncbi_taxon_id = $required_fields_annot{"patho_tax"}
                                    AND uniprot_accession = '$required_fields_annot{"accession"}'
                                  )
                                );
@@ -330,13 +331,13 @@ while (<TSV_FILE>) {
 	# get the unique identifier for the inserted pathogen_gene_mutant record
         my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
 			        WHERE pathogen_gene_id = $pathogen_gene_id
-                                AND ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                AND ncbi_taxon_id = $required_fields_annot{"patho_tax"}
                                 AND uniprot_accession = '$required_fields_annot{"accession"}');
 
 	my $sql_result5 = $db_conn->prepare($sql_statement5);
 	$sql_result5->execute() or die $DBI::errstr;
 	my @row5 = $sql_result5->fetchrow_array();
-	my $pathogen_gene_mutant_id = $row5[0];
+	my $pathogen_gene_mutant_id = shift @row5;
 
         # before inserting a new interaction, we need to find out if the current PHI-base accession
         # should be part of an existing interaction (i.e. in a multiple mutation)
@@ -378,13 +379,13 @@ while (<TSV_FILE>) {
                    FROM interaction, interaction_host
                    WHERE interaction.phi_base_accession = '$fusarium_gram_data{$multi_mut_phi_acc_num}{"phi_base_acc"}'
                    AND interaction.id = interaction_host.interaction_id
-                   AND interaction_host.ncbi_taxon_id = '$required_fields_annot{"host_tax"}'
+                   AND interaction_host.ncbi_taxon_id = $required_fields_annot{"host_tax"}
                  ;);
           # print "\n$sql_query\n";
           my $sql_stmt = $db_conn->prepare($sql_query);
           $sql_stmt->execute() or die $DBI::errstr;
 	  my @mult_mut_row = $sql_stmt->fetchrow_array();
-	  my $mult_mut_interaction_id = $mult_mut_row[0];
+	  my $mult_mut_interaction_id = shift @mult_mut_row;
 
           if ( $mult_mut_interaction_id and $pathogen_gene_mutant_id ) {
 	     print "Mult Mutant Partner Interaction ID: ".$mult_mut_interaction_id."\n";
@@ -412,10 +413,10 @@ while (<TSV_FILE>) {
 	  my $sql_result1 = $db_conn->prepare($sql_statement1);
 	  $sql_result1->execute() or die $DBI::errstr;
 	  my @row1 = $sql_result1->fetchrow_array();
-	  my $interaction_id = $row1[0];
+	  my $interaction_id = shift @row1;
 
           # insert record to reference back to old phibase accession
-          my $sql_statement6 = qq(INSERT INTO obsolete_reference (phi_base_accession,obsolete_accession)
+          my $sql_statement6 = qq(INSERT INTO obsolete (phi_base_accession,obsolete_accession)
                                     VALUES ('$phi_base_accession','$required_fields_annot{"phi_base_acc"}');
                                  );
 	  my $sql_result6 = $db_conn->prepare($sql_statement6);
@@ -428,7 +429,7 @@ while (<TSV_FILE>) {
 		  		          INSERT INTO interaction_literature (interaction_id,pubmed_id) 
 					    VALUES ($interaction_id,'$required_fields_annot{"literature_id"}');
 				          INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
-				            VALUES ($interaction_id,'$required_fields_annot{"host_tax"}');
+				            VALUES ($interaction_id,$required_fields_annot{"host_tax"});
 				          INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
 					    VALUES ($interaction_id,'$pathogen_gene_mutant_id');
 				         );
@@ -494,10 +495,10 @@ while (<TSV_FILE>) {
 	  if (defined $curator_id and $curator_id ne "" and $curator_id ne "na") {
              $species_expert_count++;
   	     $sql_statement = qq(INSERT INTO species_expert (ncbi_taxon_id, curator_id)
-                                 SELECT '$required_fields_annot{"patho_tax"}', $curator_id
+                                 SELECT $required_fields_annot{"patho_tax"}, $curator_id
                                  WHERE NOT EXISTS (
                                      SELECT 1 FROM species_expert
-                                     WHERE ncbi_taxon_id = '$required_fields_annot{"patho_tax"}'
+                                     WHERE ncbi_taxon_id = $required_fields_annot{"patho_tax"}
                                      AND curator_id = $curator_id
                                    )
                                 );
@@ -589,7 +590,7 @@ while (<TSV_FILE>) {
             my @go_annotations = split(";",$go_annot_string);
 
             # for each GO annotation, need to get the GO ID and the evidence code,
-            # then insert an interaction_go_term record for this GO annotation
+            # then insert an interaction_go_annotation record for this GO annotation
             foreach my $go_annotation (@go_annotations) {
 
                $go_annotation_count++;
@@ -614,9 +615,9 @@ while (<TSV_FILE>) {
 
                if (defined $go_evid_code and $go_evid_code ne "") {
 
-                  # insert data into interaction_go_term table,
+                  # insert data into interaction_go_annotation table,
                   # with foreign keys to the interaction table and the go_evidence_code_table 
-	          $sql_statement = qq(INSERT INTO interaction_go_term (interaction_id, go_id, go_evidence_code)
+	          $sql_statement = qq(INSERT INTO interaction_go_annotation (interaction_id, go_id, go_evidence_code)
                                         VALUES ($interaction_id, '$go_id', '$go_evid_code');
                                      );
 	          $sql_result = $db_conn->prepare($sql_statement);
@@ -633,9 +634,9 @@ while (<TSV_FILE>) {
 
                } else { # GO evidence code not supplied
 
-                  # insert data into interaction_go_term table,
+                  # insert data into interaction_go_annotation table,
                   # with foreign key to the interaction table, but without GO evidence code 
-	          $sql_statement = qq(INSERT INTO interaction_go_term (interaction_id, go_id)
+	          $sql_statement = qq(INSERT INTO interaction_go_annotation (interaction_id, go_id)
                                         VALUES ($interaction_id, '$go_id');
                                      );
 	          $sql_result = $db_conn->prepare($sql_statement);
@@ -839,7 +840,7 @@ while (<TSV_FILE>) {
 
                 my $sql_statement = qq(SELECT id FROM interaction_host
                                          WHERE interaction_id = $interaction_id
-                                         AND ncbi_taxon_id = '$required_fields_annot{"host_tax"}'
+                                         AND ncbi_taxon_id = $required_fields_annot{"host_tax"}
                                       );
 
 	        my $sql_result = $db_conn->prepare($sql_statement);
@@ -898,9 +899,10 @@ while (<TSV_FILE>) {
                 # insert data into the appropriate pathogen_gene_mutant table,
                 # with for a foreign key to the phenotype_outcome ontology
                 $phenotype_outcome_term_count++;
-	        $sql_statement = qq(UPDATE pathogen_gene_mutant 
+	        $sql_statement = qq(UPDATE interaction_pathogen_gene_mutant 
                                       SET phenotype_outcome_id = '$phenotype_outcome_id'
-                                      WHERE id = $pathogen_gene_mutant_id;
+                                      WHERE interaction_id = $interaction_id
+                                      AND pathogen_gene_mutant_id = $pathogen_gene_mutant_id;
                                    );
 	        $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
                 print PHEN_OUTCOME_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$phenotype_outcome_string\t$phenotype_outcome_id\n";
@@ -1045,10 +1047,10 @@ close (SPECIES_FILE);
 
 # retrieve all of the data inserted into the relevant tables of phibase
 # and save the file in a tab-delimited file, with appropriate headings
-my $sql_query = qq(SELECT * FROM interaction, obsolete_reference, interaction_pathogen_gene_mutant, 
+my $sql_query = qq(SELECT * FROM interaction, obsolete, interaction_pathogen_gene_mutant, 
                      pathogen_gene_mutant, pathogen_gene, interaction_literature, interaction_host,
                      interaction_curator, curator, curation_organisation, species_expert
-                   WHERE interaction.phi_base_accession = obsolete_reference.phi_base_accession 
+                   WHERE interaction.phi_base_accession = obsolete.phi_base_accession 
                      AND interaction.id = interaction_pathogen_gene_mutant.interaction_id
                      AND pathogen_gene_mutant.id = interaction_pathogen_gene_mutant.pathogen_gene_mutant_id
                      AND pathogen_gene.id = pathogen_gene_mutant.pathogen_gene_id

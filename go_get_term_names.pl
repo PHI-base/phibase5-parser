@@ -10,7 +10,7 @@ use phibase_subroutines qw(connect_to_phibase); # load PHI-base functions
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
 # run query to get all GO IDs from PHI-base
-my $sql_query = qq(SELECT DISTINCT go_id FROM interaction_go_term;);
+my $sql_query = qq(SELECT DISTINCT go_id FROM interaction_go_annotation;);
 my $sql_stmt = $db_conn->prepare($sql_query);
 my $sql_result = $sql_stmt->execute() or die $DBI::errstr;
 

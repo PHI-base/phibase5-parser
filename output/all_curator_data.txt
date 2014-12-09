@@ -1,170 +1,170 @@
-Curator ID	RO
-Name	Richard Oliver
-Organisation	
-ID	RO
-
-Curator ID	HH
-Organisation	
-Name	Hilde Hansen
-ID	HH
-
-Curator ID	AB
-ID	AB
-Organisation	
-Name	Andrew Beacham
-
-Curator ID	PR
-Name	Pam Ronald
-Organisation	
-ID	PR
-
-Curator ID	RM
-ID	RM
-Name	Ros Marshall
-Organisation	
-
-Curator ID	RK
-Name	Roland Krause
-Organisation	
-ID	RK
-
-Curator ID	JR
-Organisation	
-Name	Jason Rudd
-ID	JR
-
-Curator ID	SD
-ID	SD
-Organisation	
-Name	Sian Deller
-
-Curator ID	ND
-Organisation	
-Name	Noemie Desmenceux
-ID	ND
-
-Curator ID	TKB
-ID	TKB
-Name	Thomas Baldwin
-Organisation	
-
-Curator ID	ML
-Name	Magdalen Lindeberg
-Organisation	
-ID	ML
-
-Curator ID	JA
-ID	JA
-Organisation	
-Name	John Antoniw
-
-Curator ID	DG
-ID	DG
-Name	Donald Gardiner
-Organisation	
-
-Curator ID	DS
-Name	Darren Soanes
-Organisation	
-ID	DS
-
-Curator ID	KM
-Organisation	
-Name	Kerry Maguire
-ID	KM
-
-Curator ID	RP
-Organisation	Molecular Connections
-Name	Rashmi Pant
-ID	RP
-
-Curator ID	JVK
-Organisation	
-Name	Jan van Kan
-ID	JVK
-
-Curator ID	MHK
-Name	Michael Hammond-Kosack
-Organisation	Rothamsted Research
-ID	MHK
-
-Curator ID	MU
-Name	Martin Urban
-Organisation	Rothamsted Research
-ID	MU
-
-Curator ID	HJ
-Name	Helen Jenkins
-Organisation	Rothamsted Research
-ID	HJ
-
-Curator ID	AI
-ID	AI
-Name	Alexander Idnurm
-Organisation	
-
-Curator ID	KHK
-Organisation	Rothamsted Research
-Name	Kim Hammond-Kosack
-ID	KHK
-
-Curator ID	NB
-Organisation	
-Name	Neil Brown
-ID	NB
-
-Curator ID	HJC
-ID	HJC
-Organisation	
-Name	Hans Cools
-
 Curator ID	AR
-Organisation	Molecular Connections
 Name	Arathi Raghunath
 ID	AR
+Organisation	Molecular Connections
 
-Curator ID	SK
-ID	SK
-Name	Sophien Kamoun
+Curator ID	BH
+ID	BH
+Name	Barbara Howlett
 Organisation	
 
-Curator ID	AS
+Curator ID	RO
 Organisation	
-Name	Ane Sesma
-ID	AS
+ID	RO
+Name	Richard Oliver
+
+Curator ID	DS
+Organisation	
+Name	Darren Soanes
+ID	DS
+
+Curator ID	HH
+Name	Hilde Hansen
+ID	HH
+Organisation	
+
+Curator ID	AI
+Organisation	
+Name	Alexander Idnurm
+ID	AI
 
 Curator ID	AGI
 Organisation	Rothamsted Research
 Name	Alistair Irvine
 ID	AGI
 
-Curator ID	MC
-Name	Molecular Connections
-Organisation	Molecular Connections
-ID	MC
-
-Curator ID	JK
-Name	John Keon
+Curator ID	DG
 Organisation	
-ID	JK
-
-Curator ID	BH
-Organisation	
-Name	Barbara Howlett
-ID	BH
-
-Curator ID	BO
-Organisation	
-Name	Birgit Oeser
-ID	BO
+ID	DG
+Name	Donald Gardiner
 
 Curator ID	AC
 Organisation	Rothamsted Research
 Name	Alayne Cuzick
 ID	AC
 
-Curator ID	SH
+Curator ID	SK
 Organisation	
+Name	Sophien Kamoun
+ID	SK
+
+Curator ID	MC
+ID	MC
+Name	Molecular Connections
+Organisation	Molecular Connections
+
+Curator ID	KHK
+Organisation	Rothamsted Research
+ID	KHK
+Name	Kim Hammond-Kosack
+
+Curator ID	KM
+ID	KM
+Name	Kerry Maguire
+Organisation	
+
+Curator ID	TKB
+Organisation	
+ID	TKB
+Name	Thomas Baldwin
+
+Curator ID	PR
+ID	PR
+Name	Pam Ronald
+Organisation	
+
+Curator ID	MHK
+Organisation	Rothamsted Research
+Name	Michael Hammond-Kosack
+ID	MHK
+
+Curator ID	BO
+Organisation	
+Name	Birgit Oeser
+ID	BO
+
+Curator ID	AS
+Organisation	
+ID	AS
+Name	Ane Sesma
+
+Curator ID	RM
+Organisation	
+Name	Ros Marshall
+ID	RM
+
+Curator ID	JK
+Organisation	
+Name	John Keon
+ID	JK
+
+Curator ID	JA
+ID	JA
+Name	John Antoniw
+Organisation	
+
+Curator ID	SD
+Organisation	
+ID	SD
+Name	Sian Deller
+
+Curator ID	JVK
+Organisation	
+Name	Jan van Kan
+ID	JVK
+
+Curator ID	JR
+Name	Jason Rudd
+ID	JR
+Organisation	
+
+Curator ID	ML
+Name	Magdalen Lindeberg
+ID	ML
+Organisation	
+
+Curator ID	RP
+Organisation	Molecular Connections
+Name	Rashmi Pant
+ID	RP
+
+Curator ID	SH
 Name	Sabrina Holland
 ID	SH
+Organisation	
+
+Curator ID	AB
+Organisation	
+Name	Andrew Beacham
+ID	AB
+
+Curator ID	HJC
+ID	HJC
+Name	Hans Cools
+Organisation	
+
+Curator ID	ND
+Organisation	
+ID	ND
+Name	Noemie Desmenceux
+
+Curator ID	MU
+Name	Martin Urban
+ID	MU
+Organisation	Rothamsted Research
+
+Curator ID	RK
+Name	Roland Krause
+ID	RK
+Organisation	
+
+Curator ID	NB
+Organisation	
+ID	NB
+Name	Neil Brown
+
+Curator ID	HJ
+Organisation	Rothamsted Research
+ID	HJ
+Name	Helen Jenkins
 
