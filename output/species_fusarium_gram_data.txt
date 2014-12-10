@@ -1,3 +1,99 @@
+PHI:5
+accession	Q8J181
+db_type	Uniprot
+entered_by	MU
+gene_name	Avr1-CO39
+host_tax	4530
+literature_id	2016048
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:5
+
+PHI:10
+accession	B8RCU0
+db_type	Uniprot
+entered_by	MU
+gene_name	BE
+host_tax	4577
+literature_id	1739973
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:10
+
+PHI:11
+accession	Q99111
+db_type	Uniprot
+entered_by	MU
+gene_name	BW
+host_tax	4577
+literature_id	1739973
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:11
+
+PHI:13
+accession	Q04701
+db_type	Uniprot
+entered_by	MU
+gene_name	PELA
+host_tax	3888
+literature_id	1400187
+literature_source	PubMed
+multiple_mutation	
+patho_tax	140110
+phi_base_acc	PHI:13
+
+PHI:16
+accession	P41801
+db_type	Uniprot
+entered_by	TKB
+gene_name	parA1
+host_tax	4113
+literature_id	8274771
+literature_source	PubMed
+multiple_mutation	
+patho_tax	4792
+phi_base_acc	PHI:16
+
+PHI:23
+accession	P49605
+db_type	Uniprot
+entered_by	MU
+gene_name	UBC1
+host_tax	4577
+literature_id	7995519
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:23
+
+PHI:193
+accession	Q99078
+db_type	Uniprot
+entered_by	MU
+gene_name	UBC5 (FUZ7)
+host_tax	4577
+literature_id	10875339
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:193
+
+PHI:284
+accession	O59892
+db_type	Uniprot
+entered_by	TKB
+gene_name	CHK1
+host_tax	10090
+literature_id	12689636
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:284
+
 PHI:355
 accession	I1RNS1
 db_type	Uniprot
@@ -9,6 +105,78 @@ literature_source	PubMed
 multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:355
+
+PHI:421
+accession	Q9C0N4
+db_type	Uniprot
+entered_by	TKB
+gene_name	SOD1 (SOD2) Double Mutant
+host_tax	10090
+literature_id	15752200 
+literature_source	PubMed
+multiple_mutation	
+patho_tax	37769
+phi_base_acc	PHI:421
+
+PHI:448
+accession	F5HEA9
+db_type	Uniprot
+entered_by	TKB; AC
+gene_name	MAK2
+host_tax	4564
+literature_id	16028107
+literature_source	PubMed
+multiple_mutation	
+patho_tax	13684
+phi_base_acc	PHI:448
+
+PHI:487
+accession	O94196
+db_type	Uniprot
+entered_by	TKB
+gene_name	MHP1
+host_tax	4530
+literature_id	16101997
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:487
+
+PHI:495
+accession	E9NYS9
+db_type	Uniprot
+entered_by	TKB
+gene_name	PPOB
+host_tax	10090
+literature_id	16040966
+literature_source	PubMed
+multiple_mutation	PHI:494; PHI:496
+patho_tax	746128
+phi_base_acc	PHI:495
+
+PHI:498
+accession	Q56R42
+db_type	Uniprot
+entered_by	TKB; KHK
+gene_name	PBS2
+host_tax	10090
+literature_id	15728721
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5207
+phi_base_acc	PHI:498
+
+PHI:596
+accession	B6VCT7
+db_type	Uniprot
+entered_by	AB; MU
+gene_name	ATG8
+host_tax	4530
+literature_id	16645096
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:596
 
 PHI:712
 accession	I1RF62
@@ -82,18 +250,6 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:722
 
-PHI:723
-accession	FGSG_03340 
-db_type	Uniprot
-entered_by	AB
-gene_name	PKS1
-host_tax	4564
-literature_id	16278459
-literature_source	PubMed
-multiple_mutation	
-patho_tax	5518
-phi_base_acc	PHI:723
-
 PHI:727
 accession	I1RHS7
 db_type	Uniprot
@@ -130,6 +286,150 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:733
 
+PHI:747
+accession	Q4PHG8
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um00445
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:747
+
+PHI:748
+accession	Q4PHG7
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um00446
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:748
+
+PHI:749
+accession	G3CJZ9
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01234
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:749
+
+PHI:750
+accession	G3CK30
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01235
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:750
+
+PHI:751
+accession	G3CJZ1
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01236
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:751
+
+PHI:752
+accession	G3CK22
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01237
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:752
+
+PHI:753
+accession	G3CK43
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01238
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:753
+
+PHI:754
+accession	G3CK14
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01239
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:754
+
+PHI:755
+accession	G3CJY5
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01240
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:755
+
+PHI:756
+accession	G3CK16
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01241
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:756
+
+PHI:757
+accession	Q4PF16
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01297
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:757
+
+PHI:768
+accession	Q51MW4
+db_type	Uniprot
+entered_by	KHK
+gene_name	ATG8
+host_tax	4530
+literature_id	16645096
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:768
+
 PHI:861
 accession	I1S095
 db_type	Uniprot
@@ -141,6 +441,750 @@ literature_source	PubMed
 multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:861
+
+PHI:896
+accession	Q4PF15
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01298
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:896
+
+PHI:897
+accession	Q4PF14
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01299
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:897
+
+PHI:898
+accession	Q4PF13
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01300
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:898
+
+PHI:899
+accession	Q4PF12
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01301
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:899
+
+PHI:900
+accession	Q4PF11
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01302
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:900
+
+PHI:901
+accession	Q4PDC7
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01886
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:901
+
+PHI:903
+accession	Q4PDC5
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um01888
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:903
+
+PHI:904
+accession	Q4PCH1
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02192
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:904
+
+PHI:905
+accession	Q4PCH0
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02193
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:905
+
+PHI:906
+accession	Q4PCG9
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02194
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:906
+
+PHI:907
+accession	Q4PBP0
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02473
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:907
+
+PHI:908
+accession	Q4PBN9
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02474
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:908
+
+PHI:909
+accession	Q4PBN8
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02475
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:909
+
+PHI:910
+accession	Q4PBI0
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02533
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:910
+
+PHI:912
+accession	Q4PBH8
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02535
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:912
+
+PHI:914
+accession	Q4PBH6
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02537
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:914
+
+PHI:915
+accession	Q4PBH5
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02538
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:915
+
+PHI:917
+accession	Q4PBH3
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um02540
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:917
+
+PHI:918
+accession	Q4P9L2
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03201
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:918
+
+PHI:919
+accession	Q4P9L1
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03202
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:919
+
+PHI:921
+accession	Q4P8E9
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03614
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:921
+
+PHI:922
+accession	Q4P8E8
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03615
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:922
+
+PHI:923
+accession	Q4P8E7
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03616
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:923
+
+PHI:924
+accession	Q4P819
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03744
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:924
+
+PHI:925
+accession	Q4P818
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03745
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:925
+
+PHI:926
+accession	Q4P817
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03746
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:926
+
+PHI:927
+accession	Q4P816
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03747
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:927
+
+PHI:928
+accession	Q4P815
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03748
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:928
+
+PHI:929
+accession	Q4P814
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03749
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:929
+
+PHI:930
+accession	Q4P813
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03750
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:930
+
+PHI:931
+accession	Q4P812
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03751
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:931
+
+PHI:932
+accession	Q4P811
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03752
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:932
+
+PHI:933
+accession	Q4P810
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um03753
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:933
+
+PHI:934
+accession	G0X877
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05294
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:934
+
+PHI:935
+accession	G0X863
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05295
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:935
+
+PHI:936
+accession	G0X7F0
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um12302
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:936
+
+PHI:937
+accession	G0X7P5
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um10553
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:937
+
+PHI:938
+accession	G0X7N7
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um10554
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:938
+
+PHI:939
+accession	G0X854
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05299
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:939
+
+PHI:940
+accession	G0X847
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05300
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:940
+
+PHI:941
+accession	G3CK64
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05301
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:941
+
+PHI:942
+accession	G0X840
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05302
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:942
+
+PHI:943
+accession	G0X828
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05303
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:943
+
+PHI:944
+accession	G0X7M7
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um10555
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:944
+
+PHI:945
+accession	G0X815
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05305
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:945
+
+PHI:946
+accession	G0X806
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05306
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:946
+
+PHI:947
+accession	G0X7L8
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um10556
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:947
+
+PHI:948
+accession	G0X801
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05308
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:948
+
+PHI:949
+accession	G3CK59
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05309
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:949
+
+PHI:950
+accession	G0X7Z5
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05310
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:950
+
+PHI:951
+accession	G0X7Y7
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05311
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:951
+
+PHI:952
+accession	G0X7X3
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05312
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:952
+
+PHI:953
+accession	G0X7W8
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05313
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:953
+
+PHI:954
+accession	G0X7V8
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05314
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:954
+
+PHI:955
+accession	G0X7K9
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um10557
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:955
+
+PHI:956
+accession	G0X7U3
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05316
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:956
+
+PHI:957
+accession	G0X7T6
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05317
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:957
+
+PHI:958
+accession	G0X7S7
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05318
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:958
+
+PHI:959
+accession	G0X7S0
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um05319
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:959
+
+PHI:960
+accession	Q4P0Z2
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um06221
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:960
+
+PHI:961
+accession	Q4P0Z1
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um06222
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:961
+
+PHI:962
+accession	Q4P0Z0
+db_type	Uniprot
+entered_by	KHK; MU
+gene_name	um06223
+host_tax	4577
+literature_id	17080091
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:962
 
 PHI:1004
 accession	I1RZQ2
@@ -238,17 +1282,41 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:1015
 
-PHI:1016
-accession	FG05484
+PHI:1017
+accession	G4NDE1
 db_type	Uniprot
-entered_by	AB; AC
-gene_name	STE11
-host_tax	4081
-literature_id	17253976
+entered_by	MU
+gene_name	ABC4
+host_tax	112509
+literature_id	18034832
 literature_source	Pubmed
 multiple_mutation	
-patho_tax	5518
-phi_base_acc	PHI:1016
+patho_tax	148305
+phi_base_acc	PHI:1017
+
+PHI:1018
+accession	Q3Y5V5
+db_type	Uniprot
+entered_by	MU
+gene_name	ABC3
+host_tax	112509
+literature_id	17189344
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:1018
+
+PHI:1020
+accession	A8QJI7
+db_type	Uniprot
+entered_by	AB
+gene_name	XlnR
+host_tax	4081
+literature_id	17722701
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1020
 
 PHI:1078
 accession	I1RRG0
@@ -285,6 +1353,18 @@ literature_source	PubMed
 multiple_mutation	PHI:2350
 patho_tax	5518
 phi_base_acc	PHI:1080
+
+PHI:1084
+accession	Q0UGB6
+db_type	Uniprot
+entered_by	AB; AC
+gene_name	CpkC
+host_tax	4564
+literature_id	17020577
+literature_source	PubMed
+multiple_mutation	
+patho_tax	13684
+phi_base_acc	PHI:1084
 
 PHI:1086
 accession	I1RA89
@@ -441,6 +1521,114 @@ literature_source	PubMed
 multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1098
+
+PHI:1101
+accession	J9MB32
+db_type	Uniprot
+entered_by	AB
+gene_name	FOXG_00076
+host_tax	4082
+literature_id	19161356
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1101
+
+PHI:1102
+accession	J9MB32
+db_type	Uniprot
+entered_by	AB
+gene_name	FOXG_00076
+host_tax	3750
+literature_id	19161356
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1102
+
+PHI:1103
+accession	J9MHC1
+db_type	Uniprot
+entered_by	AB
+gene_name	FOXG_02277
+host_tax	4082
+literature_id	19161356
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1103
+
+PHI:1104
+accession	J9MHC1
+db_type	Uniprot
+entered_by	AB
+gene_name	FOXG_02277
+host_tax	3750
+literature_id	19161356
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1104
+
+PHI:1105
+accession	J9N0G7
+db_type	Uniprot
+entered_by	AB
+gene_name	FOXG_08661
+host_tax	4082
+literature_id	19161356
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1105
+
+PHI:1106
+accession	J9N0G7
+db_type	Uniprot
+entered_by	AB
+gene_name	FOXG_08661
+host_tax	3750
+literature_id	19161356
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1106
+
+PHI:1107
+accession	J9MAX2
+db_type	Uniprot
+entered_by	AB
+gene_name	FOXG_00016
+host_tax	4082
+literature_id	19161356
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1107
+
+PHI:1108
+accession	J9MAX2
+db_type	Uniprot
+entered_by	AB
+gene_name	FOXG_00016
+host_tax	3750
+literature_id	19161356
+literature_source	PubMed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:1108
+
+PHI:1161
+accession	A4ZGP3
+db_type	Uniprot
+entered_by	AC
+gene_name	MgMfs1
+host_tax	4564
+literature_id	17107817
+literature_source	PubMed
+multiple_mutation	
+patho_tax	54734
+phi_base_acc	PHI:1161
 
 PHI:1168
 accession	I1RCN2
@@ -1005,18 +2193,6 @@ literature_source	Pubmed
 multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:1216
-
-PHI:1217
-accession	1S4P4
-db_type	Uniprot
-entered_by	MU
-gene_name	FGSG_00792
-host_tax	4564
-literature_id	22216007
-literature_source	Pubmed
-multiple_mutation	
-patho_tax	5518
-phi_base_acc	PHI:1217
 
 PHI:1218
 accession	I1RAY2
@@ -1870,6 +3046,654 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:1289
 
+PHI:2014
+accession	B9WZW9
+db_type	Uniprot
+entered_by	RP
+gene_name	AVR-Pia
+host_tax	4530
+literature_id	17115220
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2014
+
+PHI:2025
+accession	G4MQZ9
+db_type	Uniprot
+entered_by	RP
+gene_name	HDL1
+host_tax	4530
+literature_id	17506326
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2025
+
+PHI:2027
+accession	G4NJL1
+db_type	Uniprot
+entered_by	RP
+gene_name	TGL1-1
+host_tax	4530
+literature_id	17506326
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2027
+
+PHI:2028
+accession	G4NBI7
+db_type	Uniprot
+entered_by	RP
+gene_name	TGL1-2
+host_tax	4530
+literature_id	17506326
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2028
+
+PHI:2029
+accession	G4NEK6
+db_type	Uniprot
+entered_by	RP
+gene_name	TGL2
+host_tax	4530
+literature_id	17506326
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2029
+
+PHI:2030
+accession	G4N492
+db_type	Uniprot
+entered_by	RP
+gene_name	TGL3-1
+host_tax	4530
+literature_id	17506326
+literature_source	Pubmed
+multiple_mutation	PHI:2031
+patho_tax	148305
+phi_base_acc	PHI:2030
+
+PHI:2032
+accession	G4NGA7
+db_type	Uniprot
+entered_by	RP
+gene_name	VTL1
+host_tax	4530
+literature_id	17506326
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2032
+
+PHI:2033
+accession	G4NBI6
+db_type	Uniprot
+entered_by	RP
+gene_name	MgPex6
+host_tax	4530
+literature_id	17506326
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2033
+
+PHI:2034
+accession	G4MZY1
+db_type	Uniprot
+entered_by	RP
+gene_name	MFP1
+host_tax	4530
+literature_id	17506326
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2034
+
+PHI:2063
+accession	G4N168
+db_type	Uniprot
+entered_by	AR
+gene_name	MCNA
+host_tax	4530
+literature_id	19190403
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2063
+
+PHI:2064
+accession	C6ZEZ6
+db_type	Uniprot
+entered_by	AR
+gene_name	AvrPiz-t
+host_tax	4530
+literature_id	19271956
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2064
+
+PHI:2065
+accession	Q4R1B9
+db_type	Uniprot
+entered_by	AR
+gene_name	MSTU1
+host_tax	112509
+literature_id	19337737
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2065
+
+PHI:2066
+accession	Q51WZ9
+db_type	Uniprot
+entered_by	AR
+gene_name	MgAtg9
+host_tax	4530
+literature_id	19556868
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2066
+
+PHI:2117
+accession	P58371
+db_type	Uniprot
+entered_by	AR
+gene_name	SPM1
+host_tax	112509
+literature_id	19765082
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2117
+
+PHI:2123
+accession	C6KEF4
+db_type	Uniprot
+entered_by	RP
+gene_name	MGSTE11p
+host_tax	4564
+literature_id	19520179
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	54734
+phi_base_acc	PHI:2123
+
+PHI:2124
+accession	C5MK57
+db_type	Uniprot
+entered_by	RP
+gene_name	MGSTE7p
+host_tax	4564
+literature_id	19520179
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	54734
+phi_base_acc	PHI:2124
+
+PHI:2125
+accession	C6K2F1
+db_type	Uniprot
+entered_by	RP
+gene_name	MGSTE50p
+host_tax	4564
+literature_id	19520179
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	54734
+phi_base_acc	PHI:2125
+
+PHI:2126
+accession	C5J0G7
+db_type	Uniprot
+entered_by	RP
+gene_name	MGSTE12p
+host_tax	4564
+literature_id	19520179
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	54734
+phi_base_acc	PHI:2126
+
+PHI:2127
+accession	C6KEF5
+db_type	Uniprot
+entered_by	RP
+gene_name	MGSTE20p
+host_tax	4564
+literature_id	19520179
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	54734
+phi_base_acc	PHI:2127
+
+PHI:2135
+accession	B9WZW9
+db_type	Uniprot
+entered_by	AR
+gene_name	AVR-Pia
+host_tax	4530
+literature_id	19454732
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2135
+
+PHI:2136
+accession	C4B8B7
+db_type	Uniprot
+entered_by	AR
+gene_name	AVR-Pii
+host_tax	4530
+literature_id	19454732
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2136
+
+PHI:2137
+accession	C4B8B9
+db_type	Uniprot
+entered_by	AR
+gene_name	AVR-Pikp
+host_tax	4530
+literature_id	19454732
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2137
+
+PHI:2150
+accession	C1KJI7
+db_type	Uniprot
+entered_by	AR
+gene_name	AVR-Pita1
+host_tax	4530
+literature_id	20435900
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2150
+
+PHI:2151
+accession	B9A9V1
+db_type	Uniprot
+entered_by	AR
+gene_name	PWL1
+host_tax	38414
+literature_id	20435900
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2151
+
+PHI:2152
+accession	Q01144
+db_type	Uniprot
+entered_by	AR
+gene_name	PWL2
+host_tax	38414
+literature_id	20435900
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2152
+
+PHI:2155
+accession	B8Q8Z5
+db_type	Uniprot
+entered_by	AR
+gene_name	MoPEX7
+host_tax	4530
+literature_id	22194815
+literature_source	PubMed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2155
+
+PHI:2233
+accession	Q4P5N0
+db_type	Uniprot
+entered_by	RP
+gene_name	Smu1
+host_tax	4577
+literature_id	21622903
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2233
+
+PHI:2234
+accession	Q4P2D2
+db_type	Uniprot
+entered_by	RP
+gene_name	Cmu1
+host_tax	4577
+literature_id	21976020
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2234
+
+PHI:2235
+accession	Q4P9P1
+db_type	Uniprot
+entered_by	RP
+gene_name	Pit1
+host_tax	4577
+literature_id	21692877
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2235
+
+PHI:2236
+accession	Q4P9P1
+db_type	Uniprot
+entered_by	RP
+gene_name	Pit2
+host_tax	4577
+literature_id	21692877
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2236
+
+PHI:2237
+accession	Q4P9P1
+db_type	Uniprot
+entered_by	RP
+gene_name	Rbf1
+host_tax	4577
+literature_id	20700446
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2237
+
+PHI:2239
+accession	Q4P245
+db_type	Uniprot
+entered_by	RP
+gene_name	Spe-Sdh
+host_tax	4577
+literature_id	19624748
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2239
+
+PHI:2240
+accession	Q4PBY9
+db_type	Uniprot
+entered_by	RP
+gene_name	Srt1
+host_tax	4577
+literature_id	20161717
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2240
+
+PHI:2255
+accession	Q0U2A0
+db_type	Uniprot
+entered_by	AR
+gene_name	Abd1
+host_tax	4564
+literature_id	18796335
+literature_source	PubMed
+multiple_mutation	PHI:2256
+patho_tax	13684
+phi_base_acc	PHI:2255
+
+PHI:2256
+accession	Q0UA24
+db_type	Uniprot
+entered_by	AR
+gene_name	Xdh1
+host_tax	4564
+literature_id	18796335
+literature_source	PubMed
+multiple_mutation	PHI:2255
+patho_tax	13684
+phi_base_acc	PHI:2256
+
+PHI:2257
+accession	Q0UHM8
+db_type	Uniprot
+entered_by	AR
+gene_name	Pbl1
+host_tax	4564
+literature_id	22145589
+literature_source	PubMed
+multiple_mutation	
+patho_tax	13684
+phi_base_acc	PHI:2257
+
+PHI:2258
+accession	G8DNT2
+db_type	Uniprot
+entered_by	AR
+gene_name	PPT1
+host_tax	112509
+literature_id	22023083
+literature_source	PubMed
+multiple_mutation	
+patho_tax	45130
+phi_base_acc	PHI:2258
+
+PHI:2259
+accession	G8DNT1
+db_type	Uniprot
+entered_by	AR
+gene_name	AAR1
+host_tax	112509
+literature_id	22023083
+literature_source	PubMed
+multiple_mutation	
+patho_tax	45130
+phi_base_acc	PHI:2259
+
+PHI:2260
+accession	G8DNT0
+db_type	Uniprot
+entered_by	AR
+gene_name	PKS1
+host_tax	112509
+literature_id	22023083
+literature_source	PubMed
+multiple_mutation	
+patho_tax	45130
+phi_base_acc	PHI:2260
+
+PHI:2261
+accession	G8DNS9
+db_type	Uniprot
+entered_by	AR
+gene_name	NPS6
+host_tax	112509
+literature_id	22023083
+literature_source	PubMed
+multiple_mutation	
+patho_tax	45130
+phi_base_acc	PHI:2261
+
+PHI:2263
+accession	Q0U086
+db_type	Uniprot
+entered_by	RP
+gene_name	StuA
+host_tax	4564
+literature_id	20495056
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	13684
+phi_base_acc	PHI:2263
+
+PHI:2265
+accession	Q0UF61
+db_type	Uniprot
+entered_by	RP
+gene_name	Tps1
+host_tax	4564
+literature_id	19233304
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	13684
+phi_base_acc	PHI:2265
+
+PHI:2271
+accession	Q00LS5
+db_type	Uniprot
+entered_by	RP
+gene_name	CpkA
+host_tax	4564
+literature_id	17020577
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	13684
+phi_base_acc	PHI:2271
+
+PHI:2272
+accession	A9Z1V6
+db_type	Uniprot
+entered_by	RP
+gene_name	CpkB
+host_tax	4564
+literature_id	17020577
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	13684
+phi_base_acc	PHI:2272
+
+PHI:2274
+accession	C6GZ42
+db_type	Uniprot
+entered_by	AR
+gene_name	Mid1
+host_tax	4550
+literature_id	19762439
+literature_source	Pubmed
+multiple_mutation	PHI:2275
+patho_tax	5111
+phi_base_acc	PHI:2274
+
+PHI:2275
+accession	A3KLI8
+db_type	Uniprot
+entered_by	AR
+gene_name	ku70
+host_tax	4550
+literature_id	19762439
+literature_source	Pubmed
+multiple_mutation	PHI:2274
+patho_tax	5111
+phi_base_acc	PHI:2275
+
+PHI:2277
+accession	J9MB32
+db_type	Uniprot
+entered_by	AR
+gene_name	Putative zinc ﬁnger transcription factor
+host_tax	4081
+literature_id	19161356
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:2277
+
+PHI:2278
+accession	J9MHC1
+db_type	Uniprot
+entered_by	AR
+gene_name	MeaB
+host_tax	4081
+literature_id	19161356
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:2278
+
+PHI:2279
+accession	J9N0G7
+db_type	Uniprot
+entered_by	AR
+gene_name	Conserved hypothetical protein
+host_tax	4081
+literature_id	19161356
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:2279
+
+PHI:2280
+accession	J9MAX2
+db_type	Uniprot
+entered_by	AR
+gene_name	Velvet protein family
+host_tax	4081
+literature_id	19161356
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:2280
+
+PHI:2282
+accession	J9MHC1
+db_type	Uniprot
+entered_by	RP
+gene_name	MeaB
+host_tax	4081
+literature_id	20639450
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:2282
+
+PHI:2283
+accession	J9MJU9
+db_type	Uniprot
+entered_by	RP
+gene_name	AreA
+host_tax	4081
+literature_id	20639450
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:2283
+
+PHI:2284
+accession	J9N257
+db_type	Uniprot
+entered_by	RP
+gene_name	Msb2
+host_tax	3750
+literature_id	21441438
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:2284
+
+PHI:2290
+accession	B1GVX7
+db_type	Uniprot
+entered_by	RP
+gene_name	BcBOA6
+host_tax	3885
+literature_id	21722295
+literature_source	Pubmed
+multiple_mutation	PHI:2289
+patho_tax	40559
+phi_base_acc	PHI:2290
+
 PHI:2294
 accession	I1RCK7
 db_type	Uniprot
@@ -1881,6 +3705,630 @@ literature_source	Pubmed
 multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2294
+
+PHI:2295
+accession	A6SB12
+db_type	Uniprot
+entered_by	RP
+gene_name	BcFRP1
+host_tax	4072
+literature_id	21722294
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2295
+
+PHI:2298
+accession	A6SSN8
+db_type	Uniprot
+entered_by	RP
+gene_name	BcCdc42
+host_tax	3885
+literature_id	21839848
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2298
+
+PHI:2307
+accession	Q2V9X3
+db_type	Uniprot
+entered_by	RP
+gene_name	ftf1 
+host_tax	3885
+literature_id	17462924
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5507
+phi_base_acc	PHI:2307
+
+PHI:2308
+accession	A6RI22
+db_type	Uniprot
+entered_by	RP
+gene_name	BcCRZ1
+host_tax	36596
+literature_id	18263765
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2308
+
+PHI:2309
+accession	Q9UW03
+db_type	Uniprot
+entered_by	RP
+gene_name	BcatrB
+host_tax	3702
+literature_id	19154205
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2309
+
+PHI:2311
+accession	F8R4Y0
+db_type	Uniprot
+entered_by	RP
+gene_name	PKS
+host_tax	51655
+literature_id	21571888
+literature_source	Pubmed
+multiple_mutation	PHI:2312; PHI:2313
+patho_tax	5530
+phi_base_acc	PHI:2311
+
+PHI:2312
+accession	O93802
+db_type	Uniprot
+entered_by	RP
+gene_name	THR
+host_tax	51655
+literature_id	21571888
+literature_source	Pubmed
+multiple_mutation	PHI:2311; PHI:2313
+patho_tax	5530
+phi_base_acc	PHI:2312
+
+PHI:2313
+accession	F8R4X8
+db_type	Uniprot
+entered_by	RP
+gene_name	SCD
+host_tax	51655
+literature_id	21571888
+literature_source	Pubmed
+multiple_mutation	PHI:2311; PHI:2312
+patho_tax	5530
+phi_base_acc	PHI:2313
+
+PHI:2315
+accession	G4XKY9
+db_type	Uniprot
+entered_by	RP
+gene_name	ChLae1
+host_tax	4577
+literature_id	2238387
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5016
+phi_base_acc	PHI:2315
+
+PHI:2316
+accession	G4XKY8
+db_type	Uniprot
+entered_by	RP
+gene_name	ChVel1
+host_tax	4577
+literature_id	2238387
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5016
+phi_base_acc	PHI:2316
+
+PHI:2321
+accession	Q4WR83
+db_type	Uniprot
+entered_by	RP
+gene_name	SidI
+host_tax	10090
+literature_id	22106303
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2321
+
+PHI:2322
+accession	Q4WF54
+db_type	Uniprot
+entered_by	RP
+gene_name	SidH
+host_tax	10090
+literature_id	22106303
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2322
+
+PHI:2323
+accession	E9F082
+db_type	Uniprot
+entered_by	RP
+gene_name	mhk1
+host_tax	7067
+literature_id	22118192
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	568076
+phi_base_acc	PHI:2323
+
+PHI:2329
+accession	A0ST42
+db_type	Uniprot
+entered_by	RP
+gene_name	CTB4
+host_tax	4097
+literature_id	17250832
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	29003
+phi_base_acc	PHI:2329
+
+PHI:2330
+accession	Q7ZA49
+db_type	Uniprot
+entered_by	RP
+gene_name	Lf pmk1
+host_tax	5341
+literature_id	20110303
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	93591
+phi_base_acc	PHI:2330
+
+PHI:2331
+accession	H9DUR1
+db_type	Uniprot
+entered_by	RP
+gene_name	Ave1
+host_tax	3702
+literature_id	22416119
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	27337
+phi_base_acc	PHI:2331
+
+PHI:2332
+accession	A8YPP2
+db_type	Uniprot
+entered_by	RP
+gene_name	PehA
+host_tax	4530
+literature_id	18631177
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	337
+phi_base_acc	PHI:2332
+
+PHI:2333
+accession	A8YPP3
+db_type	Uniprot
+entered_by	RP
+gene_name	PehB
+host_tax	4530
+literature_id	18631177
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	337
+phi_base_acc	PHI:2333
+
+PHI:2334
+accession	E2GL14
+db_type	Uniprot
+entered_by	RP
+gene_name	BcNma
+host_tax	3885
+literature_id	21277985
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2334
+
+PHI:2336
+accession	O00101
+db_type	Uniprot
+entered_by	RP
+gene_name	NIA1
+host_tax	4564
+literature_id	10328985
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	13684
+phi_base_acc	PHI:2336
+
+PHI:2337
+accession	Q5A4M8
+db_type	Uniprot
+entered_by	RP
+gene_name	SUR7
+host_tax	10090
+literature_id	22202230
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2337
+
+PHI:2338
+accession	I2G6S4
+db_type	Uniprot
+entered_by	RP
+gene_name	UhCna1
+host_tax	112509
+literature_id	20977307
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	120017
+phi_base_acc	PHI:2338
+
+PHI:2339
+accession	I2G5N7
+db_type	Uniprot
+entered_by	RP
+gene_name	UhCnb1
+host_tax	112509
+literature_id	20977307
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	120017
+phi_base_acc	PHI:2339
+
+PHI:2340
+accession	Q9L8R8
+db_type	Uniprot
+entered_by	RP
+gene_name	aiiA
+host_tax	4113
+literature_id	21039666
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	337
+phi_base_acc	PHI:2340
+
+PHI:2341
+accession	Q0E7H5
+db_type	Uniprot
+entered_by	RP
+gene_name	BeNEP1
+host_tax	4688
+literature_id	20507492
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	278938
+phi_base_acc	PHI:2341
+
+PHI:2342
+accession	Q0E7H7
+db_type	Uniprot
+entered_by	RP
+gene_name	BeNEP2
+host_tax	4688
+literature_id	20507492
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	278938
+phi_base_acc	PHI:2342
+
+PHI:2343
+accession	Q0ZJ79
+db_type	Uniprot
+entered_by	RP
+gene_name	Pcipg2
+host_tax	4072
+literature_id	19422018
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	4784
+phi_base_acc	PHI:2343
+
+PHI:2344
+accession	Q8NID8
+db_type	Uniprot
+entered_by	RP
+gene_name	Avr2
+host_tax	3702
+literature_id	18660430
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5499
+phi_base_acc	PHI:2344
+
+PHI:2345
+accession	Q2TJF8
+db_type	Uniprot
+entered_by	RP
+gene_name	FSR1
+host_tax	4577
+literature_id	18524918
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	117187
+phi_base_acc	PHI:2345
+
+PHI:2347
+accession	Q5TIP4
+db_type	Uniprot
+entered_by	RP
+gene_name	PGIP2
+host_tax	3702
+literature_id	18065558
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2347
+
+PHI:2356
+accession	G4N178
+db_type	Uniprot
+entered_by	RP
+gene_name	MoHYR1
+host_tax	112509
+literature_id	21971181
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2356
+
+PHI:2357
+accession	E2EAF6
+db_type	Uniprot
+entered_by	RP
+gene_name	CYP52X1
+host_tax	7137
+literature_id	22393051
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	475271
+phi_base_acc	PHI:2357
+
+PHI:2358
+accession	Q4WZL4
+db_type	Uniprot
+entered_by	RP
+gene_name	PLD
+host_tax	10090
+literature_id	22083709
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2358
+
+PHI:2359
+accession	Q8TG14
+db_type	Uniprot
+entered_by	RP
+gene_name	Bcchs3a
+host_tax	29760
+literature_id	20672878
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2359
+
+PHI:2361
+accession	Q0H744
+db_type	Uniprot
+entered_by	RP
+gene_name	cna1
+host_tax	4081
+literature_id	16776301
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5180
+phi_base_acc	PHI:2361
+
+PHI:2363
+accession	Q96X32
+db_type	Uniprot
+entered_by	RP
+gene_name	Ubc2
+host_tax	4577
+literature_id	18052888
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2363
+
+PHI:2365
+accession	Q4W6D3
+db_type	Uniprot
+entered_by	RP
+gene_name	Hog1
+host_tax	4577
+literature_id	18473669
+literature_source	Pubmed
+multiple_mutation	PHI:2367
+patho_tax	5016
+phi_base_acc	PHI:2365
+
+PHI:2367
+accession	A3QYW5
+db_type	Uniprot
+entered_by	RP
+gene_name	Mps1
+host_tax	4577
+literature_id	18473669
+literature_source	Pubmed
+multiple_mutation	PHI:2365
+patho_tax	5016
+phi_base_acc	PHI:2367
+
+PHI:2368
+accession	Q9P880
+db_type	Uniprot
+entered_by	RP
+gene_name	bac
+host_tax	4072
+literature_id	18842094
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2368
+
+PHI:2370
+accession	C0H5W3
+db_type	Uniprot
+entered_by	RP
+gene_name	bcpka1
+host_tax	4072
+literature_id	18842094
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2370
+
+PHI:2371
+accession	C0H5W5
+db_type	Uniprot
+entered_by	RP
+gene_name	bcpkaR
+host_tax	4072
+literature_id	18842094
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2371
+
+PHI:2374
+accession	D2T177
+db_type	Uniprot
+entered_by	RP
+gene_name	Bap1
+host_tax	4081
+literature_id	19589074
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2374
+
+PHI:2375
+accession	D2E9W6
+db_type	Uniprot
+entered_by	RP
+gene_name	DEP1
+host_tax	3702
+literature_id	19737099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	29001
+phi_base_acc	PHI:2375
+
+PHI:2376
+accession	D2E9W7
+db_type	Uniprot
+entered_by	RP
+gene_name	DEP2
+host_tax	3702
+literature_id	19737099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	29001
+phi_base_acc	PHI:2376
+
+PHI:2377
+accession	D2E9W8
+db_type	Uniprot
+entered_by	RP
+gene_name	DEP3
+host_tax	3702
+literature_id	19737099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	29001
+phi_base_acc	PHI:2377
+
+PHI:2378
+accession	D2E9W9
+db_type	Uniprot
+entered_by	RP
+gene_name	DEP4
+host_tax	3702
+literature_id	19737099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	29001
+phi_base_acc	PHI:2378
+
+PHI:2379
+accession	D2E9X0
+db_type	Uniprot
+entered_by	RP
+gene_name	DEP5
+host_tax	3702
+literature_id	19737099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	29001
+phi_base_acc	PHI:2379
+
+PHI:2380
+accession	D2E9X1
+db_type	Uniprot
+entered_by	RP
+gene_name	DEP6
+host_tax	3702
+literature_id	19737099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	29001
+phi_base_acc	PHI:2380
+
+PHI:2381
+accession	Q4PG27
+db_type	Uniprot
+entered_by	RP
+gene_name	Ucn1
+host_tax	4577
+literature_id	19737102
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2381
+
+PHI:2382
+accession	Q6QIY0
+db_type	Uniprot
+entered_by	RP
+gene_name	Upa2
+host_tax	4577
+literature_id	19737102
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2382
+
+PHI:2383
+accession	Q2VF46
+db_type	Uniprot
+entered_by	RP
+gene_name	 MfCUT1
+host_tax	42229
+literature_id	20064061
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	38448
+phi_base_acc	PHI:2383
+
+PHI:2384
+accession	Q4P4C1
+db_type	Uniprot
+entered_by	RP
+gene_name	Ust1
+host_tax	4577
+literature_id	20064064
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2384
 
 PHI:2385
 accession	I1RTN5
@@ -1917,6 +4365,54 @@ literature_source	Pubmed
 multiple_mutation	PHI:2386
 patho_tax	5518
 phi_base_acc	PHI:2387
+
+PHI:2389
+accession	Q9SZA7
+db_type	Uniprot
+entered_by	RP
+gene_name	ADR1-L1
+host_tax	3702
+literature_id	21911370
+literature_source	Pubmed
+multiple_mutation	PHI:2390; PHI:2391 
+patho_tax	272952
+phi_base_acc	PHI:2389
+
+PHI:2390
+accession	Q9LZ25
+db_type	Uniprot
+entered_by	RP
+gene_name	ADR1-L2
+host_tax	3702
+literature_id	21911370
+literature_source	Pubmed
+multiple_mutation	PHI:2389; PHI:2391 
+patho_tax	272952
+phi_base_acc	PHI:2390
+
+PHI:2391
+accession	Q9LVT1
+db_type	Uniprot
+entered_by	RP
+gene_name	ADR1-L3
+host_tax	3702
+literature_id	21911370
+literature_source	Pubmed
+multiple_mutation	PHI:2389; PHI:2390   
+patho_tax	272952
+phi_base_acc	PHI:2391
+
+PHI:2392
+accession	Q5ALK1
+db_type	Uniprot
+entered_by	RP
+gene_name	Gat2
+host_tax	10090
+literature_id	22276126
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2392
 
 PHI:2393
 accession	I1R980
@@ -1966,6 +4462,30 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:2396
 
+PHI:2397
+accession	C6L683
+db_type	Uniprot
+entered_by	RP
+gene_name	ChSte11
+host_tax	4577
+literature_id	19547975
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5016
+phi_base_acc	PHI:2397
+
+PHI:2398
+accession	Q9UVN7
+db_type	Uniprot
+entered_by	RP
+gene_name	Chk1
+host_tax	4577
+literature_id	19547975
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5016
+phi_base_acc	PHI:2398
+
 PHI:2399
 accession	I1S5P3
 db_type	Uniprot
@@ -1989,6 +4509,150 @@ literature_source	Pubmed
 multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2400
+
+PHI:2401
+accession	G0T3B3
+db_type	Uniprot
+entered_by	RP
+gene_name	CaRING1
+host_tax	3702
+literature_id	21628629
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2401
+
+PHI:2403
+accession	A9QUB2
+db_type	Uniprot
+entered_by	RP
+gene_name	CSN1
+host_tax	3888
+literature_id	20419375
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	169388
+phi_base_acc	PHI:2403
+
+PHI:2404
+accession	G4N906
+db_type	Uniprot
+entered_by	RP
+gene_name	SLP 1
+host_tax	4530
+literature_id	22267486
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2404
+
+PHI:2405
+accession	G5EH08
+db_type	Uniprot
+entered_by	RP
+gene_name	MoSSK1
+host_tax	4530
+literature_id	18726099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2405
+
+PHI:2406
+accession	G4N7Y2
+db_type	Uniprot
+entered_by	RP
+gene_name	MoSKN7
+host_tax	4530
+literature_id	18726099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2406
+
+PHI:2407
+accession	G4NCR0
+db_type	Uniprot
+entered_by	RP
+gene_name	MoRIM15
+host_tax	4530
+literature_id	18726099
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2407
+
+PHI:2411
+accession	A7F946
+db_type	Uniprot
+entered_by	AR
+gene_name	Ss-ggt1
+host_tax	4081
+literature_id	22046959
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5180
+phi_base_acc	PHI:2411
+
+PHI:2412
+accession	B9VSG8
+db_type	Uniprot
+entered_by	AR
+gene_name	lipA
+host_tax	4081
+literature_id	22176521
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	339
+phi_base_acc	PHI:2412
+
+PHI:2413
+accession	B2Z3E2
+db_type	Uniprot
+entered_by	RP
+gene_name	Cgg1
+host_tax	4577
+literature_id	18448365
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	31870
+phi_base_acc	PHI:2413
+
+PHI:2415
+accession	P57051
+db_type	Uniprot
+entered_by	RP
+gene_name	tatA
+host_tax	10090
+literature_id	19480715
+literature_source	Pubmed
+multiple_mutation	PHI:2416; PHI:2417
+patho_tax	666
+phi_base_acc	PHI:2415
+
+PHI:2416
+accession	P57063
+db_type	Uniprot
+entered_by	RP
+gene_name	tatB
+host_tax	10090
+literature_id	19480715
+literature_source	Pubmed
+multiple_mutation	PHI:2415; PHI:2417
+patho_tax	666
+phi_base_acc	PHI:2416
+
+PHI:2417
+accession	Q9KVQ3
+db_type	Uniprot
+entered_by	RP
+gene_name	tatC
+host_tax	10090
+literature_id	19480715
+literature_source	Pubmed
+multiple_mutation	PHI:2415; PHI:2416
+patho_tax	666
+phi_base_acc	PHI:2417
 
 PHI:2418
 accession	I1RKF3
@@ -2014,6 +4678,78 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:2419
 
+PHI:2420
+accession	Q4VKJ6
+db_type	Uniprot
+entered_by	RP
+gene_name	ATR 1
+host_tax	3702
+literature_id	18165328
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2420
+
+PHI:2421
+accession	Q4VKJ1
+db_type	Uniprot
+entered_by	RP
+gene_name	ATR 1
+host_tax	3702
+literature_id	18165328
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2421
+
+PHI:2422
+accession	Q5G7L2
+db_type	Uniprot
+entered_by	RP
+gene_name	ATR13
+host_tax	3702
+literature_id	18165328
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2422
+
+PHI:2423
+accession	Q5G7K8
+db_type	Uniprot
+entered_by	RP
+gene_name	ATR13
+host_tax	3702
+literature_id	18165328
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2423
+
+PHI:2425
+accession	Q6RKG2
+db_type	Uniprot
+entered_by	RP
+gene_name	PKS2
+host_tax	4577
+literature_id	16529376
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5016
+phi_base_acc	PHI:2425
+
+PHI:2426
+accession	D0U2D1
+db_type	Uniprot
+entered_by	RP
+gene_name	Avr2
+host_tax	4100
+literature_id	19228334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2426
+
 PHI:2427
 accession	I1RCN9
 db_type	Uniprot
@@ -2025,6 +4761,18 @@ literature_source	Pubmed
 multiple_mutation	
 patho_tax	5518
 phi_base_acc	PHI:2427
+
+PHI:2429
+accession	G9DDS6
+db_type	Uniprot
+entered_by	RP
+gene_name	Bbslt2
+host_tax	7116
+literature_id	22587950
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	475271
+phi_base_acc	PHI:2429
 
 PHI:2430
 accession	I1RWG5
@@ -2074,6 +4822,150 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:2434
 
+PHI:2437
+accession	Q5KL01
+db_type	Uniprot
+entered_by	RP
+gene_name	SNF1
+host_tax	10090
+literature_id	20719250
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5207
+phi_base_acc	PHI:2437
+
+PHI:2438
+accession	Q29YB0
+db_type	Uniprot
+entered_by	RP
+gene_name	MgFus3
+host_tax	4564
+literature_id	20507446
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1047171
+phi_base_acc	PHI:2438
+
+PHI:2439
+accession	C5A845
+db_type	Uniprot
+entered_by	RP
+gene_name	PidS
+host_tax	4679
+literature_id	22364153
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	337
+phi_base_acc	PHI:2439
+
+PHI:2440
+accession	C5A846
+db_type	Uniprot
+entered_by	RP
+gene_name	PidR
+host_tax	4679
+literature_id	22364153
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	337
+phi_base_acc	PHI:2440
+
+PHI:2441
+accession	F9XJV5
+db_type	Uniprot
+entered_by	RP
+gene_name	MgAlg2
+host_tax	4564
+literature_id	21623954
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1047171
+phi_base_acc	PHI:2441
+
+PHI:2443
+accession	F7IY49
+db_type	Uniprot
+entered_by	RP
+gene_name	PilA
+host_tax	4097
+literature_id	22353307
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	322
+phi_base_acc	PHI:2443
+
+PHI:2444
+accession	G5EJ36
+db_type	Uniprot
+entered_by	RP
+gene_name	tfpO
+host_tax	4097
+literature_id	22353307
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	322
+phi_base_acc	PHI:2444
+
+PHI:2445
+accession	Q5H3K9
+db_type	Uniprot
+entered_by	RP
+gene_name	ColR
+host_tax	4530
+literature_id	22257308
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	64187
+phi_base_acc	PHI:2445
+
+PHI:2446
+accession	Q5H3L0
+db_type	Uniprot
+entered_by	RP
+gene_name	ColS
+host_tax	4530
+literature_id	22257308
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	64187
+phi_base_acc	PHI:2446
+
+PHI:2448
+accession	H9AWW9
+db_type	Uniprot
+entered_by	RP
+gene_name	AaNoxA
+host_tax	164113
+literature_id	22435666
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5599
+phi_base_acc	PHI:2448
+
+PHI:2449
+accession	Q0GPY7
+db_type	Uniprot
+entered_by	RP
+gene_name	lhnR
+host_tax	29760
+literature_id	22212449
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	373
+phi_base_acc	PHI:2449
+
+PHI:2450
+accession	Q8J0U6
+db_type	Uniprot
+entered_by	RP
+gene_name	ToxB
+host_tax	4564
+literature_id	21980935
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	45151
+phi_base_acc	PHI:2450
+
 PHI:2451
 accession	I1S3N8
 db_type	Uniprot
@@ -2098,6 +4990,354 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:2452
 
+PHI:2453
+accession	D9J222
+db_type	Uniprot
+entered_by	RP
+gene_name	Snt2
+host_tax	3656
+literature_id	21535351
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	61369
+phi_base_acc	PHI:2453
+
+PHI:2456
+accession	D4IAW2
+db_type	Uniprot
+entered_by	RP
+gene_name	HrpL
+host_tax	23211
+literature_id	21831138
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2456
+
+PHI:2457
+accession	D4IBH1
+db_type	Uniprot
+entered_by	RP
+gene_name	EAM_2938
+host_tax	23211
+literature_id	21831138
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2457
+
+PHI:2458
+accession	D4I974
+db_type	Uniprot
+entered_by	RP
+gene_name	ydcN
+host_tax	23211
+literature_id	21831138
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2458
+
+PHI:2459
+accession	D4ICB6
+db_type	Uniprot
+entered_by	RP
+gene_name	nlpI
+host_tax	23211
+literature_id	21831138
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2459
+
+PHI:2464
+accession	Q58PW8
+db_type	Uniprot
+entered_by	RP
+gene_name	HsvA
+host_tax	23211
+literature_id	20565644
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2464
+
+PHI:2465
+accession	Q58PW9
+db_type	Uniprot
+entered_by	RP
+gene_name	HsvB
+host_tax	23211
+literature_id	20565644
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2465
+
+PHI:2466
+accession	Q58PX0
+db_type	Uniprot
+entered_by	RP
+gene_name	HsvC
+host_tax	23211
+literature_id	20565644
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2466
+
+PHI:2467
+accession	Q01099
+db_type	Uniprot
+entered_by	RP
+gene_name	hrpN
+host_tax	4097
+literature_id	18705858
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2467
+
+PHI:2468
+accession	Q46640
+db_type	Uniprot
+entered_by	RP
+gene_name	hrpJ
+host_tax	4097
+literature_id	18705858
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2468
+
+PHI:2469
+accession	Q7WTQ9
+db_type	Uniprot
+entered_by	RP
+gene_name	AcrB
+host_tax	3750
+literature_id	14714867
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2469
+
+PHI:2470
+accession	Q5H4Y2
+db_type	Uniprot
+entered_by	RP
+gene_name	AroQγ 
+host_tax	4530
+literature_id	20128700
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	64187
+phi_base_acc	PHI:2470
+
+PHI:2471
+accession	Q46631
+db_type	Uniprot
+entered_by	RP
+gene_name	Ams
+host_tax	23211
+literature_id	19821727
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2471
+
+PHI:2472
+accession	Q46654
+db_type	Uniprot
+entered_by	RP
+gene_name	lsc
+host_tax	23211
+literature_id	19821727
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2472
+
+PHI:2473
+accession	Q9FD00
+db_type	Uniprot
+entered_by	RP
+gene_name	hrpx
+host_tax	4577
+literature_id	12650455
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	66271
+phi_base_acc	PHI:2473
+
+PHI:2474
+accession	E3P6S0
+db_type	Uniprot
+entered_by	RP
+gene_name	imd1
+host_tax	6239
+literature_id	23071437
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5207
+phi_base_acc	PHI:2474
+
+PHI:2475
+accession	Q01099
+db_type	Uniprot
+entered_by	RP
+gene_name	hrpN
+host_tax	23211
+literature_id	18842089
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2475
+
+PHI:2476
+accession	G8AA67
+db_type	Uniprot
+entered_by	RP
+gene_name	CcpelA
+host_tax	4081
+literature_id	21848609
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	27358
+phi_base_acc	PHI:2476
+
+PHI:2477
+accession	B8QZV4
+db_type	Uniprot
+entered_by	RP
+gene_name	CYP1
+host_tax	60419
+literature_id	21355996
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5116
+phi_base_acc	PHI:2477
+
+PHI:2478
+accession	D6BK26
+db_type	Uniprot
+entered_by	RP
+gene_name	rsa1
+host_tax	4081
+literature_id	21453432
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	305
+phi_base_acc	PHI:2478
+
+PHI:2479
+accession	E1AP33
+db_type	Uniprot
+entered_by	RP
+gene_name	corA
+host_tax	4039
+literature_id	21726393
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	554
+phi_base_acc	PHI:2479
+
+PHI:2480
+accession	Q8PGM0
+db_type	Uniprot
+entered_by	RP
+gene_name	wxacO
+host_tax	37656
+literature_id	21453433
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	611301
+phi_base_acc	PHI:2480
+
+PHI:2481
+accession	Q8PGL8
+db_type	Uniprot
+entered_by	RP
+gene_name	rfbC
+host_tax	37656
+literature_id	21453433
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	611301
+phi_base_acc	PHI:2481
+
+PHI:2482
+accession	Q09JB7
+db_type	Uniprot
+entered_by	RP
+gene_name	AlHK1
+host_tax	4097
+literature_id	22349956
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	160389
+phi_base_acc	PHI:2482
+
+PHI:2484
+accession	B6VCT9
+db_type	Uniprot
+entered_by	RP
+gene_name	Ste11
+host_tax	3750
+literature_id	20078780
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2484
+
+PHI:2487
+accession	B6VCT8
+db_type	Uniprot
+entered_by	RP
+gene_name	ste12
+host_tax	3750
+literature_id	20078780
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2487
+
+PHI:2488
+accession	G4ND25
+db_type	Uniprot
+entered_by	RP
+gene_name	Man1
+host_tax	4530
+literature_id	19621226
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2488
+
+PHI:2489
+accession	E2J5T5
+db_type	Uniprot
+entered_by	RP
+gene_name	rsmAXoo 
+host_tax	4530
+literature_id	21355995
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	64187
+phi_base_acc	PHI:2489
+
+PHI:2490
+accession	E9B636
+db_type	Uniprot
+entered_by	RP
+gene_name	MCA
+host_tax	10090
+literature_id	22951982
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5665
+phi_base_acc	PHI:2490
+
 PHI:2491
 accession	I1RJS9
 db_type	Uniprot
@@ -2110,29 +5350,1913 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:2491
 
-PHI:2502
-accession	I1RM09 
+PHI:2492
+accession	Q8XVQ5
 db_type	Uniprot
 entered_by	RP
-gene_name	FgTep1p
-host_tax	4564
-literature_id	20618707
+gene_name	PopW
+host_tax	4081
+literature_id	20447285
 literature_source	Pubmed
 multiple_mutation	
-patho_tax	5518
-phi_base_acc	PHI:2502
+patho_tax	305
+phi_base_acc	PHI:2492
 
-PHI:2704
-accession	 F6MFB4
+PHI:2493
+accession	Q4UY34
 db_type	Uniprot
 entered_by	RP
-gene_name	Tri12
-host_tax	4565
-literature_id	22835271
+gene_name	XC0965
+host_tax	41679
+literature_id	19019010
 literature_source	Pubmed
 multiple_mutation	
-patho_tax	5518
-phi_base_acc	PHI:2704
+patho_tax	340
+phi_base_acc	PHI:2493
+
+PHI:2494
+accession	Q4UUG9
+db_type	Uniprot
+entered_by	RP
+gene_name	XC2249
+host_tax	41679
+literature_id	19019010
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	340
+phi_base_acc	PHI:2494
+
+PHI:2495
+accession	Q4UUA3
+db_type	Uniprot
+entered_by	RP
+gene_name	XC2317
+host_tax	41679
+literature_id	19019010
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	340
+phi_base_acc	PHI:2495
+
+PHI:2496
+accession	Q4URQ8
+db_type	Uniprot
+entered_by	RP
+gene_name	XC3221
+host_tax	41679
+literature_id	19019010
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	340
+phi_base_acc	PHI:2496
+
+PHI:2497
+accession	Q4P2U6
+db_type	Uniprot
+entered_by	RP
+gene_name	atg8
+host_tax	4577
+literature_id	20618705
+literature_source	Pubmed
+multiple_mutation	PHI:2498
+patho_tax	5270
+phi_base_acc	PHI:2497
+
+PHI:2498
+accession	Q4P0K0
+db_type	Uniprot
+entered_by	RP
+gene_name	atg1
+host_tax	4577
+literature_id	20618705
+literature_source	Pubmed
+multiple_mutation	PHI:2497
+patho_tax	5270
+phi_base_acc	PHI:2498
+
+PHI:2499
+accession	P96320
+db_type	Uniprot
+entered_by	RP
+gene_name	rcsB
+host_tax	23211
+literature_id	19236575
+literature_source	Pubmed
+multiple_mutation	PHI:2501
+patho_tax	552
+phi_base_acc	PHI:2499
+
+PHI:2500
+accession	D4I7B7
+db_type	Uniprot
+entered_by	RP
+gene_name	rcsC
+host_tax	23211
+literature_id	19236575
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2500
+
+PHI:2501
+accession	D4HWX6
+db_type	Uniprot
+entered_by	RP
+gene_name	rcsD
+host_tax	23211
+literature_id	19236575
+literature_source	Pubmed
+multiple_mutation	PHI:2499
+patho_tax	552
+phi_base_acc	PHI:2501
+
+PHI:2503
+accession	Q96UQ6
+db_type	Uniprot
+entered_by	RP
+gene_name	AGS1
+host_tax	10090
+literature_id	15746357
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2503
+
+PHI:2509
+accession	Q4WJ81
+db_type	Uniprot
+entered_by	RP
+gene_name	CrzA
+host_tax	10090
+literature_id	18456861
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2509
+
+PHI:2510
+accession	Q6PWQ1
+db_type	Uniprot
+entered_by	RP
+gene_name	msdS/AfmsdC
+host_tax	10090
+literature_id	18599824
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2510
+
+PHI:2511
+accession	Q4WT66
+db_type	Uniprot
+entered_by	RP
+gene_name	Pes1
+host_tax	7137
+literature_id	16759234
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2511
+
+PHI:2513
+accession	E9R5E2
+db_type	Uniprot
+entered_by	AR
+gene_name	GFA1
+host_tax	10090
+literature_id	17352532
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2513
+
+PHI:2527
+accession	Q4X0M4
+db_type	Uniprot
+entered_by	AR
+gene_name	SEC31
+host_tax	10090
+literature_id	17352532
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2527
+
+PHI:2530
+accession	Q4WKG5
+db_type	Uniprot
+entered_by	AR
+gene_name	TUB1
+host_tax	10090
+literature_id	17352532
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2530
+
+PHI:2534
+accession	Q4WNT5
+db_type	Uniprot
+entered_by	AR
+gene_name	ERG11A
+host_tax	10090
+literature_id	17352532
+literature_source	Pubmed
+multiple_mutation	PHI:2535
+patho_tax	746128
+phi_base_acc	PHI:2534
+
+PHI:2535
+accession	E9QY26
+db_type	Uniprot
+entered_by	AR
+gene_name	ERG11B 
+host_tax	10090
+literature_id	17352532
+literature_source	Pubmed
+multiple_mutation	PHI:2534
+patho_tax	746128
+phi_base_acc	PHI:2535
+
+PHI:2536
+accession	Q4WU51
+db_type	Uniprot
+entered_by	AR
+gene_name	MET2
+host_tax	10090
+literature_id	17352532
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2536
+
+PHI:2537
+accession	Q59MD2
+db_type	Uniprot
+entered_by	RP
+gene_name	UME6
+host_tax	10090
+literature_id	18216277
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2537
+
+PHI:2538
+accession	Q5AMH6
+db_type	Uniprot
+entered_by	RP
+gene_name	Cas5
+host_tax	7227
+literature_id	19463063
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2538
+
+PHI:2539
+accession	P43079
+db_type	Uniprot
+entered_by	RP
+gene_name	cph1
+host_tax	7955
+literature_id	20308295
+literature_source	Pubmed
+multiple_mutation	PHI:2540
+patho_tax	5476
+phi_base_acc	PHI:2539
+
+PHI:2540
+accession	Q59X67
+db_type	Uniprot
+entered_by	RP
+gene_name	efg1
+host_tax	7955
+literature_id	20308295
+literature_source	Pubmed
+multiple_mutation	PHI:2539
+patho_tax	5476
+phi_base_acc	PHI:2540
+
+PHI:2542
+accession	Q59Y20
+db_type	Uniprot
+entered_by	RP
+gene_name	Dse1
+host_tax	10090
+literature_id	21760783
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2542
+
+PHI:2543
+accession	Q5A5U4
+db_type	Uniprot
+entered_by	RP
+gene_name	Rhd3/Pga29
+host_tax	10090
+literature_id	20533408
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2543
+
+PHI:2544
+accession	Q5A753
+db_type	Uniprot
+entered_by	RP
+gene_name	Opy2
+host_tax	7137
+literature_id	23149115
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2544
+
+PHI:2545
+accession	Q4WXK4
+db_type	Uniprot
+entered_by	RP
+gene_name	DvrA
+host_tax	7137
+literature_id	20675576
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2545
+
+PHI:2546
+accession	Q59PF9
+db_type	Uniprot
+entered_by	RP
+gene_name	HWP2
+host_tax	10090
+literature_id	19616419
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2546
+
+PHI:2547
+accession	Q59ZX1
+db_type	Uniprot
+entered_by	RP
+gene_name	SET3
+host_tax	10090
+literature_id	20485517
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2547
+
+PHI:2549
+accession	Q5AAL9
+db_type	Uniprot
+entered_by	RP
+gene_name	IFF4
+host_tax	10090
+literature_id	19347602
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2549
+
+PHI:2550
+accession	P83774
+db_type	Uniprot
+entered_by	RP
+gene_name	Asc1
+host_tax	10090
+literature_id	21221944
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2550
+
+PHI:2552
+accession	Q5AA09
+db_type	Uniprot
+entered_by	RP
+gene_name	Pga26
+host_tax	10090
+literature_id	21439008
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2552
+
+PHI:2553
+accession	Q5AG40
+db_type	Uniprot
+entered_by	RP
+gene_name	VPS4
+host_tax	10090
+literature_id	18814053
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2553
+
+PHI:2554
+accession	Q59Z32
+db_type	Uniprot
+entered_by	RP
+gene_name	Rck2
+host_tax	10090
+literature_id	20402792
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2554
+
+PHI:2555
+accession	Q59Z29
+db_type	Uniprot
+entered_by	RP
+gene_name	CaAFT2
+host_tax	10090
+literature_id	20595261
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2555
+
+PHI:2556
+accession	Q5AKA8
+db_type	Uniprot
+entered_by	RP
+gene_name	GLN3
+host_tax	10090
+literature_id	17950010
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2556
+
+PHI:2557
+accession	Q5AHG6
+db_type	Uniprot
+entered_by	RP
+gene_name	CaSch9p
+host_tax	10090
+literature_id	20345900
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2557
+
+PHI:2558
+accession	Q59P00
+db_type	Uniprot
+entered_by	RP
+gene_name	DUR31
+host_tax	10090
+literature_id	22438810
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2558
+
+PHI:2559
+accession	Q6FPV9
+db_type	Uniprot
+entered_by	RP
+gene_name	Slt2
+host_tax	10090
+literature_id	20214686
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5478
+phi_base_acc	PHI:2559
+
+PHI:2560
+accession	Q6FLU4
+db_type	Uniprot
+entered_by	RP
+gene_name	CNB1
+host_tax	10090
+literature_id	20100876
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5478
+phi_base_acc	PHI:2560
+
+PHI:2561
+accession	Q6FJF0
+db_type	Uniprot
+entered_by	RP
+gene_name	Crz1
+host_tax	10090
+literature_id	20100876
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5478
+phi_base_acc	PHI:2561
+
+PHI:2562
+accession	Q59M50
+db_type	Uniprot
+entered_by	RP
+gene_name	Cwt1
+host_tax	10090
+literature_id	19908200
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2562
+
+PHI:2563
+accession	Q5AH74
+db_type	Uniprot
+entered_by	RP
+gene_name	DPP3
+host_tax	10090
+literature_id	17283095
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2563
+
+PHI:2564
+accession	G8BCQ2
+db_type	Uniprot
+entered_by	RP
+gene_name	OLE1
+host_tax	10090
+literature_id	20974817
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5480
+phi_base_acc	PHI:2564
+
+PHI:2565
+accession	Q5APJ0
+db_type	Uniprot
+entered_by	RP
+gene_name	Q5APJ0
+host_tax	10090
+literature_id	20817114
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2565
+
+PHI:2566
+accession	Q6FTT1
+db_type	Uniprot
+entered_by	RP
+gene_name	Skn7p
+host_tax	10090
+literature_id	19693686
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5478
+phi_base_acc	PHI:2566
+
+PHI:2567
+accession	Q5ACU9
+db_type	Uniprot
+entered_by	RP
+gene_name	CaNdt80p
+host_tax	10090
+literature_id	20097739
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2567
+
+PHI:2568
+accession	Q5AMP9
+db_type	Uniprot
+entered_by	RP
+gene_name	CAP2
+host_tax	10090
+literature_id	21592964
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2568
+
+PHI:2569
+accession	Q5AK51
+db_type	Uniprot
+entered_by	RP
+gene_name	SFL2
+host_tax	10090
+literature_id	21205158
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2569
+
+PHI:2570
+accession	Q6FM61
+db_type	Uniprot
+entered_by	RP
+gene_name	CYB2
+host_tax	10090
+literature_id	21931845
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5478
+phi_base_acc	PHI:2570
+
+PHI:2571
+accession	Q59QS7
+db_type	Uniprot
+entered_by	AR
+gene_name	ZCF13
+host_tax	10090
+literature_id	22073120
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2571
+
+PHI:2572
+accession	Q5A4N7
+db_type	Uniprot
+entered_by	AR
+gene_name	ZCF18
+host_tax	10090
+literature_id	22073120
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2572
+
+PHI:2574
+accession	D3JLB9
+db_type	Uniprot
+entered_by	RP
+gene_name	Tc52
+host_tax	10090
+literature_id	10383767
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2574
+
+PHI:2576
+accession	H2DQH1
+db_type	Uniprot
+entered_by	RP
+gene_name	CUB
+host_tax	10090
+literature_id	17624327
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2576
+
+PHI:2580
+accession	Q94795
+db_type	Uniprot
+entered_by	RP
+gene_name	Oligopeptidase B
+host_tax	10090
+literature_id	9724634
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2580
+
+PHI:2586
+accession	Q4P380
+db_type	Uniprot
+entered_by	RP
+gene_name	Pmt4
+host_tax	4577
+literature_id	22416226
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2586
+
+PHI:2587
+accession	F8R4Y0
+db_type	Uniprot
+entered_by	RP
+gene_name	ACRTS2
+host_tax	64884
+literature_id	22835272
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5599
+phi_base_acc	PHI:2587
+
+PHI:2588
+accession	B2CQJ9
+db_type	Uniprot
+entered_by	RP
+gene_name	VEA1
+host_tax	10090
+literature_id	22841690
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5037
+phi_base_acc	PHI:2588
+
+PHI:2590
+accession	H9C592
+db_type	Uniprot
+entered_by	RP
+gene_name	CMLE
+host_tax	4081
+literature_id	22827542
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2590
+
+PHI:2593
+accession	Q9NG46
+db_type	Uniprot
+entered_by	RP
+gene_name	LYT1
+host_tax	10090
+literature_id	17938222
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2593
+
+PHI:2595
+accession	D3JLB9
+db_type	Uniprot
+entered_by	RP
+gene_name	Tc52
+host_tax	10090
+literature_id	10383767
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2595
+
+PHI:2597
+accession	H2DQH1
+db_type	Uniprot
+entered_by	RP
+gene_name	CUB
+host_tax	10090
+literature_id	17624327
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2597
+
+PHI:2601
+accession	Q94795
+db_type	Uniprot
+entered_by	RP
+gene_name	Oligopeptidase B
+host_tax	10090
+literature_id	9724634
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2601
+
+PHI:2607
+accession	Q4P380
+db_type	Uniprot
+entered_by	RP
+gene_name	Pmt4
+host_tax	4577
+literature_id	22416226
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2607
+
+PHI:2608
+accession	F8R4Y0
+db_type	Uniprot
+entered_by	RP
+gene_name	ACRTS2
+host_tax	64884
+literature_id	22835272
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5599
+phi_base_acc	PHI:2608
+
+PHI:2609
+accession	B2CQJ9
+db_type	Uniprot
+entered_by	RP
+gene_name	VEA1
+host_tax	10090
+literature_id	22841690
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5037
+phi_base_acc	PHI:2609
+
+PHI:2611
+accession	H9C592
+db_type	Uniprot
+entered_by	RP
+gene_name	CMLE
+host_tax	4081
+literature_id	22827542
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2611
+
+PHI:2614
+accession	Q9NG46
+db_type	Uniprot
+entered_by	RP
+gene_name	LYT1
+host_tax	10090
+literature_id	17938222
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2614
+
+PHI:2615
+accession	A4L9V1
+db_type	Uniprot
+entered_by	RP
+gene_name	ROP5
+host_tax	10090
+literature_id	23144612
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5811
+phi_base_acc	PHI:2615
+
+PHI:2616
+accession	Q2L8G9
+db_type	Uniprot
+entered_by	RP
+gene_name	InlA
+host_tax	10090
+literature_id	23166492
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1639
+phi_base_acc	PHI:2616
+
+PHI:2617
+accession	Q59UY7
+db_type	Uniprot
+entered_by	RP
+gene_name	SEF1
+host_tax	10090
+literature_id	23133381
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2617
+
+PHI:2618
+accession	Q5AP95
+db_type	Uniprot
+entered_by	RP
+gene_name	SFU1
+host_tax	10090
+literature_id	23133381
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2618
+
+PHI:2619
+accession	P18177
+db_type	Uniprot
+entered_by	RP
+gene_name	tcdB
+host_tax	9823
+literature_id	23236283
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1496
+phi_base_acc	PHI:2619
+
+PHI:2620
+accession	Q9HWA4
+db_type	Uniprot
+entered_by	RP
+gene_name	PprB
+host_tax	7227
+literature_id	23209420
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	287
+phi_base_acc	PHI:2620
+
+PHI:2621
+accession	D0ZWU0
+db_type	Uniprot
+entered_by	RP
+gene_name	ssaV
+host_tax	10090
+literature_id	23236281
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2621
+
+PHI:2622
+accession	Q7BVH7
+db_type	Uniprot
+entered_by	RP
+gene_name	sseB
+host_tax	10090
+literature_id	23236281
+literature_source	Pubmed
+multiple_mutation	PHI:2625
+patho_tax	90371
+phi_base_acc	PHI:2622
+
+PHI:2623
+accession	Q8ZNG2
+db_type	Uniprot
+entered_by	RP
+gene_name	sseL
+host_tax	10090
+literature_id	23236281
+literature_source	Pubmed
+multiple_mutation	PHI:2628
+patho_tax	90371
+phi_base_acc	PHI:2623
+
+PHI:2624
+accession	P07637
+db_type	Uniprot
+entered_by	RP
+gene_name	aroA
+host_tax	10090
+literature_id	23236281
+literature_source	Pubmed
+multiple_mutation	PHI:2622
+patho_tax	90371
+phi_base_acc	PHI:2624
+
+PHI:2625
+accession	P65882
+db_type	Uniprot
+entered_by	RP
+gene_name	purA
+host_tax	10090
+literature_id	23236281
+literature_source	Pubmed
+multiple_mutation	PHI:2622
+patho_tax	90371
+phi_base_acc	PHI:2625
+
+PHI:2626
+accession	D0ZWR8
+db_type	Uniprot
+entered_by	RP
+gene_name	spiC
+host_tax	10090
+literature_id	23236281
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2626
+
+PHI:2627
+accession	P74855
+db_type	Uniprot
+entered_by	RP
+gene_name	ssaM
+host_tax	10090
+literature_id	23236281
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2627
+
+PHI:2628
+accession	P21454
+db_type	Uniprot
+entered_by	RP
+gene_name	spvB
+host_tax	10090
+literature_id	23236281
+literature_source	Pubmed
+multiple_mutation	PHI:2623
+patho_tax	90371
+phi_base_acc	PHI:2628
+
+PHI:2630
+accession	B2HLZ8
+db_type	Uniprot
+entered_by	RP
+gene_name	PPGK
+host_tax	10090
+literature_id	23326232
+literature_source	Pubmed
+multiple_mutation	PHI:2631
+patho_tax	1773
+phi_base_acc	PHI:2630
+
+PHI:2631
+accession	I6Y8D3
+db_type	Uniprot
+entered_by	RP
+gene_name	GLKA
+host_tax	10090
+literature_id	23326232
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1773
+phi_base_acc	PHI:2631
+
+PHI:2632
+accession	Q2FIB5
+db_type	Uniprot
+entered_by	AR
+gene_name	argH
+host_tax	10090
+literature_id	23209408
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1280
+phi_base_acc	PHI:2632
+
+PHI:2633
+accession	Q2FK80
+db_type	Uniprot
+entered_by	AR
+gene_name	argB
+host_tax	10090
+literature_id	23209408
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1280
+phi_base_acc	PHI:2633
+
+PHI:2635
+accession	Q2FFX4
+db_type	Uniprot
+entered_by	AR
+gene_name	putA
+host_tax	10090
+literature_id	23209408
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1280
+phi_base_acc	PHI:2635
+
+PHI:2636
+accession	Q8MYK0
+db_type	Uniprot
+entered_by	RP
+gene_name	TgCDPK3 
+host_tax	9606
+literature_id	23209419
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5811
+phi_base_acc	PHI:2636
+
+PHI:2637
+accession	O51712
+db_type	Uniprot
+entered_by	RP
+gene_name	RpoS
+host_tax	10090
+literature_id	23300893
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	139
+phi_base_acc	PHI:2637
+
+PHI:2638
+accession	Q4X099
+db_type	Uniprot
+entered_by	RP
+gene_name	Ilv3A
+host_tax	10090
+literature_id	23028460
+literature_source	Pubmed
+multiple_mutation	PHI:2639
+patho_tax	746128
+phi_base_acc	PHI:2638
+
+PHI:2639
+accession	Q4WK65
+db_type	Uniprot
+entered_by	RP
+gene_name	Ilv3B
+host_tax	10090
+literature_id	23028460
+literature_source	Pubmed
+multiple_mutation	PHI:2638
+patho_tax	746128
+phi_base_acc	PHI:2639
+
+PHI:2640
+accession	C4XXN5
+db_type	Uniprot
+entered_by	RP
+gene_name	CNB1
+host_tax	10090
+literature_id	22952924
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	36911
+phi_base_acc	PHI:2640
+
+PHI:2641
+accession	C4Y985
+db_type	Uniprot
+entered_by	RP
+gene_name	CRZ1
+host_tax	10090
+literature_id	22952924
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	36911
+phi_base_acc	PHI:2641
+
+PHI:2642
+accession	D0Z9I9
+db_type	Uniprot
+entered_by	RP
+gene_name	FliC
+host_tax	7955
+literature_id	23024793
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	498217
+phi_base_acc	PHI:2642
+
+PHI:2643
+accession	A4HTK3
+db_type	Uniprot
+entered_by	RP
+gene_name	CFAS
+host_tax	10090
+literature_id	23251490
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5671
+phi_base_acc	PHI:2643
+
+PHI:2644
+accession	P0AA28
+db_type	Uniprot
+entered_by	RP
+gene_name	thioredoxin 1
+host_tax	6239
+literature_id	23028994
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2644
+
+PHI:2645
+accession	Q7WP75
+db_type	Uniprot
+entered_by	RP
+gene_name	ClpV
+host_tax	10090
+literature_id	23071529
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	518
+phi_base_acc	PHI:2645
+
+PHI:2646
+accession	E0IWR8
+db_type	Uniprot
+entered_by	RP
+gene_name	MliC
+host_tax	9031
+literature_id	23049900
+literature_source	Pubmed
+multiple_mutation	PHI:2647
+patho_tax	562
+phi_base_acc	PHI:2646
+
+PHI:2647
+accession	A1A7T3
+db_type	Uniprot
+entered_by	RP
+gene_name	ivy
+host_tax	9031
+literature_id	23049900
+literature_source	Pubmed
+multiple_mutation	PHI:2646
+patho_tax	562
+phi_base_acc	PHI:2647
+
+PHI:2648
+accession	P76002
+db_type	Uniprot
+entered_by	RP
+gene_name	pliG
+host_tax	9031
+literature_id	23049900
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	562
+phi_base_acc	PHI:2648
+
+PHI:2649
+accession	Q5ALT5
+db_type	Uniprot
+entered_by	RP
+gene_name	Msb2
+host_tax	10090
+literature_id	23139737
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2649
+
+PHI:2650
+accession	B5R579
+db_type	Uniprot
+entered_by	RP
+gene_name	BamB
+host_tax	10090
+literature_id	23144780
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	149539
+phi_base_acc	PHI:2650
+
+PHI:2651
+accession	Q8ZQ52
+db_type	Uniprot
+entered_by	RP
+gene_name	yedX
+host_tax	9031
+literature_id	23284609
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2651
+
+PHI:2652
+accession	Q5KQZ9
+db_type	Uniprot
+entered_by	RP
+gene_name	magA
+host_tax	10090
+literature_id	23118860
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	573
+phi_base_acc	PHI:2652
+
+PHI:2653
+accession	G2Y3E7
+db_type	Uniprot
+entered_by	RP
+gene_name	bcvel1
+host_tax	3885
+literature_id	23118899
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2653
+
+PHI:2654
+accession	Q59VF3
+db_type	Uniprot
+entered_by	RP
+gene_name	DUR1,2
+host_tax	10090
+literature_id	23144764
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2654
+
+PHI:2656
+accession	D0ZPP5
+db_type	Uniprot
+entered_by	RP
+gene_name	pmrF
+host_tax	10090
+literature_id	23166721
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2656
+
+PHI:2657
+accession	A9CFS9
+db_type	Uniprot
+entered_by	RP
+gene_name	HspL
+host_tax	4113
+literature_id	23185409
+literature_source	Pubmed
+multiple_mutation	PHI:2660
+patho_tax	358
+phi_base_acc	PHI:2657
+
+PHI:2658
+accession	A9CKC3
+db_type	Uniprot
+entered_by	RP
+gene_name	hspC
+host_tax	4113
+literature_id	23185409
+literature_source	Pubmed
+multiple_mutation	PHI:2657
+patho_tax	358
+phi_base_acc	PHI:2658
+
+PHI:2659
+accession	Q7D412
+db_type	Uniprot
+entered_by	RP
+gene_name	hspAT1
+host_tax	4113
+literature_id	23185409
+literature_source	Pubmed
+multiple_mutation	PHI:2657
+patho_tax	358
+phi_base_acc	PHI:2659
+
+PHI:2660
+accession	Q7D321
+db_type	Uniprot
+entered_by	RP
+gene_name	hspAT2
+host_tax	4113
+literature_id	23185409
+literature_source	Pubmed
+multiple_mutation	PHI:2657
+patho_tax	358
+phi_base_acc	PHI:2660
+
+PHI:2661
+accession	Q4X0J5
+db_type	Uniprot
+entered_by	RP
+gene_name	MedA
+host_tax	7137
+literature_id	23185496
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2661
+
+PHI:2662
+accession	A4VZ16
+db_type	Uniprot
+entered_by	RP
+gene_name	HP0197
+host_tax	9823
+literature_id	23226442
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1307
+phi_base_acc	PHI:2662
+
+PHI:2663
+accession	Q4DDC5
+db_type	Uniprot
+entered_by	RP
+gene_name	delta-amastin
+host_tax	10090
+literature_id	23272170
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5693
+phi_base_acc	PHI:2663
+
+PHI:2664
+accession	C5AIS7
+db_type	Uniprot
+entered_by	RP
+gene_name	tofM
+host_tax	4530
+literature_id	23284909
+literature_source	Pubmed
+multiple_mutation	PHI:2665; PHI:2666
+patho_tax	337
+phi_base_acc	PHI:2664
+
+PHI:2665
+accession	Q4VSJ8
+db_type	Uniprot
+entered_by	RP
+gene_name	tofI
+host_tax	4530
+literature_id	23284909
+literature_source	Pubmed
+multiple_mutation	PHI:2666; PHI:2664
+patho_tax	337
+phi_base_acc	PHI:2665
+
+PHI:2666
+accession	Q4VSJ9
+db_type	Uniprot
+entered_by	RP
+gene_name	tofR
+host_tax	4530
+literature_id	23284909
+literature_source	Pubmed
+multiple_mutation	PHI:2665; PHI:2664
+patho_tax	337
+phi_base_acc	PHI:2666
+
+PHI:2667
+accession	H6SB05
+db_type	Uniprot
+entered_by	RP
+gene_name	PPE18
+host_tax	10090
+literature_id	23300718
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1773
+phi_base_acc	PHI:2667
+
+PHI:2668
+accession	G2Y3E7
+db_type	Uniprot
+entered_by	RP
+gene_name	bcvel1
+host_tax	3885
+literature_id	23308280
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2668
+
+PHI:2669
+accession	Q9I1R1
+db_type	Uniprot
+entered_by	RP
+gene_name	PA2206
+host_tax	7955
+literature_id	23382903
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	287
+phi_base_acc	PHI:2669
+
+PHI:2670
+accession	A3M486
+db_type	Uniprot
+entered_by	RP
+gene_name	tssM
+host_tax	10090
+literature_id	23365692
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	470
+phi_base_acc	PHI:2670
+
+PHI:2671
+accession	P13041
+db_type	Uniprot
+entered_by	RP
+gene_name	spvR
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2671
+
+PHI:2672
+accession	P0A2P8
+db_type	Uniprot
+entered_by	RP
+gene_name	fruR
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2672
+
+PHI:2673
+accession	P64394
+db_type	Uniprot
+entered_by	RP
+gene_name	himD
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2673
+
+PHI:2674
+accession	P14146
+db_type	Uniprot
+entered_by	RP
+gene_name	phoP
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	PHI:2675
+patho_tax	90371
+phi_base_acc	PHI:2674
+
+PHI:2675
+accession	P14147
+db_type	Uniprot
+entered_by	RP
+gene_name	phoQ
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	PHI:2674
+patho_tax	90371
+phi_base_acc	PHI:2675
+
+PHI:2676
+accession	Q8ZPP5
+db_type	Uniprot
+entered_by	RP
+gene_name	ssrA 
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	PHI:2677
+patho_tax	90371
+phi_base_acc	PHI:2676
+
+PHI:2677
+accession	Q7CQM5
+db_type	Uniprot
+entered_by	RP
+gene_name	ssrB
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	PHI:2676
+patho_tax	90371
+phi_base_acc	PHI:2677
+
+PHI:2678
+accession	P40676
+db_type	Uniprot
+entered_by	RP
+gene_name	slyA
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2678
+
+PHI:2679
+accession	Q7CQF1
+db_type	Uniprot
+entered_by	RP
+gene_name	hnr
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2679
+
+PHI:2680
+accession	P0A2F0
+db_type	Uniprot
+entered_by	RP
+gene_name	rpoE
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2680
+
+PHI:2681
+accession	P0A2G1
+db_type	Uniprot
+entered_by	RP
+gene_name	smpB
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2681
+
+PHI:2682
+accession	P69917
+db_type	Uniprot
+entered_by	RP
+gene_name	csrA
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2682
+
+PHI:2683
+accession	P0A2E5
+db_type	Uniprot
+entered_by	RP
+gene_name	rpoS
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2683
+
+PHI:2684
+accession	P0A2T6
+db_type	Uniprot
+entered_by	RP
+gene_name	crp
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2684
+
+PHI:2685
+accession	P0AA19
+db_type	Uniprot
+entered_by	RP
+gene_name	ompR
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	PHI:2686
+patho_tax	90371
+phi_base_acc	PHI:2685
+
+PHI:2687
+accession	P0A1R0
+db_type	Uniprot
+entered_by	RP
+gene_name	hfq
+host_tax	10090
+literature_id	19229334
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	90371
+phi_base_acc	PHI:2687
+
+PHI:2688
+accession	Q3BQL2
+db_type	Uniprot
+entered_by	RP
+gene_name	XopL
+host_tax	4072
+literature_id	23359647
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	456327
+phi_base_acc	PHI:2688
+
+PHI:2689
+accession	Q6E9X8
+db_type	Uniprot
+entered_by	RP
+gene_name	ActA
+host_tax	10090
+literature_id	23382675
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1639
+phi_base_acc	PHI:2689
+
+PHI:2690
+accession	P08191
+db_type	Uniprot
+entered_by	RP
+gene_name	FimH
+host_tax	10090
+literature_id	23358328
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	562
+phi_base_acc	PHI:2690
+
+PHI:2691
+accession	Q6FUI3
+db_type	Uniprot
+entered_by	RP
+gene_name	IRE1
+host_tax	10090
+literature_id	23382685
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5478
+phi_base_acc	PHI:2691
+
+PHI:2692
+accession	E0W547
+db_type	Uniprot
+entered_by	RP
+gene_name	Avh5
+host_tax	3847
+literature_id	23075041
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67593
+phi_base_acc	PHI:2692
+
+PHI:2693
+accession	F0XP73
+db_type	Uniprot
+entered_by	RP
+gene_name	GcABC-G1
+host_tax	3339
+literature_id	23252416
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	226899
+phi_base_acc	PHI:2693
+
+PHI:2694
+accession	Q6D000
+db_type	Uniprot
+entered_by	RP
+gene_name	 rsmB
+host_tax	4113
+literature_id	23113713
+literature_source	Pubmed
+multiple_mutation	PHI:2695
+patho_tax	29471
+phi_base_acc	PHI:2694
+
+PHI:2698
+accession	Q02039
+db_type	Uniprot
+entered_by	RP
+gene_name	NIP1
+host_tax	4513
+literature_id	22712509
+literature_source	Pubmed
+multiple_mutation	PHI:2696
+patho_tax	914237
+phi_base_acc	PHI:2698
+
+PHI:2699
+accession	Q8PPR7
+db_type	Uniprot
+entered_by	RP
+gene_name	HrpM
+host_tax	37656
+literature_id	22738424
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	611301
+phi_base_acc	PHI:2699
+
+PHI:2700
+accession	J7MF98
+db_type	Uniprot
+entered_by	RP
+gene_name	lac2
+host_tax	3659
+literature_id	22934563
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5465
+phi_base_acc	PHI:2700
+
+PHI:2701
+accession	Q8PQN7
+db_type	Uniprot
+entered_by	RP
+gene_name	avrXacE1
+host_tax	2711
+literature_id	22435635
+literature_source	Pubmed
+multiple_mutation	PHI:2702
+patho_tax	346
+phi_base_acc	PHI:2701
+
+PHI:2702
+accession	Q8PHM7
+db_type	Uniprot
+entered_by	RP
+gene_name	avrXacE2
+host_tax	2711
+literature_id	22435635
+literature_source	Pubmed
+multiple_mutation	PHI:2701
+patho_tax	346
+phi_base_acc	PHI:2702
+
+PHI:2703
+accession	Q8PI08
+db_type	Uniprot
+entered_by	RP
+gene_name	xac3090
+host_tax	2711
+literature_id	22435635
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	346
+phi_base_acc	PHI:2703
+
+PHI:2705
+accession	C9Z5Q5
+db_type	Uniprot
+entered_by	RP
+gene_name	EsxA
+host_tax	3726
+literature_id	23009676
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1930
+phi_base_acc	PHI:2705
+
+PHI:2706
+accession	C9Z5Q6
+db_type	Uniprot
+entered_by	RP
+gene_name	EsxB
+host_tax	3726
+literature_id	23009676
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1930
+phi_base_acc	PHI:2706
+
+PHI:2707
+accession	C9Z5Q1
+db_type	Uniprot
+entered_by	RP
+gene_name	EccC
+host_tax	3726
+literature_id	23009676
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1930
+phi_base_acc	PHI:2707
+
+PHI:2708
+accession	C9Z5Q3
+db_type	Uniprot
+entered_by	RP
+gene_name	EccD
+host_tax	3726
+literature_id	23009676
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1930
+phi_base_acc	PHI:2708
+
+PHI:2710
+accession	H8ZZ79
+db_type	Uniprot
+entered_by	RP
+gene_name	mepB 
+host_tax	3435
+literature_id	23387470
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	474922
+phi_base_acc	PHI:2710
+
+PHI:2711
+accession	G2X3W4
+db_type	Uniprot
+entered_by	RP
+gene_name	NLP1
+host_tax	4100
+literature_id	23051172
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	27337
+phi_base_acc	PHI:2711
+
+PHI:2712
+accession	G2WWK9
+db_type	Uniprot
+entered_by	RP
+gene_name	NLP2
+host_tax	4100
+literature_id	23051172
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	27337
+phi_base_acc	PHI:2712
+
+PHI:2713
+accession	E1AYJ2
+db_type	Uniprot
+entered_by	RP
+gene_name	TALE1
+host_tax	3983
+literature_id	22947214
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	43353
+phi_base_acc	PHI:2713
 
 PHI:2714
 accession	I1RC71
@@ -2158,6 +7282,1398 @@ multiple_mutation
 patho_tax	5518
 phi_base_acc	PHI:2715
 
+PHI:2717
+accession	Q9FDG1
+db_type	Uniprot
+entered_by	RP
+gene_name	avrXa7
+host_tax	4530
+literature_id	23078195
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	129394
+phi_base_acc	PHI:2717
+
+PHI:2718
+accession	Q6RKD2
+db_type	Uniprot
+entered_by	RP
+gene_name	pthXo1
+host_tax	4530
+literature_id	23078195
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	129394
+phi_base_acc	PHI:2718
+
+PHI:2719
+accession	G1FM79
+db_type	Uniprot
+entered_by	RP
+gene_name	talC
+host_tax	4530
+literature_id	23078195
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	129394
+phi_base_acc	PHI:2719
+
+PHI:2720
+accession	G7T9N6
+db_type	Uniprot
+entered_by	RP
+gene_name	tal1c
+host_tax	4530
+literature_id	23078195
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	129394
+phi_base_acc	PHI:2720
+
+PHI:2721
+accession	G7TK09
+db_type	Uniprot
+entered_by	RP
+gene_name	tal2a
+host_tax	4530
+literature_id	23078195
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	129394
+phi_base_acc	PHI:2721
+
+PHI:2722
+accession	G7TJZ8
+db_type	Uniprot
+entered_by	RP
+gene_name	tal2g
+host_tax	4530
+literature_id	23078195
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	129394
+phi_base_acc	PHI:2722
+
+PHI:2727
+accession	E0W4Y2
+db_type	Uniprot
+entered_by	RP
+gene_name	Avh241
+host_tax	3847
+literature_id	22816601
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67593
+phi_base_acc	PHI:2727
+
+PHI:2729
+accession	B2SME5
+db_type	Uniprot
+entered_by	RP
+gene_name	PdeK
+host_tax	4530
+literature_id	22712508
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	64187
+phi_base_acc	PHI:2729
+
+PHI:2730
+accession	B2SME4
+db_type	Uniprot
+entered_by	RP
+gene_name	PdeR
+host_tax	4530
+literature_id	22712508
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	64187
+phi_base_acc	PHI:2730
+
+PHI:2731
+accession	G2XD29
+db_type	Uniprot
+entered_by	RP
+gene_name	VdSge1
+host_tax	4081
+literature_id	22970788
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	27337
+phi_base_acc	PHI:2731
+
+PHI:2732
+accession	Q97T11
+db_type	Uniprot
+entered_by	RP
+gene_name	 metQ
+host_tax	10090
+literature_id	23349662
+literature_source	Pubmed
+multiple_mutation	PHI:2733; PHI:2734
+patho_tax	1313
+phi_base_acc	PHI:2732
+
+PHI:2733
+accession	Q97S31
+db_type	Uniprot
+entered_by	RP
+gene_name	 metE
+host_tax	10090
+literature_id	23349662
+literature_source	Pubmed
+multiple_mutation	PHI:2734; PHI:2732
+patho_tax	1313
+phi_base_acc	PHI:2733
+
+PHI:2734
+accession	Q97S30
+db_type	Uniprot
+entered_by	RP
+gene_name	 metF
+host_tax	10090
+literature_id	23349662
+literature_source	Pubmed
+multiple_mutation	PHI:2733; PHI:2732
+patho_tax	1313
+phi_base_acc	PHI:2734
+
+PHI:2735
+accession	D0KML5
+db_type	Uniprot
+entered_by	RP
+gene_name	RsmA
+host_tax	4097
+literature_id	23372695
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	55208
+phi_base_acc	PHI:2735
+
+PHI:2736
+accession	Q97PH9
+db_type	Uniprot
+entered_by	RP
+gene_name	IDTR
+host_tax	10090
+literature_id	23437050
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1313
+phi_base_acc	PHI:2736
+
+PHI:2737
+accession	Q5H2X8
+db_type	Uniprot
+entered_by	RP
+gene_name	SSBX
+host_tax	4530
+literature_id	23418541
+literature_source	Pubmed
+multiple_mutation	PHI:2738
+patho_tax	129394
+phi_base_acc	PHI:2737
+
+PHI:2738
+accession	B2SVR3
+db_type	Uniprot
+entered_by	RP
+gene_name	hpa1
+host_tax	4530
+literature_id	23418541
+literature_source	Pubmed
+multiple_mutation	PHI:2737
+patho_tax	129394
+phi_base_acc	PHI:2738
+
+PHI:2739
+accession	Q8E0Q7
+db_type	Uniprot
+entered_by	RP
+gene_name	cylE
+host_tax	10090
+literature_id	23505569
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1311
+phi_base_acc	PHI:2739
+
+PHI:2740
+accession	O53735
+db_type	Uniprot
+entered_by	RP
+gene_name	MmpL4
+host_tax	10090
+literature_id	23431276
+literature_source	Pubmed
+multiple_mutation	PHI:2741
+patho_tax	1773
+phi_base_acc	PHI:2740
+
+PHI:2741
+accession	O53784
+db_type	Uniprot
+entered_by	RP
+gene_name	MmpL5
+host_tax	10090
+literature_id	23431276
+literature_source	Pubmed
+multiple_mutation	PHI:2740
+patho_tax	1773
+phi_base_acc	PHI:2741
+
+PHI:2742
+accession	Q08242
+db_type	Uniprot
+entered_by	RP
+gene_name	avrPto
+host_tax	4100
+literature_id	23382672
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	317
+phi_base_acc	PHI:2742
+
+PHI:2743
+accession	Q8RSY1
+db_type	Uniprot
+entered_by	RP
+gene_name	avrPtoB
+host_tax	4100
+literature_id	23382672
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	317
+phi_base_acc	PHI:2743
+
+PHI:2744
+accession	Q4PET8
+db_type	Uniprot
+entered_by	RP
+gene_name	Pit2
+host_tax	381124
+literature_id	23459172
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5270
+phi_base_acc	PHI:2744
+
+PHI:2745
+accession	Q02LV5
+db_type	Uniprot
+entered_by	RP
+gene_name	treY
+host_tax	6239
+literature_id	23505373
+literature_source	Pubmed
+multiple_mutation	PHI:2746
+patho_tax	287
+phi_base_acc	PHI:2745
+
+PHI:2749
+accession	P0CS63
+db_type	Uniprot
+entered_by	RP
+gene_name	Rim101
+host_tax	10090
+literature_id	23322637
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5207
+phi_base_acc	PHI:2749
+
+PHI:2751
+accession	E1WEX6
+db_type	Uniprot
+entered_by	RP
+gene_name	lpxO
+host_tax	10090
+literature_id	23302685
+literature_source	Pubmed
+multiple_mutation	PHI:2750
+patho_tax	90371
+phi_base_acc	PHI:2751
+
+PHI:2752
+accession	Q888Y7
+db_type	Uniprot
+entered_by	RP
+gene_name	HopQ1
+host_tax	4081
+literature_id	23417089
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	323
+phi_base_acc	PHI:2752
+
+PHI:2801
+accession	Q48WD8
+db_type	Uniprot
+entered_by	RP
+gene_name	M1
+host_tax	10090
+literature_id	23443671
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1306
+phi_base_acc	PHI:2801
+
+PHI:2802
+accession	B2ZRQ4
+db_type	Uniprot
+entered_by	RP
+gene_name	3hnr
+host_tax	381124
+literature_id	23384859
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	93612
+phi_base_acc	PHI:2802
+
+PHI:2803
+accession	Q2FKJ7
+db_type	Uniprot
+entered_by	RP
+gene_name	lae1
+host_tax	381124
+literature_id	23384859
+literature_source	Pubmed
+multiple_mutation	no
+patho_tax	93612
+phi_base_acc	PHI:2803
+
+PHI:2804
+accession	Q2FDM5
+db_type	Uniprot
+entered_by	RP
+gene_name	ecp6
+host_tax	381124
+literature_id	23384859
+literature_source	Pubmed
+multiple_mutation	no
+patho_tax	93612
+phi_base_acc	PHI:2804
+
+PHI:2805
+accession	I7F9U1
+db_type	Uniprot
+entered_by	RP
+gene_name	cbp40
+host_tax	7955
+literature_id	23465548
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1307
+phi_base_acc	PHI:2805
+
+PHI:2806
+accession	A7E5X4
+db_type	Uniprot
+entered_by	RP
+gene_name	SsSOD1
+host_tax	3885
+literature_id	23252459
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5180
+phi_base_acc	PHI:2806
+
+PHI:2807
+accession	A7EKS0
+db_type	Uniprot
+entered_by	RP
+gene_name	Ss-Sl2
+host_tax	3708
+literature_id	22558105
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5180
+phi_base_acc	PHI:2807
+
+PHI:2808
+accession	Q2KN79
+db_type	Uniprot
+entered_by	RP
+gene_name	gas1
+host_tax	4081
+literature_id	16353549
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2808
+
+PHI:2809
+accession	Q4WPQ8
+db_type	Uniprot
+entered_by	RP
+gene_name	PrtT
+host_tax	10090
+literature_id	19564390
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2809
+
+PHI:2810
+accession	C4MEZ6
+db_type	Uniprot
+entered_by	RP
+gene_name	MPK1
+host_tax	10090
+literature_id	21249145
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552467
+phi_base_acc	PHI:2810
+
+PHI:2811
+accession	P19880
+db_type	Uniprot
+entered_by	RP
+gene_name	yap1
+host_tax	6239
+literature_id	19502579
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	4932
+phi_base_acc	PHI:2811
+
+PHI:2812
+accession	P24813
+db_type	Uniprot
+entered_by	RP
+gene_name	yap2
+host_tax	6239
+literature_id	19502579
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	4932
+phi_base_acc	PHI:2812
+
+PHI:2813
+accession	P00445
+db_type	Uniprot
+entered_by	RP
+gene_name	sod1
+host_tax	6239
+literature_id	19502579
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	4932
+phi_base_acc	PHI:2813
+
+PHI:2814
+accession	P12383
+db_type	Uniprot
+entered_by	RP
+gene_name	pdr1
+host_tax	6239
+literature_id	19502579
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	4932
+phi_base_acc	PHI:2814
+
+PHI:2815
+accession	Q04182
+db_type	Uniprot
+entered_by	RP
+gene_name	pdr15
+host_tax	6239
+literature_id	19502579
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	4932
+phi_base_acc	PHI:2815
+
+PHI:2817
+accession	Q9C4A0
+db_type	Uniprot
+entered_by	RP
+gene_name	Aapg1
+host_tax	64884
+literature_id	11386370
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5599
+phi_base_acc	PHI:2817
+
+PHI:2818
+accession	Q9C4A1
+db_type	Uniprot
+entered_by	RP
+gene_name	Acpg1
+host_tax	55188
+literature_id	11386370
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	135859
+phi_base_acc	PHI:2818
+
+PHI:2819
+accession	G1UA02
+db_type	Uniprot
+entered_by	RP
+gene_name	CaEss1
+host_tax	10090
+literature_id	15835905
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2819
+
+PHI:2820
+accession	Q59UR3
+db_type	Uniprot
+entered_by	RP
+gene_name	SWI1
+host_tax	10090
+literature_id	16647065
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2820
+
+PHI:2821
+accession	Q5ALP9
+db_type	Uniprot
+entered_by	RP
+gene_name	SNF2
+host_tax	10090
+literature_id	16647065
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2821
+
+PHI:2822
+accession	Q5K8R6
+db_type	Uniprot
+entered_by	RP
+gene_name	Cxt1p
+host_tax	10090
+literature_id	18347023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5207
+phi_base_acc	PHI:2822
+
+PHI:2823
+accession	Q59X38
+db_type	Uniprot
+entered_by	RP
+gene_name	PES1
+host_tax	7137
+literature_id	19075239
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2823
+
+PHI:2824
+accession	Q59WG7
+db_type	Uniprot
+entered_by	RP
+gene_name	Cabig1
+host_tax	10090
+literature_id	16552067
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2824
+
+PHI:2825
+accession	Q5ABG1
+db_type	Uniprot
+entered_by	RP
+gene_name	SET1
+host_tax	10090
+literature_id	16629671
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2825
+
+PHI:2826
+accession	Q6XPX0
+db_type	Uniprot
+entered_by	RP
+gene_name	Fgb1
+host_tax	4081
+literature_id	15588997
+literature_source	Pubmed
+multiple_mutation	PHI:2827
+patho_tax	59765
+phi_base_acc	PHI:2826
+
+PHI:2827
+accession	Q9HGU2
+db_type	Uniprot
+entered_by	RP
+gene_name	Fmk1
+host_tax	4081
+literature_id	15588997
+literature_source	Pubmed
+multiple_mutation	PHI:2826
+patho_tax	59765
+phi_base_acc	PHI:2827
+
+PHI:2828
+accession	Q4WPQ8
+db_type	Uniprot
+entered_by	RP
+gene_name	PrtT
+host_tax	10090
+literature_id	19564385
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2828
+
+PHI:2829
+accession	C1KJH7
+db_type	Uniprot
+entered_by	RP
+gene_name	AVR-Pita1JA
+host_tax	4530
+literature_id	20465417
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2829
+
+PHI:2830
+accession	C1KJG7
+db_type	Uniprot
+entered_by	RP
+gene_name	AVR-Pita1JB
+host_tax	4530
+literature_id	20465417
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2830
+
+PHI:2833
+accession	Q09RL3
+db_type	Uniprot
+entered_by	RP
+gene_name	Cir1
+host_tax	10090
+literature_id	17121456
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5207
+phi_base_acc	PHI:2833
+
+PHI:2834
+accession	C3PTB1
+db_type	Uniprot
+entered_by	RP
+gene_name	LAM1
+host_tax	381124
+literature_id	20192833
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5016
+phi_base_acc	PHI:2834
+
+PHI:2836
+accession	C3JXE9
+db_type	Uniprot
+entered_by	RP
+gene_name	RED3
+host_tax	381124
+literature_id	20192833
+literature_source	Pubmed
+multiple_mutation	PHI:2835; PHI:2839
+patho_tax	5016
+phi_base_acc	PHI:2836
+
+PHI:2837
+accession	D2SZX7
+db_type	Uniprot
+entered_by	RP
+gene_name	OXI1
+host_tax	381124
+literature_id	20192833
+literature_source	Pubmed
+multiple_mutation	PHI:2838
+patho_tax	5016
+phi_base_acc	PHI:2837
+
+PHI:2838
+accession	D2SZX8
+db_type	Uniprot
+entered_by	RP
+gene_name	TOX9
+host_tax	381124
+literature_id	20192833
+literature_source	Pubmed
+multiple_mutation	PHI:2837
+patho_tax	5016
+phi_base_acc	PHI:2838
+
+PHI:2839
+accession	Q8NJQ2
+db_type	Uniprot
+entered_by	RP
+gene_name	RED1
+host_tax	381124
+literature_id	20192833
+literature_source	Pubmed
+multiple_mutation	PHI:2835; PHI:2836
+patho_tax	5016
+phi_base_acc	PHI:2839
+
+PHI:2840
+accession	F6K8L5
+db_type	Uniprot
+entered_by	RP
+gene_name	CnSEC14-1
+host_tax	10090
+literature_id	21453402
+literature_source	Pubmed
+multiple_mutation	PHI:2842
+patho_tax	5207
+phi_base_acc	PHI:2840
+
+PHI:2841
+accession	F6K8L6
+db_type	Uniprot
+entered_by	RP
+gene_name	CnSEC14-2
+host_tax	10090
+literature_id	21453402
+literature_source	Pubmed
+multiple_mutation	PHI:2842
+patho_tax	5207
+phi_base_acc	PHI:2841
+
+PHI:2843
+accession	Q9P8P2
+db_type	Uniprot
+entered_by	RP
+gene_name	CnPlb1
+host_tax	10090
+literature_id	21453402
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5207
+phi_base_acc	PHI:2843
+
+PHI:2844
+accession	O93802
+db_type	Uniprot
+entered_by	RP
+gene_name	BRM2
+host_tax	23211
+literature_id	9885194
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5599
+phi_base_acc	PHI:2844
+
+PHI:2847
+accession	A7X4J2
+db_type	Uniprot
+entered_by	RP
+gene_name	BcPG1
+host_tax	3885
+literature_id	17849715
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2847
+
+PHI:2848
+accession	A4VB48
+db_type	Uniprot
+entered_by	RP
+gene_name	BcPG2
+host_tax	3885
+literature_id	17849715
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	40559
+phi_base_acc	PHI:2848
+
+PHI:2849
+accession	Q99174
+db_type	Uniprot
+entered_by	RP
+gene_name	cutA
+host_tax	3662
+literature_id	9100380
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	70790
+phi_base_acc	PHI:2849
+
+PHI:2850
+accession	C1KJH9
+db_type	Uniprot
+entered_by	RP
+gene_name	AVR-Pita1
+host_tax	4530
+literature_id	20719251
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2850
+
+PHI:2851
+accession	Q58ID3
+db_type	Uniprot
+entered_by	RP
+gene_name	Mig2-6
+host_tax	381124
+literature_id	15672821
+literature_source	Pubmed
+multiple_mutation	PHI:2852; PHI:2853; PHI:2854; PHI:2855; PHI:2856
+patho_tax	5270
+phi_base_acc	PHI:2851
+
+PHI:2852
+accession	Q9UV32
+db_type	Uniprot
+entered_by	RP
+gene_name	Mig1
+host_tax	381124
+literature_id	15672821
+literature_source	Pubmed
+multiple_mutation	PHI:2851; PHI:2853; PHI:2854; PHI:2855; PHI:2856
+patho_tax	5270
+phi_base_acc	PHI:2852
+
+PHI:2853
+accession	Q8X1D5
+db_type	Uniprot
+entered_by	RP
+gene_name	Mig2-4
+host_tax	381124
+literature_id	15672821
+literature_source	Pubmed
+multiple_mutation	PHI:2851; PHI:2852; PHI:2854; PHI:2855; PHI:2856
+patho_tax	5270
+phi_base_acc	PHI:2853
+
+PHI:2854
+accession	Q8X1D7
+db_type	Uniprot
+entered_by	RP
+gene_name	mig2-1
+host_tax	381124
+literature_id	15672821
+literature_source	Pubmed
+multiple_mutation	PHI:2851; PHI:2852; PHI:2853; PHI:2855; PHI:2856
+patho_tax	5270
+phi_base_acc	PHI:2854
+
+PHI:2855
+accession	Q8X1D4
+db_type	Uniprot
+entered_by	RP
+gene_name	mig2-5
+host_tax	381124
+literature_id	15672821
+literature_source	Pubmed
+multiple_mutation	PHI:2851; PHI:2852; PHI:2853; PHI:2854; PHI:2856
+patho_tax	5270
+phi_base_acc	PHI:2855
+
+PHI:2856
+accession	Q8X1D6
+db_type	Uniprot
+entered_by	RP
+gene_name	mig2-2
+host_tax	381124
+literature_id	15672821
+literature_source	Pubmed
+multiple_mutation	PHI:2851; PHI:2852; PHI:2853; PHI:2854; PHI:2855
+patho_tax	5270
+phi_base_acc	PHI:2856
+
+PHI:2857
+accession	I8LT72
+db_type	Uniprot
+entered_by	RP
+gene_name	YopK
+host_tax	10090
+literature_id	23633954
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	992166
+phi_base_acc	PHI:2857
+
+PHI:2858
+accession	A0MAR2
+db_type	Uniprot
+entered_by	RP
+gene_name	FvVE1 
+host_tax	381124
+literature_id	22247572
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	117187
+phi_base_acc	PHI:2858
+
+PHI:2859
+accession	Q5APP3
+db_type	Uniprot
+entered_by	RP
+gene_name	Rtg1
+host_tax	10090
+literature_id	23526879
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2859
+
+PHI:2860
+accession	Q59WI6
+db_type	Uniprot
+entered_by	RP
+gene_name	Rtg3
+host_tax	10090
+literature_id	23526879
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2860
+
+PHI:2861
+accession	Q59S18
+db_type	Uniprot
+entered_by	RP
+gene_name	Hms1
+host_tax	10090
+literature_id	23526879
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2861
+
+PHI:2862
+accession	Q5AC02
+db_type	Uniprot
+entered_by	RP
+gene_name	Lys14
+host_tax	10090
+literature_id	23526879
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2862
+
+PHI:2863
+accession	Q5A7T6
+db_type	Uniprot
+entered_by	RP
+gene_name	Lys144
+host_tax	10090
+literature_id	23526879
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2863
+
+PHI:2864
+accession	Q59SK6
+db_type	Uniprot
+entered_by	RP
+gene_name	Zcf21
+host_tax	10090
+literature_id	23526879
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2864
+
+PHI:2865
+accession	Q5AL36
+db_type	Uniprot
+entered_by	RP
+gene_name	Tye7
+host_tax	10090
+literature_id	23526879
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2865
+
+PHI:2866
+accession	Q59Y24
+db_type	Uniprot
+entered_by	RP
+gene_name	ORF19.3625
+host_tax	10090
+literature_id	23526879
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2866
+
+PHI:2868
+accession	F0UYY1
+db_type	Uniprot
+entered_by	RP
+gene_name	acpA
+host_tax	10090
+literature_id	23457625
+literature_source	Pubmed
+multiple_mutation	PHI:2869; PHI:2870; PHI:2871; ; 
+patho_tax	263
+phi_base_acc	PHI:2868
+
+PHI:2869
+accession	Q5NIC0
+db_type	Uniprot
+entered_by	RP
+gene_name	acpB
+host_tax	10090
+literature_id	23457625
+literature_source	Pubmed
+multiple_mutation	PHI:2868; PHI:2870; PHI:2871; ; 
+patho_tax	263
+phi_base_acc	PHI:2869
+
+PHI:2870
+accession	Q5NH51
+db_type	Uniprot
+entered_by	RP
+gene_name	acpC
+host_tax	10090
+literature_id	23457625
+literature_source	Pubmed
+multiple_mutation	PHI:2868; PHI:2869; PHI:2871; ; 
+patho_tax	263
+phi_base_acc	PHI:2870
+
+PHI:2871
+accession	Q5NFZ7
+db_type	Uniprot
+entered_by	RP
+gene_name	hapA
+host_tax	10090
+literature_id	23457625
+literature_source	Pubmed
+multiple_mutation	PHI:2869; PHI:2870; PHI:2871; ; 
+patho_tax	263
+phi_base_acc	PHI:2871
+
+PHI:2872
+accession	Q48473
+db_type	Uniprot
+entered_by	RP
+gene_name	ompK36
+host_tax	10090
+literature_id	23457627
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	573
+phi_base_acc	PHI:2872
+
+PHI:2873
+accession	D3FN03
+db_type	Uniprot
+entered_by	RP
+gene_name	hldD
+host_tax	9031
+literature_id	23437265
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	197
+phi_base_acc	PHI:2873
+
+PHI:2874
+accession	Q4ZXM6
+db_type	Uniprot
+entered_by	RP
+gene_name	ecf5
+host_tax	3885
+literature_id	23516563
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	321
+phi_base_acc	PHI:2874
+
+PHI:2875
+accession	Q4ZXG1
+db_type	Uniprot
+entered_by	RP
+gene_name	ecf7
+host_tax	3885
+literature_id	23516563
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	321
+phi_base_acc	PHI:2875
+
+PHI:2876
+accession	Q4ZM64
+db_type	Uniprot
+entered_by	RP
+gene_name	ecf6
+host_tax	3885
+literature_id	23516563
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	321
+phi_base_acc	PHI:2876
+
+PHI:2877
+accession	Q4ZY22
+db_type	Uniprot
+entered_by	RP
+gene_name	ecf11
+host_tax	3885
+literature_id	23516563
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	321
+phi_base_acc	PHI:2877
+
+PHI:2878
+accession	Q4ZZI8
+db_type	Uniprot
+entered_by	RP
+gene_name	ecf18
+host_tax	3885
+literature_id	23516563
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	321
+phi_base_acc	PHI:2878
+
+PHI:2879
+accession	Q888Y7
+db_type	Uniprot
+entered_by	RP
+gene_name	HopQ1
+host_tax	4097
+literature_id	23555744
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	323
+phi_base_acc	PHI:2879
+
+PHI:2880
+accession	Q48S75
+db_type	Uniprot
+entered_by	RP
+gene_name	AspA
+host_tax	10090
+literature_id	23638083
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1314
+phi_base_acc	PHI:2880
+
+PHI:2881
+accession	I2E6J4
+db_type	Uniprot
+entered_by	RP
+gene_name	Gp-flp-32
+host_tax	4113
+literature_id	23468621
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	36090
+phi_base_acc	PHI:2881
+
+PHI:2883
+accession	Q59WL2
+db_type	Uniprot
+entered_by	RP
+gene_name	MNN2
+host_tax	7137
+literature_id	23633946
+literature_source	Pubmed
+multiple_mutation	PHI:2885; PHI:2886; PHI:2887; PHI:2888; 
+patho_tax	5476
+phi_base_acc	PHI:2883
+
+PHI:2884
+accession	Q59KJ7
+db_type	Uniprot
+entered_by	RP
+gene_name	MNN21
+host_tax	7137
+literature_id	23633946
+literature_source	Pubmed
+multiple_mutation	PHI:2883; PHI:2885; PHI:2886; PHI:2887; PHI:2888
+patho_tax	5476
+phi_base_acc	PHI:2884
+
+PHI:2885
+accession	Q5AD72
+db_type	Uniprot
+entered_by	RP
+gene_name	MNN22
+host_tax	7137
+literature_id	23633946
+literature_source	Pubmed
+multiple_mutation	PHI:2883; PHI:2886; PHI:2887; PHI:2888; 
+patho_tax	5476
+phi_base_acc	PHI:2885
+
+PHI:2886
+accession	Q5AP90
+db_type	Uniprot
+entered_by	RP
+gene_name	MNN23
+host_tax	7137
+literature_id	23633946
+literature_source	Pubmed
+multiple_mutation	PHI:2883; PHI:2885; PHI:2887; PHI:2888; 
+patho_tax	5476
+phi_base_acc	PHI:2886
+
+PHI:2887
+accession	Q5A687
+db_type	Uniprot
+entered_by	RP
+gene_name	MNN24
+host_tax	7137
+literature_id	23633946
+literature_source	Pubmed
+multiple_mutation	PHI:2883; PHI:2885; PHI:2886; PHI:2888; 
+patho_tax	5476
+phi_base_acc	PHI:2887
+
+PHI:2888
+accession	Q59R28
+db_type	Uniprot
+entered_by	RP
+gene_name	MNN26 
+host_tax	7137
+literature_id	23633946
+literature_source	Pubmed
+multiple_mutation	PHI:2883; PHI:2885; PHI:2886; PHI:2887; 
+patho_tax	5476
+phi_base_acc	PHI:2888
+
+PHI:2889
+accession	Q0GBR6
+db_type	Uniprot
+entered_by	RP
+gene_name	Rop18
+host_tax	10090
+literature_id	23633952
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5811
+phi_base_acc	PHI:2889
+
+PHI:2890
+accession	B2C6F5
+db_type	Uniprot
+entered_by	RP
+gene_name	Avr1k
+host_tax	3847
+literature_id	23530601
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67593
+phi_base_acc	PHI:2890
+
+PHI:2891
+accession	G4ZRQ8
+db_type	Uniprot
+entered_by	RP
+gene_name	Avr1b-1
+host_tax	3847
+literature_id	23530601
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67593
+phi_base_acc	PHI:2891
+
+PHI:2892
+accession	B9K1X3
+db_type	Uniprot
+entered_by	RP
+gene_name	F-Avi5813
+host_tax	29760
+literature_id	23581823
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	373
+phi_base_acc	PHI:2892
+
+PHI:2893
+accession	B9K1Q7
+db_type	Uniprot
+entered_by	RP
+gene_name	F-avi5730
+host_tax	29760
+literature_id	23581823
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	373
+phi_base_acc	PHI:2893
+
+PHI:2894
+accession	B9JZT5
+db_type	Uniprot
+entered_by	RP
+gene_name	F-avi3342
+host_tax	29760
+literature_id	23581823
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	373
+phi_base_acc	PHI:2894
+
+PHI:2895
+accession	B9JV05
+db_type	Uniprot
+entered_by	RP
+gene_name	F-avi4330
+host_tax	29760
+literature_id	23581823
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	373
+phi_base_acc	PHI:2895
+
+PHI:2904
+accession	M1T205
+db_type	Uniprot
+entered_by	RP
+gene_name	Me10
+host_tax	4081
+literature_id	23194342
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	13131
+phi_base_acc	PHI:2904
+
+PHI:2905
+accession	M1T210
+db_type	Uniprot
+entered_by	RP
+gene_name	Me23
+host_tax	4100
+literature_id	23194342
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	13131
+phi_base_acc	PHI:2905
+
+PHI:2906
+accession	D4HUY5
+db_type	Uniprot
+entered_by	RP
+gene_name	rpoN
+host_tax	3750
+literature_id	23721085
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2906
+
 PHI:2907
 accession	I6YDU0
 db_type	Uniprot
@@ -2169,4 +8685,1012 @@ literature_source	Pubmed
 multiple_mutation	PHI:2909
 patho_tax	5518
 phi_base_acc	PHI:2907
+
+PHI:2910
+accession	A7F519
+db_type	Uniprot
+entered_by	RP
+gene_name	Shk1
+host_tax	3747
+literature_id	23724858
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5180
+phi_base_acc	PHI:2910
+
+PHI:2911
+accession	A7F6V9
+db_type	Uniprot
+entered_by	RP
+gene_name	Ss-pth2
+host_tax	3847
+literature_id	23581822
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5180
+phi_base_acc	PHI:2911
+
+PHI:2912
+accession	H9AWW9
+db_type	Uniprot
+entered_by	RP
+gene_name	AaNoxA
+host_tax	164113
+literature_id	23527595
+literature_source	Pubmed
+multiple_mutation	PHI:2914
+patho_tax	5599
+phi_base_acc	PHI:2912
+
+PHI:2913
+accession	J7H173
+db_type	Uniprot
+entered_by	RP
+gene_name	AaNoxB
+host_tax	164113
+literature_id	23527595
+literature_source	Pubmed
+multiple_mutation	PHI:2912
+patho_tax	5599
+phi_base_acc	PHI:2913
+
+PHI:2914
+accession	J7H6V8
+db_type	Uniprot
+entered_by	RP
+gene_name	AaNoxR
+host_tax	164113
+literature_id	23527595
+literature_source	Pubmed
+multiple_mutation	PHI:2912
+patho_tax	5599
+phi_base_acc	PHI:2914
+
+PHI:2918
+accession	Q4UV56
+db_type	Uniprot
+entered_by	RP
+gene_name	AvrXccC
+host_tax	3702
+literature_id	23252460
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	340
+phi_base_acc	PHI:2918
+
+PHI:2919
+accession	E4ZT84
+db_type	Uniprot
+entered_by	RP
+gene_name	AvrLm11
+host_tax	3708
+literature_id	23406519
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5022
+phi_base_acc	PHI:2919
+
+PHI:2920
+accession	E3QRA4
+db_type	Uniprot
+entered_by	RP
+gene_name	FET3-1
+host_tax	381124
+literature_id	23639025
+literature_source	Pubmed
+multiple_mutation	PHI:2921
+patho_tax	31870
+phi_base_acc	PHI:2920
+
+PHI:2923
+accession	I6YWH2
+db_type	Uniprot
+entered_by	RP
+gene_name	AaNPS6
+host_tax	164113
+literature_id	23438010
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5599
+phi_base_acc	PHI:2923
+
+PHI:2924
+accession	J9MXG1
+db_type	Uniprot
+entered_by	RP
+gene_name	lip1
+host_tax	4081
+literature_id	23718123
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2924
+
+PHI:2925
+accession	J9MBA2
+db_type	Uniprot
+entered_by	RP
+gene_name	lip2
+host_tax	4081
+literature_id	23718123
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2925
+
+PHI:2926
+accession	J9NE50
+db_type	Uniprot
+entered_by	RP
+gene_name	lip3
+host_tax	4081
+literature_id	23718123
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2926
+
+PHI:2927
+accession	J9N2Z8
+db_type	Uniprot
+entered_by	RP
+gene_name	lip5
+host_tax	4081
+literature_id	23718123
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2927
+
+PHI:2929
+accession	J9MMS5
+db_type	Uniprot
+entered_by	RP
+gene_name	ctf1
+host_tax	4081
+literature_id	23718123
+literature_source	Pubmed
+multiple_mutation	PHI:2930
+patho_tax	59765
+phi_base_acc	PHI:2929
+
+PHI:2930
+accession	J9MFF7
+db_type	Uniprot
+entered_by	RP
+gene_name	ctf2
+host_tax	4081
+literature_id	23718123
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2930
+
+PHI:2931
+accession	Q6ZXG2
+db_type	Uniprot
+entered_by	RP
+gene_name	DspA/E
+host_tax	3702
+literature_id	23634775
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	552
+phi_base_acc	PHI:2931
+
+PHI:2932
+accession	F8WSC5
+db_type	Uniprot
+entered_by	RP
+gene_name	NoxA
+host_tax	23211
+literature_id	23279187
+literature_source	Pubmed
+multiple_mutation	PHI:2933
+patho_tax	5599
+phi_base_acc	PHI:2932
+
+PHI:2933
+accession	J7H173
+db_type	Uniprot
+entered_by	RP
+gene_name	NoxB
+host_tax	23211
+literature_id	23279187
+literature_source	Pubmed
+multiple_mutation	PHI:2932
+patho_tax	5599
+phi_base_acc	PHI:2933
+
+PHI:2936
+accession	Q87BR6
+db_type	Uniprot
+entered_by	RP
+gene_name	XhpT
+host_tax	3885
+literature_id	23186359
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	183190
+phi_base_acc	PHI:2936
+
+PHI:2937
+accession	Q87BQ4
+db_type	Uniprot
+entered_by	RP
+gene_name	gumD
+host_tax	3885
+literature_id	23678891
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	183190
+phi_base_acc	PHI:2937
+
+PHI:2938
+accession	Q87BQ7
+db_type	Uniprot
+entered_by	RP
+gene_name	gumH
+host_tax	3885
+literature_id	23678891
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	183190
+phi_base_acc	PHI:2938
+
+PHI:2939
+accession	Q0VHC3
+db_type	Uniprot
+entered_by	RP
+gene_name	HrpE3
+host_tax	4530
+literature_id	23672717
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	129394
+phi_base_acc	PHI:2939
+
+PHI:2940
+accession	G4MV67
+db_type	Uniprot
+entered_by	RP
+gene_name	MoARK1
+host_tax	4530
+literature_id	23384308
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2940
+
+PHI:2941
+accession	L7WWG5
+db_type	Uniprot
+entered_by	RP
+gene_name	Avr1d
+host_tax	3847
+literature_id	23550527
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67593
+phi_base_acc	PHI:2941
+
+PHI:2943
+accession	L7WWG5
+db_type	Uniprot
+entered_by	RP
+gene_name	Avr1d
+host_tax	3847
+literature_id	23594349
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67593
+phi_base_acc	PHI:2943
+
+PHI:2944
+accession	G3C9T8
+db_type	Uniprot
+entered_by	RP
+gene_name	HaRxLL464
+host_tax	3702
+literature_id	23734779
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2944
+
+PHI:2945
+accession	G3C9Q9
+db_type	Uniprot
+entered_by	RP
+gene_name	HaRxL75
+host_tax	3702
+literature_id	23734779
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2945
+
+PHI:2946
+accession	G3C9N8
+db_type	Uniprot
+entered_by	RP
+gene_name	HaRxL22
+host_tax	3702
+literature_id	23734779
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2946
+
+PHI:2947
+accession	G3C9T3
+db_type	Uniprot
+entered_by	RP
+gene_name	HaRxLL441
+host_tax	3702
+literature_id	23734779
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2947
+
+PHI:2948
+accession	G3C9R3
+db_type	Uniprot
+entered_by	RP
+gene_name	HaRxL89
+host_tax	3702
+literature_id	23734779
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	272952
+phi_base_acc	PHI:2948
+
+PHI:2949
+accession	I0ISN4
+db_type	Uniprot
+entered_by	RP
+gene_name	vfr
+host_tax	4097
+literature_id	23145783
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	322
+phi_base_acc	PHI:2949
+
+PHI:2950
+accession	L8AYM6
+db_type	Uniprot
+entered_by	RP
+gene_name	cyaA
+host_tax	4097
+literature_id	23145783
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	322
+phi_base_acc	PHI:2950
+
+PHI:2951
+accession	K8Z7I4
+db_type	Uniprot
+entered_by	RP
+gene_name	hrpE
+host_tax	4521
+literature_id	23578314
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	134874
+phi_base_acc	PHI:2951
+
+PHI:2953
+accession	K8ZK72
+db_type	Uniprot
+entered_by	RP
+gene_name	hrpG 
+host_tax	4521
+literature_id	23578314
+literature_source	Pubmed
+multiple_mutation	PHI:2952
+patho_tax	134874
+phi_base_acc	PHI:2953
+
+PHI:2954
+accession	B6KLD2
+db_type	Uniprot
+entered_by	RP
+gene_name	TgNST1
+host_tax	10090
+literature_id	23658519
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5811
+phi_base_acc	PHI:2954
+
+PHI:2958
+accession	C5BG70
+db_type	Uniprot
+entered_by	RP
+gene_name	sdhC
+host_tax	7998
+literature_id	23762452
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67780
+phi_base_acc	PHI:2958
+
+PHI:2959
+accession	C5BF98
+db_type	Uniprot
+entered_by	RP
+gene_name	mdh
+host_tax	7998
+literature_id	23762452
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67780
+phi_base_acc	PHI:2959
+
+PHI:2961
+accession	C5BAT0
+db_type	Uniprot
+entered_by	RP
+gene_name	gcvP
+host_tax	7998
+literature_id	23762452
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67780
+phi_base_acc	PHI:2961
+
+PHI:2962
+accession	C5BEV2
+db_type	Uniprot
+entered_by	RP
+gene_name	glyA
+host_tax	7998
+literature_id	23762452
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	67780
+phi_base_acc	PHI:2962
+
+PHI:2963
+accession	Q56935
+db_type	Uniprot
+entered_by	RP
+gene_name	YopK
+host_tax	10090
+literature_id	23090955
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	633
+phi_base_acc	PHI:2963
+
+PHI:2964
+accession	G7TM01
+db_type	Uniprot
+entered_by	RP
+gene_name	AsnB
+host_tax	4530
+literature_id	23157387
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	129394
+phi_base_acc	PHI:2964
+
+PHI:2965
+accession	Q2FZ08
+db_type	Uniprot
+entered_by	RP
+gene_name	cvfA
+host_tax	10090
+literature_id	15853881
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1314
+phi_base_acc	PHI:2965
+
+PHI:2966
+accession	Q2FYP3
+db_type	Uniprot
+entered_by	RP
+gene_name	cvfB
+host_tax	7091
+literature_id	15853881
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1280
+phi_base_acc	PHI:2966
+
+PHI:2967
+accession	Q5HFZ4
+db_type	Uniprot
+entered_by	RP
+gene_name	cvfC
+host_tax	10090
+literature_id	15853881
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1280
+phi_base_acc	PHI:2967
+
+PHI:2968
+accession	J9VQA5
+db_type	Uniprot
+entered_by	RP
+gene_name	Hxs1
+host_tax	10090
+literature_id	23691177
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5207
+phi_base_acc	PHI:2968
+
+PHI:2969
+accession	Q4WCZ1
+db_type	Uniprot
+entered_by	RP
+gene_name	argEF
+host_tax	7137
+literature_id	2382566
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2969
+
+PHI:2970
+accession	Q4WNW5
+db_type	Uniprot
+entered_by	RP
+gene_name	argB
+host_tax	7137
+literature_id	2382566
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	746128
+phi_base_acc	PHI:2970
+
+PHI:2971
+accession	Q82ZX2
+db_type	Uniprot
+entered_by	RP
+gene_name	CspR
+host_tax	7137
+literature_id	23086208
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1351
+phi_base_acc	PHI:2971
+
+PHI:2972
+accession	G1UB67
+db_type	Uniprot
+entered_by	RP
+gene_name	Efg1p
+host_tax	10090
+literature_id	23125349
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	5476
+phi_base_acc	PHI:2972
+
+PHI:2973
+accession	Q3BTM6
+db_type	Uniprot
+entered_by	RP
+gene_name	XopJ
+host_tax	4072
+literature_id	23785289
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	456327
+phi_base_acc	PHI:2973
+
+PHI:2974
+accession	E2MMQ4
+db_type	Uniprot
+entered_by	RP
+gene_name	AvrRpt2
+host_tax	3702
+literature_id	15546361
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	323
+phi_base_acc	PHI:2974
+
+PHI:2975
+accession	Q9JP38
+db_type	Uniprot
+entered_by	RP
+gene_name	ipx10
+host_tax	4081
+literature_id	11967070
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	323
+phi_base_acc	PHI:2975
+
+PHI:2976
+accession	C6ZRH8
+db_type	Uniprot
+entered_by	RP
+gene_name	CgOPT1
+host_tax	108276
+literature_id	19698103
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	29905
+phi_base_acc	PHI:2976
+
+PHI:2977
+accession	F3REN8
+db_type	Uniprot
+entered_by	RP
+gene_name	VirR
+host_tax	10090
+literature_id	16102006
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1639
+phi_base_acc	PHI:2977
+
+PHI:2978
+accession	G4N5V2
+db_type	Uniprot
+entered_by	RP
+gene_name	MoCel12A
+host_tax	4530
+literature_id	20680265
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2978
+
+PHI:2979
+accession	Q5NHS6
+db_type	Uniprot
+entered_by	RP
+gene_name	DipA
+host_tax	10090
+literature_id	23840797
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	263
+phi_base_acc	PHI:2979
+
+PHI:2980
+accession	Q54151
+db_type	Uniprot
+entered_by	RP
+gene_name	pic
+host_tax	10090
+literature_id	 23391153
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	42897
+phi_base_acc	PHI:2980
+
+PHI:2981
+accession	A6N6J8
+db_type	Uniprot
+entered_by	RP
+gene_name	Ctf1
+host_tax	4081
+literature_id	18705871
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	59765
+phi_base_acc	PHI:2981
+
+PHI:2982
+accession	B7HLG1
+db_type	Uniprot
+entered_by	RP
+gene_name	CodY
+host_tax	7137
+literature_id	22571587
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1396
+phi_base_acc	PHI:2982
+
+PHI:2983
+accession	G4N8E3
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_06279.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2983
+
+PHI:2986
+accession	G4N7A6
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_06434.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2986
+
+PHI:2987
+accession	G4NID8
+db_type	Uniprot
+entered_by	RP
+gene_name	MoAPS1
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2987
+
+PHI:2988
+accession	G4NA99
+db_type	Uniprot
+entered_by	RP
+gene_name	MoAPS2
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2988
+
+PHI:2989
+accession	G4N8I4
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_06243.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2989
+
+PHI:2990
+accession	G4MRY7
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_02474.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2990
+
+PHI:2991
+accession	Q52G60
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_01426.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2991
+
+PHI:2992
+accession	Q01168
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_02755.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2992
+
+PHI:2994
+accession	G4N7V2
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_06355.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2994
+
+PHI:2995
+accession	G4MQ91
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_09263.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2995
+
+PHI:2996
+accession	G4N6W9
+db_type	Uniprot
+entered_by	RP
+gene_name	MGG_06507.6
+host_tax	4530
+literature_id	23762023
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	148305
+phi_base_acc	PHI:2996
+
+PHI:2997
+accession	Q82Z33
+db_type	Uniprot
+entered_by	RP
+gene_name	EF3245
+host_tax	7137
+literature_id	23755154
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1351
+phi_base_acc	PHI:2997
+
+PHI:2998
+accession	Q834U9
+db_type	Uniprot
+entered_by	RP
+gene_name	EF1533
+host_tax	7137
+literature_id	23755154
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1351
+phi_base_acc	PHI:2998
+
+PHI:2999
+accession	Q8KUC0
+db_type	Uniprot
+entered_by	RP
+gene_name	EF0026
+host_tax	7137
+literature_id	23755154
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1351
+phi_base_acc	PHI:2999
+
+PHI:3000
+accession	Q837N7
+db_type	Uniprot
+entered_by	RP
+gene_name	EF0797
+host_tax	7137
+literature_id	23755154
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1351
+phi_base_acc	PHI:3000
+
+PHI:3004
+accession	A6QHK8
+db_type	Uniprot
+entered_by	RP
+gene_name	ClpX
+host_tax	10090
+literature_id	12791139
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1280
+phi_base_acc	PHI:3004
+
+PHI:3005
+accession	P63786
+db_type	Uniprot
+entered_by	RP
+gene_name	ClpP
+host_tax	10090
+literature_id	12791139
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1280
+phi_base_acc	PHI:3005
+
+PHI:3006
+accession	A7KT66
+db_type	Uniprot
+entered_by	RP
+gene_name	rrgA
+host_tax	10090
+literature_id	12207705
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1313
+phi_base_acc	PHI:3006
+
+PHI:3007
+accession	A7KT36
+db_type	Uniprot
+entered_by	RP
+gene_name	srtD
+host_tax	10090
+literature_id	12207705
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1313
+phi_base_acc	PHI:3007
+
+PHI:3008
+accession	Q9S1J0
+db_type	Uniprot
+entered_by	RP
+gene_name	zmpR
+host_tax	10090
+literature_id	12207705
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1313
+phi_base_acc	PHI:3008
+
+PHI:3009
+accession	Q9S1K2
+db_type	Uniprot
+entered_by	RP
+gene_name	rr01
+host_tax	10090
+literature_id	12207705
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1313
+phi_base_acc	PHI:3009
+
+PHI:3010
+accession	Q97NM0
+db_type	Uniprot
+entered_by	RP
+gene_name	STM237
+host_tax	10090
+literature_id	12207705
+literature_source	Pubmed
+multiple_mutation	
+patho_tax	1313
+phi_base_acc	PHI:3010
+
+PHI:3011
+accession	P58662
+db_type	Uniprot
+entered_by	RP
+gene_name	rcsC11
+host_tax	10090
+literature_id	15469511
+literature_source	Pubmed
+multiple_mutation	PHI:3013
+patho_tax	90371
+phi_base_acc	PHI:3011
+
+PHI:3012
+accession	C4PCU2
+db_type	Uniprot
+entered_by	RP
+gene_name	rcsB
+host_tax	10090
+literature_id	15469511
+literature_source	Pubmed
+multiple_mutation	PHI:3011
+patho_tax	90371
+phi_base_acc	PHI:3012
+
+PHI:3013
+accession	P54698
+db_type	Uniprot
+entered_by	RP
+gene_name	rcsA
+host_tax	10090
+literature_id	15469511
+literature_source	Pubmed
+multiple_mutation	PHI:3011
+patho_tax	90371
+phi_base_acc	PHI:3013
 

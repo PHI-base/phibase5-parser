@@ -89,12 +89,12 @@ E	signal transduction	E1	signal transduction (mechanism unknown)	aza-naphthalene
 		E3	MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)	dicarboximides	dicarboximides	chlozolinate	84332-86-5	3656	medium/high	Resistance common in Botrytis and some other pathogens. Several mutations in OS-1, mostly I365S. Cross resistance common between the group members. Medium to high risk. See FRAC Dicarboximide Guidelines for resistance management.	2
 						iprodione	36734-19-7	28909			
 						procymidone	32809-16-8	8450			
-						vinclozolin	50471-44-8				
+						vinclozolin	50471-44-8	9986			
 F	lipid synthesis and membrane integrity	F1	none	formerly dicarboximides	n/a				n/a	n/a	NA
-		F2	phospholipid biosynthesis, methyltrans-ferase	phosphoro-thiolates	phosphoro-thiolates	edifenphos	17109-49-8		low/medium	Resistance known in specific fungi. Low to medium risk. Resistance management required if used for risky pathogens.	6
-						iprobenfos (IBP)	26087-47-8				
-						pyrazophos	13457-18-6				
-				dithiolanes	dithiolanes	isoprothiolane	50512-35-1				
+		F2	phospholipid biosynthesis, methyltrans-ferase	phosphoro-thiolates	phosphoro-thiolates	edifenphos	17109-49-8	34735	low/medium	Resistance known in specific fungi. Low to medium risk. Resistance management required if used for risky pathogens.	6
+						iprobenfos (IBP)	26087-47-8	79737			
+						pyrazophos	13457-18-6	81942			
+				dithiolanes	dithiolanes	isoprothiolane	50512-35-1	6047			
 		F3	lipid peroxidation (proposed)	AH-fungicides (Aromatic Hydrocarbons) (chlorophenyls, nitroanilines)	aromatic hydrocarbons	biphenyl	92-52-4	17097	low/medium	Resistance known in some fungi. Low to medium risk. Cross resistance patterns complex due to different activity spectra.	14
 						chloroneb	2675-77-6	3628			
 						dicloran	99-30-9	27864			
@@ -111,42 +111,42 @@ F	lipid synthesis and membrane integrity	F1	none	formerly dicarboximides	n/a				
 						Bacillus amyloliquefaciens strain MBI600					
 						Bacillus amyloliquefaciens strain D747					
 		F7	cell membrane disruption (proposed)	plant extract	terpene hydrocarbons and terpene alcohols	extract from Melaleuca alternifolia (tea tree)		83629	unknown	Resistance not known	46
-G	sterol biosynthesis in membranes	G1	C14-demethylase in sterol biosynthesis (erg11/cyp51)	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)	piperazines	triforine	26644-46-2		medium	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.	3
-					pyridines	pyrifenox	88283-41-4				
-						pyrisoxazole	847749-37-5				
+G	sterol biosynthesis in membranes	G1	C14-demethylase in sterol biosynthesis (erg11/cyp51)	DMI-fungicides (DeMethylation Inhibitors) (SBI: Class I)	piperazines	triforine	26644-46-2	9715	medium	There are big differences in the activity spectra of DMI fungicides. Resistance is known in various fungal species. Several resistance mechanisms are known incl. target site mutations in cyp51 (erg 11) gene, e.g. V136A, Y137F, A379G, I381V; cyp51 promotor; ABC transporters and others. Generally wise to accept that cross resistance is present between DMI fungicides active against the same fungus. DMI fungicides are Sterol Biosynthesis Inhibitors (SBIs), but show no cross resistance to other SBI classes. Medium risk. See FRAC SBI Guidelines for resistance management.	3
+					pyridines	pyrifenox	88283-41-4	81972			
+						pyrisoxazole	847749-37-5	83823			
 					pyrimidines	fenarimol	60168-88-9	4998			
 						nuarimol	63284-71-9	7645			
-					imidazoles	imazalil	35554-44-0				
-						oxpoconazole	134074-64-9				
-						pefurazoate	101903-30-4				
-						prochloraz	67747-09-5				
-						triflumizole	68694-11-1				
-					triazoles	azaconazole	60207-31-0				
-						bitertanol	55179-31-2				
-						bromuconazole	116255-48-2				
-						cyproconazole	94361-06-5				
-						difenoconazole	119446-68-3				
-						diniconazole	83657-18-5				
-						epoxiconazole	133855-98-8				
-						etaconazole	60207-93-4				
-						fenbuconazole	114369-43-6				
-						fluquinconazole	136426-54-5				
-						flusilazole	85509-19-9				
-						flutriafol	76674-21-0				
-						hexaconazole	79983-71-4				
-						imibenconazole	86598-92-7				
-						ipconazole	125225-28-7				
-						metconazole	125116-23-6				
-						myclobutanil	88671-89-0				
-						penconazole	66246-88-6				
-						propiconazole	60207-90-1				
-						simeconazole	149508-90-7				
-						tebuconazole	107534-96-3				
-						tetraconazole	112281-77-3				
-						triadimefon	43121-43-3				
-						triadimenol	55219-65-3				
-						triticonazole	131983-72-7				
-					triazolinthiones	prothioconazole	178928-70-6				
+					imidazoles	imazalil	35554-44-0	81927			
+						oxpoconazole	134074-64-9	83832			
+						pefurazoate	101903-30-4	81775			
+						prochloraz	67747-09-5	8434			
+						triflumizole	68694-11-1	81784			
+					triazoles	azaconazole	60207-31-0	81898			
+						bitertanol	55179-31-2	3130			
+						bromuconazole	116255-48-2	81900			
+						cyproconazole	94361-06-5	81758			
+						difenoconazole	119446-68-3	81760			
+						diniconazole	83657-18-5	81913			
+						epoxiconazole	133855-98-8	4811			
+						etaconazole	60207-93-4	4874			
+						fenbuconazole	114369-43-6	81762			
+						fluquinconazole	136426-54-5	83923			
+						flusilazole	85509-19-9	81922			
+						flutriafol	76674-21-0	81923			
+						hexaconazole	79983-71-4	81766			
+						imibenconazole	86598-92-7	81767			
+						ipconazole	125225-28-7	81770			
+						metconazole	125116-23-6	81773			
+						myclobutanil	88671-89-0	75281			
+						penconazole	66246-88-6	81970			
+						propiconazole	60207-90-1	8489			
+						simeconazole	149508-90-7	81819			
+						tebuconazole	107534-96-3	81781			
+						tetraconazole	112281-77-3	81782			
+						triadimefon	43121-43-3	9665			
+						triadimenol	55219-65-3	9666			
+						triticonazole	131983-72-7	81980			
+					triazolinthiones	prothioconazole	178928-70-6	82036			
 		G2	delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)	amines (“morpholines”) (SBI: Class II)	morpholines	aldimorph	91315-15-0	83295	low/medium	Decreased sensitivity for powdery mildews. Cross resistance within the group generally found but not to other SBI classes. Low to medium risk. See FRAC SBI Guidelines for resistance management.	5
 						dodemorph	1593-77-7	81960			
 						fenpropimorph	67564-91-4	50145			
@@ -159,8 +159,8 @@ G	sterol biosynthesis in membranes	G1	C14-demethylase in sterol biosynthesis (er
 		G4	squalene-epoxidase in sterol biosynthesis (erg1)	(SBI class IV)	thiocarbamates	pyributicarb	88678-67-5	81736	unknown	Resistance not known, fungicidal and herbicidal activity	18
 					allylamines	naftifine	65472-88-0	7451	unknown	Medical fungicides only	
 						terbinafine	91161-71-6	9448			
-H	cell wall biosynthesis	H3	trehalase and inositol-biosynthesis	glucopyranosyl antibiotic	glucopyranosyl antibiotic	validamycin	37248-47-8		unknown	Resistance not known	26
-		H4	chitin synthase	polyoxins	peptidyl pyrimidine nucleoside	polyoxin	11113-80-7		medium	Resistance known. Medium risk. Resistance management required.	19
+H	cell wall biosynthesis	H3	trehalase and inositol-biosynthesis	glucopyranosyl antibiotic	glucopyranosyl antibiotic	validamycin	37248-47-8	29703	unknown	Resistance not known	26
+		H4	chitin synthase	polyoxins	peptidyl pyrimidine nucleoside	polyoxin	11113-80-7	26194	medium	Resistance known. Medium risk. Resistance management required.	19
 		H5	cellulose synthase	CAA-fungicides (Carboxylic Acid Amides)	cinnamic acid amides	dimethomorph	110488-70-5	81848	low/medium	Resistance known in Plasmopara viticola but not in Phytophthora infestans. Cross resistance between all members of the CAA group. Low to medium risk. See FRAC CAA Guidelines for resistance management	40
 						flumorph	211867-47-9	83428			
 						pyrimorph	868390-90-3	83663			
@@ -171,18 +171,18 @@ H	cell wall biosynthesis	H3	trehalase and inositol-biosynthesis	glucopyranosyl a
 I	melanin synthesis in cell wall	I1	reductase in melanin biosynthesis	MBI-R (Melanin Biosynthesis Inhibitors – Reductase)	isobenzo-furanone	fthalide	27355-22-2	47617	unknown	Resistance not known	16.1
 					pyrrolo-quinolinone	pyroquilon	57369-32-1	45141			
 					triazolobenzo-thiazole	tricyclazole	41814-78-2	81783			
-		I2	dehydratase in melanin biosynthesis	MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)	cyclopropane-carboxamide	carpropamid	104030-54-8		medium	Resistance known. Medium risk. Resistance management required.	16.2
-					carboxamide	diclocymet	139920-32-4				
-					propionamide	fenoxanil	115852-48-7				
-P	host plant defence induction	P1	salicylic acid pathway	benzo-thiadiazole BTH	benzo-thiadiazole BTH	acibenzolar-S-methyl	135158-54-2		unknown	Resistance not known	P1
-		P2	none	benzisothiazole	benzisothiazole	probenazole (also antibacterial and antifungal activity)	27605-76-1		unknown	Resistance not known 	P2
+		I2	dehydratase in melanin biosynthesis	MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)	cyclopropane-carboxamide	carpropamid	104030-54-8	3434	medium	Resistance known. Medium risk. Resistance management required.	16.2
+					carboxamide	diclocymet	139920-32-4	3434			
+					propionamide	fenoxanil	115852-48-7	3434			
+P	host plant defence induction	P1	salicylic acid pathway	benzo-thiadiazole BTH	benzo-thiadiazole BTH	acibenzolar-S-methyl	135158-54-2	3434	unknown	Resistance not known	P1
+		P2	none	benzisothiazole	benzisothiazole	probenazole (also antibacterial and antifungal activity)	27605-76-1	3434	unknown	Resistance not known 	P2
 		P3	none	thiadiazole-carboxamide	thiadiazole-carboxamide	tiadinil	223580-51-6	81825	unknown	Resistance not known	P3
 						isotianil	224049-04-1	83657			
-		P4	none	natural compound	polysaccharides	laminarin	9008-22-4		unknown	Resistance not known	P4
-		P5	none	plant extract	complex mixture, ethanol extract	extract from Reynoutria sachalinensis (giant knotweed)			unknown	Resistance not known	P5
-U	unknown	U1	unknown	cyanoacetamide-oxime	cyanoacetamide-oxime	cymoxanil	57966-95-7		low/medium	Resistance claims described. Low to medium risk. Resistance management required.	27
-		U2	unknown	phosphonates	ethyl phosphonates	fosetyl-Al	39148-24-8		low	Few resistance cases reported in few pathogens. Low risk	33
-					phosphorous acid and salts	phosphorous acid and salts	13598-36-2				
+		P4	none	natural compound	polysaccharides	laminarin	9008-22-4	6364	unknown	Resistance not known	P4
+		P5	none	plant extract	complex mixture, ethanol extract	extract from Reynoutria sachalinensis (giant knotweed)		6364	unknown	Resistance not known	P5
+U	unknown	U1	unknown	cyanoacetamide-oxime	cyanoacetamide-oxime	cymoxanil	57966-95-7	81788	low/medium	Resistance claims described. Low to medium risk. Resistance management required.	27
+		U2	unknown	phosphonates	ethyl phosphonates	fosetyl-Al	39148-24-8	84033	low	Few resistance cases reported in few pathogens. Low risk	33
+					phosphorous acid and salts	phosphorous acid and salts	13598-36-2	44976			
 		U3	unknown	phthalamic acids	phthalamic acids	teclofthalam (Bactericide)	76280-91-6	83341	unknown	Resistance not known	34
 		U4	unknown	benzotriazines	benzotriazines	triazoxide	72459-58-6	83335	unknown	Resistance not known	35
 		U5	unknown	benzene-sulfonamides	benzene-sulfonamides	flusulfamide	106917-52-6	81801	unknown	Resistance not known	36

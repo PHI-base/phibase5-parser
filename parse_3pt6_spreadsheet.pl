@@ -28,6 +28,8 @@ while (<COL_NAMES_FILE>) {
 }
 close (COL_NAMES_FILE);
 
+# Read in the relevant ontologies mapping files
+print "Reading ontology mapping files...\n";
 
 # parse tab-separated file that maps experimental evidence values of the spreadsheet
 # to identifiers in the experiment specification ontology
@@ -270,15 +272,20 @@ while (<TSV_FILE>) {
           and defined $required_fields_annot{"literature_id"}
           and defined $required_fields_annot{"entered_by"}
           and $required_fields_annot{"phi_base_acc"} ne ""
-          and $required_fields_annot{"accession"} ne ""
+          # UniProt entry must be either 6 or 10 alphanumeric characters
+          and ($required_fields_annot{"accession"} =~ /^[a-zA-Z\d]{6}$/
+                or $required_fields_annot{"accession"} =~ /^[a-zA-Z\d]{10}$/)
           and $required_fields_annot{"gene_name"} ne ""
           and $required_fields_annot{"host_tax"} =~ /^\d+$/  # taxon ID must be an integer
           and $required_fields_annot{"literature_id"} ne ""
           and $required_fields_annot{"entered_by"} ne ""
           and $required_fields_annot{"db_type"} eq "Uniprot"
           and lc $required_fields_annot{"literature_source"} eq "pubmed"
-          #and $required_fields_annot{"patho_tax"} =~ /^\d+$/  # taxon ID must be an integer) {
-          and $required_fields_annot{"patho_tax"} == 5518 ) {
+          and $required_fields_annot{"patho_tax"} =~ /^\d+$/  # taxon ID must be an integer
+          #and $required_fields_annot{"patho_tax"} == 5518  # taxon ID for Fusarium gram
+          #and $required_fields_annot{"patho_tax"} == 148305  # taxon ID for Magnaporthe oryzae
+          #and $required_fields_annot{"patho_tax"} == 1307  # taxon ID for Streptococcus suis (causes human disease)
+        ) {
 
         # add the required fields of the current annotation to the fusarium hash
         $fusarium_gram_data{$phi_acc_num} = {%required_fields_annot};

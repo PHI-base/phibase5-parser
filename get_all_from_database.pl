@@ -2,8 +2,15 @@
 use strict;
 use warnings;
 use DBI; # load perl postgresql module
+use LWP::Simple;
+use XML::Twig;
 
-use phibase_subroutines qw(connect_to_phibase query_uniprot ontology_mapping); # load PHI-base functions
+# load PHI-base functions
+use phibase_subroutines 
+  qw(connect_to_phibase 
+     query_uniprot 
+     ontology_mapping
+    );
 
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
@@ -13,16 +20,7 @@ open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output fi
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name\tPathogen Taxon ID\tDisease ID\tHost Taxon ID\tGO Annotations\tPhenotype Outcome ID\tDefects\tInducers\tCAS Registry IDs\tExperiment Spec ID\tCurators\tSpecies Experts\tPubMed IDs\tCuration Date\n";
-
-# retrieve all of the data from the relevant tables of phibase
-# and save in a tab-delimited file, with appropriate headings
-
-# hash to store all annotations with a valid PHI-base accession
-#my %valid_phibase_data;
-
-# hash to store all values of the current annotation
-#my %phi_base_annotation;
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tPathogen Taxon\tDisease\tHost Taxon\tGO Annotations\tPhenotype Outcome\tDefects\tInducers\tCAS Registry IDs\tChEBI IDs\tFRAC Codes\tExperiment Specifications\tCurators\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -31,6 +29,16 @@ my $sql_result = $db_conn->prepare($sql_stmt);
 $sql_result->execute() or die $DBI::errstr;
 
 my $interaction_count = 0;
+
+# Read in the relevant ontologies
+print "Reading ontology files...\n";
+my $obo_parser = OBO::Parser::OBOParser->new;
+my $exp_spec_ontology = $obo_parser->work("experiment_specification.obo");
+my $phen_outcome_ontology = $obo_parser->work("phenotype_outcome.obo");
+my $human_disease_ontology = $obo_parser->work("./ontologies/Disease/HumanDisease/doid.obo");
+my $plant_disease_ontology = $obo_parser->work("./ontologies/Disease/PlantDisease/plant_disease_ontology.obo");
+
+print "Parsing PHI-base data...\n";
 
 while (my @row = $sql_result->fetchrow_array()) {
 
@@ -73,12 +81,52 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2->execute() or die $DBI::errstr;
   @row2 = $sql_result2->fetchrow_array();
 
-  my $uniprot_accession = shift @row2;
-  my $gene_name = shift @row2;
+  my $uniprot_acc = shift @row2;
+  my $phibase_gene_name = shift @row2;
   my $path_taxon_id = shift @row2;
-  my $phenotype_outcome = shift @row2;
+  my $phenotype_outcome_id = shift @row2;
 
-  print DATABASE_DATA_FILE "$uniprot_accession\t$gene_name\t$path_taxon_id\t";
+  # print the UniProt accession and PHI-base gene name
+  print DATABASE_DATA_FILE "$uniprot_acc\t$phibase_gene_name\t";
+
+  # get corresponding data from UniProt
+
+  # declare variable to store UniProt fields
+  my $uniprot_gene_names = "";
+
+  # RESTful URL query to get gene names for the current UniProt accession
+  my $query = "http://www.uniprot.org/uniprot/?format=tab&query=accession:$uniprot_acc&columns=genes";
+
+  # execute query and process response
+  my $gene_names_response = query_uniprot($query);
+  my @gene_names_plus_header = split ("\n",$gene_names_response); # split into header & gene names
+  my $gene_names_string = $gene_names_plus_header[1]; # the gene names string is second element, after the header
+  # check if any gene names have been defined
+  if (defined $gene_names_string) {
+    my @gene_names = split (" ",$gene_names_string); # split into array of individual gene names
+    foreach my $gene_name (@gene_names) {
+      $uniprot_gene_names .= "$gene_name;";
+    }
+  }
+  # remove the final semi-colon from end of the string
+  $uniprot_gene_names =~ s/;$//;
+  print DATABASE_DATA_FILE "$uniprot_gene_names\t";
+
+
+  # get the pathogen taxon details from the ENA web service
+  $query = "http://www.ebi.ac.uk/ena/data/view/Taxon:$path_taxon_id&display=xml";
+  my $xml_response = get $query or die "Error getting $query";
+
+  # use XML twig to parse the XML data
+  my $xml_twig = XML::Twig->new();
+  $xml_twig->parse($xml_response);
+
+  # parse the XML data to get the relevant pathogen taxon info
+  my $path_taxon = $xml_twig->root->first_child('taxon');
+  my $path_taxon_name = $path_taxon->{'att'}->{'scientificName'};
+
+  # print the pathogen taxon details
+  print DATABASE_DATA_FILE "$path_taxon_id:$path_taxon_name\t";
 
 
   # get the disease related fields 
@@ -96,10 +144,29 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $disease_id = shift @row2;
 
   # since this field is not mandatory
-  # need to check if a result exists
+  # need to check if a disease exists
   if (defined $disease_id) {
-    print DATABASE_DATA_FILE "$disease_id\t";
-  } else {
+
+    # use the disease ontologies to retrieve the term name, based on the identifier
+    # however, we need to find out which ontology it belongs to (human disease or plant disease)
+    my $disease_term;
+    my $disease_name;
+
+    # first try to get name from plant disease ontology
+    $disease_term = $plant_disease_ontology->get_term_by_id($disease_id);
+ 
+    if (defined $disease_term) {
+      # if found, then look up name
+      $disease_name = $disease_term->name;
+    } else { # if not defined, then look up human disease ontology
+      $disease_term = $human_disease_ontology->get_term_by_id($disease_id);
+      $disease_name = $disease_term->name;
+    }
+
+    # now print the disease id and name 
+    print DATABASE_DATA_FILE "$disease_id:$disease_name\t";
+
+  } else { # no disease found
     print DATABASE_DATA_FILE "\t";
   }
 
@@ -118,7 +185,20 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   my $host_taxon_id = shift @row2;
 
-  print DATABASE_DATA_FILE "$host_taxon_id\t";
+  # get the host taxon details from the ENA web service
+  $query = "http://www.ebi.ac.uk/ena/data/view/Taxon:$host_taxon_id&display=xml";
+  $xml_response = get $query or die "Error getting $query";
+
+  # use XML twig to parse the XML data
+  $xml_twig = XML::Twig->new();
+  $xml_twig->parse($xml_response);
+
+  # parse the XML data to get the relevant host taxon info
+  my $host_taxon = $xml_twig->root->first_child('taxon');
+  my $host_taxon_name = $host_taxon->{'att'}->{'scientificName'};
+
+  # print the host taxon details
+  print DATABASE_DATA_FILE "$host_taxon_id:$host_taxon_name\t";
 
 
   # get the Gene Ontology annotation fields 
@@ -143,11 +223,28 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     my $go_id = shift @row2;
     my $go_evid_code = shift @row2;
+    my $go_term = "";
+
+    # retrieve the name of the GO term, using the Quick REST web service
+    my $query = "http://www.ebi.ac.uk/QuickGO/GTerm?id=$go_id&format=oboxml";
+    my $xml_response = get $query;
+
+    # use XML twig to parse the XML data
+    my $xml_twig = XML::Twig->new();
+
+    if (defined $xml_response) {
+       # parse the XML data to get the GO term name
+       $xml_twig->parse($xml_response);
+       $go_term = $xml_twig->root->first_child('term')->field('name');
+    } else {
+       print STDERR "ERROR: Gene Ontology term not found for $go_id\n";
+    }
+
 
     if (defined $go_evid_code) {  # GO term with evid code
-      $go_output_string .= "$go_id,$go_evid_code;";
+      $go_output_string .= "$go_id($go_evid_code):$go_term;";
     } else {  # GO term without evid code
-      $go_output_string .= "$go_id;";
+      $go_output_string .= "$go_id:$go_term;";
     }
 
   }
@@ -159,8 +256,10 @@ while (my @row = $sql_result->fetchrow_array()) {
 
 
   # output the Phenotype Outcome, which has already been retrieved
-  # for comparison with PHI-base 3.6, it is output here 
-  print DATABASE_DATA_FILE "$phenotype_outcome\t";
+  # for comparison with PHI-base 3.6 spreadsheet, it is output in this position 
+  # use the ontology to retrieve the term name, based on the identifier
+  my $phen_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
+  print DATABASE_DATA_FILE "$phenotype_outcome_id:$phen_outcome_name\t";
 
 
   # get the Defect fields 
@@ -227,7 +326,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   print DATABASE_DATA_FILE "$inducer_output_string\t";
 
 
-  # get the Anti-infective fields 
+  # get the CAS IDs
   $sql_stmt2 = qq(SELECT cas_registry
                     FROM interaction,
                          interaction_anti_infective_chemical,
@@ -235,26 +334,88 @@ while (my @row = $sql_result->fetchrow_array()) {
                    WHERE interaction.id = $interaction_id
                      AND interaction.id = interaction_anti_infective_chemical.interaction_id
                      AND chemical.id = interaction_anti_infective_chemical.chemical_id
-                 ;);
+                ;);
 
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
-  # initalise output string for Anti-infectives
-  my $anti_infective_output_string = "";
+  # initalise output string for CAS IDs
+  my $cas_output_string = "";
 
   # since there may be multiple anti-infectives,
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
-    my $cas_registry = shift @row2;
-    $anti_infective_output_string .= "$cas_registry;";
+    my $cas_registry = shift @row2; 
+    $cas_output_string .= "$cas_registry;" if defined $cas_registry;
   }
 
-  # remove the final semi-colon from end of the string
-  $anti_infective_output_string =~ s/;$//;
+  # remove the final semi-colon from end of the strings
+  $cas_output_string =~ s/;$//;
+  # print the list of CAS IDs
+  print DATABASE_DATA_FILE "$cas_output_string\t";
+
+
+  # get the ChEBI ID IDs
+  $sql_stmt2 = qq(SELECT chebi_id
+                    FROM interaction,
+                         interaction_inducer_chemical,
+                         chemical
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_inducer_chemical.interaction_id
+                     AND chemical.id = interaction_inducer_chemical.chemical_id
+                ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # initalise output string for ChEBI IDs
+  my $chebi_output_string = "";
+
+  # since there may be multiple ChEBI IDs,
+  # need to retrieve all of them and construct output string 
+  # based on semi-colon delimiter
+  while (@row2 = $sql_result2->fetchrow_array()) {
+    my $chebi_id = shift @row2;
+    $chebi_output_string .= "$chebi_id;" if defined $chebi_id;
+  }
+
+  # remove the final semi-colon from end of the strings
+  $chebi_output_string =~ s/;$//;
   # print the list of inducers to file
-  print DATABASE_DATA_FILE "$anti_infective_output_string\t";
+  print DATABASE_DATA_FILE "$chebi_output_string\t";
+
+
+  # get the FRAC related fields
+  $sql_stmt2 = qq(SELECT frac_code
+                    FROM interaction,
+                         interaction_anti_infective_chemical,
+                         chemical,
+                         frac
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_anti_infective_chemical.interaction_id
+                     AND chemical.id = interaction_anti_infective_chemical.chemical_id
+                     AND frac.id = chemical.frac_id
+                ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # initalise output string for FRAC codes
+  my $frac_output_string = "";
+
+  # since there may be multiple FRAC codes,
+  # need to retrieve all of them and construct output string 
+  # based on semi-colon delimiter
+  while (@row2 = $sql_result2->fetchrow_array()) {
+    my $frac_code = shift @row2;
+    $frac_output_string .= "$frac_code;" if defined $frac_code;
+  }
+
+  # remove the final semi-colon from end of the strings
+  $frac_output_string =~ s/;$//;
+  # print the list of inducers to file
+  print DATABASE_DATA_FILE "$frac_output_string\t";
 
 
   # get the Experiment Specification fields 
@@ -275,8 +436,12 @@ while (my @row = $sql_result->fetchrow_array()) {
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
-    my $exp_spec = shift @row2;
-    $exp_spec_output_string .= "$exp_spec;";
+    my $exp_spec_id = shift @row2;
+    
+    # get the term name from the ontology, based on the identifier
+    my $exp_spec_name = $exp_spec_ontology->get_term_by_id($exp_spec_id)->name;
+
+    $exp_spec_output_string .= "$exp_spec_id:$exp_spec_name;";
   }
 
   # remove the final semi-colon from end of the string
@@ -390,6 +555,9 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # finally, output curation date
   print DATABASE_DATA_FILE "$curation_date\n";
+
+  # print message for every 50th PHI-base interaction processed
+  print "PHI-base annotations processed:$interaction_count\n" unless ($interaction_count % 50);
 
 }
 

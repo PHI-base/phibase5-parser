@@ -1,248 +1,1699 @@
-PHI:I1	PHI:355	gene disruption; complementation	ESO:0000001
-PHI:I1	PHI:355	gene disruption; complementation	ESO:0000007
-PHI:I2	PHI:712	mutation	ESO:0000019
-PHI:I3	PHI:717	gene disruption	ESO:0000001
-PHI:I4	PHI:719	gene disruption	ESO:0000001
-PHI:I5	PHI:720	gene disruption	ESO:0000001
-PHI:I6	PHI:721	gene disruption	ESO:0000001
-PHI:I7	PHI:722	gene disruption	ESO:0000001
-PHI:I8	PHI:723	gene disruption	ESO:0000001
-PHI:I9	PHI:727	gene disruption	ESO:0000001
-PHI:I10	PHI:730	gene disruption	ESO:0000001
-PHI:I11	PHI:733	gene deletion; complementation	ESO:0000002
-PHI:I11	PHI:733	gene deletion; complementation	ESO:0000007
-PHI:I12	PHI:861	gene deletion; complementation	ESO:0000002
-PHI:I12	PHI:861	gene deletion; complementation	ESO:0000007
-PHI:I13	PHI:861	gene deletion; complementation	ESO:0000002
-PHI:I13	PHI:861	gene deletion; complementation	ESO:0000007
-PHI:I14	PHI:1004	gene deletion	ESO:0000002
-PHI:I15	PHI:1004	gene deletion	ESO:0000002
-PHI:I16	PHI:1005	gene disruption; complementation	ESO:0000001
-PHI:I16	PHI:1005	gene disruption; complementation	ESO:0000007
-PHI:I17	PHI:1005	gene disruption; complementation	ESO:0000001
-PHI:I17	PHI:1005	gene disruption; complementation	ESO:0000007
-PHI:I18	PHI:1006	gene deletion; complementation	ESO:0000002
-PHI:I18	PHI:1006	gene deletion; complementation	ESO:0000007
-PHI:I19	PHI:1007	gene deletion	ESO:0000002
-PHI:I20	PHI:1012	gene deletion	ESO:0000002
-PHI:I21	PHI:1013	gene deletion; complementation	ESO:0000002
-PHI:I21	PHI:1013	gene deletion; complementation	ESO:0000007
-PHI:I22	PHI:1014	gene deletion	ESO:0000002
-PHI:I23	PHI:1015	gene deletion; complementation	ESO:0000002
-PHI:I23	PHI:1015	gene deletion; complementation	ESO:0000007
-PHI:I24	PHI:1016	gene deletion	ESO:0000002
-PHI:I25	PHI:1016	gene deletion	ESO:0000002
-PHI:I26	PHI:1078	gene deletion; complementation	ESO:0000002
-PHI:I26	PHI:1078	gene deletion; complementation	ESO:0000007
-PHI:I27	PHI:1079	gene deletion	ESO:0000002
-PHI:I28	PHI:1080	gene deletion; complementation	ESO:0000002
-PHI:I28	PHI:1080	gene deletion; complementation	ESO:0000007
-PHI:I29	PHI:1080	gene deletion; complementation	ESO:0000002
-PHI:I29	PHI:1080	gene deletion; complementation	ESO:0000007
-PHI:I30	PHI:1086	gene disruption	ESO:0000001
-PHI:I31	PHI:1087	gene disruption	ESO:0000001
-PHI:I32	PHI:1088	gene disruption	ESO:0000001
-PHI:I33	PHI:1089	gene disruption	ESO:0000001
-PHI:I34	PHI:1090	gene disruption; complementation	ESO:0000001
-PHI:I34	PHI:1090	gene disruption; complementation	ESO:0000007
-PHI:I35	PHI:1091	gene disruption	ESO:0000001
-PHI:I36	PHI:1092	gene disruption	ESO:0000001
-PHI:I37	PHI:1093	gene disruption	ESO:0000001
-PHI:I38	PHI:1094	gene disruption	ESO:0000001
-PHI:I39	PHI:1095	gene disruption	ESO:0000001
-PHI:I40	PHI:1096	gene disruption	ESO:0000001
-PHI:I41	PHI:1097	gene disruption; complementation	ESO:0000001
-PHI:I41	PHI:1097	gene disruption; complementation	ESO:0000007
-PHI:I42	PHI:1098	gene disruption	ESO:0000001
-PHI:I43	PHI:1168	gene deletion; complementation	ESO:0000002
-PHI:I43	PHI:1168	gene deletion; complementation	ESO:0000007
-PHI:I44	PHI:1169	gene deletion	ESO:0000002
-PHI:I45	PHI:1170	gene deletion	ESO:0000002
-PHI:I46	PHI:1175	gene deletion	ESO:0000002
-PHI:I47	PHI:1176	gene deletion	ESO:0000002
-PHI:I48	PHI:1177	gene deletion	ESO:0000002
-PHI:I49	PHI:1178	gene deletion	ESO:0000002
-PHI:I50	PHI:1179	gene deletion	ESO:0000002
-PHI:I51	PHI:1180	gene deletion	ESO:0000002
-PHI:I52	PHI:1181	gene deletion; complementation	ESO:0000002
-PHI:I52	PHI:1181	gene deletion; complementation	ESO:0000007
-PHI:I53	PHI:1182	gene deletion	ESO:0000002
-PHI:I54	PHI:1183	gene deletion	ESO:0000002
-PHI:I55	PHI:1184	gene deletion	ESO:0000002
-PHI:I56	PHI:1185	gene deletion	ESO:0000002
-PHI:I57	PHI:1186	gene deletion; complementation	ESO:0000002
-PHI:I57	PHI:1186	gene deletion; complementation	ESO:0000007
-PHI:I58	PHI:1187	gene deletion	ESO:0000002
-PHI:I59	PHI:1188	gene deletion	ESO:0000002
-PHI:I60	PHI:1189	gene deletion	ESO:0000002
-PHI:I61	PHI:1190	gene deletion	ESO:0000002
-PHI:I62	PHI:1192	gene deletion	ESO:0000002
-PHI:I63	PHI:1193	gene deletion; complementation	ESO:0000002
-PHI:I63	PHI:1193	gene deletion; complementation	ESO:0000007
-PHI:I64	PHI:1194	gene deletion	ESO:0000002
-PHI:I65	PHI:1195	gene deletion	ESO:0000002
-PHI:I66	PHI:1196	gene deletion	ESO:0000002
-PHI:I67	PHI:1197	gene deletion	ESO:0000002
-PHI:I68	PHI:1198	gene deletion	ESO:0000002
-PHI:I69	PHI:1199	gene deletion; complementation	ESO:0000002
-PHI:I69	PHI:1199	gene deletion; complementation	ESO:0000007
-PHI:I70	PHI:1200	gene deletion; complementation	ESO:0000002
-PHI:I70	PHI:1200	gene deletion; complementation	ESO:0000007
-PHI:I71	PHI:1201	gene deletion	ESO:0000002
-PHI:I72	PHI:1202	gene deletion	ESO:0000002
-PHI:I73	PHI:1203	gene deletion	ESO:0000002
-PHI:I74	PHI:1204	gene deletion	ESO:0000002
-PHI:I75	PHI:1205	gene deletion	ESO:0000002
-PHI:I76	PHI:1206	gene deletion; complementation	ESO:0000002
-PHI:I76	PHI:1206	gene deletion; complementation	ESO:0000007
-PHI:I77	PHI:1207	gene deletion	ESO:0000002
-PHI:I78	PHI:1208	gene deletion	ESO:0000002
-PHI:I79	PHI:1209	gene deletion	ESO:0000002
-PHI:I80	PHI:1210	gene deletion	ESO:0000002
-PHI:I81	PHI:1211	gene deletion	ESO:0000002
-PHI:I82	PHI:1212	gene deletion	ESO:0000002
-PHI:I83	PHI:1214	gene deletion	ESO:0000002
-PHI:I84	PHI:1215	gene deletion; complementation	ESO:0000002
-PHI:I84	PHI:1215	gene deletion; complementation	ESO:0000007
-PHI:I85	PHI:1216	gene deletion; complementation	ESO:0000002
-PHI:I85	PHI:1216	gene deletion; complementation	ESO:0000007
-PHI:I86	PHI:1217	gene deletion	ESO:0000002
-PHI:I87	PHI:1218	gene deletion	ESO:0000002
-PHI:I88	PHI:1219	gene deletion	ESO:0000002
-PHI:I89	PHI:1220	gene deletion	ESO:0000002
-PHI:I90	PHI:1221	gene deletion	ESO:0000002
-PHI:I91	PHI:1222	gene deletion	ESO:0000002
-PHI:I92	PHI:1223	gene deletion	ESO:0000002
-PHI:I93	PHI:1224	gene deletion	ESO:0000002
-PHI:I94	PHI:1225	gene deletion	ESO:0000002
-PHI:I95	PHI:1226	gene deletion	ESO:0000002
-PHI:I96	PHI:1227	gene deletion	ESO:0000002
-PHI:I97	PHI:1228	gene deletion	ESO:0000002
-PHI:I98	PHI:1229	gene deletion	ESO:0000002
-PHI:I99	PHI:1231	gene deletion	ESO:0000002
-PHI:I100	PHI:1232	gene deletion	ESO:0000002
-PHI:I101	PHI:1233	gene deletion	ESO:0000002
-PHI:I102	PHI:1234	gene deletion	ESO:0000002
-PHI:I103	PHI:1235	gene deletion	ESO:0000002
-PHI:I104	PHI:1236	gene deletion	ESO:0000002
-PHI:I105	PHI:1237	gene deletion	ESO:0000002
-PHI:I106	PHI:1238	gene deletion	ESO:0000002
-PHI:I107	PHI:1239	gene deletion	ESO:0000002
-PHI:I108	PHI:1240	gene deletion	ESO:0000002
-PHI:I109	PHI:1241	gene deletion	ESO:0000002
-PHI:I110	PHI:1242	gene deletion	ESO:0000002
-PHI:I111	PHI:1243	gene deletion	ESO:0000002
-PHI:I112	PHI:1244	gene deletion	ESO:0000002
-PHI:I113	PHI:1245	gene deletion	ESO:0000002
-PHI:I114	PHI:1246	gene deletion	ESO:0000002
-PHI:I115	PHI:1247	gene deletion	ESO:0000002
-PHI:I116	PHI:1248	gene deletion	ESO:0000002
-PHI:I117	PHI:1249	gene deletion	ESO:0000002
-PHI:I118	PHI:1250	gene deletion	ESO:0000002
-PHI:I119	PHI:1251	gene deletion	ESO:0000002
-PHI:I120	PHI:1252	gene deletion	ESO:0000002
-PHI:I121	PHI:1253	gene deletion	ESO:0000002
-PHI:I122	PHI:1254	gene deletion	ESO:0000002
-PHI:I123	PHI:1255	gene deletion	ESO:0000002
-PHI:I124	PHI:1256	gene deletion	ESO:0000002
-PHI:I125	PHI:1257	gene deletion	ESO:0000002
-PHI:I126	PHI:1258	gene deletion	ESO:0000002
-PHI:I127	PHI:1259	gene deletion	ESO:0000002
-PHI:I128	PHI:1260	gene deletion	ESO:0000002
-PHI:I129	PHI:1261	gene deletion	ESO:0000002
-PHI:I130	PHI:1262	gene deletion	ESO:0000002
-PHI:I131	PHI:1263	gene deletion	ESO:0000002
-PHI:I132	PHI:1264	gene deletion	ESO:0000002
-PHI:I133	PHI:1265	gene deletion	ESO:0000002
-PHI:I134	PHI:1266	gene deletion	ESO:0000002
-PHI:I135	PHI:1267	gene deletion	ESO:0000002
-PHI:I136	PHI:1268	gene deletion	ESO:0000002
-PHI:I137	PHI:1269	gene deletion	ESO:0000002
-PHI:I138	PHI:1270	gene deletion	ESO:0000002
-PHI:I139	PHI:1271	gene deletion	ESO:0000002
-PHI:I140	PHI:1272	gene deletion	ESO:0000002
-PHI:I141	PHI:1273	gene deletion	ESO:0000002
-PHI:I142	PHI:1274	gene deletion	ESO:0000002
-PHI:I143	PHI:1275	gene deletion	ESO:0000002
-PHI:I144	PHI:1276	gene deletion	ESO:0000002
-PHI:I145	PHI:1277	gene deletion	ESO:0000002
-PHI:I146	PHI:1278	gene deletion	ESO:0000002
-PHI:I147	PHI:1279	gene deletion	ESO:0000002
-PHI:I148	PHI:1280	gene deletion	ESO:0000002
-PHI:I149	PHI:1281	gene deletion	ESO:0000002
-PHI:I150	PHI:1282	gene deletion	ESO:0000002
-PHI:I151	PHI:1283	gene deletion	ESO:0000002
-PHI:I152	PHI:1284	gene deletion	ESO:0000002
-PHI:I153	PHI:1285	gene deletion	ESO:0000002
-PHI:I154	PHI:1286	gene deletion	ESO:0000002
-PHI:I155	PHI:1287	gene deletion	ESO:0000002
-PHI:I156	PHI:1288	gene deletion	ESO:0000002
-PHI:I157	PHI:1289	gene deletion	ESO:0000002
-PHI:I158	PHI:2294	gene deletion; complementation	ESO:0000002
-PHI:I158	PHI:2294	gene deletion; complementation	ESO:0000007
-PHI:I159	PHI:2294	gene deletion; complementation	ESO:0000002
-PHI:I159	PHI:2294	gene deletion; complementation	ESO:0000007
-PHI:I160	PHI:2385	gene deletion; complementation	ESO:0000002
-PHI:I160	PHI:2385	gene deletion; complementation	ESO:0000007
-PHI:I161	PHI:2385	altered gene expression / gene regulation: overexpression	ESO:0000011
-PHI:I162	PHI:2386	gene deletion; complementation	ESO:0000002
-PHI:I162	PHI:2386	gene deletion; complementation	ESO:0000007
-PHI:I163	PHI:2386	gene deletion; complementation	ESO:0000002
-PHI:I163	PHI:2386	gene deletion; complementation	ESO:0000007
-PHI:I164	PHI:2387	gene deletion; complementation	ESO:0000002
-PHI:I164	PHI:2387	gene deletion; complementation	ESO:0000007
-PHI:I165	PHI:2393	gene deletion	ESO:0000002
-PHI:I166	PHI:2393	gene deletion	ESO:0000002
-PHI:I167	PHI:2394	gene deletion	ESO:0000002
-PHI:I168	PHI:2395	gene deletion; complementation	ESO:0000002
-PHI:I168	PHI:2395	gene deletion; complementation	ESO:0000007
-PHI:I169	PHI:2396	gene deletion; complementation	ESO:0000002
-PHI:I169	PHI:2396	gene deletion; complementation	ESO:0000007
-PHI:I170	PHI:2399	gene disruption; complementation	ESO:0000001
-PHI:I170	PHI:2399	gene disruption; complementation	ESO:0000007
-PHI:I171	PHI:2399	gene disruption; complementation	ESO:0000001
-PHI:I171	PHI:2399	gene disruption; complementation	ESO:0000007
-PHI:I172	PHI:2399	gene disruption; complementation	ESO:0000001
-PHI:I172	PHI:2399	gene disruption; complementation	ESO:0000007
-PHI:I173	PHI:2400	gene disruption; complementation	ESO:0000001
-PHI:I173	PHI:2400	gene disruption; complementation	ESO:0000007
-PHI:I174	PHI:2400	gene disruption; complementation	ESO:0000001
-PHI:I174	PHI:2400	gene disruption; complementation	ESO:0000007
-PHI:I175	PHI:2400	gene disruption; complementation	ESO:0000001
-PHI:I175	PHI:2400	gene disruption; complementation	ESO:0000007
-PHI:I176	PHI:2418	gene deletion; complementation	ESO:0000002
-PHI:I176	PHI:2418	gene deletion; complementation	ESO:0000007
-PHI:I177	PHI:2419	gene deletion; complementation	ESO:0000002
-PHI:I177	PHI:2419	gene deletion; complementation	ESO:0000007
-PHI:I178	PHI:2427	gene disruption; complementation	ESO:0000001
-PHI:I178	PHI:2427	gene disruption; complementation	ESO:0000007
-PHI:I179	PHI:2430	gene deletion; complementation	ESO:0000002
-PHI:I179	PHI:2430	gene deletion; complementation	ESO:0000007
-PHI:I180	PHI:2430	complementation	ESO:0000007
-PHI:I181	PHI:2432	gene deletion; complementation	ESO:0000002
-PHI:I181	PHI:2432	gene deletion; complementation	ESO:0000007
-PHI:I182	PHI:2433	gene deletion; complementation	ESO:0000002
-PHI:I182	PHI:2433	gene deletion; complementation	ESO:0000007
-PHI:I183	PHI:2434	gene deletion; complementation	ESO:0000002
-PHI:I183	PHI:2434	gene deletion; complementation	ESO:0000007
-PHI:I184	PHI:2451	gene disruption	ESO:0000001
-PHI:I185	PHI:2451	gene disruption	ESO:0000001
-PHI:I186	PHI:2452	gene disruption	ESO:0000001
-PHI:I187	PHI:2452	gene disruption	ESO:0000001
-PHI:I188	PHI:2491	gene deletion; complementation	ESO:0000002
-PHI:I188	PHI:2491	gene deletion; complementation	ESO:0000007
-PHI:I189	PHI:2502	gene disruption; complementation	ESO:0000001
-PHI:I189	PHI:2502	gene disruption; complementation	ESO:0000007
-PHI:I190	PHI:2704	gene disruption	ESO:0000001
-PHI:I191	PHI:2714	gene deletion; complementation	ESO:0000002
-PHI:I191	PHI:2714	gene deletion; complementation	ESO:0000007
-PHI:I192	PHI:2715	gene deletion; complementation	ESO:0000002
-PHI:I192	PHI:2715	gene deletion; complementation	ESO:0000007
-PHI:I193	PHI:2907	gene deletion	ESO:0000002
-PHI:I194	PHI:2907	gene deletion	ESO:0000002
-PHI:I195	PHI:2907	gene deletion	ESO:0000002
-PHI:I196	PHI:2907	gene deletion	ESO:0000002
-PHI:I197	PHI:2907	gene deletion	ESO:0000002
-PHI:I198	PHI:2907	gene deletion	ESO:0000002
-PHI:I199	PHI:2907	gene deletion	ESO:0000002
-PHI:I200	PHI:2907	gene deletion	ESO:0000002
+PHI:I9	PHI:355	gene disruption; complementation	ESO:0000001
+PHI:I9	PHI:355	gene disruption; complementation	ESO:0000007
+PHI:I11	PHI:448	gene disruption	ESO:0000001
+PHI:I13	PHI:495	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I14	PHI:498	gene disruption; complementation	ESO:0000001
+PHI:I14	PHI:498	gene disruption; complementation	ESO:0000007
+PHI:I15	PHI:596	gene disruption; complementation	ESO:0000001
+PHI:I15	PHI:596	gene disruption; complementation	ESO:0000007
+PHI:I16	PHI:712	mutation	ESO:0000019
+PHI:I17	PHI:717	gene disruption	ESO:0000001
+PHI:I18	PHI:719	gene disruption	ESO:0000001
+PHI:I19	PHI:720	gene disruption	ESO:0000001
+PHI:I20	PHI:721	gene disruption	ESO:0000001
+PHI:I21	PHI:722	gene disruption	ESO:0000001
+PHI:I22	PHI:727	gene disruption	ESO:0000001
+PHI:I23	PHI:730	gene disruption	ESO:0000001
+PHI:I24	PHI:733	gene deletion; complementation	ESO:0000002
+PHI:I24	PHI:733	gene deletion; complementation	ESO:0000007
+PHI:I25	PHI:747	gene deletion	ESO:0000002
+PHI:I26	PHI:748	gene deletion	ESO:0000002
+PHI:I27	PHI:749	gene deletion	ESO:0000002
+PHI:I28	PHI:750	gene deletion	ESO:0000002
+PHI:I29	PHI:751	gene deletion	ESO:0000002
+PHI:I30	PHI:752	gene deletion	ESO:0000002
+PHI:I31	PHI:753	gene deletion	ESO:0000002
+PHI:I32	PHI:754	gene deletion	ESO:0000002
+PHI:I33	PHI:755	gene deletion	ESO:0000002
+PHI:I34	PHI:756	gene deletion	ESO:0000002
+PHI:I35	PHI:757	gene deletion	ESO:0000002
+PHI:I36	PHI:768	gene deletion; complementation	ESO:0000002
+PHI:I36	PHI:768	gene deletion; complementation	ESO:0000007
+PHI:I37	PHI:861	gene deletion; complementation	ESO:0000002
+PHI:I37	PHI:861	gene deletion; complementation	ESO:0000007
+PHI:I38	PHI:861	gene deletion; complementation	ESO:0000002
+PHI:I38	PHI:861	gene deletion; complementation	ESO:0000007
+PHI:I39	PHI:896	gene deletion	ESO:0000002
+PHI:I40	PHI:897	gene deletion	ESO:0000002
+PHI:I41	PHI:898	gene deletion	ESO:0000002
+PHI:I42	PHI:899	gene deletion	ESO:0000002
+PHI:I43	PHI:900	gene deletion	ESO:0000002
+PHI:I44	PHI:901	gene deletion	ESO:0000002
+PHI:I45	PHI:903	gene deletion	ESO:0000002
+PHI:I46	PHI:904	gene deletion	ESO:0000002
+PHI:I47	PHI:905	gene deletion	ESO:0000002
+PHI:I48	PHI:906	gene deletion	ESO:0000002
+PHI:I49	PHI:907	gene deletion; complementation	ESO:0000002
+PHI:I49	PHI:907	gene deletion; complementation	ESO:0000007
+PHI:I50	PHI:908	gene deletion; complementation	ESO:0000002
+PHI:I50	PHI:908	gene deletion; complementation	ESO:0000007
+PHI:I51	PHI:909	gene deletion; complementation	ESO:0000002
+PHI:I51	PHI:909	gene deletion; complementation	ESO:0000007
+PHI:I52	PHI:910	gene deletion	ESO:0000002
+PHI:I53	PHI:912	gene deletion	ESO:0000002
+PHI:I54	PHI:914	gene deletion	ESO:0000002
+PHI:I55	PHI:915	gene deletion	ESO:0000002
+PHI:I56	PHI:917	gene deletion	ESO:0000002
+PHI:I57	PHI:918	gene deletion	ESO:0000002
+PHI:I58	PHI:919	gene deletion	ESO:0000002
+PHI:I59	PHI:921	gene deletion	ESO:0000002
+PHI:I60	PHI:922	gene deletion	ESO:0000002
+PHI:I61	PHI:923	gene deletion	ESO:0000002
+PHI:I62	PHI:924	gene deletion	ESO:0000002
+PHI:I63	PHI:925	gene deletion	ESO:0000002
+PHI:I64	PHI:926	gene deletion	ESO:0000002
+PHI:I65	PHI:927	gene deletion	ESO:0000002
+PHI:I66	PHI:928	gene deletion	ESO:0000002
+PHI:I67	PHI:929	gene deletion	ESO:0000002
+PHI:I68	PHI:930	gene deletion	ESO:0000002
+PHI:I69	PHI:931	gene deletion	ESO:0000002
+PHI:I70	PHI:932	gene deletion	ESO:0000002
+PHI:I71	PHI:933	gene deletion	ESO:0000002
+PHI:I72	PHI:934	gene deletion	ESO:0000002
+PHI:I73	PHI:935	gene deletion	ESO:0000002
+PHI:I74	PHI:936	gene deletion	ESO:0000002
+PHI:I75	PHI:937	gene deletion	ESO:0000002
+PHI:I76	PHI:938	gene deletion	ESO:0000002
+PHI:I77	PHI:939	gene deletion	ESO:0000002
+PHI:I78	PHI:940	gene deletion	ESO:0000002
+PHI:I79	PHI:941	gene deletion	ESO:0000002
+PHI:I80	PHI:942	gene deletion	ESO:0000002
+PHI:I81	PHI:943	gene deletion	ESO:0000002
+PHI:I82	PHI:944	gene deletion	ESO:0000002
+PHI:I83	PHI:945	gene deletion	ESO:0000002
+PHI:I84	PHI:946	gene deletion	ESO:0000002
+PHI:I85	PHI:947	gene deletion	ESO:0000002
+PHI:I86	PHI:948	gene deletion	ESO:0000002
+PHI:I87	PHI:949	gene deletion	ESO:0000002
+PHI:I88	PHI:950	gene deletion	ESO:0000002
+PHI:I89	PHI:951	gene deletion	ESO:0000002
+PHI:I90	PHI:952	gene deletion	ESO:0000002
+PHI:I91	PHI:953	gene deletion	ESO:0000002
+PHI:I92	PHI:954	gene deletion	ESO:0000002
+PHI:I93	PHI:955	gene deletion	ESO:0000002
+PHI:I94	PHI:956	gene deletion	ESO:0000002
+PHI:I95	PHI:957	gene deletion	ESO:0000002
+PHI:I96	PHI:958	gene deletion	ESO:0000002
+PHI:I97	PHI:959	gene deletion	ESO:0000002
+PHI:I98	PHI:960	gene deletion	ESO:0000002
+PHI:I99	PHI:961	gene deletion	ESO:0000002
+PHI:I100	PHI:962	gene deletion	ESO:0000002
+PHI:I101	PHI:1004	gene deletion	ESO:0000002
+PHI:I102	PHI:1004	gene deletion	ESO:0000002
+PHI:I103	PHI:1005	gene disruption; complementation	ESO:0000001
+PHI:I103	PHI:1005	gene disruption; complementation	ESO:0000007
+PHI:I104	PHI:1005	gene disruption; complementation	ESO:0000001
+PHI:I104	PHI:1005	gene disruption; complementation	ESO:0000007
+PHI:I105	PHI:1006	gene deletion; complementation	ESO:0000002
+PHI:I105	PHI:1006	gene deletion; complementation	ESO:0000007
+PHI:I106	PHI:1007	gene deletion	ESO:0000002
+PHI:I107	PHI:1012	gene deletion	ESO:0000002
+PHI:I108	PHI:1013	gene deletion; complementation	ESO:0000002
+PHI:I108	PHI:1013	gene deletion; complementation	ESO:0000007
+PHI:I109	PHI:1014	gene deletion	ESO:0000002
+PHI:I110	PHI:1015	gene deletion; complementation	ESO:0000002
+PHI:I110	PHI:1015	gene deletion; complementation	ESO:0000007
+PHI:I111	PHI:1017	gene disruption	ESO:0000001
+PHI:I112	PHI:1018	gene deletion; complementation	ESO:0000002
+PHI:I112	PHI:1018	gene deletion; complementation	ESO:0000007
+PHI:I113	PHI:1018	gene deletion; complementation	ESO:0000002
+PHI:I113	PHI:1018	gene deletion; complementation	ESO:0000007
+PHI:I114	PHI:1020	gene disruption; complementation	ESO:0000001
+PHI:I114	PHI:1020	gene disruption; complementation	ESO:0000007
+PHI:I115	PHI:1078	gene deletion; complementation	ESO:0000002
+PHI:I115	PHI:1078	gene deletion; complementation	ESO:0000007
+PHI:I116	PHI:1079	gene deletion	ESO:0000002
+PHI:I117	PHI:1080	gene deletion; complementation	ESO:0000002
+PHI:I117	PHI:1080	gene deletion; complementation	ESO:0000007
+PHI:I118	PHI:1080	gene deletion; complementation	ESO:0000002
+PHI:I118	PHI:1080	gene deletion; complementation	ESO:0000007
+PHI:I119	PHI:1084	gene deletion	ESO:0000002
+PHI:I120	PHI:1086	gene disruption	ESO:0000001
+PHI:I121	PHI:1087	gene disruption	ESO:0000001
+PHI:I122	PHI:1088	gene disruption	ESO:0000001
+PHI:I123	PHI:1089	gene disruption	ESO:0000001
+PHI:I124	PHI:1090	gene disruption; complementation	ESO:0000001
+PHI:I124	PHI:1090	gene disruption; complementation	ESO:0000007
+PHI:I125	PHI:1091	gene disruption	ESO:0000001
+PHI:I126	PHI:1092	gene disruption	ESO:0000001
+PHI:I127	PHI:1093	gene disruption	ESO:0000001
+PHI:I128	PHI:1094	gene disruption	ESO:0000001
+PHI:I129	PHI:1095	gene disruption	ESO:0000001
+PHI:I130	PHI:1096	gene disruption	ESO:0000001
+PHI:I131	PHI:1097	gene disruption; complementation	ESO:0000001
+PHI:I131	PHI:1097	gene disruption; complementation	ESO:0000007
+PHI:I132	PHI:1098	gene disruption	ESO:0000001
+PHI:I133	PHI:1101	gene deletion; complementation	ESO:0000002
+PHI:I133	PHI:1101	gene deletion; complementation	ESO:0000007
+PHI:I134	PHI:1102	gene deletion; complementation	ESO:0000002
+PHI:I134	PHI:1102	gene deletion; complementation	ESO:0000007
+PHI:I135	PHI:1103	gene disruption	ESO:0000001
+PHI:I136	PHI:1104	gene disruption	ESO:0000001
+PHI:I137	PHI:1105	gene disruption	ESO:0000001
+PHI:I138	PHI:1106	gene disruption	ESO:0000001
+PHI:I139	PHI:1107	gene disruption; complementation	ESO:0000001
+PHI:I139	PHI:1107	gene disruption; complementation	ESO:0000007
+PHI:I140	PHI:1108	gene disruption; complementation	ESO:0000001
+PHI:I140	PHI:1108	gene disruption; complementation	ESO:0000007
+PHI:I141	PHI:1161	gene deletion	ESO:0000002
+PHI:I142	PHI:1168	gene deletion; complementation	ESO:0000002
+PHI:I142	PHI:1168	gene deletion; complementation	ESO:0000007
+PHI:I143	PHI:1169	gene deletion	ESO:0000002
+PHI:I144	PHI:1170	gene deletion	ESO:0000002
+PHI:I145	PHI:1175	gene deletion	ESO:0000002
+PHI:I146	PHI:1176	gene deletion	ESO:0000002
+PHI:I147	PHI:1177	gene deletion	ESO:0000002
+PHI:I148	PHI:1178	gene deletion	ESO:0000002
+PHI:I149	PHI:1179	gene deletion	ESO:0000002
+PHI:I150	PHI:1180	gene deletion	ESO:0000002
+PHI:I151	PHI:1181	gene deletion; complementation	ESO:0000002
+PHI:I151	PHI:1181	gene deletion; complementation	ESO:0000007
+PHI:I152	PHI:1182	gene deletion	ESO:0000002
+PHI:I153	PHI:1183	gene deletion	ESO:0000002
+PHI:I154	PHI:1184	gene deletion	ESO:0000002
+PHI:I155	PHI:1185	gene deletion	ESO:0000002
+PHI:I156	PHI:1186	gene deletion; complementation	ESO:0000002
+PHI:I156	PHI:1186	gene deletion; complementation	ESO:0000007
+PHI:I157	PHI:1187	gene deletion	ESO:0000002
+PHI:I158	PHI:1188	gene deletion	ESO:0000002
+PHI:I159	PHI:1189	gene deletion	ESO:0000002
+PHI:I160	PHI:1190	gene deletion	ESO:0000002
+PHI:I161	PHI:1192	gene deletion	ESO:0000002
+PHI:I162	PHI:1193	gene deletion; complementation	ESO:0000002
+PHI:I162	PHI:1193	gene deletion; complementation	ESO:0000007
+PHI:I163	PHI:1194	gene deletion	ESO:0000002
+PHI:I164	PHI:1195	gene deletion	ESO:0000002
+PHI:I165	PHI:1196	gene deletion	ESO:0000002
+PHI:I166	PHI:1197	gene deletion	ESO:0000002
+PHI:I167	PHI:1198	gene deletion	ESO:0000002
+PHI:I168	PHI:1199	gene deletion; complementation	ESO:0000002
+PHI:I168	PHI:1199	gene deletion; complementation	ESO:0000007
+PHI:I169	PHI:1200	gene deletion; complementation	ESO:0000002
+PHI:I169	PHI:1200	gene deletion; complementation	ESO:0000007
+PHI:I170	PHI:1201	gene deletion	ESO:0000002
+PHI:I171	PHI:1202	gene deletion	ESO:0000002
+PHI:I172	PHI:1203	gene deletion	ESO:0000002
+PHI:I173	PHI:1204	gene deletion	ESO:0000002
+PHI:I174	PHI:1205	gene deletion	ESO:0000002
+PHI:I175	PHI:1206	gene deletion; complementation	ESO:0000002
+PHI:I175	PHI:1206	gene deletion; complementation	ESO:0000007
+PHI:I176	PHI:1207	gene deletion	ESO:0000002
+PHI:I177	PHI:1208	gene deletion	ESO:0000002
+PHI:I178	PHI:1209	gene deletion	ESO:0000002
+PHI:I179	PHI:1210	gene deletion	ESO:0000002
+PHI:I180	PHI:1211	gene deletion	ESO:0000002
+PHI:I181	PHI:1212	gene deletion	ESO:0000002
+PHI:I182	PHI:1214	gene deletion	ESO:0000002
+PHI:I183	PHI:1215	gene deletion; complementation	ESO:0000002
+PHI:I183	PHI:1215	gene deletion; complementation	ESO:0000007
+PHI:I184	PHI:1216	gene deletion; complementation	ESO:0000002
+PHI:I184	PHI:1216	gene deletion; complementation	ESO:0000007
+PHI:I185	PHI:1218	gene deletion	ESO:0000002
+PHI:I186	PHI:1219	gene deletion	ESO:0000002
+PHI:I187	PHI:1220	gene deletion	ESO:0000002
+PHI:I188	PHI:1221	gene deletion	ESO:0000002
+PHI:I189	PHI:1222	gene deletion	ESO:0000002
+PHI:I190	PHI:1223	gene deletion	ESO:0000002
+PHI:I191	PHI:1224	gene deletion	ESO:0000002
+PHI:I192	PHI:1225	gene deletion	ESO:0000002
+PHI:I193	PHI:1226	gene deletion	ESO:0000002
+PHI:I194	PHI:1227	gene deletion	ESO:0000002
+PHI:I195	PHI:1228	gene deletion	ESO:0000002
+PHI:I196	PHI:1229	gene deletion	ESO:0000002
+PHI:I197	PHI:1231	gene deletion	ESO:0000002
+PHI:I198	PHI:1232	gene deletion	ESO:0000002
+PHI:I199	PHI:1233	gene deletion	ESO:0000002
+PHI:I200	PHI:1234	gene deletion	ESO:0000002
+PHI:I201	PHI:1235	gene deletion	ESO:0000002
+PHI:I202	PHI:1236	gene deletion	ESO:0000002
+PHI:I203	PHI:1237	gene deletion	ESO:0000002
+PHI:I204	PHI:1238	gene deletion	ESO:0000002
+PHI:I205	PHI:1239	gene deletion	ESO:0000002
+PHI:I206	PHI:1240	gene deletion	ESO:0000002
+PHI:I207	PHI:1241	gene deletion	ESO:0000002
+PHI:I208	PHI:1242	gene deletion	ESO:0000002
+PHI:I209	PHI:1243	gene deletion	ESO:0000002
+PHI:I210	PHI:1244	gene deletion	ESO:0000002
+PHI:I211	PHI:1245	gene deletion	ESO:0000002
+PHI:I212	PHI:1246	gene deletion	ESO:0000002
+PHI:I213	PHI:1247	gene deletion	ESO:0000002
+PHI:I214	PHI:1248	gene deletion	ESO:0000002
+PHI:I215	PHI:1249	gene deletion	ESO:0000002
+PHI:I216	PHI:1250	gene deletion	ESO:0000002
+PHI:I217	PHI:1251	gene deletion	ESO:0000002
+PHI:I218	PHI:1252	gene deletion	ESO:0000002
+PHI:I219	PHI:1253	gene deletion	ESO:0000002
+PHI:I220	PHI:1254	gene deletion	ESO:0000002
+PHI:I221	PHI:1255	gene deletion	ESO:0000002
+PHI:I222	PHI:1256	gene deletion	ESO:0000002
+PHI:I223	PHI:1257	gene deletion	ESO:0000002
+PHI:I224	PHI:1258	gene deletion	ESO:0000002
+PHI:I225	PHI:1259	gene deletion	ESO:0000002
+PHI:I226	PHI:1260	gene deletion	ESO:0000002
+PHI:I227	PHI:1261	gene deletion	ESO:0000002
+PHI:I228	PHI:1262	gene deletion	ESO:0000002
+PHI:I229	PHI:1263	gene deletion	ESO:0000002
+PHI:I230	PHI:1264	gene deletion	ESO:0000002
+PHI:I231	PHI:1265	gene deletion	ESO:0000002
+PHI:I232	PHI:1266	gene deletion	ESO:0000002
+PHI:I233	PHI:1267	gene deletion	ESO:0000002
+PHI:I234	PHI:1268	gene deletion	ESO:0000002
+PHI:I235	PHI:1269	gene deletion	ESO:0000002
+PHI:I236	PHI:1270	gene deletion	ESO:0000002
+PHI:I237	PHI:1271	gene deletion	ESO:0000002
+PHI:I238	PHI:1272	gene deletion	ESO:0000002
+PHI:I239	PHI:1273	gene deletion	ESO:0000002
+PHI:I240	PHI:1274	gene deletion	ESO:0000002
+PHI:I241	PHI:1275	gene deletion	ESO:0000002
+PHI:I242	PHI:1276	gene deletion	ESO:0000002
+PHI:I243	PHI:1277	gene deletion	ESO:0000002
+PHI:I244	PHI:1278	gene deletion	ESO:0000002
+PHI:I245	PHI:1279	gene deletion	ESO:0000002
+PHI:I246	PHI:1280	gene deletion	ESO:0000002
+PHI:I247	PHI:1281	gene deletion	ESO:0000002
+PHI:I248	PHI:1282	gene deletion	ESO:0000002
+PHI:I249	PHI:1283	gene deletion	ESO:0000002
+PHI:I250	PHI:1284	gene deletion	ESO:0000002
+PHI:I251	PHI:1285	gene deletion	ESO:0000002
+PHI:I252	PHI:1286	gene deletion	ESO:0000002
+PHI:I253	PHI:1287	gene deletion	ESO:0000002
+PHI:I254	PHI:1288	gene deletion	ESO:0000002
+PHI:I255	PHI:1289	gene deletion	ESO:0000002
+PHI:I256	PHI:2014	other evidence	ESO:0000010
+PHI:I257	PHI:2025	gene deletion	ESO:0000002
+PHI:I258	PHI:2027	gene deletion	ESO:0000002
+PHI:I259	PHI:2028	gene deletion	ESO:0000002
+PHI:I260	PHI:2029	gene deletion	ESO:0000002
+PHI:I261	PHI:2030	gene deletion	ESO:0000002
+PHI:I262	PHI:2030	gene deletion	ESO:0000002
+PHI:I263	PHI:2032	gene deletion	ESO:0000002
+PHI:I264	PHI:2033	gene deletion; complementation	ESO:0000002
+PHI:I264	PHI:2033	gene deletion; complementation	ESO:0000007
+PHI:I265	PHI:2034	gene deletion; complementation	ESO:0000002
+PHI:I265	PHI:2034	gene deletion; complementation	ESO:0000007
+PHI:I266	PHI:2063	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I267	PHI:2063	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I268	PHI:2064	functional test in host	ESO:0000006
+PHI:I269	PHI:2065	gene deletion; complementation	ESO:0000002
+PHI:I269	PHI:2065	gene deletion; complementation	ESO:0000007
+PHI:I270	PHI:2065	gene deletion	ESO:0000002
+PHI:I271	PHI:2065	gene deletion	ESO:0000002
+PHI:I272	PHI:2066	gene deletion; complementation	ESO:0000002
+PHI:I272	PHI:2066	gene deletion; complementation	ESO:0000007
+PHI:I273	PHI:2117	gene deletion; complementation	ESO:0000002
+PHI:I273	PHI:2117	gene deletion; complementation	ESO:0000007
+PHI:I274	PHI:2117	gene deletion; complementation	ESO:0000002
+PHI:I274	PHI:2117	gene deletion; complementation	ESO:0000007
+PHI:I275	PHI:2123	gene deletion; complementation	ESO:0000002
+PHI:I275	PHI:2123	gene deletion; complementation	ESO:0000007
+PHI:I276	PHI:2124	gene deletion; complementation	ESO:0000002
+PHI:I276	PHI:2124	gene deletion; complementation	ESO:0000007
+PHI:I277	PHI:2125	gene deletion; complementation	ESO:0000002
+PHI:I277	PHI:2125	gene deletion; complementation	ESO:0000007
+PHI:I278	PHI:2126	gene deletion; complementation	ESO:0000002
+PHI:I278	PHI:2126	gene deletion; complementation	ESO:0000007
+PHI:I279	PHI:2127	gene deletion; complementation	ESO:0000002
+PHI:I279	PHI:2127	gene deletion; complementation	ESO:0000007
+PHI:I280	PHI:2135	functional test in host	ESO:0000006
+PHI:I281	PHI:2135	complementation	ESO:0000007
+PHI:I282	PHI:2135	complementation	ESO:0000007
+PHI:I283	PHI:2136	functional test in host	ESO:0000006
+PHI:I284	PHI:2136	complementation	ESO:0000007
+PHI:I285	PHI:2136	complementation	ESO:0000007
+PHI:I286	PHI:2136	complementation	ESO:0000007
+PHI:I287	PHI:2137	functional test in host	ESO:0000006
+PHI:I288	PHI:2137	complementation	ESO:0000007
+PHI:I289	PHI:2137	complementation	ESO:0000007
+PHI:I290	PHI:2137	complementation	ESO:0000007
+PHI:I291	PHI:2137	complementation	ESO:0000007
+PHI:I292	PHI:2137	complementation	ESO:0000007
+PHI:I293	PHI:2137	complementation	ESO:0000007
+PHI:I294	PHI:2150	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I295	PHI:2151	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I296	PHI:2151	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I297	PHI:2152	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I298	PHI:2152	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I299	PHI:2155	gene deletion; complementation	ESO:0000002
+PHI:I299	PHI:2155	gene deletion; complementation	ESO:0000007
+PHI:I300	PHI:2233	gene disruption	ESO:0000001
+PHI:I301	PHI:2233	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I302	PHI:2233	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I303	PHI:2234	gene deletion	ESO:0000002
+PHI:I304	PHI:2234	gene deletion	ESO:0000002
+PHI:I305	PHI:2234	mutation: characterised	ESO:0000016
+PHI:I306	PHI:2234	mutation: characterised	ESO:0000016
+PHI:I307	PHI:2235	gene deletion; complementation	ESO:0000002
+PHI:I307	PHI:2235	gene deletion; complementation	ESO:0000007
+PHI:I308	PHI:2236	gene deletion; complementation	ESO:0000002
+PHI:I308	PHI:2236	gene deletion; complementation	ESO:0000007
+PHI:I309	PHI:2237	gene deletion; complementation	ESO:0000002
+PHI:I309	PHI:2237	gene deletion; complementation	ESO:0000007
+PHI:I310	PHI:2237	gene deletion; complementation	ESO:0000002
+PHI:I310	PHI:2237	gene deletion; complementation	ESO:0000007
+PHI:I311	PHI:2237	gene deletion; complementation	ESO:0000002
+PHI:I311	PHI:2237	gene deletion; complementation	ESO:0000007
+PHI:I312	PHI:2239	gene disruption; complementation	ESO:0000001
+PHI:I312	PHI:2239	gene disruption; complementation	ESO:0000007
+PHI:I313	PHI:2239	gene disruption; complementation	ESO:0000001
+PHI:I313	PHI:2239	gene disruption; complementation	ESO:0000007
+PHI:I314	PHI:2240	gene deletion; complementation	ESO:0000002
+PHI:I314	PHI:2240	gene deletion; complementation	ESO:0000007
+PHI:I315	PHI:2255	gene deletion	ESO:0000002
+PHI:I316	PHI:2255	gene deletion	ESO:0000002
+PHI:I317	PHI:2256	gene deletion	ESO:0000002
+PHI:I318	PHI:2257	gene deletion	ESO:0000002
+PHI:I319	PHI:2258	gene deletion; complementation	ESO:0000002
+PHI:I319	PHI:2258	gene deletion; complementation	ESO:0000007
+PHI:I320	PHI:2259	gene deletion	ESO:0000002
+PHI:I321	PHI:2260	gene deletion	ESO:0000002
+PHI:I322	PHI:2261	gene deletion	ESO:0000002
+PHI:I323	PHI:2263	gene deletion	ESO:0000002
+PHI:I324	PHI:2265	gene deletion; complementation	ESO:0000002
+PHI:I324	PHI:2265	gene deletion; complementation	ESO:0000007
+PHI:I325	PHI:2271	gene disruption; complementation	ESO:0000001
+PHI:I325	PHI:2271	gene disruption; complementation	ESO:0000007
+PHI:I326	PHI:2272	gene disruption	ESO:0000001
+PHI:I327	PHI:2274	gene deletion; complementation	ESO:0000002
+PHI:I327	PHI:2274	gene deletion; complementation	ESO:0000007
+PHI:I328	PHI:2277	gene deletion	ESO:0000002
+PHI:I329	PHI:2277	gene deletion	ESO:0000002
+PHI:I330	PHI:2278	gene deletion	ESO:0000002
+PHI:I331	PHI:2279	gene deletion	ESO:0000002
+PHI:I332	PHI:2279	gene deletion	ESO:0000002
+PHI:I333	PHI:2280	gene deletion	ESO:0000002
+PHI:I334	PHI:2280	gene deletion	ESO:0000002
+PHI:I335	PHI:2280	complementation	ESO:0000007
+PHI:I336	PHI:2282	gene deletion; complementation	ESO:0000002
+PHI:I336	PHI:2282	gene deletion; complementation	ESO:0000007
+PHI:I337	PHI:2283	gene deletion; complementation	ESO:0000002
+PHI:I337	PHI:2283	gene deletion; complementation	ESO:0000007
+PHI:I338	PHI:2284	gene deletion; complementation	ESO:0000002
+PHI:I338	PHI:2284	gene deletion; complementation	ESO:0000007
+PHI:I339	PHI:2284	gene deletion; complementation	ESO:0000002
+PHI:I339	PHI:2284	gene deletion; complementation	ESO:0000007
+PHI:I340	PHI:2284	gene deletion; complementation	ESO:0000002
+PHI:I340	PHI:2284	gene deletion; complementation	ESO:0000007
+PHI:I341	PHI:2290	gene deletion	ESO:0000002
+PHI:I342	PHI:2294	gene deletion; complementation	ESO:0000002
+PHI:I342	PHI:2294	gene deletion; complementation	ESO:0000007
+PHI:I343	PHI:2294	gene deletion; complementation	ESO:0000002
+PHI:I343	PHI:2294	gene deletion; complementation	ESO:0000007
+PHI:I344	PHI:2295	gene deletion; complementation	ESO:0000002
+PHI:I344	PHI:2295	gene deletion; complementation	ESO:0000007
+PHI:I345	PHI:2295	gene deletion; complementation	ESO:0000002
+PHI:I345	PHI:2295	gene deletion; complementation	ESO:0000007
+PHI:I346	PHI:2295	gene deletion; complementation	ESO:0000002
+PHI:I346	PHI:2295	gene deletion; complementation	ESO:0000007
+PHI:I347	PHI:2295	gene deletion; complementation	ESO:0000002
+PHI:I347	PHI:2295	gene deletion; complementation	ESO:0000007
+PHI:I348	PHI:2298	gene deletion; complementation	ESO:0000002
+PHI:I348	PHI:2298	gene deletion; complementation	ESO:0000007
+PHI:I349	PHI:2307	gene disruption	ESO:0000001
+PHI:I350	PHI:2308	gene deletion; complementation	ESO:0000002
+PHI:I350	PHI:2308	gene deletion; complementation	ESO:0000007
+PHI:I351	PHI:2308	gene deletion; complementation	ESO:0000002
+PHI:I351	PHI:2308	gene deletion; complementation	ESO:0000007
+PHI:I352	PHI:2308	gene deletion; complementation	ESO:0000002
+PHI:I352	PHI:2308	gene deletion; complementation	ESO:0000007
+PHI:I353	PHI:2309	gene deletion	ESO:0000002
+PHI:I354	PHI:2311	functional test in host	ESO:0000006
+PHI:I355	PHI:2312	functional test in host	ESO:0000006
+PHI:I356	PHI:2313	functional test in host	ESO:0000006
+PHI:I357	PHI:2315	gene deletion; complementation	ESO:0000002
+PHI:I357	PHI:2315	gene deletion; complementation	ESO:0000007
+PHI:I358	PHI:2315	gene deletion; complementation	ESO:0000002
+PHI:I358	PHI:2315	gene deletion; complementation	ESO:0000007
+PHI:I359	PHI:2315	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I360	PHI:2315	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I361	PHI:2316	gene deletion; complementation	ESO:0000002
+PHI:I361	PHI:2316	gene deletion; complementation	ESO:0000007
+PHI:I362	PHI:2316	gene deletion; complementation	ESO:0000002
+PHI:I362	PHI:2316	gene deletion; complementation	ESO:0000007
+PHI:I363	PHI:2316	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I364	PHI:2316	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I365	PHI:2321	gene deletion; complementation	ESO:0000002
+PHI:I365	PHI:2321	gene deletion; complementation	ESO:0000007
+PHI:I366	PHI:2322	gene deletion; complementation	ESO:0000002
+PHI:I366	PHI:2322	gene deletion; complementation	ESO:0000007
+PHI:I367	PHI:2323	gene disruption; complementation	ESO:0000001
+PHI:I367	PHI:2323	gene disruption; complementation	ESO:0000007
+PHI:I368	PHI:2329	gene deletion; complementation	ESO:0000002
+PHI:I368	PHI:2329	gene deletion; complementation	ESO:0000007
+PHI:I369	PHI:2330	gene deletion	ESO:0000002
+PHI:I370	PHI:2331	gene deletion; complementation	ESO:0000002
+PHI:I370	PHI:2331	gene deletion; complementation	ESO:0000007
+PHI:I371	PHI:2331	functional test in host	ESO:0000006
+PHI:I372	PHI:2331	functional test in host	ESO:0000006
+PHI:I373	PHI:2331	functional test in host	ESO:0000006
+PHI:I374	PHI:2332	gene disruption	ESO:0000001
+PHI:I375	PHI:2333	gene disruption	ESO:0000001
+PHI:I376	PHI:2334	gene deletion; complementation	ESO:0000002
+PHI:I376	PHI:2334	gene deletion; complementation	ESO:0000007
+PHI:I377	PHI:2334	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I378	PHI:2336	gene disruption	ESO:0000001
+PHI:I379	PHI:2336	gene deletion	ESO:0000002
+PHI:I380	PHI:2337	gene deletion; complementation	ESO:0000002
+PHI:I380	PHI:2337	gene deletion; complementation	ESO:0000007
+PHI:I381	PHI:2338	gene disruption; complementation	ESO:0000001
+PHI:I381	PHI:2338	gene disruption; complementation	ESO:0000007
+PHI:I382	PHI:2339	gene disruption; complementation	ESO:0000001
+PHI:I382	PHI:2339	gene disruption; complementation	ESO:0000007
+PHI:I383	PHI:2340	functional test in host: transient expression	ESO:0000015
+PHI:I384	PHI:2340	functional test in host: transient expression	ESO:0000015
+PHI:I385	PHI:2340	functional test in host: transient expression	ESO:0000015
+PHI:I386	PHI:2341	gene deletion	ESO:0000002
+PHI:I387	PHI:2342	gene deletion	ESO:0000002
+PHI:I388	PHI:2343	mutation: characterised	ESO:0000016
+PHI:I389	PHI:2344	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I390	PHI:2344	functional test in host: transient expression	ESO:0000015
+PHI:I391	PHI:2344	functional test in host: transient expression	ESO:0000015
+PHI:I392	PHI:2345	gene deletion; complementation	ESO:0000002
+PHI:I392	PHI:2345	gene deletion; complementation	ESO:0000007
+PHI:I393	PHI:2347	functional test in host	ESO:0000006
+PHI:I394	PHI:2347	functional test in host	ESO:0000006
+PHI:I395	PHI:2356	gene deletion	ESO:0000002
+PHI:I396	PHI:2357	gene deletion; complementation	ESO:0000002
+PHI:I396	PHI:2357	gene deletion; complementation	ESO:0000007
+PHI:I397	PHI:2358	gene deletion; complementation	ESO:0000002
+PHI:I397	PHI:2358	gene deletion; complementation	ESO:0000007
+PHI:I398	PHI:2359	gene disruption	ESO:0000001
+PHI:I399	PHI:2359	gene disruption	ESO:0000001
+PHI:I400	PHI:2359	gene disruption	ESO:0000001
+PHI:I401	PHI:2359	gene disruption	ESO:0000001
+PHI:I402	PHI:2359	gene disruption	ESO:0000001
+PHI:I403	PHI:2361	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I404	PHI:2361	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I405	PHI:2363	mutation: characterised; complementation	ESO:0000016
+PHI:I405	PHI:2363	mutation: characterised; complementation	ESO:0000007
+PHI:I406	PHI:2365	gene deletion	ESO:0000002
+PHI:I407	PHI:2365	gene deletion	ESO:0000002
+PHI:I408	PHI:2367	gene deletion	ESO:0000002
+PHI:I409	PHI:2368	gene deletion	ESO:0000002
+PHI:I410	PHI:2368	gene deletion	ESO:0000002
+PHI:I411	PHI:2368	gene deletion	ESO:0000002
+PHI:I412	PHI:2370	gene deletion	ESO:0000002
+PHI:I413	PHI:2370	gene deletion	ESO:0000002
+PHI:I414	PHI:2370	gene deletion	ESO:0000002
+PHI:I415	PHI:2371	gene deletion	ESO:0000002
+PHI:I416	PHI:2371	gene deletion	ESO:0000002
+PHI:I417	PHI:2371	gene deletion	ESO:0000002
+PHI:I418	PHI:2374	gene disruption; complementation	ESO:0000001
+PHI:I418	PHI:2374	gene disruption; complementation	ESO:0000007
+PHI:I419	PHI:2374	gene disruption; complementation	ESO:0000001
+PHI:I419	PHI:2374	gene disruption; complementation	ESO:0000007
+PHI:I420	PHI:2374	gene disruption; complementation	ESO:0000001
+PHI:I420	PHI:2374	gene disruption; complementation	ESO:0000007
+PHI:I421	PHI:2374	gene disruption; complementation	ESO:0000001
+PHI:I421	PHI:2374	gene disruption; complementation	ESO:0000007
+PHI:I422	PHI:2375	gene disruption; complementation	ESO:0000001
+PHI:I422	PHI:2375	gene disruption; complementation	ESO:0000007
+PHI:I423	PHI:2375	gene disruption; complementation	ESO:0000001
+PHI:I423	PHI:2375	gene disruption; complementation	ESO:0000007
+PHI:I424	PHI:2375	gene disruption; complementation	ESO:0000001
+PHI:I424	PHI:2375	gene disruption; complementation	ESO:0000007
+PHI:I425	PHI:2376	gene disruption; complementation	ESO:0000001
+PHI:I425	PHI:2376	gene disruption; complementation	ESO:0000007
+PHI:I426	PHI:2376	gene disruption; complementation	ESO:0000001
+PHI:I426	PHI:2376	gene disruption; complementation	ESO:0000007
+PHI:I427	PHI:2376	gene disruption; complementation	ESO:0000001
+PHI:I427	PHI:2376	gene disruption; complementation	ESO:0000007
+PHI:I428	PHI:2377	gene disruption; complementation	ESO:0000001
+PHI:I428	PHI:2377	gene disruption; complementation	ESO:0000007
+PHI:I429	PHI:2377	gene disruption; complementation	ESO:0000001
+PHI:I429	PHI:2377	gene disruption; complementation	ESO:0000007
+PHI:I430	PHI:2377	gene disruption; complementation	ESO:0000001
+PHI:I430	PHI:2377	gene disruption; complementation	ESO:0000007
+PHI:I431	PHI:2378	gene disruption; complementation	ESO:0000001
+PHI:I431	PHI:2378	gene disruption; complementation	ESO:0000007
+PHI:I432	PHI:2378	gene disruption; complementation	ESO:0000001
+PHI:I432	PHI:2378	gene disruption; complementation	ESO:0000007
+PHI:I433	PHI:2378	gene disruption; complementation	ESO:0000001
+PHI:I433	PHI:2378	gene disruption; complementation	ESO:0000007
+PHI:I434	PHI:2379	gene disruption; complementation	ESO:0000001
+PHI:I434	PHI:2379	gene disruption; complementation	ESO:0000007
+PHI:I435	PHI:2379	gene disruption; complementation	ESO:0000001
+PHI:I435	PHI:2379	gene disruption; complementation	ESO:0000007
+PHI:I436	PHI:2379	gene disruption; complementation	ESO:0000001
+PHI:I436	PHI:2379	gene disruption; complementation	ESO:0000007
+PHI:I437	PHI:2380	gene disruption; complementation	ESO:0000001
+PHI:I437	PHI:2380	gene disruption; complementation	ESO:0000007
+PHI:I438	PHI:2380	gene disruption; complementation	ESO:0000001
+PHI:I438	PHI:2380	gene disruption; complementation	ESO:0000007
+PHI:I439	PHI:2380	gene disruption; complementation	ESO:0000001
+PHI:I439	PHI:2380	gene disruption; complementation	ESO:0000007
+PHI:I440	PHI:2381	gene disruption; complementation	ESO:0000001
+PHI:I440	PHI:2381	gene disruption; complementation	ESO:0000007
+PHI:I441	PHI:2381	gene disruption; complementation	ESO:0000001
+PHI:I441	PHI:2381	gene disruption; complementation	ESO:0000007
+PHI:I442	PHI:2382	gene disruption	ESO:0000001
+PHI:I443	PHI:2383	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I444	PHI:2383	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I445	PHI:2383	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I446	PHI:2383	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I447	PHI:2384	gene deletion	ESO:0000002
+PHI:I448	PHI:2384	gene deletion	ESO:0000002
+PHI:I449	PHI:2385	gene deletion; complementation	ESO:0000002
+PHI:I449	PHI:2385	gene deletion; complementation	ESO:0000007
+PHI:I450	PHI:2385	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I451	PHI:2386	gene deletion; complementation	ESO:0000002
+PHI:I451	PHI:2386	gene deletion; complementation	ESO:0000007
+PHI:I452	PHI:2386	gene deletion; complementation	ESO:0000002
+PHI:I452	PHI:2386	gene deletion; complementation	ESO:0000007
+PHI:I453	PHI:2387	gene deletion; complementation	ESO:0000002
+PHI:I453	PHI:2387	gene deletion; complementation	ESO:0000007
+PHI:I454	PHI:2389	gene deletion	ESO:0000002
+PHI:I455	PHI:2389	gene deletion	ESO:0000002
+PHI:I456	PHI:2390	gene deletion	ESO:0000002
+PHI:I457	PHI:2390	gene deletion	ESO:0000002
+PHI:I458	PHI:2391	gene deletion	ESO:0000002
+PHI:I459	PHI:2391	gene deletion	ESO:0000002
+PHI:I460	PHI:2392	gene deletion; complementation	ESO:0000002
+PHI:I460	PHI:2392	gene deletion; complementation	ESO:0000007
+PHI:I461	PHI:2393	gene deletion	ESO:0000002
+PHI:I462	PHI:2393	gene deletion	ESO:0000002
+PHI:I463	PHI:2394	gene deletion	ESO:0000002
+PHI:I464	PHI:2395	gene deletion; complementation	ESO:0000002
+PHI:I464	PHI:2395	gene deletion; complementation	ESO:0000007
+PHI:I465	PHI:2396	gene deletion; complementation	ESO:0000002
+PHI:I465	PHI:2396	gene deletion; complementation	ESO:0000007
+PHI:I466	PHI:2397	gene deletion; complementation	ESO:0000002
+PHI:I466	PHI:2397	gene deletion; complementation	ESO:0000007
+PHI:I467	PHI:2398	gene deletion; complementation	ESO:0000002
+PHI:I467	PHI:2398	gene deletion; complementation	ESO:0000007
+PHI:I468	PHI:2399	gene disruption; complementation	ESO:0000001
+PHI:I468	PHI:2399	gene disruption; complementation	ESO:0000007
+PHI:I469	PHI:2399	gene disruption; complementation	ESO:0000001
+PHI:I469	PHI:2399	gene disruption; complementation	ESO:0000007
+PHI:I470	PHI:2399	gene disruption; complementation	ESO:0000001
+PHI:I470	PHI:2399	gene disruption; complementation	ESO:0000007
+PHI:I471	PHI:2400	gene disruption; complementation	ESO:0000001
+PHI:I471	PHI:2400	gene disruption; complementation	ESO:0000007
+PHI:I472	PHI:2400	gene disruption; complementation	ESO:0000001
+PHI:I472	PHI:2400	gene disruption; complementation	ESO:0000007
+PHI:I473	PHI:2400	gene disruption; complementation	ESO:0000001
+PHI:I473	PHI:2400	gene disruption; complementation	ESO:0000007
+PHI:I474	PHI:2401	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I475	PHI:2401	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I476	PHI:2401	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I477	PHI:2401	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I478	PHI:2403	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I479	PHI:2403	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I480	PHI:2404	gene deletion; complementation	ESO:0000002
+PHI:I480	PHI:2404	gene deletion; complementation	ESO:0000007
+PHI:I481	PHI:2405	gene disruption	ESO:0000001
+PHI:I482	PHI:2406	gene disruption	ESO:0000001
+PHI:I483	PHI:2407	gene disruption	ESO:0000001
+PHI:I484	PHI:2411	gene deletion	ESO:0000002
+PHI:I485	PHI:2412	gene disruption; complementation	ESO:0000001
+PHI:I485	PHI:2412	gene disruption; complementation	ESO:0000007
+PHI:I486	PHI:2413	gene disruption; complementation	ESO:0000001
+PHI:I486	PHI:2413	gene disruption; complementation	ESO:0000007
+PHI:I487	PHI:2415	mutation: characterised; complementation	ESO:0000016
+PHI:I487	PHI:2415	mutation: characterised; complementation	ESO:0000007
+PHI:I488	PHI:2416	mutation: characterised; complementation	ESO:0000016
+PHI:I488	PHI:2416	mutation: characterised; complementation	ESO:0000007
+PHI:I489	PHI:2417	mutation: characterised; complementation	ESO:0000016
+PHI:I489	PHI:2417	mutation: characterised; complementation	ESO:0000007
+PHI:I490	PHI:2418	gene deletion; complementation	ESO:0000002
+PHI:I490	PHI:2418	gene deletion; complementation	ESO:0000007
+PHI:I491	PHI:2419	gene deletion; complementation	ESO:0000002
+PHI:I491	PHI:2419	gene deletion; complementation	ESO:0000007
+PHI:I492	PHI:2420	functional test in host: transient expression	ESO:0000015
+PHI:I493	PHI:2420	functional test in host: transient expression	ESO:0000015
+PHI:I494	PHI:2420	functional test in host: transient expression	ESO:0000015
+PHI:I495	PHI:2421	functional test in host: transient expression	ESO:0000015
+PHI:I496	PHI:2421	functional test in host: transient expression	ESO:0000015
+PHI:I497	PHI:2421	functional test in host: transient expression	ESO:0000015
+PHI:I498	PHI:2422	functional test in host: transient expression	ESO:0000015
+PHI:I499	PHI:2422	functional test in host: transient expression	ESO:0000015
+PHI:I500	PHI:2422	functional test in host: transient expression	ESO:0000015
+PHI:I501	PHI:2423	functional test in host: transient expression	ESO:0000015
+PHI:I502	PHI:2423	functional test in host: transient expression	ESO:0000015
+PHI:I503	PHI:2423	functional test in host: transient expression	ESO:0000015
+PHI:I504	PHI:2425	gene disruption	ESO:0000001
+PHI:I505	PHI:2425	gene disruption	ESO:0000001
+PHI:I506	PHI:2426	gene deletion; complementation	ESO:0000002
+PHI:I506	PHI:2426	gene deletion; complementation	ESO:0000007
+PHI:I507	PHI:2426	gene deletion; complementation	ESO:0000002
+PHI:I507	PHI:2426	gene deletion; complementation	ESO:0000007
+PHI:I508	PHI:2426	functional test in host: transient expression	ESO:0000015
+PHI:I509	PHI:2427	gene disruption; complementation	ESO:0000001
+PHI:I509	PHI:2427	gene disruption; complementation	ESO:0000007
+PHI:I510	PHI:2429	gene deletion; complementation	ESO:0000002
+PHI:I510	PHI:2429	gene deletion; complementation	ESO:0000007
+PHI:I511	PHI:2430	gene deletion; complementation	ESO:0000002
+PHI:I511	PHI:2430	gene deletion; complementation	ESO:0000007
+PHI:I512	PHI:2430	complementation	ESO:0000007
+PHI:I513	PHI:2432	gene deletion; complementation	ESO:0000002
+PHI:I513	PHI:2432	gene deletion; complementation	ESO:0000007
+PHI:I514	PHI:2433	gene deletion; complementation	ESO:0000002
+PHI:I514	PHI:2433	gene deletion; complementation	ESO:0000007
+PHI:I515	PHI:2434	gene deletion; complementation	ESO:0000002
+PHI:I515	PHI:2434	gene deletion; complementation	ESO:0000007
+PHI:I516	PHI:2437	gene deletion; complementation	ESO:0000002
+PHI:I516	PHI:2437	gene deletion; complementation	ESO:0000007
+PHI:I517	PHI:2438	gene disruption	ESO:0000001
+PHI:I518	PHI:2438	gene disruption	ESO:0000001
+PHI:I519	PHI:2439	gene deletion; complementation	ESO:0000002
+PHI:I519	PHI:2439	gene deletion; complementation	ESO:0000007
+PHI:I520	PHI:2439	gene deletion; complementation	ESO:0000002
+PHI:I520	PHI:2439	gene deletion; complementation	ESO:0000007
+PHI:I521	PHI:2440	gene deletion; complementation	ESO:0000002
+PHI:I521	PHI:2440	gene deletion; complementation	ESO:0000007
+PHI:I522	PHI:2440	gene deletion; complementation	ESO:0000002
+PHI:I522	PHI:2440	gene deletion; complementation	ESO:0000007
+PHI:I523	PHI:2441	gene deletion; complementation	ESO:0000002
+PHI:I523	PHI:2441	gene deletion; complementation	ESO:0000007
+PHI:I524	PHI:2443	mutation	ESO:0000019
+PHI:I525	PHI:2444	mutation	ESO:0000019
+PHI:I526	PHI:2445	gene disruption; complementation	ESO:0000001
+PHI:I526	PHI:2445	gene disruption; complementation	ESO:0000007
+PHI:I527	PHI:2446	gene disruption; complementation	ESO:0000001
+PHI:I527	PHI:2446	gene disruption; complementation	ESO:0000007
+PHI:I528	PHI:2448	gene disruption; complementation	ESO:0000001
+PHI:I528	PHI:2448	gene disruption; complementation	ESO:0000007
+PHI:I529	PHI:2449	gene disruption; complementation	ESO:0000001
+PHI:I529	PHI:2449	gene disruption; complementation	ESO:0000007
+PHI:I530	PHI:2450	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I531	PHI:2451	gene disruption	ESO:0000001
+PHI:I532	PHI:2451	gene disruption	ESO:0000001
+PHI:I533	PHI:2452	gene disruption	ESO:0000001
+PHI:I534	PHI:2452	gene disruption	ESO:0000001
+PHI:I535	PHI:2453	gene disruption	ESO:0000001
+PHI:I536	PHI:2453	mutation	ESO:0000019
+PHI:I537	PHI:2456	gene deletion; complementation	ESO:0000002
+PHI:I537	PHI:2456	gene deletion; complementation	ESO:0000007
+PHI:I538	PHI:2457	gene deletion; complementation	ESO:0000002
+PHI:I538	PHI:2457	gene deletion; complementation	ESO:0000007
+PHI:I539	PHI:2458	gene deletion; complementation	ESO:0000002
+PHI:I539	PHI:2458	gene deletion; complementation	ESO:0000007
+PHI:I540	PHI:2459	gene deletion; complementation	ESO:0000002
+PHI:I540	PHI:2459	gene deletion; complementation	ESO:0000007
+PHI:I541	PHI:2464	gene disruption; complementation	ESO:0000001
+PHI:I541	PHI:2464	gene disruption; complementation	ESO:0000007
+PHI:I542	PHI:2464	gene disruption; complementation	ESO:0000001
+PHI:I542	PHI:2464	gene disruption; complementation	ESO:0000007
+PHI:I543	PHI:2465	gene disruption; complementation	ESO:0000001
+PHI:I543	PHI:2465	gene disruption; complementation	ESO:0000007
+PHI:I544	PHI:2465	gene disruption; complementation	ESO:0000001
+PHI:I544	PHI:2465	gene disruption; complementation	ESO:0000007
+PHI:I545	PHI:2466	gene disruption; complementation	ESO:0000001
+PHI:I545	PHI:2466	gene disruption; complementation	ESO:0000007
+PHI:I546	PHI:2466	gene disruption; complementation	ESO:0000001
+PHI:I546	PHI:2466	gene disruption; complementation	ESO:0000007
+PHI:I547	PHI:2467	mutation: characterised	ESO:0000016
+PHI:I548	PHI:2467	mutation: characterised	ESO:0000016
+PHI:I549	PHI:2468	mutation: characterised	ESO:0000016
+PHI:I550	PHI:2468	mutation: characterised	ESO:0000016
+PHI:I551	PHI:2469	gene disruption; complementation	ESO:0000001
+PHI:I551	PHI:2469	gene disruption; complementation	ESO:0000007
+PHI:I552	PHI:2470	gene deletion; complementation	ESO:0000002
+PHI:I552	PHI:2470	gene deletion; complementation	ESO:0000007
+PHI:I553	PHI:2471	gene deletion	ESO:0000002
+PHI:I554	PHI:2471	gene deletion	ESO:0000002
+PHI:I555	PHI:2472	gene deletion	ESO:0000002
+PHI:I556	PHI:2472	gene deletion	ESO:0000002
+PHI:I557	PHI:2473	gene disruption; complementation	ESO:0000001
+PHI:I557	PHI:2473	gene disruption; complementation	ESO:0000007
+PHI:I558	PHI:2474	gene disruption; complementation	ESO:0000001
+PHI:I558	PHI:2474	gene disruption; complementation	ESO:0000007
+PHI:I559	PHI:2474	gene disruption; complementation	ESO:0000001
+PHI:I559	PHI:2474	gene disruption; complementation	ESO:0000007
+PHI:I560	PHI:2475	mutation: characterised	ESO:0000016
+PHI:I561	PHI:2475	mutation: characterised	ESO:0000016
+PHI:I562	PHI:2476	gene disruption; complementation	ESO:0000001
+PHI:I562	PHI:2476	gene disruption; complementation	ESO:0000007
+PHI:I563	PHI:2476	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I564	PHI:2477	gene deletion; complementation	ESO:0000002
+PHI:I564	PHI:2477	gene deletion; complementation	ESO:0000007
+PHI:I565	PHI:2478	mutation: characterised	ESO:0000016
+PHI:I566	PHI:2478	mutation: characterised	ESO:0000016
+PHI:I567	PHI:2478	mutation: characterised	ESO:0000016
+PHI:I568	PHI:2478	mutation: characterised	ESO:0000016
+PHI:I569	PHI:2479	gene disruption; complementation	ESO:0000001
+PHI:I569	PHI:2479	gene disruption; complementation	ESO:0000007
+PHI:I570	PHI:2479	gene disruption; complementation	ESO:0000001
+PHI:I570	PHI:2479	gene disruption; complementation	ESO:0000007
+PHI:I571	PHI:2479	gene disruption; complementation	ESO:0000001
+PHI:I571	PHI:2479	gene disruption; complementation	ESO:0000007
+PHI:I572	PHI:2479	gene disruption; complementation	ESO:0000001
+PHI:I572	PHI:2479	gene disruption; complementation	ESO:0000007
+PHI:I573	PHI:2480	gene disruption; complementation	ESO:0000001
+PHI:I573	PHI:2480	gene disruption; complementation	ESO:0000007
+PHI:I574	PHI:2481	gene disruption; complementation	ESO:0000001
+PHI:I574	PHI:2481	gene disruption; complementation	ESO:0000007
+PHI:I575	PHI:2482	gene deletion	ESO:0000002
+PHI:I576	PHI:2482	gene deletion	ESO:0000002
+PHI:I577	PHI:2484	gene deletion; complementation	ESO:0000002
+PHI:I577	PHI:2484	gene deletion; complementation	ESO:0000007
+PHI:I578	PHI:2484	gene deletion; complementation	ESO:0000002
+PHI:I578	PHI:2484	gene deletion; complementation	ESO:0000007
+PHI:I579	PHI:2487	gene deletion; complementation	ESO:0000002
+PHI:I579	PHI:2487	gene deletion; complementation	ESO:0000007
+PHI:I580	PHI:2487	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I581	PHI:2487	gene deletion; complementation	ESO:0000002
+PHI:I581	PHI:2487	gene deletion; complementation	ESO:0000007
+PHI:I582	PHI:2487	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I583	PHI:2488	gene deletion	ESO:0000002
+PHI:I584	PHI:2489	mutation: characterised; complementation	ESO:0000016
+PHI:I584	PHI:2489	mutation: characterised; complementation	ESO:0000007
+PHI:I585	PHI:2490	gene deletion; complementation	ESO:0000002
+PHI:I585	PHI:2490	gene deletion; complementation	ESO:0000007
+PHI:I586	PHI:2490	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I587	PHI:2491	gene deletion; complementation	ESO:0000002
+PHI:I587	PHI:2491	gene deletion; complementation	ESO:0000007
+PHI:I588	PHI:2492	mutation: characterised	ESO:0000016
+PHI:I589	PHI:2493	mutation: characterised; complementation	ESO:0000016
+PHI:I589	PHI:2493	mutation: characterised; complementation	ESO:0000007
+PHI:I590	PHI:2494	mutation: characterised; complementation	ESO:0000016
+PHI:I590	PHI:2494	mutation: characterised; complementation	ESO:0000007
+PHI:I591	PHI:2495	mutation: characterised; complementation	ESO:0000016
+PHI:I591	PHI:2495	mutation: characterised; complementation	ESO:0000007
+PHI:I592	PHI:2496	mutation: characterised; complementation	ESO:0000016
+PHI:I592	PHI:2496	mutation: characterised; complementation	ESO:0000007
+PHI:I593	PHI:2497	gene deletion	ESO:0000002
+PHI:I594	PHI:2497	gene deletion	ESO:0000002
+PHI:I595	PHI:2498	gene deletion	ESO:0000002
+PHI:I596	PHI:2499	gene disruption; complementation	ESO:0000001
+PHI:I596	PHI:2499	gene disruption; complementation	ESO:0000007
+PHI:I597	PHI:2499	gene disruption; complementation	ESO:0000001
+PHI:I597	PHI:2499	gene disruption; complementation	ESO:0000007
+PHI:I598	PHI:2500	gene disruption; complementation	ESO:0000001
+PHI:I598	PHI:2500	gene disruption; complementation	ESO:0000007
+PHI:I599	PHI:2501	gene disruption; complementation	ESO:0000001
+PHI:I599	PHI:2501	gene disruption; complementation	ESO:0000007
+PHI:I600	PHI:2503	gene deletion; complementation	ESO:0000002
+PHI:I600	PHI:2503	gene deletion; complementation	ESO:0000007
+PHI:I601	PHI:2509	gene deletion; complementation	ESO:0000002
+PHI:I601	PHI:2509	gene deletion; complementation	ESO:0000007
+PHI:I602	PHI:2510	gene deletion; complementation	ESO:0000002
+PHI:I602	PHI:2510	gene deletion; complementation	ESO:0000007
+PHI:I603	PHI:2511	gene disruption	ESO:0000001
+PHI:I604	PHI:2513	altered gene expression / gene regulation	ESO:0000024
+PHI:I605	PHI:2527	altered gene expression / gene regulation	ESO:0000024
+PHI:I606	PHI:2530	altered gene expression / gene regulation	ESO:0000024
+PHI:I607	PHI:2534	gene disruption	ESO:0000001
+PHI:I608	PHI:2534	gene disruption	ESO:0000001
+PHI:I609	PHI:2535	gene disruption	ESO:0000001
+PHI:I610	PHI:2536	altered gene expression / gene regulation	ESO:0000024
+PHI:I611	PHI:2537	gene deletion; complementation	ESO:0000002
+PHI:I611	PHI:2537	gene deletion; complementation	ESO:0000007
+PHI:I612	PHI:2538	altered gene expression / gene regulation	ESO:0000024
+PHI:I613	PHI:2538	gene deletion; complementation	ESO:0000002
+PHI:I613	PHI:2538	gene deletion; complementation	ESO:0000007
+PHI:I614	PHI:2538	gene deletion; complementation	ESO:0000002
+PHI:I614	PHI:2538	gene deletion; complementation	ESO:0000007
+PHI:I615	PHI:2539	gene deletion; complementation	ESO:0000002
+PHI:I615	PHI:2539	gene deletion; complementation	ESO:0000007
+PHI:I616	PHI:2542	gene deletion	ESO:0000002
+PHI:I617	PHI:2543	altered gene expression / gene regulation	ESO:0000024
+PHI:I618	PHI:2543	gene deletion; complementation	ESO:0000002
+PHI:I618	PHI:2543	gene deletion; complementation	ESO:0000007
+PHI:I619	PHI:2544	gene deletion; complementation	ESO:0000002
+PHI:I619	PHI:2544	gene deletion; complementation	ESO:0000007
+PHI:I620	PHI:2545	gene disruption; complementation	ESO:0000001
+PHI:I620	PHI:2545	gene disruption; complementation	ESO:0000007
+PHI:I621	PHI:2545	gene disruption; complementation	ESO:0000001
+PHI:I621	PHI:2545	gene disruption; complementation	ESO:0000007
+PHI:I622	PHI:2546	gene deletion; complementation	ESO:0000002
+PHI:I622	PHI:2546	gene deletion; complementation	ESO:0000007
+PHI:I623	PHI:2547	gene deletion; complementation	ESO:0000002
+PHI:I623	PHI:2547	gene deletion; complementation	ESO:0000007
+PHI:I624	PHI:2549	gene deletion; complementation	ESO:0000002
+PHI:I624	PHI:2549	gene deletion; complementation	ESO:0000007
+PHI:I625	PHI:2550	gene deletion; complementation	ESO:0000002
+PHI:I625	PHI:2550	gene deletion; complementation	ESO:0000007
+PHI:I626	PHI:2552	gene disruption; complementation	ESO:0000001
+PHI:I626	PHI:2552	gene disruption; complementation	ESO:0000007
+PHI:I627	PHI:2553	gene deletion; complementation	ESO:0000002
+PHI:I627	PHI:2553	gene deletion; complementation	ESO:0000007
+PHI:I628	PHI:2554	gene deletion; complementation	ESO:0000002
+PHI:I628	PHI:2554	gene deletion; complementation	ESO:0000007
+PHI:I629	PHI:2555	gene deletion; complementation	ESO:0000002
+PHI:I629	PHI:2555	gene deletion; complementation	ESO:0000007
+PHI:I630	PHI:2556	gene deletion; complementation	ESO:0000002
+PHI:I630	PHI:2556	gene deletion; complementation	ESO:0000007
+PHI:I631	PHI:2557	gene deletion; complementation	ESO:0000002
+PHI:I631	PHI:2557	gene deletion; complementation	ESO:0000007
+PHI:I632	PHI:2558	gene deletion; complementation	ESO:0000002
+PHI:I632	PHI:2558	gene deletion; complementation	ESO:0000007
+PHI:I633	PHI:2559	gene deletion; complementation	ESO:0000002
+PHI:I633	PHI:2559	gene deletion; complementation	ESO:0000007
+PHI:I634	PHI:2559	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I635	PHI:2560	gene deletion; complementation	ESO:0000002
+PHI:I635	PHI:2560	gene deletion; complementation	ESO:0000007
+PHI:I636	PHI:2561	gene deletion; complementation	ESO:0000002
+PHI:I636	PHI:2561	gene deletion; complementation	ESO:0000007
+PHI:I637	PHI:2562	gene deletion; complementation	ESO:0000002
+PHI:I637	PHI:2562	gene deletion; complementation	ESO:0000007
+PHI:I638	PHI:2563	gene deletion; complementation	ESO:0000002
+PHI:I638	PHI:2563	gene deletion; complementation	ESO:0000007
+PHI:I639	PHI:2564	gene deletion; complementation	ESO:0000002
+PHI:I639	PHI:2564	gene deletion; complementation	ESO:0000007
+PHI:I640	PHI:2565	mutation: characterised	ESO:0000016
+PHI:I641	PHI:2566	gene deletion; complementation	ESO:0000002
+PHI:I641	PHI:2566	gene deletion; complementation	ESO:0000007
+PHI:I642	PHI:2567	gene deletion; complementation	ESO:0000002
+PHI:I642	PHI:2567	gene deletion; complementation	ESO:0000007
+PHI:I643	PHI:2568	gene deletion	ESO:0000002
+PHI:I644	PHI:2569	gene deletion; complementation	ESO:0000002
+PHI:I644	PHI:2569	gene deletion; complementation	ESO:0000007
+PHI:I645	PHI:2570	gene deletion; complementation	ESO:0000002
+PHI:I645	PHI:2570	gene deletion; complementation	ESO:0000007
+PHI:I646	PHI:2571	gene disruption; complementation	ESO:0000001
+PHI:I646	PHI:2571	gene disruption; complementation	ESO:0000007
+PHI:I647	PHI:2572	gene disruption	ESO:0000001
+PHI:I648	PHI:2574	gene deletion	ESO:0000002
+PHI:I649	PHI:2576	gene deletion; complementation	ESO:0000002
+PHI:I649	PHI:2576	gene deletion; complementation	ESO:0000007
+PHI:I650	PHI:2576	gene deletion; complementation	ESO:0000002
+PHI:I650	PHI:2576	gene deletion; complementation	ESO:0000007
+PHI:I651	PHI:2580	gene deletion; complementation	ESO:0000002
+PHI:I651	PHI:2580	gene deletion; complementation	ESO:0000007
+PHI:I652	PHI:2586	gene deletion; complementation	ESO:0000002
+PHI:I652	PHI:2586	gene deletion; complementation	ESO:0000007
+PHI:I653	PHI:2587	gene disruption	ESO:0000001
+PHI:I654	PHI:2587	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I655	PHI:2588	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I656	PHI:2590	gene deletion; complementation	ESO:0000002
+PHI:I656	PHI:2590	gene deletion; complementation	ESO:0000007
+PHI:I657	PHI:2593	gene deletion	ESO:0000002
+PHI:I658	PHI:2593	gene deletion	ESO:0000002
+PHI:I659	PHI:2595	gene deletion	ESO:0000002
+PHI:I660	PHI:2597	gene deletion; complementation	ESO:0000002
+PHI:I660	PHI:2597	gene deletion; complementation	ESO:0000007
+PHI:I661	PHI:2597	gene deletion; complementation	ESO:0000002
+PHI:I661	PHI:2597	gene deletion; complementation	ESO:0000007
+PHI:I662	PHI:2601	gene deletion; complementation	ESO:0000002
+PHI:I662	PHI:2601	gene deletion; complementation	ESO:0000007
+PHI:I663	PHI:2607	gene deletion; complementation	ESO:0000002
+PHI:I663	PHI:2607	gene deletion; complementation	ESO:0000007
+PHI:I664	PHI:2608	gene disruption	ESO:0000001
+PHI:I665	PHI:2608	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I666	PHI:2609	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I667	PHI:2611	gene deletion; complementation	ESO:0000002
+PHI:I667	PHI:2611	gene deletion; complementation	ESO:0000007
+PHI:I668	PHI:2614	gene deletion	ESO:0000002
+PHI:I669	PHI:2614	gene deletion	ESO:0000002
+PHI:I670	PHI:2615	gene deletion; complementation	ESO:0000002
+PHI:I670	PHI:2615	gene deletion; complementation	ESO:0000007
+PHI:I671	PHI:2616	mutation	ESO:0000019
+PHI:I672	PHI:2617	gene deletion	ESO:0000002
+PHI:I673	PHI:2618	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I674	PHI:2619	mutation: characterised	ESO:0000016
+PHI:I675	PHI:2620	altered gene expression / gene regulation	ESO:0000024
+PHI:I676	PHI:2621	mutation: characterised	ESO:0000016
+PHI:I677	PHI:2622	mutation: characterised	ESO:0000016
+PHI:I678	PHI:2623	mutation: characterised	ESO:0000016
+PHI:I679	PHI:2624	mutation: characterised	ESO:0000016
+PHI:I680	PHI:2625	mutation: characterised	ESO:0000016
+PHI:I681	PHI:2626	mutation: characterised	ESO:0000016
+PHI:I682	PHI:2627	mutation: characterised	ESO:0000016
+PHI:I683	PHI:2628	mutation: characterised	ESO:0000016
+PHI:I684	PHI:2630	gene deletion; complementation	ESO:0000002
+PHI:I684	PHI:2630	gene deletion; complementation	ESO:0000007
+PHI:I685	PHI:2630	gene deletion; complementation	ESO:0000002
+PHI:I685	PHI:2630	gene deletion; complementation	ESO:0000007
+PHI:I686	PHI:2631	gene deletion; complementation	ESO:0000002
+PHI:I686	PHI:2631	gene deletion; complementation	ESO:0000007
+PHI:I687	PHI:2632	gene disruption	ESO:0000001
+PHI:I688	PHI:2633	gene disruption	ESO:0000001
+PHI:I689	PHI:2635	gene disruption	ESO:0000001
+PHI:I690	PHI:2636	gene disruption	ESO:0000001
+PHI:I691	PHI:2637	gene disruption; complementation	ESO:0000001
+PHI:I691	PHI:2637	gene disruption; complementation	ESO:0000007
+PHI:I692	PHI:2638	gene deletion; complementation	ESO:0000002
+PHI:I692	PHI:2638	gene deletion; complementation	ESO:0000007
+PHI:I693	PHI:2639	gene deletion; complementation	ESO:0000002
+PHI:I693	PHI:2639	gene deletion; complementation	ESO:0000007
+PHI:I694	PHI:2640	gene deletion	ESO:0000002
+PHI:I695	PHI:2641	gene deletion	ESO:0000002
+PHI:I696	PHI:2642	gene deletion; complementation	ESO:0000002
+PHI:I696	PHI:2642	gene deletion; complementation	ESO:0000007
+PHI:I697	PHI:2643	gene deletion; complementation	ESO:0000002
+PHI:I697	PHI:2643	gene deletion; complementation	ESO:0000007
+PHI:I698	PHI:2644	gene deletion; complementation	ESO:0000002
+PHI:I698	PHI:2644	gene deletion; complementation	ESO:0000007
+PHI:I699	PHI:2644	complementation	ESO:0000007
+PHI:I700	PHI:2645	gene deletion	ESO:0000002
+PHI:I701	PHI:2646	gene deletion; complementation	ESO:0000002
+PHI:I701	PHI:2646	gene deletion; complementation	ESO:0000007
+PHI:I702	PHI:2647	gene deletion; complementation	ESO:0000002
+PHI:I702	PHI:2647	gene deletion; complementation	ESO:0000007
+PHI:I703	PHI:2648	gene deletion; complementation	ESO:0000002
+PHI:I703	PHI:2648	gene deletion; complementation	ESO:0000007
+PHI:I704	PHI:2649	gene deletion; complementation	ESO:0000002
+PHI:I704	PHI:2649	gene deletion; complementation	ESO:0000007
+PHI:I705	PHI:2650	gene deletion; complementation	ESO:0000002
+PHI:I705	PHI:2650	gene deletion; complementation	ESO:0000007
+PHI:I706	PHI:2650	mutation: characterised	ESO:0000016
+PHI:I707	PHI:2651	gene disruption	ESO:0000001
+PHI:I708	PHI:2651	gene disruption	ESO:0000001
+PHI:I709	PHI:2652	mutation: characterised	ESO:0000016
+PHI:I710	PHI:2653	gene deletion; complementation	ESO:0000002
+PHI:I710	PHI:2653	gene deletion; complementation	ESO:0000007
+PHI:I711	PHI:2653	gene deletion; complementation	ESO:0000002
+PHI:I711	PHI:2653	gene deletion; complementation	ESO:0000007
+PHI:I712	PHI:2653	gene deletion; complementation	ESO:0000002
+PHI:I712	PHI:2653	gene deletion; complementation	ESO:0000007
+PHI:I713	PHI:2654	gene deletion; complementation	ESO:0000002
+PHI:I713	PHI:2654	gene deletion; complementation	ESO:0000007
+PHI:I714	PHI:2656	gene deletion	ESO:0000002
+PHI:I715	PHI:2657	gene deletion	ESO:0000002
+PHI:I716	PHI:2658	gene deletion	ESO:0000002
+PHI:I717	PHI:2659	gene deletion	ESO:0000002
+PHI:I718	PHI:2660	gene deletion	ESO:0000002
+PHI:I719	PHI:2661	mutation: characterised; complementation	ESO:0000016
+PHI:I719	PHI:2661	mutation: characterised; complementation	ESO:0000007
+PHI:I720	PHI:2662	gene deletion; complementation	ESO:0000002
+PHI:I720	PHI:2662	gene deletion; complementation	ESO:0000007
+PHI:I721	PHI:2662	gene deletion; complementation	ESO:0000002
+PHI:I721	PHI:2662	gene deletion; complementation	ESO:0000007
+PHI:I722	PHI:2663	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I723	PHI:2664	gene deletion; complementation	ESO:0000002
+PHI:I723	PHI:2664	gene deletion; complementation	ESO:0000007
+PHI:I724	PHI:2665	gene deletion; complementation	ESO:0000002
+PHI:I724	PHI:2665	gene deletion; complementation	ESO:0000007
+PHI:I725	PHI:2666	gene deletion; complementation	ESO:0000002
+PHI:I725	PHI:2666	gene deletion; complementation	ESO:0000007
+PHI:I726	PHI:2664	gene deletion; complementation	ESO:0000002
+PHI:I726	PHI:2664	gene deletion; complementation	ESO:0000007
+PHI:I727	PHI:2665	gene deletion; complementation	ESO:0000002
+PHI:I727	PHI:2665	gene deletion; complementation	ESO:0000007
+PHI:I728	PHI:2666	gene deletion; complementation	ESO:0000002
+PHI:I728	PHI:2666	gene deletion; complementation	ESO:0000007
+PHI:I729	PHI:2667	gene deletion	ESO:0000002
+PHI:I730	PHI:2668	gene deletion	ESO:0000002
+PHI:I731	PHI:2669	mutation: characterised	ESO:0000016
+PHI:I732	PHI:2670	gene deletion	ESO:0000002
+PHI:I733	PHI:2670	gene deletion	ESO:0000002
+PHI:I734	PHI:2670	gene deletion	ESO:0000002
+PHI:I735	PHI:2671	gene deletion; complementation	ESO:0000002
+PHI:I735	PHI:2671	gene deletion; complementation	ESO:0000007
+PHI:I736	PHI:2672	gene deletion; complementation	ESO:0000002
+PHI:I736	PHI:2672	gene deletion; complementation	ESO:0000007
+PHI:I737	PHI:2673	gene deletion; complementation	ESO:0000002
+PHI:I737	PHI:2673	gene deletion; complementation	ESO:0000007
+PHI:I738	PHI:2674	gene deletion; complementation	ESO:0000002
+PHI:I738	PHI:2674	gene deletion; complementation	ESO:0000007
+PHI:I739	PHI:2676	gene deletion; complementation	ESO:0000002
+PHI:I739	PHI:2676	gene deletion; complementation	ESO:0000007
+PHI:I740	PHI:2678	gene deletion; complementation	ESO:0000002
+PHI:I740	PHI:2678	gene deletion; complementation	ESO:0000007
+PHI:I741	PHI:2679	gene deletion; complementation	ESO:0000002
+PHI:I741	PHI:2679	gene deletion; complementation	ESO:0000007
+PHI:I742	PHI:2680	gene deletion; complementation	ESO:0000002
+PHI:I742	PHI:2680	gene deletion; complementation	ESO:0000007
+PHI:I743	PHI:2681	gene deletion; complementation	ESO:0000002
+PHI:I743	PHI:2681	gene deletion; complementation	ESO:0000007
+PHI:I744	PHI:2682	gene deletion; complementation	ESO:0000002
+PHI:I744	PHI:2682	gene deletion; complementation	ESO:0000007
+PHI:I745	PHI:2683	gene deletion; complementation	ESO:0000002
+PHI:I745	PHI:2683	gene deletion; complementation	ESO:0000007
+PHI:I746	PHI:2684	gene deletion; complementation	ESO:0000002
+PHI:I746	PHI:2684	gene deletion; complementation	ESO:0000007
+PHI:I747	PHI:2685	gene deletion; complementation	ESO:0000002
+PHI:I747	PHI:2685	gene deletion; complementation	ESO:0000007
+PHI:I748	PHI:2687	gene deletion; complementation	ESO:0000002
+PHI:I748	PHI:2687	gene deletion; complementation	ESO:0000007
+PHI:I749	PHI:2688	gene deletion	ESO:0000002
+PHI:I750	PHI:2689	gene deletion; complementation	ESO:0000002
+PHI:I750	PHI:2689	gene deletion; complementation	ESO:0000007
+PHI:I751	PHI:2690	mutation: characterised	ESO:0000016
+PHI:I752	PHI:2691	gene deletion; complementation	ESO:0000002
+PHI:I752	PHI:2691	gene deletion; complementation	ESO:0000007
+PHI:I753	PHI:2692	mutation: characterised	ESO:0000016
+PHI:I754	PHI:2693	gene deletion	ESO:0000002
+PHI:I755	PHI:2694	gene deletion; complementation	ESO:0000002
+PHI:I755	PHI:2694	gene deletion; complementation	ESO:0000007
+PHI:I756	PHI:2694	gene deletion; complementation	ESO:0000002
+PHI:I756	PHI:2694	gene deletion; complementation	ESO:0000007
+PHI:I757	PHI:2698	gene disruption	ESO:0000001
+PHI:I758	PHI:2698	gene disruption	ESO:0000001
+PHI:I759	PHI:2698	gene disruption	ESO:0000001
+PHI:I760	PHI:2698	gene disruption	ESO:0000001
+PHI:I761	PHI:2698	gene disruption	ESO:0000001
+PHI:I762	PHI:2698	gene disruption	ESO:0000001
+PHI:I763	PHI:2698	gene disruption	ESO:0000001
+PHI:I764	PHI:2698	gene disruption	ESO:0000001
+PHI:I765	PHI:2699	mutation: characterised; complementation	ESO:0000016
+PHI:I765	PHI:2699	mutation: characterised; complementation	ESO:0000007
+PHI:I766	PHI:2699	mutation: characterised; complementation	ESO:0000016
+PHI:I766	PHI:2699	mutation: characterised; complementation	ESO:0000007
+PHI:I767	PHI:2700	gene disruption	ESO:0000001
+PHI:I768	PHI:2701	gene deletion; complementation	ESO:0000002
+PHI:I768	PHI:2701	gene deletion; complementation	ESO:0000007
+PHI:I769	PHI:2702	gene deletion; complementation	ESO:0000002
+PHI:I769	PHI:2702	gene deletion; complementation	ESO:0000007
+PHI:I770	PHI:2703	gene deletion; complementation	ESO:0000002
+PHI:I770	PHI:2703	gene deletion; complementation	ESO:0000007
+PHI:I771	PHI:2705	gene deletion; complementation	ESO:0000002
+PHI:I771	PHI:2705	gene deletion; complementation	ESO:0000007
+PHI:I772	PHI:2706	gene deletion; complementation	ESO:0000002
+PHI:I772	PHI:2706	gene deletion; complementation	ESO:0000007
+PHI:I773	PHI:2707	gene deletion; complementation	ESO:0000002
+PHI:I773	PHI:2707	gene deletion; complementation	ESO:0000007
+PHI:I774	PHI:2708	gene deletion; complementation	ESO:0000002
+PHI:I774	PHI:2708	gene deletion; complementation	ESO:0000007
+PHI:I775	PHI:2705	gene deletion; complementation	ESO:0000002
+PHI:I775	PHI:2705	gene deletion; complementation	ESO:0000007
+PHI:I776	PHI:2706	gene deletion; complementation	ESO:0000002
+PHI:I776	PHI:2706	gene deletion; complementation	ESO:0000007
+PHI:I777	PHI:2707	gene deletion; complementation	ESO:0000002
+PHI:I777	PHI:2707	gene deletion; complementation	ESO:0000007
+PHI:I778	PHI:2708	gene deletion; complementation	ESO:0000002
+PHI:I778	PHI:2708	gene deletion; complementation	ESO:0000007
+PHI:I779	PHI:2705	gene deletion; complementation	ESO:0000002
+PHI:I779	PHI:2705	gene deletion; complementation	ESO:0000007
+PHI:I780	PHI:2706	gene deletion; complementation	ESO:0000002
+PHI:I780	PHI:2706	gene deletion; complementation	ESO:0000007
+PHI:I781	PHI:2707	gene deletion; complementation	ESO:0000002
+PHI:I781	PHI:2707	gene deletion; complementation	ESO:0000007
+PHI:I782	PHI:2708	gene deletion; complementation	ESO:0000002
+PHI:I782	PHI:2708	gene deletion; complementation	ESO:0000007
+PHI:I783	PHI:2710	gene deletion; complementation	ESO:0000002
+PHI:I783	PHI:2710	gene deletion; complementation	ESO:0000007
+PHI:I784	PHI:2711	gene deletion; complementation	ESO:0000002
+PHI:I784	PHI:2711	gene deletion; complementation	ESO:0000007
+PHI:I785	PHI:2712	gene deletion; complementation	ESO:0000002
+PHI:I785	PHI:2712	gene deletion; complementation	ESO:0000007
+PHI:I786	PHI:2711	gene deletion; complementation	ESO:0000002
+PHI:I786	PHI:2711	gene deletion; complementation	ESO:0000007
+PHI:I787	PHI:2712	gene deletion; complementation	ESO:0000002
+PHI:I787	PHI:2712	gene deletion; complementation	ESO:0000007
+PHI:I788	PHI:2711	gene deletion; complementation	ESO:0000002
+PHI:I788	PHI:2711	gene deletion; complementation	ESO:0000007
+PHI:I789	PHI:2712	gene deletion; complementation	ESO:0000002
+PHI:I789	PHI:2712	gene deletion; complementation	ESO:0000007
+PHI:I790	PHI:2713	mutation: characterised; complementation	ESO:0000016
+PHI:I790	PHI:2713	mutation: characterised; complementation	ESO:0000007
+PHI:I791	PHI:2714	gene deletion; complementation	ESO:0000002
+PHI:I791	PHI:2714	gene deletion; complementation	ESO:0000007
+PHI:I792	PHI:2715	gene deletion; complementation	ESO:0000002
+PHI:I792	PHI:2715	gene deletion; complementation	ESO:0000007
+PHI:I793	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I794	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I795	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I796	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I797	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I798	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I799	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I800	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I801	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I802	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I803	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I804	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I805	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I806	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I807	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I808	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I809	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I810	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I811	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I812	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I813	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I814	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I815	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I816	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I817	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I818	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I819	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I820	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I821	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I822	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I823	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I824	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I825	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I826	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I827	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I828	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I829	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I830	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I831	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I832	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I833	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I834	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I835	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I836	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I837	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I838	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I839	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I840	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I841	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I842	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I843	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I844	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I845	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I846	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I847	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I848	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I849	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I850	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I851	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I852	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I853	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I854	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I855	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I856	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I857	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I858	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I859	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I860	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I861	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I862	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I863	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I864	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I865	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I866	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I867	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I868	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I869	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I870	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I871	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I872	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I873	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I874	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I875	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I876	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I877	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I878	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I879	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I880	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I881	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I882	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I883	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I884	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I885	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I886	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I887	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I888	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I889	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I890	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I891	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I892	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I893	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I894	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I895	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I896	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I897	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I898	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I899	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I900	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I901	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I902	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I903	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I904	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I905	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I906	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I907	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I908	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I909	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I910	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I911	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I912	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I913	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I914	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I915	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I916	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I917	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I918	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I919	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I920	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I921	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I922	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I923	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I924	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I925	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I926	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I927	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I928	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I929	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I930	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I931	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I932	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I933	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I934	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I935	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I936	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I937	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I938	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I939	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I940	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I941	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I942	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I943	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I944	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I945	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I946	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I947	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I948	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I949	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I950	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I951	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I952	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I953	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I954	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I955	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I956	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I957	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I958	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I959	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I960	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I961	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I962	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I963	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I964	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I965	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I966	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I967	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I968	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I969	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I970	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I971	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I972	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I973	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I974	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I975	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I976	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I977	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I978	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I979	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I980	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I981	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I982	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I983	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I984	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I985	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I986	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I987	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I988	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I989	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I990	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I991	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I992	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I993	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I994	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I995	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I996	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I997	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I998	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I999	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I1000	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I1001	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I1002	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I1003	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I1004	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I1005	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I1006	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I1007	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I1008	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I1009	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I1010	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I1011	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I1012	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I1013	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I1014	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I1015	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I1016	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I1017	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I1018	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I1019	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I1020	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I1021	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I1022	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I1023	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I1024	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I1025	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I1026	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I1027	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I1028	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I1029	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I1030	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I1031	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I1032	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I1033	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I1034	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I1035	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I1036	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I1037	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I1038	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I1039	PHI:2717	functional test in host: transient expression	ESO:0000015
+PHI:I1040	PHI:2718	functional test in host: transient expression	ESO:0000015
+PHI:I1041	PHI:2719	functional test in host: transient expression	ESO:0000015
+PHI:I1042	PHI:2720	functional test in host: transient expression	ESO:0000015
+PHI:I1043	PHI:2721	functional test in host: transient expression	ESO:0000015
+PHI:I1044	PHI:2722	functional test in host: transient expression	ESO:0000015
+PHI:I1045	PHI:2727	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I1046	PHI:2727	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1047	PHI:2729	gene disruption; complementation	ESO:0000001
+PHI:I1047	PHI:2729	gene disruption; complementation	ESO:0000007
+PHI:I1048	PHI:2730	gene disruption; complementation	ESO:0000001
+PHI:I1048	PHI:2730	gene disruption; complementation	ESO:0000007
+PHI:I1049	PHI:2731	gene deletion; complementation	ESO:0000002
+PHI:I1049	PHI:2731	gene deletion; complementation	ESO:0000007
+PHI:I1050	PHI:2732	gene deletion	ESO:0000002
+PHI:I1051	PHI:2733	gene deletion	ESO:0000002
+PHI:I1052	PHI:2732	gene deletion	ESO:0000002
+PHI:I1053	PHI:2733	gene deletion	ESO:0000002
+PHI:I1054	PHI:2734	gene deletion	ESO:0000002
+PHI:I1055	PHI:2735	gene disruption	ESO:0000001
+PHI:I1056	PHI:2735	gene disruption	ESO:0000001
+PHI:I1057	PHI:2736	gene deletion	ESO:0000002
+PHI:I1058	PHI:2737	gene deletion; complementation	ESO:0000002
+PHI:I1058	PHI:2737	gene deletion; complementation	ESO:0000007
+PHI:I1059	PHI:2738	gene deletion	ESO:0000002
+PHI:I1060	PHI:2739	gene deletion	ESO:0000002
+PHI:I1061	PHI:2740	gene deletion; complementation	ESO:0000002
+PHI:I1061	PHI:2740	gene deletion; complementation	ESO:0000007
+PHI:I1062	PHI:2742	functional test in host: transient expression	ESO:0000015
+PHI:I1063	PHI:2743	functional test in host: transient expression	ESO:0000015
+PHI:I1064	PHI:2742	functional test in host: transient expression	ESO:0000015
+PHI:I1065	PHI:2743	functional test in host: transient expression	ESO:0000015
+PHI:I1066	PHI:2744	gene deletion	ESO:0000002
+PHI:I1067	PHI:2745	gene disruption	ESO:0000001
+PHI:I1068	PHI:2745	gene disruption	ESO:0000001
+PHI:I1069	PHI:2745	gene disruption	ESO:0000001
+PHI:I1070	PHI:2745	gene disruption	ESO:0000001
+PHI:I1071	PHI:2749	gene deletion	ESO:0000002
+PHI:I1072	PHI:2749	gene deletion	ESO:0000002
+PHI:I1073	PHI:2751	mutation	ESO:0000019
+PHI:I1074	PHI:2751	mutation	ESO:0000019
+PHI:I1075	PHI:2752	mutation: characterised	ESO:0000016
+PHI:I1076	PHI:2801	mutation	ESO:0000019
+PHI:I1077	PHI:2802	gene deletion	ESO:0000002
+PHI:I1078	PHI:2805	gene disruption; complementation	ESO:0000001
+PHI:I1078	PHI:2805	gene disruption; complementation	ESO:0000007
+PHI:I1079	PHI:2806	gene deletion	ESO:0000002
+PHI:I1080	PHI:2806	gene deletion	ESO:0000002
+PHI:I1081	PHI:2807	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1082	PHI:2807	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1083	PHI:2808	gene disruption	ESO:0000001
+PHI:I1084	PHI:2809	gene deletion; complementation	ESO:0000002
+PHI:I1084	PHI:2809	gene deletion; complementation	ESO:0000007
+PHI:I1085	PHI:2810	gene deletion; complementation	ESO:0000002
+PHI:I1085	PHI:2810	gene deletion; complementation	ESO:0000007
+PHI:I1086	PHI:2811	gene disruption	ESO:0000001
+PHI:I1087	PHI:2812	gene disruption	ESO:0000001
+PHI:I1088	PHI:2813	gene disruption	ESO:0000001
+PHI:I1089	PHI:2814	gene disruption	ESO:0000001
+PHI:I1090	PHI:2815	gene disruption	ESO:0000001
+PHI:I1091	PHI:2817	gene disruption	ESO:0000001
+PHI:I1092	PHI:2818	gene disruption	ESO:0000001
+PHI:I1093	PHI:2818	gene disruption	ESO:0000001
+PHI:I1094	PHI:2818	gene disruption	ESO:0000001
+PHI:I1095	PHI:2818	gene disruption	ESO:0000001
+PHI:I1096	PHI:2818	gene disruption	ESO:0000001
+PHI:I1097	PHI:2818	gene disruption	ESO:0000001
+PHI:I1098	PHI:2819	mutation	ESO:0000019
+PHI:I1099	PHI:2820	gene disruption; complementation	ESO:0000001
+PHI:I1099	PHI:2820	gene disruption; complementation	ESO:0000007
+PHI:I1100	PHI:2821	gene disruption; complementation	ESO:0000001
+PHI:I1100	PHI:2821	gene disruption; complementation	ESO:0000007
+PHI:I1101	PHI:2822	gene deletion	ESO:0000002
+PHI:I1102	PHI:2823	altered gene expression / gene regulation	ESO:0000024
+PHI:I1103	PHI:2824	gene disruption; complementation	ESO:0000001
+PHI:I1103	PHI:2824	gene disruption; complementation	ESO:0000007
+PHI:I1104	PHI:2825	gene disruption; complementation	ESO:0000001
+PHI:I1104	PHI:2825	gene disruption; complementation	ESO:0000007
+PHI:I1105	PHI:2826	gene deletion; complementation	ESO:0000002
+PHI:I1105	PHI:2826	gene deletion; complementation	ESO:0000007
+PHI:I1106	PHI:2827	gene deletion; complementation	ESO:0000002
+PHI:I1106	PHI:2827	gene deletion; complementation	ESO:0000007
+PHI:I1107	PHI:2828	gene disruption	ESO:0000001
+PHI:I1108	PHI:2829	gene deletion	ESO:0000002
+PHI:I1109	PHI:2830	gene deletion	ESO:0000002
+PHI:I1110	PHI:2833	gene deletion; complementation	ESO:0000002
+PHI:I1110	PHI:2833	gene deletion; complementation	ESO:0000007
+PHI:I1111	PHI:2834	gene deletion	ESO:0000002
+PHI:I1112	PHI:2836	gene deletion	ESO:0000002
+PHI:I1113	PHI:2837	gene deletion	ESO:0000002
+PHI:I1114	PHI:2838	gene deletion	ESO:0000002
+PHI:I1115	PHI:2839	gene deletion	ESO:0000002
+PHI:I1116	PHI:2839	gene deletion	ESO:0000002
+PHI:I1117	PHI:2836	gene deletion	ESO:0000002
+PHI:I1118	PHI:2839	gene deletion	ESO:0000002
+PHI:I1119	PHI:2836	gene deletion	ESO:0000002
+PHI:I1120	PHI:2834	gene deletion	ESO:0000002
+PHI:I1121	PHI:2836	gene deletion	ESO:0000002
+PHI:I1122	PHI:2837	gene deletion	ESO:0000002
+PHI:I1123	PHI:2838	gene deletion	ESO:0000002
+PHI:I1124	PHI:2839	gene deletion	ESO:0000002
+PHI:I1125	PHI:2839	gene deletion	ESO:0000002
+PHI:I1126	PHI:2836	gene deletion	ESO:0000002
+PHI:I1127	PHI:2839	gene deletion	ESO:0000002
+PHI:I1128	PHI:2836	gene deletion	ESO:0000002
+PHI:I1129	PHI:2840	gene disruption; complementation	ESO:0000001
+PHI:I1129	PHI:2840	gene disruption; complementation	ESO:0000007
+PHI:I1130	PHI:2841	gene disruption; complementation	ESO:0000001
+PHI:I1130	PHI:2841	gene disruption; complementation	ESO:0000007
+PHI:I1131	PHI:2843	gene disruption; complementation	ESO:0000001
+PHI:I1131	PHI:2843	gene disruption; complementation	ESO:0000007
+PHI:I1132	PHI:2840	gene disruption; complementation	ESO:0000001
+PHI:I1132	PHI:2840	gene disruption; complementation	ESO:0000007
+PHI:I1133	PHI:2841	gene disruption; complementation	ESO:0000001
+PHI:I1133	PHI:2841	gene disruption; complementation	ESO:0000007
+PHI:I1134	PHI:2847	mutation	ESO:0000019
+PHI:I1135	PHI:2848	mutation	ESO:0000019
+PHI:I1136	PHI:2850	gene deletion	ESO:0000002
+PHI:I1137	PHI:2850	gene deletion	ESO:0000002
+PHI:I1138	PHI:2851	mutation: characterised	ESO:0000016
+PHI:I1139	PHI:2852	mutation: characterised	ESO:0000016
+PHI:I1140	PHI:2853	mutation: characterised	ESO:0000016
+PHI:I1141	PHI:2854	mutation: characterised	ESO:0000016
+PHI:I1142	PHI:2855	mutation: characterised	ESO:0000016
+PHI:I1143	PHI:2856	mutation: characterised	ESO:0000016
+PHI:I1144	PHI:2857	gene deletion; complementation	ESO:0000002
+PHI:I1144	PHI:2857	gene deletion; complementation	ESO:0000007
+PHI:I1145	PHI:2858	gene deletion; complementation	ESO:0000002
+PHI:I1145	PHI:2858	gene deletion; complementation	ESO:0000007
+PHI:I1146	PHI:2858	gene deletion; complementation	ESO:0000002
+PHI:I1146	PHI:2858	gene deletion; complementation	ESO:0000007
+PHI:I1147	PHI:2859	gene deletion	ESO:0000002
+PHI:I1148	PHI:2860	gene deletion	ESO:0000002
+PHI:I1149	PHI:2861	gene deletion	ESO:0000002
+PHI:I1150	PHI:2862	gene deletion	ESO:0000002
+PHI:I1151	PHI:2863	gene deletion	ESO:0000002
+PHI:I1152	PHI:2864	gene deletion	ESO:0000002
+PHI:I1153	PHI:2865	gene deletion	ESO:0000002
+PHI:I1154	PHI:2866	gene deletion	ESO:0000002
+PHI:I1155	PHI:2872	mutation	ESO:0000019
+PHI:I1156	PHI:2873	mutation	ESO:0000019
+PHI:I1157	PHI:2874	gene deletion	ESO:0000002
+PHI:I1158	PHI:2875	gene deletion	ESO:0000002
+PHI:I1159	PHI:2876	gene deletion	ESO:0000002
+PHI:I1160	PHI:2877	gene deletion	ESO:0000002
+PHI:I1161	PHI:2878	gene deletion	ESO:0000002
+PHI:I1162	PHI:2879	mutation: characterised	ESO:0000016
+PHI:I1163	PHI:2879	mutation: characterised	ESO:0000016
+PHI:I1164	PHI:2879	mutation: characterised	ESO:0000016
+PHI:I1165	PHI:2880	gene deletion; complementation	ESO:0000002
+PHI:I1165	PHI:2880	gene deletion; complementation	ESO:0000007
+PHI:I1166	PHI:2880	gene deletion; complementation	ESO:0000002
+PHI:I1166	PHI:2880	gene deletion; complementation	ESO:0000007
+PHI:I1167	PHI:2881	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1168	PHI:2883	gene deletion	ESO:0000002
+PHI:I1169	PHI:2884	gene deletion	ESO:0000002
+PHI:I1170	PHI:2885	gene deletion	ESO:0000002
+PHI:I1171	PHI:2886	gene deletion	ESO:0000002
+PHI:I1172	PHI:2887	gene deletion	ESO:0000002
+PHI:I1173	PHI:2888	gene deletion	ESO:0000002
+PHI:I1174	PHI:2883	gene deletion	ESO:0000002
+PHI:I1175	PHI:2885	gene deletion	ESO:0000002
+PHI:I1176	PHI:2887	gene deletion	ESO:0000002
+PHI:I1177	PHI:2883	gene deletion	ESO:0000002
+PHI:I1178	PHI:2884	gene deletion	ESO:0000002
+PHI:I1179	PHI:2885	gene deletion	ESO:0000002
+PHI:I1180	PHI:2886	gene deletion	ESO:0000002
+PHI:I1181	PHI:2887	gene deletion	ESO:0000002
+PHI:I1182	PHI:2888	gene deletion	ESO:0000002
+PHI:I1183	PHI:2883	gene deletion	ESO:0000002
+PHI:I1184	PHI:2885	gene deletion	ESO:0000002
+PHI:I1185	PHI:2886	gene deletion	ESO:0000002
+PHI:I1186	PHI:2887	gene deletion	ESO:0000002
+PHI:I1187	PHI:2888	gene deletion	ESO:0000002
+PHI:I1188	PHI:2889	gene deletion	ESO:0000002
+PHI:I1189	PHI:2889	gene deletion	ESO:0000002
+PHI:I1190	PHI:2890	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1191	PHI:2891	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1192	PHI:2890	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1193	PHI:2891	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1194	PHI:2890	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I1195	PHI:2891	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I1196	PHI:2890	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I1197	PHI:2891	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I1198	PHI:2890	functional test in host	ESO:0000006
+PHI:I1199	PHI:2891	functional test in host	ESO:0000006
+PHI:I1200	PHI:2890	functional test in host	ESO:0000006
+PHI:I1201	PHI:2891	functional test in host	ESO:0000006
+PHI:I1202	PHI:2892	gene disruption; complementation	ESO:0000001
+PHI:I1202	PHI:2892	gene disruption; complementation	ESO:0000007
+PHI:I1203	PHI:2893	gene disruption; complementation	ESO:0000001
+PHI:I1203	PHI:2893	gene disruption; complementation	ESO:0000007
+PHI:I1204	PHI:2894	gene disruption; complementation	ESO:0000001
+PHI:I1204	PHI:2894	gene disruption; complementation	ESO:0000007
+PHI:I1205	PHI:2895	gene disruption; complementation	ESO:0000001
+PHI:I1205	PHI:2895	gene disruption; complementation	ESO:0000007
+PHI:I1206	PHI:2904	functional test in host	ESO:0000006
+PHI:I1207	PHI:2905	functional test in host	ESO:0000006
+PHI:I1208	PHI:2904	functional test in host	ESO:0000006
+PHI:I1209	PHI:2904	functional test in host	ESO:0000006
+PHI:I1210	PHI:2906	mutation	ESO:0000019
+PHI:I1211	PHI:2906	mutation	ESO:0000019
+PHI:I1212	PHI:2907	gene deletion	ESO:0000002
+PHI:I1213	PHI:2907	gene deletion	ESO:0000002
+PHI:I1214	PHI:2907	gene deletion	ESO:0000002
+PHI:I1215	PHI:2907	gene deletion	ESO:0000002
+PHI:I1216	PHI:2907	gene deletion	ESO:0000002
+PHI:I1217	PHI:2907	gene deletion	ESO:0000002
+PHI:I1218	PHI:2907	gene deletion	ESO:0000002
+PHI:I1219	PHI:2907	gene deletion	ESO:0000002
+PHI:I1220	PHI:2910	gene deletion; complementation	ESO:0000002
+PHI:I1220	PHI:2910	gene deletion; complementation	ESO:0000007
+PHI:I1221	PHI:2910	gene deletion; complementation	ESO:0000002
+PHI:I1221	PHI:2910	gene deletion; complementation	ESO:0000007
+PHI:I1222	PHI:2910	gene deletion; complementation	ESO:0000002
+PHI:I1222	PHI:2910	gene deletion; complementation	ESO:0000007
+PHI:I1223	PHI:2910	gene deletion; complementation	ESO:0000002
+PHI:I1223	PHI:2910	gene deletion; complementation	ESO:0000007
+PHI:I1224	PHI:2911	gene disruption; complementation	ESO:0000001
+PHI:I1224	PHI:2911	gene disruption; complementation	ESO:0000007
+PHI:I1225	PHI:2912	gene disruption; complementation	ESO:0000001
+PHI:I1225	PHI:2912	gene disruption; complementation	ESO:0000007
+PHI:I1226	PHI:2913	gene disruption; complementation	ESO:0000001
+PHI:I1226	PHI:2913	gene disruption; complementation	ESO:0000007
+PHI:I1227	PHI:2914	gene disruption; complementation	ESO:0000001
+PHI:I1227	PHI:2914	gene disruption; complementation	ESO:0000007
+PHI:I1228	PHI:2918	functional test in host	ESO:0000006
+PHI:I1229	PHI:2919	functional test in host	ESO:0000006
+PHI:I1230	PHI:2920	gene deletion	ESO:0000002
+PHI:I1231	PHI:2920	gene deletion	ESO:0000002
+PHI:I1232	PHI:2923	gene deletion; complementation	ESO:0000002
+PHI:I1232	PHI:2923	gene deletion; complementation	ESO:0000007
+PHI:I1233	PHI:2924	gene deletion; complementation	ESO:0000002
+PHI:I1233	PHI:2924	gene deletion; complementation	ESO:0000007
+PHI:I1234	PHI:2925	gene deletion; complementation	ESO:0000002
+PHI:I1234	PHI:2925	gene deletion; complementation	ESO:0000007
+PHI:I1235	PHI:2926	gene deletion; complementation	ESO:0000002
+PHI:I1235	PHI:2926	gene deletion; complementation	ESO:0000007
+PHI:I1236	PHI:2927	gene deletion; complementation	ESO:0000002
+PHI:I1236	PHI:2927	gene deletion; complementation	ESO:0000007
+PHI:I1237	PHI:2929	gene deletion; complementation	ESO:0000002
+PHI:I1237	PHI:2929	gene deletion; complementation	ESO:0000007
+PHI:I1238	PHI:2930	gene deletion; complementation	ESO:0000002
+PHI:I1238	PHI:2930	gene deletion; complementation	ESO:0000007
+PHI:I1239	PHI:2930	gene deletion; complementation	ESO:0000002
+PHI:I1239	PHI:2930	gene deletion; complementation	ESO:0000007
+PHI:I1240	PHI:2931	functional test in host	ESO:0000006
+PHI:I1241	PHI:2932	gene disruption	ESO:0000001
+PHI:I1242	PHI:2933	gene disruption	ESO:0000001
+PHI:I1243	PHI:2936	gene disruption	ESO:0000001
+PHI:I1244	PHI:2937	gene disruption	ESO:0000001
+PHI:I1245	PHI:2938	gene disruption	ESO:0000001
+PHI:I1246	PHI:2939	gene deletion	ESO:0000002
+PHI:I1247	PHI:2940	gene disruption; complementation	ESO:0000001
+PHI:I1247	PHI:2940	gene disruption; complementation	ESO:0000007
+PHI:I1248	PHI:2941	functional test in host	ESO:0000006
+PHI:I1249	PHI:2941	functional test in host	ESO:0000006
+PHI:I1250	PHI:2943	functional test in host	ESO:0000006
+PHI:I1251	PHI:2943	functional test in host	ESO:0000006
+PHI:I1252	PHI:2944	functional test in host	ESO:0000006
+PHI:I1253	PHI:2945	functional test in host	ESO:0000006
+PHI:I1254	PHI:2946	functional test in host	ESO:0000006
+PHI:I1255	PHI:2947	functional test in host	ESO:0000006
+PHI:I1256	PHI:2948	functional test in host	ESO:0000006
+PHI:I1257	PHI:2949	mutation: characterised	ESO:0000016
+PHI:I1258	PHI:2950	mutation: characterised	ESO:0000016
+PHI:I1259	PHI:2949	mutation: characterised	ESO:0000016
+PHI:I1260	PHI:2950	mutation: characterised	ESO:0000016
+PHI:I1261	PHI:2951	mutation: characterised; complementation	ESO:0000016
+PHI:I1261	PHI:2951	mutation: characterised; complementation	ESO:0000007
+PHI:I1262	PHI:2953	mutation: characterised; complementation	ESO:0000016
+PHI:I1262	PHI:2953	mutation: characterised; complementation	ESO:0000007
+PHI:I1263	PHI:2953	mutation: characterised; complementation	ESO:0000016
+PHI:I1263	PHI:2953	mutation: characterised; complementation	ESO:0000007
+PHI:I1264	PHI:2954	gene deletion; complementation	ESO:0000002
+PHI:I1264	PHI:2954	gene deletion; complementation	ESO:0000007
+PHI:I1265	PHI:2958	gene deletion	ESO:0000002
+PHI:I1266	PHI:2959	gene deletion	ESO:0000002
+PHI:I1267	PHI:2961	gene deletion	ESO:0000002
+PHI:I1268	PHI:2962	gene deletion	ESO:0000002
+PHI:I1269	PHI:2963	mutation	ESO:0000019
+PHI:I1270	PHI:2964	mutation	ESO:0000019
+PHI:I1271	PHI:2965	mutation	ESO:0000019
+PHI:I1272	PHI:2966	mutation	ESO:0000019
+PHI:I1273	PHI:2967	mutation	ESO:0000019
+PHI:I1274	PHI:2965	mutation	ESO:0000019
+PHI:I1275	PHI:2967	mutation	ESO:0000019
+PHI:I1276	PHI:2965	mutation	ESO:0000019
+PHI:I1277	PHI:2965	mutation	ESO:0000019
+PHI:I1278	PHI:2968	complementation	ESO:0000007
+PHI:I1279	PHI:2969	gene disruption; complementation	ESO:0000001
+PHI:I1279	PHI:2969	gene disruption; complementation	ESO:0000007
+PHI:I1280	PHI:2970	gene disruption; complementation	ESO:0000001
+PHI:I1280	PHI:2970	gene disruption; complementation	ESO:0000007
+PHI:I1281	PHI:2971	gene deletion; complementation	ESO:0000002
+PHI:I1281	PHI:2971	gene deletion; complementation	ESO:0000007
+PHI:I1282	PHI:2971	gene deletion; complementation	ESO:0000002
+PHI:I1282	PHI:2971	gene deletion; complementation	ESO:0000007
+PHI:I1283	PHI:2972	gene deletion	ESO:0000002
+PHI:I1284	PHI:2973	mutation: characterised	ESO:0000016
+PHI:I1285	PHI:2974	mutation	ESO:0000019
+PHI:I1286	PHI:2974	mutation	ESO:0000019
+PHI:I1287	PHI:2975	mutation	ESO:0000019
+PHI:I1288	PHI:2975	mutation	ESO:0000019
+PHI:I1289	PHI:2976	altered gene expression / gene regulation: silencing	ESO:0000013
+PHI:I1290	PHI:2977	mutation	ESO:0000019
+PHI:I1291	PHI:2978	altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I1292	PHI:2978	gene deletion	ESO:0000002
+PHI:I1293	PHI:2979	mutation	ESO:0000019
+PHI:I1294	PHI:2980	mutation	ESO:0000019
+PHI:I1295	PHI:2981	gene deletion	ESO:0000002
+PHI:I1296	PHI:2982	gene deletion	ESO:0000002
+PHI:I1297	PHI:2983	mutation	ESO:0000019
+PHI:I1298	PHI:2986	mutation	ESO:0000019
+PHI:I1299	PHI:2987	complementation	ESO:0000007
+PHI:I1300	PHI:2988	complementation	ESO:0000007
+PHI:I1301	PHI:2989	mutation	ESO:0000019
+PHI:I1302	PHI:2990	mutation	ESO:0000019
+PHI:I1303	PHI:2991	mutation	ESO:0000019
+PHI:I1304	PHI:2992	mutation	ESO:0000019
+PHI:I1305	PHI:2994	mutation	ESO:0000019
+PHI:I1306	PHI:2995	mutation	ESO:0000019
+PHI:I1307	PHI:2996	mutation	ESO:0000019
+PHI:I1308	PHI:2997	gene deletion	ESO:0000002
+PHI:I1309	PHI:2998	gene deletion	ESO:0000002
+PHI:I1310	PHI:2999	gene deletion	ESO:0000002
+PHI:I1311	PHI:3000	gene deletion	ESO:0000002
+PHI:I1312	PHI:3004	gene deletion	ESO:0000002
+PHI:I1313	PHI:3005	gene deletion	ESO:0000002
+PHI:I1314	PHI:3006	mutation	ESO:0000019
+PHI:I1315	PHI:3007	mutation	ESO:0000019
+PHI:I1316	PHI:3008	mutation	ESO:0000019
+PHI:I1317	PHI:3009	mutation	ESO:0000019
+PHI:I1318	PHI:3010	mutation	ESO:0000019
+PHI:I1319	PHI:3011	mutation	ESO:0000019
+PHI:I1320	PHI:3012	mutation	ESO:0000019
+PHI:I1321	PHI:2844	gene disruption	ESO:0000001
+PHI:I1322	PHI:2849	gene deletion	ESO:0000002
+PHI:I1323	PHI:2849	gene deletion	ESO:0000002
+PHI:I1324	PHI:2849	gene deletion	ESO:0000002
+PHI:I1325	PHI:2849	gene deletion	ESO:0000002
+PHI:I1326	PHI:2868	gene deletion	ESO:0000002
+PHI:I1327	PHI:2869	gene deletion	ESO:0000002
+PHI:I1328	PHI:2870	gene deletion	ESO:0000002
+PHI:I1329	PHI:2871	gene deletion	ESO:0000002
+PHI:I1330	PHI:2868	gene deletion	ESO:0000002
+PHI:I1331	PHI:2869	gene deletion	ESO:0000002
+PHI:I1332	PHI:2870	gene deletion	ESO:0000002
+PHI:I1333	PHI:2868	gene deletion	ESO:0000002
+PHI:I1334	PHI:2870	gene deletion	ESO:0000002
+PHI:I1335	PHI:2871	gene deletion	ESO:0000002
+PHI:I1336	PHI:2869	gene deletion	ESO:0000002
+PHI:I1337	PHI:2870	gene deletion	ESO:0000002
+PHI:I1338	PHI:2871	gene deletion	ESO:0000002
+PHI:I1339	PHI:2868	gene deletion	ESO:0000002
+PHI:I1340	PHI:2869	gene deletion	ESO:0000002
+PHI:I1341	PHI:2870	gene deletion	ESO:0000002
+PHI:I1342	PHI:2871	gene deletion	ESO:0000002
+PHI:I1343	PHI:2803	gene deletion	ESO:0000002
+PHI:I1344	PHI:2804	gene deletion	ESO:0000002
