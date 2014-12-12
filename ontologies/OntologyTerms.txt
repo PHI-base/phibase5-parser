@@ -1,7 +1,0 @@
-GO - Gene Ontology
-NCBO - National Center for Biomedical Ontology
-OBO - Open Biomedical Ontologies
-OBO Flat File Format
-OWL - Ontology Web Language (Web Ontology Language)
-SO - Sequence Ontology
-

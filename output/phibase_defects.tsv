@@ -1,9 +1,9 @@
-PHI:I11	PHI:448	Penetration	Yes
 PHI:I11	PHI:448	Pre-penetration	Yes
-PHI:I12	PHI:487	Sexual Spores	Yes
+PHI:I11	PHI:448	Penetration	Yes
 PHI:I12	PHI:487	Vegetative Spores	No
-PHI:I15	PHI:596	Pre-penetration	Yes
+PHI:I12	PHI:487	Sexual Spores	Yes
 PHI:I15	PHI:596	Penetration	Yes
+PHI:I15	PHI:596	Pre-penetration	Yes
 PHI:I36	PHI:768	Vegetative Spores	Defective
 PHI:I36	PHI:768	Pre-penetration	Yes
 PHI:I49	PHI:907	Penetration	Yes
@@ -37,19 +37,19 @@ PHI:I96	PHI:958	Sexual Spores	Defective
 PHI:I97	PHI:959	Sexual Spores	Defective
 PHI:I111	PHI:1017	Vegetative Spores	yes
 PHI:I111	PHI:1017	Pre-penetration	yes
-PHI:I115	PHI:1078	Spore Germination	Aberrant
 PHI:I115	PHI:1078	Sexual Spores	Reduced
+PHI:I115	PHI:1078	Spore Germination	Aberrant
 PHI:I120	PHI:1086	In Vitro Growth	Unaffected
 PHI:I120	PHI:1086	Sexual Spores	Unaffected
 PHI:I121	PHI:1087	In Vitro Growth	Unaffected
 PHI:I122	PHI:1088	In Vitro Growth	Unaffected
 PHI:I123	PHI:1089	Sexual Spores	Unaffected
 PHI:I123	PHI:1089	In Vitro Growth	Unaffected
-PHI:I124	PHI:1090	Sexual Spores	Unaffected
 PHI:I124	PHI:1090	In Vitro Growth	Reduced
+PHI:I124	PHI:1090	Sexual Spores	Unaffected
 PHI:I125	PHI:1091	In Vitro Growth	Unaffected
-PHI:I126	PHI:1092	In Vitro Growth	Unaffected
 PHI:I126	PHI:1092	Sexual Spores	Unaffected
+PHI:I126	PHI:1092	In Vitro Growth	Unaffected
 PHI:I127	PHI:1093	In Vitro Growth	Unaffected
 PHI:I127	PHI:1093	Sexual Spores	Unaffected
 PHI:I128	PHI:1094	In Vitro Growth	Unaffected
@@ -58,598 +58,598 @@ PHI:I130	PHI:1096	In Vitro Growth	Unaffected
 PHI:I131	PHI:1097	In Vitro Growth	Unaffected
 PHI:I132	PHI:1098	Sexual Spores	Unaffected
 PHI:I132	PHI:1098	In Vitro Growth	Unaffected
+PHI:I142	PHI:1168	In Vitro Growth	reduced
 PHI:I142	PHI:1168	Vegetative Spores	reduced
 PHI:I142	PHI:1168	Sexual Spores	defective
-PHI:I142	PHI:1168	In Vitro Growth	reduced
 PHI:I143	PHI:1169	In Vitro Growth	wild type
 PHI:I143	PHI:1169	Vegetative Spores	reduced
-PHI:I144	PHI:1170	Vegetative Spores	wild type
 PHI:I144	PHI:1170	In Vitro Growth	wild type
-PHI:I145	PHI:1175	Sexual Spores	defective
+PHI:I144	PHI:1170	Vegetative Spores	wild type
 PHI:I145	PHI:1175	In Vitro Growth	reduced
-PHI:I145	PHI:1175	Vegetative Spores	reduced
 PHI:I145	PHI:1175	Spore Germination	wild type
-PHI:I146	PHI:1176	Vegetative Spores	reduced
-PHI:I146	PHI:1176	Spore Germination	wild type
+PHI:I145	PHI:1175	Sexual Spores	defective
+PHI:I145	PHI:1175	Vegetative Spores	reduced
 PHI:I146	PHI:1176	In Vitro Growth	reduced
 PHI:I146	PHI:1176	Sexual Spores	defective
+PHI:I146	PHI:1176	Spore Germination	wild type
+PHI:I146	PHI:1176	Vegetative Spores	reduced
+PHI:I147	PHI:1177	Sexual Spores	aberrant
 PHI:I147	PHI:1177	Vegetative Spores	reduced
 PHI:I147	PHI:1177	In Vitro Growth	reduced
-PHI:I147	PHI:1177	Sexual Spores	aberrant
-PHI:I148	PHI:1178	Sexual Spores	aberrant
-PHI:I148	PHI:1178	In Vitro Growth	reduced
 PHI:I148	PHI:1178	Vegetative Spores	increased
 PHI:I148	PHI:1178	Spore Germination	wild type
-PHI:I149	PHI:1179	Vegetative Spores	increased
-PHI:I149	PHI:1179	Spore Germination	wild type
+PHI:I148	PHI:1178	Sexual Spores	aberrant
+PHI:I148	PHI:1178	In Vitro Growth	reduced
 PHI:I149	PHI:1179	In Vitro Growth	reduced
+PHI:I149	PHI:1179	Spore Germination	wild type
 PHI:I149	PHI:1179	Sexual Spores	defective
-PHI:I150	PHI:1180	Spore Germination	wild type
+PHI:I149	PHI:1179	Vegetative Spores	increased
 PHI:I150	PHI:1180	Vegetative Spores	reduced
-PHI:I150	PHI:1180	In Vitro Growth	reduced
+PHI:I150	PHI:1180	Spore Germination	wild type
 PHI:I150	PHI:1180	Sexual Spores	wild type
+PHI:I150	PHI:1180	In Vitro Growth	reduced
+PHI:I151	PHI:1181	In Vitro Growth	reduced
 PHI:I151	PHI:1181	Vegetative Spores	reduced
 PHI:I151	PHI:1181	Spore Germination	wild type
 PHI:I151	PHI:1181	Sexual Spores	defective
-PHI:I151	PHI:1181	In Vitro Growth	reduced
-PHI:I152	PHI:1182	Sexual Spores	wild type
 PHI:I152	PHI:1182	In Vitro Growth	reduced
-PHI:I152	PHI:1182	Spore Germination	wild type
 PHI:I152	PHI:1182	Vegetative Spores	reduced
-PHI:I153	PHI:1183	In Vitro Growth	reduced
-PHI:I153	PHI:1183	Sexual Spores	aberrant
+PHI:I152	PHI:1182	Spore Germination	wild type
+PHI:I152	PHI:1182	Sexual Spores	wild type
 PHI:I153	PHI:1183	Vegetative Spores	reduced
+PHI:I153	PHI:1183	Sexual Spores	aberrant
 PHI:I153	PHI:1183	Spore Germination	wild type
-PHI:I154	PHI:1184	Vegetative Spores	reduced
-PHI:I154	PHI:1184	Spore Germination	wild type
+PHI:I153	PHI:1183	In Vitro Growth	reduced
 PHI:I154	PHI:1184	Sexual Spores	defective
+PHI:I154	PHI:1184	Spore Germination	wild type
+PHI:I154	PHI:1184	Vegetative Spores	reduced
 PHI:I154	PHI:1184	In Vitro Growth	reduced
+PHI:I155	PHI:1185	Vegetative Spores	reduced
+PHI:I155	PHI:1185	Spore Germination	aberrant
 PHI:I155	PHI:1185	Sexual Spores	defective
 PHI:I155	PHI:1185	In Vitro Growth	reduced
-PHI:I155	PHI:1185	Spore Germination	aberrant
-PHI:I155	PHI:1185	Vegetative Spores	reduced
-PHI:I156	PHI:1186	Sexual Spores	defective
-PHI:I156	PHI:1186	In Vitro Growth	reduced
-PHI:I156	PHI:1186	Spore Germination	wild type
 PHI:I156	PHI:1186	Vegetative Spores	reduced
-PHI:I157	PHI:1187	Vegetative Spores	reduced
-PHI:I157	PHI:1187	Spore Germination	wild type
-PHI:I157	PHI:1187	Sexual Spores	defective
+PHI:I156	PHI:1186	Sexual Spores	defective
+PHI:I156	PHI:1186	Spore Germination	wild type
+PHI:I156	PHI:1186	In Vitro Growth	reduced
 PHI:I157	PHI:1187	In Vitro Growth	reduced
+PHI:I157	PHI:1187	Sexual Spores	defective
+PHI:I157	PHI:1187	Spore Germination	wild type
+PHI:I157	PHI:1187	Vegetative Spores	reduced
+PHI:I158	PHI:1188	Sexual Spores	aberrant
 PHI:I158	PHI:1188	Spore Germination	aberrant
 PHI:I158	PHI:1188	Vegetative Spores	reduced
-PHI:I158	PHI:1188	Sexual Spores	aberrant
 PHI:I158	PHI:1188	In Vitro Growth	reduced
 PHI:I159	PHI:1189	Sexual Spores	defective
-PHI:I159	PHI:1189	In Vitro Growth	reduced
 PHI:I159	PHI:1189	Spore Germination	wild type
 PHI:I159	PHI:1189	Vegetative Spores	reduced
-PHI:I160	PHI:1190	Vegetative Spores	reduced
+PHI:I159	PHI:1189	In Vitro Growth	reduced
 PHI:I160	PHI:1190	Spore Germination	wild type
 PHI:I160	PHI:1190	Sexual Spores	defective
+PHI:I160	PHI:1190	Vegetative Spores	reduced
 PHI:I160	PHI:1190	In Vitro Growth	reduced
-PHI:I161	PHI:1192	Sexual Spores	defective
 PHI:I161	PHI:1192	In Vitro Growth	reduced
 PHI:I161	PHI:1192	Vegetative Spores	reduced
 PHI:I161	PHI:1192	Spore Germination	wild type
-PHI:I162	PHI:1193	Spore Germination	wild type
-PHI:I162	PHI:1193	Vegetative Spores	reduced
-PHI:I162	PHI:1193	Sexual Spores	defective
+PHI:I161	PHI:1192	Sexual Spores	defective
 PHI:I162	PHI:1193	In Vitro Growth	reduced
-PHI:I163	PHI:1194	In Vitro Growth	reduced
-PHI:I163	PHI:1194	Sexual Spores	defective
+PHI:I162	PHI:1193	Spore Germination	wild type
+PHI:I162	PHI:1193	Sexual Spores	defective
+PHI:I162	PHI:1193	Vegetative Spores	reduced
 PHI:I163	PHI:1194	Vegetative Spores	reduced
 PHI:I163	PHI:1194	Spore Germination	wild type
+PHI:I163	PHI:1194	Sexual Spores	defective
+PHI:I163	PHI:1194	In Vitro Growth	reduced
 PHI:I164	PHI:1195	Sexual Spores	defective
-PHI:I164	PHI:1195	In Vitro Growth	reduced
-PHI:I164	PHI:1195	Vegetative Spores	reduced
 PHI:I164	PHI:1195	Spore Germination	wild type
-PHI:I165	PHI:1196	In Vitro Growth	reduced
+PHI:I164	PHI:1195	Vegetative Spores	reduced
+PHI:I164	PHI:1195	In Vitro Growth	reduced
 PHI:I165	PHI:1196	Sexual Spores	defective
 PHI:I165	PHI:1196	Spore Germination	wild type
 PHI:I165	PHI:1196	Vegetative Spores	reduced
+PHI:I165	PHI:1196	In Vitro Growth	reduced
 PHI:I166	PHI:1197	Sexual Spores	aberrant
-PHI:I166	PHI:1197	In Vitro Growth	reduced
-PHI:I166	PHI:1197	Vegetative Spores	reduced
 PHI:I166	PHI:1197	Spore Germination	aberrant
-PHI:I167	PHI:1198	Sexual Spores	defective
-PHI:I167	PHI:1198	In Vitro Growth	reduced
+PHI:I166	PHI:1197	Vegetative Spores	reduced
+PHI:I166	PHI:1197	In Vitro Growth	reduced
 PHI:I167	PHI:1198	Vegetative Spores	reduced
+PHI:I167	PHI:1198	Sexual Spores	defective
 PHI:I167	PHI:1198	Spore Germination	wild type
-PHI:I168	PHI:1199	Spore Germination	aberrant
-PHI:I168	PHI:1199	Vegetative Spores	reduced
+PHI:I167	PHI:1198	In Vitro Growth	reduced
 PHI:I168	PHI:1199	In Vitro Growth	reduced
+PHI:I168	PHI:1199	Spore Germination	aberrant
 PHI:I168	PHI:1199	Sexual Spores	aberrant
-PHI:I169	PHI:1200	Spore Germination	aberrant
-PHI:I169	PHI:1200	Vegetative Spores	reduced
+PHI:I168	PHI:1199	Vegetative Spores	reduced
 PHI:I169	PHI:1200	In Vitro Growth	reduced
+PHI:I169	PHI:1200	Vegetative Spores	reduced
+PHI:I169	PHI:1200	Spore Germination	aberrant
 PHI:I169	PHI:1200	Sexual Spores	defective
-PHI:I170	PHI:1201	In Vitro Growth	reduced
+PHI:I170	PHI:1201	Vegetative Spores	reduced
 PHI:I170	PHI:1201	Sexual Spores	defective
 PHI:I170	PHI:1201	Spore Germination	aberrant
-PHI:I170	PHI:1201	Vegetative Spores	reduced
-PHI:I171	PHI:1202	In Vitro Growth	reduced
-PHI:I171	PHI:1202	Sexual Spores	wild type
+PHI:I170	PHI:1201	In Vitro Growth	reduced
 PHI:I171	PHI:1202	Vegetative Spores	reduced
 PHI:I171	PHI:1202	Spore Germination	wild type
-PHI:I172	PHI:1203	Spore Germination	wild type
+PHI:I171	PHI:1202	Sexual Spores	wild type
+PHI:I171	PHI:1202	In Vitro Growth	reduced
 PHI:I172	PHI:1203	Vegetative Spores	defective
 PHI:I172	PHI:1203	Sexual Spores	defective
+PHI:I172	PHI:1203	Spore Germination	wild type
 PHI:I172	PHI:1203	In Vitro Growth	reduced
 PHI:I173	PHI:1204	Vegetative Spores	defective
+PHI:I173	PHI:1204	Sexual Spores	defective
 PHI:I173	PHI:1204	Spore Germination	wild type
 PHI:I173	PHI:1204	In Vitro Growth	reduced
-PHI:I173	PHI:1204	Sexual Spores	defective
+PHI:I174	PHI:1205	In Vitro Growth	reduced
 PHI:I174	PHI:1205	Vegetative Spores	defective
 PHI:I174	PHI:1205	Spore Germination	wild type
 PHI:I174	PHI:1205	Sexual Spores	defective
-PHI:I174	PHI:1205	In Vitro Growth	reduced
-PHI:I175	PHI:1206	Sexual Spores	defective
-PHI:I175	PHI:1206	In Vitro Growth	reduced
 PHI:I175	PHI:1206	Vegetative Spores	reduced
 PHI:I175	PHI:1206	Spore Germination	aberrant
-PHI:I176	PHI:1207	Spore Germination	wild type
-PHI:I176	PHI:1207	Vegetative Spores	reduced
+PHI:I175	PHI:1206	Sexual Spores	defective
+PHI:I175	PHI:1206	In Vitro Growth	reduced
 PHI:I176	PHI:1207	In Vitro Growth	reduced
+PHI:I176	PHI:1207	Vegetative Spores	reduced
+PHI:I176	PHI:1207	Spore Germination	wild type
 PHI:I176	PHI:1207	Sexual Spores	aberrant
-PHI:I177	PHI:1208	Vegetative Spores	reduced
 PHI:I177	PHI:1208	Spore Germination	wild type
-PHI:I177	PHI:1208	In Vitro Growth	reduced
 PHI:I177	PHI:1208	Sexual Spores	wild type
-PHI:I178	PHI:1209	In Vitro Growth	reduced
-PHI:I178	PHI:1209	Sexual Spores	wild type
+PHI:I177	PHI:1208	Vegetative Spores	reduced
+PHI:I177	PHI:1208	In Vitro Growth	reduced
 PHI:I178	PHI:1209	Vegetative Spores	increased
+PHI:I178	PHI:1209	Sexual Spores	wild type
 PHI:I178	PHI:1209	Spore Germination	wild type
-PHI:I179	PHI:1210	In Vitro Growth	reduced
-PHI:I179	PHI:1210	Sexual Spores	wild type
+PHI:I178	PHI:1209	In Vitro Growth	reduced
 PHI:I179	PHI:1210	Spore Germination	wild type
+PHI:I179	PHI:1210	Sexual Spores	wild type
 PHI:I179	PHI:1210	Vegetative Spores	reduced
+PHI:I179	PHI:1210	In Vitro Growth	reduced
 PHI:I180	PHI:1211	Sexual Spores	defective
-PHI:I180	PHI:1211	In Vitro Growth	reduced
 PHI:I180	PHI:1211	Spore Germination	wild type
 PHI:I180	PHI:1211	Vegetative Spores	reduced
-PHI:I181	PHI:1212	Vegetative Spores	reduced
+PHI:I180	PHI:1211	In Vitro Growth	reduced
 PHI:I181	PHI:1212	In Vitro Growth	reduced
 PHI:I181	PHI:1212	Sexual Spores	wild type
+PHI:I181	PHI:1212	Vegetative Spores	reduced
 PHI:I182	PHI:1214	Vegetative Spores	reduced
 PHI:I182	PHI:1214	In Vitro Growth	increased
-PHI:I183	PHI:1215	Vegetative Spores	reduced
-PHI:I183	PHI:1215	Spore Germination	wild type
 PHI:I183	PHI:1215	In Vitro Growth	increased
 PHI:I183	PHI:1215	Sexual Spores	wild type
-PHI:I184	PHI:1216	In Vitro Growth	reduced
+PHI:I183	PHI:1215	Spore Germination	wild type
+PHI:I183	PHI:1215	Vegetative Spores	reduced
 PHI:I184	PHI:1216	Sexual Spores	aberrant
 PHI:I184	PHI:1216	Spore Germination	wild type
 PHI:I184	PHI:1216	Vegetative Spores	reduced
-PHI:I185	PHI:1218	Sexual Spores	wild type
+PHI:I184	PHI:1216	In Vitro Growth	reduced
 PHI:I185	PHI:1218	In Vitro Growth	wild type
 PHI:I185	PHI:1218	Spore Germination	wild type
-PHI:I186	PHI:1219	Sexual Spores	wild type
+PHI:I185	PHI:1218	Sexual Spores	wild type
 PHI:I186	PHI:1219	In Vitro Growth	wild type
 PHI:I186	PHI:1219	Spore Germination	wild type
+PHI:I186	PHI:1219	Sexual Spores	wild type
+PHI:I187	PHI:1220	Spore Germination	wild type
 PHI:I187	PHI:1220	Sexual Spores	wild type
 PHI:I187	PHI:1220	In Vitro Growth	wild type
-PHI:I187	PHI:1220	Spore Germination	wild type
-PHI:I188	PHI:1221	Spore Germination	wild type
 PHI:I188	PHI:1221	In Vitro Growth	wild type
+PHI:I188	PHI:1221	Spore Germination	wild type
 PHI:I188	PHI:1221	Sexual Spores	wild type
+PHI:I189	PHI:1222	Spore Germination	wild type
 PHI:I189	PHI:1222	Sexual Spores	wild type
 PHI:I189	PHI:1222	In Vitro Growth	wild type
-PHI:I189	PHI:1222	Spore Germination	wild type
 PHI:I190	PHI:1223	Spore Germination	wild type
 PHI:I190	PHI:1223	Sexual Spores	wild type
 PHI:I190	PHI:1223	In Vitro Growth	wild type
-PHI:I191	PHI:1224	Spore Germination	wild type
 PHI:I191	PHI:1224	In Vitro Growth	wild type
 PHI:I191	PHI:1224	Sexual Spores	wild type
+PHI:I191	PHI:1224	Spore Germination	wild type
+PHI:I192	PHI:1225	Sexual Spores	wild type
 PHI:I192	PHI:1225	Spore Germination	wild type
 PHI:I192	PHI:1225	In Vitro Growth	wild type
-PHI:I192	PHI:1225	Sexual Spores	wild type
-PHI:I193	PHI:1226	Spore Germination	wild type
 PHI:I193	PHI:1226	In Vitro Growth	wild type
 PHI:I193	PHI:1226	Sexual Spores	wild type
+PHI:I193	PHI:1226	Spore Germination	wild type
 PHI:I194	PHI:1227	Sexual Spores	wild type
-PHI:I194	PHI:1227	In Vitro Growth	wild type
 PHI:I194	PHI:1227	Spore Germination	wild type
-PHI:I195	PHI:1228	Spore Germination	wild type
+PHI:I194	PHI:1227	In Vitro Growth	wild type
 PHI:I195	PHI:1228	In Vitro Growth	wild type
+PHI:I195	PHI:1228	Spore Germination	wild type
 PHI:I195	PHI:1228	Sexual Spores	wild type
+PHI:I196	PHI:1229	Spore Germination	wild type
 PHI:I196	PHI:1229	Sexual Spores	wild type
 PHI:I196	PHI:1229	In Vitro Growth	wild type
-PHI:I196	PHI:1229	Spore Germination	wild type
-PHI:I197	PHI:1231	Spore Germination	wild type
 PHI:I197	PHI:1231	In Vitro Growth	wild type
+PHI:I197	PHI:1231	Spore Germination	wild type
 PHI:I197	PHI:1231	Sexual Spores	wild type
-PHI:I198	PHI:1232	In Vitro Growth	wild type
-PHI:I198	PHI:1232	Sexual Spores	wild type
 PHI:I198	PHI:1232	Spore Germination	wild type
+PHI:I198	PHI:1232	Sexual Spores	wild type
+PHI:I198	PHI:1232	In Vitro Growth	wild type
 PHI:I199	PHI:1233	In Vitro Growth	wild type
-PHI:I199	PHI:1233	Sexual Spores	wild type
 PHI:I199	PHI:1233	Spore Germination	wild type
+PHI:I199	PHI:1233	Sexual Spores	wild type
+PHI:I200	PHI:1234	Sexual Spores	wild type
 PHI:I200	PHI:1234	Spore Germination	wild type
 PHI:I200	PHI:1234	In Vitro Growth	wild type
-PHI:I200	PHI:1234	Sexual Spores	wild type
 PHI:I201	PHI:1235	Spore Germination	wild type
-PHI:I201	PHI:1235	In Vitro Growth	wild type
 PHI:I201	PHI:1235	Sexual Spores	wild type
+PHI:I201	PHI:1235	In Vitro Growth	wild type
 PHI:I202	PHI:1236	Sexual Spores	wild type
-PHI:I202	PHI:1236	In Vitro Growth	wild type
 PHI:I202	PHI:1236	Spore Germination	wild type
-PHI:I203	PHI:1237	Spore Germination	wild type
+PHI:I202	PHI:1236	In Vitro Growth	wild type
 PHI:I203	PHI:1237	In Vitro Growth	wild type
 PHI:I203	PHI:1237	Sexual Spores	wild type
+PHI:I203	PHI:1237	Spore Germination	wild type
 PHI:I204	PHI:1238	In Vitro Growth	wild type
 PHI:I204	PHI:1238	Sexual Spores	wild type
 PHI:I204	PHI:1238	Spore Germination	wild type
-PHI:I205	PHI:1239	Spore Germination	wild type
 PHI:I205	PHI:1239	In Vitro Growth	wild type
 PHI:I205	PHI:1239	Sexual Spores	wild type
-PHI:I206	PHI:1240	Spore Germination	wild type
-PHI:I206	PHI:1240	Sexual Spores	wild type
+PHI:I205	PHI:1239	Spore Germination	wild type
 PHI:I206	PHI:1240	In Vitro Growth	wild type
-PHI:I207	PHI:1241	In Vitro Growth	wild type
+PHI:I206	PHI:1240	Sexual Spores	wild type
+PHI:I206	PHI:1240	Spore Germination	wild type
 PHI:I207	PHI:1241	Sexual Spores	wild type
 PHI:I207	PHI:1241	Spore Germination	wild type
+PHI:I207	PHI:1241	In Vitro Growth	wild type
+PHI:I208	PHI:1242	Sexual Spores	wild type
 PHI:I208	PHI:1242	Spore Germination	wild type
 PHI:I208	PHI:1242	In Vitro Growth	wild type
-PHI:I208	PHI:1242	Sexual Spores	wild type
+PHI:I209	PHI:1243	Sexual Spores	aberrant
 PHI:I209	PHI:1243	Spore Germination	wild type
 PHI:I209	PHI:1243	In Vitro Growth	wild type
-PHI:I209	PHI:1243	Sexual Spores	aberrant
-PHI:I210	PHI:1244	In Vitro Growth	wild type
 PHI:I210	PHI:1244	Sexual Spores	aberrant
 PHI:I210	PHI:1244	Spore Germination	wild type
-PHI:I211	PHI:1245	Sexual Spores	wild type
+PHI:I210	PHI:1244	In Vitro Growth	wild type
 PHI:I211	PHI:1245	In Vitro Growth	wild type
 PHI:I211	PHI:1245	Spore Germination	wild type
+PHI:I211	PHI:1245	Sexual Spores	wild type
+PHI:I212	PHI:1246	In Vitro Growth	wild type
 PHI:I212	PHI:1246	Spore Germination	wild type
 PHI:I212	PHI:1246	Sexual Spores	wild type
-PHI:I212	PHI:1246	In Vitro Growth	wild type
-PHI:I213	PHI:1247	Sexual Spores	wild type
 PHI:I213	PHI:1247	In Vitro Growth	wild type
+PHI:I213	PHI:1247	Sexual Spores	wild type
 PHI:I213	PHI:1247	Spore Germination	wild type
-PHI:I214	PHI:1248	Spore Germination	wild type
 PHI:I214	PHI:1248	Sexual Spores	wild type
+PHI:I214	PHI:1248	Spore Germination	wild type
 PHI:I214	PHI:1248	In Vitro Growth	wild type
-PHI:I215	PHI:1249	In Vitro Growth	wild type
-PHI:I215	PHI:1249	Sexual Spores	wild type
 PHI:I215	PHI:1249	Spore Germination	wild type
-PHI:I216	PHI:1250	Spore Germination	wild type
-PHI:I216	PHI:1250	Sexual Spores	wild type
+PHI:I215	PHI:1249	Sexual Spores	wild type
+PHI:I215	PHI:1249	In Vitro Growth	wild type
 PHI:I216	PHI:1250	In Vitro Growth	wild type
-PHI:I217	PHI:1251	Sexual Spores	wild type
+PHI:I216	PHI:1250	Sexual Spores	wild type
+PHI:I216	PHI:1250	Spore Germination	wild type
 PHI:I217	PHI:1251	In Vitro Growth	wild type
+PHI:I217	PHI:1251	Sexual Spores	wild type
 PHI:I217	PHI:1251	Spore Germination	wild type
 PHI:I218	PHI:1252	In Vitro Growth	wild type
 PHI:I218	PHI:1252	Sexual Spores	wild type
 PHI:I218	PHI:1252	Spore Germination	wild type
+PHI:I219	PHI:1253	Spore Germination	wild type
 PHI:I219	PHI:1253	Sexual Spores	defective
 PHI:I219	PHI:1253	In Vitro Growth	wild type
-PHI:I219	PHI:1253	Spore Germination	wild type
-PHI:I220	PHI:1254	Spore Germination	wild type
-PHI:I220	PHI:1254	Sexual Spores	wild type
 PHI:I220	PHI:1254	In Vitro Growth	wild type
+PHI:I220	PHI:1254	Sexual Spores	wild type
+PHI:I220	PHI:1254	Spore Germination	wild type
 PHI:I221	PHI:1255	Sexual Spores	wild type
-PHI:I221	PHI:1255	In Vitro Growth	wild type
 PHI:I221	PHI:1255	Spore Germination	wild type
+PHI:I221	PHI:1255	In Vitro Growth	wild type
 PHI:I222	PHI:1256	In Vitro Growth	wild type
 PHI:I222	PHI:1256	Sexual Spores	wild type
 PHI:I222	PHI:1256	Spore Germination	wild type
-PHI:I223	PHI:1257	Spore Germination	wild type
-PHI:I223	PHI:1257	Sexual Spores	wild type
 PHI:I223	PHI:1257	In Vitro Growth	wild type
-PHI:I224	PHI:1258	Sexual Spores	wild type
+PHI:I223	PHI:1257	Sexual Spores	wild type
+PHI:I223	PHI:1257	Spore Germination	wild type
 PHI:I224	PHI:1258	In Vitro Growth	wild type
+PHI:I224	PHI:1258	Sexual Spores	wild type
 PHI:I224	PHI:1258	Spore Germination	wild type
+PHI:I225	PHI:1259	Spore Germination	wild type
 PHI:I225	PHI:1259	Sexual Spores	wild type
 PHI:I225	PHI:1259	In Vitro Growth	wild type
-PHI:I225	PHI:1259	Spore Germination	wild type
+PHI:I226	PHI:1260	In Vitro Growth	wild type
 PHI:I226	PHI:1260	Spore Germination	wild type
 PHI:I226	PHI:1260	Sexual Spores	wild type
-PHI:I226	PHI:1260	In Vitro Growth	wild type
-PHI:I227	PHI:1261	Spore Germination	wild type
 PHI:I227	PHI:1261	Sexual Spores	wild type
+PHI:I227	PHI:1261	Spore Germination	wild type
 PHI:I227	PHI:1261	In Vitro Growth	wild type
-PHI:I228	PHI:1262	Spore Germination	wild type
 PHI:I228	PHI:1262	In Vitro Growth	wild type
 PHI:I228	PHI:1262	Sexual Spores	wild type
-PHI:I229	PHI:1263	Spore Germination	wild type
+PHI:I228	PHI:1262	Spore Germination	wild type
 PHI:I229	PHI:1263	In Vitro Growth	wild type
+PHI:I229	PHI:1263	Spore Germination	wild type
 PHI:I229	PHI:1263	Sexual Spores	wild type
+PHI:I230	PHI:1264	In Vitro Growth	wild type
 PHI:I230	PHI:1264	Spore Germination	wild type
 PHI:I230	PHI:1264	Sexual Spores	wild type
-PHI:I230	PHI:1264	In Vitro Growth	wild type
+PHI:I231	PHI:1265	In Vitro Growth	wild type
 PHI:I231	PHI:1265	Spore Germination	wild type
 PHI:I231	PHI:1265	Sexual Spores	wild type
-PHI:I231	PHI:1265	In Vitro Growth	wild type
-PHI:I232	PHI:1266	In Vitro Growth	wild type
 PHI:I232	PHI:1266	Sexual Spores	wild type
 PHI:I232	PHI:1266	Spore Germination	wild type
-PHI:I233	PHI:1267	In Vitro Growth	wild type
+PHI:I232	PHI:1266	In Vitro Growth	wild type
 PHI:I233	PHI:1267	Sexual Spores	wild type
 PHI:I233	PHI:1267	Spore Germination	wild type
+PHI:I233	PHI:1267	In Vitro Growth	wild type
 PHI:I234	PHI:1268	Spore Germination	wild type
-PHI:I234	PHI:1268	In Vitro Growth	wild type
 PHI:I234	PHI:1268	Sexual Spores	wild type
-PHI:I235	PHI:1269	Spore Germination	wild type
-PHI:I235	PHI:1269	Sexual Spores	wild type
+PHI:I234	PHI:1268	In Vitro Growth	wild type
 PHI:I235	PHI:1269	In Vitro Growth	wild type
-PHI:I236	PHI:1270	Spore Germination	wild type
-PHI:I236	PHI:1270	Sexual Spores	wild type
+PHI:I235	PHI:1269	Sexual Spores	wild type
+PHI:I235	PHI:1269	Spore Germination	wild type
 PHI:I236	PHI:1270	In Vitro Growth	wild type
+PHI:I236	PHI:1270	Sexual Spores	wild type
+PHI:I236	PHI:1270	Spore Germination	wild type
 PHI:I237	PHI:1271	Sexual Spores	wild type
-PHI:I237	PHI:1271	In Vitro Growth	wild type
 PHI:I237	PHI:1271	Spore Germination	wild type
+PHI:I237	PHI:1271	In Vitro Growth	wild type
 PHI:I238	PHI:1272	Sexual Spores	wild type
-PHI:I238	PHI:1272	In Vitro Growth	wild type
 PHI:I238	PHI:1272	Spore Germination	wild type
-PHI:I239	PHI:1273	Spore Germination	wild type
+PHI:I238	PHI:1272	In Vitro Growth	wild type
 PHI:I239	PHI:1273	Sexual Spores	aberrant
+PHI:I239	PHI:1273	Spore Germination	wild type
 PHI:I239	PHI:1273	In Vitro Growth	wild type
-PHI:I240	PHI:1274	Spore Germination	wild type
 PHI:I240	PHI:1274	In Vitro Growth	wild type
+PHI:I240	PHI:1274	Spore Germination	wild type
 PHI:I240	PHI:1274	Sexual Spores	wild type
 PHI:I241	PHI:1275	Spore Germination	wild type
-PHI:I241	PHI:1275	In Vitro Growth	wild type
 PHI:I241	PHI:1275	Sexual Spores	wild type
-PHI:I242	PHI:1276	Spore Germination	wild type
+PHI:I241	PHI:1275	In Vitro Growth	wild type
 PHI:I242	PHI:1276	In Vitro Growth	wild type
+PHI:I242	PHI:1276	Spore Germination	wild type
 PHI:I242	PHI:1276	Sexual Spores	wild type
 PHI:I243	PHI:1277	Sexual Spores	wild type
-PHI:I243	PHI:1277	In Vitro Growth	wild type
 PHI:I243	PHI:1277	Spore Germination	wild type
-PHI:I244	PHI:1278	In Vitro Growth	wild type
+PHI:I243	PHI:1277	In Vitro Growth	wild type
 PHI:I244	PHI:1278	Sexual Spores	wild type
 PHI:I244	PHI:1278	Spore Germination	wild type
+PHI:I244	PHI:1278	In Vitro Growth	wild type
+PHI:I245	PHI:1279	In Vitro Growth	wild type
 PHI:I245	PHI:1279	Spore Germination	wild type
 PHI:I245	PHI:1279	Sexual Spores	wild type
-PHI:I245	PHI:1279	In Vitro Growth	wild type
 PHI:I246	PHI:1280	Spore Germination	wild type
 PHI:I246	PHI:1280	Sexual Spores	wild type
 PHI:I246	PHI:1280	In Vitro Growth	wild type
-PHI:I247	PHI:1281	Sexual Spores	wild type
 PHI:I247	PHI:1281	In Vitro Growth	wild type
 PHI:I247	PHI:1281	Spore Germination	wild type
-PHI:I248	PHI:1282	Spore Germination	wild type
-PHI:I248	PHI:1282	Sexual Spores	wild type
+PHI:I247	PHI:1281	Sexual Spores	wild type
 PHI:I248	PHI:1282	In Vitro Growth	wild type
-PHI:I249	PHI:1283	Spore Germination	wild type
-PHI:I249	PHI:1283	Sexual Spores	wild type
+PHI:I248	PHI:1282	Sexual Spores	wild type
+PHI:I248	PHI:1282	Spore Germination	wild type
 PHI:I249	PHI:1283	In Vitro Growth	wild type
+PHI:I249	PHI:1283	Sexual Spores	wild type
+PHI:I249	PHI:1283	Spore Germination	wild type
 PHI:I250	PHI:1284	Spore Germination	wild type
-PHI:I250	PHI:1284	In Vitro Growth	wild type
 PHI:I250	PHI:1284	Sexual Spores	wild type
+PHI:I250	PHI:1284	In Vitro Growth	wild type
 PHI:I251	PHI:1285	In Vitro Growth	wild type
-PHI:I251	PHI:1285	Sexual Spores	wild type
 PHI:I251	PHI:1285	Spore Germination	wild type
+PHI:I251	PHI:1285	Sexual Spores	wild type
 PHI:I252	PHI:1286	Spore Germination	wild type
 PHI:I252	PHI:1286	Sexual Spores	wild type
 PHI:I252	PHI:1286	In Vitro Growth	wild type
 PHI:I253	PHI:1287	Spore Germination	wild type
-PHI:I253	PHI:1287	In Vitro Growth	wild type
 PHI:I253	PHI:1287	Sexual Spores	wild type
-PHI:I254	PHI:1288	Spore Germination	wild type
+PHI:I253	PHI:1287	In Vitro Growth	wild type
 PHI:I254	PHI:1288	In Vitro Growth	wild type
 PHI:I254	PHI:1288	Sexual Spores	wild type
+PHI:I254	PHI:1288	Spore Germination	wild type
 PHI:I255	PHI:1289	Spore Germination	wild type
 PHI:I255	PHI:1289	Sexual Spores	wild type
 PHI:I255	PHI:1289	In Vitro Growth	wild type
-PHI:I257	PHI:2025	Vegetative Spores	wild type
 PHI:I257	PHI:2025	In Vitro Growth	wild type
+PHI:I257	PHI:2025	Vegetative Spores	wild type
 PHI:I258	PHI:2027	Vegetative Spores	wild type
 PHI:I258	PHI:2027	In Vitro Growth	wild type
 PHI:I259	PHI:2028	In Vitro Growth	wild type
 PHI:I259	PHI:2028	Vegetative Spores	wild type
-PHI:I260	PHI:2029	In Vitro Growth	wild type
 PHI:I260	PHI:2029	Vegetative Spores	wild type
+PHI:I260	PHI:2029	In Vitro Growth	wild type
 PHI:I261	PHI:2030	Vegetative Spores	wild type
 PHI:I261	PHI:2030	In Vitro Growth	wild type
 PHI:I262	PHI:2030	Vegetative Spores	wild type
 PHI:I262	PHI:2030	In Vitro Growth	wild type
-PHI:I263	PHI:2032	In Vitro Growth	wild type
 PHI:I263	PHI:2032	Vegetative Spores	wild type
-PHI:I264	PHI:2033	Vegetative Spores	reduced
+PHI:I263	PHI:2032	In Vitro Growth	wild type
 PHI:I264	PHI:2033	Spore Germination	reduced
 PHI:I264	PHI:2033	Spore Germination	aberrant
-PHI:I264	PHI:2033	In Vitro Growth	reduced
-PHI:I264	PHI:2033	Pre-penetration	yes
 PHI:I264	PHI:2033	Penetration	yes
-PHI:I266	PHI:2063	Pre-penetration	yes
+PHI:I264	PHI:2033	Pre-penetration	yes
+PHI:I264	PHI:2033	Vegetative Spores	reduced
+PHI:I264	PHI:2033	In Vitro Growth	reduced
 PHI:I266	PHI:2063	In Vitro Growth	reduced
 PHI:I266	PHI:2063	In Vitro Growth	aberrant
 PHI:I266	PHI:2063	Spore Germination	wild type
+PHI:I266	PHI:2063	Pre-penetration	yes
 PHI:I266	PHI:2063	Vegetative Spores	reduced
-PHI:I267	PHI:2063	Pre-penetration	yes
 PHI:I267	PHI:2063	In Vitro Growth	reduced
 PHI:I267	PHI:2063	In Vitro Growth	aberrant
+PHI:I267	PHI:2063	Pre-penetration	yes
 PHI:I267	PHI:2063	Vegetative Spores	reduced
 PHI:I267	PHI:2063	Spore Germination	wild type
-PHI:I269	PHI:2065	Spore Germination	wild type
+PHI:I269	PHI:2065	In Vitro Growth	reduced
 PHI:I269	PHI:2065	Vegetative Spores	reduced
 PHI:I269	PHI:2065	Penetration	yes
-PHI:I269	PHI:2065	In Vitro Growth	reduced
+PHI:I269	PHI:2065	Spore Germination	wild type
 PHI:I269	PHI:2065	Sexual Spores	wild type
-PHI:I270	PHI:2065	In Vitro Growth	reduced
 PHI:I270	PHI:2065	Spore Germination	wild type
 PHI:I270	PHI:2065	Vegetative Spores	reduced
-PHI:I272	PHI:2066	In Vitro Growth	reduced
+PHI:I270	PHI:2065	In Vitro Growth	reduced
 PHI:I272	PHI:2066	Pre-penetration	yes
+PHI:I272	PHI:2066	In Vitro Growth	reduced
 PHI:I273	PHI:2117	In Vitro Growth	wild type
 PHI:I273	PHI:2117	Pre-penetration	yes
-PHI:I273	PHI:2117	Spore Germination	reduced
 PHI:I273	PHI:2117	Vegetative Spores	reduced
-PHI:I274	PHI:2117	Vegetative Spores	reduced
+PHI:I273	PHI:2117	Spore Germination	reduced
 PHI:I274	PHI:2117	Spore Germination	reduced
+PHI:I274	PHI:2117	Vegetative Spores	reduced
 PHI:I274	PHI:2117	Pre-penetration	yes
 PHI:I274	PHI:2117	In Vitro Growth	wild type
 PHI:I275	PHI:2123	In Vitro Growth	reduced
 PHI:I275	PHI:2123	In Vitro Growth	aberrant
 PHI:I275	PHI:2123	Penetration	yes
-PHI:I276	PHI:2124	Penetration	yes
 PHI:I276	PHI:2124	In Vitro Growth	reduced
 PHI:I276	PHI:2124	In Vitro Growth	aberrant
+PHI:I276	PHI:2124	Penetration	yes
 PHI:I277	PHI:2125	In Vitro Growth	reduced
 PHI:I277	PHI:2125	In Vitro Growth	aberrant
 PHI:I277	PHI:2125	Penetration	yes
 PHI:I278	PHI:2126	Penetration	no
 PHI:I279	PHI:2127	Vegetative Spores	reduced
-PHI:I299	PHI:2155	Pre-penetration	no
-PHI:I299	PHI:2155	Penetration	yes
 PHI:I299	PHI:2155	Spore Germination	wild type
+PHI:I299	PHI:2155	Penetration	yes
+PHI:I299	PHI:2155	Pre-penetration	no
 PHI:I299	PHI:2155	Vegetative Spores	reduced
-PHI:I300	PHI:2233	Mating Defect	yes
 PHI:I300	PHI:2233	In Vitro Growth	aberrant
 PHI:I300	PHI:2233	In Vitro Growth	reduced
+PHI:I300	PHI:2233	Mating Defect	yes
 PHI:I301	PHI:2233	Mating Defect	yes
 PHI:I302	PHI:2233	In Vitro Growth	aberrant
 PHI:I302	PHI:2233	In Vitro Growth	defective
 PHI:I307	PHI:2235	In Vitro Growth	wild type
-PHI:I307	PHI:2235	Penetration	no
 PHI:I307	PHI:2235	Pre-penetration	no
-PHI:I308	PHI:2236	In Vitro Growth	wild type
-PHI:I308	PHI:2236	Penetration	no
+PHI:I307	PHI:2235	Penetration	no
 PHI:I308	PHI:2236	Pre-penetration	no
-PHI:I309	PHI:2237	In Vitro Growth	aberrant
-PHI:I309	PHI:2237	In Vitro Growth	reduced
+PHI:I308	PHI:2236	Penetration	no
+PHI:I308	PHI:2236	In Vitro Growth	wild type
 PHI:I309	PHI:2237	Penetration	yes
 PHI:I309	PHI:2237	Pre-penetration	yes
+PHI:I309	PHI:2237	In Vitro Growth	aberrant
+PHI:I309	PHI:2237	In Vitro Growth	reduced
+PHI:I310	PHI:2237	Penetration	yes
+PHI:I310	PHI:2237	Pre-penetration	yes
 PHI:I310	PHI:2237	In Vitro Growth	aberrant
 PHI:I310	PHI:2237	In Vitro Growth	reduced
-PHI:I310	PHI:2237	Pre-penetration	yes
-PHI:I310	PHI:2237	Penetration	yes
-PHI:I311	PHI:2237	Penetration	yes
 PHI:I311	PHI:2237	In Vitro Growth	reduced
 PHI:I311	PHI:2237	Pre-penetration	yes
+PHI:I311	PHI:2237	Penetration	yes
 PHI:I312	PHI:2239	Mating Defect	no
 PHI:I312	PHI:2239	In Vitro Growth	aberrant
 PHI:I313	PHI:2239	In Vitro Growth	aberrant
 PHI:I313	PHI:2239	Mating Defect	no
 PHI:I314	PHI:2240	In Vitro Growth	wild type
-PHI:I315	PHI:2255	Vegetative Spores	wild type
 PHI:I315	PHI:2255	In Vitro Growth	wild type
+PHI:I315	PHI:2255	Vegetative Spores	wild type
 PHI:I316	PHI:2255	In Vitro Growth	wild type
 PHI:I316	PHI:2255	Vegetative Spores	wild type
 PHI:I317	PHI:2256	Vegetative Spores	wild type
 PHI:I317	PHI:2256	In Vitro Growth	wild type
 PHI:I318	PHI:2257	In Vitro Growth	reduced
-PHI:I319	PHI:2258	In Vitro Growth	reduced
-PHI:I319	PHI:2258	In Vitro Growth	aberrant
-PHI:I319	PHI:2258	Penetration	no
+PHI:I319	PHI:2258	Spore Germination	wild type
 PHI:I319	PHI:2258	Pre-penetration	yes
+PHI:I319	PHI:2258	Penetration	no
 PHI:I319	PHI:2258	Vegetative Spores	reduced
 PHI:I319	PHI:2258	Vegetative Spores	aberrant
-PHI:I319	PHI:2258	Spore Germination	wild type
-PHI:I320	PHI:2259	In Vitro Growth	reduced
-PHI:I320	PHI:2259	Pre-penetration	yes
-PHI:I320	PHI:2259	Penetration	yes
+PHI:I319	PHI:2258	In Vitro Growth	reduced
+PHI:I319	PHI:2258	In Vitro Growth	aberrant
 PHI:I320	PHI:2259	Vegetative Spores	wild type
-PHI:I321	PHI:2260	In Vitro Growth	wild type
+PHI:I320	PHI:2259	Penetration	yes
+PHI:I320	PHI:2259	Pre-penetration	yes
+PHI:I320	PHI:2259	In Vitro Growth	reduced
 PHI:I321	PHI:2260	Vegetative Spores	aberrant
-PHI:I323	PHI:2263	Vegetative Spores	reduced
-PHI:I323	PHI:2263	Mating Defect	yes
+PHI:I321	PHI:2260	In Vitro Growth	wild type
 PHI:I323	PHI:2263	Pre-penetration	no
+PHI:I323	PHI:2263	Vegetative Spores	reduced
+PHI:I323	PHI:2263	Sexual Spores	reduced
+PHI:I323	PHI:2263	Mating Defect	yes
 PHI:I323	PHI:2263	In Vitro Growth	reduced
 PHI:I323	PHI:2263	In Vitro Growth	aberrant
-PHI:I323	PHI:2263	Sexual Spores	reduced
-PHI:I324	PHI:2265	Vegetative Spores	reduced
-PHI:I324	PHI:2265	Spore Germination	reduced
 PHI:I324	PHI:2265	In Vitro Growth	reduced
+PHI:I324	PHI:2265	Spore Germination	reduced
 PHI:I324	PHI:2265	Pre-penetration	no
 PHI:I324	PHI:2265	Penetration	no
+PHI:I324	PHI:2265	Vegetative Spores	reduced
 PHI:I325	PHI:2271	Vegetative Spores	reduced
 PHI:I325	PHI:2271	In Vitro Growth	reduced
-PHI:I327	PHI:2274	Spore Germination	reduced
 PHI:I327	PHI:2274	In Vitro Growth	reduced
+PHI:I327	PHI:2274	Spore Germination	reduced
 PHI:I330	PHI:2278	In Vitro Growth	reduced
 PHI:I336	PHI:2282	In Vitro Growth	reduced
 PHI:I336	PHI:2282	Penetration	no
-PHI:I337	PHI:2283	In Vitro Growth	reduced
-PHI:I337	PHI:2283	Penetration	no
 PHI:I337	PHI:2283	Spore Germination	reduced
+PHI:I337	PHI:2283	Penetration	no
+PHI:I337	PHI:2283	In Vitro Growth	reduced
+PHI:I338	PHI:2284	Pre-penetration	yes
 PHI:I338	PHI:2284	Penetration	yes
 PHI:I338	PHI:2284	In Vitro Growth	reduced
-PHI:I338	PHI:2284	Pre-penetration	yes
-PHI:I339	PHI:2284	Penetration	yes
 PHI:I339	PHI:2284	In Vitro Growth	reduced
 PHI:I339	PHI:2284	Pre-penetration	yes
+PHI:I339	PHI:2284	Penetration	yes
+PHI:I340	PHI:2284	Pre-penetration	yes
 PHI:I340	PHI:2284	Penetration	yes
 PHI:I340	PHI:2284	In Vitro Growth	reduced
-PHI:I340	PHI:2284	Pre-penetration	yes
 PHI:I341	PHI:2290	In Vitro Growth	reduced
+PHI:I342	PHI:2294	Sexual Spores	reduced
 PHI:I342	PHI:2294	Vegetative Spores	reduced
 PHI:I342	PHI:2294	Mating Defect	yes
-PHI:I342	PHI:2294	Sexual Spores	reduced
+PHI:I343	PHI:2294	Sexual Spores	reduced
 PHI:I343	PHI:2294	Vegetative Spores	reduced
 PHI:I343	PHI:2294	Mating Defect	yes
-PHI:I343	PHI:2294	Sexual Spores	reduced
 PHI:I344	PHI:2295	Sexual Spores	reduced
 PHI:I344	PHI:2295	Sexual Spores	aberrant
 PHI:I344	PHI:2295	Mating Defect	yes
+PHI:I345	PHI:2295	Mating Defect	yes
 PHI:I345	PHI:2295	Sexual Spores	reduced
 PHI:I345	PHI:2295	Sexual Spores	aberrant
-PHI:I345	PHI:2295	Mating Defect	yes
+PHI:I346	PHI:2295	Mating Defect	yes
 PHI:I346	PHI:2295	Sexual Spores	reduced
 PHI:I346	PHI:2295	Sexual Spores	aberrant
-PHI:I346	PHI:2295	Mating Defect	yes
 PHI:I347	PHI:2295	Mating Defect	yes
 PHI:I347	PHI:2295	Sexual Spores	reduced
 PHI:I347	PHI:2295	Sexual Spores	aberrant
+PHI:I348	PHI:2298	Pre-penetration	yes
+PHI:I348	PHI:2298	Penetration	yes
+PHI:I348	PHI:2298	Vegetative Spores	aberrant
 PHI:I348	PHI:2298	Spore Germination	reduced
 PHI:I348	PHI:2298	Spore Germination	aberrant
-PHI:I348	PHI:2298	Vegetative Spores	aberrant
-PHI:I348	PHI:2298	Penetration	yes
 PHI:I348	PHI:2298	In Vitro Growth	reduced
-PHI:I348	PHI:2298	Pre-penetration	yes
+PHI:I350	PHI:2308	Penetration	yes
 PHI:I350	PHI:2308	Vegetative Spores	reduced
 PHI:I350	PHI:2308	In Vitro Growth	reduced
 PHI:I350	PHI:2308	In Vitro Growth	aberrant
-PHI:I350	PHI:2308	Penetration	yes
-PHI:I351	PHI:2308	Vegetative Spores	reduced
 PHI:I351	PHI:2308	In Vitro Growth	reduced
 PHI:I351	PHI:2308	In Vitro Growth	aberrant
 PHI:I351	PHI:2308	Penetration	yes
+PHI:I351	PHI:2308	Vegetative Spores	reduced
+PHI:I352	PHI:2308	Vegetative Spores	reduced
 PHI:I352	PHI:2308	Penetration	yes
 PHI:I352	PHI:2308	In Vitro Growth	reduced
 PHI:I352	PHI:2308	In Vitro Growth	aberrant
-PHI:I352	PHI:2308	Vegetative Spores	reduced
-PHI:I353	PHI:2309	Penetration	no
 PHI:I353	PHI:2309	Pre-penetration	no
+PHI:I353	PHI:2309	Penetration	no
 PHI:I354	PHI:2311	In Vitro Growth	aberrant
 PHI:I354	PHI:2311	Vegetative Spores	reduced
-PHI:I355	PHI:2312	Vegetative Spores	reduced
 PHI:I355	PHI:2312	In Vitro Growth	aberrant
+PHI:I355	PHI:2312	Vegetative Spores	reduced
 PHI:I356	PHI:2313	In Vitro Growth	aberrant
 PHI:I356	PHI:2313	Vegetative Spores	reduced
-PHI:I357	PHI:2315	Sexual Spores	aberrant
+PHI:I357	PHI:2315	Mating Defect	yes
 PHI:I357	PHI:2315	In Vitro Growth	reduced
 PHI:I357	PHI:2315	In Vitro Growth	aberrant
-PHI:I357	PHI:2315	Mating Defect	yes
 PHI:I357	PHI:2315	Vegetative Spores	wild type
-PHI:I358	PHI:2315	Mating Defect	yes
-PHI:I358	PHI:2315	Vegetative Spores	wild type
+PHI:I357	PHI:2315	Sexual Spores	aberrant
 PHI:I358	PHI:2315	Sexual Spores	aberrant
+PHI:I358	PHI:2315	Vegetative Spores	wild type
+PHI:I358	PHI:2315	Mating Defect	yes
 PHI:I358	PHI:2315	In Vitro Growth	reduced
 PHI:I358	PHI:2315	In Vitro Growth	aberrant
-PHI:I359	PHI:2315	Sexual Spores	aberrant
 PHI:I359	PHI:2315	Vegetative Spores	reduced
+PHI:I359	PHI:2315	Sexual Spores	aberrant
 PHI:I359	PHI:2315	Mating Defect	yes
-PHI:I360	PHI:2315	Sexual Spores	aberrant
 PHI:I360	PHI:2315	Mating Defect	yes
 PHI:I360	PHI:2315	Vegetative Spores	reduced
-PHI:I361	PHI:2316	In Vitro Growth	reduced
-PHI:I361	PHI:2316	In Vitro Growth	aberrant
+PHI:I360	PHI:2315	Sexual Spores	aberrant
 PHI:I361	PHI:2316	Sexual Spores	aberrant
 PHI:I361	PHI:2316	Mating Defect	yes
+PHI:I361	PHI:2316	In Vitro Growth	reduced
+PHI:I361	PHI:2316	In Vitro Growth	aberrant
+PHI:I362	PHI:2316	Mating Defect	yes
 PHI:I362	PHI:2316	In Vitro Growth	reduced
 PHI:I362	PHI:2316	In Vitro Growth	aberrant
 PHI:I362	PHI:2316	Sexual Spores	aberrant
-PHI:I362	PHI:2316	Mating Defect	yes
-PHI:I363	PHI:2316	Vegetative Spores	reduced
 PHI:I363	PHI:2316	Mating Defect	yes
+PHI:I363	PHI:2316	Vegetative Spores	reduced
 PHI:I363	PHI:2316	Sexual Spores	aberrant
-PHI:I364	PHI:2316	Mating Defect	yes
 PHI:I364	PHI:2316	Vegetative Spores	reduced
 PHI:I364	PHI:2316	Sexual Spores	aberrant
+PHI:I364	PHI:2316	Mating Defect	yes
 PHI:I365	PHI:2321	In Vitro Growth	reduced
 PHI:I366	PHI:2322	In Vitro Growth	reduced
 PHI:I367	PHI:2323	In Vitro Growth	wild type
@@ -658,180 +658,180 @@ PHI:I368	PHI:2329	In Vitro Growth	aberrant
 PHI:I369	PHI:2330	In Vitro Growth	wild type
 PHI:I369	PHI:2330	Penetration	no
 PHI:I369	PHI:2330	Vegetative Spores	wild type
-PHI:I376	PHI:2334	In Vitro Growth	wild type
 PHI:I376	PHI:2334	Spore Germination	wild type
+PHI:I376	PHI:2334	In Vitro Growth	wild type
 PHI:I377	PHI:2334	In Vitro Growth	wild type
 PHI:I377	PHI:2334	Spore Germination	reduced
 PHI:I378	PHI:2336	In Vitro Growth	reduced
 PHI:I379	PHI:2336	In Vitro Growth	reduced
 PHI:I380	PHI:2337	In Vitro Growth	aberrant
-PHI:I381	PHI:2338	Mating Defect	yes
 PHI:I381	PHI:2338	In Vitro Growth	aberrant
-PHI:I382	PHI:2339	In Vitro Growth	aberrant
+PHI:I381	PHI:2338	Mating Defect	yes
 PHI:I382	PHI:2339	Mating Defect	yes
-PHI:I386	PHI:2341	In Vitro Growth	wild type
+PHI:I382	PHI:2339	In Vitro Growth	aberrant
 PHI:I386	PHI:2341	Vegetative Spores	wild type
-PHI:I387	PHI:2342	In Vitro Growth	reduced
+PHI:I386	PHI:2341	In Vitro Growth	wild type
 PHI:I387	PHI:2342	Vegetative Spores	reduced
-PHI:I389	PHI:2344	In Vitro Growth	wild type
+PHI:I387	PHI:2342	In Vitro Growth	reduced
 PHI:I389	PHI:2344	Vegetative Spores	reduced
+PHI:I389	PHI:2344	In Vitro Growth	wild type
 PHI:I392	PHI:2345	In Vitro Growth	reduced
 PHI:I392	PHI:2345	In Vitro Growth	aberrant
-PHI:I396	PHI:2357	Vegetative Spores	wild type
 PHI:I396	PHI:2357	Spore Germination	reduced
-PHI:I396	PHI:2357	In Vitro Growth	wild type
 PHI:I396	PHI:2357	Penetration	yes
-PHI:I397	PHI:2358	In Vitro Growth	wild type
+PHI:I396	PHI:2357	Vegetative Spores	wild type
+PHI:I396	PHI:2357	In Vitro Growth	wild type
+PHI:I397	PHI:2358	Vegetative Spores	wild type
 PHI:I397	PHI:2358	Pre-penetration	no
 PHI:I397	PHI:2358	Penetration	yes
-PHI:I397	PHI:2358	Vegetative Spores	wild type
 PHI:I397	PHI:2358	Spore Germination	wild type
-PHI:I398	PHI:2359	In Vitro Growth	reduced
+PHI:I397	PHI:2358	In Vitro Growth	wild type
+PHI:I398	PHI:2359	Vegetative Spores	wild type
 PHI:I398	PHI:2359	Penetration	yes
 PHI:I398	PHI:2359	Pre-penetration	yes
-PHI:I398	PHI:2359	Vegetative Spores	wild type
-PHI:I399	PHI:2359	In Vitro Growth	reduced
+PHI:I398	PHI:2359	In Vitro Growth	reduced
 PHI:I399	PHI:2359	Vegetative Spores	wild type
-PHI:I400	PHI:2359	In Vitro Growth	reduced
+PHI:I399	PHI:2359	In Vitro Growth	reduced
 PHI:I400	PHI:2359	Vegetative Spores	wild type
-PHI:I401	PHI:2359	Penetration	yes
+PHI:I400	PHI:2359	In Vitro Growth	reduced
 PHI:I401	PHI:2359	In Vitro Growth	reduced
+PHI:I401	PHI:2359	Penetration	yes
 PHI:I401	PHI:2359	Pre-penetration	yes
 PHI:I401	PHI:2359	Vegetative Spores	wild type
-PHI:I402	PHI:2359	Pre-penetration	yes
 PHI:I402	PHI:2359	In Vitro Growth	reduced
 PHI:I402	PHI:2359	Penetration	yes
+PHI:I402	PHI:2359	Pre-penetration	yes
 PHI:I402	PHI:2359	Vegetative Spores	wild type
 PHI:I403	PHI:2361	In Vitro Growth	reduced
 PHI:I404	PHI:2361	In Vitro Growth	reduced
 PHI:I405	PHI:2363	Mating Defect	yes
 PHI:I405	PHI:2363	In Vitro Growth	reduced
+PHI:I406	PHI:2365	Pre-penetration	yes
 PHI:I406	PHI:2365	In Vitro Growth	wild type
 PHI:I406	PHI:2365	In Vitro Growth	aberrant
-PHI:I406	PHI:2365	Pre-penetration	yes
 PHI:I406	PHI:2365	Mating Defect	yes
 PHI:I407	PHI:2365	In Vitro Growth	aberrant
-PHI:I408	PHI:2367	In Vitro Growth	aberrant
-PHI:I408	PHI:2367	Pre-penetration	no
-PHI:I408	PHI:2367	Vegetative Spores	reduced
-PHI:I408	PHI:2367	Mating Defect	yes
 PHI:I408	PHI:2367	Spore Germination	wild type
-PHI:I409	PHI:2368	Spore Germination	reduced
-PHI:I409	PHI:2368	Vegetative Spores	reduced
-PHI:I409	PHI:2368	Pre-penetration	yes
+PHI:I408	PHI:2367	Vegetative Spores	reduced
+PHI:I408	PHI:2367	Pre-penetration	no
+PHI:I408	PHI:2367	In Vitro Growth	aberrant
+PHI:I408	PHI:2367	Mating Defect	yes
 PHI:I409	PHI:2368	In Vitro Growth	reduced
+PHI:I409	PHI:2368	Pre-penetration	yes
+PHI:I409	PHI:2368	Vegetative Spores	reduced
+PHI:I409	PHI:2368	Spore Germination	reduced
 PHI:I410	PHI:2368	Vegetative Spores	reduced
+PHI:I410	PHI:2368	Pre-penetration	yes
 PHI:I410	PHI:2368	Spore Germination	reduced
 PHI:I410	PHI:2368	In Vitro Growth	reduced
-PHI:I410	PHI:2368	Pre-penetration	yes
-PHI:I411	PHI:2368	Pre-penetration	yes
-PHI:I411	PHI:2368	In Vitro Growth	reduced
-PHI:I411	PHI:2368	Spore Germination	reduced
 PHI:I411	PHI:2368	Vegetative Spores	reduced
+PHI:I411	PHI:2368	Pre-penetration	yes
+PHI:I411	PHI:2368	Spore Germination	reduced
+PHI:I411	PHI:2368	In Vitro Growth	reduced
 PHI:I412	PHI:2370	In Vitro Growth	reduced
 PHI:I412	PHI:2370	Pre-penetration	yes
 PHI:I412	PHI:2370	Vegetative Spores	wild type
 PHI:I412	PHI:2370	Spore Germination	wild type
+PHI:I413	PHI:2370	In Vitro Growth	reduced
+PHI:I413	PHI:2370	Pre-penetration	yes
 PHI:I413	PHI:2370	Vegetative Spores	wild type
 PHI:I413	PHI:2370	Spore Germination	wild type
-PHI:I413	PHI:2370	Pre-penetration	yes
-PHI:I413	PHI:2370	In Vitro Growth	reduced
 PHI:I414	PHI:2370	Spore Germination	wild type
 PHI:I414	PHI:2370	Vegetative Spores	wild type
-PHI:I414	PHI:2370	In Vitro Growth	reduced
 PHI:I414	PHI:2370	Pre-penetration	yes
-PHI:I415	PHI:2371	Vegetative Spores	wild type
+PHI:I414	PHI:2370	In Vitro Growth	reduced
 PHI:I415	PHI:2371	Spore Germination	wild type
 PHI:I415	PHI:2371	Pre-penetration	yes
+PHI:I415	PHI:2371	Vegetative Spores	wild type
 PHI:I415	PHI:2371	In Vitro Growth	reduced
-PHI:I416	PHI:2371	Pre-penetration	yes
-PHI:I416	PHI:2371	In Vitro Growth	reduced
-PHI:I416	PHI:2371	Vegetative Spores	wild type
 PHI:I416	PHI:2371	Spore Germination	wild type
-PHI:I417	PHI:2371	In Vitro Growth	reduced
-PHI:I417	PHI:2371	Pre-penetration	yes
-PHI:I417	PHI:2371	Vegetative Spores	wild type
+PHI:I416	PHI:2371	Pre-penetration	yes
+PHI:I416	PHI:2371	Vegetative Spores	wild type
+PHI:I416	PHI:2371	In Vitro Growth	reduced
 PHI:I417	PHI:2371	Spore Germination	wild type
-PHI:I418	PHI:2374	Spore Germination	wild type
+PHI:I417	PHI:2371	Vegetative Spores	wild type
+PHI:I417	PHI:2371	Pre-penetration	yes
+PHI:I417	PHI:2371	In Vitro Growth	reduced
 PHI:I418	PHI:2374	Vegetative Spores	wild type
+PHI:I418	PHI:2374	Spore Germination	wild type
 PHI:I418	PHI:2374	In Vitro Growth	wild type
+PHI:I419	PHI:2374	In Vitro Growth	wild type
 PHI:I419	PHI:2374	Spore Germination	wild type
 PHI:I419	PHI:2374	Vegetative Spores	wild type
-PHI:I419	PHI:2374	In Vitro Growth	wild type
-PHI:I420	PHI:2374	Vegetative Spores	wild type
-PHI:I420	PHI:2374	Spore Germination	wild type
 PHI:I420	PHI:2374	In Vitro Growth	wild type
+PHI:I420	PHI:2374	Spore Germination	wild type
+PHI:I420	PHI:2374	Vegetative Spores	wild type
 PHI:I421	PHI:2374	In Vitro Growth	wild type
-PHI:I421	PHI:2374	Spore Germination	wild type
 PHI:I421	PHI:2374	Vegetative Spores	wild type
+PHI:I421	PHI:2374	Spore Germination	wild type
 PHI:I422	PHI:2375	Vegetative Spores	wild type
 PHI:I422	PHI:2375	In Vitro Growth	wild type
-PHI:I423	PHI:2375	In Vitro Growth	wild type
 PHI:I423	PHI:2375	Vegetative Spores	wild type
+PHI:I423	PHI:2375	In Vitro Growth	wild type
 PHI:I424	PHI:2375	Vegetative Spores	wild type
 PHI:I424	PHI:2375	In Vitro Growth	wild type
 PHI:I425	PHI:2376	In Vitro Growth	wild type
 PHI:I425	PHI:2376	Vegetative Spores	wild type
-PHI:I426	PHI:2376	In Vitro Growth	wild type
 PHI:I426	PHI:2376	Vegetative Spores	wild type
-PHI:I427	PHI:2376	Vegetative Spores	wild type
+PHI:I426	PHI:2376	In Vitro Growth	wild type
 PHI:I427	PHI:2376	In Vitro Growth	wild type
-PHI:I428	PHI:2377	In Vitro Growth	wild type
+PHI:I427	PHI:2376	Vegetative Spores	wild type
 PHI:I428	PHI:2377	Vegetative Spores	wild type
+PHI:I428	PHI:2377	In Vitro Growth	wild type
 PHI:I429	PHI:2377	In Vitro Growth	wild type
 PHI:I429	PHI:2377	Vegetative Spores	wild type
 PHI:I430	PHI:2377	Vegetative Spores	wild type
 PHI:I430	PHI:2377	In Vitro Growth	wild type
-PHI:I431	PHI:2378	Vegetative Spores	wild type
 PHI:I431	PHI:2378	In Vitro Growth	wild type
+PHI:I431	PHI:2378	Vegetative Spores	wild type
 PHI:I432	PHI:2378	Vegetative Spores	wild type
 PHI:I432	PHI:2378	In Vitro Growth	wild type
-PHI:I433	PHI:2378	In Vitro Growth	wild type
 PHI:I433	PHI:2378	Vegetative Spores	wild type
-PHI:I434	PHI:2379	Vegetative Spores	wild type
+PHI:I433	PHI:2378	In Vitro Growth	wild type
 PHI:I434	PHI:2379	In Vitro Growth	wild type
-PHI:I435	PHI:2379	In Vitro Growth	wild type
+PHI:I434	PHI:2379	Vegetative Spores	wild type
 PHI:I435	PHI:2379	Vegetative Spores	wild type
-PHI:I436	PHI:2379	In Vitro Growth	wild type
+PHI:I435	PHI:2379	In Vitro Growth	wild type
 PHI:I436	PHI:2379	Vegetative Spores	wild type
-PHI:I437	PHI:2380	Vegetative Spores	wild type
+PHI:I436	PHI:2379	In Vitro Growth	wild type
 PHI:I437	PHI:2380	In Vitro Growth	wild type
+PHI:I437	PHI:2380	Vegetative Spores	wild type
 PHI:I438	PHI:2380	In Vitro Growth	wild type
 PHI:I438	PHI:2380	Vegetative Spores	wild type
-PHI:I439	PHI:2380	In Vitro Growth	wild type
 PHI:I439	PHI:2380	Vegetative Spores	wild type
+PHI:I439	PHI:2380	In Vitro Growth	wild type
 PHI:I440	PHI:2381	In Vitro Growth	aberrant
 PHI:I441	PHI:2381	In Vitro Growth	aberrant
-PHI:I447	PHI:2384	Mating Defect	yes
 PHI:I447	PHI:2384	Vegetative Spores	aberrant
-PHI:I447	PHI:2384	In Vitro Growth	aberrant
 PHI:I447	PHI:2384	Pre-penetration	no
 PHI:I447	PHI:2384	Penetration	no
-PHI:I448	PHI:2384	Mating Defect	yes
+PHI:I447	PHI:2384	In Vitro Growth	aberrant
+PHI:I447	PHI:2384	Mating Defect	yes
+PHI:I448	PHI:2384	Pre-penetration	no
+PHI:I448	PHI:2384	Penetration	no
 PHI:I448	PHI:2384	Vegetative Spores	aberrant
 PHI:I448	PHI:2384	Vegetative Spores	reduced
-PHI:I448	PHI:2384	Penetration	no
+PHI:I448	PHI:2384	Mating Defect	yes
 PHI:I448	PHI:2384	In Vitro Growth	aberrant
-PHI:I448	PHI:2384	Pre-penetration	no
-PHI:I449	PHI:2385	Spore Germination	wild type
 PHI:I449	PHI:2385	Vegetative Spores	wild type
+PHI:I449	PHI:2385	Spore Germination	wild type
 PHI:I449	PHI:2385	Mating Defect	no
-PHI:I450	PHI:2385	Spore Germination	wild type
-PHI:I450	PHI:2385	Mating Defect	no
 PHI:I450	PHI:2385	Vegetative Spores	reduced
 PHI:I450	PHI:2385	Sexual Spores	reduced
+PHI:I450	PHI:2385	Spore Germination	wild type
+PHI:I450	PHI:2385	Mating Defect	no
 PHI:I450	PHI:2385	In Vitro Growth	reduced
-PHI:I451	PHI:2386	Vegetative Spores	reduced
-PHI:I451	PHI:2386	Mating Defect	yes
 PHI:I451	PHI:2386	In Vitro Growth	reduced
+PHI:I451	PHI:2386	Mating Defect	yes
 PHI:I451	PHI:2386	Sexual Spores	reduced
-PHI:I452	PHI:2386	Mating Defect	yes
+PHI:I451	PHI:2386	Vegetative Spores	reduced
 PHI:I452	PHI:2386	Vegetative Spores	reduced
 PHI:I452	PHI:2386	Sexual Spores	reduced
 PHI:I452	PHI:2386	In Vitro Growth	reduced
-PHI:I453	PHI:2387	In Vitro Growth	reduced
-PHI:I453	PHI:2387	Sexual Spores	reduced
+PHI:I452	PHI:2386	Mating Defect	yes
 PHI:I453	PHI:2387	Vegetative Spores	reduced
+PHI:I453	PHI:2387	Sexual Spores	reduced
+PHI:I453	PHI:2387	In Vitro Growth	reduced
 PHI:I453	PHI:2387	Mating Defect	yes
 PHI:I460	PHI:2392	In Vitro Growth	reduced
 PHI:I461	PHI:2393	In Vitro Growth	wild type
@@ -839,153 +839,153 @@ PHI:I462	PHI:2393	In Vitro Growth	wild type
 PHI:I463	PHI:2394	In Vitro Growth	wild type
 PHI:I464	PHI:2395	Vegetative Spores	wild type
 PHI:I464	PHI:2395	In Vitro Growth	aberrant
+PHI:I465	PHI:2396	Sexual Spores	reduced
 PHI:I465	PHI:2396	In Vitro Growth	wild type
 PHI:I465	PHI:2396	In Vitro Growth	aberrant
-PHI:I465	PHI:2396	Sexual Spores	reduced
-PHI:I466	PHI:2397	Vegetative Spores	reduced
-PHI:I466	PHI:2397	Sexual Spores	reduced
-PHI:I466	PHI:2397	Pre-penetration	yes
 PHI:I466	PHI:2397	In Vitro Growth	reduced
 PHI:I466	PHI:2397	In Vitro Growth	aberrant
+PHI:I466	PHI:2397	Sexual Spores	reduced
+PHI:I466	PHI:2397	Vegetative Spores	reduced
+PHI:I466	PHI:2397	Pre-penetration	yes
+PHI:I467	PHI:2398	Sexual Spores	reduced
 PHI:I467	PHI:2398	Vegetative Spores	reduced
+PHI:I467	PHI:2398	Pre-penetration	yes
 PHI:I467	PHI:2398	In Vitro Growth	reduced
 PHI:I467	PHI:2398	In Vitro Growth	aberrant
-PHI:I467	PHI:2398	Pre-penetration	yes
-PHI:I467	PHI:2398	Sexual Spores	reduced
 PHI:I468	PHI:2399	In Vitro Growth	wild type
+PHI:I468	PHI:2399	Vegetative Spores	reduced
 PHI:I468	PHI:2399	Sexual Spores	reduced
 PHI:I468	PHI:2399	Spore Germination	reduced
-PHI:I468	PHI:2399	Vegetative Spores	reduced
-PHI:I469	PHI:2399	Vegetative Spores	reduced
+PHI:I469	PHI:2399	In Vitro Growth	wild type
 PHI:I469	PHI:2399	Spore Germination	reduced
 PHI:I469	PHI:2399	Sexual Spores	reduced
-PHI:I469	PHI:2399	In Vitro Growth	wild type
-PHI:I470	PHI:2399	Sexual Spores	reduced
+PHI:I469	PHI:2399	Vegetative Spores	reduced
 PHI:I470	PHI:2399	In Vitro Growth	wild type
 PHI:I470	PHI:2399	Vegetative Spores	reduced
 PHI:I470	PHI:2399	Spore Germination	reduced
-PHI:I471	PHI:2400	Vegetative Spores	wild type
-PHI:I471	PHI:2400	Spore Germination	wild type
-PHI:I471	PHI:2400	Sexual Spores	wild type
+PHI:I470	PHI:2399	Sexual Spores	reduced
 PHI:I471	PHI:2400	In Vitro Growth	wild type
-PHI:I472	PHI:2400	In Vitro Growth	wild type
+PHI:I471	PHI:2400	Vegetative Spores	wild type
+PHI:I471	PHI:2400	Sexual Spores	wild type
+PHI:I471	PHI:2400	Spore Germination	wild type
 PHI:I472	PHI:2400	Sexual Spores	wild type
 PHI:I472	PHI:2400	Spore Germination	wild type
 PHI:I472	PHI:2400	Vegetative Spores	wild type
-PHI:I473	PHI:2400	Spore Germination	wild type
+PHI:I472	PHI:2400	In Vitro Growth	wild type
+PHI:I473	PHI:2400	In Vitro Growth	wild type
 PHI:I473	PHI:2400	Vegetative Spores	wild type
 PHI:I473	PHI:2400	Sexual Spores	wild type
-PHI:I473	PHI:2400	In Vitro Growth	wild type
+PHI:I473	PHI:2400	Spore Germination	wild type
 PHI:I476	PHI:2401	Vegetative Spores	reduced
 PHI:I476	PHI:2401	In Vitro Growth	reduced
 PHI:I477	PHI:2401	In Vitro Growth	reduced
 PHI:I477	PHI:2401	Vegetative Spores	reduced
 PHI:I478	PHI:2403	Vegetative Spores	wild type
 PHI:I478	PHI:2403	In Vitro Growth	wild type
-PHI:I479	PHI:2403	Vegetative Spores	wild type
 PHI:I479	PHI:2403	In Vitro Growth	reduced
-PHI:I480	PHI:2404	Vegetative Spores	wild type
-PHI:I480	PHI:2404	In Vitro Growth	wild type
+PHI:I479	PHI:2403	Vegetative Spores	wild type
 PHI:I480	PHI:2404	Penetration	no
 PHI:I480	PHI:2404	Pre-penetration	no
+PHI:I480	PHI:2404	Vegetative Spores	wild type
+PHI:I480	PHI:2404	In Vitro Growth	wild type
 PHI:I481	PHI:2405	In Vitro Growth	aberrant
-PHI:I481	PHI:2405	Pre-penetration	no
 PHI:I481	PHI:2405	Vegetative Spores	wild type
-PHI:I482	PHI:2406	Vegetative Spores	wild type
+PHI:I481	PHI:2405	Pre-penetration	no
 PHI:I482	PHI:2406	In Vitro Growth	aberrant
+PHI:I482	PHI:2406	Vegetative Spores	wild type
 PHI:I482	PHI:2406	Pre-penetration	no
-PHI:I483	PHI:2407	Pre-penetration	no
 PHI:I483	PHI:2407	In Vitro Growth	aberrant
 PHI:I483	PHI:2407	Vegetative Spores	wild type
+PHI:I483	PHI:2407	Pre-penetration	no
 PHI:I484	PHI:2411	Penetration	yes
 PHI:I484	PHI:2411	Pre-penetration	no
 PHI:I485	PHI:2412	In Vitro Growth	wild type
-PHI:I486	PHI:2413	In Vitro Growth	reduced
-PHI:I486	PHI:2413	Pre-penetration	yes
+PHI:I486	PHI:2413	Spore Germination	wild type
 PHI:I486	PHI:2413	Vegetative Spores	reduced
 PHI:I486	PHI:2413	Vegetative Spores	aberrant
-PHI:I486	PHI:2413	Spore Germination	wild type
+PHI:I486	PHI:2413	Pre-penetration	yes
+PHI:I486	PHI:2413	In Vitro Growth	reduced
+PHI:I487	PHI:2415	Pre-penetration	yes
 PHI:I487	PHI:2415	In Vitro Growth	wild type
 PHI:I487	PHI:2415	In Vitro Growth	aberrant
-PHI:I487	PHI:2415	Pre-penetration	yes
 PHI:I488	PHI:2416	Pre-penetration	yes
 PHI:I488	PHI:2416	In Vitro Growth	wild type
 PHI:I488	PHI:2416	In Vitro Growth	aberrant
+PHI:I489	PHI:2417	Pre-penetration	yes
 PHI:I489	PHI:2417	In Vitro Growth	wild type
 PHI:I489	PHI:2417	In Vitro Growth	aberrant
-PHI:I489	PHI:2417	Pre-penetration	yes
-PHI:I490	PHI:2418	Sexual Spores	defective
+PHI:I490	PHI:2418	Mating Defect	yes
 PHI:I490	PHI:2418	In Vitro Growth	reduced
 PHI:I490	PHI:2418	In Vitro Growth	aberrant
-PHI:I490	PHI:2418	Mating Defect	yes
 PHI:I490	PHI:2418	Vegetative Spores	reduced
 PHI:I490	PHI:2418	Vegetative Spores	aberrant
-PHI:I491	PHI:2419	In Vitro Growth	reduced
-PHI:I491	PHI:2419	In Vitro Growth	aberrant
-PHI:I491	PHI:2419	Sexual Spores	defective
+PHI:I490	PHI:2418	Sexual Spores	defective
 PHI:I491	PHI:2419	Vegetative Spores	reduced
 PHI:I491	PHI:2419	Vegetative Spores	aberrant
+PHI:I491	PHI:2419	Sexual Spores	defective
 PHI:I491	PHI:2419	Mating Defect	yes
+PHI:I491	PHI:2419	In Vitro Growth	reduced
+PHI:I491	PHI:2419	In Vitro Growth	aberrant
 PHI:I502	PHI:2423	In Vitro Growth	reduced
 PHI:I503	PHI:2423	In Vitro Growth	reduced
+PHI:I509	PHI:2427	Vegetative Spores	increased
 PHI:I509	PHI:2427	In Vitro Growth	reduced
 PHI:I509	PHI:2427	In Vitro Growth	aberrant
-PHI:I509	PHI:2427	Vegetative Spores	increased
-PHI:I510	PHI:2429	Vegetative Spores	reduced
-PHI:I510	PHI:2429	Spore Germination	reduced
 PHI:I510	PHI:2429	In Vitro Growth	reduced
-PHI:I511	PHI:2430	Mating Defect	yes
+PHI:I510	PHI:2429	Spore Germination	reduced
+PHI:I510	PHI:2429	Vegetative Spores	reduced
 PHI:I511	PHI:2430	In Vitro Growth	reduced
+PHI:I511	PHI:2430	Mating Defect	yes
 PHI:I511	PHI:2430	Sexual Spores	reduced
 PHI:I512	PHI:2430	Mating Defect	yes
-PHI:I512	PHI:2430	Sexual Spores	reduced
 PHI:I512	PHI:2430	In Vitro Growth	reduced
+PHI:I512	PHI:2430	Sexual Spores	reduced
 PHI:I513	PHI:2432	Spore Germination	reduced
 PHI:I513	PHI:2432	In Vitro Growth	reduced
 PHI:I514	PHI:2433	In Vitro Growth	reduced
 PHI:I514	PHI:2433	Sexual Spores	reduced
 PHI:I514	PHI:2433	Vegetative Spores	aberrant
+PHI:I515	PHI:2434	Sexual Spores	reduced
 PHI:I515	PHI:2434	Spore Germination	reduced
 PHI:I515	PHI:2434	Vegetative Spores	reduced
-PHI:I515	PHI:2434	Sexual Spores	reduced
 PHI:I516	PHI:2437	In Vitro Growth	reduced
 PHI:I516	PHI:2437	In Vitro Growth	aberrant
-PHI:I517	PHI:2438	In Vitro Growth	aberrant
-PHI:I517	PHI:2438	Pre-penetration	no
-PHI:I517	PHI:2438	Penetration	yes
-PHI:I517	PHI:2438	Vegetative Spores	reduced
 PHI:I517	PHI:2438	Spore Germination	wild type
-PHI:I518	PHI:2438	Vegetative Spores	reduced
-PHI:I518	PHI:2438	Spore Germination	wild type
-PHI:I518	PHI:2438	Penetration	yes
+PHI:I517	PHI:2438	Penetration	yes
+PHI:I517	PHI:2438	Pre-penetration	no
+PHI:I517	PHI:2438	Vegetative Spores	reduced
+PHI:I517	PHI:2438	In Vitro Growth	aberrant
 PHI:I518	PHI:2438	In Vitro Growth	aberrant
 PHI:I518	PHI:2438	Pre-penetration	no
+PHI:I518	PHI:2438	Penetration	yes
+PHI:I518	PHI:2438	Vegetative Spores	reduced
+PHI:I518	PHI:2438	Spore Germination	wild type
 PHI:I519	PHI:2439	In Vitro Growth	aberrant
 PHI:I520	PHI:2439	In Vitro Growth	aberrant
 PHI:I521	PHI:2440	In Vitro Growth	aberrant
 PHI:I522	PHI:2440	In Vitro Growth	aberrant
-PHI:I523	PHI:2441	Spore Germination	reduced
-PHI:I523	PHI:2441	Pre-penetration	yes
 PHI:I523	PHI:2441	In Vitro Growth	aberrant
+PHI:I523	PHI:2441	Pre-penetration	yes
+PHI:I523	PHI:2441	Spore Germination	reduced
 PHI:I524	PHI:2443	In Vitro Growth	reduced
 PHI:I525	PHI:2444	In Vitro Growth	reduced
 PHI:I526	PHI:2445	In Vitro Growth	reduced
 PHI:I527	PHI:2446	In Vitro Growth	reduced
-PHI:I528	PHI:2448	Spore Germination	wild type
+PHI:I528	PHI:2448	In Vitro Growth	reduced
 PHI:I528	PHI:2448	Vegetative Spores	reduced
 PHI:I528	PHI:2448	Vegetative Spores	aberrant
-PHI:I528	PHI:2448	In Vitro Growth	reduced
-PHI:I530	PHI:2450	Pre-penetration	yes
+PHI:I528	PHI:2448	Spore Germination	wild type
 PHI:I530	PHI:2450	In Vitro Growth	wild type
+PHI:I530	PHI:2450	Pre-penetration	yes
 PHI:I530	PHI:2450	Spore Germination	wild type
 PHI:I535	PHI:2453	Vegetative Spores	reduced
 PHI:I535	PHI:2453	Spore Germination	reduced
 PHI:I535	PHI:2453	In Vitro Growth	reduced
 PHI:I535	PHI:2453	In Vitro Growth	aberrant
-PHI:I536	PHI:2453	Vegetative Spores	reduced
-PHI:I536	PHI:2453	Spore Germination	reduced
 PHI:I536	PHI:2453	In Vitro Growth	reduced
 PHI:I536	PHI:2453	In Vitro Growth	aberrant
+PHI:I536	PHI:2453	Vegetative Spores	reduced
+PHI:I536	PHI:2453	Spore Germination	reduced
 PHI:I539	PHI:2458	In Vitro Growth	aberrant
 PHI:I540	PHI:2459	In Vitro Growth	aberrant
 PHI:I553	PHI:2471	In Vitro Growth	reduced
@@ -995,85 +995,85 @@ PHI:I556	PHI:2472	In Vitro Growth	reduced
 PHI:I558	PHI:2474	In Vitro Growth	reduced
 PHI:I559	PHI:2474	In Vitro Growth	reduced
 PHI:I564	PHI:2477	In Vitro Growth	wild type
-PHI:I564	PHI:2477	Vegetative Spores	wild type
 PHI:I564	PHI:2477	Spore Germination	wild type
+PHI:I564	PHI:2477	Vegetative Spores	wild type
 PHI:I565	PHI:2478	In Vitro Growth	reduced
 PHI:I566	PHI:2478	In Vitro Growth	reduced
 PHI:I567	PHI:2478	In Vitro Growth	reduced
 PHI:I568	PHI:2478	In Vitro Growth	reduced
 PHI:I573	PHI:2480	In Vitro Growth	reduced
 PHI:I574	PHI:2481	In Vitro Growth	reduced
-PHI:I575	PHI:2482	In Vitro Growth	wild type
 PHI:I575	PHI:2482	Penetration	yes
 PHI:I575	PHI:2482	Vegetative Spores	reduced
+PHI:I575	PHI:2482	In Vitro Growth	wild type
 PHI:I576	PHI:2482	Vegetative Spores	reduced
 PHI:I576	PHI:2482	Penetration	yes
 PHI:I576	PHI:2482	In Vitro Growth	wild type
+PHI:I577	PHI:2484	In Vitro Growth	reduced
 PHI:I577	PHI:2484	Spore Germination	wild type
 PHI:I577	PHI:2484	Vegetative Spores	aberrant
-PHI:I577	PHI:2484	In Vitro Growth	reduced
 PHI:I577	PHI:2484	Pre-penetration	yes
 PHI:I577	PHI:2484	Penetration	yes
-PHI:I578	PHI:2484	Spore Germination	wild type
-PHI:I578	PHI:2484	Vegetative Spores	aberrant
 PHI:I578	PHI:2484	In Vitro Growth	reduced
 PHI:I578	PHI:2484	Pre-penetration	yes
 PHI:I578	PHI:2484	Penetration	yes
-PHI:I579	PHI:2487	In Vitro Growth	reduced
-PHI:I579	PHI:2487	In Vitro Growth	aberrant
+PHI:I578	PHI:2484	Vegetative Spores	aberrant
+PHI:I578	PHI:2484	Spore Germination	wild type
 PHI:I579	PHI:2487	Penetration	yes
 PHI:I579	PHI:2487	Spore Germination	wild type
+PHI:I579	PHI:2487	In Vitro Growth	reduced
+PHI:I579	PHI:2487	In Vitro Growth	aberrant
 PHI:I580	PHI:2487	Spore Germination	reduced
 PHI:I581	PHI:2487	Spore Germination	wild type
+PHI:I581	PHI:2487	Penetration	yes
 PHI:I581	PHI:2487	In Vitro Growth	reduced
 PHI:I581	PHI:2487	In Vitro Growth	aberrant
-PHI:I581	PHI:2487	Penetration	yes
 PHI:I582	PHI:2487	Spore Germination	reduced
-PHI:I583	PHI:2488	In Vitro Growth	wild type
 PHI:I583	PHI:2488	Vegetative Spores	wild type
 PHI:I583	PHI:2488	Spore Germination	wild type
+PHI:I583	PHI:2488	In Vitro Growth	wild type
 PHI:I584	PHI:2489	In Vitro Growth	wild type
 PHI:I585	PHI:2490	In Vitro Growth	increased
 PHI:I586	PHI:2490	In Vitro Growth	reduced
-PHI:I587	PHI:2491	In Vitro Growth	reduced
 PHI:I587	PHI:2491	Vegetative Spores	wild type
+PHI:I587	PHI:2491	In Vitro Growth	reduced
 PHI:I593	PHI:2497	In Vitro Growth	reduced
+PHI:I593	PHI:2497	Mating Defect	no
 PHI:I593	PHI:2497	Spore Germination	wild type
 PHI:I593	PHI:2497	Vegetative Spores	reduced
-PHI:I593	PHI:2497	Mating Defect	no
-PHI:I594	PHI:2497	In Vitro Growth	reduced
-PHI:I594	PHI:2497	Mating Defect	no
 PHI:I594	PHI:2497	Vegetative Spores	reduced
 PHI:I594	PHI:2497	Spore Germination	wild type
+PHI:I594	PHI:2497	In Vitro Growth	reduced
+PHI:I594	PHI:2497	Mating Defect	no
 PHI:I595	PHI:2498	Spore Germination	wild type
-PHI:I595	PHI:2498	Mating Defect	no
 PHI:I595	PHI:2498	Vegetative Spores	wild type
 PHI:I595	PHI:2498	In Vitro Growth	reduced
-PHI:I600	PHI:2503	Vegetative Spores	reduced
+PHI:I595	PHI:2498	Mating Defect	no
 PHI:I600	PHI:2503	In Vitro Growth	wild type
 PHI:I600	PHI:2503	In Vitro Growth	aberrant
-PHI:I601	PHI:2509	Spore Germination	reduced
-PHI:I601	PHI:2509	Vegetative Spores	reduced
+PHI:I600	PHI:2503	Vegetative Spores	reduced
 PHI:I601	PHI:2509	In Vitro Growth	reduced
 PHI:I601	PHI:2509	In Vitro Growth	aberrant
-PHI:I602	PHI:2510	In Vitro Growth	wild type
-PHI:I602	PHI:2510	In Vitro Growth	aberrant
-PHI:I602	PHI:2510	Spore Germination	wild type
-PHI:I602	PHI:2510	Spore Germination	aberrant
+PHI:I601	PHI:2509	Vegetative Spores	reduced
+PHI:I601	PHI:2509	Spore Germination	reduced
 PHI:I602	PHI:2510	Vegetative Spores	reduced
 PHI:I602	PHI:2510	Vegetative Spores	aberrant
+PHI:I602	PHI:2510	Spore Germination	wild type
+PHI:I602	PHI:2510	Spore Germination	aberrant
+PHI:I602	PHI:2510	In Vitro Growth	wild type
+PHI:I602	PHI:2510	In Vitro Growth	aberrant
 PHI:I603	PHI:2511	Vegetative Spores	aberrant
 PHI:I611	PHI:2537	Spore Germination	defective
 PHI:I611	PHI:2537	In Vitro Growth	defective
 PHI:I615	PHI:2539	In Vitro Growth	reduced
 PHI:I616	PHI:2542	In Vitro Growth	aberrant
 PHI:I618	PHI:2543	In Vitro Growth	wild type
-PHI:I620	PHI:2545	Spore Germination	wild type
-PHI:I620	PHI:2545	Vegetative Spores	wild type
 PHI:I620	PHI:2545	In Vitro Growth	wild type
+PHI:I620	PHI:2545	Vegetative Spores	wild type
+PHI:I620	PHI:2545	Spore Germination	wild type
+PHI:I621	PHI:2545	In Vitro Growth	wild type
 PHI:I621	PHI:2545	Spore Germination	wild type
 PHI:I621	PHI:2545	Vegetative Spores	wild type
-PHI:I621	PHI:2545	In Vitro Growth	wild type
 PHI:I622	PHI:2546	In Vitro Growth	reduced
 PHI:I623	PHI:2547	In Vitro Growth	aberrant
 PHI:I624	PHI:2549	Pre-penetration	yes
@@ -1100,9 +1100,9 @@ PHI:I641	PHI:2566	In Vitro Growth	wild type
 PHI:I642	PHI:2567	In Vitro Growth	reduced
 PHI:I642	PHI:2567	In Vitro Growth	defective
 PHI:I643	PHI:2568	In Vitro Growth	reduced
-PHI:I644	PHI:2569	In Vitro Growth	defective
 PHI:I644	PHI:2569	Pre-penetration	yes
 PHI:I644	PHI:2569	Penetration	yes
+PHI:I644	PHI:2569	In Vitro Growth	defective
 PHI:I645	PHI:2570	In Vitro Growth	reduced
 PHI:I646	PHI:2571	In Vitro Growth	aberrant
 PHI:I646	PHI:2571	In Vitro Growth	defective
@@ -1111,44 +1111,44 @@ PHI:I648	PHI:2574	In Vitro Growth	wild type
 PHI:I649	PHI:2576	In Vitro Growth	reduced
 PHI:I650	PHI:2576	In Vitro Growth	reduced
 PHI:I651	PHI:2580	Penetration	yes
-PHI:I652	PHI:2586	Penetration	yes
 PHI:I652	PHI:2586	Pre-penetration	yes
-PHI:I653	PHI:2587	In Vitro Growth	wild type
+PHI:I652	PHI:2586	Penetration	yes
 PHI:I653	PHI:2587	Vegetative Spores	wild type
 PHI:I653	PHI:2587	Spore Germination	wild type
+PHI:I653	PHI:2587	In Vitro Growth	wild type
 PHI:I654	PHI:2587	In Vitro Growth	wild type
-PHI:I654	PHI:2587	Vegetative Spores	wild type
 PHI:I654	PHI:2587	Spore Germination	wild type
-PHI:I655	PHI:2588	Spore Germination	wild type
+PHI:I654	PHI:2587	Vegetative Spores	wild type
 PHI:I655	PHI:2588	Vegetative Spores	wild type
-PHI:I655	PHI:2588	Mating Defect	no
-PHI:I655	PHI:2588	In Vitro Growth	wild type
+PHI:I655	PHI:2588	Spore Germination	wild type
 PHI:I655	PHI:2588	Sexual Spores	reduced
-PHI:I656	PHI:2590	Penetration	no
+PHI:I655	PHI:2588	In Vitro Growth	wild type
+PHI:I655	PHI:2588	Mating Defect	no
 PHI:I656	PHI:2590	In Vitro Growth	wild type
-PHI:I656	PHI:2590	Pre-penetration	no
 PHI:I656	PHI:2590	Spore Germination	wild type
+PHI:I656	PHI:2590	Pre-penetration	no
+PHI:I656	PHI:2590	Penetration	no
 PHI:I659	PHI:2595	In Vitro Growth	wild type
 PHI:I660	PHI:2597	In Vitro Growth	reduced
 PHI:I661	PHI:2597	In Vitro Growth	reduced
 PHI:I662	PHI:2601	Penetration	yes
-PHI:I663	PHI:2607	Pre-penetration	yes
 PHI:I663	PHI:2607	Penetration	yes
+PHI:I663	PHI:2607	Pre-penetration	yes
 PHI:I664	PHI:2608	Spore Germination	wild type
 PHI:I664	PHI:2608	Vegetative Spores	wild type
 PHI:I664	PHI:2608	In Vitro Growth	wild type
-PHI:I665	PHI:2608	In Vitro Growth	wild type
-PHI:I665	PHI:2608	Vegetative Spores	wild type
 PHI:I665	PHI:2608	Spore Germination	wild type
-PHI:I666	PHI:2609	In Vitro Growth	wild type
-PHI:I666	PHI:2609	Sexual Spores	reduced
-PHI:I666	PHI:2609	Spore Germination	wild type
+PHI:I665	PHI:2608	Vegetative Spores	wild type
+PHI:I665	PHI:2608	In Vitro Growth	wild type
 PHI:I666	PHI:2609	Vegetative Spores	wild type
+PHI:I666	PHI:2609	Spore Germination	wild type
+PHI:I666	PHI:2609	Sexual Spores	reduced
+PHI:I666	PHI:2609	In Vitro Growth	wild type
 PHI:I666	PHI:2609	Mating Defect	no
-PHI:I667	PHI:2611	Spore Germination	wild type
-PHI:I667	PHI:2611	In Vitro Growth	wild type
 PHI:I667	PHI:2611	Penetration	no
 PHI:I667	PHI:2611	Pre-penetration	no
+PHI:I667	PHI:2611	Spore Germination	wild type
+PHI:I667	PHI:2611	In Vitro Growth	wild type
 PHI:I670	PHI:2615	In Vitro Growth	wild type
 PHI:I687	PHI:2632	In Vitro Growth	reduced
 PHI:I688	PHI:2633	In Vitro Growth	wild type
@@ -1165,29 +1165,29 @@ PHI:I704	PHI:2649	In Vitro Growth	aberrant
 PHI:I707	PHI:2651	In Vitro Growth	wild type
 PHI:I708	PHI:2651	In Vitro Growth	wild type
 PHI:I709	PHI:2652	In Vitro Growth	wild type
-PHI:I710	PHI:2653	Sexual Spores	wild type
-PHI:I710	PHI:2653	In Vitro Growth	wild type
-PHI:I710	PHI:2653	Pre-penetration	no
-PHI:I710	PHI:2653	Spore Germination	wild type
-PHI:I710	PHI:2653	Mating Defect	aberrant
 PHI:I710	PHI:2653	Vegetative Spores	increased
 PHI:I710	PHI:2653	Vegetative Spores	aberrant
+PHI:I710	PHI:2653	Pre-penetration	no
+PHI:I710	PHI:2653	Spore Germination	wild type
+PHI:I710	PHI:2653	Sexual Spores	wild type
+PHI:I710	PHI:2653	In Vitro Growth	wild type
+PHI:I710	PHI:2653	Mating Defect	aberrant
+PHI:I711	PHI:2653	Spore Germination	wild type
+PHI:I711	PHI:2653	Sexual Spores	wild type
 PHI:I711	PHI:2653	Vegetative Spores	increased
 PHI:I711	PHI:2653	Vegetative Spores	aberrant
-PHI:I711	PHI:2653	Mating Defect	aberrant
-PHI:I711	PHI:2653	Spore Germination	wild type
-PHI:I711	PHI:2653	In Vitro Growth	wild type
 PHI:I711	PHI:2653	Pre-penetration	no
-PHI:I711	PHI:2653	Sexual Spores	wild type
+PHI:I711	PHI:2653	In Vitro Growth	wild type
+PHI:I711	PHI:2653	Mating Defect	aberrant
+PHI:I712	PHI:2653	In Vitro Growth	wild type
+PHI:I712	PHI:2653	Mating Defect	aberrant
 PHI:I712	PHI:2653	Vegetative Spores	increased
 PHI:I712	PHI:2653	Vegetative Spores	aberrant
-PHI:I712	PHI:2653	Mating Defect	aberrant
-PHI:I712	PHI:2653	Spore Germination	wild type
-PHI:I712	PHI:2653	In Vitro Growth	wild type
 PHI:I712	PHI:2653	Pre-penetration	no
+PHI:I712	PHI:2653	Spore Germination	wild type
 PHI:I712	PHI:2653	Sexual Spores	wild type
-PHI:I713	PHI:2654	In Vitro Growth	reduced
 PHI:I713	PHI:2654	Spore Germination	wild type
+PHI:I713	PHI:2654	In Vitro Growth	reduced
 PHI:I719	PHI:2661	In Vitro Growth	aberrant
 PHI:I719	PHI:2661	Vegetative Spores	aberrant
 PHI:I729	PHI:2667	In Vitro Growth	reduced
@@ -1199,71 +1199,71 @@ PHI:I749	PHI:2688	In Vitro Growth	wild type
 PHI:I750	PHI:2689	In Vitro Growth	reduced
 PHI:I751	PHI:2690	In Vitro Growth	reduced
 PHI:I752	PHI:2691	In Vitro Growth	wild type
-PHI:I754	PHI:2693	In Vitro Growth	reduced
 PHI:I754	PHI:2693	Spore Germination	reduced
+PHI:I754	PHI:2693	In Vitro Growth	reduced
 PHI:I755	PHI:2694	In Vitro Growth	wild type
 PHI:I765	PHI:2699	In Vitro Growth	reduced
 PHI:I766	PHI:2699	In Vitro Growth	reduced
-PHI:I767	PHI:2700	In Vitro Growth	wild type
-PHI:I767	PHI:2700	Pre-penetration	yes
-PHI:I767	PHI:2700	Penetration	yes
+PHI:I767	PHI:2700	Spore Germination	wild type
 PHI:I767	PHI:2700	Vegetative Spores	wild type
 PHI:I767	PHI:2700	Vegetative Spores	aberrant
-PHI:I767	PHI:2700	Spore Germination	wild type
+PHI:I767	PHI:2700	Penetration	yes
+PHI:I767	PHI:2700	Pre-penetration	yes
+PHI:I767	PHI:2700	In Vitro Growth	wild type
 PHI:I771	PHI:2705	Vegetative Spores	reduced
 PHI:I771	PHI:2705	In Vitro Growth	reduced
-PHI:I772	PHI:2706	In Vitro Growth	reduced
 PHI:I772	PHI:2706	Vegetative Spores	reduced
-PHI:I773	PHI:2707	In Vitro Growth	increased
+PHI:I772	PHI:2706	In Vitro Growth	reduced
 PHI:I773	PHI:2707	Vegetative Spores	increased
+PHI:I773	PHI:2707	In Vitro Growth	increased
 PHI:I774	PHI:2708	In Vitro Growth	wild type
 PHI:I774	PHI:2708	Vegetative Spores	wild type
-PHI:I775	PHI:2705	In Vitro Growth	reduced
 PHI:I775	PHI:2705	Vegetative Spores	reduced
-PHI:I776	PHI:2706	Vegetative Spores	reduced
+PHI:I775	PHI:2705	In Vitro Growth	reduced
 PHI:I776	PHI:2706	In Vitro Growth	reduced
+PHI:I776	PHI:2706	Vegetative Spores	reduced
 PHI:I777	PHI:2707	Vegetative Spores	increased
 PHI:I777	PHI:2707	In Vitro Growth	increased
 PHI:I778	PHI:2708	In Vitro Growth	wild type
 PHI:I778	PHI:2708	Vegetative Spores	wild type
-PHI:I779	PHI:2705	Vegetative Spores	reduced
 PHI:I779	PHI:2705	In Vitro Growth	reduced
-PHI:I780	PHI:2706	Vegetative Spores	reduced
+PHI:I779	PHI:2705	Vegetative Spores	reduced
 PHI:I780	PHI:2706	In Vitro Growth	reduced
-PHI:I781	PHI:2707	Vegetative Spores	increased
+PHI:I780	PHI:2706	Vegetative Spores	reduced
 PHI:I781	PHI:2707	In Vitro Growth	increased
+PHI:I781	PHI:2707	Vegetative Spores	increased
 PHI:I782	PHI:2708	In Vitro Growth	wild type
 PHI:I782	PHI:2708	Vegetative Spores	wild type
-PHI:I783	PHI:2710	Spore Germination	wild type
 PHI:I783	PHI:2710	In Vitro Growth	wild type
 PHI:I783	PHI:2710	Pre-penetration	yes
-PHI:I784	PHI:2711	In Vitro Growth	wild type
-PHI:I784	PHI:2711	In Vitro Growth	aberrant
+PHI:I783	PHI:2710	Spore Germination	wild type
 PHI:I784	PHI:2711	Spore Germination	wild type
 PHI:I784	PHI:2711	Vegetative Spores	reduced
+PHI:I784	PHI:2711	In Vitro Growth	wild type
+PHI:I784	PHI:2711	In Vitro Growth	aberrant
 PHI:I785	PHI:2712	Vegetative Spores	wild type
 PHI:I785	PHI:2712	Spore Germination	wild type
 PHI:I785	PHI:2712	In Vitro Growth	wild type
-PHI:I786	PHI:2711	Vegetative Spores	reduced
-PHI:I786	PHI:2711	Spore Germination	wild type
 PHI:I786	PHI:2711	In Vitro Growth	wild type
 PHI:I786	PHI:2711	In Vitro Growth	aberrant
+PHI:I786	PHI:2711	Vegetative Spores	reduced
+PHI:I786	PHI:2711	Spore Germination	wild type
 PHI:I787	PHI:2712	In Vitro Growth	wild type
 PHI:I787	PHI:2712	Vegetative Spores	wild type
 PHI:I787	PHI:2712	Spore Germination	wild type
+PHI:I788	PHI:2711	Vegetative Spores	reduced
+PHI:I788	PHI:2711	Spore Germination	wild type
 PHI:I788	PHI:2711	In Vitro Growth	wild type
 PHI:I788	PHI:2711	In Vitro Growth	aberrant
-PHI:I788	PHI:2711	Spore Germination	wild type
-PHI:I788	PHI:2711	Vegetative Spores	reduced
+PHI:I789	PHI:2712	In Vitro Growth	wild type
 PHI:I789	PHI:2712	Spore Germination	wild type
 PHI:I789	PHI:2712	Vegetative Spores	wild type
-PHI:I789	PHI:2712	In Vitro Growth	wild type
-PHI:I791	PHI:2714	Sexual Spores	reduced
 PHI:I791	PHI:2714	In Vitro Growth	reduced
 PHI:I791	PHI:2714	Mating Defect	yes
+PHI:I791	PHI:2714	Sexual Spores	reduced
 PHI:I792	PHI:2715	Mating Defect	yes
-PHI:I792	PHI:2715	Sexual Spores	reduced
 PHI:I792	PHI:2715	In Vitro Growth	reduced
+PHI:I792	PHI:2715	Sexual Spores	reduced
 PHI:I1049	PHI:2731	In Vitro Growth	reduced
 PHI:I1049	PHI:2731	In Vitro Growth	aberrant
 PHI:I1049	PHI:2731	Vegetative Spores	reduced
@@ -1310,81 +1310,81 @@ PHI:I1103	PHI:2824	In Vitro Growth	defective
 PHI:I1104	PHI:2825	In Vitro Growth	aberrant
 PHI:I1105	PHI:2826	Vegetative Spores	aberrant
 PHI:I1105	PHI:2826	In Vitro Growth	aberrant
-PHI:I1106	PHI:2827	In Vitro Growth	aberrant
 PHI:I1106	PHI:2827	Vegetative Spores	aberrant
+PHI:I1106	PHI:2827	In Vitro Growth	aberrant
 PHI:I1107	PHI:2828	Vegetative Spores	reduced
 PHI:I1110	PHI:2833	In Vitro Growth	wild type
 PHI:I1138	PHI:2851	Mating Defect	no
 PHI:I1138	PHI:2851	In Vitro Growth	wild type
-PHI:I1139	PHI:2852	In Vitro Growth	wild type
 PHI:I1139	PHI:2852	Mating Defect	no
+PHI:I1139	PHI:2852	In Vitro Growth	wild type
 PHI:I1140	PHI:2853	In Vitro Growth	wild type
 PHI:I1140	PHI:2853	Mating Defect	no
 PHI:I1141	PHI:2854	Mating Defect	no
 PHI:I1141	PHI:2854	In Vitro Growth	wild type
 PHI:I1142	PHI:2855	Mating Defect	no
 PHI:I1142	PHI:2855	In Vitro Growth	wild type
-PHI:I1143	PHI:2856	In Vitro Growth	wild type
 PHI:I1143	PHI:2856	Mating Defect	no
+PHI:I1143	PHI:2856	In Vitro Growth	wild type
 PHI:I1156	PHI:2873	In Vitro Growth	wild type
 PHI:I1202	PHI:2892	In Vitro Growth	wild type
-PHI:I1212	PHI:2907	Spore Germination	wild type
-PHI:I1212	PHI:2907	Vegetative Spores	wild type
 PHI:I1212	PHI:2907	In Vitro Growth	wild type
+PHI:I1212	PHI:2907	Vegetative Spores	wild type
+PHI:I1212	PHI:2907	Spore Germination	wild type
 PHI:I1213	PHI:2907	In Vitro Growth	wild type
 PHI:I1213	PHI:2907	Spore Germination	wild type
 PHI:I1213	PHI:2907	Vegetative Spores	wild type
-PHI:I1214	PHI:2907	Spore Germination	wild type
 PHI:I1214	PHI:2907	Vegetative Spores	wild type
+PHI:I1214	PHI:2907	Spore Germination	wild type
 PHI:I1214	PHI:2907	In Vitro Growth	wild type
 PHI:I1215	PHI:2907	In Vitro Growth	wild type
-PHI:I1215	PHI:2907	Spore Germination	wild type
 PHI:I1215	PHI:2907	Vegetative Spores	wild type
+PHI:I1215	PHI:2907	Spore Germination	wild type
+PHI:I1216	PHI:2907	In Vitro Growth	wild type
 PHI:I1216	PHI:2907	Vegetative Spores	wild type
 PHI:I1216	PHI:2907	Spore Germination	wild type
-PHI:I1216	PHI:2907	In Vitro Growth	wild type
-PHI:I1217	PHI:2907	In Vitro Growth	wild type
 PHI:I1217	PHI:2907	Vegetative Spores	wild type
 PHI:I1217	PHI:2907	Spore Germination	wild type
-PHI:I1218	PHI:2907	In Vitro Growth	wild type
+PHI:I1217	PHI:2907	In Vitro Growth	wild type
 PHI:I1218	PHI:2907	Spore Germination	wild type
 PHI:I1218	PHI:2907	Vegetative Spores	wild type
+PHI:I1218	PHI:2907	In Vitro Growth	wild type
 PHI:I1219	PHI:2907	Vegetative Spores	wild type
 PHI:I1219	PHI:2907	Spore Germination	wild type
 PHI:I1219	PHI:2907	In Vitro Growth	wild type
-PHI:I1220	PHI:2910	Vegetative Spores	reduced
 PHI:I1220	PHI:2910	In Vitro Growth	reduced
-PHI:I1221	PHI:2910	In Vitro Growth	reduced
+PHI:I1220	PHI:2910	Vegetative Spores	reduced
 PHI:I1221	PHI:2910	Vegetative Spores	reduced
-PHI:I1222	PHI:2910	Vegetative Spores	reduced
+PHI:I1221	PHI:2910	In Vitro Growth	reduced
 PHI:I1222	PHI:2910	In Vitro Growth	reduced
-PHI:I1223	PHI:2910	Vegetative Spores	reduced
+PHI:I1222	PHI:2910	Vegetative Spores	reduced
 PHI:I1223	PHI:2910	In Vitro Growth	reduced
-PHI:I1224	PHI:2911	In Vitro Growth	reduced
-PHI:I1224	PHI:2911	Penetration	no
-PHI:I1224	PHI:2911	Pre-penetration	yes
+PHI:I1223	PHI:2910	Vegetative Spores	reduced
 PHI:I1224	PHI:2911	Spore Germination	reduced
+PHI:I1224	PHI:2911	Pre-penetration	yes
+PHI:I1224	PHI:2911	Penetration	no
 PHI:I1224	PHI:2911	Vegetative Spores	reduced
 PHI:I1224	PHI:2911	Vegetative Spores	aberrant
-PHI:I1225	PHI:2912	Vegetative Spores	reduced
+PHI:I1224	PHI:2911	In Vitro Growth	reduced
 PHI:I1225	PHI:2912	In Vitro Growth	reduced
+PHI:I1225	PHI:2912	Vegetative Spores	reduced
 PHI:I1226	PHI:2913	Vegetative Spores	reduced
 PHI:I1226	PHI:2913	In Vitro Growth	reduced
-PHI:I1227	PHI:2914	Spore Germination	wild type
-PHI:I1227	PHI:2914	Vegetative Spores	reduced
 PHI:I1227	PHI:2914	In Vitro Growth	reduced
-PHI:I1230	PHI:2920	In Vitro Growth	wild type
-PHI:I1230	PHI:2920	Pre-penetration	yes
-PHI:I1230	PHI:2920	Penetration	yes
+PHI:I1227	PHI:2914	Vegetative Spores	reduced
+PHI:I1227	PHI:2914	Spore Germination	wild type
 PHI:I1230	PHI:2920	Spore Germination	reduced
+PHI:I1230	PHI:2920	Penetration	yes
+PHI:I1230	PHI:2920	Pre-penetration	yes
+PHI:I1230	PHI:2920	In Vitro Growth	wild type
 PHI:I1231	PHI:2920	Penetration	yes
-PHI:I1231	PHI:2920	In Vitro Growth	wild type
 PHI:I1231	PHI:2920	Pre-penetration	yes
 PHI:I1231	PHI:2920	Spore Germination	reduced
+PHI:I1231	PHI:2920	In Vitro Growth	wild type
+PHI:I1232	PHI:2923	Vegetative Spores	reduced
+PHI:I1232	PHI:2923	Penetration	yes
 PHI:I1232	PHI:2923	Pre-penetration	yes
 PHI:I1232	PHI:2923	In Vitro Growth	aberrant
-PHI:I1232	PHI:2923	Penetration	yes
-PHI:I1232	PHI:2923	Vegetative Spores	reduced
 PHI:I1233	PHI:2924	In Vitro Growth	wild type
 PHI:I1234	PHI:2925	In Vitro Growth	wild type
 PHI:I1235	PHI:2926	In Vitro Growth	wild type
@@ -1392,16 +1392,16 @@ PHI:I1236	PHI:2927	In Vitro Growth	wild type
 PHI:I1237	PHI:2929	In Vitro Growth	reduced
 PHI:I1238	PHI:2930	In Vitro Growth	reduced
 PHI:I1239	PHI:2930	In Vitro Growth	reduced
-PHI:I1241	PHI:2932	Vegetative Spores	increased
+PHI:I1241	PHI:2932	Pre-penetration	no
 PHI:I1241	PHI:2932	Penetration	no
+PHI:I1241	PHI:2932	Vegetative Spores	increased
 PHI:I1241	PHI:2932	In Vitro Growth	reduced
 PHI:I1241	PHI:2932	In Vitro Growth	aberrant
-PHI:I1241	PHI:2932	Pre-penetration	no
 PHI:I1242	PHI:2933	Vegetative Spores	increased
+PHI:I1242	PHI:2933	Pre-penetration	no
+PHI:I1242	PHI:2933	Penetration	yes
 PHI:I1242	PHI:2933	In Vitro Growth	reduced
 PHI:I1242	PHI:2933	In Vitro Growth	aberrant
-PHI:I1242	PHI:2933	Penetration	yes
-PHI:I1242	PHI:2933	Pre-penetration	no
 PHI:I1243	PHI:2936	In Vitro Growth	aberrant
 PHI:I1244	PHI:2937	In Vitro Growth	aberrant
 PHI:I1244	PHI:2937	In Vitro Growth	increased
@@ -1409,11 +1409,11 @@ PHI:I1244	PHI:2937	Pre-penetration	yes
 PHI:I1245	PHI:2938	In Vitro Growth	aberrant
 PHI:I1245	PHI:2938	In Vitro Growth	increased
 PHI:I1245	PHI:2938	Pre-penetration	yes
+PHI:I1247	PHI:2940	Vegetative Spores	reduced
 PHI:I1247	PHI:2940	Pre-penetration	no
-PHI:I1247	PHI:2940	In Vitro Growth	reduced
 PHI:I1247	PHI:2940	Penetration	yes
 PHI:I1247	PHI:2940	Spore Germination	wild type
-PHI:I1247	PHI:2940	Vegetative Spores	reduced
+PHI:I1247	PHI:2940	In Vitro Growth	reduced
 PHI:I1257	PHI:2949	In Vitro Growth	wild type
 PHI:I1258	PHI:2950	In Vitro Growth	wild type
 PHI:I1259	PHI:2949	In Vitro Growth	wild type
@@ -1431,30 +1431,30 @@ PHI:I1282	PHI:2971	In Vitro Growth	reduced
 PHI:I1283	PHI:2972	In Vitro Growth	increased
 PHI:I1289	PHI:2976	Vegetative Spores	reduced
 PHI:I1289	PHI:2976	In Vitro Growth	aberrant
-PHI:I1291	PHI:2978	Vegetative Spores	increased
 PHI:I1291	PHI:2978	Spore Germination	wild type
+PHI:I1291	PHI:2978	Vegetative Spores	increased
 PHI:I1291	PHI:2978	In Vitro Growth	wild type
+PHI:I1292	PHI:2978	In Vitro Growth	wild type
 PHI:I1292	PHI:2978	Vegetative Spores	wild type
 PHI:I1292	PHI:2978	Spore Germination	wild type
-PHI:I1292	PHI:2978	In Vitro Growth	wild type
-PHI:I1299	PHI:2987	Vegetative Spores	reduced
 PHI:I1299	PHI:2987	Spore Germination	wild type
 PHI:I1299	PHI:2987	Pre-penetration	no
-PHI:I1300	PHI:2988	Spore Germination	wild type
+PHI:I1299	PHI:2987	Vegetative Spores	reduced
 PHI:I1300	PHI:2988	Vegetative Spores	reduced
 PHI:I1300	PHI:2988	Pre-penetration	no
+PHI:I1300	PHI:2988	Spore Germination	wild type
 PHI:I1301	PHI:2989	Pre-penetration	no
 PHI:I1301	PHI:2989	Vegetative Spores	reduced
 PHI:I1302	PHI:2990	Pre-penetration	no
 PHI:I1302	PHI:2990	Vegetative Spores	reduced
-PHI:I1303	PHI:2991	Vegetative Spores	reduced
 PHI:I1303	PHI:2991	Pre-penetration	no
-PHI:I1304	PHI:2992	Pre-penetration	no
+PHI:I1303	PHI:2991	Vegetative Spores	reduced
 PHI:I1304	PHI:2992	Vegetative Spores	reduced
+PHI:I1304	PHI:2992	Pre-penetration	no
 PHI:I1305	PHI:2994	Vegetative Spores	aberrant
 PHI:I1305	PHI:2994	Pre-penetration	no
-PHI:I1306	PHI:2995	Pre-penetration	no
 PHI:I1306	PHI:2995	Vegetative Spores	aberrant
+PHI:I1306	PHI:2995	Pre-penetration	no
 PHI:I1307	PHI:2996	Pre-penetration	no
 PHI:I1307	PHI:2996	Vegetative Spores	aberrant
 PHI:I1314	PHI:3006	In Vitro Growth	reduced

@@ -1,0 +1,88 @@
+PHI:I1	PHI:5	Penetration	NA
+PHI:I1	PHI:5	Pre-penetration	NA
+PHI:I11	PHI:448	Vegetative Spores	No sporulation
+PHI:I11	PHI:448	In Vitro Growth	Reduced by 20% on solid media, 30% in liquid culture
+PHI:I24	PHI:733	Sexual Spores	No perithecia formation
+PHI:I24	PHI:733	In Vitro Growth	Some impairment
+PHI:I37	PHI:861	Spore Germination	Delayed
+PHI:I37	PHI:861	In Vitro Growth	Slowed
+PHI:I38	PHI:861	Spore Germination	Delayed
+PHI:I38	PHI:861	In Vitro Growth	Slowed
+PHI:I107	PHI:1012	In Vitro Growth	Slightly affected
+PHI:I108	PHI:1013	In Vitro Growth	Slightly affected
+PHI:I109	PHI:1014	In Vitro Growth	Slightly affected
+PHI:I110	PHI:1015	In Vitro Growth	75% of wild type
+PHI:I115	PHI:1078	In Vitro Growth	Slightly reduced
+PHI:I115	PHI:1078	Vegetative Spores	Reduced, altered morphology
+PHI:I117	PHI:1080	Sexual Spores	No forcible discharge
+PHI:I117	PHI:1080	In Vitro Growth	Slowed
+PHI:I118	PHI:1080	Sexual Spores	No forcible discharge
+PHI:I118	PHI:1080	In Vitro Growth	Slowed
+PHI:I121	PHI:1087	Sexual Spores	Perithecial initials only
+PHI:I122	PHI:1088	Sexual Spores	Few
+PHI:I125	PHI:1091	Sexual Spores	Few
+PHI:I128	PHI:1094	Sexual Spores	Perithecial initials only
+PHI:I129	PHI:1095	Sexual Spores	Perithecial initials only
+PHI:I139	PHI:1107	In Vitro Growth	Reduced aerial mycelium
+PHI:I140	PHI:1108	In Vitro Growth	Reduced aerial mycelium
+PHI:I147	PHI:1177	Spore Germination	abberrant
+PHI:I181	PHI:1212	Spore Germination	abberrant
+PHI:I257	PHI:2025	Spore Germination	wildtype
+PHI:I258	PHI:2027	Spore Germination	wildtype
+PHI:I259	PHI:2028	Spore Germination	wildtype
+PHI:I260	PHI:2029	Spore Germination	wildtype
+PHI:I261	PHI:2030	Spore Germination	wildtype
+PHI:I262	PHI:2030	Spore Germination	wildtype
+PHI:I263	PHI:2032	Spore Germination	wildtype
+PHI:I278	PHI:2126	In Vitro Growth	wildtype
+PHI:I279	PHI:2127	In Vitro Growth	wildtype
+PHI:I301	PHI:2233	In Vitro Growth	aberrant, enhanced
+PHI:I325	PHI:2271	Spore Germination	wildtype
+PHI:I326	PHI:2272	In Vitro Growth	wildtype
+PHI:I326	PHI:2272	Spore Germination	wildtype
+PHI:I326	PHI:2272	Vegetative Spores	wildtype
+PHI:I336	PHI:2282	Spore Germination	wildtype
+PHI:I338	PHI:2284	Spore Germination	wildtype
+PHI:I339	PHI:2284	Spore Germination	wildtype
+PHI:I340	PHI:2284	Spore Germination	wildtype
+PHI:I342	PHI:2294	In Vitro Growth	wildtype
+PHI:I343	PHI:2294	In Vitro Growth	wildtype
+PHI:I344	PHI:2295	Vegetative Spores	wildtype
+PHI:I344	PHI:2295	In Vitro Growth	wildtype
+PHI:I345	PHI:2295	In Vitro Growth	wildtype
+PHI:I345	PHI:2295	Vegetative Spores	wildtype
+PHI:I346	PHI:2295	In Vitro Growth	wildtype
+PHI:I346	PHI:2295	Vegetative Spores	wildtype
+PHI:I347	PHI:2295	In Vitro Growth	wildtype
+PHI:I347	PHI:2295	Vegetative Spores	wildtype
+PHI:I348	PHI:2298	Vegetative Spores	wildtype
+PHI:I349	PHI:2307	Vegetative Spores	wildtype
+PHI:I349	PHI:2307	In Vitro Growth	wildtype
+PHI:I350	PHI:2308	Spore Germination	wildtype
+PHI:I351	PHI:2308	Spore Germination	wildtype
+PHI:I352	PHI:2308	Spore Germination	wildtype
+PHI:I353	PHI:2309	Spore Germination	wildtype
+PHI:I354	PHI:2311	In Vitro Growth	enhanced
+PHI:I354	PHI:2311	Spore Germination	enhanced
+PHI:I355	PHI:2312	In Vitro Growth	enhanced
+PHI:I355	PHI:2312	Spore Germination	enhanced
+PHI:I356	PHI:2313	In Vitro Growth	enhanced
+PHI:I356	PHI:2313	Spore Germination	enhanced
+PHI:I359	PHI:2315	In Vitro Growth	enhanced
+PHI:I360	PHI:2315	In Vitro Growth	enhanced
+PHI:I361	PHI:2316	Vegetative Spores	enhanced
+PHI:I362	PHI:2316	Vegetative Spores	enhanced
+PHI:I363	PHI:2316	In Vitro Growth	enhanced
+PHI:I364	PHI:2316	In Vitro Growth	enhanced
+PHI:I367	PHI:2323	Vegetative Spores	enhanced
+PHI:I390	PHI:2344	Vegetative Spores	enhanced
+PHI:I391	PHI:2344	Vegetative Spores	enhanced
+PHI:I403	PHI:2361	Spore Germination	enhanced
+PHI:I404	PHI:2361	Spore Germination	enhanced
+PHI:I406	PHI:2365	Vegetative Spores	enhanced
+PHI:I449	PHI:2385	Sexual Spores	enhanced
+PHI:I449	PHI:2385	In Vitro Growth	enhanced
+PHI:I490	PHI:2418	Spore Germination	wildtype
+PHI:I491	PHI:2419	Spore Germination	wildtype
+PHI:I562	PHI:2476	In Vitro Growth	wildtype
+PHI:I637	PHI:2562	Spore Germination	wildtype
