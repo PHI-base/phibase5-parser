@@ -4094,3 +4094,2576 @@ wild type
 wild type
 
 
+
+
+
+
+
+
+
+
+Heat sensitive
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+Reduced
+
+
+
+
+
+
+
+
+
+
+Wild type
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+
+
+
+
+
+
+
+
+
+Arginine auxotroph
+
+
+
+Different colony morphology
+Different colony morphology
+
+
+
+
+
+
+Unable to switch from budding to mycelial growth
+
+Wild type
+
+
+
+Wild type
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+Mating efficiency reduced
+
+
+
+
+
+
+
+Reduced
+Wild type
+Wild type
+
+Wild type
+beige colonies
+
+
+
+
+
+Reduced
+
+
+Wild type
+
+Wild type
+Wild type
+
+
+
+Unable to metabolise acetate and fatty acids
+
+Wild type
+
+Reduced
+Reduced on solid media
+
+
+
+
+
+
+Altered cell morphology
+
+delayed
+
+
+
+
+
+Wild type
+Wild type
+unaffected
+unaffected
+unaffected
+Reduced on pectin
+Reduced on pectin
+unaffected
+Reduced on pectin
+
+
+Reduced
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+increased
+
+Wild type
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+Mating, pheromone response and filamentation defects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced by 20% on solid media, 30% in liquid culture
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unaffected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reduced
+reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normal growth rate.
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Heat sensitive
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+Reduced
+
+
+
+
+
+
+
+
+
+
+Wild type
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+
+
+
+
+
+
+
+
+
+Arginine auxotroph
+
+
+
+Different colony morphology
+Different colony morphology
+
+
+
+
+
+
+Unable to switch from budding to mycelial growth
+
+Wild type
+
+
+
+Wild type
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+Mating efficiency reduced
+
+
+
+
+
+
+
+Reduced
+Wild type
+Wild type
+
+Wild type
+beige colonies
+
+
+
+
+
+Reduced
+
+
+Wild type
+
+Wild type
+Wild type
+
+
+
+Unable to metabolise acetate and fatty acids
+
+Wild type
+
+Reduced
+Reduced on solid media
+
+
+
+
+
+
+Altered cell morphology
+
+delayed
+
+
+
+
+
+Wild type
+Wild type
+unaffected
+unaffected
+unaffected
+Reduced on pectin
+Reduced on pectin
+unaffected
+Reduced on pectin
+
+
+Reduced
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+increased
+
+Wild type
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+
+
+
+Mating, pheromone response and filamentation defects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced by 20% on solid media, 30% in liquid culture
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unaffected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reduced
+reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normal growth rate.
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+unaffected
+unaffected
+unaffected
+unaffected
+unaffected
+unaffected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+unaffected
+unaffected
+unaffected
+unaffected
+reduced on solid medium, not in liquid medium
+reduced on solid medium, not in liquid medium
+
+
+unaffected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reduced
+reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+Wild type
+Wild type
+Wild type
+Wild type
+Wild type
+Wild type
+Wild type
+Wild type
+Wild type
+Wild type
+Wild type
+
+Reduced aerial hyphae
+Reduced aerial hyphae
+Reduced aerial hyphae
+Wild-type
+Wild-type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wild type
+Wild type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+unaffected
+
+
+unaffected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No
+
+
+
+
+
+
+unaffected
+unaffected
+unaffected
+unaffected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Some impairment
+
+
+
+
+
+
+
+
+
+
+Defective
+Defective  on minimal media
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Slowed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Slowed
+Slowed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Slightly affected
+Slightly affected
+Slightly affected
+75% of wild type
+
+
+
+
+
+
+
+wt in liquid; reduced on plate
+
+Slightly reduced
+Slightly reduced
+Slightly reduced
+Slightly reduced
+Slightly reduced
+Reduced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+Reduced
+Reduced
+Reduced
+WT
+WT
+Hyperbranching
+Hyperbranching
+WT
+WT
+reduced by up to 40%
+unaffected
+Slowed
+altered hyphal morphology
+Slightly reduced until 48h
+Slightly reduced until 48h
+
+
+
+Slightly faster
+Slightly faster
+
+
+unaffected
+
+unaffected
+Altered morphology
+
+
+
+
+
+
+
+
+
+altered hyphal morphology
+altered hyphal morphology
+altered hyphal morphology
+wild type
+wild type
+Slightly reduced
+
+Slowed
+Slowed
+
+Slightly reduced
+Unaffected
+
+
+Unaffected
+Unaffected
+Unaffected
+Unaffected
+Reduced
+Unaffected
+Unaffected
+Unaffected
+Unaffected
+Unaffected
+Unaffected
+Unaffected
+Unaffected
+Reduced on mannitol
+Unable to grow on mannitol
+
+
+
+
+
+
+Reduced aerial mycelium
+Reduced aerial mycelium
+
+
+
+Yeast like cells defective
+Yeast like cells defective, defective hyphal growth
+Yeast-like cells thick
+Yeast-like cells slightly short
+Yeast like cells thick
+
+
+
+
+
+
+
+No sporulation
+
+
+
+
+
+
+
+
+
+
+Slow germination rate. Increased sporulation
+
+
+
+
+
+
+
+
+
+
+
+
+Reduced
+
+
+
+
+
+
+
+
+
+
+unaffected
+
+
+reduced
+reduced
+reduced
+reduced
+reduced
+wild type
+
+
+reduced
+reduced
+reduced
+wild type
+wild type
+reduced
+no data found
+reduced
+no data found
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+increased
+increased
+reduced
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+aberrant
+wild type
+wild type
+wild type
+reduced
+wild type
+reduced
+reduced
+reduced
+wild type
+wild type
+reduced
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+reduced
+reduced
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+reduced
+reduced
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+
+
+wild type
+wild type
+reduced
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+reduced
+
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+
+reduced
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+
+
+wild type
+wild type
+wild type
+
+
+wild type
+wild type
+wild type
+wild type
+
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+increased
+wild type
+wild type
+wild type
+
+
+wild type
+wild type
+increased
+wild type
+wild type
+reduced
+reduced
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+
+wild type
+wild type
+
+wild type
+wild type
+wild type
+
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+increased
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+reduced
+reduced
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+
+wild type
+wild type
+wild type
+wild type
