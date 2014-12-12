@@ -111,19 +111,26 @@ print "Inserting data for valid Fusarium graminearum annotations into PHI-base v
 
 # open output files
 my $defect_filename = './output/phibase_defects.tsv';
-my $invalid_defect_filename = './output/phibase_invalid_defects.tsv';
+my $invalid_defect_filename = './error/phibase_invalid_defects.tsv';
 my $go_with_evid_filename = './output/phibase_go_with_evid.tsv';
 my $go_without_evid_filename = './output/phibase_go_without_evid.tsv';
-my $invalid_go_filename = './output/phibase_invalid_go.tsv';
+my $invalid_go_filename = './error/phibase_invalid_go.tsv';
 my $exp_spec_term_filename = './output/phibase_exp_spec_terms.tsv';
-my $invalid_exp_spec_filename = './output/phibase_invalid_exp_specs.tsv';
+my $invalid_exp_spec_filename = './error/phibase_invalid_exp_specs.tsv';
 my $host_res_term_filename = './output/phibase_host_response_terms.tsv';
-my $invalid_host_res_filename = './output/phibase_invalid_host_responses.tsv';
+my $invalid_host_res_filename = './error/phibase_invalid_host_responses.tsv';
 my $phen_outcome_term_filename = './output/phibase_phenotype_outcome_terms.tsv';
-my $invalid_phen_outcome_filename = './output/phibase_invalid_phenotype_outcomes.tsv';
+my $invalid_phen_outcome_filename = './error/phibase_invalid_phenotype_outcomes.tsv';
 my $disease_term_filename = './output/phibase_disease_terms.tsv';
-my $invalid_disease_filename = './output/phibase_invalid_diseases.tsv';
-my $without_disease_filename = './output/phibase_without_diseases.tsv';
+my $invalid_disease_filename = './error/phibase_invalid_diseases.tsv';
+my $without_disease_filename = './error/phibase_without_diseases.tsv';
+my $invalid_required_data_filename = './error/phibase_invalid_required_data.tsv';
+my $invalid_path_taxon_filename = './error/phibase_invalid_path_taxon_ids.tsv';
+my $invalid_host_taxon_filename = './error/phibase_invalid_host_taxon_ids.tsv';
+my $invalid_literature_filename = './error/phibase_invalid_literature.tsv';
+my $invalid_uniprot_filename = './error/phibase_invalid_uniprot_acc.tsv';
+my $invalid_gene_name_filename = './error/phibase_invalid_gene_names.tsv';
+my $invalid_curator_filename = './error/phibase_invalid_curators.tsv';
 open (DEFECT_FILE, "> $defect_filename") or die "Error opening output file\n";
 open (INVALID_DEFECT_FILE, "> $invalid_defect_filename") or die "Error opening output file\n";
 open (GO_WITH_EVID_FILE, "> $go_with_evid_filename") or die "Error opening output file\n";
@@ -138,6 +145,13 @@ open (INVALID_PHEN_OUTCOME_FILE, "> $invalid_phen_outcome_filename") or die "Err
 open (DISEASE_TERM_FILE, "> $disease_term_filename") or die "Error opening output file\n";
 open (INVALID_DISEASE_FILE, "> $invalid_disease_filename") or die "Error opening output file\n";
 open (WITHOUT_DISEASE_FILE, "> $without_disease_filename") or die "Error opening output file\n";
+open (INVALID_REQUIRED_DATA_FILE, "> $invalid_required_data_filename") or die "Error opening output file\n";
+open (INVALID_PATH_TAXON_FILE, "> $invalid_path_taxon_filename") or die "Error opening output file\n";
+open (INVALID_HOST_TAXON_FILE, "> $invalid_host_taxon_filename") or die "Error opening output file\n";
+open (INVALID_LITERATURE_FILE, "> $invalid_literature_filename") or die "Error opening output file\n";
+open (INVALID_UNIPROT_FILE, "> $invalid_uniprot_filename") or die "Error opening output file\n";
+open (INVALID_GENE_NAME_FILE, "> $invalid_gene_name_filename") or die "Error opening output file\n";
+open (INVALID_CURATOR_FILE, "> $invalid_curator_filename") or die "Error opening output file\n";
 
 # first line gives the spreadsheet column headings
 chomp(my $col_header_line = <TSV_FILE>);
@@ -196,6 +210,13 @@ my $disease_count = 0;
 my $disease_term_count = 0;
 my $invalid_disease_count = 0;
 my $without_disease_count = 0;
+my $invalid_required_data_count = 0;
+my $invalid_path_taxon_id_count = 0;
+my $invalid_host_taxon_id_count = 0;
+my $invalid_literature_count = 0;
+my $invalid_uniprot_acc_count = 0;
+my $invalid_gene_name_count = 0;
+my $invalid_curator_count = 0;
 
 # go through each of the remaining lines of the TSV file (each representing a single annotation)
 # save the values of each column to the approriate output file
@@ -218,7 +239,7 @@ while (<TSV_FILE>) {
    foreach my $phi_value (@phi_array) {
 
       # add data to output file for the individual column
-      open (COLUMN_FILE, ">> ./output/column_".$column_mapping{$new_col_headers[$column_num]}.".txt")
+      open (COLUMN_FILE, ">> ./output/column/spreadsheet_column_".$column_mapping{$new_col_headers[$column_num]}.".txt")
          or die "Error opening output file\n";
       print COLUMN_FILE "$phi_value\n";
 
@@ -279,7 +300,7 @@ while (<TSV_FILE>) {
           and $required_fields_annot{"host_tax"} =~ /^\d+$/  # taxon ID must be an integer
           and $required_fields_annot{"literature_id"} ne ""
           and $required_fields_annot{"entered_by"} ne ""
-          and $required_fields_annot{"db_type"} eq "Uniprot"
+          and lc $required_fields_annot{"db_type"} eq "uniprot"
           and lc $required_fields_annot{"literature_source"} eq "pubmed"
           and $required_fields_annot{"patho_tax"} =~ /^\d+$/  # taxon ID must be an integer
           #and $required_fields_annot{"patho_tax"} == 5518  # taxon ID for Fusarium gram
@@ -976,12 +997,79 @@ while (<TSV_FILE>) {
 
         } # end else multiple mutation
 
-     } # end if required criteria met and pathogen id = fusarium gram 
+     } else { # required data criteria not met, so find out which data are invalid 
 
-     # TODO: ELSE (REQURIED FIELDS CRITERIA NOT MET - OUTPUT PHI-BASE ACCESSIONS TO SEPARATE FILE)
-     # ALSO POSSIBLE ADD ADDITIONAL IF STATEMENTS TO IDENTIFY EXACTLY WHAT THE PROLEM(S) MAY BE
-     # SEPERATE IFs FOR EACH CRITERIA (RATHER THAN ONE IF ELSE), SO THAT ANY PHI-BASE ENTRY
-     # WITH MULTIPLE PROBLEMS CAN HAVE ALL OF THOSE PROBLEMS IDENTIFIED (BY BEING PRESENT IN EACH OF THE ERROR FILES)
+        # The conditional statements below identify which field(s) are invalid for this PHI-base entry
+        # Note that multiple problems may be associated with an individual annotation
+  
+        # add to general file of PHI-base accessions with invalid data
+        $invalid_required_data_count++;
+        print INVALID_REQUIRED_DATA_FILE "$required_fields_annot{'phi_base_acc'}\n";
+
+        # detect invalid pathogen taxon ID
+        if (not defined $required_fields_annot{'patho_tax'}
+            or $required_fields_annot{'patho_tax'} eq "") {
+           $invalid_path_taxon_id_count++;
+           print INVALID_PATH_TAXON_FILE "$required_fields_annot{'phi_base_acc'}\n";
+        } elsif ($required_fields_annot{'patho_tax'} !~ /^\d+$/) {
+           $invalid_path_taxon_id_count++;
+           print INVALID_PATH_TAXON_FILE "$required_fields_annot{'phi_base_acc'}\t$required_fields_annot{'patho_tax'}\n";
+        }
+
+        # detect invalid host taxon ID
+        if (not defined $required_fields_annot{'host_tax'}
+            or $required_fields_annot{'host_tax'} eq "") {
+           $invalid_host_taxon_id_count++;
+           print INVALID_HOST_TAXON_FILE "$required_fields_annot{'phi_base_acc'}\n";
+        } elsif ($required_fields_annot{'host_tax'} !~ /^\d+$/) {
+           $invalid_host_taxon_id_count++;
+           print INVALID_HOST_TAXON_FILE "$required_fields_annot{'phi_base_acc'}\t$required_fields_annot{'host_tax'}\n";
+        }
+
+        # detect invalid PubMed ID
+        if (not defined $required_fields_annot{'literature_id'} 
+            or not defined $required_fields_annot{'literature_source'}
+            or $required_fields_annot{'literature_id'} eq ""
+            or $required_fields_annot{'literature_source'} eq "") {
+           $invalid_literature_count++;
+           print INVALID_LITERATURE_FILE "$required_fields_annot{'phi_base_acc'}\n";
+        } elsif (lc $required_fields_annot{'literature_source'} ne "pubmed") {
+           $invalid_literature_count++;
+           print INVALID_LITERATURE_FILE "$required_fields_annot{'phi_base_acc'}\t$required_fields_annot{'literature_source'}\t$required_fields_annot{'literature_id'}\n";
+        }
+
+        # detect invalid UniProt accession
+        if (not defined $required_fields_annot{'db_type'} 
+            or not defined $required_fields_annot{'accession'}
+            or $required_fields_annot{'db_type'} eq ""
+            or $required_fields_annot{'accession'} eq "") {
+           $invalid_uniprot_acc_count++;
+           print INVALID_UNIPROT_FILE "$required_fields_annot{'phi_base_acc'}\n";
+        } elsif (lc $required_fields_annot{'db_type'} ne "uniprot") { # database must be UniProt
+           $invalid_uniprot_acc_count++;
+           print INVALID_UNIPROT_FILE "$required_fields_annot{'phi_base_acc'}\t$required_fields_annot{'db_type'}\t$required_fields_annot{'accession'}\n";
+        } elsif ( not ($required_fields_annot{'accession'} =~ /^[a-zA-Z\d]{6}$/ # UniProt entry must be either 6 or 10 alphanumeric characters
+                        or $required_fields_annot{'accession'} =~ /^[a-zA-Z\d]{10}$/) ) {
+           $invalid_uniprot_acc_count++;
+           print INVALID_UNIPROT_FILE "$required_fields_annot{'phi_base_acc'}\t$required_fields_annot{'db_type'}\t$required_fields_annot{'accession'}\n";
+        }
+
+        # detect if no gene name is given
+        if (not defined $required_fields_annot{'gene_name'} 
+            or $required_fields_annot{'gene_name'} eq "") {
+           $invalid_gene_name_count++;
+           print INVALID_GENE_NAME_FILE "$required_fields_annot{'phi_base_acc'}\n";
+        }
+
+        # detect if no curator is provided
+        if (not defined $required_fields_annot{'entered_by'} 
+            or $required_fields_annot{'entered_by'} eq "") {
+           $invalid_curator_count++;
+           print INVALID_CURATOR_FILE "$required_fields_annot{'phi_base_acc'}\n";
+        }
+
+
+     }
 
    } else { # else PHI-base accession does not exist, or is not valid
 
@@ -1113,7 +1201,16 @@ print "Total phenotype outcome terms for F gram: $phenotype_outcome_term_count\n
 print "Invalid phenotype outcomes for F gram: $invalid_phenotype_outcome_count\n";
 print "Total disease terms for F gram: $disease_term_count\n";
 print "Invalid disease terms for F gram: $invalid_disease_count\n";
-print "Annotations without disease terms for F gram: $without_disease_count\n";
+print "Annotations without disease terms for F gram: $without_disease_count\n\n";
+
+print "Total annotations with invalid required data: $invalid_required_data_count\n";
+print "Annotations without a valid pathogen taxon ID: $invalid_path_taxon_id_count\n";
+print "Annotations without a valid host taxon ID: $invalid_host_taxon_id_count\n";
+print "Annotations without a valid PubMed ID: $invalid_literature_count\n";
+print "Annotations without a valid UniProt accession: $invalid_uniprot_acc_count\n";
+print "Annotations without a gene name: $invalid_gene_name_count\n";
+print "Annotations without a curator: $invalid_curator_count\n\n";
+
 print "Total annotations retrieved from database: $annotation_count\n\n";
 
 print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
@@ -1133,6 +1230,15 @@ print "Output file of phenotype outcome annotations from fusarium graminearum: $
 print "Output file of invalid phenotype outcomes from fusarium graminearum: $invalid_phen_outcome_filename\n";
 print "Output file of disease annotations from fusarium graminearum: $disease_term_filename\n";
 print "Output file of invalid diseases from fusarium graminearum: $invalid_disease_filename\n";
-print "Output file of annotation without a diseases from fusarium graminearum: $without_disease_filename\n";
+print "Output file of annotation without a diseases from fusarium graminearum: $without_disease_filename\n\n";
+
+print "Output file of all PHI-base annotations with invalid required data: $invalid_required_data_filename\n";
+print "Output file of annotations with invalid pathogen taxon ID: $invalid_path_taxon_filename\n";
+print "Output file of annotations with invalid host taxon ID: $invalid_host_taxon_filename\n";
+print "Output file of annotations with invalid PubMed ID: $invalid_literature_filename\n";
+print "Output file of annotations with invalid UniProt accession: $invalid_uniprot_filename\n";
+print "Output file of annotations without a Gene Name: $invalid_gene_name_filename\n";
+print "Output file of annotations without a curator: $invalid_gene_name_filename\n\n";
+
 print "Tab-separated file of all PHI-base data inserted into relevant tables: $db_data_filename\n\n";
 
