@@ -1,0 +1,96 @@
+altered gene expression / gene regulation	ESO:0000024
+Altered gene expression / gene regulation	ESO:0000024
+altered gene expression / gene regulation; complementation	ESO:0000024;ESO:0000007
+altered gene expression / gene regulation: down- and upregulation	ESO:0000012;ESO:0000011
+altered gene expression / gene regulation: downregulation	ESO:0000012
+Altered gene expression/ gene regulation: down regulation	ESO:0000012
+altered gene expression / gene regulation; Gene disruption	ESO:0000024;ESO:0000001
+altered gene expression / gene regulation: overexpression	ESO:0000011
+altered gene expression/ gene regulation: overexpression	ESO:0000011
+Altered gene expression / gene regulation: overexpression	ESO:0000011
+Altered gene expression/ gene regulation: overexpression	ESO:0000011
+Altered gene expression / gene regulation: overexpression; Functional test in host	ESO:0000011;ESO:0000006
+altered gene expression / gene regulation: silencing	ESO:0000013
+altered gene expression/ gene regulation: silencing	ESO:0000013
+altered gene expression/gene regulation: silencing	ESO:0000013
+Altered gene expression/ gene regulation: silencing	ESO:0000013
+biochemical analysis	ESO:0000005
+Biochemical analysis	ESO:0000005
+biochemical analysis; mutation: characterised	ESO:0000005;ESO:0000016
+biochemical analysis; mutation: characterised; complementation	ESO:0000005;ESO:0000016;ESO:0000007
+Chemical complementation	ESO:0000007
+complementation	ESO:0000007
+functional test in host	ESO:0000006
+Functional test in host	ESO:0000006
+Functional test in host: dipping	ESO:0000006
+functional test in host: direct injection	ESO:0000014
+Functional test in host: direct injection	ESO:0000014
+functional test in host: transient expression	ESO:0000015
+Functional test in host: transient expression	ESO:0000015
+Functional test in host: transinet expression	ESO:0000015
+Gene complementation	ESO:0000007
+gene deletion	ESO:0000002
+Gene deletion	ESO:0000002
+gene deletion; altered gene expression / gene regulation: overexpression	ESO:0000002;ESO:0000011
+gene deletion; biochemical analysis	ESO:0000002;ESO:0000005
+gene deletion; complementation	ESO:0000002;ESO:0000007
+gene deletion; complementation; biochemical evidence	ESO:0000002;ESO:0000007;ESO:0000005
+gene deletion: full	ESO:0000002
+Gene deletion: full	ESO:0000002
+Gene deletion: Full	ESO:0000002
+Gene deletion: full; chemical complementation	ESO:0000002;ESO:0000007
+Gene deletion: full; complementation	ESO:0000002;ESO:0000007
+Gene deletion: full;  Gene complementation	ESO:0000002;ESO:0000007
+Gene deletion: full; Gene complementation;	ESO:0000002;ESO:0000007
+Gene deletion: full; Gene complementation	ESO:0000002;ESO:0000007
+Gene deletion: Full; Gene complementation	ESO:0000002;ESO:0000007
+Gene deletion: full; heterologous expression
+Gene deletion; Gene complementation	ESO:0000002;ESO:0000007
+Gene deletion; partial	ESO:0000002
+Gene deletion: partial	ESO:0000002
+Gene deletion: partial; complementation	ESO:0000002;ESO:0000007
+Gene deletion; partial; Gene complementation	ESO:0000002;ESO:0000007
+Gene deletion: partial; Gene complementation	ESO:0000002;ESO:0000007
+Gene deletion: partial; Gene Complementation	ESO:0000002;ESO:0000007
+Gene Disprution; Gene complementation	ESO:0000001;ESO:0000007
+gene disruption	ESO:0000001
+Gene disruption	ESO:0000001
+gene disruption; altered gene expression / gene regulation: overexpression	ESO:0000001;ESO:0000011
+gene disruption; altered gene expression / gene regulation: overexpression; complementation	ESO:0000001;ESO:0000011;ESO:0000007
+gene disruption; complementation	ESO:0000001;ESO:0000007
+gene disruption; complementation; other evidence	ESO:0000001;ESO:0000007;ESO:0000010
+Gene disruption; gene complementation	ESO:0000001;ESO:0000007
+Gene disruption; Gene complementation	ESO:0000001;ESO:0000007
+Gene disruption: Gene complementation	ESO:0000001;ESO:0000007
+Gene disruption; Gene Complementation	ESO:0000001;ESO:0000007
+Gene Disruption; Gene complementation	ESO:0000001;ESO:0000007
+gene disruption; gene deletion	ESO:0000001;ESO:0000002
+gene disruption; gene deletion; complementation	ESO:0000001;ESO:0000002;ESO:0000007
+Gene disruption; Gene deletion: full; gene complementation	ESO:0000001;ESO:0000002;ESO:0000007
+gene disruption; gene mutation: characterised	ESO:0000001;ESO:0000016
+gene disruption; other evidence	ESO:0000001;ESO:0000010
+Gene mutation	ESO:0000019
+Gene mutation: characterised	ESO:0000016
+Gene mutation: characterised; gene complementation	ESO:0000016;ESO:0000007
+Gene mutation characterised; Gene complementation	ESO:0000016;ESO:0000007
+Gene mutation: characterised;  Gene complementation	ESO:0000016;ESO:0000007
+Gene mutation: characterised; Gene complementation	ESO:0000016;ESO:0000007
+Gene mutation: characterised: Gene complementation	ESO:0000016;ESO:0000007
+Gene mutation: characterized	ESO:0000016
+Gene mutation; gene complementation	ESO:0000019;ESO:0000007
+Gene mutation; Gene complementation	ESO:0000019;ESO:0000007
+Gene mutation; Gene deletion: full	ESO:0000019;ESO:0000002
+Gene mutation: uncharacterised	ESO:0000019
+Insertional mutagenesis screen for pathogenicity mutants of Magnaporthe grisea obtained via Agrobacterium tumefaciens -mediated transformation (ATMT )
+mutation	ESO:0000019
+mutation: characterised	ESO:0000016
+mutation: characterised; complementation	ESO:0000016;ESO:0000007
+no data found
+other evidence	ESO:0000010
+Promoter mutation
+promotor mutation; gene complementation
+sequence analysis of sensitive and resistant strains	ESO:0000017
+Sexual cross, sequencing of resistance conferring allel	ESO:0000018
+sexual cross, sequencing of resistance conferring allele	ESO:0000018
+Sexual cross, sequencing of resistance conferring allele	ESO:0000018
+T-DNA insertional mutagenesis
