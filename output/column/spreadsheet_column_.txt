@@ -28679,3 +28679,2618 @@ PHI:1834
 5518
 Gibberella zeae (related: Fusarium graminearum)
 Monocot
+PHI:3
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:7
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:12
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:14
+
+5207
+Cryptococcus neoformans
+
+PHI:14
+
+5207
+Cryptococcus neoformans
+
+PHI:15
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:17
+
+5482
+Candida tropicalis
+
+PHI:18
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:19
+
+5207
+Cryptococcus neoformans
+
+PHI:22
+
+5270
+Ustilago maydis
+Monocot
+PHI:24
+
+29850
+Gaeumannomyces graminis
+Monocot
+PHI:24
+
+29850
+Gaeumannomyces graminis
+Monocot
+PHI:25
+
+5022
+Leptosphaeria maculans
+Dicot
+PHI:26
+
+5476
+Candida albicans
+
+PHI:27
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:27
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:31
+
+5476
+Candida albicans
+
+PHI:33
+
+5476
+Candida albicans
+
+PHI:35
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:36
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:37
+
+5270
+Ustilago maydis
+Monocot
+PHI:38
+
+38038
+Rhynchosporium secalis
+Monocot
+PHI:39
+
+67593
+Phytophthora sojae
+Dicot
+PHI:40
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:41
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:42
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Dicot
+PHI:47
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:49
+
+5116
+Cryphonectria parasitica
+Dicot
+PHI:52
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:52
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:53
+
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:55
+
+5016
+Cochliobolus heterostrophus
+Monocot
+PHI:56
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:57
+
+5270
+Ustilago maydis
+Monocot
+PHI:58
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:59
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:60
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:61
+
+5476
+Candida albicans
+
+PHI:62
+
+5476
+Candida albicans
+
+PHI:65
+
+5116
+Cryphonectria parasitica
+Dicot
+PHI:66
+
+5476
+Candida albicans
+
+PHI:67
+
+5476
+Candida albicans
+
+PHI:68
+
+5476
+Candida albicans
+
+PHI:68
+
+5476
+Candida albicans
+
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:70
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:71
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:71
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:72
+
+5476
+Candida albicans
+
+PHI:72
+
+5476
+Candida albicans
+
+PHI:73
+
+5476
+Candida albicans
+
+PHI:73
+
+5476
+Candida albicans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:76
+
+5270
+Ustilago maydis
+Monocot
+PHI:77
+
+5270
+Ustilago maydis
+Monocot
+PHI:78
+
+5270
+Ustilago maydis
+Monocot
+PHI:79
+
+5270
+Ustilago maydis
+Monocot
+PHI:80
+
+5476
+Candida albicans
+
+PHI:81
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:82
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:83
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:84
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:85
+
+5476
+Candida albicans
+
+PHI:86
+PHI:87
+5476
+Candida albicans
+
+PHI:87
+PHI:86
+5476
+Candida albicans
+
+PHI:87
+
+5476
+Candida albicans
+
+PHI:88
+
+5059
+Aspergillus flavus
+Dicot
+PHI:89
+
+5207
+Cryptococcus neoformans
+
+PHI:95
+
+5476
+Candida albicans
+
+PHI:96
+
+5476
+Candida albicans
+
+PHI:96
+
+5476
+Candida albicans
+
+PHI:97
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:98
+
+5270
+Ustilago maydis
+Monocot
+PHI:99
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:100
+
+5270
+Ustilago maydis
+Monocot
+PHI:101
+
+746128
+Aspergillus fumigatus
+
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:104
+
+5476
+Candida albicans
+
+PHI:104
+
+5476
+Candida albicans
+
+PHI:105
+
+5476
+Candida albicans
+
+PHI:106
+
+5476
+Candida albicans
+
+PHI:107
+
+5476
+Candida albicans
+
+PHI:109
+
+290576
+Colletotrichum lindemuthianum
+Dicot
+PHI:111
+
+4787
+Phytophthora infestans
+Dicot
+PHI:112
+
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:113
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:114
+
+5507
+Fusarium oxysporum
+Dicot
+PHI:115
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:116
+
+746128
+Aspergillus fumigatus
+
+PHI:120
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:121
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:122
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:123
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:124
+
+5476
+Candida albicans
+
+PHI:125
+PHI:126; PHI:127
+5476
+Candida albicans
+
+PHI:125
+PHI:126; PHI:127
+5476
+Candida albicans
+
+PHI:126
+PHI:125; PHI:127
+5476
+Candida albicans
+
+PHI:126
+PHI:125; PHI:127
+5476
+Candida albicans
+
+PHI:127
+PHI:125; PHI:126
+5476
+Candida albicans
+
+PHI:127
+PHI:125; PHI:126
+5476
+Candida albicans
+
+PHI:128
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:129
+
+5207
+Cryptococcus neoformans
+
+PHI:130
+
+5476
+Candida albicans
+
+PHI:131
+
+5514
+Fusarium sporotrichioides
+Monocot
+PHI:132
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:133
+
+5599
+Alternaria alternata
+Dicot
+PHI:134
+
+5599
+Alternaria alternata
+Dicot
+PHI:135
+
+5039
+Blastomyces dermatitidis
+
+PHI:136
+
+5476
+Candida albicans
+
+PHI:136
+
+5476
+Candida albicans
+
+PHI:136
+
+5476
+Candida albicans
+
+PHI:136
+
+5476
+Candida albicans
+
+PHI:138
+
+5476
+Candida albicans
+
+PHI:139
+
+5207
+Cryptococcus neoformans
+
+PHI:140
+
+5476
+Candida albicans
+
+PHI:141
+
+84275
+Cercospora kikuchii
+Dicot
+PHI:142
+
+5016
+Cochliobolus heterostrophus
+Monocot
+PHI:143
+
+5563
+Gloeocercospora sorghi
+Monocot
+PHI:144
+
+29875
+Trichoderma virens
+
+PHI:146
+
+5466
+Colletotrichum trifolii
+Dicot
+PHI:149
+
+5476
+Candida albicans
+
+PHI:151
+
+5270
+Ustilago maydis
+Monocot
+PHI:153
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:156
+
+5207
+Cryptococcus neoformans
+
+PHI:156
+
+5207
+Cryptococcus neoformans
+
+PHI:157
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:158
+
+5270
+Ustilago maydis
+Monocot
+PHI:159
+
+5037
+Histoplasma capsulatum
+
+PHI:160
+
+5599
+Alternaria alternata
+Dicot
+PHI:161
+
+40559
+Botrytis cinerea
+Dicot
+PHI:161
+
+40559
+Botrytis cinerea
+Dicot
+PHI:161
+
+40559
+Botrytis cinerea
+Dicot
+PHI:162
+
+5476
+Candida albicans
+
+PHI:163
+
+5037
+Histoplasma capsulatum
+
+PHI:164
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:165
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:166
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:166
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:167
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:167
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:169
+
+290576
+Colletotrichum lindemuthianum
+Dicot
+PHI:170
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:172
+
+5476
+Candida albicans
+
+PHI:173
+
+5466
+Colletotrichum trifolii
+Dicot
+PHI:174
+
+5476
+Candida albicans
+
+PHI:175
+
+5476
+Candida albicans
+
+PHI:176
+
+5270
+Ustilago maydis
+Monocot
+PHI:177
+
+13684
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Monocot
+PHI:178
+
+746128
+Aspergillus fumigatus
+
+PHI:179
+PHI:180
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:180
+PHI:179
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:181
+
+5507
+Fusarium oxysporum
+Dicot
+PHI:182
+
+5207
+Cryptococcus neoformans
+
+PHI:182
+
+5207
+Cryptococcus neoformans
+
+PHI:182
+
+5207
+Cryptococcus neoformans
+
+PHI:182
+
+5207
+Cryptococcus neoformans
+
+PHI:183
+
+5476
+Candida albicans
+
+PHI:183
+
+5476
+Candida albicans
+
+PHI:184
+
+5476
+Candida albicans
+
+PHI:184
+
+5476
+Candida albicans
+
+PHI:185
+
+5476
+Candida albicans
+
+PHI:186
+
+5476
+Candida albicans
+
+PHI:187
+
+5270
+Ustilago maydis
+Monocot
+PHI:188
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:189
+
+5476
+Candida albicans
+
+PHI:190
+
+5476
+Candida albicans
+
+PHI:191
+
+39703
+Septoria lycopersici
+Dicot
+PHI:194
+
+5207
+Cryptococcus neoformans
+
+PHI:195
+
+5476
+Candida albicans
+
+PHI:3
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:7
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:12
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:14
+
+5207
+Cryptococcus neoformans
+
+PHI:14
+
+5207
+Cryptococcus neoformans
+
+PHI:15
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:17
+
+5482
+Candida tropicalis
+
+PHI:18
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:19
+
+5207
+Cryptococcus neoformans
+
+PHI:22
+
+5270
+Ustilago maydis
+Monocot
+PHI:24
+
+29850
+Gaeumannomyces graminis
+Monocot
+PHI:24
+
+29850
+Gaeumannomyces graminis
+Monocot
+PHI:25
+
+5022
+Leptosphaeria maculans
+Dicot
+PHI:26
+
+5476
+Candida albicans
+
+PHI:27
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:27
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:31
+
+5476
+Candida albicans
+
+PHI:33
+
+5476
+Candida albicans
+
+PHI:35
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:36
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:37
+
+5270
+Ustilago maydis
+Monocot
+PHI:38
+
+38038
+Rhynchosporium secalis
+Monocot
+PHI:39
+
+67593
+Phytophthora sojae
+Dicot
+PHI:40
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:41
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:42
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Dicot
+PHI:47
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:49
+
+5116
+Cryphonectria parasitica
+Dicot
+PHI:52
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:52
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:53
+
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:55
+
+5016
+Cochliobolus heterostrophus
+Monocot
+PHI:56
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:57
+
+5270
+Ustilago maydis
+Monocot
+PHI:58
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:59
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:60
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:61
+
+5476
+Candida albicans
+
+PHI:62
+
+5476
+Candida albicans
+
+PHI:65
+
+5116
+Cryphonectria parasitica
+Dicot
+PHI:66
+
+5476
+Candida albicans
+
+PHI:67
+
+5476
+Candida albicans
+
+PHI:68
+
+5476
+Candida albicans
+
+PHI:68
+
+5476
+Candida albicans
+
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:70
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:71
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:71
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:72
+
+5476
+Candida albicans
+
+PHI:72
+
+5476
+Candida albicans
+
+PHI:73
+
+5476
+Candida albicans
+
+PHI:73
+
+5476
+Candida albicans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:76
+
+5270
+Ustilago maydis
+Monocot
+PHI:77
+
+5270
+Ustilago maydis
+Monocot
+PHI:78
+
+5270
+Ustilago maydis
+Monocot
+PHI:79
+
+5270
+Ustilago maydis
+Monocot
+PHI:80
+
+5476
+Candida albicans
+
+PHI:81
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:82
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:83
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:84
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:85
+
+5476
+Candida albicans
+
+PHI:86
+PHI:87
+5476
+Candida albicans
+
+PHI:87
+PHI:86
+5476
+Candida albicans
+
+PHI:87
+
+5476
+Candida albicans
+
+PHI:88
+
+5059
+Aspergillus flavus
+Dicot
+PHI:89
+
+5207
+Cryptococcus neoformans
+
+PHI:95
+
+5476
+Candida albicans
+
+PHI:96
+
+5476
+Candida albicans
+
+PHI:96
+
+5476
+Candida albicans
+
+PHI:97
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:98
+
+5270
+Ustilago maydis
+Monocot
+PHI:99
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:100
+
+5270
+Ustilago maydis
+Monocot
+PHI:101
+
+746128
+Aspergillus fumigatus
+
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:104
+
+5476
+Candida albicans
+
+PHI:104
+
+5476
+Candida albicans
+
+PHI:105
+
+5476
+Candida albicans
+
+PHI:106
+
+5476
+Candida albicans
+
+PHI:107
+
+5476
+Candida albicans
+
+PHI:109
+
+290576
+Colletotrichum lindemuthianum
+Dicot
+PHI:111
+
+4787
+Phytophthora infestans
+Dicot
+PHI:112
+
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:113
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:114
+
+5507
+Fusarium oxysporum
+Dicot
+PHI:115
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:116
+
+746128
+Aspergillus fumigatus
+
+PHI:120
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:121
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:122
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:123
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:124
+
+5476
+Candida albicans
+
+PHI:125
+PHI:126; PHI:127
+5476
+Candida albicans
+
+PHI:125
+PHI:126; PHI:127
+5476
+Candida albicans
+
+PHI:126
+PHI:125; PHI:127
+5476
+Candida albicans
+
+PHI:126
+PHI:125; PHI:127
+5476
+Candida albicans
+
+PHI:127
+PHI:125; PHI:126
+5476
+Candida albicans
+
+PHI:127
+PHI:125; PHI:126
+5476
+Candida albicans
+
+PHI:128
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:129
+
+5207
+Cryptococcus neoformans
+
+PHI:130
+
+5476
+Candida albicans
+
+PHI:131
+
+5514
+Fusarium sporotrichioides
+Monocot
+PHI:132
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:133
+
+5599
+Alternaria alternata
+Dicot
+PHI:134
+
+5599
+Alternaria alternata
+Dicot
+PHI:135
+
+5039
+Blastomyces dermatitidis
+
+PHI:136
+
+5476
+Candida albicans
+
+PHI:136
+
+5476
+Candida albicans
+
+PHI:136
+
+5476
+Candida albicans
+
+PHI:136
+
+5476
+Candida albicans
+
+PHI:138
+
+5476
+Candida albicans
+
+PHI:139
+
+5207
+Cryptococcus neoformans
+
+PHI:140
+
+5476
+Candida albicans
+
+PHI:141
+
+84275
+Cercospora kikuchii
+Dicot
+PHI:142
+
+5016
+Cochliobolus heterostrophus
+Monocot
+PHI:143
+
+5563
+Gloeocercospora sorghi
+Monocot
+PHI:144
+
+29875
+Trichoderma virens
+
+PHI:146
+
+5466
+Colletotrichum trifolii
+Dicot
+PHI:149
+
+5476
+Candida albicans
+
+PHI:151
+
+5270
+Ustilago maydis
+Monocot
+PHI:153
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:156
+
+5207
+Cryptococcus neoformans
+
+PHI:156
+
+5207
+Cryptococcus neoformans
+
+PHI:157
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:158
+
+5270
+Ustilago maydis
+Monocot
+PHI:159
+
+5037
+Histoplasma capsulatum
+
+PHI:160
+
+5599
+Alternaria alternata
+Dicot
+PHI:161
+
+40559
+Botrytis cinerea
+Dicot
+PHI:161
+
+40559
+Botrytis cinerea
+Dicot
+PHI:161
+
+40559
+Botrytis cinerea
+Dicot
+PHI:162
+
+5476
+Candida albicans
+
+PHI:163
+
+5037
+Histoplasma capsulatum
+
+PHI:164
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:165
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:166
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:166
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:167
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:167
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:169
+
+290576
+Colletotrichum lindemuthianum
+Dicot
+PHI:170
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:172
+
+5476
+Candida albicans
+
+PHI:173
+
+5466
+Colletotrichum trifolii
+Dicot
+PHI:174
+
+5476
+Candida albicans
+
+PHI:175
+
+5476
+Candida albicans
+
+PHI:176
+
+5270
+Ustilago maydis
+Monocot
+PHI:177
+
+13684
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Monocot
+PHI:178
+
+746128
+Aspergillus fumigatus
+
+PHI:179
+PHI:180
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:180
+PHI:179
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:181
+
+5507
+Fusarium oxysporum
+Dicot
+PHI:182
+
+5207
+Cryptococcus neoformans
+
+PHI:182
+
+5207
+Cryptococcus neoformans
+
+PHI:182
+
+5207
+Cryptococcus neoformans
+
+PHI:182
+
+5207
+Cryptococcus neoformans
+
+PHI:183
+
+5476
+Candida albicans
+
+PHI:183
+
+5476
+Candida albicans
+
+PHI:184
+
+5476
+Candida albicans
+
+PHI:184
+
+5476
+Candida albicans
+
+PHI:185
+
+5476
+Candida albicans
+
+PHI:186
+
+5476
+Candida albicans
+
+PHI:187
+
+5270
+Ustilago maydis
+Monocot
+PHI:188
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:189
+
+5476
+Candida albicans
+
+PHI:190
+
+5476
+Candida albicans
+
+PHI:191
+
+39703
+Septoria lycopersici
+Dicot
+PHI:194
+
+5207
+Cryptococcus neoformans
+
+PHI:195
+
+5476
+Candida albicans
+
+PHI:196
+
+5476
+Candida albicans
+
+PHI:197
+
+5476
+Candida albicans
+
+PHI:198
+
+5476
+Candida albicans
+
+PHI:198
+
+5476
+Candida albicans
+
+PHI:198
+
+5476
+Candida albicans
+
+PHI:199
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:200
+
+5507
+Fusarium oxysporum
+Dicot
+PHI:201
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:202
+PHI:544
+40559
+Botrytis cinerea
+Dicot
+PHI:202
+
+40559
+Botrytis cinerea
+Dicot
+PHI:203
+
+40559
+Botrytis cinerea
+Dicot
+PHI:203
+
+40559
+Botrytis cinerea
+Dicot
+PHI:204
+
+5476
+Candida albicans
+
+PHI:205
+
+5476
+Candida albicans
+
+PHI:206
+
+5476
+Candida albicans
+
+PHI:207
+
+5476
+Candida albicans
+
+PHI:208
+
+5476
+Candida albicans
+
+PHI:209
+
+5476
+Candida albicans
+
+PHI:210
+
+5476
+Candida albicans
+
+PHI:211
+
+5476
+Candida albicans
+
+PHI:212
+
+5476
+Candida albicans
+
+PHI:213
+
+5207
+Cryptococcus neoformans
+
+PHI:213
+
+5207
+Cryptococcus neoformans
+
+PHI:214
+PHI:221; PHI:217
+5476
+Candida albicans
+
+PHI:215
+
+5507
+Fusarium oxysporum
+Dicot
+PHI:215
+
+5507
+Fusarium oxysporum
+
+PHI:216
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:217
+PHI:221; PHI:214
+5476
+Candida albicans
+
+PHI:218
+
+5207
+Cryptococcus neoformans
+
+PHI:219
+
+5476
+Candida albicans
+
+PHI:220
+
+5207
+Cryptococcus neoformans
+
+PHI:220
+
+5207
+Cryptococcus neoformans
+
+PHI:221
+PHI:214; PHI:217
+5476
+Candida albicans
+
+PHI:222
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:223
+
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:224
+
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:225
+
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:226
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:227
+
+5207
+Cryptococcus neoformans
+
+PHI:227
+
+5207
+Cryptococcus neoformans
+
+PHI:227
+
+5207
+Cryptococcus neoformans
+
+PHI:227
+
+5207
+Cryptococcus neoformans
+
+PHI:227
+
+5207
+Cryptococcus neoformans
+
+PHI:228
+
+5207
+Cryptococcus neoformans
+
+PHI:228
+
+5207
+Cryptococcus neoformans
+
+PHI:229
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:230
+
+53485
+Pyrenophora teres
+Monocot
+PHI:231
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:3
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:7
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:12
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:14
+
+5207
+Cryptococcus neoformans
+
+PHI:14
+
+5207
+Cryptococcus neoformans
+
+PHI:15
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:17
+
+5482
+Candida tropicalis
+
+PHI:18
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:19
+
+5207
+Cryptococcus neoformans
+
+PHI:22
+
+5270
+Ustilago maydis
+Monocot
+PHI:24
+
+29850
+Gaeumannomyces graminis
+Monocot
+PHI:24
+
+29850
+Gaeumannomyces graminis
+Monocot
+PHI:25
+
+5022
+Leptosphaeria maculans
+Dicot
+PHI:26
+
+5476
+Candida albicans
+
+PHI:27
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:27
+
+5457
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Dicot
+PHI:31
+
+5476
+Candida albicans
+
+PHI:33
+
+5476
+Candida albicans
+
+PHI:35
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:36
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:37
+
+5270
+Ustilago maydis
+Monocot
+PHI:38
+
+38038
+Rhynchosporium secalis
+Monocot
+PHI:39
+
+67593
+Phytophthora sojae
+Dicot
+PHI:40
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:41
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:42
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Monocot
+PHI:44
+
+5518
+Gibberella zeae (related: Fusarium graminearum)
+Dicot
+PHI:47
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:48
+
+5207
+Cryptococcus neoformans
+
+PHI:49
+
+5116
+Cryphonectria parasitica
+Dicot
+PHI:52
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:52
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:53
+
+140110
+Nectria haematococca (related: Fusarium solani)
+Dicot
+PHI:55
+
+5016
+Cochliobolus heterostrophus
+Monocot
+PHI:56
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:57
+
+5270
+Ustilago maydis
+Monocot
+PHI:58
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:59
+
+5462
+Colletotrichum lagenarium
+Dicot
+PHI:60
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:61
+
+5476
+Candida albicans
+
+PHI:62
+
+5476
+Candida albicans
+
+PHI:65
+
+5116
+Cryphonectria parasitica
+Dicot
+PHI:66
+
+5476
+Candida albicans
+
+PHI:67
+
+5476
+Candida albicans
+
+PHI:68
+
+5476
+Candida albicans
+
+PHI:68
+
+5476
+Candida albicans
+
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:69
+PHI:541
+40559
+Botrytis cinerea
+Dicot
+PHI:70
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:71
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:71
+
+5499
+Cladosporium fulvum
+Dicot
+PHI:72
+
+5476
+Candida albicans
+
+PHI:72
+
+5476
+Candida albicans
+
+PHI:73
+
+5476
+Candida albicans
+
+PHI:73
+
+5476
+Candida albicans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:75
+
+5207
+Cryptococcus neoformans
+
+PHI:76
+
+5270
+Ustilago maydis
+Monocot
+PHI:77
+
+5270
+Ustilago maydis
+Monocot
+PHI:78
+
+5270
+Ustilago maydis
+Monocot
+PHI:79
+
+5270
+Ustilago maydis
+Monocot
+PHI:80
+
+5476
+Candida albicans
+
+PHI:81
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:82
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:83
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:84
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:85
+
+5476
+Candida albicans
+
+PHI:86
+PHI:87
+5476
+Candida albicans
+
+PHI:87
+PHI:86
+5476
+Candida albicans
+
+PHI:87
+
+5476
+Candida albicans
+
+PHI:88
+
+5059
+Aspergillus flavus
+Dicot
+PHI:89
+
+5207
+Cryptococcus neoformans
+
+PHI:95
+
+5476
+Candida albicans
+
+PHI:96
+
+5476
+Candida albicans
+
+PHI:96
+
+5476
+Candida albicans
+
+PHI:97
+
+5017
+Cochliobolus carbonum
+Monocot
+PHI:98
+
+5270
+Ustilago maydis
+Monocot
+PHI:99
+
+318829
+Magnaporthe oryzae
+Monocot
+PHI:100
+
+5270
+Ustilago maydis
+Monocot
+PHI:101
+
+746128
+Aspergillus fumigatus
+
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:103
+
+40559
+Botrytis cinerea
+Dicot
+PHI:104
+
+5476
+Candida albicans
+
+PHI:104
+
+5476
+Candida albicans
+
+PHI:105
+
+5476
+Candida albicans
+

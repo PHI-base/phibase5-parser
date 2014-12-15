@@ -125,8 +125,12 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $path_taxon = $xml_twig->root->first_child('taxon');
   my $path_taxon_name = $path_taxon->{'att'}->{'scientificName'};
 
-  # print the pathogen taxon details
-  print DATABASE_DATA_FILE "$path_taxon_id:$path_taxon_name\t";
+  # print the pathogen taxon details, with name if available
+  if (defined $path_taxon_name) {
+     print DATABASE_DATA_FILE "$path_taxon_id:$path_taxon_name\t";
+  } else { # just print name
+     print DATABASE_DATA_FILE "$path_taxon_id\t";
+  }
 
 
   # get the disease related fields 
@@ -256,11 +260,12 @@ while (my @row = $sql_result->fetchrow_array()) {
 
 
   # output the Phenotype Outcome, which has already been retrieved
-  # for comparison with PHI-base 3.6 spreadsheet, it is output in this position 
+  # for comparison with PHI-base 4.0 spreadsheet, it is output in this position 
   # use the ontology to retrieve the term name, based on the identifier
-  my $phen_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
-  print DATABASE_DATA_FILE "$phenotype_outcome_id:$phen_outcome_name\t";
-
+  if (defined $phenotype_outcome_id) {
+    my $phen_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
+    print DATABASE_DATA_FILE "$phenotype_outcome_id:$phen_outcome_name\t";
+  }
 
   # get the Defect fields 
   $sql_stmt2 = qq(SELECT defect_attribute.attribute,

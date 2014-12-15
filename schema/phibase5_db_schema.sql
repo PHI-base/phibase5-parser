@@ -27,7 +27,7 @@ CREATE TABLE interaction_host_response (
 CREATE TABLE pathogen_gene (
     id SERIAL PRIMARY KEY,
     ncbi_taxon_id integer,
-    gene_name varchar(50),
+    gene_name varchar(100),
     uniparc_id varchar(50),
     genbank_locus_id varchar(50)
 );

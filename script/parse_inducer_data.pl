@@ -8,7 +8,7 @@ use phibase_subroutines qw(connect_to_phibase query_uniprot); # load PHI-base fu
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
 # open the tab separated values (TSV) version of the inducer data with chemical identifiers
-my $inducer_tsv_filename = '../mapping/inducers_3pt6_with_chebi.tsv';
+my $inducer_tsv_filename = '../mapping/inducers_4pt0_with_chebi.tsv';
 open (TSV_FILE, $inducer_tsv_filename) or die "Error opening input file\n";
 print "Processing inducer data from $inducer_tsv_filename...\n";
 

@@ -1,16 +1,16 @@
-PHI_MolConnID	phi_base_acc
+PHI_MolConn_ID	phi_base_acc
 IdentifierTypeOfProteinID	db_type
 ProteinID	accession
 GeneLocusID	none
 Genomic sequence providing strain	assoc_strain
 Gene_name	gene_name
 Genome location	none
-Multiple mutation	multiple_mutation
-Pathogen NCBI species Taxonomy ID	patho_tax
-Pathogen species	patho_name
+Multiple_mutation	multiple_mutation
+Pathogen_NCBI_species_Taxonomy ID	patho_tax
+Pathogen_species	patho_name
 Experimental_strain	strain
 Disease_name	disease_name
-Host_description	mon_dic
+Host_descripton	mon_dic
 Host_NCBI_Taxonomy_ID	host_tax
 Experimental_host_species	host_name
 Function	function

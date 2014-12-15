@@ -21,7 +21,6 @@ my %column_mapping;
 while (<COL_NAMES_FILE>) {
   chomp;
   my ($sheet_heading,$db_field) = split(/\t/,$_);
-print "Sheet heading=$sheet_heading;DB field=$db_field\n";
   $column_mapping{$sheet_heading} = $db_field; 
   # create or refresh output text files for each column
   open (COL_TEXT_FILE, "> ../output/column/column_$db_field.txt") or die "Error opening output file column_$db_field\n";
@@ -35,7 +34,7 @@ print "Reading ontology mapping files...\n";
 # parse tab-separated file that maps experimental evidence values of the spreadsheet
 # to identifiers in the experiment specification ontology
 # saving the value and identifiers as key/value pairs in a hash
-open (EXP_SPEC_MAPPINGS_FILE, "../mapping/experiment_spec_mapping_phibase_3pt6.tsv") || die "Error opening input file\n";
+open (EXP_SPEC_MAPPINGS_FILE, "../mapping/experiment_spec_mapping_phibase_4pt0.tsv") || die "Error opening input file\n";
 
 # hash to map experimental evidence to ontology identifiers
 my %exp_spec_mapping;
@@ -57,7 +56,7 @@ close (EXP_SPEC_MAPPINGS_FILE);
 # parse tab-separated file that maps host response values of the spreadsheet
 # to identifiers in the host response ontology
 # saving the value and identifiers as key/value pairs in a hash
-open (HOST_RES_MAPPINGS_FILE, "../mapping/host_response_mapping_phibase_3pt6.tsv") || die "Error opening input file\n";
+open (HOST_RES_MAPPINGS_FILE, "../mapping/host_response_mapping_phibase_4pt0.tsv") || die "Error opening input file\n";
 
 # hash to map host response text to ontology identifiers
 my %host_response_mapping;
@@ -79,7 +78,7 @@ close (HOST_RES_MAPPINGS_FILE);
 # parse tab-separated file that maps phenotype outcome values of the spreadsheet
 # to the identifier in the phenotype outcome ontology
 # saving the value and identifier as key/value pairs in a hash
-open (PHEN_OUTCOME_MAPPINGS_FILE, "../mapping/phenotype_outcome_mapping_phibase_3pt6.tsv") || die "Error opening input file\n";
+open (PHEN_OUTCOME_MAPPINGS_FILE, "../mapping/phenotype_outcome_mapping_phibase_4pt0.tsv") || die "Error opening input file\n";
 
 # hash to map phenotype outcome text to ontology identifier
 my %phenotype_outcome_mapping;
@@ -378,13 +377,13 @@ while (<TSV_FILE>) {
         my $multi_mut_phi_acc_num;
 
         # check if the annotation part of a is a "multiple mutation" interaction
-        if ($required_fields_annot{"multiple_mutation"} ne "") {
+        if ($required_fields_annot{"multiple_mutation"} ne "" and $required_fields_annot{"multiple_mutation"} ne "no" and $required_fields_annot{"multiple_mutation"} ne "na") {
 
-          print $required_fields_annot{"phi_base_acc"}."\t";
-          print $required_fields_annot{"gene_name"}."\t";
-          print $required_fields_annot{"accession"}."\t";
-          print $required_fields_annot{"host_tax"}."\t";
-          print $required_fields_annot{"multiple_mutation"}."\n";
+          #print $required_fields_annot{"phi_base_acc"}."\t";
+          #print $required_fields_annot{"gene_name"}."\t";
+          #print $required_fields_annot{"accession"}."\t";
+          #print $required_fields_annot{"host_tax"}."\t";
+          #print $required_fields_annot{"multiple_mutation"}."\n";
 
           $multi_mut_phi_acc_num  = $required_fields_annot{"multiple_mutation"}; # MAY NEED TO SPLIT BASED ON SEMI-COLON
           $multi_mut_phi_acc_num  =~ s/PHI://;
@@ -399,7 +398,7 @@ while (<TSV_FILE>) {
 
 
         if ($multiple_mutation) {
-          print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $fusarium_gram_data{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+          #print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $fusarium_gram_data{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
           # need to find the correct interaction_id for the corresponding multiple mutant gene
           # there could be several interactions for this gene, so needs to be based on a combination
           # of phi_base_acc + host_tax
@@ -418,8 +417,8 @@ while (<TSV_FILE>) {
 	  my $mult_mut_interaction_id = shift @mult_mut_row;
 
           if ( $mult_mut_interaction_id and $pathogen_gene_mutant_id ) {
-	     print "Mult Mutant Partner Interaction ID: ".$mult_mut_interaction_id."\n";
-	     print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
+	     #print "Mult Mutant Partner Interaction ID: ".$mult_mut_interaction_id."\n";
+	     #print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
 	  
 	     my $inner_sql_statement = qq(
 				          INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
@@ -427,7 +426,7 @@ while (<TSV_FILE>) {
 				         );
 	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
-	     print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
+	     #print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
 	  }
 
 
@@ -453,17 +452,38 @@ while (<TSV_FILE>) {
 	  $sql_result6->execute() or die $DBI::errstr;
 
           if ( $interaction_id and $pathogen_gene_mutant_id ) {
-             # add records for the other tables associated with the interaction,
+             # add records for the literature and pathogen gene mutant tables associated with the interaction,
              # using the interaction id as a foreign key to the interaction table
 	     my $inner_sql_statement = qq(
-		  		          INSERT INTO interaction_literature (interaction_id,pubmed_id) 
-					    VALUES ($interaction_id,'$required_fields_annot{"literature_id"}');
 				          INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
 				            VALUES ($interaction_id,$required_fields_annot{"host_tax"});
 				          INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
 					    VALUES ($interaction_id,'$pathogen_gene_mutant_id');
 				         );
 	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+
+             # Add the PubMed literature to the interaction_literature table,
+             # inserting a separate record for each PubMed ID, which are separated by semi-colon
+
+             # separate list of PubMed IDs, based on semi-colon delimiter
+             my @pubmed_id_list = split (";",$required_fields_annot{"literature_id"});
+
+             # insert interaction_literature record for each PubMed ID
+             foreach my $pubmed_id (@pubmed_id_list) {
+
+                $pubmed_id =~ s/^\s+//; # remove blank space from start of PubMed ID
+                $pubmed_id =~ s/\s+$//; # remove blank space from end of PubMed ID
+
+		# insert the PubMed ID into interaction_literature table,
+		# using the interaction id and as a foreign key
+		$inner_sql_statement = qq(INSERT INTO interaction_literature (interaction_id, pubmed_id)
+		  	              VALUES ($interaction_id, $pubmed_id);
+				   );
+		$inner_sql_result = $db_conn->prepare($inner_sql_statement);
+		#$inner_sql_result->execute() or die $DBI::errstr;
+		$inner_sql_result->execute(); # ignore errors due to possible duplication in spreadsheet
+             }
+
 	  }
 
 
@@ -498,7 +518,8 @@ while (<TSV_FILE>) {
                                   VALUES ($interaction_id, $curator_id);
                                );
 	    $sql_result = $db_conn->prepare($sql_statement);
-	    $sql_result->execute() or die $DBI::errstr;
+	    #$sql_result->execute() or die $DBI::errstr;
+	    $sql_result->execute(); # error handling removed due to initials not available in spreadsheet
 
           } # end foreach curator
 
@@ -559,7 +580,7 @@ while (<TSV_FILE>) {
 
              my $defect_values_string = $defects{$defect_attribute};
 
-             if (defined $defect_values_string and $defect_values_string ne "" and lc($defect_values_string) ne "none") {
+             if (defined $defect_values_string and $defect_values_string ne "" and lc($defect_values_string) ne "none" and lc($defect_values_string) ne "na" and lc($defect_values_string) ne "nd" and lc($defect_values_string) ne "no data found" and lc($defect_values_string) ne "no data") {
 
 		# get the id for the current defect attribute
 		my $sql_statement = qq(SELECT id FROM defect_attribute
@@ -613,8 +634,11 @@ while (<TSV_FILE>) {
           # Get the GO annotations
           my $go_annot_string = $phi_base_annotation{"go_annotation"};
 
+          $go_annot_string =~ s/^\s+//; # remove blank space from start of string
+          $go_annot_string =~ s/\s+$//; # remove blank space from end of string
+
           # if the GO annotations string is empty, no GO annotations have been supplied
-          if (defined $go_annot_string and $go_annot_string ne "") {
+          if (defined $go_annot_string and $go_annot_string ne "" and $go_annot_string ne "data not found" and $go_annot_string ne "no data found") {
 
             # need to split list based on semi-colon delimiter
             my @go_annotations = split(";",$go_annot_string);
@@ -625,10 +649,8 @@ while (<TSV_FILE>) {
 
                $go_annotation_count++;
 
-               # entries sometimes have a name before the ID, separated by a colon,
-               # other times no name is given before the CAS Registry ID,
-               # so need to extract the ID, based on colon delimiter
-               # (which will always be the last part)
+               # GO annotations should have both a term identifier
+               # and an evidence code, which are separated by a comma
                my @go_parts = split(",",$go_annotation);
 
                # first part will be the GO ID
@@ -670,7 +692,8 @@ while (<TSV_FILE>) {
                                         VALUES ($interaction_id, '$go_id');
                                      );
 	          $sql_result = $db_conn->prepare($sql_statement);
-	          $sql_result->execute() or die $DBI::errstr;
+	          #$sql_result->execute() or die $DBI::errstr;
+	          $sql_result->execute(); # ignore error due to possible duplications in spreadsheet
 
                   $go_without_evid_count++;
                   print GO_WITHOUT_EVID_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\n";
@@ -686,7 +709,7 @@ while (<TSV_FILE>) {
           my $cas_string = $phi_base_annotation{"cas"};
 
           # if the CAS string is empty, no anti-infectives have been supplied
-          if (defined $cas_string and $cas_string ne "") {
+          if (defined $cas_string and $cas_string ne "" and $cas_string ne "no data found") {
 
             # need to split list based on semi-colon delimiter
             my @cas_entries = split(";",$cas_string);
@@ -749,7 +772,7 @@ while (<TSV_FILE>) {
           my $inducer_string = $phi_base_annotation{"inducer"};
 
           # if the inducer string is empty, no inducers have been supplied
-          if (defined $inducer_string and $inducer_string ne "") {
+          if (defined $inducer_string and $inducer_string ne "" and $inducer_string ne "na" and $inducer_string ne "no data found") {
 
             # need to split list based on semi-colon delimiter
             my @inducer_names = split(";",$inducer_string);
@@ -808,7 +831,7 @@ while (<TSV_FILE>) {
           my $exp_evid_string = $phi_base_annotation{"experimental_evidence"};
 
           # if the experimental evidence string is empty, no evidence have been supplied
-          if (defined $exp_evid_string and $exp_evid_string ne "") {
+          if (defined $exp_evid_string and $exp_evid_string ne "" and $exp_evid_string ne "no data found") {
 
              $exp_spec_count++;
 
@@ -853,7 +876,7 @@ while (<TSV_FILE>) {
           my $host_response = $phi_base_annotation{"host_response"};
 
           # if the host response string is empty, no host response has been supplied
-          if (defined $host_response and $host_response ne "") {
+          if (defined $host_response and $host_response ne "" and $host_response ne "no data found") {
 
              $host_response_count++;
 
@@ -908,7 +931,7 @@ while (<TSV_FILE>) {
           my $phenotype_outcome_string = $phi_base_annotation{"phenotype"};
 
           # if the phenotype outcome string is empty, no phenotype has been supplied
-          if (defined $phenotype_outcome_string and $phenotype_outcome_string ne "") {
+          if (defined $phenotype_outcome_string and $phenotype_outcome_string ne "" and $phenotype_outcome_string ne "no data found") {
 
              $phenotype_outcome_count++;
 
