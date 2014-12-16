@@ -23,7 +23,7 @@ while (<COL_NAMES_FILE>) {
   my ($sheet_heading,$db_field) = split(/\t/,$_);
   $column_mapping{$sheet_heading} = $db_field; 
   # create or refresh output text files for each column
-  open (COL_TEXT_FILE, "> ../output/column/column_$db_field.txt") or die "Error opening output file column_$db_field\n";
+  open (COL_TEXT_FILE, "> ../output/column/spreadsheet_column_$db_field.txt") or die "Error opening output file column_$db_field\n";
   close (COL_TEXT_FILE);
 }
 close (COL_NAMES_FILE);
@@ -1110,6 +1110,25 @@ while (<TSV_FILE>) {
 close (TSV_FILE);
 close (DEFECT_FILE);
 close (INVALID_DEFECT_FILE);
+close (GO_WITH_EVID_FILE);
+close (GO_WITHOUT_EVID_FILE);
+close (INVALID_GO_FILE);
+close (EXP_SPEC_TERM_FILE);
+close (INVALID_EXP_SPEC_FILE);
+close (HOST_RES_TERM_FILE);
+close (INVALID_HOST_RES_FILE);
+close (PHEN_OUTCOME_TERM_FILE);
+close (INVALID_PHEN_OUTCOME_FILE);
+close (DISEASE_TERM_FILE);
+close (INVALID_DISEASE_FILE);
+close (WITHOUT_DISEASE_FILE);
+close (INVALID_REQUIRED_DATA_FILE);
+close (INVALID_PATH_TAXON_FILE);
+close (INVALID_HOST_TAXON_FILE);
+close (INVALID_LITERATURE_FILE);
+close (INVALID_UNIPROT_FILE);
+close (INVALID_GENE_NAME_FILE);
+close (INVALID_CURATOR_FILE);
 
 =pod
 # save all of the valid phibase data to file (sorted by PHI-base accession)
