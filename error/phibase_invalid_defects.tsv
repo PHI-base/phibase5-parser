@@ -1,6 +1,6 @@
 PHI:I9	PHI:19	In Vitro Growth	Heat sensitive
-PHI:I10	PHI:22	Pre-penetration	See publication
 PHI:I10	PHI:22	Penetration	See publication
+PHI:I10	PHI:22	Pre-penetration	See publication
 PHI:I41	PHI:56	Sexual Spores	Sterile
 PHI:I42	PHI:57	Penetration	See publication
 PHI:I42	PHI:57	Pre-penetration	See publication
@@ -26,8 +26,8 @@ PHI:I241	PHI:251	Vegetative Spores	Reduced conidiation
 PHI:I250	PHI:260	Sexual Spores	Unable to form mature teliospores
 PHI:I251	PHI:261	In Vitro Growth	Unable to metabolise acetate and fatty acids
 PHI:I253	PHI:263	Vegetative Spores	Reduced conidiation
-PHI:I256	PHI:266	Sexual Spores	Essential for female fertility and heterokaryon formation
 PHI:I256	PHI:266	In Vitro Growth	Reduced on solid media
+PHI:I256	PHI:266	Sexual Spores	Essential for female fertility and heterokaryon formation
 PHI:I263	PHI:269	In Vitro Growth	Altered cell morphology
 PHI:I265	PHI:271	In Vitro Growth	delayed
 PHI:I273	PHI:278	In Vitro Growth	Reduced on pectin
@@ -43,8 +43,8 @@ PHI:I348	PHI:353	Vegetative Spores	No sporulation
 PHI:I398	PHI:406	Sexual Spores	Sterile
 PHI:I402	PHI:411	In Vitro Growth	Mating, pheromone response and filamentation defects
 PHI:I404	PHI:413	Vegetative Spores	No sporulation
-PHI:I433	PHI:448	In Vitro Growth	Reduced by 20% on solid media, 30% in liquid culture
 PHI:I433	PHI:448	Vegetative Spores	No sporulation
+PHI:I433	PHI:448	In Vitro Growth	Reduced by 20% on solid media, 30% in liquid culture
 PHI:I470	PHI:483	Vegetative Spores	Reduced conidiation
 PHI:I471	PHI:483	Vegetative Spores	Reduced conidiation
 PHI:I472	PHI:483	Vegetative Spores	Reduced conidiation
@@ -62,24 +62,24 @@ PHI:I584	PHI:576	In Vitro Growth	Reduced aerial hyphae
 PHI:I585	PHI:577	In Vitro Growth	Wild-type
 PHI:I586	PHI:578	In Vitro Growth	Wild-type
 PHI:I757	PHI:731	Sexual Spores	No perithecia formation
-PHI:I758	PHI:733	Sexual Spores	No perithecia formation
 PHI:I758	PHI:733	In Vitro Growth	Some impairment
+PHI:I758	PHI:733	Sexual Spores	No perithecia formation
 PHI:I848	PHI:861	In Vitro Growth	Slowed
 PHI:I848	PHI:861	Spore Germination	Delayed
-PHI:I849	PHI:861	Spore Germination	Delayed
 PHI:I849	PHI:861	In Vitro Growth	Slowed
+PHI:I849	PHI:861	Spore Germination	Delayed
 PHI:I989	PHI:1012	In Vitro Growth	Slightly affected
 PHI:I990	PHI:1013	In Vitro Growth	Slightly affected
 PHI:I991	PHI:1014	In Vitro Growth	Slightly affected
 PHI:I992	PHI:1015	In Vitro Growth	75% of wild type
 PHI:I997	PHI:1021	In Vitro Growth	wt in liquid
 PHI:I997	PHI:1021	In Vitro Growth	reduced on plate
-PHI:I999	PHI:1023	In Vitro Growth	Slightly reduced
 PHI:I999	PHI:1023	Sexual Spores	Defective sclerotia formation
+PHI:I999	PHI:1023	In Vitro Growth	Slightly reduced
 PHI:I1000	PHI:1023	Sexual Spores	Defective sclerotia formation
 PHI:I1000	PHI:1023	In Vitro Growth	Slightly reduced
-PHI:I1001	PHI:1024	In Vitro Growth	Slightly reduced
 PHI:I1001	PHI:1024	Sexual Spores	Defective sclerotia formation
+PHI:I1001	PHI:1024	In Vitro Growth	Slightly reduced
 PHI:I1002	PHI:1025	Sexual Spores	Defective sclerotia formation
 PHI:I1002	PHI:1025	In Vitro Growth	Slightly reduced
 PHI:I1014	PHI:1052	Vegetative Spores	Five times more conidia than wt produced in constant darkness
@@ -89,33 +89,33 @@ PHI:I1017	PHI:1056	Vegetative Spores	Altered morphology
 PHI:I1017	PHI:1056	In Vitro Growth	Altered morphology
 PHI:I1018	PHI:1057	Spore Germination	Delayed
 PHI:I1019	PHI:1057	Spore Germination	Delayed
-PHI:I1020	PHI:1058	Vegetative Spores	reduced and abnormally shaped
 PHI:I1020	PHI:1058	Spore Germination	Impaired
-PHI:I1021	PHI:1061	Spore Germination	delayed
+PHI:I1020	PHI:1058	Vegetative Spores	reduced and abnormally shaped
 PHI:I1021	PHI:1061	Vegetative Spores	more slender
+PHI:I1021	PHI:1061	Spore Germination	delayed
 PHI:I1022	PHI:1063	Vegetative Spores	more slender
 PHI:I1023	PHI:1063	Vegetative Spores	more slender
-PHI:I1024	PHI:1064	Vegetative Spores	very poorly
 PHI:I1024	PHI:1064	Spore Germination	affected
+PHI:I1024	PHI:1064	Vegetative Spores	very poorly
 PHI:I1027	PHI:1072	In Vitro Growth	altered hyphal morphology
 PHI:I1027	PHI:1072	Pre-penetration	only yeast-like growth, no filament formation
 PHI:I1027	PHI:1072	Penetration	does not go through stomata
 PHI:I1028	PHI:1073	In Vitro Growth	altered hyphal morphology
-PHI:I1028	PHI:1073	Penetration	does not go through stomata
 PHI:I1028	PHI:1073	Pre-penetration	only yeast-like growth, no filament formation
+PHI:I1028	PHI:1073	Penetration	does not go through stomata
+PHI:I1029	PHI:1074	In Vitro Growth	altered hyphal morphology
 PHI:I1029	PHI:1074	Penetration	reduced stomatal invasion
 PHI:I1029	PHI:1074	Pre-penetration	50% filamentous growth with aggregation
-PHI:I1029	PHI:1074	In Vitro Growth	altered hyphal morphology
 PHI:I1030	PHI:1075	Penetration	wild-type
 PHI:I1031	PHI:1076	Penetration	wild-type
 PHI:I1032	PHI:1078	Vegetative Spores	Reduced, altered morphology
 PHI:I1032	PHI:1078	In Vitro Growth	Slightly reduced
 PHI:I1034	PHI:1080	In Vitro Growth	Slowed
 PHI:I1034	PHI:1080	Sexual Spores	No forcible discharge
-PHI:I1035	PHI:1080	In Vitro Growth	Slowed
 PHI:I1035	PHI:1080	Sexual Spores	No forcible discharge
-PHI:I1036	PHI:1082	Sexual Spores	Reduced on complex media, none on minimal media
+PHI:I1035	PHI:1080	In Vitro Growth	Slowed
 PHI:I1036	PHI:1082	In Vitro Growth	Slightly reduced
+PHI:I1036	PHI:1082	Sexual Spores	Reduced on complex media, none on minimal media
 PHI:I1040	PHI:1087	Sexual Spores	Perithecial initials only
 PHI:I1041	PHI:1088	Sexual Spores	Few
 PHI:I1044	PHI:1091	Sexual Spores	Few
@@ -126,16 +126,16 @@ PHI:I1059	PHI:1107	In Vitro Growth	Reduced aerial mycelium
 PHI:I1060	PHI:1108	In Vitro Growth	Reduced aerial mycelium
 PHI:I1062	PHI:1110	Mating Defect	Reduced tube formation
 PHI:I1063	PHI:1111	Mating Defect	Reduced tube formation
-PHI:I1064	PHI:1112	Mating Defect	Nearly no tube formation
 PHI:I1064	PHI:1112	In Vitro Growth	Yeast like cells defective
+PHI:I1064	PHI:1112	Mating Defect	Nearly no tube formation
 PHI:I1065	PHI:1113	Mating Defect	Nearly no tube formation
 PHI:I1065	PHI:1113	In Vitro Growth	Yeast like cells defective, defective hyphal growth
 PHI:I1065	PHI:1113	Sexual Spores	
 PHI:I1066	PHI:1114	In Vitro Growth	Yeast-like cells thick
 PHI:I1067	PHI:1115	Mating Defect	Reduced tube formation
 PHI:I1067	PHI:1115	In Vitro Growth	Yeast-like cells slightly short
-PHI:I1068	PHI:1116	Mating Defect	Reduced tube formation
 PHI:I1068	PHI:1116	In Vitro Growth	Yeast like cells thick
+PHI:I1068	PHI:1116	Mating Defect	Reduced tube formation
 PHI:I1074	PHI:1134	Penetration	Enhanced penetration
 PHI:I1075	PHI:1135	In Vitro Growth	Slow germination rate. Increased sporulation
 PHI:I1088	PHI:1148	Spore Germination	Slightly reduced
@@ -151,45 +151,45 @@ PHI:I1243	PHI:2029	Spore Germination	wildtype
 PHI:I1244	PHI:2030	Spore Germination	wildtype
 PHI:I1245	PHI:2031	Spore Germination	wildtype
 PHI:I1246	PHI:2032	Spore Germination	wildtype
+PHI:I1253	PHI:2036	Vegetative Spores	enhanced
 PHI:I1253	PHI:2036	In Vitro Growth	enhanced
 PHI:I1253	PHI:2036	Spore Germination	enhanced
-PHI:I1253	PHI:2036	Vegetative Spores	enhanced
 PHI:I1254	PHI:2037	In Vitro Growth	enhanced
 PHI:I1254	PHI:2037	Spore Germination	wildtype
 PHI:I1255	PHI:2037	Spore Germination	wildtype
 PHI:I1255	PHI:2037	In Vitro Growth	enhanced
-PHI:I1256	PHI:2037	Spore Germination	wildtype
 PHI:I1256	PHI:2037	In Vitro Growth	enhanced
+PHI:I1256	PHI:2037	Spore Germination	wildtype
 PHI:I1257	PHI:2037	In Vitro Growth	enhanced
 PHI:I1257	PHI:2037	Spore Germination	wildtype
 PHI:I1258	PHI:2037	Spore Germination	wildtype
 PHI:I1258	PHI:2037	In Vitro Growth	enhanced
 PHI:I1259	PHI:2037	In Vitro Growth	enhanced
 PHI:I1259	PHI:2037	Spore Germination	wildtype
-PHI:I1260	PHI:2037	Spore Germination	wildtype
 PHI:I1260	PHI:2037	In Vitro Growth	enhanced
+PHI:I1260	PHI:2037	Spore Germination	wildtype
 PHI:I1261	PHI:2037	Spore Germination	wildtype
 PHI:I1261	PHI:2037	In Vitro Growth	enhanced
 PHI:I1262	PHI:2037	Spore Germination	wildtype
 PHI:I1262	PHI:2037	In Vitro Growth	enhanced
-PHI:I1263	PHI:2037	In Vitro Growth	enhanced
 PHI:I1263	PHI:2037	Spore Germination	wildtype
+PHI:I1263	PHI:2037	In Vitro Growth	enhanced
 PHI:I1264	PHI:2037	In Vitro Growth	enhanced
 PHI:I1264	PHI:2037	Spore Germination	wildtype
 PHI:I1265	PHI:2037	In Vitro Growth	enhanced
 PHI:I1265	PHI:2037	Spore Germination	wildtype
 PHI:I1266	PHI:2037	In Vitro Growth	enhanced
 PHI:I1266	PHI:2037	Spore Germination	wildtype
-PHI:I1267	PHI:2037	In Vitro Growth	enhanced
 PHI:I1267	PHI:2037	Spore Germination	wildtype
+PHI:I1267	PHI:2037	In Vitro Growth	enhanced
 PHI:I1268	PHI:2037	Spore Germination	wildtype
 PHI:I1268	PHI:2037	In Vitro Growth	enhanced
 PHI:I1269	PHI:2037	Spore Germination	wildtype
 PHI:I1269	PHI:2037	In Vitro Growth	enhanced
-PHI:I1270	PHI:2037	Spore Germination	wildtype
 PHI:I1270	PHI:2037	In Vitro Growth	enhanced
-PHI:I1271	PHI:2037	Spore Germination	wildtype
+PHI:I1270	PHI:2037	Spore Germination	wildtype
 PHI:I1271	PHI:2037	In Vitro Growth	enhanced
+PHI:I1271	PHI:2037	Spore Germination	wildtype
 PHI:I1275	PHI:2039	In Vitro Growth	wildtype
 PHI:I1276	PHI:2039	In Vitro Growth	wildtype
 PHI:I1306	PHI:2055	Spore Germination	wildtype
@@ -203,8 +203,8 @@ PHI:I1409	PHI:2113	Vegetative Spores	enhanced
 PHI:I1427	PHI:2126	In Vitro Growth	wildtype
 PHI:I1428	PHI:2127	In Vitro Growth	wildtype
 PHI:I1429	PHI:2128	Spore Germination	wildtype
-PHI:I1430	PHI:2129	Vegetative Spores	wildtype
 PHI:I1430	PHI:2129	Spore Germination	wildtype
+PHI:I1430	PHI:2129	Vegetative Spores	wildtype
 PHI:I1431	PHI:2130	In Vitro Growth	wildtype
 PHI:I1431	PHI:2130	Spore Germination	wildtype
 PHI:I1432	PHI:2131	Spore Germination	wildtype
@@ -221,45 +221,45 @@ PHI:I1576	PHI:2221	Pre-penetration	?
 PHI:I1577	PHI:2222	Penetration	?
 PHI:I1577	PHI:2222	Pre-penetration	?
 PHI:I1602	PHI:2233	In Vitro Growth	aberrant, enhanced
-PHI:I1630	PHI:2262	Vegetative Spores	wildtype
 PHI:I1630	PHI:2262	In Vitro Growth	wildtype
+PHI:I1630	PHI:2262	Vegetative Spores	wildtype
 PHI:I1638	PHI:2271	Spore Germination	wildtype
-PHI:I1639	PHI:2272	In Vitro Growth	wildtype
 PHI:I1639	PHI:2272	Spore Germination	wildtype
+PHI:I1639	PHI:2272	In Vitro Growth	wildtype
 PHI:I1639	PHI:2272	Vegetative Spores	wildtype
 PHI:I1649	PHI:2282	Spore Germination	wildtype
 PHI:I1651	PHI:2284	Spore Germination	wildtype
 PHI:I1652	PHI:2284	Spore Germination	wildtype
 PHI:I1653	PHI:2284	Spore Germination	wildtype
-PHI:I1657	PHI:2288	In Vitro Growth	wildtype
 PHI:I1657	PHI:2288	Vegetative Spores	wildtype
-PHI:I1659	PHI:2291	In Vitro Growth	wildtype
+PHI:I1657	PHI:2288	In Vitro Growth	wildtype
 PHI:I1659	PHI:2291	Vegetative Spores	wildtype
-PHI:I1660	PHI:2291	In Vitro Growth	wildtype
+PHI:I1659	PHI:2291	In Vitro Growth	wildtype
 PHI:I1660	PHI:2291	Vegetative Spores	wildtype
-PHI:I1661	PHI:2291	In Vitro Growth	wildtype
+PHI:I1660	PHI:2291	In Vitro Growth	wildtype
 PHI:I1661	PHI:2291	Vegetative Spores	wildtype
-PHI:I1662	PHI:2291	In Vitro Growth	wildtype
+PHI:I1661	PHI:2291	In Vitro Growth	wildtype
 PHI:I1662	PHI:2291	Vegetative Spores	wildtype
-PHI:I1663	PHI:2291	In Vitro Growth	wildtype
+PHI:I1662	PHI:2291	In Vitro Growth	wildtype
 PHI:I1663	PHI:2291	Vegetative Spores	wildtype
-PHI:I1664	PHI:2291	In Vitro Growth	wildtype
+PHI:I1663	PHI:2291	In Vitro Growth	wildtype
 PHI:I1664	PHI:2291	Vegetative Spores	wildtype
-PHI:I1665	PHI:2292	In Vitro Growth	wildtype
+PHI:I1664	PHI:2291	In Vitro Growth	wildtype
 PHI:I1665	PHI:2292	Spore Germination	wildtype
+PHI:I1665	PHI:2292	In Vitro Growth	wildtype
 PHI:I1667	PHI:2294	In Vitro Growth	wildtype
 PHI:I1668	PHI:2294	In Vitro Growth	wildtype
-PHI:I1669	PHI:2295	In Vitro Growth	wildtype
 PHI:I1669	PHI:2295	Vegetative Spores	wildtype
-PHI:I1670	PHI:2295	In Vitro Growth	wildtype
+PHI:I1669	PHI:2295	In Vitro Growth	wildtype
 PHI:I1670	PHI:2295	Vegetative Spores	wildtype
-PHI:I1671	PHI:2295	In Vitro Growth	wildtype
+PHI:I1670	PHI:2295	In Vitro Growth	wildtype
 PHI:I1671	PHI:2295	Vegetative Spores	wildtype
-PHI:I1672	PHI:2295	Vegetative Spores	wildtype
+PHI:I1671	PHI:2295	In Vitro Growth	wildtype
 PHI:I1672	PHI:2295	In Vitro Growth	wildtype
+PHI:I1672	PHI:2295	Vegetative Spores	wildtype
+PHI:I1673	PHI:2296	Spore Germination	wildtype
 PHI:I1673	PHI:2296	In Vitro Growth	wildtype
 PHI:I1673	PHI:2296	Vegetative Spores	wildtype
-PHI:I1673	PHI:2296	Spore Germination	wildtype
 PHI:I1674	PHI:2297	In Vitro Growth	wildtype
 PHI:I1674	PHI:2297	Spore Germination	wildtype
 PHI:I1674	PHI:2297	Vegetative Spores	wildtype
@@ -268,29 +268,29 @@ PHI:I1676	PHI:2299	In Vitro Growth	wildtype
 PHI:I1678	PHI:2301	Vegetative Spores	wildtype
 PHI:I1678	PHI:2301	In Vitro Growth	wildtype
 PHI:I1679	PHI:2299	In Vitro Growth	wildtype
-PHI:I1681	PHI:2301	In Vitro Growth	wildtype
 PHI:I1681	PHI:2301	Vegetative Spores	wildtype
+PHI:I1681	PHI:2301	In Vitro Growth	wildtype
 PHI:I1682	PHI:2304	In Vitro Growth	wildtype
 PHI:I1682	PHI:2304	Spore Germination	wildtype
 PHI:I1682	PHI:2304	Vegetative Spores	wildtype
-PHI:I1683	PHI:2304	Vegetative Spores	wildtype
 PHI:I1683	PHI:2304	Spore Germination	wildtype
 PHI:I1683	PHI:2304	In Vitro Growth	wildtype
-PHI:I1684	PHI:2304	In Vitro Growth	wildtype
-PHI:I1684	PHI:2304	Spore Germination	wildtype
+PHI:I1683	PHI:2304	Vegetative Spores	wildtype
 PHI:I1684	PHI:2304	Vegetative Spores	wildtype
+PHI:I1684	PHI:2304	Spore Germination	wildtype
+PHI:I1684	PHI:2304	In Vitro Growth	wildtype
 PHI:I1685	PHI:2305	Vegetative Spores	wildtype
 PHI:I1685	PHI:2305	In Vitro Growth	wildtype
 PHI:I1686	PHI:2305	In Vitro Growth	wildtype
 PHI:I1686	PHI:2305	Vegetative Spores	wildtype
-PHI:I1687	PHI:2305	Vegetative Spores	wildtype
 PHI:I1687	PHI:2305	In Vitro Growth	wildtype
+PHI:I1687	PHI:2305	Vegetative Spores	wildtype
 PHI:I1688	PHI:2305	In Vitro Growth	wildtype
 PHI:I1688	PHI:2305	Vegetative Spores	wildtype
 PHI:I1689	PHI:2306	Vegetative Spores	wildtype
 PHI:I1689	PHI:2306	In Vitro Growth	wildtype
-PHI:I1690	PHI:2307	In Vitro Growth	wildtype
 PHI:I1690	PHI:2307	Vegetative Spores	wildtype
+PHI:I1690	PHI:2307	In Vitro Growth	wildtype
 PHI:I1691	PHI:2308	Spore Germination	wildtype
 PHI:I1692	PHI:2308	Spore Germination	wildtype
 PHI:I1693	PHI:2308	Spore Germination	wildtype
@@ -299,12 +299,12 @@ PHI:I1695	PHI:2310	Vegetative Spores	enhanced
 PHI:I1695	PHI:2310	Spore Germination	enhanced
 PHI:I1696	PHI:2310	Spore Germination	enhanced
 PHI:I1696	PHI:2310	Vegetative Spores	enhanced
-PHI:I1697	PHI:2311	Spore Germination	enhanced
 PHI:I1697	PHI:2311	In Vitro Growth	enhanced
-PHI:I1698	PHI:2312	In Vitro Growth	enhanced
+PHI:I1697	PHI:2311	Spore Germination	enhanced
 PHI:I1698	PHI:2312	Spore Germination	enhanced
-PHI:I1699	PHI:2313	Spore Germination	enhanced
+PHI:I1698	PHI:2312	In Vitro Growth	enhanced
 PHI:I1699	PHI:2313	In Vitro Growth	enhanced
+PHI:I1699	PHI:2313	Spore Germination	enhanced
 PHI:I1701	PHI:2316	Vegetative Spores	enhanced
 PHI:I1703	PHI:2316	Vegetative Spores	enhanced
 PHI:I1704	PHI:2315	In Vitro Growth	enhanced

@@ -1,6 +1,6 @@
 PHI:I1	PHI:3	gene disruption	ESO:0000001
 PHI:I2	PHI:7	gene deletion; complementation; biochemical evidence	ESO:0000002
-PHI:I2	PHI:7	gene deletion; complementation; biochemical evidence	ESO:00000
+PHI:I2	PHI:7	gene deletion; complementation; biochemical evidence	ESO:0000007
 PHI:I2	PHI:7	gene deletion; complementation; biochemical evidence	ESO:0000005
 PHI:I3	PHI:12	gene disruption	ESO:0000001
 PHI:I4	PHI:14	gene disruption; complementation	ESO:0000001
@@ -530,7 +530,7 @@ PHI:I338	PHI:340	gene deletion; complementation	ESO:0000002
 PHI:I338	PHI:340	gene deletion; complementation	ESO:0000007
 PHI:I339	PHI:341	gene disruption	ESO:0000001
 PHI:I340	PHI:342	gene deletion; complementation; biochemical evidence	ESO:0000002
-PHI:I340	PHI:342	gene deletion; complementation; biochemical evidence	ESO:00000
+PHI:I340	PHI:342	gene deletion; complementation; biochemical evidence	ESO:0000007
 PHI:I340	PHI:342	gene deletion; complementation; biochemical evidence	ESO:0000005
 PHI:I341	PHI:343	gene deletion	ESO:0000002
 PHI:I342	PHI:344	gene disruption	ESO:0000001

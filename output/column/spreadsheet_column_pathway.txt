@@ -39272,3 +39272,4395 @@ anthocyanin biosynthesis
 anthocyanin biosynthesis
 no data found
 no data found
+
+
+
+
+
+
+
+
+
+cAMP signalling
+
+
+
+
+
+
+
+
+
+cAMP signalling
+
+
+
+Melanin biosynthesis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+T-toxin production
+
+
+Melanin biosynthesis
+Melanin biosynthesis
+toxin secretion
+
+
+
+VH1 dual specificity protein phosphatase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cAMP signalling
+
+cAMP signalling
+
+
+
+
+Ras-protein kinase A
+
+
+
+
+
+HC-toxin biosynthesis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+osmotic sensing
+
+
+
+fatty acid oxidation
+histidine biosynthesis
+
+
+
+
+
+
+
+
+
+cAMP signalling
+
+
+trichothecene secretion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cAMP signalling
+
+
+
+
+
+
+
+
+toxin synthesis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fatty acid metabolism
+
+
+
+
+
+
+
+
+
+
+
+toxin biosythesis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fumonisin biosynthesis
+
+
+
+
+
+glyoxylate
+
+
+
+
+
+
+
+
+
+
+Downstream of PMK1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amino acid biosynthesis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cell signalling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Possibly 2 pathways plant/fungal signals
+
+
+
+
+
+
+
+
+
+
+biosynthesis pathway to leucine
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ras-protein kinase A
+Ras-protein kinase A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Glyoxylate cycle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cAMP signalling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+mitochondrial respiration
+mitochondrial respiration
+signal perception and transduction - osmosensing
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+
+
+
+
+
+
+Oxidative stress response
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+glycosylphosphatidylinositol anchor biosynthesis
+
+Signal transduction
+
+
+
+Cercosporin biosynthesis
+Cercosporin biosynthesis
+Cercosporin biosynthesis
+Cercosporin biosynthesis
+Cercosporin biosynthesis
+Cercosporin biosynthesis
+DNA repair
+osmosensitivity pathway; sensitivity to dicarboximide fungicides
+Chitin biosynthesis
+Chitin biosynthesis
+Chitin biosynthesis
+
+
+
+
+
+
+
+
+
+Signal transduction
+Signal transduction
+Signal transduction
+Signal transduction
+Signal transduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Leloir pathway involved in galactose metabolism
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Sterol biosynthesis
+Transport
+Transport
+Transport
+G protein signalling
+
+
+
+
+HOG pathway
+
+HOG pathway
+Autophagy nutrient recycling pathway
+sterol trafficking
+Chromosome structure
+Chromosome structure
+Chromosome structure
+Chromosome structure
+Chromosome structure
+Chromosome structure
+Chromosome structure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mps1 pathway
+no data found
+Mps1 pathway
+no data found
+Mps1 pathway
+Mps1 pathway
+Mps1 pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Calcium signalling
+Calcium signalling
+Pheromone responsive pathway
+Pheromone responsive pathway
+Pheromone responsive pathway
+Pheromone responsive pathway
+Pheromone responsive pathway
+Pheromone responsive pathway
+Malanin biosynthesis
+Malanin biosynthesis
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+G-protein signalling
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cAMP/PKA pathway
+cAMP/PKA pathway
+cAMP/PKA pathway
+cAMP/PKA pathway
+cAMP/PKA pathway
+cAMP/PKA pathway
+cAMP/PKA pathway
+cAMP/PKA pathway
+no data found
+no data found
+MAPK pathway
+Calcium/calcineurin signaling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MgRac1-Chm1 pathway
+MgRac1-Chm1 pathway
+MgRac1-Chm1 pathway
+MgRac1-Chm1 pathway
+no data found
+no data found
+Calcium signalling
+no data found
+no data found
+no data found
+calcineurin dependent signaling pathway
+calcineurin dependent signaling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Endocytotic pathway
+Endocytotic pathway
+no data found
+MAPK Signalling
+MAPK Signalling
+MAPK Signalling
+MAPK Signalling
+MAPK Signalling
+MAPK Signalling
+MAPK Signalling
+MAPK Signalling
+MAPK Signalling
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+TOR signaling pathway; Nitrogen metabolism
+no data found
+no data found
+Calcium signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+no data found
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PKA and PKC signaling pathways 
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PMK1 signalling pathway
+PKA and PKC signaling pathways 
+PMK1 signalling pathway
+PMK1 signalling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Oxidative pentose phosphate pathway
+Oxidative pentose phosphate pathway
+Oxidative pentose phosphate pathway
+Oxidative pentose phosphate pathway
+no data  found
+no data  found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Ras-cAMP and MAP kinase signalling pathways
+Ras-cAMP and MAP kinase signalling pathways
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Ca2+ dependent signaling pathway/salicylic acid signaling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+phenylpropanoid pathway
+phenylpropanoid pathway
+phenylpropanoid pathway
+phenylpropanoid pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+cAMP pathway
+cAMP pathway
+cAMP pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Melanin biosynthesis pathway
+Iron metabolism
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK signal transduction pathway
+no data found
+no data found
+no data found
+cAMP signalling pathway
+cAMP signalling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Nitrogen Response Pathway
+Nitrogen Response Pathway
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+MAPK signalling
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK signaling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Calcineurin pathway
+Calcineurin pathway
+Calcineurin pathway
+no data found
+G protein-mediat ed signaling
+G protein-mediat ed signaling
+Melanin biosynthesis pathway
+Melanin biosynthesis pathway
+Melanin biosynthesis pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cAMP signalling pathway
+Mitogen-activated protein kinase-mediated signalling pathway
+HOG pathway
+AP1 pathway
+Triacetylfusarinine C (TAFC) and ergosterol biosynthetic pathways
+Triacetylfusarinine C (TAFC) and ergosterol biosynthetic pathways
+Glycerol pathway
+
+
+phosphatidylinositol pathway
+
+
+
+trichothecene biosynthesis
+no data found
+MAPK pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Calcineurin Pathway
+Calcineurin Pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK pathway
+no data found
+no data found
+
+
+
+
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK signaling pathway
+no data found
+no data found
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+MAPK signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+cAMP signaling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK signaling pathway
+MAPK signaling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+G protein signaling transduction pathway
+Tat pathway
+Tat pathway
+Tat pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+PKC1 pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Hog1-dependent signaling pathway
+Hog1-dependent signaling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK pathway
+MAPK pathway
+Shikimic acid pathway
+Shikimic acid pathway
+Shikimic acid pathway
+Shikimic acid pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Shikimate pathway
+no data found
+no data found
+no data found
+no data found
+HrpX/HrpY pathway
+Inosine monophosphate dehydrogenase (IMPDH) pathway
+Inosine monophosphate dehydrogenase (IMPDH) pathway
+no data found
+no data found
+no data found
+no data found
+G-protein signal transduction
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK pathway
+MAPK pathway
+MAPK pathway
+MAPK pathway
+MAPK pathway
+MAPK pathway
+MAPK pathway
+MAPK pathway
+MAPK pathway
+MAPK pathway
+no data found
+no data found
+Cell death pathway
+Cell death pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+PI3K Pathway
+no data found
+no data found
+no data found
+Melanin biosynthesis pathway
+no data found
+Melanin biosynthesis pathway
+Calcineurin pathway
+no data found
+no data found
+Iron-dependent pathways
+Chitin biosynthesis pathway
+no data found
+no data found
+Amino acid biosynthesis
+Amino acid biosynthesis
+Amino acid biosynthesis
+Amino acid biosynthesis
+Amino acid biosynthesis
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+RFG1-TUP1 and NRG1- TUP1 ﬁlamentous growth regulatory pathways
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK pathway
+no data found
+no data found
+no data found
+cAMP/PKA Signaling
+Several pathways implicated
+no data found
+no data found
+no data found
+no data found
+Pre-vacuolar secretory pathway
+Mitogen-activated protein (MAP) kinase
+Iron-regulated pathway(s)
+TOR kinase signaling pathway
+TOR kinase signaling pathway
+Extracellular alkalinization hyphal auto-induction pathway
+Slt2 mitogen-activated protein kinase pathway
+Slt2 mitogen-activated protein kinase pathway
+Calcineurin pathway
+Calcineurin pathway
+Mitogen-activated protein (MAP) kinase pathway
+no data found
+OLE1 pathway
+no data found
+no data found
+no data found
+Iron-acquisition Pathways
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Pyrimidine biosynthetic pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+Calcium signaling
+no
+Rim or Pal pathway
+Rim or Pal pathway
+no
+SKN7-mediated signaling pathway with HSK1 and HOG1
+MAP kinase
+no data found
+no data found
+no data found
+no data found
+b -ketoadipate pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Pyrimidine biosynthetic pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+Calcium signaling
+Rim or Pal pathway
+Rim or Pal pathway
+Rim or Pal pathway
+Rim or Pal pathway
+SKN7-mediated signaling pathway with HSK1 and HOG1
+MAP kinase
+no data found
+no data found
+no data found
+no data found
+b -ketoadipate pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+PprB pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Arginine biosynthesis
+Arginine biosynthesis
+Arginine biosynthesis
+Arginine biosynthesis
+no data found
+RpoN-RpoS pathway
+no data found
+no data found
+no data found
+no data found
+Calcineurin pathway
+Calcineurin pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Cek1 MAPK pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+IL-1 inflammatory pathway, IL-15 signaling, MAP kinase signaling, and the alternative complement pathway
+na
+na
+na
+na
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+p38 mitogen activated protein kinase (MAPK) pathway
+p38 mitogen activated protein kinase (MAPK) pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cAMP pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Ergosterol biosynthesis pathway
+Ergosterol biosynthesis pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Melanin biosynthesis pathway
+no data found
+no data found
+Melanin biosynthesis pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+eIF2  kinase signaling
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cAMP-dependent and -independent pathways
+cAMP-dependent and -independent pathways
+cAMP-dependent and -independent pathways
+cAMP-dependent and -independent pathways
+no data found
+no data found
+no data found
+na
+na
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intrinsic and extrinsic apoptosis pathways
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+Sterol biosynthesis pathway
+HOG pathway
+HOG pathway
+HOG pathway
+HOG pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MAPK pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lysine synthetic pathway
+Cek1 and Hog1 pathways
+Cek1 and Hog1 pathways
+Cek1 and Hog1 pathways
+Cek1 and Hog1 pathways
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+ergosterol biosynthesis pathway
+ergosterol biosynthesis pathway
+ergosterol biosynthesis pathway
+ergosterol biosynthesis pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cAMP signalling network
+cAMP signalling network
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+
+
+
+
+
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+pyrimidine biosynthetic pathway
+no data found
+no data found
+mitochondrial tricarboxylic acid (TCA) cycle
+mitochondrial tricarboxylic acid (TCA) cycle
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Arginine pathway
+Arginine pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+anthocyanin biosynthesis
+anthocyanin biosynthesis
+ TORC1 and cAMPPKA pathways
+ TORC1 and cAMPPKA pathways
+ TORC1 and cAMPPKA pathways
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+anthocyanin biosynthesis
+anthocyanin biosynthesis
+anthocyanin biosynthesis
+anthocyanin biosynthesis
+anthocyanin biosynthesis
+anthocyanin biosynthesis
+anthocyanin biosynthesis
+no data found
+no data found

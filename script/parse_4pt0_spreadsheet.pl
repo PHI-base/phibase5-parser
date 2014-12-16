@@ -108,7 +108,7 @@ my %combined_disease_mapping = (
 my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_to_v3_columns.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
-print "Inserting data for valid Fusarium graminearum annotations into PHI-base v5 database...\n";
+print "Inserting data for valid annotations into PHI-base v5 database...\n";
 
 # open output files
 my $defect_filename = '../output/phibase_defects.tsv';
@@ -172,14 +172,14 @@ foreach my $header (@col_headers) {
 }
 
 # hash to store all annotations with a valid PHI-base accession
-my %valid_phibase_data;
+#my %valid_phibase_data;
 # array to store invalid PHI-base accessions
 my @invalid_phibase_acc;
 
 # create another hash for the subset with only required fields
 my %required_fields_data;
-# create another hash for fusarium graminearum data
-my %fusarium_gram_data;
+# create another hash for all annotation that meet the required data criteria
+my %required_criteria_annotations;
 
 # counter for interaction number (used for new PHI-base accession)
 my $interaction_num = 0;
@@ -263,7 +263,7 @@ while (<TSV_FILE>) {
    if ($phi_acc_num = $phi_base_annotation{"phi_base_acc"} and $phi_acc_num =~ /^PHI:/) {
 
      $phi_acc_num =~ s/PHI://;
-     $valid_phibase_data{$phi_acc_num} = {%phi_base_annotation};
+#     $valid_phibase_data{$phi_acc_num} = {%phi_base_annotation};
 
      # get subset of the hash containing only the required fields
      my @required_fields = (
@@ -282,8 +282,7 @@ while (<TSV_FILE>) {
      @required_fields_annot{@required_fields} = @phi_base_annotation{@required_fields};
      $required_fields_data{$phi_acc_num} = {%required_fields_annot};
 
-     # get subset of these where pathogen taxonomy ID = 5518 (Fusarium graminearum),
-     # with all required fields defined (except multiple mutation)
+     # get subset of these where all required fields have been defined (except multiple mutation)
      # A UniProt accession and PubMed ID are also required
      if ( defined $required_fields_annot{"phi_base_acc"}
           and defined $required_fields_annot{"db_type"}
@@ -309,8 +308,8 @@ while (<TSV_FILE>) {
           #and $required_fields_annot{"patho_tax"} == 1307  # taxon ID for Streptococcus suis (causes human disease)
         ) {
 
-        # add the required fields of the current annotation to the fusarium hash
-        $fusarium_gram_data{$phi_acc_num} = {%required_fields_annot};
+        # add the required fields of the current annotation to the required criteria annotations hash
+        $required_criteria_annotations{$phi_acc_num} = {%required_fields_annot};
 
 	#print "PHI-base Accession:$required_fields_annot{'phi_base_acc'}\n";
 	#print "UniProt Accession:$required_fields_annot{'accession'}\n";
@@ -389,16 +388,16 @@ while (<TSV_FILE>) {
           $multi_mut_phi_acc_num  =~ s/PHI://;
 	  # confirm if the multiple mutation partner gene already exists
           # only an annotation where the partner already exists needs to be treated differently from other annotations
-	  if (exists $fusarium_gram_data{$multi_mut_phi_acc_num}) {
+	  if (exists $required_criteria_annotations{$multi_mut_phi_acc_num}) {
             $multiple_mutation = 1;
-	    #print "Other annotation exists: $fusarium_gram_data{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+	    #print "Other annotation exists: $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
 	  }
 
         } # end if multiple mutation
 
 
         if ($multiple_mutation) {
-          #print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $fusarium_gram_data{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+          #print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
           # need to find the correct interaction_id for the corresponding multiple mutant gene
           # there could be several interactions for this gene, so needs to be based on a combination
           # of phi_base_acc + host_tax
@@ -406,7 +405,7 @@ while (<TSV_FILE>) {
 
           my $sql_query = qq(SELECT interaction.id 
                    FROM interaction, interaction_host
-                   WHERE interaction.phi_base_accession = '$fusarium_gram_data{$multi_mut_phi_acc_num}{"phi_base_acc"}'
+                   WHERE interaction.phi_base_accession = '$required_criteria_annotations{$multi_mut_phi_acc_num}{"phi_base_acc"}'
                    AND interaction.id = interaction_host.interaction_id
                    AND interaction_host.ncbi_taxon_id = $required_fields_annot{"host_tax"}
                  ;);
@@ -1112,6 +1111,7 @@ close (TSV_FILE);
 close (DEFECT_FILE);
 close (INVALID_DEFECT_FILE);
 
+=pod
 # save all of the valid phibase data to file (sorted by PHI-base accession)
 # formatted with the PHI-base accession as the first row
 # then a separate row for each column heading and value, separated by tab
@@ -1126,6 +1126,7 @@ foreach my $phi_base_ann (sort {$a<=>$b} keys %valid_phibase_data) {
    print ALL_DATA_FILE "\n";
 }
 close (ALL_DATA_FILE);
+=cut
 
 # save the invalid PHI-base accessions to a separate file
 my $invalid_accessions_filename = '../error/invalid_phibase_accessions.txt';
@@ -1150,50 +1151,52 @@ foreach my $phi_base_ann (sort {$a<=>$b} keys %required_fields_data) {
 }
 close (REQUIRED_FIELDS_FILE);
 
-# save all the fusarium gram data to file, using same format as above
-my $fus_gram_filename = '../output/species_fusarium_gram_data.txt';
-open (SPECIES_FILE, "> $fus_gram_filename") or die "Error opening output file\n";
-foreach my $phi_base_ann (sort {$a<=>$b} keys %fusarium_gram_data) {
-   print SPECIES_FILE "PHI:$phi_base_ann\n";
-   foreach my $col_name (sort keys %{ $fusarium_gram_data{$phi_base_ann} }) {
+# save all the data meeting the required criteria to file, using same format as above
+my $criteria_met_filename = '../output/required_criteria_met_annotations.txt';
+open (CRITERIA_MET_FILE, "> $criteria_met_filename") or die "Error opening output file\n";
+foreach my $phi_base_ann (sort {$a<=>$b} keys %required_criteria_annotations) {
+   print CRITERIA_MET_FILE "PHI:$phi_base_ann\n";
+   foreach my $col_name (sort keys %{ $required_criteria_annotations{$phi_base_ann} }) {
      # check that the value is defined before attempting to display it
-     if (defined $fusarium_gram_data{$phi_base_ann}{$col_name}) {
-       print SPECIES_FILE "$col_name\t$fusarium_gram_data{$phi_base_ann}{$col_name}\n";
+     if (defined $required_criteria_annotations{$phi_base_ann}{$col_name}) {
+       print CRITERIA_MET_FILE "$col_name\t$required_criteria_annotations{$phi_base_ann}{$col_name}\n";
      }
    }
-   print SPECIES_FILE "\n";
+   print CRITERIA_MET_FILE "\n";
 }
-close (SPECIES_FILE);
+close (CRITERIA_MET_FILE);
 
 
 print "\nProcess completed successfully.\n\n";
-print "Total PHI-base annotations with valid data: ".scalar(keys %valid_phibase_data)."\n";
+#print "Total PHI-base annotations with valid data: ".scalar(keys %valid_phibase_data)."\n";
+print "Total PHI-base annotations processed:$annotation_count\n\n";
+
 print "Total PHI-base annotations with an invalid accession: ".scalar(@invalid_phibase_acc)."\n";
-print "Total valid interactions for Fusarium graminearum: ".scalar(keys %fusarium_gram_data)."\n";
-print "Total curator entries for F gram: $curator_count\n";
-print "Total species expert entries for F gram: $species_expert_count\n";
-print "Total valid defects for F gram: $defect_count\n";
-print "Total invalid defects for F gram: $invalid_defect_count\n";
-print "Total GO annotations for F gram: $go_annotation_count\n";
-print "GO annotations with evidence code for F gram: $go_with_evid_count\n";
-print "GO annotations without evidence code for F gram: $go_without_evid_count\n";
-print "Invalid GO annotations for F gram: $invalid_go_count\n";
-print "Total anti-infective chemicals for F gram: $anti_infective_count\n";
-print "Annotations without anti-infective for F gram: $no_anti_infective_count\n";
-print "Total inducer chemicals for F gram: $inducer_count\n";
-print "Annotations without inducer for F gram: $no_inducer_count\n";
-print "Total annotations with a experiment specification for F gram: $exp_spec_count\n";
-print "Total experiment specification terms for F gram: $exp_spec_term_count\n";
-print "Invalid experiment specifications for F gram: $invalid_exp_spec_count\n";
-print "Total annotations with a host response for F gram: $host_response_count\n";
-print "Total host response terms for F gram: $host_response_term_count\n";
-print "Invalid host responses for F gram: $invalid_host_response_count\n";
-print "Total annotations with a phenotype outcome for F gram: $phenotype_outcome_count\n";
-print "Total phenotype outcome terms for F gram: $phenotype_outcome_term_count\n";
-print "Invalid phenotype outcomes for F gram: $invalid_phenotype_outcome_count\n";
-print "Total disease terms for F gram: $disease_term_count\n";
-print "Invalid disease terms for F gram: $invalid_disease_count\n";
-print "Annotations without disease terms for F gram: $without_disease_count\n\n";
+print "Total annotations meeting the criteria for the required data: ".scalar(keys %required_criteria_annotations)."\n";
+print "Total curator entries: $curator_count\n";
+print "Total species expert entries: $species_expert_count\n";
+print "Total valid defects: $defect_count\n";
+print "Total invalid defects: $invalid_defect_count\n";
+print "Total GO annotations: $go_annotation_count\n";
+print "GO annotations with evidence code: $go_with_evid_count\n";
+print "GO annotations without evidence code: $go_without_evid_count\n";
+print "Invalid GO annotations: $invalid_go_count\n";
+print "Total anti-infective chemicals: $anti_infective_count\n";
+print "Annotations without anti-infective: $no_anti_infective_count\n";
+print "Total inducer chemicals: $inducer_count\n";
+print "Annotations without inducer: $no_inducer_count\n";
+print "Total annotations with a experiment specification: $exp_spec_count\n";
+print "Total experiment specification terms: $exp_spec_term_count\n";
+print "Invalid experiment specifications: $invalid_exp_spec_count\n";
+print "Total annotations with a host response: $host_response_count\n";
+print "Total host response terms: $host_response_term_count\n";
+print "Invalid host responses: $invalid_host_response_count\n";
+print "Total annotations with a phenotype outcome: $phenotype_outcome_count\n";
+print "Total phenotype outcome terms: $phenotype_outcome_term_count\n";
+print "Invalid phenotype outcomes: $invalid_phenotype_outcome_count\n";
+print "Total disease terms: $disease_term_count\n";
+print "Invalid disease terms: $invalid_disease_count\n";
+print "Annotations without disease terms: $without_disease_count\n\n";
 
 print "Total annotations with invalid required data: $invalid_required_data_count\n";
 print "Annotations without a valid pathogen taxon ID: $invalid_path_taxon_id_count\n";
@@ -1203,26 +1206,24 @@ print "Annotations without a valid UniProt accession: $invalid_uniprot_acc_count
 print "Annotations without a gene name: $invalid_gene_name_count\n";
 print "Annotations without a curator: $invalid_curator_count\n\n";
 
-print "Total annotations retrieved from database: $annotation_count\n\n";
-
-print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
+#print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
 print "Output file of accession string with an invalid PHI-base accession (if available): $invalid_accessions_filename\n";
 print "Output file of only the required data of valid PHI-base annotations: $required_data_filename\n";
-print "Output file of valid data from fusarium graminearum: $fus_gram_filename\n";
-print "Output file of valid defects from fusarium graminearum: $defect_filename\n";
-print "Output file of invalid defects from fusarium graminearum: $invalid_defect_filename\n";
-print "Output file of GO annotations with evidence code from fusarium graminearum: $go_with_evid_filename\n";
-print "Output file of GO annotations without evidence code from fusarium graminearum: $go_without_evid_filename\n";
-print "Output file of invalid GO annotations from fusarium graminearum: $invalid_go_filename\n";
-print "Output file of experiment spec annotations from fusarium graminearum: $exp_spec_term_filename\n";
-print "Output file of invalid experiment specs from fusarium graminearum: $invalid_exp_spec_filename\n";
-print "Output file of host response annotations from fusarium graminearum: $host_res_term_filename\n";
-print "Output file of invalid host responses from fusarium graminearum: $invalid_host_res_filename\n";
-print "Output file of phenotype outcome annotations from fusarium graminearum: $phen_outcome_term_filename\n";
-print "Output file of invalid phenotype outcomes from fusarium graminearum: $invalid_phen_outcome_filename\n";
-print "Output file of disease annotations from fusarium graminearum: $disease_term_filename\n";
-print "Output file of invalid diseases from fusarium graminearum: $invalid_disease_filename\n";
-print "Output file of annotation without a diseases from fusarium graminearum: $without_disease_filename\n\n";
+print "Output file of valid data: $criteria_met_filename\n";
+print "Output file of valid defects: $defect_filename\n";
+print "Output file of invalid defects: $invalid_defect_filename\n";
+print "Output file of GO annotations with evidence code: $go_with_evid_filename\n";
+print "Output file of GO annotations without evidence code: $go_without_evid_filename\n";
+print "Output file of invalid GO annotations: $invalid_go_filename\n";
+print "Output file of experiment spec annotations: $exp_spec_term_filename\n";
+print "Output file of invalid experiment specs: $invalid_exp_spec_filename\n";
+print "Output file of host response annotations: $host_res_term_filename\n";
+print "Output file of invalid host responses: $invalid_host_res_filename\n";
+print "Output file of phenotype outcome annotations: $phen_outcome_term_filename\n";
+print "Output file of invalid phenotype outcomes: $invalid_phen_outcome_filename\n";
+print "Output file of disease annotations: $disease_term_filename\n";
+print "Output file of invalid diseases: $invalid_disease_filename\n";
+print "Output file of annotation without a diseases: $without_disease_filename\n\n";
 
 print "Output file of all PHI-base annotations with invalid required data: $invalid_required_data_filename\n";
 print "Output file of annotations with invalid pathogen taxon ID: $invalid_path_taxon_filename\n";

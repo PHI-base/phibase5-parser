@@ -62,6 +62,7 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   print DATABASE_DATA_FILE "$obsolete_accession\t";
 
+
   # get the pathogen gene related fields 
   $sql_stmt2 = qq(SELECT uniprot_accession,
                          gene_name,
@@ -79,58 +80,87 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
-  @row2 = $sql_result2->fetchrow_array();
 
-  my $uniprot_acc = shift @row2;
-  my $phibase_gene_name = shift @row2;
-  my $path_taxon_id = shift @row2;
-  my $phenotype_outcome_id = shift @row2;
-
-  # print the UniProt accession and PHI-base gene name
-  print DATABASE_DATA_FILE "$uniprot_acc\t$phibase_gene_name\t";
-
-  # get corresponding data from UniProt
-
-  # declare variable to store UniProt fields
+  # declare variable to store field values
+  my $uniprot_accessions = "";
+  my $phibase_gene_names = "";
   my $uniprot_gene_names = "";
+  my $path_taxons = "";
+  my $phen_outcomes = "";
 
-  # RESTful URL query to get gene names for the current UniProt accession
-  my $query = "http://www.uniprot.org/uniprot/?format=tab&query=accession:$uniprot_acc&columns=genes";
+  # declare array for pathogen taxon ids
+  # (will be needed to get species experts)
+  my @path_taxon_ids;
 
-  # execute query and process response
-  my $gene_names_response = query_uniprot($query);
-  my @gene_names_plus_header = split ("\n",$gene_names_response); # split into header & gene names
-  my $gene_names_string = $gene_names_plus_header[1]; # the gene names string is second element, after the header
-  # check if any gene names have been defined
-  if (defined $gene_names_string) {
-    my @gene_names = split (" ",$gene_names_string); # split into array of individual gene names
-    foreach my $gene_name (@gene_names) {
-      $uniprot_gene_names .= "$gene_name;";
-    }
-  }
-  # remove the final semi-colon from end of the string
+  # since there may be multiple pathogen gene mutants in a single interaction
+  # (as in multiple mutation), need to retrieve all of them and construct
+  # output string based on semi-colon delimiter
+  while (@row2 = $sql_result2->fetchrow_array()) {
+
+     my $uniprot_acc = shift @row2;
+     my $phibase_gene_name = shift @row2;
+     my $path_taxon_id = shift @row2;
+     my $phenotype_outcome_id = shift @row2;
+
+     # append UniProt accession and PHI-base gene name to lists
+     $uniprot_accessions .= "$uniprot_acc;";
+     $phibase_gene_names .= "$phibase_gene_name;";
+
+     # get corresponding data from UniProt
+
+     # RESTful URL query to get gene names for the current UniProt accession
+     my $query = "http://www.uniprot.org/uniprot/?format=tab&query=accession:$uniprot_acc&columns=genes";
+
+     # execute query and process response
+     my $gene_names_response = query_uniprot($query);
+     my @gene_names_plus_header = split ("\n",$gene_names_response); # split into header & gene names
+     my $gene_names_string = $gene_names_plus_header[1]; # the gene names string is second element, after the header
+     # check if any gene names have been defined
+     if (defined $gene_names_string) {
+       my @gene_names = split (" ",$gene_names_string); # split into array of individual gene names
+       foreach my $gene_name (@gene_names) {
+         $uniprot_gene_names .= "$gene_name;";
+       }
+     }
+
+     # add the pathogen taxon id to the array
+     push(@path_taxon_ids,$path_taxon_id);
+
+     # get the pathogen taxon details from the ENA web service
+     $query = "http://www.ebi.ac.uk/ena/data/view/Taxon:$path_taxon_id&display=xml";
+     my $xml_response = get $query or die "Error getting $query";
+
+     # use XML twig to parse the XML data
+     my $xml_twig = XML::Twig->new();
+     $xml_twig->parse($xml_response);
+
+     # parse the XML data to get the relevant pathogen taxon info
+     my $path_taxon = $xml_twig->root->first_child('taxon');
+     my $path_taxon_name = $path_taxon->{'att'}->{'scientificName'};
+
+     # print the pathogen taxon details, with name if available
+     if (defined $path_taxon_name) {
+         $path_taxons .= "$path_taxon_id:$path_taxon_name;";
+     } else { # just print id
+         $path_taxons .= "$path_taxon_id;";
+     }
+
+     # use the ontology to retrieve the phenotype outcome term name, based on the identifier
+     if (defined $phenotype_outcome_id) {
+       my $phen_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
+       $phen_outcomes .= "$phenotype_outcome_id:$phen_outcome_name;";
+     }
+
+  } # end while pathogen_gene_mutant records
+
+  # remove the final semi-colon from end of the strings
+  $uniprot_accessions =~ s/;$//;
+  $phibase_gene_names =~ s/;$//;
   $uniprot_gene_names =~ s/;$//;
-  print DATABASE_DATA_FILE "$uniprot_gene_names\t";
+  $path_taxons =~ s/;$//;
 
-
-  # get the pathogen taxon details from the ENA web service
-  $query = "http://www.ebi.ac.uk/ena/data/view/Taxon:$path_taxon_id&display=xml";
-  my $xml_response = get $query or die "Error getting $query";
-
-  # use XML twig to parse the XML data
-  my $xml_twig = XML::Twig->new();
-  $xml_twig->parse($xml_response);
-
-  # parse the XML data to get the relevant pathogen taxon info
-  my $path_taxon = $xml_twig->root->first_child('taxon');
-  my $path_taxon_name = $path_taxon->{'att'}->{'scientificName'};
-
-  # print the pathogen taxon details, with name if available
-  if (defined $path_taxon_name) {
-     print DATABASE_DATA_FILE "$path_taxon_id:$path_taxon_name\t";
-  } else { # just print name
-     print DATABASE_DATA_FILE "$path_taxon_id\t";
-  }
+  # print the the output file
+  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$path_taxons\t";
 
 
   # get the disease related fields 
@@ -190,11 +220,11 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $host_taxon_id = shift @row2;
 
   # get the host taxon details from the ENA web service
-  $query = "http://www.ebi.ac.uk/ena/data/view/Taxon:$host_taxon_id&display=xml";
-  $xml_response = get $query or die "Error getting $query";
+  my $query = "http://www.ebi.ac.uk/ena/data/view/Taxon:$host_taxon_id&display=xml";
+  my $xml_response = get $query or die "Error getting $query";
 
   # use XML twig to parse the XML data
-  $xml_twig = XML::Twig->new();
+  my $xml_twig = XML::Twig->new();
   $xml_twig->parse($xml_response);
 
   # parse the XML data to get the relevant host taxon info
@@ -259,13 +289,12 @@ while (my @row = $sql_result->fetchrow_array()) {
   print DATABASE_DATA_FILE "$go_output_string\t";
 
 
-  # output the Phenotype Outcome, which has already been retrieved
+  # output the Phenotype Outcomes, which have already been retrieved
   # for comparison with PHI-base 4.0 spreadsheet, it is output in this position 
-  # use the ontology to retrieve the term name, based on the identifier
-  if (defined $phenotype_outcome_id) {
-    my $phen_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
-    print DATABASE_DATA_FILE "$phenotype_outcome_id:$phen_outcome_name\t";
-  }
+  # remove the final semi-colon from end of the string
+  $phen_outcomes =~ s/;$//;
+  print DATABASE_DATA_FILE "$phen_outcomes\t";
+
 
   # get the Defect fields 
   $sql_stmt2 = qq(SELECT defect_attribute.attribute,
@@ -502,27 +531,31 @@ while (my @row = $sql_result->fetchrow_array()) {
     }
 
     # need to determine if the curator is a species expert
-    # based on the taxon id of the pathogen
-    my $sql_stmt4 = qq(SELECT curator_id
-                         FROM species_expert,
-                              curator
-                        WHERE species_expert.curator_id = $curator_id
-                          AND species_expert.ncbi_taxon_id = $path_taxon_id
-                     ;);
+    # based on the taxon ids of the pathogens in this interaction
+    foreach my $path_taxon_id (@path_taxon_ids) {
 
-    my $sql_result4 = $db_conn->prepare($sql_stmt4);
-    $sql_result4->execute() or die $DBI::errstr;
-    my @row4 = $sql_result4->fetchrow_array();
-    my $expert_curator_id = shift @row4;
+       my $sql_stmt4 = qq(SELECT curator_id
+                            FROM species_expert,
+                                 curator
+                            WHERE species_expert.curator_id = $curator_id
+                            AND species_expert.ncbi_taxon_id = $path_taxon_id
+                        ;);
 
-    # if a curator id was returned,
-    # then the curator is a species expert
-    # so add their name to the experts list
-    if (defined $expert_curator_id) {
-      $species_experts_string .= "$curator_name;";
-    }
+       my $sql_result4 = $db_conn->prepare($sql_stmt4);
+       $sql_result4->execute() or die $DBI::errstr;
+       my @row4 = $sql_result4->fetchrow_array();
+       my $expert_curator_id = shift @row4;
 
-  }
+       # if a curator id was returned,
+       # then the curator is a species expert
+       # so add their name to the experts list
+       if (defined $expert_curator_id) {
+         $species_experts_string .= "$curator_name;";
+       }
+
+    } # end foreach pathogen in interaction
+
+  } # end while curators for the interaction
 
   # remove the final semi-colon from end of the strings
   $curator_output_string =~ s/;$//;
