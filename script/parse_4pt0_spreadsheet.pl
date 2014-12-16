@@ -1169,10 +1169,21 @@ close (CRITERIA_MET_FILE);
 
 print "\nProcess completed successfully.\n\n";
 #print "Total PHI-base annotations with valid data: ".scalar(keys %valid_phibase_data)."\n";
+
 print "Total PHI-base annotations processed:$annotation_count\n\n";
 
-print "Total PHI-base annotations with an invalid accession: ".scalar(@invalid_phibase_acc)."\n";
-print "Total annotations meeting the criteria for the required data: ".scalar(keys %required_criteria_annotations)."\n";
+print "Total PHI-base annotations with an invalid accession: ".scalar(@invalid_phibase_acc)."\n\n";
+
+print "Total annotations with invalid required data: $invalid_required_data_count\n";
+print "Annotations without a valid pathogen taxon ID: $invalid_path_taxon_id_count\n";
+print "Annotations without a valid host taxon ID: $invalid_host_taxon_id_count\n";
+print "Annotations without a valid PubMed ID: $invalid_literature_count\n";
+print "Annotations without a valid UniProt accession: $invalid_uniprot_acc_count\n";
+print "Annotations without a gene name: $invalid_gene_name_count\n";
+print "Annotations without a curator: $invalid_curator_count\n\n";
+
+print "Total PHI-base accessions meeting the criteria for the required data: ".scalar(keys %required_criteria_annotations)."\n\n";
+
 print "Total curator entries: $curator_count\n";
 print "Total species expert entries: $species_expert_count\n";
 print "Total valid defects: $defect_count\n";
@@ -1198,18 +1209,20 @@ print "Total disease terms: $disease_term_count\n";
 print "Invalid disease terms: $invalid_disease_count\n";
 print "Annotations without disease terms: $without_disease_count\n\n";
 
-print "Total annotations with invalid required data: $invalid_required_data_count\n";
-print "Annotations without a valid pathogen taxon ID: $invalid_path_taxon_id_count\n";
-print "Annotations without a valid host taxon ID: $invalid_host_taxon_id_count\n";
-print "Annotations without a valid PubMed ID: $invalid_literature_count\n";
-print "Annotations without a valid UniProt accession: $invalid_uniprot_acc_count\n";
-print "Annotations without a gene name: $invalid_gene_name_count\n";
-print "Annotations without a curator: $invalid_curator_count\n\n";
-
 #print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
-print "Output file of accession string with an invalid PHI-base accession (if available): $invalid_accessions_filename\n";
-print "Output file of only the required data of valid PHI-base annotations: $required_data_filename\n";
-print "Output file of valid data: $criteria_met_filename\n";
+print "Output file of accession string with an invalid PHI-base accession (if available): $invalid_accessions_filename\n\n";
+
+print "Output file of all PHI-base annotations with invalid required data: $invalid_required_data_filename\n";
+print "Output file of annotations with invalid pathogen taxon ID: $invalid_path_taxon_filename\n";
+print "Output file of annotations with invalid host taxon ID: $invalid_host_taxon_filename\n";
+print "Output file of annotations with invalid PubMed ID: $invalid_literature_filename\n";
+print "Output file of annotations with invalid UniProt accession: $invalid_uniprot_filename\n";
+print "Output file of annotations without a Gene Name: $invalid_gene_name_filename\n";
+print "Output file of annotations without a curator: $invalid_gene_name_filename\n\n";
+
+print "Output file of only the required data fields of all PHI-base entries: $required_data_filename\n";
+print "Output file of PHI-base entries that meet the required data criteria: $criteria_met_filename\n\n";
+
 print "Output file of valid defects: $defect_filename\n";
 print "Output file of invalid defects: $invalid_defect_filename\n";
 print "Output file of GO annotations with evidence code: $go_with_evid_filename\n";
@@ -1224,13 +1237,4 @@ print "Output file of invalid phenotype outcomes: $invalid_phen_outcome_filename
 print "Output file of disease annotations: $disease_term_filename\n";
 print "Output file of invalid diseases: $invalid_disease_filename\n";
 print "Output file of annotation without a diseases: $without_disease_filename\n\n";
-
-print "Output file of all PHI-base annotations with invalid required data: $invalid_required_data_filename\n";
-print "Output file of annotations with invalid pathogen taxon ID: $invalid_path_taxon_filename\n";
-print "Output file of annotations with invalid host taxon ID: $invalid_host_taxon_filename\n";
-print "Output file of annotations with invalid PubMed ID: $invalid_literature_filename\n";
-print "Output file of annotations with invalid UniProt accession: $invalid_uniprot_filename\n";
-print "Output file of annotations without a Gene Name: $invalid_gene_name_filename\n";
-print "Output file of annotations without a curator: $invalid_gene_name_filename\n\n";
-
 
