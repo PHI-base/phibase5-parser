@@ -1,0 +1,186 @@
+NAR  Supplementary Table S1 								
+PHI-base Version 3.6 contents  								
+TOTAL -  160 species  (those in bold text are also found in the PhytoPath ENSEMBL genomes database) 							1 - USDA Fungal database (http://nt.ars-grin.gov/fungaldatabases)	
+							2 - Plantwise Knowledge Bank (http://www.plantwise.org/KnowledgeBank)	
+Taxonomy / NCBI identifier	Pathogen species name(s)	Host species type(s) in PHI-base	Lifestyle  Abbr: HST - Host selective toxin (metabolite),  PHST - proteinaceous host selective toxin	Obligate biotroph	Host species types (natural)	No of plant hosts; Vast  - well over 100 host species, Many -  up to 100 host species, A few - up to 20 host species, One - a single host species  [Information taken from USDA Fungal database and Plantwise Knowledge Bank)	No of different host interactions recorded in the the USDA Fungal database	No of different host interactions recorded in the the Plantwise Knowledge Bank
+Prokaryotes (55)								
+Plant infecting pathogens (27)								
+358	Agrobacterium tumefaciens	Dicot	Biotroph		Dicot	Many	47	none
+373	Agrobacterium vitis	Dicot	Biotroph		Dicot	One	none	none
+337	Burkholderia glumae	Monocot	Necrotroph		Cereal Monocot	A few 	none	2
+552	Erwinia amylovora	Dicot 	Necrotroph		Dicot - trees 	Many	10	28
+66271	Pantoea stewartii subsp. stewartii	Monocot	Necrotroph		Cereal Monocot	A few 	none	16
+29471	Pectobacterium atrosepticum	Dicot	Necrotroph		Dicots - Cereal Monocot - Non Cereal Monocot 	Many	none	37
+554	Pectobacterium carotovorum	Dicot	Necrotroph		Dicot - Non Cereal Monocot	Many	none	73
+55208	Pectobacterium wasabiae	Dicot	Necrotroph		Dicot	A few 	none	none
+36746	Pseudomonas cichorii 	Dicot	Hemibiotroph		Dicot	Many	2	73
+360920	Pseudomonas savastanoi pv. savastanoi	Dicot	Hemibiotroph		Dicot - Dicot Trees	A few 	none	6
+317	Pseudomonas syringae 	Dicot	Hemibiotroph		Dicots - Cereal Monocot - Non Cereal Monocot 	Many	28	61
+321	Pseudomonas syringae pv. syringae	Dicot	Hemibiotroph		Dicot	A few	1	20
+322	Pseudomonas syringae pv. tabaci	Dicot	Hemibiotroph		Dicot	A few 	none	20
+323	Pseudomonas syringae pv. tomato	Dicot	Hemibiotroph		Dicot	A few	none	3
+305	Ralstonia solanacearum	Dicot 			Dicot - Non Cereal Monocot	Many 	4	49
+1930	Streptomyces scabies	Dicot	Necrotroph		Diciot	A few	19	7
+85558	Streptomyces turgidiscabies	Dicot	Necrotroph		Dicot	A few	none	none
+346	Xanthomonas axonopodis pv. citri	Dicot	Hemibiotroph		Dicot - Dicot Trees	A few	none	none
+43353	Xanthomonas axonopodis pv. manihotis 	Dicot	Hemibiotroph		Dicot	A few	none	2
+339	Xanthomonas campestris	Dicot	Hemibiotroph		Dicot	Many 	6	multiple
+340	Xanthomonas campestris pv. campestris	Dicot	Hemibiotroph		Dicot	Many	3	25
+456327	Xanthomonas campestris pv. vesicatoria	Dicot	Hemibiotroph		Dicot	A few	2	none
+611301	Xanthomonas citri ssp. citri	Dicot	Hemibiotroph		Dicot - Dicot Trees	A few	none	none
+129394	Xanthomonas oryzae  pv. oryzicola	Monocot	Hemibiotroph		Cereal Monocot	A few 	none	4
+64187	Xanthomonas oryzae pv. oryzae	Monocot	Hemibiotroph		Cereal Monocot	A few	none	18
+134874	Xanthomonas translucens pv. graminis	Dicot	Hemibiotroph		Cereal Monocot	A few 	none	none
+183190	Xylella fastidiosa	Dicot			Dicot and Cereal Monocot	Many	9	49
+								
+Animal infecting pathogens (28)						No information available on number of animal hosts.		
+470	Acinetobacter baumannii	Animal  / Insect				from USDA Fungal database or Plantwise Knowledge Bank.		
+1396	Bacillus cereus	Insect / Nematode / Animal / Fish / Dicot						
+518	Bordetella bronchiseptica	Animal						
+139	Borrelia burgdorferi	Animal						
+197	Campylobacter jejuni	Bird						
+1496	Clostridium difficile	Animal						
+67780	Edwardsiella ictaluri	Fish						
+498217	Edwardsiella tarda	Fish						
+1351	Enterococcus faecalis	Animal / Insect						
+562	Escherichia coli	Bird / Animal						
+96345	Flavobacterium psychrophilum 	Fish						
+263	Francisella  tularensis ssp. tularensis 	Animal						
+573	Klebsiella pneumoniae	Animal						
+1639	Listeria monocytogenes	Animal						
+1773	Mycobacterium tuberculosis	Animal						
+287	Pseudomonas aeruginosa	Insect / Nematode / Animal / Fish / Dicot						
+90371	Salmonella enterica serovar Typhimurium	Animal						
+149539	Salmonella enteritidis	Animal						
+42897	Shigella flexneri 	Animal						
+1280	Staphylococcus aureus	Animal / Insect						
+1311	Streptococcus agalactiae	Animal						
+1313	Streptococcus pneumoniae	Animal						
+1314	Streptococcus pyogenes	Animal / Insect						
+1306	Streptococcus sp	Animal						
+1307	Streptococcus suis	Animal / Fish						
+666	Vibrio cholerae	Animal						
+992166	Yersinia pestis	Animal						
+633	Yersinia pseudotuberculosis	Animal						
+								
+Eukaryotes (105)								
+Plant infecting pathogens  and pests (76)								
+Ascomycetes (60)								
+5599	Alternaria alternata	Dicot	Necrotroph		Cereal Monocot - Non Cereal Monocot  - Dicot 	Vast 	905	
+29001	Alternaria brassicicola	Dicot	Necrotroph		Dicot	Many	73	
+135859	Alternaria citri	Dicot	Necrotroph		Dicot	Many	48	
+160389	Alternaria longipes	Dicot 	Necrotroph		Dicot 	Many	22	
+5059	Aspergillus flavus	Dicot	Necrotroph		Cereal Monocot  - Non Cereal Monocot - Dicot 	Vast	136	
+62688	Blumeria graminis f. sp. hordei	Monocot	Biotroph 	x	Cereal Monocot	One	1	
+62690	Blumeria graminis f. sp. tritici	Monocot	Biotroph 	x	Cereal Monocot	One	1	
+40559	Botrytis cinerea (related Botryotinia fuckeliana)	Dicot	Hemibiotroph -necrotroph		Cereal Monocot - Non Cereal Monocot  - Dicot 	Vast	1367	
+278938	Botrytis elliptica	Monocot	Hemibiotroph -necrotroph		Non Cereal Monocot	Many	37	
+84275	Cercospora kikuchii	Dicot	Necrotroph -HST		Dicot	A few	14	
+29003	Cercospora nicotianae	Dicot	Necrotroph -HST		Dicot	A few	6	
+135779	Cercospora zeae-maydis	Monocot	Necrotroph -HST		Cereal Monocot	A few	4	
+5499	Cladosporium fulvum	Dicot	Biotroph 		Dicot	Many	34	
+5111	Claviceps purpurea	Monocot	Biotroph 		Cereal Monocot	Vast	515	
+5017	Cochliobolus carbonum	Monocot	Necrotroph -HST		Cereal Monocot	Many	40	
+5016	Cochliobolus heterostrophus	Monocot	Necrotroph -HST		Cereal Monocot   and Dicot	Many	101	
+101162	Cochliobolus miyabeanus	Monocot	Necrotroph 		Cereal Monocot   and Dicot	Many	33	
+45130	Cochliobolus sativus	Monocot	Hemibiotroph 		Cereal Monocot  	Vast	374	
+40125	Cochliobolus victoriae	Monocot	Necrotroph -HST		Cereal Monocot   and Dicot	Many	40	
+27357	Colletotrichum acutatum (related: Glomerella acutata)	Dicot	Hemibiotroph -necrotroph		Dicot - Dicot Trees 	Vast 	178	
+27358	Colletotrichum coccodes	Dicot	Hemibiotroph -necrotroph		Dicot and Cereal Monocot	Many	59	
+5457	Colletotrichum gloeosporioides (related: Glomerella cingulata)	Dicot	Hemibiotroph -necrotroph		Non Cereal Monocot - Dicot (D)	Vast	1911	
+31870	Colletotrichum graminicola (related: Glomerella graminicola)	Monocot	Hemibiotroph		Cereal Monocot   and Dicot	Vast	342	
+5462	Colletotrichum lagenarium 	Dicot	Hemibiotroph		Dicot	Many	100	
+290576	Colletotrichum lindemuthianum (related:  Glomerella lindemuthiana)	Dicot	Hemibiotroph		Cereal Monocot - Non Cereal Monocot - Dicot 	Many 	61	
+5465	Colletotrichum orbiculare	Dicot	Hemibiotroph		Dicot 	Vast	101	
+5466	Colletotrichum trifolii	Dicot	Hemibiotroph		Dicot	Many	37	
+35717	Epichloe festucae	Monocot	Endophyte		Cereal Monocot 	A few 	3	
+5516	Fusarium culmorum	Monocot	Hemibiotroph -necrotroph		Cereal Monocot   and Dicot	Vast	136	
+5518	Fusarium graminearum  (related: Gibberella zeae)	Monocot / Dicot	Hemibiotroph -necrotroph		Cereal Monocot  - Non Cereal Monocot - Dicot 	Vast	216	
+5507	Fusarium oxysporum 	Dicot	Necrotroph		Cereal Monocot  - Non Cereal Monocot - Dicot 	Vast	707	
+59765	Fusarium oxysporum f.sp. lycopersici	Dicot / Animal 	Necrotroph				no entry	
+61369	Fusarium oxysporum f.sp. melonis	Dicot	Necrotroph				no entry	
+101028	Fusarium pseudograminearum	Monocot	Necrotroph		Cereal Monocot  	Many	22	
+169388	Fusarium solani	Dicot	Necrotroph		Dicot - Dicot Trees, Cereal Monocot  - Non Cereal Monocot 	Vast	516	
+70790	Fusarium solani f. sp. cucurbitae	Dicot	Necrotroph		Dicots	A few 	10	
+5514	Fusarium sporotrichioides	Monocot	Necrotroph		Cereal Monocot   and Dicot	Many 	66	
+29850	Gaeumannomyces graminis	Monocot	Necrotroph		Cereal Monocot	A few	18	
+5127	Gibberella fujikuroi	Monocot	Hemibiotroph -necrotroph		Cereal Monocot  - Non Cereal Monocot - Dicot 	Many	51	
+117187	Gibberella moniliformis (related: Fusarium verticillioides)	Monocot / Animal / Insect	Hemibiotroph -necrotroph		Cereal Monocot, Dicots	Many	43	
+5128	Gibberella pulicaris	Dicot	Necrotroph		Cereal Monocot - Non Cereal Monocot - Dicot 	Vast	132	
+5563	Gloeocercospora sorghi	Monocot	Necrotroph		Cereal Monocot	Many	32	
+226899	Grosmannia clavigera	Gymnosperm			Dicot - Tree	A few	13	
+5022	Leptosphaeria maculans	Dicot	Hemibiotroph		Dicot 	Vast	110	
+148305	Magnaporthe grisea	Monocot	Hemibiotroph		Cereal Monocot   - Non Cereal Monocot 	Vast	204	
+148305	Magnaporthe oryzae	Monocot	Hemibiotroph		Cereal Monocot	Many	46	
+38448	Monilinia fructicola	Dicot	Necrotroph		Dicot	Many	103	
+54734	Mycosphaerella graminicola (related: Zymoseptoria triticii)	Monocot	Hemibiotroph		Cereal Monocot	A few	33	
+140110	Nectria haematococca	Dicot	Necrotroph		Cereal Monocot - Non Cereal Monocot - Dicot 	Vast	623	
+76659	Pyrenopeziza brassicae	Dicot	Hemibiotroph		Dicot	A few	16	
+53485	Pyrenophora teres	Monocot	Hemibiotroph		Cereal Monocot	Many	29	
+45151	Pyrenophora tritici-repentis	Monocot	Necrotroph-PHST		Cereal Monocot	Many	87	
+914237	Rhynchosporium commune	Monocot	Hemibiotroph		Cereal Monocot	A few	4	
+38038	Rhynchosporium secalis	Monocot	Hemibiotroph		Cereal Monocot	Many	80	
+5180	Sclerotinia sclerotiorum	Dicot	Necrotroph		Non Cereal Monocot - Dicot 	Vast	684	
+39703	Septoria lycopersici	Dicot	Necrotroph		Dicot	A few	17	
+93612	Setosphaeria turcica	Monocot	Hemibiotroph		Cereal Monocot	Many	37	
+13684	Stagonospora nodorum (related: Phaeosphaeria nodorum)	Monocot	Necrotroph-PHST		Cereal Monocot	Vast	113	
+5025	Venturia inaequalis	Dicot	Hemibiotroph		Dicot - Tree 	Vast	141	
+27337	Verticillium dahliae	Dicot	Necrotroph		Dicot	Vast	395	
+Basidiomycetes (4)								
+5116	Cryphonectria parasitica	Dicot	Hemibiotroph -necrotroph		Dicot - Tree 	Many 	50	
+5261	Melampsora lini	Dicot	Biotroph		Dicot - Linum sp only	Many	56	
+120017	Ustilago hordei	Monocot	Biotroph 	x	Cereal Monocot	Many	115	
+5270	Ustilago maydis	Monocot	Biotroph 		Cereal Monocot	A few	17	
+Oomycetes (8)								
+272952	Hyaloperonospora arabidopsidis	Dicot 	Biotroph 	x	Dicot	A few	5	
+123356	Hyaloperonospora parasitica	Dicot	Biotroph	x	Dicot	Vast	330	
+29920	Phytophthora cactorum	Dicot	Necrotroph		Cereal Monocot - Non Cereal Monocot - Dicot 	Vast	420	
+4784	Phytophthora capsici	Dicot	Hemibiotroph		Dicot, Dicot-Tree,  Non Cereal Monocot	Many	84	
+4787	Phytophthora infestans	Dicot	Hemibiotroph		Dicot	Vast	134	
+4792	Phytophthora parasitica	Dicot	Hemibiotroph		Dicot, Dicot-Tree,  Non Cereal Monocot	Vast	897	
+67593	Phytophthora sojae	Dicot	Hemibiotroph		Non Cereal Monocot - Dicot 	Many	49	
+65070	Pythium aphanidermatum	Dicot	Necrotroph		Cereal Monocot  - Non Cereal Monocot - Dicot 	Vast	285	
+								
+Plant infecting pests (4)								
+36090	Globodera pallida	Dicot	Biotroph	x	Dicot	Many	none	23
+13131	Macrosiphum euphorbiae	Dicot	Phloem feeding insect		Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot	Many	none	35
+6303	Meloidogyne javanica	Dicot	Biotroph	x	Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot	Vast	none	102
+13164	Myzus persicae	Dicot	Phloem feeding insect		Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot	Vast 	none	115
+								
+Fungal infecting pathogens (3) 								
+Ascomycetes (2)								
+29875	Trichoderma virens	Fungi			Fungi, Dicot, Dicot - Trees	A few	12	
+93591	Verticillium fungicola 	Fungi			Fungi	One	1	
+93591	Lecanicillium fungicola	Fungi					none	
+								
+Animal and other host infecting pathogens  (21)								
+Ascomycetes (17)								
+746128	Aspergillus fumigatus	Animal				No information available on number of animal hosts.		
+162425	Aspergillus nidulans	Animal				from USDA Fungal database or Plantwise Knowledge Bank.		
+176275	Beauveria bassiana	Insect						
+5039	Blastomyces dermatitidis	Animal						
+5476	Candida albicans	Animal						
+5478	Candida glabrata	Animal						
+36911	Candida lusitaniae	Animal						
+5480	Candida parapsilosis	Animal						
+5482	Candida tropicalis	Animal						
+5501	Coccidioides immitis 	Animal						
+199306	Coccidioides posadasii	Animal						
+5970	Exophiala dermatitidis (related: Wangiella  dermatitidis)	Animal						
+5037	Histoplasma capsulatum	Animal						
+5530	Metarhizium anisopliae	Insect						
+568076	Metarhizium robertsii	Insect						
+4932	Saccharomyces cerevisiae	Animal / Nematode 						
+5551	Trichophyton rubrum	Animal						
+Basidiomycetes (4)								
+37769	Cryptococcus bacillisporus	Animal						
+292817	Cryptococcus gattii	Animal						
+5207	Cryptococcus neoformans	Animal						
+178876	Cryptococcus neoformans var. grubii   	Animal / Insect						
+								
+Animal infecting parasites (5) 								
+5671	Leishmania infantum	Animal						
+5665	Leishmania mexicana	Animal						
+5811	Toxoplasma gondii	Animal						
+5691	Trypanosoma brucei	Animal 						
+5693	Trypanosoma cruzi	Animal						
