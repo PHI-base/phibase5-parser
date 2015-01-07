@@ -19,8 +19,8 @@ my $disease_found_count = 0;
 my $disease_not_found_count = 0;
 
 # open output files
-my $disease_filename = './output/disease_details.tsv';
-my $no_disease_filename = './output/disease_not_found.tsv';
+my $disease_filename = '../output/disease_details.tsv';
+my $no_disease_filename = '../error/disease_not_found.tsv';
 open (DISEASE_FILE,"> $disease_filename") or die "Error opening output file\n";
 open (NO_DISEASE_FILE,"> $no_disease_filename") or die "Error opening output file\n";
 print "Printing Disease Ontology terms to output file $disease_filename...\n";
