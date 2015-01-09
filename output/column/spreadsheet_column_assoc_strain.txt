@@ -45,3 +45,4356 @@ FBD11
 104-T
 104-T
 SB111a
+ATCC 10261
+B792
+EP155
+
+1001 (ATCC 64385)
+SS
+SS
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+race 5
+race 5
+race 5
+CAI4
+CAI4
+SS
+SS
+JEC21
+JEC21
+JEC21
+FB1
+FB1
+FB1
+FB1
+
+70-15
+70-15
+70-15
+70-15
+
+
+ATCC10231
+ATCC10231
+70
+H99
+ATCC 26555
+4918
+4918
+SB111
+518
+Guy11
+strain 518 (a2b2)
+B-5233
+SAS56
+SAS56
+SAS56
+CAI-4
+CAI-4
+SC5314
+ATCC 10261
+SC5314
+UPS9
+88069
+156-30-6
+Guy11
+42-87
+SB111
+ATCC46645
+4091-5-8; 4091-5-8
+4091-5-8
+
+4091-5-8
+10261
+WO1
+WO1
+Ca74
+Ca74
+Ca74
+Ca74
+Guy11
+B-4500
+
+NRRL 3299
+Guy11
+15A
+15A
+ATCC 26199
+SC5314
+SC5314
+SC5314
+SC5314
+
+CBS131
+
+PR
+C4
+T-442
+
+
+1001
+a2b3
+Guy11
+H99
+H99
+SB111
+521
+G184AS
+M-71
+BC29; BC29
+BC29; BC29
+BC29; BC29
+ATCC 10259
+G186AR
+UQ62
+Not defined
+Not defined
+Not defined
+Not defined
+Not defined
+UPS9
+104-T
+
+race 1
+
+SC5314
+FBD11
+LAW 95
+H237
+T8
+T8
+r6
+H99
+H99
+H99
+H99
+
+
+
+
+CAI4
+CAI4
+
+SB111
+SC5314
+SC5314
+353.49
+H99
+3153A
+ATCC 32354
+ATCC 10231
+B792
+B792
+B792
+Cf4
+Mel02010
+4224-7-8
+SAS56
+SAS56
+SAS56
+SAS56
+
+1161
+
+
+
+ATCC10261
+SC5314
+W-01
+ATCC366
+H99
+H99
+SC 5314
+
+
+
+SC5314
+M1106
+ATCC 56884; ATCC 56884
+
+
+SC 5314
+CG-14
+
+
+77-13-7
+
+H99
+H99
+H99
+H99
+H99
+H99
+H99
+
+
+
+
+SB111
+1/2
+H99 (ATCC 208821)
+wild strain 8656
+8656
+8656
+SC5314
+SAS 56
+H99
+H99
+
+
+
+T5
+T5
+T5
+Guy11
+C4
+f. sp. cucumerinum strain F9
+SC5314
+
+Mel02010
+M-3125
+
+
+R-6380
+SC5314
+
+M1
+SC5314
+
+BWP17
+H99
+
+
+
+
+
+
+
+
+
+
+C735
+
+
+H99
+SCHBC1
+T4
+T4
+T4
+T4
+T4
+T4
+T4
+T4
+T4
+SC5314
+H99
+C792
+
+
+
+
+
+
+SC5314
+SC5314
+SC5314
+T5
+
+
+104-T
+HvW
+
+
+O-685
+O-685
+
+Z3639
+Guy11
+WO-1
+RK32 a1b3
+FB1
+
+
+
+
+16A
+IPO323
+Guy11
+
+
+
+
+
+H30P04
+
+NYS 155B
+NYS 155B
+
+ATCC10231
+ATCC 2001
+Guy11
+150-1
+H99
+Guy11
+ATCC 2001
+Maks9
+T4
+T4
+T4
+T4
+
+SC5314
+
+CAF2
+
+
+
+
+
+beta
+
+
+
+
+T5
+B3501
+
+SC5314
+70-15
+
+521
+
+ATCC46645
+PH-1; NRRL 31084
+
+SC5314
+
+
+JEC21
+JEC21
+SC5314
+ATCC46645
+SC5314
+
+Guy11
+Guy11
+
+SC5314
+88069
+JEC21
+ATCC46645
+H99
+H99
+H99
+SC5314
+Mel02010
+H99
+H99
+
+SC5314
+Fol007
+SC5314
+
+SC5314
+
+
+H99
+B-4500
+518
+
+P-2b
+Cai-4
+T5
+
+
+H99
+
+SC5314
+
+FBD12
+4091-5-8
+Guy11
+
+JH26
+
+H99
+521
+
+
+
+
+
+
+
+
+R3b
+ATCC 32609; NIH 444
+ATCC 32609; NIH 444
+H99
+H99
+H99
+
+B-3501A
+B-3501A
+SC5314
+strain 1161
+UPS9
+JEC21
+JEC21
+
+
+
+Af293
+SC5314
+
+T5
+T4
+T4
+PH-1; NRRL 31084
+
+SAS56
+SAS56
+SAS56
+SAS56
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1; NRRL 31084
+PH-1
+ATCC 46645
+
+
+H99
+CAF3-1
+1006
+SC5314
+SC5314
+SC5314
+SC5314
+
+
+
+
+SC5314
+70-15
+Uh112 (MAT-1, ade)
+Uh112 (MAT-1, ade)
+1066
+WO1
+
+
+
+518
+EP155
+
+SB111
+JEC21
+WO1
+race 4
+
+
+
+
+SC5314
+521
+C735
+SC5314
+SC5314
+
+
+
+
+
+
+
+
+
+
+SC5314
+
+
+SC5314
+JEC21
+JEC21
+
+SC5314
+B05.10
+B05.10
+
+Af293
+
+Af293
+H99
+
+2.16
+SC5314
+
+AB972
+S288c (AB972)
+S288C
+
+
+wo1
+NAF8
+NAF8
+NAF8
+NAF8
+SC5314
+SC5314
+
+SC5314
+SC5314
+SC5314
+518
+H99
+H99
+SC5314
+Guy11
+Guy11
+SC5314
+UQ62
+
+
+
+
+
+PH-1; NRRL 31084
+CL13
+SC5314
+SC5314
+
+
+P6954
+Emoy2
+CH5
+CH5
+CH5
+CH5
+BFP
+CH5
+CH5
+CH5
+SAS56
+SAS56
+Bd90
+Bd90
+Bd90
+Bd90
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+SAS56
+BC29; BC29
+SAS56
+SAS56
+SAS56
+SAS56
+T4
+T4
+Bd90
+Bd90
+L
+L
+
+SAS56
+SAS56
+SAS56
+SAS56
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+Ty2
+LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+H237
+H237
+
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+Ken60-19
+42-87
+
+SB111
+SB111
+SB111
+SB111
+SB111
+SB111
+SB111
+SB111
+SB111
+SB111
+SB111
+SB111
+IuRy-1
+Fl1
+Fl1
+Fl1
+Fl1
+Fl1
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+1448A; BAA-978
+1448A; BAA-978
+Not available
+Not available
+Guy11
+Guy11
+4091-5-8
+Not available
+
+M1
+IBCN18
+H99
+H99
+H99
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+LT2; SGSC 1412; ATCC 700720; LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+Ty2
+Ty2
+LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+LT2; SGSC 1412; ATCC 700720; LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+Ty2
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+LT2; SGSC 1412; ATCC 700720
+Ty2
+Ty2
+Ty2
+
+
+
+
+90128
+88069
+DDR7602
+DDR7602
+DDR7602
+DDR7602
+DDR7602
+DDR7602
+P6497
+P7064
+
+LT2; SGSC 1412; ATCC 700720; LT2; SGSC 1412; ATCC 700720
+SGSC1412
+SGSC1412; SGSC1412; SGSC1412
+
+
+
+
+
+
+
+
+H99
+H99
+H99
+H99
+H99
+H99
+H99
+JEC21
+JEC21
+JEC21
+
+H99
+H99
+H99
+JEC21
+JEC21
+H99
+H99
+H99
+
+
+JEC21
+JEC21
+JEC20
+JEC20
+
+JEC21
+Not Available
+
+
+
+Guy11
+Guy11
+H99
+
+M1
+M1
+M1
+M1
+M1
+N16961
+N16961
+N16961
+N16961
+C6706str2
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+569B
+SCE263
+O395
+
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+
+GZ-3639
+
+
+
+
+GZ-3639
+GZ-3639
+GZ-3639
+GZ-3639
+
+GZ-3639
+GZ-3639
+
+Not available
+
+
+Mel02010
+Mel02010
+ATCC 34622
+ATCC 34622
+ATCC 34622
+ATCC 34622
+Not available
+70-15
+BE0022, and BE9714
+BE9610, and BE0022
+
+
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+522
+CC148
+CC148
+88069
+88069
+88069
+88069
+88069
+88069
+Guy11
+T5
+EP155
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+WC
+MS9
+UK field isolate
+765.03.01
+Pg-10
+NFI5146
+NFI5166
+Not available
+Not available
+Not available
+Not available
+IMI 103761, 521
+ST1/MBC
+Fel08
+Daf1
+K 1562
+04-HG1
+04-DJ1
+04-JL3a
+04-JL2b
+04-WZ2
+04-AAW2
+04-XC4
+04-XC3
+NCIMB1947
+FKR9801
+M3
+FU13
+Pg-15
+Pg-7
+521
+521
+
+SC5314
+SC5314
+
+
+Y34, 70-15
+Y34, 70-15
+
+
+104-T
+AF14
+IPO323
+β
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+
+race 4
+race 4
+NPS3121
+B728A
+race 6-1448A
+PT23
+race 1
+race 3
+race 6
+PT23
+PT23
+JL1065
+DC3000
+B728A
+M2
+151
+JL1065
+JL1065
+JL1065
+61
+ES4326
+ES4326
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+1302A (race 4)
+M6
+DC3000
+DC3000
+1449B (race7)
+1449B (race7)
+DC3000
+870A
+DC3000
+DC3000
+DC3000
+race 3
+61
+61
+B728A
+B728A
+B728A
+B728A
+B728A
+B728A
+B728A
+B728A
+B728A
+B728A
+1449A race 5 & 7
+Hi-C-13
+PH-1
+PH-1
+PH-1
+PH-1
+Hi-C-13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B157
+
+
+Hi-C-13
+
+4287
+4288
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+Bd90
+Bd90
+Bd90
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+T5
+T5
+T5
+T5
+T5
+T5
+v23.1.3
+v23.1.3
+IPO323
+IPO323
+IPO323
+IPO323
+
+
+
+
+
+
+
+
+
+
+
+Guy11
+Guy11
+70-15
+70-15
+Guy11
+Guy11
+Guy11
+
+
+IPO323
+IPO323
+IPO323
+IPO323
+IPO323
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v23.1.3
+v23.1.3
+v23.1.3
+IBCN18
+IBCN18
+PXO99A
+PXO99A
+PXO99A
+PXO99A
+PXO99A
+PXO99A
+PXO99A
+PXO99A
+PXO99A
+PXO99A
+PXO99A
+
+T5
+IPO323
+IPO323
+IPO323
+IPO323
+IPO323
+IPO323
+IPO323
+IPO323
+IPO323
+IPO323
+IPO323
+B05.10
+IPO323
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+Guy11
+Guy11
+70-15
+Guy11
+Ku80
+Ku80
+70-15
+Ku80
+Ku80
+Ku80
+70-15
+70-15
+70-15
+70-15
+70-15
+Not defined
+Not defined
+Not defined
+Not defined
+Ina168
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+Data not found
+Data not found
+Data not found
+Data not found
+Data not found
+70-15
+70-15
+70-15
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+B157
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+Guy11
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+Guy11
+Guy11
+B157
+B157
+B157
+no data found
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+CgM2
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+81278ZB15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+IPO323
+IPO323
+IPO323
+no data found
+IPO323
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+Ina168
+70-15
+Guy11
+70-15
+Guy11
+70-15
+Guy11
+Guy11
+70-15
+70-15
+70-15
+no data found
+70-15
+70-15
+no data found
+70-15
+no data found
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+ZN04
+no data found
+4392-1-6
+no data found
+4392-1-6
+70-15
+70-15
+70-15
+Guy11
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+no data found
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+521
+no data found
+no data found
+no data found
+no data found
+521
+521
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+521
+no data found
+521
+521
+521
+SN15
+SN15
+SN15
+SN15
+SN15
+SN15
+4287
+no data found
+4287
+no data found
+SN15
+SN15
+SN15
+SN15
+SN15
+ND90Pr
+ND90Pr
+ND90Pr
+ND90Pr
+no data found
+no data found
+SN15
+SN15
+SN15
+SN15
+SN15
+SN15
+no data found
+SN15
+no data found
+no data found
+no data found
+20.1
+20.1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Abra43 
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+CEA10
+CEA10
+PH-1
+PH-1
+B05.10
+B05.10
+B05.10
+B05.10
+no data found
+CEA10
+B05.10
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+no data found
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+Af293
+FOP-SP2
+B05.10
+B05.10
+B05.10
+no data found
+70wt-r1
+70wt-r1
+BCRC30501
+BCRC30501
+BCRC30501
+1980
+1980
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+SD-1
+no data found
+B05.10
+no data found
+Af293
+Af293
+ARSEF 23
+Guy11
+Guy11
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+no data found
+150-1
+JR2
+JR2
+JR2
+JR2
+LMG 2196
+LMG 2196
+B05.10
+B05.10
+T4
+T4
+BSm300
+BSm300
+SC5314
+Uh4875-4
+Uh4875-4
+240B1
+240B1
+240B1
+BE9401
+BE9401
+no data found
+race 4
+race 4
+race 4
+no data found
+no data found
+Naz red bean
+Naz red bean
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+70-15
+no data found
+Af293
+no data found
+no data found
+no data found
+no data found
+no data found
+1980
+1980
+no data found
+1/2
+no data found
+no data found
+HITO7711
+C4
+no data found
+HITO7711
+no data found
+SAS 56
+B05.10
+B05.10
+B05.10
+B05.10
+SAS 56
+B05.10
+B05.10
+B05.10
+B05.10
+SAS 56
+B05.10
+B05.10
+B05.10
+B05.10
+no data found
+B05.10
+B05.10
+B05.10
+B05.10
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+MUCL 202097
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+E6
+E6
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+SC5314
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+no data found
+C4
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+Nockwang
+Nockwang
+Nockwang
+Nockwang
+no data found
+no data found
+114
+114
+70-15 / ATCC MYA-4617 / FGSC 8958
+70-15 / ATCC MYA-4617 / FGSC 8958
+70-15 / ATCC MYA-4617 / FGSC 8958
+70-15 / ATCC MYA-4617 / FGSC 8958
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+no data found
+no data found
+no data found
+no data found
+1980
+97-2
+M1.001
+no data found
+ATCC 39315 / El Tor Inaba N16961
+ATCC 39315 / El Tor Inaba N16961
+ATCC 39315 / El Tor Inaba N16961
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+Emoy2
+Emoy2
+Emoy2
+Cala2
+Cala2
+Cala2
+Emoy2
+Emoy2
+Emoy2
+Emoy5
+Emoy5
+Emoy5
+JEC21
+C4; ATCC 48331
+C4; ATCC 48331
+IPO3
+IPO3
+IPO3
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+var. grubii
+var. grubii
+Bb0062
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+SH20
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+JEC21
+no data found
+no data found
+BGR1
+BGR1
+BGR1
+BGR1
+IPO323
+6605
+6605
+KACC10331
+KACC10331
+no data found
+no data found
+no data found
+no data found
+F2/5
+Race 4
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+no data found
+no data found
+521
+4287
+ATCC 49946 / CCPPB 0273 / Ea273 / 27-3
+ATCC 49946 / CCPPB 0273 / Ea273 / 27-3
+ATCC 49946 / CCPPB 0273 / Ea273 / 27-3
+ATCC 49946 / CCPPB 0273 / Ea273 / 27-3
+Ea321
+Ea321
+Ea321
+Ea321
+Ea321
+Ea321
+321
+321
+321
+321
+no data found
+KACC10331
+no data found
+no data found
+Ea7/74
+Ea7/74
+SS104
+8-1
+8-1
+321
+321
+US-41
+Si-60
+no data found
+SL2029
+SL2029
+SL2029
+SL2029
+Ecc71
+Ecc71
+Ecc71
+Ecc71
+306
+306
+K-10
+K-10
+B05.10
+B05.10
+no data found
+B05.10
+B05.10
+no data found
+no data found
+no data found
+B05.10
+B05.10
+no data found
+no data found
+70-15
+13751
+MHOM/GT/2001/U1103
+MHOM/GT/2001/U1103
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+GMI1000
+8004
+8004
+8004
+8004
+521 / FGSC 9021
+521 / FGSC 9021
+521 / FGSC 9021
+521 / FGSC 9021
+Ea1/79
+ATCC 49946
+CFPB1430
+Ea1/79
+CFPB1430
+PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084
+no data found
+no data found
+ATCC 96836
+ATCC 96836
+ATCC 96836
+ATCC 96836
+Af293
+YJ-407
+Af293
+Af293
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293 
+Af293
+Af293
+Af293
+Af293
+Af293
+Af293
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314 / ATCC MYA-2876
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+Af293
+Af293
+SC5314
+SC5314 / ATCC MYA-2876
+SC5314
+SC5314
+SC5314
+H99
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+CBS138
+CBS138
+CBS138
+CBS138
+SC5314
+SC5314
+CDC317
+SC5314
+CBS138
+SC5314
+SC5314
+SC5314
+CBS138
+SC5314
+SC5314
+no data found
+OK Dog
+CL Brener
+no data found
+no data found
+Tobacco-adapted lineage (red)
+Tobacco-adapted lineage (red)
+Tobacco-adapted lineage (red)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+521
+no data found
+no data found
+G217B
+CL Brener
+no data found
+VW4
+927/4
+CL Brenner
+CL Brenner
+no data found
+OK Dog
+CL Brener
+no data found
+no data found
+Tobacco-adapted lineage (red)
+Tobacco-adapted lineage (red)
+Tobacco-adapted lineage (red)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+521
+no data found
+no data found
+G217B
+CL Brener
+no data found
+VW4
+927/4
+CL Brenner
+CL Brenner
+HT
+FSLR2142
+SC5314
+SC5314
+VPI10463
+PAO1
+14028S
+LT2
+LT2
+no data found
+LT2
+no data found
+LT2
+TML R66
+LT2
+no data found
+LT2
+LT2
+LT2
+TML R66
+H37Rv
+H37Rv
+M
+H37Rv
+M
+H37Rv
+USA300
+USA300
+USA300
+USA300
+RH
+B31
+Af293
+Af293
+Af293
+Af293
+ATCC42720
+ATCC 42720
+EIB202
+JPCM5
+LT2
+LT2
+RB50
+W
+APEC O1
+K-12 substr. MG1655
+W
+APEC O1
+SC5314
+P125109
+P125109
+LT2
+LT2
+NTUH-K2044
+T4
+T4
+T4
+SC5314
+ATCC700888
+no data found
+ATCC700888
+no data found
+ATCC700888
+no data found
+ATCC700888
+no data found
+14028S
+C58
+C58
+C58
+C58
+C58
+C58
+C58
+C58
+C58
+C58
+C58
+C58
+Af293
+98HAH33
+98HAH33
+CL Brener
+BGR1
+BGR1
+BGR1
+BGR1
+BGR1
+BGR1
+UT205
+T4
+PAO1
+ATCC 17978
+ATCC 17978
+ATCC 17978
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+LT2
+85-10
+NRRL 33064
+K12
+CBS 138
+P7064
+kw1407
+SCRI1043
+SCRI1043
+SCRI1043
+SCRI1043
+UK7
+UK7
+no data found
+UK7
+no data found
+UK7
+UK7
+no data found
+UK7
+no data found
+UK7
+UK7
+no data found
+UK7
+no data found
+UK7
+UK7
+no data found
+UK7
+no data found
+306
+306
+104-T
+306
+306
+306
+306
+306
+PH-1
+87.22
+87.22
+87.22
+87.22
+87.22
+87.22
+87.22
+87.22
+87.22
+87.22
+87.22
+87.22
+no data found
+Cg-14
+VdLs.17
+VdLs.17
+VdLs.17
+VdLs.17
+VdLs.17
+VdLs.17
+CFBP1851
+PH-1
+PH-1
+PH-1
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+PXO86
+PXO99
+BAI3
+BLS256
+BLS256
+BLS256
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+P7064
+P7064
+no data found
+no data found
+PXO99A
+PXO99A
+VdLs.17
+TIGR4
+TIGR4
+TIGR4
+TIGR4
+TIGR4
+TIGR4
+WPP163
+WPP163
+TIGR4
+KACC 10331
+PXO99A
+PXO99A
+KACC 10331
+2603V/R
+C57BL/6
+CDC1551
+CDC1551
+no data found
+DC3000
+no data found
+DC3000
+521
+UCBPP-PA14
+UCBPP-PA14
+UCBPP-PA14
+UCBPP-PA14
+UCBPP-PA14
+UCBPP-PA14
+UCBPP-PA14
+UCBPP-PA14
+USA300_TCH1516
+no data found
+B-3501A
+B-3501A
+no data found
+SL1344
+no data found
+SL1344
+DC3000
+no data found
+no data found
+no data found
+no data found
+BGR1
+BGR1
+BGR1
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+NCPPB 3335
+MGAS5005
+St01-23
+no data found
+no data found
+St01-23
+no data found
+no data found
+ZY05719
+1980 UF-70
+1980 UF-70
+1980
+1980
+no data found
+Af293
+R265
+ATCC 204508 / S288c
+ATCC 204508 / S288c
+ATCC 204508 / S288c
+ATCC 204508 / S288c
+ATCC 204508 / S288c
+SC5314
+AC325
+ATCC 58171
+ATCC 58171
+ATCC 58171
+ATCC 58171
+ATCC 58171
+ATCC 58171
+no data found
+SC5314
+SC5314
+Jec21
+SC5314
+SC5314
+SC5314
+no data found
+no data found
+no data found
+no data found
+Af293
+OS99-G-7a
+OS99-G-7a
+15A
+no data found
+15A
+no data found
+B3501A
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+H99
+H99
+H99
+H99
+H99
+H99
+H99
+H99
+15A
+no data found
+no data found
+T7
+GLO1
+PGB153
+PGB153
+PGB153
+PGB153
+91T59
+91T59
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+PY-66
+no data found
+no data found
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+278/06
+SCHU S4
+SCHU S4
+SCHU S4
+278/06
+SCHU S4
+278/06
+SCHU S4
+SCHU S4
+SCHU S4
+278/06
+SCHU S4
+SCHU S4
+SCHU S4
+SCHU S4
+SCHU S4
+278/06
+SCHU S4
+SCHU S4
+278/06
+SCHU S4
+SCHU S4
+SCHU S4
+SCHU S4
+SCHU S4
+278/06
+SCHU S4
+SCHU S4
+SCHU S4
+C3
+IA3902
+B728a
+B728a
+B728a
+B728a
+B728a
+DC3000
+DC3000
+DC3000
+MGAS6180
+MGAS6180
+Pa 2/3
+16K
+16K
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+SC5314
+CTG; CEP
+CTG; CEP
+P7063
+P7064
+P7063
+P7064
+P7063
+P7064
+P7063
+P7064
+P7063
+P7064
+P7063
+P7064
+S4
+S4
+S4
+S4
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+CFBP1430
+CFBP1430
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+1980
+1980
+1980
+1980
+1980
+no data found
+EV-MIL31
+EV-MIL31
+no data found
+EV-MIL31
+no data found
+EV-MIL31
+no data found
+no data found
+no data found
+8004
+JN3
+M1.001
+M1.001
+M1.001
+M1.001
+no data found
+EV-MIL31
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+NCPPB 2293
+no data found
+EV-MIL 31
+no data found
+EV-MIL 31
+no data found
+no data found
+Temecula1
+Temecula1
+Temecula1
+RS105
+70-15
+P6497
+P6497
+310
+P6497
+P6497
+Emoy2
+Emoy2
+Emoy2
+Emoy2
+Emoy2
+6605
+6605
+6605
+6605
+Xtg29
+Xtg29
+Xtg29
+Xtg29
+Xtg29
+ME49
+H99
+no data found
+no data found
+93-146
+93-146
+93-146
+93-146
+93-146
+no data found
+BLS256
+no data found
+NCTC 8325
+Col
+no data found
+Col
+no data found
+no data found
+H99
+Af293
+Af293
+V583
+V583
+SC5314
+85-10
+T1
+T1
+DC3000
+DC3000
+no data found
+J1816
+70-15
+70-15
+SCHU S4
+M4243A
+no data found
+AH187
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+V583
+V583
+no data found
+V583
+B05.10
+B05.10
+B05.10
+Newman
+MW2
+6A_NorthCarolina_23
+19F_Portugal_21
+no data found
+no data found
+TIGR4
+LT2
+SL1344
+LT2
+LT2
+SL1344
+LT2
+U-0608239
+P6497
+70-15
+A909
+A909
+no data found
+H99
+LGP32
+70-15
+SC5314
+SC5314
+1001
+SC5314
+H99
+no data found
+PA103
+NCPPB 382
+NCPPB 382
+JEC21
+JEC21
+B-3501A
+JEC21
+no data found
+R
+F
+S6
+PH-1
+PH-1
+PH-1
+PH-1
+no data found
+no data found
+x3306
+PAO1
+PAO1
+PAO1
+IP 32953
+H237
+H237
+Af293
+Af293
+H237
+Af293
+Af293
+H237
+Af293
+H237
+H237
+Af293
+Af293
+H237
+Af293
+Af293
+H237
+Af293
+B171
+7600
+7600
+7600
+C7184O
+ATCC 29307
+CKUH
+CKUH
+Becker
+N16961
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+no data found
+NCTC 11168
+ARSEF 2860
+ARSEF 23
+2308
+P6497
+MAFF 311018
+PAO1
+PAO1
+EIB202
+no data found
+CDC317
+CDC317
+H37Rv
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. maculicola str. M6
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+P1/7
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+ATCC 17978
+FDC 381
+HP88
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+DSM 25430
+DC283
+DC283
+MNCM07
+no data found
+ARSEF 2860
+ARSEF 2860
+ARSEF 2860
+H99
+A20
+no data found
+3D7
+RH
+no data found
+no data found
+EGD-e
+K-12
+B100
+B100
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+ATCC 33913
+UMNK88
+SA18
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+70-15
+70-15
+104-T
+SN15
+79-685
+CFBP1430
+CFBP1430
+no data found
+no data found
+no data found
+no data found
+85-10
+RK123
+RK123
+PH-1
+P131
+PH-1
+NBRC 105692
+IP 32953
+IP 32953
+IP 32953
+no data found
+PAO1
+PH-1
+ATCC 9545
+I9841/1
+ATCC 49503
+PeruGJ6
+84-183
+I-34B
+no data found
+26695
+SH0165
+R6
+R6
+R6
+R6
+no data found
+R6
+R6
+R6
+R6
+R6
+R6
+R6
+R6
+70-15
+70-15
+70-15
+NBAII Tvs5
+NBAII Tvs5
+JBC1
+JBC1
+JBC1
+JBC1
+JBC1
+JBC1
+JBC1
+PAO1
+PAO1

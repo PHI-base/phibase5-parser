@@ -45,3 +45,4348 @@ GO:0009405, IMP
 GO:0009405, IMP; GO:0044409, IMP, GO:0030411, NAS
 GO:0009405, IMP; GO:0044409
 
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+
+
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0016526, NAS
+GO:0009405, IMP; GO:0044409, IMP; GO:0030437, IMP; GO:0016526, NAS
+GO:0016526, NAS; GO:0030437, IMP
+GO:0009405, IMP
+GO:0009405, IGI; GO:0044412
+GO:0009405, IGI
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409, IMP
+GO:0009405, IMP; GO:0051701
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP, GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409; GO:0044412
+
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IGI
+GO:0009405, IGI
+GO:0009405, IGI
+GO:0009405, IGI
+GO:0009405, IGI
+GO:0009405, IGI
+
+GO:0009405, IMP
+GO:0009405, IMP; GO:0003825, NAS
+
+GO:0042626; GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP; GO:0051701; GO:0005186, IMP
+
+
+
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409; GO:0044412
+
+
+
+
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044409, IMP; GO:0044412, IMP; GO:0009847, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0009847, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IGI
+GO:0009405, IGI
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0004638
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IGI
+GO:0004707, NAS; GO:0009405, IMP; GO:0044409, IMP; GO:0044412, IMP
+
+GO:0009405, IMP
+GO:0009405, IGI
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0004342; GO:0009405, IGI; GO:0004342 
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0006631, IMP; GO:0009405, IMP; GO:0044409, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0030437, IMP; GO:0009405, IMP; GO:0044409, IMP; GO:0044412, IMP, GO:0004707, NAS
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IGI
+GO:0009405, IGI
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IGI; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0030599
+GO:0030599
+GO:0030599
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0030599
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0004451, NAS; GO:0009405, IMP; GO:0044409, IMP; GO:0009847, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409, IMP; GO:0044412, IMP; GO:0016526, NAS
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IGI
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0004784
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409, IMP; GO:0004474, NAS
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0042626
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409, IMP; GO:0032147, NAS
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+
+GO:0009405, IMP
+
+
+GO:0008926
+
+GO:0003862; GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409, IMP; GO:0044412, IMP; GO:0048622, IMP
+GO:0009405, IMP; GO:0044409, IMP; GO:0044412, IMP; GO:0048622, IMP
+GO:0009405, IMP
+GO:0009405, IGI
+GO:0009405, IMP
+GO:0004785, NAS; GO:0009405, IMP
+GO:0004785, NAS; GO:0009405, IMP
+GO:0004785, NAS; GO:0009405, IMP
+GO:0009405, IMP
+GO:0004612; GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0016789
+GO:0009405, IMP; GO:0016789
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IGI; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+
+
+
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+
+GO:0009405, IMP; GO:0050440
+GO:0009405, IMP; GO:0044409; GO:0044412
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP; GO:0044412, IMP; GO:0009847, IMP; GO:0030437, IMP
+GO:0009405, IGI
+GO:0009405, IGI
+GO:0009405, IMP
+
+
+
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+
+GO:0009405, IMP
+
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409, IMP; GO:0009847, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409, IMP; GO:0050879, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP; GO:0044412
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0030437, IMP; GO:0004672, NAS
+GO:0004672, NAS; GO:0009405, IMP; GO:0044409, IMP; GO:0030437, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044412; GO:0004558
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+
+
+
+
+
+
+
+
+
+GO:0005353
+GO:0005353
+GO:0030599
+GO:0030599
+GO:0030599
+GO:0030599
+GO:0016298; GO:0004806
+GO:0016298; GO:0004806
+GO:0016298; GO:0004806
+GO:0016298; GO:0004806
+GO:0016298; GO:0004806
+GO:0016298; GO:0004806
+GO:0004096
+GO:0004096
+GO:0042626
+GO:0042626
+
+
+
+GO:0004707, NAS; GO:0009405, IMP; GO:0044405, IMP; GO:0044409, IMP
+GO:0009405, IMP; GO:0031176
+GO:0009405, IMP; GO:0031176
+GO:0008810
+GO:0008810
+GO:0009405, IMP; GO:0044419
+GO:0009405, IMP; GO:0044419
+GO:0009405, IMP; GO:0004100; GO:0044412
+GO:0009405, IMP; GO:0004100; GO:0044412
+GO:0009405, IMP; GO:0004673; GO:0016772
+GO:0009405, IMP; GO:0004673; GO:0016772
+GO:0000155
+GO:0008471
+GO:0008471
+GO:0008471
+GO:0008471
+GO:0030254, NAS; GO:0030257, NAS; GO:0044412, IGI; GO:0009405, IGI
+GO:0044412, IMP
+GO:0030254, NAS; GO:0030257, NAS; GO:0044412, IGI; GO:0009405, IGI
+GO:0030254, NAS; GO:0030257, NAS; GO:0044412, IMP; GO:0009405, IMP
+GO:0030254, NAS; GO:0030257, NAS; GO:0044412, IMP; GO:0009405, IMP
+GO:0030254, NAS; GO:0030257, NAS; GO:0044412, IMP; GO:0009405, IMP
+GO:0030254, NAS; GO:0030257, NAS; GO:0044412, IMP; GO:0009405, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0044409, NAS; GO:0044412, IMP
+GO:0030254, NAS; GO:0030257, NAS
+GO:0044412, IMP
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0044412, IMP
+GO:0044412, IMP
+GO:0004100, NAS; GO:0009405, IGI; GO:0051701, IGI
+GO:0004100, NAS; GO:0009405, IGI; GO:0051701, IGI
+GO:0008810, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS; 3.2.1.8
+GO:0031176, NAS; 3.2.1.8
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0031176, NAS
+GO:0009405, IMP; GO:0004871; GO:0044412
+
+
+
+
+
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0051701, IMP; GO:0030581, IMP
+GO:0004022, NAS; GO:0044412, IMP
+GO:0009228, TAS; GO:0009405, IMP; GO:0044412, IMP
+GO:0015448, IDA
+GO:0004765, NAS; GO:0015448, IDA
+GO:0009405, IMP; GO:0044409, IMP
+GO:0009405, IMP; GO:0044409, IMP
+GO:0009405, IMP; GO:0044409, IMP;
+GO:0009405, IMP; GO:0044409, IMP;
+GO:0009405, IMP; GO:0044409, IMP;
+GO:0009405, IMP; GO:0044409, IMP; GO:0044412, IMP
+GO:0009405, IMP; GO:0044409, IMP;
+GO:0009405, IMP; GO:0044412, IMP; 
+GO:0009405, IMP; GO:0044412, IMP; 
+GO:0009405, IMP; 
+GO:0009405, IMP; 
+
+
+
+
+
+
+
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0009405, IMP; GO:0051701, IMP
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0044412, IMP
+GO:0044412, IMP
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0030254, NAS; GO:0030257, NAS
+GO:0005946, NAS; GO:0003825, NAS 
+GO:0015927, NAS; GO:0030437, IMP
+GO:0004857, TAS; GO:0044413, IPI
+GO:0004857, TAS; GO:0044413, IPI
+GO:0004857, IDA; GO:0044413, IPI
+GO:0004857, IDA; GO:0044413, IPI
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044412, IMP
+GO:0044412, IMP
+GO:0044412, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0044416, IMP
+GO:0020027, NAS; GO:0005833, NAS; GO:0009405, IMP
+GO:0020027, NAS; GO:0005833, NAS; GO:0009405, IMP
+GO:0020027, NAS; GO:0005833
+GO:0020027, NAS; GO:0005833, NAS; GO:0009405, IMP
+GO:0042959, NAS
+GO:0042959, NAS; GO:0009405, IMP
+GO:0042959, NAS; GO:0009405, IMP
+GO:0000772, NAS; GO:0051701, IMP
+GO:0000772, NAS; GO:0051701, IMP
+GO:0000772, NAS; GO:0051701, IMP
+GO:0045227, NAS; GO:0042603, NAS; GO:0051701, IMP; GO:0016413, NAS
+GO:0004089, NAS; GO:0009405, IMP
+GO:0004089, NAS
+GO:0004089, NAS; GO:0009405, IMP
+GO:0051701, IMP
+GO:0051701, IMP
+GO:0004672, NAS
+GO:0004672, NAS; GO:0009405, IMP
+GO:0004672, NAS; GO:0009405, IMP
+GO:0004672, NAS; GO:0009405, IMP
+GO:0004672, NAS; GO:0009405, IMP
+GO:0004672, NAS
+GO:0004672, NAS
+GO:0004672, NAS
+GO:0004672, NAS
+GO:0004672, NAS; GO:0009405, IMP
+GO:0009405, IMP; 
+GO:0009405, IMP; 
+GO:0009405, IMP; GO:0044409, IMP
+GO:0009405, IMP; GO:0044409, IMP; GO:0044412, IMP
+GO:0004645, NAS
+GO:0009405, IMP; 
+GO:0009405, IMP; 
+GO:0009405, IMP; 
+GO:0009405, IMP; GO:0044412, IMP; 
+
+
+
+
+
+GO:0003950, IMP; GO:0006471, IMP; GO:0031640, IMP; GO:0009405, IMP
+GO:0006471, IMP; GO:0009405, IMP; GO:0031640, IMP; GO:0046812, IDA
+GO:0005198, ISS; GO:0009289, ISS; GO:0009405, ISS; GO:0030030, ISS
+GO:0006355, ISS; GO:0009405, ISS
+GO:0009405, ISS; GO:0009306, ISS 
+GO:0004615, ISS; GO:0005975, ISS
+GO:0003723, ISS; GO:0006378, ISS; GO:0030423, ISS
+GO:0007010, ISS; GO:0009405, ISS; GO:0031640, ISS; GO:0042045, ISS
+GO:0006820, ISS; GO:0009405, ISS; GO:0031640, ISS; GO:0051049, ISS
+GO:0003674, ND; GO:0008150, ND; GO:0009279, ISS
+GO:0000156, ISS; GO:0000160, ISS; GO:0003700, ISS; GO:0006355, ISS
+GO:0009267, ISS
+GO:0003700, ISS; GO:0006355, ISS; GO:0009405, ISS
+GO:0008150, ND 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO:0009405, GO:0044409, GO:0000909
+GO:0009405, GO:0000909
+GO:0009405, GO:0000909
+GO:0009405, GO:0044409, GO:0044412
+GO:0009405
+GO:0009405, GO:0044409
+GO:0009405, GO:0044409
+GO:0009405, GO:0044409
+GO:0009405, GO:0044409
+GO:0009405
+GO:0009405, GO:0044409
+
+
+GO:0009405
+GO:0009405
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO:0009405, IMP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO:0005874 
+GO:0005874 
+GO:0006066; GO:0006118; GO:0000104
+GO:0005874 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP; GO:0044409
+GO:0009405, IMP
+
+GO:0009405, IMP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+
+
+
+GO:0005634;GO:0003700; GO:0008270; GO:0006355;  
+
+GO:0009405;GO:0044412
+GO:0009405;GO:0044412;GO:0044409
+GO:0009405;GO:0044409
+GO:0009405;GO:0044412;GO:0044409
+GO:0009405;GO:0044412;GO:0044409
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO:0009405, IMP
+
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+
+GO:0009405, IMP
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+
+GO:0009405, IMP
+GO:0009405, IMP
+
+
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+
+GO:0009405
+GO:0009405
+
+GO:0009405
+GO:0009405
+GO:0009405
+GO:0009405
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO:0000160, IEA; GO:0006355, IEA; GO:0003677, IEA; GO:0000156, IEA
+GO:0007165, IEA; GO:0018106, IEA; GO:0016310, IEA; GO:0000155, IEA; GO:0004673, IEA; GO:0016772, IEA; GO:0004871, IEA; GO:0016740, IEA; GO:0005524, IEA; GO:00016020, IEA; GO:0016301, IEA; 
+GO:0008152, IEA; GO:0019419, IEA; GO:0004781, IEA; GO:0016779, IEA; GO:0005524, IEA; GO:0016740, IEA; GO:0000166, IEA
+GO:0000103, IEA; GO:0005524, IEA; GO:0005525, IEA; GO:0016301, IEA; GO:0016772, IEA; GO:0016740, IEA; GO:0016301, IEA; GO:0016779, IEA; GO:0003924, IEA; GO:0005525, IEA; GO:0000166, IEA
+GO:0009306, IEA; GO:0008565, IEA; GO:0016020, IEA
+GO:0016021, IEA; GO:0006508, IEA; GO:0055085, IEA; GO:0006810, IEA; GO:0005524, IEA; GO:0008233, IEA; GO:0017111, IEA; GO:0000166, IEA; GO:0042626, IEA; GO:0016887, IEA
+GO:0006810, IEA; GO:0015031, IEA; GO:0005215, IEA; GO:0019867, IEA
+GO:0016740, IEA
+GO:0006355, IEA; GO:0000160, IEA; GO:0000156, IEA; GO:0003677, IEA
+GO:0016310, IEA; GO:0000160, IEA; GO:0007165, IEA; GO:0018106, IEA; GO:0000155, IEA; GO:0004673, IEA; GO:0016740, IEA; GO:0005524, IEA; GO:0016772, IEA; GO:0004871, IEA; GO:0000166, IEA; GO:0016021, IEA; GO:0016020, IEA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GO:0009405, IMP; GO:0044412; GO:0045482
+GO:0009405, IMP; GO:0044412; GO:0045483
+GO:0009405, IMP; GO:0044412; GO:0045484
+GO:0009405, IMP; GO:0044412; GO:0045485
+GO:0009405, IMP; GO:0044412; GO:0045486
+GO:0009405, IMP; GO:0044412; GO:0045487
+GO:0009405, IMP; GO:0044412; GO:0045488
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+data not found
+data not found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+GO:0042438; GO:0006355
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+
+
+
+
+
+
+
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+
+
+
+
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Rim or Pal pathway
+no data found
+no data found
+Rim or Pal pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+10.1371/journal.pone.0049123
+10.1371/journal.pone.0049123
+10.1371/journal.pone.0049123
+10.1371/journal.pone.0049123
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+10.1094/MPMI.2000.13.9.975
+10.1094/MPMI.2000.13.9.975
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+T
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
