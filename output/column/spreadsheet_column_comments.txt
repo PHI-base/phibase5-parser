@@ -1,0 +1,92 @@
+Expression during all infection stages
+
+
+
+
+
+
+
+
+
+
+
+
+
+Expression during biotrophic growth
+
+Engineered temperature sensitive allele 
+
+
+
+Expression not determined
+
+Expression not determined
+
+
+
+
+
+Expression during host surface growth, invasion
+
+Tested on avocado fruits. Expression during host surface growth, invasion
+
+
+
+
+
+Sequence of rescued plasmid insertion
+
+mutations in CPKA, are specific for pathogenicity, with deletion mutants of cpkA showing impaired appressorial penetration but efficient sporulation and mating
+
+
+
+
+
+previously known as Phytophthora megasperma f. sp. glycinea
+
+Gene complementation in A.oryzae
+
+
+
+Transfer into other strains by crossing
+
+Porter cultivar
+
+Caldwell cultivar
+
+Marshall cultivar
+
+
+
+
+
+Wheaton cultivar
+
+
+
+
+
+gene disruption, with  complementation and  gene disruption, no complementation
+
+gene disruption, with  complementation and  gene disruption, no complementation
+
+Tested in G.mellonella caterpillars in the final instar larval stage
+
+
+
+partial gene disruption with complementation in A. nidulans
+
+Fully pathogenic to leaves but no clear lesions on roots
+
+Expression during early infection stage (pisatin), different GC content, on a dispensable chromosome 
+
+
+
+FUS3/KSS1 homologue; gene deletion, with complementation in S. cerevisiae
+
+
+
+melanin mutant complemented with wild-type gene sequence
+
+
+

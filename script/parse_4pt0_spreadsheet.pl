@@ -105,7 +105,8 @@ my %combined_disease_mapping = (
 
 # open the tab separated values (TSV) version of the PHI-base spreadsheet
 #my $phibase_tsv_filename = '../input/phi-base-1_vs36_reduced_columns.tsv';
-my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_to_v3_columns.tsv';
+#my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_to_v3_columns.tsv';
+my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid annotations into PHI-base v5 database...\n";
@@ -158,21 +159,6 @@ open (INVALID_CURATOR_FILE, "> $invalid_curator_filename") or die "Error opening
 chomp(my $col_header_line = <TSV_FILE>);
 my @col_headers = split(/\t/,$col_header_line);
 
-# remove the last item from the array (which is blank)
-pop(@col_headers);
-
-# new array that will have blank header names removed
-my @new_col_headers;
-
-# iterate through the column names,
-# saving only those that are not empty to the new array
-foreach my $header (@col_headers) {
-   chomp($header);
-   push(@new_col_headers,$header) if $header;
-}
-
-# hash to store all annotations with a valid PHI-base accession
-#my %valid_phibase_data;
 # array to store invalid PHI-base accessions
 my @invalid_phibase_acc;
 
@@ -240,17 +226,15 @@ while (<TSV_FILE>) {
    foreach my $phi_value (@phi_array) {
 
       # add data to output file for the individual column
-      open (COLUMN_FILE, ">> ../output/column/spreadsheet_column_".$column_mapping{$new_col_headers[$column_num]}.".txt")
+      open (COLUMN_FILE, ">> ../output/column/spreadsheet_column_".$column_mapping{$col_headers[$column_num]}.".txt")
          or die "Error opening output file\n";
       print COLUMN_FILE "$phi_value\n";
 
       # add data to the annotation hash
-      $phi_base_annotation{$column_mapping{$new_col_headers[$column_num]}} = $phi_value;
+      $phi_base_annotation{$column_mapping{$col_headers[$column_num]}} = $phi_value;
 
       # increment the column number
       $column_num++;
-
-      last if ($column_num == @new_col_headers);  # values after this are just blank, so exit out of foreach loop
 
    } # end foreach column of the annotation
 
@@ -263,7 +247,6 @@ while (<TSV_FILE>) {
    if ($phi_acc_num = $phi_base_annotation{"phi_base_acc"} and $phi_acc_num =~ /^PHI:/) {
 
      $phi_acc_num =~ s/PHI://;
-#     $valid_phibase_data{$phi_acc_num} = {%phi_base_annotation};
 
      # get subset of the hash containing only the required fields
      my @required_fields = (
@@ -318,13 +301,22 @@ while (<TSV_FILE>) {
 	#print "Host Species NCBI Taxon ID:$required_fields_annot{'host_tax'}\n";
 	#print "PubMed ID:$required_fields_annot{'literature_id'}\n\n";
 
+        # if a pathogen strain taxon id is defined, then this should be used for the pathogen,
+        # since it represents a more precise taxonomy. Otherwise, use the pathogen species taxon ID
+        my $path_taxon_id;
+        if (defined $phi_base_annotation{"patho_strain_tax"} and $phi_base_annotation{"patho_strain_tax"} ne "") {
+           $path_taxon_id = $phi_base_annotation{"patho_strain_tax"};
+        } else {
+	   $path_taxon_id = $required_fields_annot{"patho_tax"};
+        }
+
 	# insert data into the pathogen_gene table,
         # if it does not exist already (based on combination of taxon id and gene name)
 	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name) 
-			        SELECT $required_fields_annot{"patho_tax"},'$required_fields_annot{"gene_name"}'
+			        SELECT $path_taxon_id,'$required_fields_annot{"gene_name"}'
                                 WHERE NOT EXISTS (
                                   SELECT 1 FROM pathogen_gene
-                                  WHERE ncbi_taxon_id = $required_fields_annot{"patho_tax"}
+                                  WHERE ncbi_taxon_id = $path_taxon_id
                                   AND gene_name = '$required_fields_annot{"gene_name"}'
                                ));
 
@@ -1130,23 +1122,6 @@ close (INVALID_UNIPROT_FILE);
 close (INVALID_GENE_NAME_FILE);
 close (INVALID_CURATOR_FILE);
 
-=pod
-# save all of the valid phibase data to file (sorted by PHI-base accession)
-# formatted with the PHI-base accession as the first row
-# then a separate row for each column heading and value, separated by tab
-# with a blank line between each PHI-base annotationi
-my $all_data_filename = '../output/all_phibase_data.txt';
-open (ALL_DATA_FILE, "> $all_data_filename") or die "Error opening output file\n";
-foreach my $phi_base_ann (sort {$a<=>$b} keys %valid_phibase_data) {
-   print ALL_DATA_FILE "PHI:$phi_base_ann\n";
-   foreach my $col_name (sort keys %{ $valid_phibase_data{$phi_base_ann} }) {
-     print ALL_DATA_FILE "$col_name\t$valid_phibase_data{$phi_base_ann}{$col_name}\n";
-   }
-   print ALL_DATA_FILE "\n";
-}
-close (ALL_DATA_FILE);
-=cut
-
 # save the invalid PHI-base accessions to a separate file
 my $invalid_accessions_filename = '../error/invalid_phibase_accessions.txt';
 open (INVALID_FILE, "> $invalid_accessions_filename") or die "Error opening output file\n";
@@ -1187,7 +1162,6 @@ close (CRITERIA_MET_FILE);
 
 
 print "\nProcess completed successfully.\n\n";
-#print "Total PHI-base annotations with valid data: ".scalar(keys %valid_phibase_data)."\n";
 
 print "Total PHI-base annotations processed:$annotation_count\n\n";
 
@@ -1228,7 +1202,6 @@ print "Total disease terms: $disease_term_count\n";
 print "Invalid disease terms: $invalid_disease_count\n";
 print "Annotations without disease terms: $without_disease_count\n\n";
 
-#print "Output file of all PHI-base annotations with valid data: $all_data_filename\n";
 print "Output file of accession string with an invalid PHI-base accession (if available): $invalid_accessions_filename\n\n";
 
 print "Output file of all PHI-base annotations with invalid required data: $invalid_required_data_filename\n";

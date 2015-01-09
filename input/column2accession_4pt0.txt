@@ -1,18 +1,28 @@
 PHI_MolConn_ID	phi_base_acc
 IdentifierTypeOfProteinID	db_type
 ProteinID	accession
+IdentifierTypeOfGeneLocusID	none
 GeneLocusID	none
 Genomic sequence providing strain	assoc_strain
 Gene_name	gene_name
 Genome location	none
+Specific modification/s to the targeted protein or promoter	none
+Accession ID for the modified genetic element  	none
+Known interacting protein(s) in the pathogen	none
+Interacting protein - locus ID 	none
 Multiple_mutation	multiple_mutation
 Pathogen_NCBI_species_Taxonomy ID	patho_tax
 Pathogen_species	patho_name
-Experimental_strain	strain
+Pathogen_NCBI_strain_Taxonomy_ID	patho_strain_tax
+Experimental_strain	strain_name
 Disease_name	disease_name
 Host_descripton	mon_dic
 Host_NCBI_Taxonomy_ID	host_tax
 Experimental_host_species	host_name
+Host_strain_genotype_or cultivar_taxonomy_ID_NCBI	none
+HostGenotype_definedGene of interest	none
+HostGenotype_definedGene of interest _AccessionID	none
+tissue_type	none
 Function	function
 GO_annotation	go_annotation
 Database	database
@@ -22,6 +32,7 @@ Mating_defect_prior_to_penetration	mating_defect
 Pre_penetration_defect	prepenetration
 Penetration_defect	penetration
 Post_penetration_defect	postpenetration
+Disease_development_macroscopically_visible	none
 Vegetative_spores	vegetative_spores
 Sexual_spores	sexual_spores
 In_vitro_growth	in_vitro_growth
@@ -29,8 +40,11 @@ Spore_germination	spore_germination
 Inducer	inducer
 ChemicalAccession (Chebi/CAS)	cas
 Tested Host_target	host_target
+TestedHostTarget_AccessionID	none
+Interaction phenotype	none
 Host_response	host_response
 Experimental_evidence	experimental_evidence
+Transient Assay Experimental Evidence	none
 Species_Expert	species_expert
 Entered_by	entered_by
 Literature_ID	literature_id
