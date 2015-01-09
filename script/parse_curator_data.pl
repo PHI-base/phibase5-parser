@@ -7,7 +7,7 @@ use phibase_subroutines qw(connect_to_phibase query_uniprot); # load PHI-base fu
 
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
-# open the tab separated values (TSV) version of the FRAC table
+# open the tab separated values (TSV) version of the Curator table
 my $curator_tsv_filename = '../input/phibase_v3pt6_curators.tsv';
 open (TSV_FILE, $curator_tsv_filename) || die "Error opening input file\n";
 print "Processing curator data from $curator_tsv_filename...\n";
