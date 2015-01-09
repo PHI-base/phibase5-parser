@@ -304,7 +304,7 @@ while (<TSV_FILE>) {
         # if a pathogen strain taxon id is defined, then this should be used for the pathogen,
         # since it represents a more precise taxonomy. Otherwise, use the pathogen species taxon ID
         my $path_taxon_id;
-        if (defined $phi_base_annotation{"patho_strain_tax"} and $phi_base_annotation{"patho_strain_tax"} ne "") {
+        if (defined $phi_base_annotation{"patho_strain_tax"} and $phi_base_annotation{"patho_strain_tax"} ne "" and $phi_base_annotation{"patho_strain_tax"} ne "na" and $phi_base_annotation{"patho_strain_tax"} ne "no data found") {
            $path_taxon_id = $phi_base_annotation{"patho_strain_tax"};
         } else {
 	   $path_taxon_id = $required_fields_annot{"patho_tax"};
@@ -325,7 +325,7 @@ while (<TSV_FILE>) {
 
 	# get the unique identifier for the inserted pathogen_gene record
         my $sql_statement4 = qq(SELECT id FROM pathogen_gene
-                                WHERE ncbi_taxon_id = $required_fields_annot{"patho_tax"}
+                                WHERE ncbi_taxon_id = $path_taxon_id
                                 AND gene_name = '$required_fields_annot{"gene_name"}');
 
 	my $sql_result4 = $db_conn->prepare($sql_statement4);
@@ -335,12 +335,12 @@ while (<TSV_FILE>) {
 
         # insert data into pathogen_gene_mutant table, including foreign key to pathogen_gene table 
 	my $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
-			         SELECT $pathogen_gene_id,$required_fields_annot{"patho_tax"},
+			         SELECT $pathogen_gene_id,$path_taxon_id,
                                         '$required_fields_annot{"accession"}'
                                  WHERE NOT EXISTS (
                                    SELECT 1 FROM pathogen_gene_mutant
 			           WHERE pathogen_gene_id = $pathogen_gene_id
-                                   AND ncbi_taxon_id = $required_fields_annot{"patho_tax"}
+                                   AND ncbi_taxon_id = $path_taxon_id
                                    AND uniprot_accession = '$required_fields_annot{"accession"}'
                                  )
                                );
@@ -351,7 +351,7 @@ while (<TSV_FILE>) {
 	# get the unique identifier for the inserted pathogen_gene_mutant record
         my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
 			        WHERE pathogen_gene_id = $pathogen_gene_id
-                                AND ncbi_taxon_id = $required_fields_annot{"patho_tax"}
+                                AND ncbi_taxon_id = $path_taxon_id
                                 AND uniprot_accession = '$required_fields_annot{"accession"}');
 
 	my $sql_result5 = $db_conn->prepare($sql_statement5);
@@ -537,10 +537,10 @@ while (<TSV_FILE>) {
 	  if (defined $curator_id and $curator_id ne "" and $curator_id ne "na") {
              $species_expert_count++;
   	     $sql_statement = qq(INSERT INTO species_expert (ncbi_taxon_id, curator_id)
-                                 SELECT $required_fields_annot{"patho_tax"}, $curator_id
+                                 SELECT $path_taxon_id, $curator_id
                                  WHERE NOT EXISTS (
                                      SELECT 1 FROM species_expert
-                                     WHERE ncbi_taxon_id = $required_fields_annot{"patho_tax"}
+                                     WHERE ncbi_taxon_id = $path_taxon_id
                                      AND curator_id = $curator_id
                                    )
                                 );
