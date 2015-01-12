@@ -51,16 +51,6 @@ while (<DOI_FILE>) {
      # increment count of DOIs
      $doi_count++;
 
-=pod
-     # before using doi in URL query it needs to be URL compatible
-     # so certain characters, such as round brackets, need to be substituted
-     my $url_doi = $doi;
-     # substitue all open brackets for %28
-     $url_doi =~ s/\(/%28/;
-     # substitue all open brackets for %28
-     $url_doi =~ s/\)/%29/;
-     my $url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search/query=DOI:$url_doi&format=json";
-=cut
      # run REST query and get JSON response
      my $url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search/query=DOI:$url_doi&format=json";
      my $json_response = get $url;
