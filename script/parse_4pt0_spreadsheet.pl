@@ -254,7 +254,6 @@ while (<TSV_FILE>) {
      "db_type",
      "accession",
      "gene_name",
-     "multiple_mutation",
      "patho_tax",
      "host_tax",
      "literature_id",
@@ -265,7 +264,7 @@ while (<TSV_FILE>) {
      @required_fields_annot{@required_fields} = @phi_base_annotation{@required_fields};
      $required_fields_data{$phi_acc_num} = {%required_fields_annot};
 
-     # get subset of these where all required fields have been defined (except multiple mutation)
+     # get subset of these where all required fields have been defined
      # A UniProt accession and PubMed ID are also required
      if ( defined $required_fields_annot{"phi_base_acc"}
           and defined $required_fields_annot{"db_type"}
@@ -367,29 +366,29 @@ while (<TSV_FILE>) {
         # PHI-base accession number of multiple mutation partner - MAY NEED TO CONVERT TO ARRAY TO COPE WITH MULTIPLE PARTNERS
         my $multi_mut_phi_acc_num;
 
-        # check if the annotation part of a is a "multiple mutation" interaction
-        if ($required_fields_annot{"multiple_mutation"} ne "" and $required_fields_annot{"multiple_mutation"} ne "no" and $required_fields_annot{"multiple_mutation"} ne "na") {
+        # check if the annotation is part of a "multiple mutation" interaction
+        if ($phi_base_annotation{"multiple_mutation"} ne "" and $phi_base_annotation{"multiple_mutation"} ne "no" and $phi_base_annotation{"multiple_mutation"} ne "na") {
 
-          #print $required_fields_annot{"phi_base_acc"}."\t";
-          #print $required_fields_annot{"gene_name"}."\t";
-          #print $required_fields_annot{"accession"}."\t";
-          #print $required_fields_annot{"host_tax"}."\t";
-          #print $required_fields_annot{"multiple_mutation"}."\n";
+          print $required_fields_annot{"phi_base_acc"}."\t";
+          print $required_fields_annot{"gene_name"}."\t";
+          print $required_fields_annot{"accession"}."\t";
+          print $required_fields_annot{"host_tax"}."\t";
+          print $phi_base_annotation{"multiple_mutation"}."\n";
 
-          $multi_mut_phi_acc_num  = $required_fields_annot{"multiple_mutation"}; # MAY NEED TO SPLIT BASED ON SEMI-COLON
+          $multi_mut_phi_acc_num  = $phi_base_annotation{"multiple_mutation"}; # MAY NEED TO SPLIT BASED ON SEMI-COLON
           $multi_mut_phi_acc_num  =~ s/PHI://;
 	  # confirm if the multiple mutation partner gene already exists
           # only an annotation where the partner already exists needs to be treated differently from other annotations
 	  if (exists $required_criteria_annotations{$multi_mut_phi_acc_num}) {
             $multiple_mutation = 1;
-	    #print "Other annotation exists: $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+	    print "Other annotation exists: $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
 	  }
 
         } # end if multiple mutation
 
 
         if ($multiple_mutation) {
-          #print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+          print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
           # need to find the correct interaction_id for the corresponding multiple mutant gene
           # there could be several interactions for this gene, so needs to be based on a combination
           # of phi_base_acc + host_tax
@@ -408,8 +407,8 @@ while (<TSV_FILE>) {
 	  my $mult_mut_interaction_id = shift @mult_mut_row;
 
           if ( $mult_mut_interaction_id and $pathogen_gene_mutant_id ) {
-	     #print "Mult Mutant Partner Interaction ID: ".$mult_mut_interaction_id."\n";
-	     #print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
+	     print "Mult Mutant Partner Interaction ID: ".$mult_mut_interaction_id."\n";
+	     print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
 	  
 	     my $inner_sql_statement = qq(
 				          INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
@@ -417,7 +416,7 @@ while (<TSV_FILE>) {
 				         );
 	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
-	     #print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
+	     print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
 	  }
 
 
