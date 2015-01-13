@@ -1,3 +1,5 @@
+PHI:
+
 PHI:assign
 accession	P13835
 db_type	Uniprot

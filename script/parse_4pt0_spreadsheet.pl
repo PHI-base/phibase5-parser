@@ -106,7 +106,8 @@ my %combined_disease_mapping = (
 # open the tab separated values (TSV) version of the PHI-base spreadsheet
 #my $phibase_tsv_filename = '../input/phi-base-1_vs36_reduced_columns.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_to_v3_columns.tsv';
-my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns.tsv';
+my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns_from_phi560.tsv';
+#my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid annotations into PHI-base v5 database...\n";
@@ -291,7 +292,8 @@ while (<TSV_FILE>) {
         ) {
 
         # add the required fields of the current annotation to the required criteria annotations hash
-        $required_criteria_annotations{$phi_acc_num} = {%required_fields_annot};
+#        $required_criteria_annotations{$phi_acc_num} = {%required_fields_annot};
+        $required_criteria_annotations{$phi_acc_num} = {%phi_base_annotation};
 
 	#print "PHI-base Accession:$required_fields_annot{'phi_base_acc'}\n";
 	#print "UniProt Accession:$required_fields_annot{'accession'}\n";
@@ -364,7 +366,10 @@ while (<TSV_FILE>) {
         # mutliple mutation flag
         my $multiple_mutation = 0;
         # PHI-base accession number of multiple mutation partner - MAY NEED TO CONVERT TO ARRAY TO COPE WITH MULTIPLE PARTNERS
-        my $multi_mut_phi_acc_num;
+        my $first_multi_mut_phi_acc_num;
+
+
+my @orig_multi_mutants_list;
 
         # check if the annotation is part of a "multiple mutation" interaction
         if ($phi_base_annotation{"multiple_mutation"} ne "" and $phi_base_annotation{"multiple_mutation"} ne "no" and $phi_base_annotation{"multiple_mutation"} ne "na") {
@@ -375,37 +380,105 @@ while (<TSV_FILE>) {
           print $required_fields_annot{"host_tax"}."\t";
           print $phi_base_annotation{"multiple_mutation"}."\n";
 
-          $multi_mut_phi_acc_num  = $phi_base_annotation{"multiple_mutation"}; # MAY NEED TO SPLIT BASED ON SEMI-COLON
-          $multi_mut_phi_acc_num  =~ s/PHI://;
+
+print "\n\nMulti Mut string:$phi_base_annotation{'multiple_mutation'}\n";
+
+ 	  # get the PHI-base accessions for the multiple mutation partners based on semi-colon delimiter
+          my @multi_mutants_list = split(";",$phi_base_annotation{"multiple_mutation"});
+          @orig_multi_mutants_list = @multi_mutants_list;
+
+          foreach my $multi_mut_accession (@multi_mutants_list) {
+            $multi_mut_accession =~ s/^\s+//; # remove blank space from start of accession
+            $multi_mut_accession =~ s/\s+$//; # remove blank space from end of accession
+print "Multi mutant partner acc:$multi_mut_accession\n";
+            #$curator_count++;
+            $multi_mut_accession  =~ s/PHI://;
+print "Multi mutant partner acc number:$multi_mut_accession\n";
+
+
+
+#          $multi_mut_phi_acc_num  = $phi_base_annotation{"multiple_mutation"}; # MAY NEED TO SPLIT BASED ON SEMI-COLON
+#          $multi_mut_phi_acc_num  =~ s/PHI://;
 	  # confirm if the multiple mutation partner gene already exists
           # only an annotation where the partner already exists needs to be treated differently from other annotations
-	  if (exists $required_criteria_annotations{$multi_mut_phi_acc_num}) {
+#ONLY IF ALL PREVIOUS PATNERS (I.E. THOSE WITH A SMALLER NUMBER) ALREADY EXIST...
+
+	  if (exists $required_criteria_annotations{$multi_mut_accession}) {
             $multiple_mutation = 1;
-	    print "Other annotation exists: $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+	    print "Other annotation exists: $required_criteria_annotations{$multi_mut_accession}{'phi_base_acc'}\n";
+#assigned multiple mutant partner becomes first in the list (if it exists)
+            $first_multi_mut_phi_acc_num = $multi_mut_accession;
+            last;
 	  }
+	  #if (exists $required_criteria_annotations{$multi_mut_phi_acc_num}) {
+          #  $multiple_mutation = 1;
+	  #  print "Other annotation exists: $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+	  #}
+
+          }
 
         } # end if multiple mutation
 
 
         if ($multiple_mutation) {
-          print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $required_criteria_annotations{$multi_mut_phi_acc_num}{'phi_base_acc'}\n";
+          print "In multiple mutation for: $required_fields_annot{'phi_base_acc'}, linking to existing $required_criteria_annotations{$first_multi_mut_phi_acc_num}{'phi_base_acc'}\n";
           # need to find the correct interaction_id for the corresponding multiple mutant gene
           # there could be several interactions for this gene, so needs to be based on a combination
           # of phi_base_acc + host_tax
           # then insert new interaction_pathogen_gene_mutant record, based on the returned interaction_id
 
+          my $sql_query = qq(SELECT interaction.id, interaction.phi_base_accession 
+                   FROM interaction, interaction_host, obsolete
+                   WHERE obsolete.obsolete_accession = '$required_criteria_annotations{$first_multi_mut_phi_acc_num}{"phi_base_acc"}'
+                   AND obsolete.phi_base_accession = interaction.phi_base_accession
+                   AND interaction.id = interaction_host.interaction_id
+                   AND interaction_host.ncbi_taxon_id = $required_fields_annot{"host_tax"}
+                 ;);
+=pod
           my $sql_query = qq(SELECT interaction.id 
                    FROM interaction, interaction_host
                    WHERE interaction.phi_base_accession = '$required_criteria_annotations{$multi_mut_phi_acc_num}{"phi_base_acc"}'
                    AND interaction.id = interaction_host.interaction_id
                    AND interaction_host.ncbi_taxon_id = $required_fields_annot{"host_tax"}
                  ;);
-          # print "\n$sql_query\n";
+=cut
+       print "\n$sql_query\n";
           my $sql_stmt = $db_conn->prepare($sql_query);
           $sql_stmt->execute() or die $DBI::errstr;
-	  my @mult_mut_row = $sql_stmt->fetchrow_array();
-	  my $mult_mut_interaction_id = shift @mult_mut_row;
 
+
+while (my @mult_mut_row = $sql_stmt->fetchrow_array()) {
+
+	  #my @mult_mut_row = $sql_stmt->fetchrow_array();
+	  my $mult_mut_interaction_id = shift @mult_mut_row;
+          my $mult_mut_new_phibase_acc = shift @mult_mut_row;
+print "Partner New PHI-base Accession:$mult_mut_new_phibase_acc\n";
+
+my @local_multi_mutants_list = @orig_multi_mutants_list;
+
+print "Current Multi Mut string:$phi_base_annotation{'multiple_mutation'}\n";
+print "Partner Multi Mut String:$required_criteria_annotations{$first_multi_mut_phi_acc_num}{'multiple_mutation'}\n";
+ 	  # get the PHI-base accessions for the multiple mutation partners based on semi-colon delimiter
+          my @partner_multi_mutants_list = split(";",$required_criteria_annotations{$first_multi_mut_phi_acc_num}{'multiple_mutation'});
+push (@partner_multi_mutants_list, $required_criteria_annotations{$first_multi_mut_phi_acc_num}{'phi_base_acc'});
+foreach my $partner_mm (sort @partner_multi_mutants_list) {
+    print "Partner MM:$partner_mm\n";
+}
+push (@local_multi_mutants_list, $phi_base_annotation{"phi_base_acc"});
+foreach my $mm (sort @local_multi_mutants_list) {
+    print "Current MM:$mm\n";
+}
+
+use Array::Utils qw(:all);
+
+#check if there is no difference between the arrays
+if ( !array_diff(@local_multi_mutants_list,@partner_multi_mutants_list) ) {
+  print "Arrays the same\n";
+} else {
+  print "Arrays different\n";
+}
+
+=pod
           if ( $mult_mut_interaction_id and $pathogen_gene_mutant_id ) {
 	     print "Mult Mutant Partner Interaction ID: ".$mult_mut_interaction_id."\n";
 	     print "Pathogen_gene_mutant ID: ".$pathogen_gene_mutant_id."\n";
@@ -413,12 +486,15 @@ while (<TSV_FILE>) {
 	     my $inner_sql_statement = qq(
 				          INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
 					    VALUES ($mult_mut_interaction_id,$pathogen_gene_mutant_id);
+                                          INSERT INTO obsolete (phi_base_accession,obsolete_accession)
+                                            VALUES ('$mult_mut_new_phibase_acc','$required_fields_annot{"phi_base_acc"}')
 				         );
 	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
 	     print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
 	  }
-
+=cut
+}
 
         } else {  # annotation is not a multiple mutant, so insert new interaction records
 

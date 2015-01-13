@@ -51,17 +51,34 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   print DATABASE_DATA_FILE "$phibase_accession\t";
 
-  # get the obsolete PHI-base accession
+  # get the obsolete PHI-base accession(s)
   my $sql_stmt2 = qq(SELECT obsolete_accession FROM obsolete
                        WHERE phi_base_accession = '$phibase_accession';
                     );
 
   my $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
-  my @row2 = $sql_result2->fetchrow_array();
-  my $obsolete_accession = shift @row2;
+#  my @row2 = $sql_result2->fetchrow_array();
+#  my $obsolete_accession = shift @row2;
 
-  print DATABASE_DATA_FILE "$obsolete_accession\t";
+  # initalise output string for obsolete PHI-base accessions
+  my $obsolete_acc_output_string = "";
+
+  # with "multiple mutant" interactions,
+  # there may be more than one obsolete accession
+  # need to retrieve all of them and construct output string 
+  # based on semi-colon delimiter
+  while (my @row2 = $sql_result2->fetchrow_array()) {
+    my $obsolete_accession = shift @row2;
+    $obsolete_acc_output_string .= "$obsolete_accession;";
+  }
+
+  # remove the final semi-colon from end of the string
+  $obsolete_acc_output_string =~ s/;$//;
+  # print the list of inducers to file
+  print DATABASE_DATA_FILE "$obsolete_acc_output_string\t";
+
+#  print DATABASE_DATA_FILE "$obsolete_accession\t";
 
 
   # get the pathogen gene related fields 
@@ -99,7 +116,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   # since there may be multiple pathogen gene mutants in a single interaction
   # (as in multiple mutation), need to retrieve all of them and construct
   # output string based on semi-colon delimiter
-  while (@row2 = $sql_result2->fetchrow_array()) {
+  while (my @row2 = $sql_result2->fetchrow_array()) {
 
      my $uniprot_acc = shift @row2;
      my $phibase_gene_name = shift @row2;
@@ -215,7 +232,7 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
-  @row2 = $sql_result2->fetchrow_array();
+  my @row2 = $sql_result2->fetchrow_array();
 
   my $disease_id = shift @row2;
 

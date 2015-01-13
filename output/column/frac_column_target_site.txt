@@ -3566,3 +3566,3523 @@ multi-site contact activity
 multi-site contact activity
 multi-site contact activity
 multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+RNA polymerase I
+adenosin-deaminase
+adenosin-deaminase
+adenosin-deaminase
+DNA/RNA synthesis (proposed)
+DNA/RNA synthesis (proposed)
+DNA topoisomerase type II (gyrase)
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubuline assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+ß-tubulin assembly in mitosis
+cell division (proposed)
+delocalisation of spectrin-like proteins
+complex I NADH Oxido-reductase
+complex I NADH Oxido-reductase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex II: succinate-dehydro-genase
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1 (ubiquinol oxidase) at Qo site (cyt b gene)
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+complex III: cytochrome bc1(ubiquinone reductase) at Qi site
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+uncouplers of oxidative phos-phorylation
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+inhibitors of oxidative phos-phorylation, ATP synthase
+ATP production (proposed)
+complex III: cytochrome bc1 (ubiquinone reductase) at Qo site, stigmatellin binding sub-site
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+methionine biosynthesis (proposed) (cgs gene)
+protein synthesis
+protein synthesis
+protein synthesis
+protein synthesis
+signal transduction (mechanism unknown)
+signal transduction (mechanism unknown)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-2, HOG1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+MAP/Histidine- Kinase in osmotic signal transduction (os-1, Daf1)
+none
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+phospholipid biosynthesis, methyltrans-ferase
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+lipid peroxidation (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+cell membrane permeability, fatty acids (proposed)
+none
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+microbial disrupters of pathogen cell membranes
+cell membrane disruption (proposed)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+C14-demethylase in sterol biosynthesis (erg11/cyp51)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+delta14-reductase and delta8 becomes delta7-isomerase in sterol biosynthesis (erg24, erg2)
+3-keto reduc-tase, C4- de-methylation (erg27)
+3-keto reduc-tase, C4- de-methylation (erg27)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+squalene-epoxidase in sterol biosynthesis (erg1)
+trehalase and inositol-biosynthesis
+chitin synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+cellulose synthase
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+reductase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+dehydratase in melanin biosynthesis
+salicylic acid pathway
+none
+none
+none
+none
+none
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+actin disruption (proposed)
+actin disruption (proposed)
+cell membrane disruption (proposed)
+unknown
+unknown
+oxysterol binding protein (OSBP) inhibition (proposed)
+complex III: cytochrome bc1, unknown binding site (proposed)
+unknown
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
+multi-site contact activity
