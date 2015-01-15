@@ -1,0 +1,12 @@
+Columns removed from PHI-base 3.6 spreadsheet when parsing into PHI-base 5 database (to avoid problems with tab or newline insertions):
+
+AA sequence
+NT sequence
+Manual_or_Text_Mining
+Full_citation
+Author_email
+Reference
+Year_published
+Essential gene (lethal knockout)
+Obsolete PHI accession
+Obsolete EMBL accession

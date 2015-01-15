@@ -1,3 +1,634 @@
+Cochliobolus carbonum
+Cladosporium fulvum
+Cochliobolus carbonum
+Cryptococcus neoformans
+Cryptococcus neoformans
+Magnaporthe oryzae
+Candida tropicalis
+Cladosporium fulvum
+Cryptococcus neoformans
+Ustilago maydis
+Gaeumannomyces graminis
+Gaeumannomyces graminis
+Leptosphaeria maculans
+Candida albicans
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Candida albicans
+Candida albicans
+Magnaporthe oryzae
+Magnaporthe oryzae
+Ustilago maydis
+Rhynchosporium secalis
+Phytophthora sojae
+Colletotrichum lagenarium
+Magnaporthe oryzae
+Magnaporthe oryzae
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryphonectria parasitica
+Magnaporthe oryzae
+Magnaporthe oryzae
+Nectria haematococca (related: Fusarium solani)
+Cochliobolus heterostrophus
+Magnaporthe oryzae
+Ustilago maydis
+Colletotrichum lagenarium
+Colletotrichum lagenarium
+Cochliobolus carbonum
+Candida albicans
+Candida albicans
+Cryphonectria parasitica
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Cladosporium fulvum
+Cladosporium fulvum
+Cladosporium fulvum
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Candida albicans
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Aspergillus flavus
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Cochliobolus carbonum
+Ustilago maydis
+Magnaporthe oryzae
+Ustilago maydis
+Aspergillus fumigatus
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Colletotrichum lindemuthianum
+Phytophthora infestans
+Nectria haematococca (related: Fusarium solani)
+Magnaporthe oryzae
+Fusarium oxysporum
+Cochliobolus carbonum
+Aspergillus fumigatus
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Magnaporthe oryzae
+Cryptococcus neoformans
+Candida albicans
+Fusarium sporotrichioides
+Magnaporthe oryzae
+Alternaria alternata
+Alternaria alternata
+Blastomyces dermatitidis
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Cercospora kikuchii
+Cochliobolus heterostrophus
+Gloeocercospora sorghi
+Trichoderma virens
+Colletotrichum trifolii
+Candida albicans
+Ustilago maydis
+Magnaporthe oryzae
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cochliobolus carbonum
+Ustilago maydis
+Histoplasma capsulatum
+Alternaria alternata
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Histoplasma capsulatum
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Colletotrichum lindemuthianum
+Colletotrichum lagenarium
+Candida albicans
+Colletotrichum trifolii
+Candida albicans
+Candida albicans
+Ustilago maydis
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Aspergillus fumigatus
+Nectria haematococca (related: Fusarium solani)
+Nectria haematococca (related: Fusarium solani)
+Fusarium oxysporum
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Ustilago maydis
+Cochliobolus carbonum
+Candida albicans
+Candida albicans
+Septoria lycopersici
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cladosporium fulvum
+Fusarium oxysporum
+Magnaporthe oryzae
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Fusarium oxysporum
+Fusarium oxysporum
+Cochliobolus carbonum
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Nectria haematococca (related: Fusarium solani)
+Nectria haematococca (related: Fusarium solani)
+Nectria haematococca (related: Fusarium solani)
+Colletotrichum lagenarium
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Magnaporthe oryzae
+Pyrenophora teres
+Colletotrichum lagenarium
+Cryptococcus neoformans
+Cochliobolus carbonum
+Ustilago maydis
+Cryptococcus neoformans
+Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Candida albicans
+Botrytis cinerea
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Colletotrichum lindemuthianum
+Claviceps purpurea
+Claviceps purpurea
+Claviceps purpurea
+Magnaporthe oryzae
+Cochliobolus heterostrophus
+Fusarium oxysporum
+Candida albicans
+Aspergillus fumigatus
+Fusarium oxysporum
+Gibberella fujikuroi
+Magnaporthe oryzae
+Magnaporthe oryzae
+Gibberella pulicaris
+Candida albicans
+Ustilago maydis
+Leptosphaeria maculans
+Candida albicans
+Colletotrichum lagenarium
+Candida albicans
+Cryptococcus neoformans
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Candida albicans
+Magnaporthe oryzae
+Ustilago maydis
+Candida albicans
+Candida albicans
+Coccidioides immitis 
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Fusarium oxysporum
+Fusarium oxysporum
+Cryptococcus neoformans
+Colletotrichum lindemuthianum
+Candida albicans
+Candida albicans
+Candida albicans
+Claviceps purpurea
+Cryptococcus neoformans
+Cochliobolus heterostrophus
+Colletotrichum lagenarium
+Cochliobolus victoriae
+Cercospora zeae-maydis
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Candida albicans
+Gibberella zeae (related: Fusarium graminearum)
+Magnaporthe oryzae
+Candida albicans
+Ustilago maydis
+Ustilago maydis
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Magnaporthe oryzae
+Cryptococcus neoformans
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Fusarium oxysporum
+Fusarium oxysporum
+Phytophthora infestans
+Aspergillus fumigatus
+Cryptococcus gattii
+Cryptococcus gattii
+Ustilago maydis
+Candida albicans
+Candida glabrata
+Magnaporthe oryzae
+Verticillium fungicola 
+Cryptococcus neoformans
+Magnaporthe oryzae
+Candida glabrata
+Hyaloperonospora parasitica
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Colletotrichum lagenarium
+Candida albicans
+Cochliobolus heterostrophus
+Aspergillus fumigatus
+Fusarium oxysporum
+Fusarium oxysporum
+Ustilago maydis
+Colletotrichum lindemuthianum
+Aspergillus fumigatus
+Colletotrichum lagenarium
+Cryphonectria parasitica
+Cryphonectria parasitica
+Claviceps purpurea
+Cryptococcus neoformans
+Ustilago maydis
+Candida albicans
+Magnaporthe oryzae
+Fusarium culmorum
+Ustilago maydis
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Aspergillus fumigatus
+Gibberella zeae (related: Fusarium graminearum)
+Magnaporthe oryzae
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Aspergillus fumigatus
+Candida albicans
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Magnaporthe oryzae
+Magnaporthe oryzae
+Ustilago maydis
+Candida albicans
+Phytophthora infestans
+Cryptococcus neoformans
+Aspergillus fumigatus
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Fusarium oxysporum
+Cryptococcus neoformans
+Cryptococcus neoformans
+Aspergillus fumigatus
+Candida albicans
+Fusarium oxysporum
+Candida albicans
+Ustilago maydis
+Candida albicans
+Cryptococcus neoformans
+Trichoderma virens
+Cryptococcus neoformans
+Cryptococcus neoformans
+Ustilago maydis
+Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Magnaporthe oryzae
+Candida albicans
+Claviceps purpurea
+Ustilago maydis
+Fusarium oxysporum
+Cryptococcus neoformans
+Aspergillus nidulans
+Candida albicans
+Candida albicans
+Ustilago maydis
+Magnaporthe oryzae
+Magnaporthe oryzae
+Ustilago maydis
+Pyrenopeziza brassicae
+Beauveria bassiana
+Cryptococcus neoformans
+Ustilago maydis
+Cochliobolus heterostrophus
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Magnaporthe oryzae
+Magnaporthe oryzae
+Candida albicans
+Cryptococcus gattii
+Cryptococcus gattii
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Colletotrichum lindemuthianum
+Cryptococcus neoformans
+Cryptococcus neoformans
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Cercospora nicotianae
+Aspergillus fumigatus
+Candida albicans
+Cryptococcus neoformans
+Claviceps purpurea
+Botrytis cinerea
+Botrytis cinerea
+Gibberella zeae (related: Fusarium graminearum)
+Candida albicans
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Aspergillus fumigatus
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+4550
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Magnaporthe oryzae
+Ustilago hordei
+Ustilago hordei
+Candida albicans
+Candida albicans
+Saccharomyces cerevisiae
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Cryphonectria parasitica
+Candida glabrata
+Cochliobolus carbonum
+Cryptococcus neoformans
+Candida albicans
+Cladosporium fulvum
+Phytophthora infestans
+Cryptococcus neoformans
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Ustilago maydis
+Coccidioides posadasii
+Candida albicans
+Candida albicans
+Colletotrichum acutatum
+Colletotrichum acutatum
+Aspergillus fumigatus
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Candida albicans
+Candida albicans
+Aspergillus fumigatus
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Fusarium oxysporum
+Candida albicans
+Botrytis cinerea
+Botrytis cinerea
+Candida glabrata
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Cryptococcus neoformans
+Cryptococcus neoformans
+Phytophthora infestans
+Candida albicans
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Candida albicans
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Ustilago maydis
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Magnaporthe oryzae
+Magnaporthe oryzae
+Candida albicans
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Fusarium oxysporum
+Fusarium oxysporum
+Candida albicans
+Ustilago maydis
+Ustilago maydis
+Gibberella zeae (related: Fusarium graminearum)
+Ustilago maydis
+Candida albicans
+Candida albicans
+Ustilago maydis
+Cladosporium fulvum
+Phytophthora sojae
+Hyaloperonospora parasitica
+Melampsora lini
+Melampsora lini
+Melampsora lini
+Melampsora lini
+Pyrenophora tritici-repentis
+Melampsora lini
+Melampsora lini
+Melampsora lini
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Magnaporthe oryzae
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
 Salmonella enterica
 Salmonella enterica
 Salmonella enterica
@@ -39,3 +670,3507 @@ Epichloe festucae
 Epichloe festucae
 Epichloe festucae
 Epichloe festucae
+Epichloe festucae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Magnaporthe oryzae
+Leptosphaeria maculans
+Leptosphaeria maculans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Botrytis cinerea
+Botrytis cinerea
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora parasitica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Pythium aphanidermatum
+Pythium aphanidermatum
+Pythium aphanidermatum
+Phytophthora cactorum
+Phytophthora cactorum
+Phytophthora parasitica
+Phytophthora parasitica
+Phytophthora parasitica
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Magnaporthe oryzae
+Magnaporthe oryzae
+Cryptococcus neoformans
+Magnaporthe oryzae
+Magnaporthe oryzae
+Cryptococcus neoformans
+Cryptococcus gattii
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella fujikuroi
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Fusarium oxysporum
+Fusarium oxysporum
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Cercospora nicotianae
+Magnaporthe oryzae
+Botrytis elliptica
+Botrytis elliptica
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Blumeria graminis
+Blumeria graminis
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Magnaporthe oryzae
+Claviceps purpurea
+Cryphonectria parasitica
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Venturia inaequalis
+Monilinia fructicola
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Rhynchosporium secalis
+Burkholderia glumae
+Trichophyton rubrum
+Trichophyton rubrum
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus nidulans
+Magnaporthe oryzae
+Ustilago maydis
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Blumeria graminis
+Botrytis cinerea
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Flavobacterium psychrophilum 
+Flavobacterium psychrophilum 
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Candida albicans
+Candida albicans
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Colletotrichum lagenarium
+Aspergillus fumigatus
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Colletotrichum lindemuthianum
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Streptomyces turgidiscabies
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Streptomyces turgidiscabies
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Cochliobolus miyabeanus
+Alternaria Brassicicola
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Streptomyces turgidiscabies
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Claviceps purpurea
+Claviceps purpurea
+Claviceps purpurea
+Claviceps purpurea
+Claviceps purpurea
+Claviceps purpurea
+Leptosphaeria maculans
+Leptosphaeria maculans
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Cercospora nicotianae
+Cercospora nicotianae
+Cercospora nicotianae
+Cercospora nicotianae
+Cercospora nicotianae
+Cercospora nicotianae
+Cercospora zeae-maydis
+Alternaria brassicicola
+Colletotrichum graminicola
+Colletotrichum graminicola
+Colletotrichum graminicola
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Ustilago maydis
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Fusarium pseudograminearum
+Claviceps purpurea
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Botrytis cinerea
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Colletotrichum graminicola (related: Glomerella graminicola)
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Cochliobolus sativus
+Cochliobolus sativus
+Cochliobolus sativus
+Cochliobolus sativus
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Phaeosphaeria nodorum (related: Stagonospora nodorum)
+Claviceps purpurea
+Claviceps purpurea
+Leptosphaeria maculans
+Leptosphaeria maculans
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Leptosphaeria maculans 
+Leptosphaeria maculans 
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Aspergillus fumigatus
+Aspergillus fumigatus
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Alternaria brassicicola
+Aspergillus fumigatus
+Botrytis cinerea
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Alternaria alternata
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Aspergillus fumigatus
+Fusarium oxysporum
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Verticillium dahliae
+Verticillium dahliae
+Metarhizium anisopliae
+Metarhizium anisopliae
+Metarhizium anisopliae
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Alternaria alternata
+Alternaria alternata 
+Botrytis cinerea
+Alternaria alternata
+Aspergillus fumigatus
+Aspergillus fumigatus
+Metarhizium robertsii
+Magnaporthe oryzae
+Magnaporthe oryzae
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Cercospora nicotianae
+Lecanicillium fungicola
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Burkholderia glumae
+Burkholderia glumae
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Candida albicans
+Ustilago hordei
+Ustilago hordei
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Botrytis elliptica
+Botrytis elliptica
+Phytophthora capsici
+Cladosporium fulvum
+Cladosporium fulvum
+Cladosporium fulvum
+Gibberella moniliformis (related: Fusarium verticillioides)
+Beauveria bassiana
+Botrytis cinerea
+Botrytis cinerea
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Magnaporthe oryzae
+Beauveria bassiana
+Aspergillus fumigatus
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Fusarium oxysporum f. sp. lycopersici 4287
+Ustilago maydis
+Fusarium oxysporum f. sp. lycopersici 4287
+Fusarium oxysporum f. sp. lycopersici 4287
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Alternaria alternata
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Monilinia fructicola
+Monilinia fructicola
+Monilinia fructicola
+Monilinia fructicola
+Ustilago maydis
+Ustilago maydis
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Metarhizium anisopliae
+Metarhizium anisopliae
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Candida albicans
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Xanthomonas campestris pv vesicatoria
+Xanthomonas campestris pv vesicatoria
+Pseudomonas syringae pv. tomato
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Fusarium solani
+Fusarium solani
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Sclerotinia sclerotiorum
+Xanthomonas campestris
+Colletotrichum graminicola
+Alternaria alternata
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Cryptococcus neoformans
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Gibberella zeae (related: Fusarium graminearum)
+Cryptococcus neoformans
+Cryptococcus neoformans
+Beauveria bassiana
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Alternaria alternata
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Cryptococcus neoformans
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Zymoseptoria triticii (related: Mycosphaerella graminicola)
+Pseudomonas syringae pv. tabaci
+Pseudomonas syringae pv. tabaci
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Botrytis cinerea
+Botrytis cinerea
+Alternaria alternata
+Alternaria alternata
+Agrobacterium vitis
+Pyrenophora tritici-repentis
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Fusarium oxysporum f.sp. melonis
+Fusarium oxysporum f.sp. melonis
+Ustilago maydis
+Fusarium oxysporum f. sp. Lycopersici
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Xanthomonas oryzae pv. Oryzae
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Pantoea stewartii subsp. stewartii
+Cryptococcus neoformans
+Cryptococcus neoformans
+Erwinia amylovora
+Erwinia amylovora
+Colletotrichum coccodes
+Colletotrichum coccodes
+Cryphonectria parasitica
+Ralstonia solanacearum
+Ralstonia solanacearum
+Ralstonia solanacearum
+Ralstonia solanacearum
+Pectobacterium carotovorum
+Pectobacterium carotovorum
+Pectobacterium carotovorum
+Pectobacterium carotovorum
+Xanthomonas citri subsp. Citri
+Xanthomonas citri subsp. Citri
+Alternaria longipes
+Alternaria longipes
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea (related: Botryotinia fuckeliana)
+Magnaporthe oryzae
+Xanthomonas oryzae pv. Oryzae
+Leishmania mexicana
+Leishmania mexicana
+Gibberella zeae (related: Fusarium graminearum)
+Ralstonia solanacearum
+Xanthomonas campestris pv. Campestris
+Xanthomonas campestris pv. Campestris
+Xanthomonas campestris pv. Campestris
+Xanthomonas campestris pv. Campestris
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Erwinia amylovora
+Gibberella zeae (related: Fusarium graminearum)
+Aspergillus fumigatus
+Aspergillus fumigatus
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Aspergillus fumigatus
+Aspergillus fumigatus
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida glabrata
+Candida glabrata
+Candida glabrata
+Candida glabrata
+Candida albicans
+Candida albicans
+Candida parapsilosis
+Candida albicans
+Candida glabrata
+Candida albicans
+Candida albicans
+Candida albicans
+Candida glabrata
+Candida albicans
+Candida albicans
+Trypanosoma cruzi
+Trypanosoma cruzi
+Trypanosoma cruzi
+Trypanosoma cruzi
+Trypanosoma cruzi
+Myzus persicae
+Myzus persicae
+Myzus persicae
+Trypanosoma cruzi
+Maize smut disease
+Ustilago maydis
+Ustilago maydis
+Maize smut disease
+Alternaria alternata
+Ustilago maydis
+Alternaria alternata
+Alternaria alternata
+Histoplasma capsulatum
+Trypanosoma cruzi
+Fusarium oxysporum f. sp. Lycopersici
+Meloidogyne javanica
+Trypanosoma brucei
+Trypanosoma cruzi
+Trypanosoma cruzi
+Trypanosoma cruzi
+Trypanosoma cruzi
+Trypanosoma cruzi
+Trypanosoma cruzi
+Trypanosoma cruzi
+Myzus persicae
+Myzus persicae
+Myzus persicae
+Trypanosoma cruzi
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Alternaria alternata
+Ustilago maydis
+Alternaria alternata
+Alternaria alternata
+Histoplasma capsulatum
+Trypanosoma cruzi
+Fusarium oxysporum f. sp. Lycopersici
+Meloidogyne javanica
+Trypanosoma brucei
+Trypanosoma cruzi
+Trypanosoma cruzi
+Toxoplasma gondii
+Listeria monocytogenes
+Candida albicans
+Candida albicans
+Clostridium difficile
+Pseudomonas aeruginosa
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Staphylococcus aureus
+Staphylococcus aureus
+Staphylococcus aureus
+Staphylococcus aureus
+Toxoplasma gondii
+Borrelia burgdorferi
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Candida lusitaniae
+Candida lusitaniae
+Edwardsiella tarda
+Leishmania infantum
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Bordetella bronchiseptica
+Escherichia coli
+Escherichia coli
+Escherichia coli
+Escherichia coli
+Escherichia coli
+Candida albicans
+Salmonella enteritidis
+Salmonella enteritidis
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Klebsiella pneumoniae
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Pseudomonas aeruginosa
+no data found
+Pseudomonas aeruginosa
+no data found
+Pseudomonas aeruginosa
+no data found
+Pseudomonas aeruginosa
+no data found
+Salmonella enterica serovar Typhimurium
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Agrobacterium tumefaciens
+Aspergillus fumigatus
+Streptococcus suis
+Streptococcus suis
+Trypanosoma cruzi
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Mycobacterium tuberculosis
+Botrytis cinerea
+Pseudomonas aeruginosa
+Acinetobacter baumannii
+Acinetobacter baumannii
+Acinetobacter baumannii
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Xanthomonas campestris pv. vesicatoria
+Listeria monocytogenes
+Escherichia coli
+Candida glabrata
+Phytophthora sojae
+Grosmannia clavigera
+Pectobacterium atrosepticum
+Pectobacterium atrosepticum
+Pectobacterium atrosepticum
+Pectobacterium atrosepticum
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Rhynchosporium commune
+Xanthomonas citri ssp. Citri
+Xanthomonas citri ssp. Citri
+Colletotrichum orbiculare
+Xanthomonas axonopodis pv. citri
+Xanthomonas axonopodis pv. citri
+Xanthomonas axonopodis pv. citri
+Xanthomonas axonopodis pv. citri
+Xanthomonas axonopodis pv. citri
+Fusarium graminearum
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Streptomyces scabies
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Xanthomonas axonopodis pv. manihotis 
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae  pv. Oryzicola
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Phytophthora sojae
+Phytophthora sojae
+Fusarium graminearum
+Fusarium graminearum
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Verticillium dahliae
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Pectobacterium wasabiae
+Pectobacterium wasabiae
+Streptococcus pneumoniae
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Streptococcus agalactiae
+no data found
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Ustilago maydis
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Staphylococcus aureus
+Ustilago maydis
+Cryptococcus neoformans
+Cryptococcus neoformans
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Pseudomonas syringae pv. tomato
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas savastanoi pv. savastanoi
+Streptococcus sp
+Setosphaeria turcica
+Setosphaeria turcica
+Setosphaeria turcica
+Setosphaeria turcica
+Setosphaeria turcica
+Setosphaeria turcica
+Streptococcus suis
+Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum 
+Fusarium oxysporum f. sp. Lycopersici
+Aspergillus fumigatus
+Cryptococcus gattii
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Candida albicans
+Alternaria alternata
+Alternaria citri
+Alternaria citri
+Alternaria citri
+Alternaria citri
+Alternaria citri
+Alternaria citri
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Fusarium oxysporum f.sp. Lycopersici
+Fusarium oxysporum f.sp. Lycopersici
+Fusarium oxysporum f.sp. Lycopersici
+Fusarium oxysporum f.sp. Lycopersici
+Aspergillus fumigatus
+Magnaporthe oryzae
+Magnaporthe oryzae
+Alternaria alternata
+no data found
+Alternaria alternata
+no data found
+Cryptococcus neoformans
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Alternaria alternata
+Cladosporium fulvum
+Cryptococcus neoformans
+Botrytis cinerea
+Botrytis cinerea
+Fusarium solani f. sp. cucurbitae
+Fusarium solani f. sp. cucurbitae
+Fusarium solani f. sp. cucurbitae
+Fusarium solani f. sp. cucurbitae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Yersinia pestis
+Fusarium verticillioides
+Fusarium verticillioides
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Francisella tularensis 
+Klebsiella pneumoniae
+Campylobacter jejuni
+Pseudomonas syringae pv. Syringae
+Pseudomonas syringae pv. Syringae
+Pseudomonas syringae pv. Syringae
+Pseudomonas syringae pv. Syringae
+Pseudomonas syringae pv. Syringae
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Streptococcus pyogenes
+Streptococcus pyogenes
+Globodera pallida
+Staphylococcus aureus
+Staphylococcus aureus
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Toxoplasma gondii
+Toxoplasma gondii
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora sojae
+Agrobacterium vitis
+Agrobacterium vitis
+Agrobacterium vitis
+Agrobacterium vitis
+Blumeria graminis f. sp. hordei
+Blumeria graminis f. sp. hordei
+Blumeria graminis f. sp. hordei
+Blumeria graminis f. sp. hordei
+Blumeria graminis f. sp. hordei
+Blumeria graminis f. sp. hordei
+Blumeria graminis f. sp. hordei
+Blumeria graminis f. sp. hordei
+Macrosiphum euphorbiae
+Macrosiphum euphorbiae
+Macrosiphum euphorbiae
+Macrosiphum euphorbiae
+Erwinia amylovora
+Erwinia amylovora
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum 
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Fusarium verticillioides
+Fusarium verticillioides
+Cladosporium fulvum
+Xanthomonas campestris pv. campestris
+Leptosphaeria maculans
+Colletotrichum graminicola
+Colletotrichum graminicola
+Colletotrichum graminicola
+Colletotrichum graminicola
+Ralstonia solanacearum
+Alternaria alternata
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Erwinia amylovora
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Pseudomonas cichorii 
+Pseudomonas cichorii 
+Xylella fastidiosa
+Xylella fastidiosa
+Xylella fastidiosa
+Xanthomonas oryzae pv. Oryzicola
+Magnaporthe oryzae
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora parasitica
+Phytophthora sojae
+Phytophthora sojae
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Hyaloperonospora arabidopsidis
+Pseudomonas syringae pv. tabaci
+Pseudomonas syringae pv. tabaci
+Pseudomonas syringae pv. tabaci
+Pseudomonas syringae pv. tabaci
+Xanthomonas translucens pv. graminis
+Xanthomonas translucens pv. graminis
+Xanthomonas translucens pv. graminis
+Xanthomonas translucens pv. graminis
+Xanthomonas translucens pv. graminis
+Toxoplasma gondii
+Cryptococcus neoformans var. grubii   
+Ralstonia solanacearum
+Ralstonia solanacearum
+Edwardsiella ictaluri
+Edwardsiella ictaluri
+Edwardsiella ictaluri
+Edwardsiella ictaluri
+Edwardsiella ictaluri
+Yersinia pseudotuberculosis
+Xanthomonas oryzae pv. Oryzicola
+Staphylococcus aureus
+Staphylococcus aureus
+Staphylococcus aureus
+Staphylococcus aureus
+Staphylococcus aureus
+Streptococcus pyogenes
+Streptococcus pyogenes
+Cryptococcus neoformans
+Aspergillus fumigatus
+Aspergillus fumigatus
+Enterococcus faecalis
+Enterococcus faecalis
+Candida albicans
+Xanthomonas campestris pv. vesicatoria
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Listeria monocytogenes
+Magnaporthe oryzae
+Magnaporthe oryzae
+Francisella  tularensis ssp. tularensis 
+Shigella flexneri 2a
+Fusarium oxysporum f. sp. Lycopersici
+Bacillus cereus
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Enterococcus faecalis
+Enterococcus faecalis
+Enterococcus faecalis
+Enterococcus faecalis
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Staphylococcus aureus
+Staphylococcus aureus
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Streptococcus Pneumoniae
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Salmonella enterica serovar Typhimurium
+Klebsiella pneumoniae
+Phytophthora sojae
+Magnaporthe oryzae
+Streptococcus agalactiae
+Streptococcus agalactiae
+Metarhizium acridum
+Cryptococcus neoformans
+Vibrio splendidus
+Magnaporthe oryzae
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Rosellinia necatrix
+Pseudomonas aeruginosa
+Clavibacter michiganensis subsp. michiganensis
+Clavibacter michiganensis subsp. michiganensis
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Mycoplasma gallisepticum
+Mycoplasma gallisepticum
+Mycoplasma gallisepticum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Magnaporthe oryzae
+Magnaporthe oryzae
+Salmonella enterica serovar Typhimurium
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Yersinia pseudotuberculosis

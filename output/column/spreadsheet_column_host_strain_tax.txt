@@ -1,0 +1,4175 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Norm
+
+
+GO:0009405, IMP; GO:0044412
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bess
+Pioneer hybrid 33D47
+Pioneer hybrid 33D47
+Pioneer hybrid 33D47
+spring wheat cultivar Thassos
+Zimai1
+Norm
+Zimai2
+Nandu
+Norm
+Norm; Xiaoyan 2
+Norm; Xiaoyan 3
+Norm; Xiaoyan 4
+Norm; Xiaoyan 5
+Norm; Xiaoyan 6
+Norm; Xiaoyan 7
+Norm; Xiaoyan 8
+Norm; Xiaoyan 9
+Norm; Xiaoyan 10
+Norm; Xiaoyan 11
+Norm; Xiaoyan 12
+Norm; Xiaoyan 13
+Norm; Xiaoyan 14
+Norm; Xiaoyan 15
+Norm; Xiaoyan 16
+Norm; Xiaoyan 17
+Norm; Xiaoyan 18
+Norm; Xiaoyan 19
+Norm; Xiaoyan 20
+Norm; Xiaoyan 21
+Norm; Xiaoyan 22
+Norm; Xiaoyan 23
+Norm; Xiaoyan 24
+Norm; Xiaoyan 25
+Norm; Xiaoyan 26
+Norm; Xiaoyan 27
+Norm; Xiaoyan 28
+Norm; Xiaoyan 29
+Norm; Xiaoyan 30
+Norm; Xiaoyan 31
+Norm; Xiaoyan 32
+Norm; Xiaoyan 33
+Norm; Xiaoyan 34
+Norm; Xiaoyan 35
+Norm; Xiaoyan 36
+Norm; Xiaoyan 37
+Norm; Xiaoyan 38
+Norm; Xiaoyan 39
+Norm; Xiaoyan 40
+Norm; Xiaoyan 41
+Norm; Xiaoyan 42
+Norm; Xiaoyan 43
+Norm; Xiaoyan 44
+Norm; Xiaoyan 45
+Norm; Xiaoyan 46
+Norm; Xiaoyan 120
+Norm; Xiaoyan 120
+Norm; Xiaoyan 48
+Norm; Xiaoyan 47
+Norm; Xiaoyan 120
+Norm; Xiaoyan 49
+Norm; Xiaoyan 50
+Norm; Xiaoyan 51
+Norm; Xiaoyan 52
+Norm; Xiaoyan 53
+Norm; Xiaoyan 54
+Norm; Xiaoyan 55
+Norm; Xiaoyan 56
+Norm; Xiaoyan 57
+Norm; Xiaoyan 58
+Norm; Xiaoyan 59
+Norm; Xiaoyan 60
+Norm; Xiaoyan 61
+Norm; Xiaoyan 62
+Norm; Xiaoyan 63
+Norm; Xiaoyan 64
+Norm; Xiaoyan 65
+Norm; Xiaoyan 66
+Norm; Xiaoyan 67
+Norm; Xiaoyan 68
+Norm; Xiaoyan 69
+Norm; Xiaoyan 70
+Norm; Xiaoyan 71
+Norm; Xiaoyan 72
+Norm; Xiaoyan 73
+Norm; Xiaoyan 74
+Norm; Xiaoyan 75
+Norm; Xiaoyan 76
+Norm; Xiaoyan 77
+Norm; Xiaoyan 78
+Norm; Xiaoyan 79
+Norm; Xiaoyan 80
+Norm; Xiaoyan 81
+Norm; Xiaoyan 82
+Norm; Xiaoyan 83
+Norm; Xiaoyan 84
+Norm; Xiaoyan 85
+Norm; Xiaoyan 86
+Norm; Xiaoyan 87
+Norm; Xiaoyan 88
+Norm; Xiaoyan 89
+Norm; Xiaoyan 90
+Norm; Xiaoyan 91
+Norm; Xiaoyan 92
+Norm; Xiaoyan 93
+Norm; Xiaoyan 94
+Norm; Xiaoyan 95
+Norm; Xiaoyan 96
+Norm; Xiaoyan 97
+Norm; Xiaoyan 98
+Norm; Xiaoyan 99
+Norm; Xiaoyan 100
+Norm; Xiaoyan 101
+Norm; Xiaoyan 102
+Norm; Xiaoyan 103
+Norm; Xiaoyan 104
+Norm; Xiaoyan 105
+Norm; Xiaoyan 106
+Norm; Xiaoyan 107
+Norm; Xiaoyan 108
+Norm; Xiaoyan 109
+Norm; Xiaoyan 110
+Norm; Xiaoyan 111
+Norm; Xiaoyan 112
+Norm; Xiaoyan 113
+Norm; Xiaoyan 114
+Norm; Xiaoyan 115
+Norm; Xiaoyan 116
+Norm; Xiaoyan 117
+Norm; Xiaoyan 118
+Norm; Xiaoyan 119
+Norm; Xiaoyan 120
+Norm
+Bobwhite
+Norm
+Pioneer 2375
+Pioneer 2375
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CO-39
+Golden Promise
+Nipponbare
+no data found
+Nipponbare
+no data found
+no data found
+Golden Promise
+Plaisant
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Aichi-asahi
+CO39
+Golden Promise
+Lijiangxintuanheigu
+E9
+data not found
+Nakdongbyoe
+Nakdongbyoe
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Express
+data not found
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+ZJ-8
+CO39
+ZJ-8
+no data found
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+CO39
+no data found
+Golden Promise;Kindred
+CO39
+Golden Promise
+CO39
+CO39
+51583
+CO39
+NIL127
+Express
+Sariceltik
+Golden Promise
+Golden Promise
+CO39
+CO39
+CO39
+CO39
+Golden Promise
+Golden Promise
+Golden Promise
+CO39
+Nipponbare
+Nakdongbyeo
+CO39
+CO39
+CO39
+CO39
+Nipponbare
+Golden Promise
+Sariceltik
+Sariceltik
+CO39
+CO39
+LTH
+LTH
+LTH
+CO39
+CO39
+Jinchang 1316
+Jinchang 1316
+Nathan
+CO39
+Nakdongbyeo
+Nakdongbyeo
+Yashiro-mochi
+YT16
+CO39
+four-arris
+LTH
+P2
+no data found
+no data found
+no data found
+no data found
+Nackdongbyeo
+Nackdongbyeo
+Nipponbare
+LTH
+LTH
+no data found
+CO-39
+no data found
+Nakdongbyeo
+Nakdongbyeo
+no data found
+no data found
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO39
+ZJ-8
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+Nakaizumi
+Norin
+Chinese Spring
+CO39
+Shin No. 2
+Nigrate
+Columbia (Col-0)
+CO39
+CO39
+CO39
+CO39
+Riband
+Riband
+Riband
+Riband
+Riband
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Sasanishiki
+Sasanishiki
+Sasanishiki
+Hitomebore
+Kakehashi
+Kakehashi
+Hitomebore
+Kanto51
+Kanto51
+Kanto51
+Tsuyuake
+Tsuyuake
+K60
+K60
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+CO39
+Nakdongbyoe
+CO39
+no data found
+CO39
+CO39
+CO39
+CO39
+no data found
+no data found
+Nipponbare (subsp. japonica)
+CO39
+CO39
+Golden promise
+CO39
+Golden promise
+Yashiro-mochi
+no data found
+no data found
+no data found
+no data found
+Maratelli
+Lacey
+no data found
+Nakdong
+CO-39
+CO39
+Nipponbare
+Nipponbare
+Nipponbare
+Nipponbare
+CO39
+CO39
+CO39
+CO39
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+CO39
+Golden Promise
+Golden Promise
+CO39
+CO39
+Golden Promise
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+no data found
+no data found
+Nipponbare
+no data found
+no data found
+no data found
+no data found
+Nipponbare
+CO39
+Nipponbare
+Nipponbare
+Golden Promise
+Golden Promise
+Nipponbare
+Nipponbare
+Nipponbare
+Nipponbare
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Golden Promise
+Nipponbare
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+CO39
+no data found
+no data found
+no data found
+no data found
+CO39
+Four-arris
+CO39
+CO39
+CO39
+CO39
+CO39
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Nakaizumi
+Norin 4
+Norin 4
+Norin 4
+Norin 4
+Norin 4
+Norin 4
+Norin 4
+Norin 4
+Norin 4
+Norin 4
+Norin 4
+CO39
+Nakdong
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+no data found
+no data found
+no data found
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+Early Golden Bantam (Olds Seeds)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Early Golden Bantam
+Early Golden Bantam
+no data found
+no data found
+no data found
+Golden Bantam
+Golden Bantam
+Golden Bantam
+Cacahuazintle
+Cacahuazintle
+no data found
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Amery
+Amery
+Amery
+no data found
+no data found
+Amery
+Monica
+Monica
+Monica
+Monica
+Amery
+Amery
+Amery
+Amery
+Amery
+Bowman
+Bowman
+Bowman
+Bowman
+Amery
+Amery
+no data found
+BG220
+Amery
+Amery
+Amery
+Amery
+Amery
+Amery
+Amery
+Amery
+Amery
+no data found
+no data found
+Darmor
+Eurol
+Golden Delicious
+Monika
+Monika
+Golden Delicious
+Monika
+Golden Delicious
+Monika
+Monika
+Eurol
+Darmor
+no data found
+no data found
+Monika
+Daniela
+Golden Delicious
+Monika
+Daniela
+Golden Delicious
+Monika
+Daniela
+Golden Delicious
+Monika
+Daniela
+Golden Delicious
+no data found
+no data found
+no data found
+Caruso
+Caruso
+Moneymaker
+Havana
+no data found
+no data found
+no data found
+no data found
+CD-1
+CD-1
+Bobwhite
+Tipple
+no data found
+C32
+granny smith
+no data found
+no data found
+CD-1
+no data found
+Golden promise
+Golden promise
+Golden promise
+Golden promise
+Golden promise
+LTH
+LTH
+LTH
+LTH
+LTH
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+CF-1
+Blanca Rino´n
+no data found
+no data found
+no data found
+Col-0
+Race 1
+Black beauty
+no data found
+no data found
+no data found
+no data found
+no data found
+W64A-N
+W64A-N
+W64A-T 
+W64A-T 
+W64A-N
+W64A-N
+W64A-T 
+W64A-T 
+K326
+no data found
+no data found
+no data found
+CD-1
+CD-1
+no data found
+Nipponbare
+
+
+
+Norm
+Norm
+
+Burley 21
+no data found
+no data found
+no data found
+no data found
+no data found
+Milyang 23
+Milyang 23
+N90598
+N90598
+no data found
+no data found
+Haven
+Haven
+BALB/c
+Odessa
+Odessa
+Hopyung
+Hopyung
+Hopyung
+Stargazer
+Stargazer
+Kexing 3
+MoneyMaker- Cf-0
+Col-0
+Col-0
+B73
+no data found
+Petit Havana -SR1 
+PG201
+Bobwhite
+Bobwhite
+no data found
+no data found
+XiaoYan 22
+Norm
+Pioneer 2375
+XiaoYan 22
+Norm
+Pioneer 2375
+XiaoYan 22
+Norm
+Pioneer 2375
+XiaoYan 22
+Norm
+Pioneer 2375
+XiaoYan 22
+Norm
+Pioneer 2375
+no data found
+no data found
+BALB/c
+Col-0
+Pad3
+Pad2
+Contender
+Chardonnay
+Columbia-0
+Bonny Best
+Vemar
+Golden Bantam
+Monika
+Monika
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+SNN
+SNN
+SNN
+SNN
+SNN
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+N90598
+Columbia-0
+Holsteiner Cox
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+Pad3
+Pad3
+Pad3
+Pad3
+Pad3
+Pad3
+Truckers Favorite 
+Truckers Favorite 
+Truckers Favorite 
+no data found
+nectarina
+no data found
+no data found
+Golden Bantam
+Golden Bantam
+Eunpamil
+Eunpamil
+Eunpamil
+Eunpamil
+Eunpamil
+Eunpamil
+no data found
+no data found
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+no data found
+Kennedy
+Sumai
+Kennedy
+SangRok
+SangRok
+no data found
+no data found
+Norm
+Norm
+Bobwhite
+Bobwhite
+Bonny Best
+Bonny Best
+Nockwang
+Nockwang
+Col-0
+Col-0
+no data found
+no data found
+no data found
+no data found
+CO39
+Nihonbare
+Nihonbare
+Nihonbare
+Norm
+Norm
+no data found
+no data found
+no data found
+no data found
+Col-0
+Col-0
+no data found
+no data found
+no data found
+no data found
+no data found
+H7998
+Jubilee
+no data found
+Balb/C mice
+Balb/C mice
+Balb/C mice
+Pioneer 2375
+Norm
+Col-0
+Nd-0
+Ws-0
+Col-0
+Nd-0
+Ws-0
+Col-0
+Nd-0
+Ws-0
+Col-0
+Nd-0
+Ws-0
+no data found
+W64A
+W64A
+C32
+90E341F (I-2 ) 
+no data found
+Jimai22
+no data found
+no data found
+no data found
+Eunpamil
+Eunpamil
+no data found
+Eunpamil
+Eunpamil
+Eunpamil
+BALB/c
+Scipion
+Obelisk
+Trenasse
+Trenasse
+no data found
+no data found
+Riband
+Xanthi
+Xanthi
+Taichung Native
+Taichung Native
+no data found
+no data found
+Blanco
+Blanco
+no data found
+6B662
+Roblin
+Roblin
+Roblin
+Roblin
+Ein Dor
+Ein Dor
+Golden Bantam
+Moneymaker C32
+Bartlett
+Bartlett
+Bartlett
+Bartlett
+Idared
+Idared
+Idared
+no data found
+no data found
+no data found
+ Xanthi
+ Xanthi
+ Xanthi
+ Xanthi
+Rootstock  Malus MM106
+Baldo
+Gala on rootstock MM 106
+Bartlett
+Gala on rootstock MM 106
+Bartlett
+Seneca Horizon
+BALB/c
+N2 Bristol
+Gala
+Bartlett
+1402
+1402
+no data found
+Nokkwang
+Daeji
+Kwangsoo
+Kwangsoo
+no data found
+no data found
+no data found
+no data found
+Duncan
+Duncan
+K326
+Honghuadajinyuan
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+CO39
+Teyou 63
+BALB/c
+BALB/c
+no data found
+Shanghai 903
+no data found
+no data found
+no data found
+no data found
+Golden Bantam
+Golden Bantam
+Golden Bantam
+Golden Bantam
+Bartlett
+Bartlett
+Bartlett
+Bartlett
+Bartlett
+Chinese Spring
+Swiss
+Swiss
+Jonny’s
+Jonny’s
+Jonny’s
+Jonny’s
+CD1
+BALB/c
+ATCC 26933
+Leucopenic and non-leucopenic mouse models
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+Immunocompromised murine model for systemic infection using CD-1 male mice
+BALB/c
+BALB/c
+BALB/c
+Toll mutant ﬂies
+no data found
+no data found
+no data found
+BALB/c
+BALB/c
+no data found
+BALB/c mice
+no data found
+BALB/c
+BALB/c
+BALB/c
+Swiss white mice
+BALB/c
+BALB/c
+SWISS CD-1
+BALB/c
+BALB/c
+ICR
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+Swiss white
+CF-1
+A/J
+BALB/c
+C57BL/6
+B6
+BALB/c
+C3H/HeN
+C57BL/6JJcl
+BALB/c
+BALB/c
+no data found
+BALB/c
+no data found
+BALB/c
+Swiss
+no data found
+no data found
+no data found
+C3H
+leaves
+cacahuazintle
+cacahuazintle
+leaves
+no data found
+Golden Bantam
+no data found
+no data found
+C57-BL/6
+no data found
+Moneymaker ss590
+Moneymaker
+no data found
+BALB/c
+Swiss white
+no data found
+BALB/c
+no data found
+BALB/c
+Swiss
+no data found
+no data found
+no data found
+C3H
+cacahuazintle
+cacahuazintle
+cacahuazintle
+cacahuazintle
+no data found
+Golden Bantam
+no data found
+no data found
+C57-BL/6
+no data found
+Moneymaker ss590
+Moneymaker
+no data found
+BALB/c
+Swiss white
+no data found
+BALB
+BALB/c
+BALB/c
+York-Landrace
+no data found
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+BALB/cJ
+SCID
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+no data found
+scid
+CD1
+CD1
+CD1
+CD1
+CD1
+CD1
+no data found
+BALB/c
+N2
+N2
+C57BL/6
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+BALB/c
+BALB/c
+C57BL6
+no data found
+BALB/cBy
+90598
+Col-0
+Thompson Seedless
+BALB/c
+CD-1
+na
+CD-1
+na
+no data found
+na
+no data found
+na
+BALB/c
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+CD-1
+no data found
+A/JUnib
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+C57Bl/6
+Caruso
+AB line
+no data found
+no data found
+C57BL/6
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+ECW
+KI E16P
+FVB/N CEABAC10
+BALB/c
+no data found
+no data found
+Maris Piper
+Maris Piper
+Maris Piper
+Maris Piper
+Ingrid
+Ingrid
+Ingrid
+Ingrid
+Ingrid
+Atlas
+Atlas
+Atlas
+Atlas
+Atlas
+Atlas 46
+Atlas 46
+Atlas 46
+Atlas 46
+Atlas 46
+Turk
+Turk
+Turk
+Turk
+Turk
+Eureka
+Mac-fadyen
+Suyo
+Valencia
+Valencia
+Valencia
+Valencia
+Valencia
+Norm
+Chippewa
+Chippewa
+Chippewa
+Chippewa
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Fuerte
+Fuerte
+Money maker
+Money maker
+Col-0
+Col-0
+no data found
+no data found
+ HMC-1
+Eunpamil
+Eunpamil
+Eunpamil
+Azucena
+Azucena
+Azucena
+Azucena
+Azucena
+Azucena
+Nipponbare
+Nipponbare
+Nipponbare
+Nipponbare
+Nipponbare
+Nipponbare
+Tainung 67
+Tainung 67
+Tainung 67
+Tainung 67
+Tainung 67
+Tainung 67
+LTH
+LTH
+LTH
+LTH
+LTH
+LTH
+Dom-sufid
+Dom-sufid
+Dom-sufid
+Dom-sufid
+Dom-sufid
+Dom-sufid
+M202
+M202
+M202
+M202
+M202
+M202
+Moroberecan
+Moroberecan
+Moroberecan
+Moroberecan
+Moroberecan
+Moroberecan
+Cypress
+Cypress
+Cypress
+Cypress
+Cypress
+Cypress
+Kitaake
+Kitaake
+Kitaake
+Kitaake
+Kitaake
+Kitaake
+Sadu-cho
+Sadu-cho
+Sadu-cho
+Sadu-cho
+Sadu-cho
+Sadu-cho
+Minghui 63
+Minghui 63
+Minghui 63
+Minghui 63
+Minghui 63
+Minghui 63
+SHZ2
+SHZ2
+SHZ2
+SHZ2
+SHZ2
+SHZ2
+IR64-21
+IR64-21
+IR64-21
+IR64-21
+IR64-21
+IR64-21
+Swarna
+Swarna
+Swarna
+Swarna
+Swarna
+Swarna
+Pokkali
+Pokkali
+Pokkali
+Pokkali
+Pokkali
+Pokkali
+Aswina
+Aswina
+Aswina
+Aswina
+Aswina
+Aswina
+Zhenshan 97B
+Zhenshan 97B
+Zhenshan 97B
+Zhenshan 97B
+Zhenshan 97B
+Zhenshan 97B
+N 22
+N 22
+N 22
+N 22
+N 22
+N 22
+Dular
+Dular
+Dular
+Dular
+Dular
+Dular
+Rayada
+Rayada
+Rayada
+Rayada
+Rayada
+Rayada
+FR13 A
+FR13 A
+FR13 A
+FR13 A
+FR13 A
+FR13 A
+Azucena
+Azucena
+Azucena
+Azucena
+Azucena
+Azucena
+Nipponbare
+Nipponbare
+Nipponbare
+Nipponbare
+Nipponbare
+Nipponbare
+Tainung 67
+Tainung 67
+Tainung 67
+Tainung 67
+Tainung 67
+Tainung 67
+LTH
+LTH
+LTH
+LTH
+LTH
+LTH
+Dom-sufid
+Dom-sufid
+Dom-sufid
+Dom-sufid
+Dom-sufid
+Dom-sufid
+M202
+M202
+M202
+M202
+M202
+M202
+Moroberecan
+Moroberecan
+Moroberecan
+Moroberecan
+Moroberecan
+Moroberecan
+Cypress
+Cypress
+Cypress
+Cypress
+Cypress
+Cypress
+Kitaake
+Kitaake
+Kitaake
+Kitaake
+Kitaake
+Kitaake
+Sadu-cho
+Sadu-cho
+Sadu-cho
+Sadu-cho
+Sadu-cho
+Sadu-cho
+Minghui 63
+Minghui 63
+Minghui 63
+Minghui 63
+Minghui 63
+Minghui 63
+SHZ2
+SHZ2
+SHZ2
+SHZ2
+SHZ2
+SHZ2
+IR64-21
+IR64-21
+IR64-21
+IR64-21
+IR64-21
+IR64-21
+Swarna
+Swarna
+Swarna
+Swarna
+Swarna
+Swarna
+Pokkali
+Pokkali
+Pokkali
+Pokkali
+Pokkali
+Pokkali
+Aswina
+Aswina
+Aswina
+Aswina
+Aswina
+Aswina
+Zhenshan 97B
+Zhenshan 97B
+Zhenshan 97B
+Zhenshan 97B
+Zhenshan 97B
+Zhenshan 97B
+N 22
+N 22
+N 22
+N 22
+N 22
+N 22
+Dular
+Dular
+Dular
+Dular
+Dular
+Dular
+Rayada
+Rayada
+Rayada
+Rayada
+Rayada
+Rayada
+FR13 A
+FR13 A
+FR13 A
+FR13 A
+FR13 A
+FR13 A
+Col-0
+Col-0
+Col-0
+Col-0
+no data found
+no data found
+no data found
+no data found
+Money maker
+Money maker
+Money maker
+Money maker
+Williams
+Williams
+Jimai22
+no data found
+Japonica 
+Japonica 
+Money maker
+CD1
+CD1
+CD1
+CD1
+CD1
+CD1
+Ants
+Samsun
+C57BL/6
+Indica
+Indica
+Indica
+Indica
+no data found
+BALB/c
+BALB/c
+no data found
+no data found
+no data found
+no data found
+no data found
+Col-0
+Col-0
+no data found
+no data found
+C3H/HeN
+C3H/HeN
+no data found
+no data found
+BALB/c
+Golden Bantam
+BALB/c
+A/J
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+Money maker
+W64A-N
+W64A-T
+W64A-N
+W64A-T
+Kanto 51
+Moukoto
+Kakehashi
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+Arbequina
+C57Bl/6
+W64A-N
+W64A-N
+W64A-N
+Pa91
+Pa91
+Pa91
+no data found
+Guido
+Great Northern Tara
+no data found
+no data found
+Vemar
+CD1
+BALB/c
+N2
+N2
+N2
+N2
+N2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+BALB/c
+ICR
+ICR
+C57Bl/6
+no data found
+ICR/CD-1
+ICR/Harlan-Sprague
+Daniela
+Daniela
+Daniela
+Daniela
+ICR
+Sasanishiki BL6
+Sasanishiki BL6
+Nijisseiki
+na
+Nijisseiki
+na
+A/Jcr
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+W64A
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+Nijisseiki
+Money maker
+no data found
+Col-0
+Col-0
+Crown
+Delica
+Triamble
+no data found
+Katy
+Drew
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+BALB/c
+Silver Queen
+Silver Queen
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+no data found
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+C57BL/6JOlaHsd
+no data found
+Blue Lake 274
+Blue Lake 274
+Blue Lake 274
+Blue Lake 274
+Blue Lake 274
+Col-0
+no data found
+no data found
+MF1
+MF1
+no data found
+Hos:HR-1
+ICR
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+C57BL/6
+Gbp -/-
+Williams
+Williams
+Harosoy
+Harosoy
+Williams
+Williams
+Harosoy
+Harosoy
+Williams
+Williams
+Harosoy
+Harosoy
+no data found
+no data found
+no data found
+no data found
+Golden promise
+Golden promise
+Golden promise
+Golden promise
+Golden promise
+Golden promise
+Golden promise
+Golden promise
+NC-95
+NC-95
+Money maker
+UC82b
+Fuji
+Gala
+Bobwhite
+Bobwhite
+Bobwhite
+Bobwhite
+Bobwhite
+Bobwhite
+Bobwhite
+Landsberg
+Landsberg
+Landsberg
+Landsberg
+Landsberg
+Landsberg
+Landsberg
+Encore 
+Encore 
+Encore 
+Encore 
+Encore 
+Encore 
+Encore 
+Braeburn
+Braeburn
+Braeburn
+Braeburn
+Braeburn
+Braeburn
+Braeburn
+no data found
+no data found
+no data found
+no data found
+Harosoy
+Blanco
+Blanco
+Blanco
+Blanco
+Blanco
+Blanco
+Blanco
+B73
+B73
+Money maker
+Col-0
+Z1
+Nathan
+Nathan
+Nathan
+Nathan
+no data found
+no data found
+Moneymaker
+Moneymaker
+Moneymaker
+Moneymaker
+Moneymaker
+Moneymaker
+Moneymaker
+Moneymaker
+Moneymaker
+Col-0
+Nijisseiki
+Nijisseiki
+Nijisseiki
+Nijisseiki
+Flandria
+Flandria
+Thompson Seedless
+Cabernet Sauvignon
+Cabernet Sauvignon
+IR24
+CO-39
+Harosoy
+Haro16
+Col-0
+Haro16
+Williams
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+Col-0
+Xanthi
+Xanthi
+no data found
+no data found
+no data found
+no data found
+no data found
+ CBA/ J
+no data found
+Bonny Best
+Bonny Best
+no data found
+no data found
+no data found
+no data found
+no data found
+BALB/c
+Shanyou63
+no data found
+no data found
+no data found
+CD-1
+CD-1
+no data found
+CD-1
+A/J
+no data found
+no data found
+BALB/c
+no data found
+BALB/c
+ECW
+Col-0
+No-0
+Col-0
+Rio Grande 76S
+no data found
+BALB
+Shin-2 
+Shin-2 
+BALBc/j
+BALBc/
+Vemar
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+BALB/c
+BALB/c
+Swiss Webster
+Swiss Webster
+Swiss Webster
+Swiss Webster
+Swiss Webster
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/cJ
+Hefeng 47
+Nakdongbyeo
+CD-1
+FVB/N
+no data found
+A/J
+no data found
+CO-39
+C57BL/6
+C57BL/6
+C57BL/6
+C57BL/6
+no data found
+ringo
+C57BL/6
+Rio Grande
+Rio Grande
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Jimai22
+Jimai22
+Jimai22
+Jimai22
+LTH
+E9
+C57BL/6
+CD-1
+CD-1
+no data found
+129S6/SvEvTac

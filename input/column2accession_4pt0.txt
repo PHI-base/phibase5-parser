@@ -1,3 +1,4 @@
+Record ID	record_id
 PHI_MolConn_ID	phi_base_acc
 IdentifierTypeOfProteinID	db_type
 ProteinID	accession
@@ -19,7 +20,7 @@ Disease_name	disease_name
 Host_descripton	mon_dic
 Host_NCBI_Taxonomy_ID	host_tax
 Experimental_host_species	host_name
-Host_strain_genotype_or cultivar_taxonomy_ID_NCBI	none
+Host_strain_genotype_or cultivar_taxonomy_ID_NCBI	host_strain_tax
 HostGenotype_definedGene of interest	none
 HostGenotype_definedGene of interest _AccessionID	none
 tissue_type	none

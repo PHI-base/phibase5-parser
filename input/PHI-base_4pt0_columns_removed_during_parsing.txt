@@ -1,0 +1,20 @@
+Columns removed from PHI-base 4.0 spreadsheet when parsing into PHI-base 5 database (to avoid problems with tab or newline insertions):
+
+Curation_comments_temp
+_to_do_
+AA sequence #no EMBL#
+NT sequence #no EMBL#
+Essential gene (lethal knockout)
+Full_citation
+Author_email
+Reference
+Year_published
+Curation details
+File_name_pdf_files_provided
+_batch_no_
+Curated(Month/Year)
+_curation_organisation_
+__lab__
+__FG_mycotoxin__
+Additional IdentifierTypeOfGeneLocusID
+Additional GeneLocusID
