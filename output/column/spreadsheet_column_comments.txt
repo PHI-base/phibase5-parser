@@ -952,6 +952,8 @@ update of PHI:446
 
 PMK1 homologue. Transposon mutagenesis
 
+
+
 More susceptible to reactive oxygen species in vitro and floccates in liquid culture.
 
 
@@ -4544,11 +4546,11 @@ no comments
 
 Δmoplc1 underwent lysis under hypertonic conditions. This suggests that MoPLC1-mediated calcium signalling is also involved in cellular processes that counteract osmotic stress in M. oryzae.
 
-"On CMA supplemented with Congo Red, methyl violo-gen, hydrogen peroxide, 3-amino-1,2,4 triazole, calcium chloride, sodium chloride, p -coumaric acid, and SDS, the growth rates of the mutant and the wild type were not signiﬁcantly different from those on CMA. The growth rates of the mutant and the wild type in the presence
+On CMA supplemented with Congo Red, methyl violo-gen, hydrogen peroxide, 3-amino-1,2,4 triazole, calcium chloride, sodium chloride, p -coumaric acid, and SDS, the growth rates of the mutant and the wild type were not signiﬁcantly different from those on CMA. The growth rates of the mutant and the wild type in the presence of 10 mM MnCl 2 were similar to those of CMA. Although the growth rates of both the mutant and the wild type on CMA supplemented with 4 mM CuSO 4 were reduced relative to those on CMA, the degree of reduction in the mutant was more severe.
 
-"On CMA supplemented with Congo Red, methyl violo-gen, hydrogen peroxide, 3-amino-1,2,4 triazole, calcium chloride, sodium chloride, p -coumaric acid, and SDS, the growth rates of the mutant and the wild type were not signiﬁcantly different from those on CMA. The growth rates of the mutant and the wild type in the presence
+On CMA supplemented with Congo Red, methyl violo-gen, hydrogen peroxide, 3-amino-1,2,4 triazole, calcium chloride, sodium chloride, p -coumaric acid, and SDS, the growth rates of the mutant and the wild type were not signiﬁcantly different from those on CMA. The growth rates of the mutant and the wild type in the presence of 10 mM MnCl 2 were similar to those of CMA. Although the growth rates of both the mutant and the wild type on CMA supplemented with 4 mM CuSO 4 were reduced relative to those on CMA, the degree of reduction in the mutant was more severe.
 
-"On CMA supplemented with Congo Red, methyl violo-gen, hydrogen peroxide, 3-amino-1,2,4 triazole, calcium chloride, sodium chloride, p -coumaric acid, and SDS, the growth rates of the mutant and the wild type were not signiﬁcantly different from those on CMA. The growth rates of the mutant and the wild type in the presence
+On CMA supplemented with Congo Red, methyl violo-gen, hydrogen peroxide, 3-amino-1,2,4 triazole, calcium chloride, sodium chloride, p -coumaric acid, and SDS, the growth rates of the mutant and the wild type were not signiﬁcantly different from those on CMA. The growth rates of the mutant and the wild type in the presence of 10 mM MnCl 2 were similar to those of CMA. Although the growth rates of both the mutant and the wild type on CMA supplemented with 4 mM CuSO 4 were reduced relative to those on CMA, the degree of reduction in the mutant was more severe.
 
 crz1 mutants showed a higher sensitivity to Ca (0 .2 –0. 6 M) than did  the wild-type strain. However, the mutants did not alter their responses to other stress conditions (Na ,Li ,and Mn) or to oxidative stress. These results re ve aled that MgC RZ1 is required for Ca21 stress tolerance in M. grisea
 
@@ -4788,7 +4790,7 @@ no comments
 
 no comments
 
-"Transient expression of MgSM1 in lower leaves confer enhanced disease resistance in the upper parts of the Arabidopsis plants; MgSM1 does not have signiﬁcant
+Transient expression of MgSM1 in lower leaves confer enhanced disease resistance in the upper parts of the Arabidopsis plants; MgSM1 does not have signiﬁcant toxic effect on plants but its higher levels could have hal effects
 
 no comments
 
@@ -5010,7 +5012,7 @@ no comments
 
 no comments
 
-"H2O2 at 5 mM strongly inhibited the growth of ΔCPXB strains, while the growth of the control strain and  cCPXB strain exhibited approximately 50% inhibition. 
+H2O2 at 5 mM strongly inhibited the growth of ΔCPXB strains, while the growth of the control strain and  cCPXB strain exhibited approximately 50% inhibition. These results strongly suggested that CPXB is a major se-reted catalase of M. oryzae for the degradation of extracellu-lar H2O2, conferring resistance against H2O2 during vegetative growth.
 
 no comments
 
@@ -5265,6 +5267,8 @@ Increased sensitivity to cell wall stressors
 no comments
 
 Increased sensitivity to cell wall stressors
+
+We found that the temperature-sensitive growth, the cell lysis defect and the morphological defect of the mutants were rescued by 1 M sorbitol, an osmotic stabilizer/Septin deficient cells were more susceptible to cell wall stressors than wild type
 
 We found that the temperature-sensitive growth, the cell lysis defect and the morphological defect of the mutants were rescued by 1 M sorbitol, an osmotic stabilizer/Septin deficient cells were more susceptible to cell wall stressors than wild type
 
@@ -6366,6 +6370,10 @@ A. tumefaciens strain GV3101 was used in molecular cloning and agroinfiltration 
 
 no comments
 
+rim9 is unaffected by any of the tested stresses
+
+pH dependant sensitivity to stress
+
 pH dependant sensitivity to stress
 
 pH dependant sensitivity to stress
@@ -6386,7 +6394,7 @@ Aromatic compunds affect the growth and conidiation of the deletion mutants
 
 no comments
 
-no comments
+Increased nitroheterocyclic drug resistance 
 
 no comments
 
@@ -6434,7 +6442,7 @@ Aromatic compunds affect the growth and conidiation of the deletion mutants
 
 no comments
 
-no comments
+Increased nitroheterocyclic drug resistance 
 
 no comments
 
@@ -6553,6 +6561,14 @@ bcvel1 mutant were significantly affected when the strains were grown on medium 
 bcvel1 mutant were significantly affected when the strains were grown on medium supplemented with 7.5 M hydrogen peroxide in continuous light
 
 bcvel1 mutant were significantly affected when the strains were grown on medium supplemented with 7.5 M hydrogen peroxide in continuous light
+
+no comments
+
+no comments
+
+no comments
+
+no comments
 
 no comments
 
@@ -7346,6 +7362,8 @@ no comments
 
 no comments
 
+no comments
+
 A. tumefaciens strain C58C1
 
 A. tumefaciens strain C58C1
@@ -7561,6 +7579,10 @@ no comments
 no comments
 
 Two different repressible promoters were used to c ontrol ex pression of PES1 in heterozygotes that contain a deletion of one allele and a replacement of the native PES1 promoter of the remain ing allele with the repressible M AL2 or tetO promoters
+
+no comments
+
+no comments
 
 no comments
 
@@ -8313,4 +8335,1196 @@ Mice infected withΔexsA:WT had a greater bacterial burden than other groups at 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UponC. jejuniΔhtrAstrain infection of infant mice, intestinal and extra-intestinal pro-inflammatory immune responses were ameliorated in the infant mouse model system.
+
+DBbAC was highly sensitive to oxidation, high osmolarity, cell wall perturbation, carbendazim fungicide, Mn, Zn,Fe, and EDTA but more tolerant to Cu, while DMrAC showed higher osmotolerance, decreased sensitivity to Fe and null response to carbendazim or cell wall stress despite similar responses to oxidation and other metal ions.
+
+DBbAC was highly sensitive to oxidation, high osmolarity, cell wall perturbation, carbendazim fungicide, Mn, Zn,Fe, and EDTA but more tolerant to Cu, while DMrAC showed higher osmotolerance, decreased sensitivity to Fe and null response to carbendazim or cell wall stress despite similar responses to oxidation and other metal ions.
+
+As compared to wild-typeB. abortus,awadBmutant was sensitive to bactericidal peptides and non-immune serum
+
+PsTatD4 has DNase activity and is transferred  from  the  cytoplasm  to  the  nucleus  upon  exposure  to  H2O2,  probably explaining  the  involvement  of  PsTatD4 in  apoptosis.
+
+Mutants had decreased stress tolerance to high osmolarity, sodium, and H2O2.
+
+The mutant strain lost its ability toproduce pyocyanin, developed less biofilm, and had decreased resistance to oxidative stress (H2O2)  and reduced virulence when cultured at high[Ca2+].
+
+The mutant strain lost its ability toproduce pyocyanin, developed less biofilm, and had decreased resistance to oxidative stress (H2O2)  and reduced virulence when cultured at high[Ca2+].
+
+Delta hupA mutant  was  found  to  be  defective  in  cell  growth,  H2S  production,  acid  adaptation. 
+
+Gene disruption increased susceptibility to antifungal compounds such as calcofluor white (CFW), sodium dodecyl sulfate (SDS), hydroxide peroxide (H2O2) and commercial fungicides, but significantly no change was served in the sensitivity to antifungal peptides.
+
+atc1Dnull cells were unable to grow on exogenous trehalose as carbon source, and also displayed higher resistance to environmental challenges, such as saline exposure (1.2 M NaCl), heat shock (42uC) and both mild and severe oxidative stress (5 and 50 mM H2O2).
+
+atc1null cells were unable to grow on exogenous trehalose as carbon source, and also displayed higher resistance to environmental challenges, such as saline exposure (1.2 M NaCl), heat shock (42uC) and both mild and severe oxidative stress (5 and 50 mM H2O2.
+
+The lsr2 mutant did display severe growth defects under normoxic and hyperoxic conditions, but it was not required for growth under low-oxygen conditions. /The lsr2strain is not more sensitive to H2O2 or mitomycin C.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Knockout mutants of bctrx1and bctrr1 were severely impaired in virulence and more sensitive to  oxidative stress
+
+Knockout mutants of bctrx1and bctrr1 were severely impaired in virulence and more sensitive to  oxidative stress
+
+Knockout mutants of bctrx1and bctrr1 were severely impaired in virulence and more sensitive to  oxidative stress
+
+Knockout mutants of bctrx1and bctrr1 were severely impaired in virulence and more sensitive to  oxidative stress
+
+Knockout mutants of bctrx1and bctrr1 were severely impaired in virulence and more sensitive to  oxidative stress
+
+Knockout mutants of bctrx1and bctrr1 were severely impaired in virulence and more sensitive to  oxidative stress
+
+Knockout mutants of bctrx1and bctrr1 were severely impaired in virulence and more sensitive to  oxidative stress
+
+The mutant strains were more susceptible to oxidative stress compared to their parental strains. Susceptibility to colistin and tetracycline was increased in all mutant strains while susceptibility of the mutants to gentamicin, levofloxacin and imipenem was strain-dependent. /  Growth depends on aeration.
+
+
+
+There was no difference in the speed or level of mortality when spores andd-endotoxins crystals of the transformed strain were fed to larvae ofPieris brassicae, as compared to the wild-type strain. When vegetative cells were injected into the hemocoel of larvae of Galleria mellonella, however, there was a significant increase in the rate and level of mortality in the wild type.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bee larvae infected with the nonproducing Pam strain showed no decrease in larval mortality, but a delay in the onset of larval death.
+
+
+
+
+
+
+
+
+
+Dktr4 and Dkre2 became more sensitive to oxidation and cell wall perturbation than Dktr1during colony growth or conidial germination.
+
+Dktr4 and Dkre2 became more sensitive to oxidation and cell wall perturbation than Dktr1during colony growth or conidial germination.
+
+Dktr4 and Dkre2 became more sensitive to oxidation and cell wall perturbation than Dktr1during colony growth or conidial germination.
+
+The mutants show high temperature growth defect.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The plasmid carries many genes and was cured by mutating the stability gene to check for the effect of the absence of the entire plasmid
+
+no data found
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+PSPTO_5633 appears to be a weak Type III secretion effector. Since PSPTO_5633 translocates poorly in DC3000, its translocation may be undetectable inP. fluorescens.
+
+no data found
+
+no data found
+
+no data found
+
+The transformation ofSnTox1into an avirulent S. nodorumisolate was sufficient to make the strain pathogenic. Additionally, the deletion ofSnTox1 in virulent isolates rendered the SnTox1 mutated strains avirulent on theSnn1 differential wheat line.
+
+mutation in flagellin lead to changes in post translational modification which seem to control virulence
+
+The  argD1000::Tn5mutant did not grow in M9 minimal media supplemented with thiamine and nicotinic acid (M9TN) media with sorbitolas the carbon source
+
+The  argD1000::Tn5mutant did not grow in M9 minimal media supplemented with thiamine and nicotinic acid (M9TN) media with sorbitolas the carbon source
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+The mutant displayed reduced motility and tolerance to treatment, but it showed increased biofilm formation. Interestingly, the LPS profile was unchanged.
+
+no data found
+
+no data found
+
+Mutants increased tolerance to elevated temperatures but became hypersensitive to oxidative, hyperosmotic, cell wall, and membrane stresses.
+
+Mutants increased tolerance to elevated temperatures but became hypersensitive to oxidative, hyperosmotic, cell wall, and membrane stresses.
+
+Mutants increased tolerance to elevated temperatures but became hypersensitive to oxidative, hyperosmotic, cell wall, and membrane stresses.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Growth reduced upon H202 exposure and higher temperatures.
+
+no data found
+
+Deletion mutants were more senstive to oxidative stress as compared to the wild type and complemented strains
+
+The gene cbp49 coding for the protein PlCBP49 was disrupted to abolish the expression of PlCBP49.
+
+The mutant strain showed a markedly reduced growth in chemically defined media supplemented with arginine when compared to the WT strain, suggesting that ArcD promotes arginine uptake.
+
+H. Pylori mutant strains defective in either VacA, or CagA, or CagE, orcagPAI, or urease, but not GGT-defective mutants, were less virulent than the respective parental strain.
+
+H. Pylori mutant strains defective in either VacA, or CagA, or CagE, orcagPAI, or urease, but not GGT-defective mutants, were less virulent than the respective parental strain.
+
+H. Pylori mutant strains defective in either VacA, or CagA, or CagE, orcagPAI, or urease, but not GGT-defective mutants, were less virulent than the respective parental strain.
+
+H. Pylori mutant strains defective in either VacA, or CagA, or CagE, orcagPAI, or urease, but not GGT-defective mutants, were less virulent than the respective parental strain.
+
+H. Pylori mutant strains defective in either VacA, or CagA, or CagE, orcagPAI, or urease, but not GGT-defective mutants, were less virulent than the respective parental strain.
+
+H. Pylori mutant strains defective in either VacA, or CagA, or CagE, orcagPAI, or urease, but not GGT-defective mutants, were less virulent than the respective parental strain.
+
+In adhesion and invasion assays, theDrfaEmutant strain had 10-fold less efficient adherence and 12-fold reductions in invasion of the porcine umbilicus vein endothelial cells (PUVEC) and porcine kidney epithelial cells (PK-15), respectively (p <0.001). 
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Mutants more sentisitve to stress
+
+Mutants more sentisitve to stress
+
+Mutants more sentisitve to stress
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Fusarium oxysporum f. sp. lycopersici exerts biocontrolactivity on flax when added in a 100-fold excess relative to a F.oxysporum strain pathogenic towards flax.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Deletion of gene cluster paaABCDE causes PAA-defective growth.
+
+Deletion of gene cluster paaABCDE causes PAA-defective growth.
+
+Deletion of gene cluster paaABCDE causes PAA-defective growth.
+
+Deletion of gene cluster paaABCDE causes PAA-defective growth.
+
+Deletion of gene cluster paaABCDE causes PAA-defective growth.
+
+Exogenous glucose could partially restore the appressorial function and virulence.
+
+Exogenous glucose could partially restore the appressorial function and virulence.
+
+Exogenous glucose could partially restore the appressorial function and virulence.
+
+Exogenous glucose could partially restore the appressorial function and virulence.
+
+Exogenous glucose could partially restore the appressorial function and virulence.
+
+Exogenous glucose could partially restore the appressorial function and virulence.
+
+Exogenous glucose could partially restore the appressorial function and virulence.
+
+Kin1 regulates the localizationof Tub1b-tubulins inFusarium graminearum.
+
+Kin1 regulates the localizationof Tub1b-tubulins.
+
+F. oxysporum strains carrying either a Drho1loss-of-function mutation or a rho1G14V gain-offunction allele were viable, but displayed a severely restricted colony phenotype which was partiallyrelieved by the osmotic stabilizer sorbitol, indicating structural alterations in the cell wall. Consistent with this hypothesis, Drho1 strains showed increased resistance to cell wall-degrading enzymes and staining with Calcofluor white.
+
+F. oxysporum strains carrying either a Drho1loss-of-function mutation or a rho1G14V gain-offunction allele were viable, but displayed a severely restricted colony phenotype which was partiallyrelieved by the osmotic stabilizer sorbitol, indicating structural alterations in the cell wall. Consistent with this hypothesis, Drho1 strains showed increased resistance to cell wall-degrading enzymes and staining with Calcofluor white.
+
+F. oxysporum strains carrying either a Drho1loss-of-function mutation or a rho1G14V gain-offunction allele were viable, but displayed a severely restricted colony phenotype which was partiallyrelieved by the osmotic stabilizer sorbitol, indicating structural alterations in the cell wall. Consistent with this hypothesis, Drho1 strains showed increased resistance to cell wall-degrading enzymes and staining with Calcofluor white.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+DcchA, DmidAandDcchA DmidAstrains demonstrated increased sensitivity to the oxidative stress inducer, paraquat. Growth defect in mutants was rescued by CaCl2. 
+
+DcchA, DmidAandDcchA DmidAstrains demonstrated increased sensitivity to the oxidative stress inducer, paraquat. Growth defect in mutants was rescued by CaCl2. 
+
+DcchA, DmidAandDcchA DmidAstrains demonstrated increased sensitivity to the oxidative stress inducer, paraquat. Growth defect in mutants was rescued by CaCl2. 
+
+DcchA, DmidAandDcchA DmidAstrains demonstrated increased sensitivity to the oxidative stress inducer, paraquat. Growth defect in mutants was rescued by CaCl2. 
+
+DcchA, DmidAandDcchA DmidAstrains demonstrated increased sensitivity to the oxidative stress inducer, paraquat. Growth defect in mutants was rescued by CaCl2. 
+
+VdMsb was found to be required for fungal virulence and microsclerotia production.
+
+VdMsb was found to be required for fungal virulence and microsclerotia production.
+
+no data found
+
+The overexpression data revealed that the gene acts as a global activator of secondary metabolism.
+
+no data found
+
+no data found
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+MoCDIP1, MoCDIP3, MoCDIP4, and MoCDIP5,  but not MoCDIP2 induce cell death in both monocot and dicot  species.
+
+The rpoN2  mutant,  but  not  the  fleQ  mutant  was  impaired  in  its  virulence  on  rice.  In  addition, the  flagellin  gene  fliC  mutant,  which  was  non-motile,  was  not  defective  in  virulence.
+
+The rpoN2  mutant,  but  not  the  fleQ  mutant  was  impaired  in  its  virulence  on  rice.  In  addition, the  flagellin  gene  fliC  mutant,  which  was  non-motile,  was  not  defective  in  virulence.
+
+The rpoN2  mutant,  but  not  the  fleQ  mutant  was  impaired  in  its  virulence  on  rice.  In  addition, the  flagellin  gene  fliC  mutant,  which  was  non-motile,  was  not  defective  in  virulence.
+
+"The role of SP1 in the pathogenicity ofS.nodorumis unclear, but, the observation that this protein is produced and secreted during infection,and that homologues are present in other plant and human fungal pathogens  suggests that it may have a role in determining the pathogenic habit and may, perhaps, be involved in adhesion to host cells or in the differentiation of infection.
+
+Mutants were  defective  for  growth  on  iron  depleted  solid  media  and  for  ferrous  iron  uptake.
+
+Mutants were  defective  for  growth  on  iron  depleted  solid  media  and  for  ferrous  iron  uptake.
+
+no data found
+
+BALB/c mice infected with abprDmutant showed a shorter time to death and increased inflammation.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+DpacC mutants are hypersensitive to the cell wall-active drug caspofungin
+
+DpacC mutants are hypersensitive to the cell wall-active drug caspofungin
+
+no data found
+
+no data found
+
+The ctrA2andctrCdouble-deletion mutant exhibited a growth defect onAspergillusminimal medium (AMM) supplemented with bathocuproine disulfonic acid (BCS) and was sensitive to H2O2.
+
+The ctrA2andctrCdouble-deletion mutant exhibited a growth defect onAspergillusminimal medium (AMM) supplemented with bathocuproine disulfonic acid (BCS) and was sensitive to H2O2.
+
+The ctrA2andctrCdouble-deletion mutant exhibited a growth defect onAspergillusminimal medium (AMM) supplemented with bathocuproine disulfonic acid (BCS) and was sensitive to H2O2.
+
+The ctrA2andctrCdouble-deletion mutant exhibited a growth defect onAspergillusminimal medium (AMM) supplemented with bathocuproine disulfonic acid (BCS) and was sensitive to H2O2.
+
+The level of expression of small heat shock proteins induced upon H202 exposure is higher than that of regular heat shock proteins.
+
+The level of expression of small heat shock proteins induced upon H202 exposure is higher than that of regular heat shock proteins.
+
+The level of expression of small heat shock proteins induced upon H202 exposure is higher than that of regular heat shock proteins.
+
+OMVs,  production is suppressed by a quorum-sensing system, serve as an autoinhibitorofcelladhesiontosurfaces, thereby blocking attachment-driven biofilm formation that would restrict movement within the xylem and thus colonization of plants. 
+
+LsfA is important for oxidative stress resistance in P. aeruginosa
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Exogenous isoleucine fully restores vegetative growth and partially restores conidiation and pathogenicity of the DMoilv1 mutant.
+
+The mutants showed severely reduced virulence in mice but were highly resistant to itraconazole and amphotericin B, two drugs targeting sterol synthesis.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+The genes are involved in the melanin production especially during teliosporogenesis.
+
+The genes are involved in the melanin production especially during teliosporogenesis.
+
+The operon deletion had no differential impact between B2 and non-B2 strains, and did not result in a fitness modification in a murine model of gut colonization. Nevertheless,  a murine model of septicemia revealed that recombination in nhaA among B2 strains was observed in strains with low virulence. Finally, nhaA and nhaAR operon deletions drastically decreased virulence in one B2 strain.
+
+The operon deletion had no differential impact between B2 and non-B2 strains, and did not result in a fitness modification in a murine model of gut colonization. Nevertheless,  a murine model of septicemia revealed that recombination in nhaA among B2 strains was observed in strains with low virulence. Finally, nhaA and nhaAR operon deletions drastically decreased virulence in one B2 strain.
+
+The operon deletion had no differential impact between B2 and non-B2 strains, and did not result in a fitness modification in a murine model of gut colonization. Nevertheless,  a murine model of septicemia revealed that recombination in nhaA among B2 strains was observed in strains with low virulence. Finally, nhaA and nhaAR operon deletions drastically decreased virulence in one B2 strain.
+
+The yraS mutant showed a similar level of SDS resistance to the parental strain.
+
+The 50% lethal dose ofΔxfwas increased (4-fold) compared with that of the parental strain in a zebrafish infection model.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Chromosomal restoration ofglpDin CO92 resulted in a significant increase in biofilm formation.
+
+Mutation in the transport domain of theoppA gene resulted in bacterial attenuation in both macrophages and in mice.
+
+Mutants showed a reduction in siderophore production.
+
+All mutant strains tested displayed wild-type pathogenicity.
+
+All mutant strains tested displayed wild-type pathogenicity.
+
+All mutant strains tested displayed wild-type pathogenicity.
+
+All mutant strains tested displayed wild-type pathogenicity.
+
+CoIra1 is involved in infection-related morphogenesis and pathogenicity by proper regulation of cAMP and MAPK signaling pathways through CoRas2.
+
+CoIra1 is involved in infection-related morphogenesis and pathogenicity by proper regulation of cAMP and MAPK signaling pathways through CoRas2.
+
+CoIra1 is involved in infection-related morphogenesis and pathogenicity by proper regulation of cAMP and MAPK signaling pathways through CoRas2.
+
+Mutants showed higher sensitivity to antibiotics, disinfectants and normal duck serum, and higher capability of adherence and invasion to Vero cells, compared to its wild-type strain.
+
+Loss of nagZxc increased the susceptibility of Xc17 to b-lactam antibiotics
+
+no data found
+
+Protease IV, a QS-regulated exoprotease of P. aeruginosa functions as a key virulence effector causing the melanization and death of T. molitor larvae.
+
+Protease IV, a QS-regulated exoprotease of P. aeruginosa functions as a key virulence effector causing the melanization and death of T. molitor larvae.
+
+Protease IV, a QS-regulated exoprotease of P. aeruginosa functions as a key virulence effector causing the melanization and death of T. molitor larvae.
+
+The significance of the operon organization ofnos-pdt and potential relationship between these two enzymes remains to be elucidated, but initial explorations presented.
+
+Components of PI3K signalling are eesential in modulation of host immune response, intracellular survival, stress tolerance and virulence in C. glabrata.
+
+Components of PI3K signalling are eesential in modulation of host immune response, intracellular survival, stress tolerance and virulence in C. glabrata.
+
+Capsule enhances  M4  GAS  plasmin  activity  and  neutrophil  survival,  but  has  no  effect  on  in  vivo  virulence.
+
+Significant  reduction  in  the  log  count,  mild  tissue  damage  and  declined  levels  of  pathological  markers  were  observed  in mice  infected  with  mutant  strains  as  compared  to  MPAO1.
+
+Significant  reduction  in  the  log  count,  mild  tissue  damage  and  declined  levels  of  pathological  markers  were  observed  in mice  infected  with  mutant  strains  as  compared  to  MPAO1.
+
+The  areB mutants  showed  significantly  reduced  ammonia  secretion  and  pathogenicity  on  tomato  fruits.
+
+ ΔspxA1 exhibited impaired growth in the presence of hydrogen peroxide, while ΔspxA2 exhibited impaired growth in the presence of SDS and NaCl.
+
+ ΔspxA1 exhibited impaired growth in the presence of hydrogen peroxide, while ΔspxA2 exhibited impaired growth in the presence of SDS and NaCl.
+
+Mutants resulted  in  impaired  structural development  of  the  Xcc  biofilm,  loss  of  chemotaxis  and  reduced  virulence  in  grapefruit plants.
+
+no data found
+
+no data found
+
+VrpA is involved in Xac tolerance of oxidative stress.
+
+VrpA is involved in Xac tolerance of oxidative stress.
+
+Knockout mutants clearly demonstrated that neither patulin nor citrinin are required by P. expansum to successfully infect apples.
+
+Knockout mutants clearly demonstrated that neither patulin nor citrinin are required by P. expansum to successfully infect apples.
+
+Knockout mutants clearly demonstrated that neither patulin nor citrinin are required by P. expansum to successfully infect apples.
+
+Knockout mutants clearly demonstrated that neither patulin nor citrinin are required by P. expansum to successfully infect apples.
+
+Knockout mutants clearly demonstrated that neither patulin nor citrinin are required by P. expansum to successfully infect apples.
+
+Knockout mutants clearly demonstrated that neither patulin nor citrinin are required by P. expansum to successfully infect apples.
+
+no data found
+
+Mutants are sensitive to oxidative and acidic stress
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+The tfp1 D/Dmutant was sensitive to alkaline pH, elevated calcium concentrations, metal ions, and oxidative stress.
+
+Host gene study
+
+The ΔsskBwas more sensitive to CaCl2, NaCl, and paraquat stress.
+
+(R)-mellein inhibited the germination of wheat (Triticum aestivum) and barrel medic (Medicago truncatula) seeds at 200 µg/mL.
+
+no data found
+
+The epithelial interleukin-22 receptor IL-22RA1 protects against lethal Citrobacter rodentium infection by promoting intestinal colonization with commensal symbionts in mice.
+
+MIF mediates the pathogenic inflammatory immune response and increases the recruitment of inflammatory monocytes and neutrophils to contribute to liver injury inTrypanosoma brucei infected mice.
+
+The deletion of MrKu70, a gene encoding a key component involved in nonhomologous end-joining DNA repair in fungi, dramatically increases the gene disruption efficiency.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+PGA7 deletion elicits a  severe heme-iron utilization phenotype.
+
+Targeted  deletion  of  con7-1 produced  non-pathogenic  mutants  with  altered  morphogenesis,  including  defects  in  cell  wall  structure,  polar  growth,  hyphal  branching  and  conidiation.  By  contrast,  simultaneous inactivation of both con7-2 copies caused no detectable defects in the resulting mutants.
+
+Targeted  deletion  of  con7-1 produced  non-pathogenic  mutants  with  altered  morphogenesis,  including  defects  in  cell  wall  structure,  polar  growth,  hyphal  branching  and  conidiation.  By  contrast,  simultaneous inactivation of both con7-2 copies caused no detectable defects in the resulting mutants.
+
+sigma factor RpoS regulates starvation and other stress responses
+
+sigma factor RpoS regulates starvation and other stress responses
+
+There are significant phenotypic differences amongst strains carryingsopB,sopD andpipD gene mutations via the analysis of biochemical profiles of the bacteria. Interestingly, mutant strains displayed different susceptibility to chemical stressors from several distinct pharmacological and structural classes when compared to its isogenic parental strains.
+
+There are significant phenotypic differences amongst strains carryingsopB,sopD andpipD gene mutations via the analysis of biochemical profiles of the bacteria. Interestingly, mutant strains displayed different susceptibility to chemical stressors from several distinct pharmacological and structural classes when compared to its isogenic parental strains.
+
+There are significant phenotypic differences amongst strains carryingsopB,sopD andpipD gene mutations via the analysis of biochemical profiles of the bacteria. Interestingly, mutant strains displayed different susceptibility to chemical stressors from several distinct pharmacological and structural classes when compared to its isogenic parental strains.
+
+There are significant phenotypic differences amongst strains carryingsopB,sopD andpipD gene mutations via the analysis of biochemical profiles of the bacteria. Interestingly, mutant strains displayed different susceptibility to chemical stressors from several distinct pharmacological and structural classes when compared to its isogenic parental strains.
+
+There are significant phenotypic differences amongst strains carryingsopB,sopD andpipD gene mutations via the analysis of biochemical profiles of the bacteria. Interestingly, mutant strains displayed different susceptibility to chemical stressors from several distinct pharmacological and structural classes when compared to its isogenic parental strains.
+
+There are significant phenotypic differences amongst strains carryingsopB,sopD andpipD gene mutations via the analysis of biochemical profiles of the bacteria. Interestingly, mutant strains displayed different susceptibility to chemical stressors from several distinct pharmacological and structural classes when compared to its isogenic parental strains.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+A strain  lacking  Nfu  is  sensitive  to  exogenously  supplied ROS and reactive nitrogen species.
+
+The gene is also involved in motility.
+
+The gene is also involved in motility.
+
+no data found
+
+The prx3 mutation  impaired  growth  in  the  medium containing  peroxides.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Cas9 represses the expression of a BLP (bacterial lipoprotein) that could otherwise be recognized by TLR2 (Toll-like receptor 2), a host protein involved in initiating an antibacterial pro-inflammatory response.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Inactivation of CcpE results in increased staphyloxanthin production, improved ability to acquire iron, increased resistance to whole-blood–mediated killing, and enhanced bacterial virulence in a mouse model of systemic infection.
+
+In mice that lacked the apoptosis mediator caspase-3 the infection dynamics were novel: the parent Y. pestis was limited in growth comparably to the ΔyopM-1 strain in liver, and in spleen a partial growth limitation for parent Y. pestis was seen.
+
+In mice that lacked the apoptosis mediator caspase-3 the infection dynamics were novel: the parent Y. pestis was limited in growth comparably to the ΔyopM-1 strain in liver, and in spleen a partial growth limitation for parent Y. pestis was seen.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+PsSRPKL may be  involved in overcoming plant defense responses adn oxidative stress responses.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+Although the ability to produce fusaric acid contributed  to the phytotoxicity of F. oxysporum culture extracts, lack of production did not affectvirulence  of F. oxysporum on cactus or F. verticillioides on maize seedlings.
+
+YapG does not contribute toY. pestisvirulence in established mouse models of bubonic and pneumonic infection.
+
+please note that multiple gene regions were disrupted T6SS-1 (N454_00602to N454_00638), T6SS-3 (N454_0002  13 to  N454_0008)
+
+please note that multiple gene regions were disrupted T6SS-1 (N454_00602to N454_00638), T6SS-3 (N454_0002  13 to  N454_0008)
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Bordetella T3SS is required for maximal persistence and disease severity in pigs, but not for transmission.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+mutants showed reduced  growth on hemin and transferrin. /  None of the deletion strains showed altered susceptibility to the polyene antifungal drug amphotericin B (Fig. 8A). However, thefre4 strain showed increased susceptibility to the azole antifungal drugs fluconazole and miconazole.
+
+mutants showed reduced  growth on hemin and transferrin. /  None of the deletion strains showed altered susceptibility to the polyene antifungal drug amphotericin B (Fig. 8A). However, thefre4 strain showed increased susceptibility to the azole antifungal drugs fluconazole and miconazole.
+
+mutants showed reduced  growth on hemin and transferrin. /  None of the deletion strains showed altered susceptibility to the polyene antifungal drug amphotericin B (Fig. 8A). However, thefre4 strain showed increased susceptibility to the azole antifungal drugs fluconazole and miconazole.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Reduced growth on Iron source
+
+Reduced growth on Iron source
+
+Wild type growth on iron source
+
+no data found
+
+GAS EI mutant ( ptsI) is defective for growth in several carbohydrates
+
+GAS EI mutant ( ptsI) is defective for growth in several carbohydrates
+
+GAS EI mutant ( ptsI) is defective for growth in several carbohydrates
+
+The lac promoter sequence of E. Coli K12 MG1655 was constitutively expressed.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Increased sensitivity to the cell wall targeting compounds.
+
+Invasin is important for persistence ofY. enterocoliticaO:3in the intestinal tract of pigs and mice
+
+Presence of IS1667inserted into theinvApromoter region of O:3 strains increases colonization of the intestinal tract of pigs
+
+Invasin is important for persistence ofY. enterocoliticaO:3in the intestinal tract of pigs and mice
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+"A mutant lacking the tcpF gene was attenuated for survival in macrophages, with increased ability to activate NF-kB compared to the wild type strain. No appreciable difference in bacterial persistence, dissemination or pathogenesis was observed between the wild type and mutant in a mouse peritonitis model however, which suggested either a subtle role for TcpF or functional overlap.
+
+no data found
+
+no data found
+
+no data found
+
+no data found
+
+Both ∆bcnoxA and ∆bcnoxD were more sensitive towards H2O2, while growth on menadione  was comparable to the WT. Furthermore, growth under  conditions of  osmotic stress (NaCl) was not significantly altered in the mutants.
+
+Both ∆bcnoxA and ∆bcnoxD were more sensitive towards H2O2, while growth on menadione  was comparable to the WT. Furthermore, growth under  conditions of  osmotic stress (NaCl) was not significantly altered in the mutants.
+
+Loss of yceGH rendered the mutants more sensitive to tellurite toxicity as well as to host defenses such as reactive oxygen species and the cathelicidin family of antimicrobial peptides.
+
+Loss of yceGH rendered the mutants more sensitive to tellurite toxicity as well as to host defenses such as reactive oxygen species and the cathelicidin family of antimicrobial peptides.
+
+There is a correlation between high orf2expression and virulence.
+
+The loss of pgaC affected the production of PNAG attenuated the enhancement of in vitro biofilm formation upon the addition of bile salts mixture and attenuated virulence.
+
+no data found
+
+BCAM0224 occurs on the bacterial surface and adopts a trimeric conformation. BCAM0224 is needed for earlier stages of biofilm formation and is required for swarming motility and adhesion.
+
+no data found
+
+no data found
+
+Mutants are not sensitive to cell wall pertubers, but sensitive to osmotic stress by NaCl which can be compensated by Sorbitol.
+
+no data found
+
+Lack of Apt1 affects Golgi morphology and GXM synthesis and transport.
+
+no data found
+
+Mutants had  perturbed the formation of virulence factors (capsule and melanin), reduced survival in macrophages, and attenuated virulence in a mouse model of cryptococcosis.
+
+Mutants had  perturbed the formation of virulence factors (capsule and melanin), reduced survival in macrophages, and attenuated virulence in a mouse model of cryptococcosis.
+
+Mutants had  perturbed the formation of virulence factors (capsule and melanin), reduced survival in macrophages, and attenuated virulence in a mouse model of cryptococcosis.
+
+The vtc4 mutant behaved like the wild-type strain in interactions with macrophages and in the mouse infectionmodel. However, the fungal load in the lungs was significantly increased in mice infected with vtc4 deletion mutants.
 

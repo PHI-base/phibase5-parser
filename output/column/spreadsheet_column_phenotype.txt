@@ -475,7 +475,7 @@ Reduced virulence
 reduced virulence
 Reduced virulence
 Loss of pathogenicity 
-
+Reduced virulence
 Reduced virulence
 Loss of pathogenicity 
 Reduced virulence
@@ -2967,8 +2967,8 @@ Effector (plant avirulence determinant)
 Effector (plant avirulence determinant)
 Effector (plant avirulence determinant)
 Reduced virulence
-essential
-essential
+Lethal
+Lethal
 Reduced virulence
 Reduced virulence
 Reduced virulence
@@ -3184,30 +3184,6 @@ Effector (plant avirulence determinant)
 Effector (plant avirulence determinant)
 Effector (plant avirulence determinant)
 Reduced virulence
-no data found
-Unaffected pathogenicity
-Unaffected pathogenicity
-no data found
-Reduced virulence
-Reduced virulence
-Reduced virulence
-Reduced virulence
-Reduced virulence
-no data found
-Loss of pathogenicity
-Effector (plant avirulence determinant)
-no data found
-Reduced virulence
-Reduced virulence
-no data found
-Unaffected pathogenicity
-no data found
-Reduced virulence
-Reduced virulence
-Effector (plant avirulence determinant)
-Effector (plant avirulence determinant)
-Effector (plant avirulence determinant)
-Reduced virulence
 Unaffected pathogenicity
 Unaffected pathogenicity
 Unaffected pathogenicity
@@ -3223,6 +3199,30 @@ Effector (plant avirulence determinant)
 no data found
 Reduced virulence
 Reduced virulence
+no data found
+Unaffected pathogenicity
+no data found
+Reduced virulence
+Reduced virulence
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Reduced virulence
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Reduced virulence
+Reduced virulence
+Reduced virulence
+Reduced virulence
+Reduced virulence
+no data found
+Loss of pathogenicity
+Effector (plant avirulence determinant)
+no data found
+Reduced virulence
+Reduced virulence
 Reduced virulence
 Unaffected pathogenicity
 Reduced virulence
@@ -3276,6 +3276,10 @@ Reduced virulence
 Reduced virulence
 Unaffected pathogenicity
 Unaffected pathogenicity
+Reduced virulence
+Reduced virulence
+Reduced virulence
+Reduced virulence
 Reduced virulence
 Reduced virulence
 Reduced virulence
@@ -3674,7 +3678,7 @@ Reduced virulence
 Reduced virulence
 Reduced virulence
 Reduced virulence
-
+Unaffected pathogenicity
 Reduced virulence
 Reduced virulence
 Effector (plant avirulence determinant)
@@ -3794,6 +3798,8 @@ Loss of pathogenicity
 Unaffected pathogenicity
 Effector (plant avirulence determinant)
 Effector (plant avirulence determinant)
+Loss of pathogenicity
+Loss of pathogenicity
 Loss of pathogenicity
 Reduced virulence
 Reduced virulence
@@ -4161,3 +4167,599 @@ reduced virulence
 reduced virulence
 loss of pathogenicity
 reduced virulence
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+loss of pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+loss of pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+loss of pathogenicity
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Unaffected pathogenicity
+Unaffected pathogenicity
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+reduced virulence
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+increased virulence
+increased virulence
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+reduced virulence
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+reduced virulence
+loss of pathogenicity
+reduced virulence
+reduced virulence
+Effector (plant avirulence determinant)
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Effector (plant avirulence determinant)
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Unaffected pathogenicity
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+reduced virulence
+loss of pathogenicity
+reduced virulence
+increased virulence
+increased virulence
+increased virulence
+increased virulence
+reduced virulence
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+Unaffected pathogenicity
+reduced virulence
+no data found
+no data found
+no data found
+no data found
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+Unaffected pathogenicity
+loss of pathogenicity
+loss of pathogenicity
+reduced virulence
+increased virulence
+reduced virulence
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Unaffected pathogenicity
+Unaffected pathogenicity
+reduced virulence
+reduced virulence
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+loss of pathogenicity
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+Effector (plant avirulence determinant)
+unaffected pathogeniticity
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+unaffected pathogeniticity
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+increased virulence
+unaffected pathogeniticity
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+increased virulence
+reduced virulence
+loss of pathogenicity
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+Effector (plant avirulence determinant)
+reduced virulence
+reduced virulence
+loss of pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+no data found
+reduced virulence
+reduced virulence
+increased virulence
+increased virulence
+increased virulence
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+loss of pathogenicity
+reduced virulence
+loss of pathogenicity
+unaffected pathogeniticity
+reduced virulence
+increased virulence
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+reduced virulence
+loss of pathogenicity
+unaffected pathogeniticity
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+Effector (plant avirulence determinant)
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+increased virulence
+Effector (plant avirulence determinant)
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+reduced virulence
+reduced virulence
+loss of pathogenicity
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+Effector (plant avirulence determinant)
+loss of pathogenicity
+reduced virulence
+reduced virulence
+reduced virulence
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+loss of pathogenicity
+loss of pathogenicity
+unaffected pathogeniticity
+unaffected pathogeniticity
+increased virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+unaffected pathogeniticity
+reduced virulence
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+unaffected pathogeniticity
+unaffected pathogeniticity
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+increased virulence
+reduced virulence
+increased virulence
+reduced virulence
+unaffected pathogeniticity
+increased virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+reduced virulence
+increased virulence

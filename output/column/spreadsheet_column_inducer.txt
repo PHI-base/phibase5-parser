@@ -2633,8 +2633,7 @@ Sorbitol; Sodium chloride; Sodium Lauryl Sulfate; Calcoﬂuor white
 Sorbitol; Sodium chloride; Sodium Lauryl Sulfate; Calcoﬂuor white
 no data found
 7-Diethylamino-4-methylcoumarin; Congo red; Sorbitol; Sodium chloride
-"Sorbitol; Caffeine; 7-Diethylamino-4-methylcoumarin; Chlorpromazine; Brefeldin A
-
+Sorbitol; Caffeine; 7-Diethylamino-4-methylcoumarin; Chlorpromazine; Brefeldin A
 no data found
 7-Diethylamino-4-methylcoumarin; Congo red
 7-Diethylamino-4-methylcoumarin; Congo red
@@ -3185,10 +3184,10 @@ no data found
 no data found
 no data found
 no data found
-
 Lithium chloride; Sodium chloride; Sodium Lauryl Sulfate; Hydrogen peroxide; Congo red
 Lithium chloride; Sodium chloride; Sodium Lauryl Sulfate; Hydrogen peroxide; Congo red
-
+Lithium chloride; Sodium chloride; Sodium Lauryl Sulfate; Hydrogen peroxide; Congo red
+Lithium chloride; Sodium chloride; Sodium Lauryl Sulfate; Hydrogen peroxide; Congo red
 tert-Butyl hydroperoxide (t-BHP); Hydrogen peroxide; Cumene hydroperoxide; Glucose; Sucrose; Sorbitol; Mannitol; Sodium Lauryl Sulfate
 no data found
 no data found
@@ -3281,6 +3280,10 @@ no data found
 Hydrogen peroxide
 Hydrogen peroxide
 Hydrogen peroxide
+no data found
+no data found
+no data found
+no data found
 no data found
 no data found
 no data found
@@ -3682,6 +3685,7 @@ no data found
 no data found
 no data found
 no data found
+no data found
 Trehalose; Ammonium nitrate
 Trehalose; Ammonium nitrate
 no data found
@@ -3767,6 +3771,8 @@ no data found
 Sorbitol
 Bovine serum albumin
 caffeine; calcofluor white; congo red
+no data found
+no data found
 no data found
 no data found
 no data found
@@ -4154,6 +4160,602 @@ no data found
 no data found
 no data found
 no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+Calcoﬂuor white (CFW); Congo red (CR); caspofungin; voriconazole; amphotericin  B; nikkomycinZ
+no data found
+H2O2
+H2O2
+H2O2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2; menadione; Congo red; carbendazim; NaCl; EDTA; Cu2+; Mn2+; Zn2+; Fe3+
+H2O2; menadione; Congo red; carbendazim; NaCl; EDTA; Cu2+; Mn2+; Zn2+; Fe3+
+fuchsin; thionin; safranin; polymyxin B
+H2O2
+H2O2; Sorbitol; NaCl
+H2O2; NaCl; Ethanol
+H2O2; NaCl; Ethanol
+NaCl
+Calcoﬂuor white (CFW); Congo red; H2O2; TBZ; IMZ; SDS
+H2O2; NaCl
+H2O2; NaCl
+H2O2; mitomycin C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+S-nitrosoglutathione (GSNO)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2; Congo red; NaCl; SDS
+H2O2; Congo red; NaCl; SDS
+H2O2; Congo red; NaCl; SDS
+no data found
+no data found
+no data found
+no data found
+H2O2
+SDS; colistin; polymyxin B
+NaCl; KCl; D-sorbitol; SDS; Congo red; fludioxonil; iprodione; benomyl; H2O2; 
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+NaCl; NaNO2; sorbitol; CoCl2; CuSO4; H2O2
+NaCl; NaNO2; sorbitol; CoCl2; CuSO4; H2O2
+NaCl; NaNO2; sorbitol; CoCl2; CuSO4; H2O2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+glucose
+glucose
+glucose
+glucose
+no data found
+glucose
+glucose
+SDS; H2O2; NaCl; Calcofluor; Congo red
+no data found
+sorbitol; Calcofluor white
+sorbitol; Calcofluor white
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+paraquat; CaCl2; calcineurin; cyclosporine; EGTA; voriconazole; ketoconazole; itraconazole; caspofungin
+paraquat; CaCl2; calcineurin; cyclosporine; EGTA; voriconazole; ketoconazole; itraconazole; caspofungin
+paraquat; CaCl2; calcineurin; cyclosporine; EGTA; voriconazole; ketoconazole; itraconazole; caspofungin
+paraquat; CaCl2; calcineurin; cyclosporine; EGTA; voriconazole; ketoconazole; itraconazole; caspofungin
+paraquat; CaCl2; calcineurin; cyclosporine; EGTA; voriconazole; ketoconazole; itraconazole; caspofungin
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+caspofungin
+caspofungin
+no data found
+no data found
+H2O2; bathocuproine disulfonic acid
+H2O2; bathocuproine disulfonic acid
+H2O2; bathocuproine disulfonic acid
+H2O2; bathocuproine disulfonic acid
+H2O2
+H2O2
+H2O2
+no data found
+H2O2; tert-butyl hydroperoxide; paraquat
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+isoleucine
+itraconazole; amphotericin B
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2; menadione; Congo red; sodium dodecyl sulfate (SDS); NaCl
+H2O2; menadione; Congo red; sodium dodecyl sulfate (SDS); NaCl
+H2O2; menadione; Congo red; sodium dodecyl sulfate (SDS); NaCl
+H2O2; menadione; Congo red; sodium dodecyl sulfate (SDS); NaCl
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Triton X–100; H2O2; Ampicillin; Streptomycin sulfate; Gentamicin; Spectinomycin sulfate; Chloramphenicol; Polymyxin B; Nalidixic acid
+ampicillin; ticarcillin; carbenicillin; cefuroxime
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2; menadione; sodium dodecyl sulfate (SDS); NaCl; hydroxyurea
+H2O2; menadione; sodium dodecyl sulfate (SDS); NaCl; hydroxyurea
+no data found
+no data found
+no data found
+no data found
+H2O2; sodium dodecyl sulfate (SDS); NaCl
+H2O2; sodium dodecyl sulfate (SDS); NaCl
+no data found
+no data found
+no data found
+H2O2
+H2O2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2
+no data found
+CaCl2; NaCl; MnCl2; paraquat; menadione; itraconazole; caspofungin
+no data found
+no data found
+no data found
+no data found
+ H2O2; KCl
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2; ONOO−
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+voriconazole
+voriconazole
+voriconazole
+voriconazole
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fluconazole; miconazole; amphotericin B
+fluconazole; miconazole; amphotericin B
+fluconazole; miconazole; amphotericin B
+sorbitol; NaCl; H2O2; menadione
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+congo red; calcoﬂuor white
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2; menadione; NaCl
+H2O2; menadione; NaCl
+H2O2; nisin; bacitracin; polymyxin
+H2O2; nisin; bacitracin; polymyxin
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+hygromycin  B; vanadate; calcofluor white; Congo  red; NaCl; sorbitol
 no data found
 no data found
 no data found

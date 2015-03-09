@@ -1,117 +1,122 @@
-PHI:I514	PHI:526	Indications that gas1 mutants provoke a plant response	HRO:0000018
-PHI:I663	PHI:656	Necrosis	HRO:0000011
-PHI:I664	PHI:656	Necrosis	HRO:0000011
-PHI:I665	PHI:656	Necrosis	HRO:0000011
-PHI:I666	PHI:657	Necrosis	HRO:0000011
-PHI:I667	PHI:657	Necrosis	HRO:0000011
-PHI:I668	PHI:657	Necrosis	HRO:0000011
-PHI:I669	PHI:658	Necrosis	HRO:0000011
-PHI:I670	PHI:659	Necrosis	HRO:0000011
-PHI:I675	PHI:664	Necrosis	HRO:0000011
-PHI:I676	PHI:664	Necrosis	HRO:0000011
-PHI:I677	PHI:664	Necrosis	HRO:0000011
-PHI:I678	PHI:665	Necrosis	HRO:0000011
-PHI:I679	PHI:665	Necrosis	HRO:0000011
-PHI:I680	PHI:666	Necrosis	HRO:0000011
-PHI:I681	PHI:666	Necrosis	HRO:0000011
-PHI:I682	PHI:666	Necrosis	HRO:0000011
-PHI:I921	PHI:963	Hypersensitive reaction	HRO:0000019
-PHI:I922	PHI:964	Hypersensitive reaction	HRO:0000019
-PHI:I923	PHI:965	Hypersensitive reaction	HRO:0000019
-PHI:I924	PHI:966	Hypersensitive reaction	HRO:0000019
-PHI:I925	PHI:967	Hypersensitive reaction	HRO:0000019
-PHI:I927	PHI:969	Hypersensitive reaction	HRO:0000019
-PHI:I928	PHI:970	Hypersensitive reaction	HRO:0000019
-PHI:I931	PHI:973	Hypersensitive reaction	HRO:0000019
-PHI:I932	PHI:974	Hypersensitive reaction	HRO:0000019
-PHI:I933	PHI:975	Hypersensitive reaction	HRO:0000019
-PHI:I934	PHI:976	Hypersensitive reaction	HRO:0000019
-PHI:I935	PHI:977	Hypersensitive reaction	HRO:0000019
-PHI:I936	PHI:978	Hypersensitive reaction	HRO:0000019
-PHI:I940	PHI:980	Hypersensitive reaction	HRO:0000019
-PHI:I947	PHI:985	Hypersensitive reaction	HRO:0000019
-PHI:I951	PHI:989	Hypersensitive reaction	HRO:0000019
-PHI:I952	PHI:989	Hypersensitive reaction	HRO:0000019
-PHI:I953	PHI:990	Hypersensitive reaction	HRO:0000019
-PHI:I954	PHI:991	Hypersensitive reaction	HRO:0000019
-PHI:I958	PHI:993	Hypersensitive reaction	HRO:0000019
-PHI:I959	PHI:994	Hypersensitive reaction	HRO:0000019
-PHI:I960	PHI:994	Hypersensitive reaction	HRO:0000019
-PHI:I967	PHI:999	Hypersensitive reaction	HRO:0000019
-PHI:I968	PHI:999	Hypersensitive reaction	HRO:0000019
-PHI:I969	PHI:1000	Hypersensitive reaction	HRO:0000019
-PHI:I1209	PHI:2002	Strong defense response	HRO:0000018
-PHI:I1210	PHI:2002	Enhance callose deposition	HRO:0000008
-PHI:I1212	PHI:2002	Strong defense response	HRO:0000018
-PHI:I1273	PHI:2042	failed to elicit proper hypersensitive reaction	HRO:0000005
-PHI:I1274	PHI:2042	failed to elicit proper hypersensitive reaction	HRO:0000005
-PHI:I1275	PHI:2042	failed to elicit proper hypersensitive reaction	HRO:0000005
-PHI:I1312	PHI:2061	slight induction of hypersensitive reaction	HRO:0000019
-PHI:I1313	PHI:2063	fewer and smaller lesions	HRO:0000036
-PHI:I1314	PHI:2063	fewer and smaller lesions	HRO:0000036
-PHI:I1323	PHI:2068	Callose deposition	HRO:0000002
-PHI:I1324	PHI:2068	Callose deposition	HRO:0000002
-PHI:I1432	PHI:2135	hypersensitive response-like cell death	HRO:0000019
-PHI:I1432	PHI:2135	hypersensitive response-like cell death	HRO:0000011
-PHI:I1435	PHI:2136	hypersensitive response-like cell death	HRO:0000019
-PHI:I1435	PHI:2136	hypersensitive response-like cell death	HRO:0000011
-PHI:I1439	PHI:2137	hypersensitive response-like cell death	HRO:0000019
-PHI:I1439	PHI:2137	hypersensitive response-like cell death	HRO:0000011
-PHI:I1473	PHI:2156	Production of Phenolic compounds; Oxidative burst	HRO:0000028
-PHI:I1555	PHI:2216	PemG1 induces transient expression of Pathogen Related genes in rice and increases resistance to other bacterial infections	HRO:0000022
-PHI:I1555	PHI:2216	PemG1 induces transient expression of Pathogen Related genes in rice and increases resistance to other bacterial infections	HRO:0000039
-PHI:I1556	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO:0000025
-PHI:I1556	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO0000031
-PHI:I1556	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO0000023
-PHI:I1559	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO:0000025
-PHI:I1559	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO0000031
-PHI:I1559	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO0000023
-PHI:I1579	PHI:2226	oxidative burst	HRO:0000025
-PHI:I1580	PHI:2226	oxidative burst	HRO:0000025
-PHI:I1581	PHI:2226	oxidative burst	HRO:0000025
-PHI:I1582	PHI:2226	oxidative burst	HRO:0000025
-PHI:I1601	PHI:2234	strong host response elicited by SG200Dcmu1-cmu1R183A,K194A mutant	HRO:0000018
-PHI:I1603	PHI:2235	elevated host response	HRO:0000018
-PHI:I1604	PHI:2236	elevated host response	HRO:0000018
-PHI:I1659	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
-PHI:I1659	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
-PHI:I1660	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
-PHI:I1660	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
-PHI:I1661	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
-PHI:I1661	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
-PHI:I1662	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
-PHI:I1662	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
-PHI:I1663	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
-PHI:I1663	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
-PHI:I1664	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
-PHI:I1664	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
-PHI:I1702	PHI:2315	Less chlorosis	HRO:0000012
-PHI:I1703	PHI:2316	Less chlorosis	HRO:0000012
-PHI:I1704	PHI:2315	Less chlorosis	HRO:0000012
-PHI:I1705	PHI:2316	Less chlorosis	HRO:0000012
-PHI:I1706	PHI:2315	More chlorosis	HRO:0000014
-PHI:I1707	PHI:2316	More chlorosis	HRO:0000014
-PHI:I1708	PHI:2315	More chlorosis	HRO:0000014
-PHI:I1709	PHI:2316	More chlorosis	HRO:0000014
-PHI:I1717	PHI:2331	Hypersensitive response	HRO:0000019
-PHI:I1718	PHI:2331	Hypersensitive response	HRO:0000019
-PHI:I1719	PHI:2331	Hypersensitive response	HRO:0000019
-PHI:I1754	PHI:2356	more ROS production, stronger defense response	HRO:0000025
-PHI:I1754	PHI:2356	more ROS production, stronger defense response	HRO:0000018
-PHI:I1841	PHI:2401	Compromised hypersensitive cell death and Weakened defense response	HRO:0000009
-PHI:I1841	PHI:2401	Compromised hypersensitive cell death and Weakened defense response	HRO:0000016
-PHI:I1842	PHI:2401	compromised hypersensitive cell death and weakened defense response	HRO:0000009
-PHI:I1842	PHI:2401	compromised hypersensitive cell death and weakened defense response	HRO:0000016
-PHI:I1843	PHI:2401	Enhanced defense response and cell death	HRO:0000018
-PHI:I1843	PHI:2401	Enhanced defense response and cell death	HRO:0000011
-PHI:I1844	PHI:2401	Enhanced defense response and cell death	HRO:0000018
-PHI:I1844	PHI:2401	Enhanced defense response and cell death	HRO:0000011
-PHI:I1898	PHI:2439	Hypersensitve response	HRO:0000019
-PHI:I1899	PHI:2440	Hypersensitve response	HRO:0000019
-PHI:I1900	PHI:2439	Hypersensitve response	HRO:0000019
-PHI:I1901	PHI:2440	Hypersensitve response	HRO:0000019
-PHI:I1906	PHI:2446	Induced a rice basal defence response	HRO:0000018
-PHI:I2467	PHI:2727	Cell death	HRO:0000003
-PHI:I2468	PHI:2727	Cell death	HRO:0000003
-PHI:I2494	PHI:2749	Increased inflammatory response	HRO:0000021
-PHI:I2495	PHI:2749	Increased inflammatory response	HRO:0000021
+PHI:I529	PHI:526	Indications that gas1 mutants provoke a plant response	HRO:0000018
+PHI:I678	PHI:656	Necrosis	HRO:0000011
+PHI:I679	PHI:656	Necrosis	HRO:0000011
+PHI:I680	PHI:656	Necrosis	HRO:0000011
+PHI:I681	PHI:657	Necrosis	HRO:0000011
+PHI:I682	PHI:657	Necrosis	HRO:0000011
+PHI:I683	PHI:657	Necrosis	HRO:0000011
+PHI:I684	PHI:658	Necrosis	HRO:0000011
+PHI:I685	PHI:659	Necrosis	HRO:0000011
+PHI:I690	PHI:664	Necrosis	HRO:0000011
+PHI:I691	PHI:664	Necrosis	HRO:0000011
+PHI:I692	PHI:664	Necrosis	HRO:0000011
+PHI:I693	PHI:665	Necrosis	HRO:0000011
+PHI:I694	PHI:665	Necrosis	HRO:0000011
+PHI:I695	PHI:666	Necrosis	HRO:0000011
+PHI:I696	PHI:666	Necrosis	HRO:0000011
+PHI:I697	PHI:666	Necrosis	HRO:0000011
+PHI:I937	PHI:963	Hypersensitive reaction	HRO:0000019
+PHI:I938	PHI:964	Hypersensitive reaction	HRO:0000019
+PHI:I939	PHI:965	Hypersensitive reaction	HRO:0000019
+PHI:I940	PHI:966	Hypersensitive reaction	HRO:0000019
+PHI:I941	PHI:967	Hypersensitive reaction	HRO:0000019
+PHI:I943	PHI:969	Hypersensitive reaction	HRO:0000019
+PHI:I944	PHI:970	Hypersensitive reaction	HRO:0000019
+PHI:I947	PHI:973	Hypersensitive reaction	HRO:0000019
+PHI:I948	PHI:973	Hypersensitive reaction	HRO:0000019
+PHI:I949	PHI:974	Hypersensitive reaction	HRO:0000019
+PHI:I950	PHI:975	Hypersensitive reaction	HRO:0000019
+PHI:I951	PHI:976	Hypersensitive reaction	HRO:0000019
+PHI:I952	PHI:977	Hypersensitive reaction	HRO:0000019
+PHI:I953	PHI:978	Hypersensitive reaction	HRO:0000019
+PHI:I957	PHI:980	Hypersensitive reaction	HRO:0000019
+PHI:I965	PHI:985	Hypersensitive reaction	HRO:0000019
+PHI:I969	PHI:989	Hypersensitive reaction	HRO:0000019
+PHI:I970	PHI:989	Hypersensitive reaction	HRO:0000019
+PHI:I971	PHI:990	Hypersensitive reaction	HRO:0000019
+PHI:I972	PHI:991	Hypersensitive reaction	HRO:0000019
+PHI:I976	PHI:993	Hypersensitive reaction	HRO:0000019
+PHI:I977	PHI:994	Hypersensitive reaction	HRO:0000019
+PHI:I978	PHI:994	Hypersensitive reaction	HRO:0000019
+PHI:I981	PHI:996	Hypersensitive reaction	HRO:0000019
+PHI:I982	PHI:996	Hypersensitive reaction	HRO:0000019
+PHI:I987	PHI:999	Hypersensitive reaction	HRO:0000019
+PHI:I988	PHI:999	Hypersensitive reaction	HRO:0000019
+PHI:I989	PHI:1000	Hypersensitive reaction	HRO:0000019
+PHI:I1978	PHI:2002	Strong defense response	HRO:0000018
+PHI:I1979	PHI:2002	Enhance callose deposition	HRO:0000008
+PHI:I1981	PHI:2002	Strong defense response	HRO:0000018
+PHI:I2042	PHI:2042	failed to elicit proper hypersensitive reaction	HRO:0000005
+PHI:I2043	PHI:2042	failed to elicit proper hypersensitive reaction	HRO:0000005
+PHI:I2044	PHI:2042	failed to elicit proper hypersensitive reaction	HRO:0000005
+PHI:I2083	PHI:2061	slight induction of hypersensitive reaction	HRO:0000019
+PHI:I2084	PHI:2063	fewer and smaller lesions	HRO:0000036
+PHI:I2085	PHI:2063	fewer and smaller lesions	HRO:0000036
+PHI:I2094	PHI:2068	Callose deposition	HRO:0000002
+PHI:I2095	PHI:2068	Callose deposition	HRO:0000002
+PHI:I2203	PHI:2135	hypersensitive response-like cell death	HRO:0000019
+PHI:I2203	PHI:2135	hypersensitive response-like cell death	HRO:0000011
+PHI:I2206	PHI:2136	hypersensitive response-like cell death	HRO:0000019
+PHI:I2206	PHI:2136	hypersensitive response-like cell death	HRO:0000011
+PHI:I2210	PHI:2137	hypersensitive response-like cell death	HRO:0000019
+PHI:I2210	PHI:2137	hypersensitive response-like cell death	HRO:0000011
+PHI:I2245	PHI:2156	Production of Phenolic compounds; Oxidative burst	HRO:0000028
+PHI:I2327	PHI:2216	PemG1 induces transient expression of Pathogen Related genes in rice and increases resistance to other bacterial infections	HRO:0000022
+PHI:I2327	PHI:2216	PemG1 induces transient expression of Pathogen Related genes in rice and increases resistance to other bacterial infections	HRO:0000039
+PHI:I2328	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO:0000025
+PHI:I2328	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO0000031
+PHI:I2328	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO0000023
+PHI:I2331	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO:0000025
+PHI:I2331	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO0000031
+PHI:I2331	PHI:2217	accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO0000023
+PHI:I2351	PHI:2226	oxidative burst	HRO:0000025
+PHI:I2352	PHI:2226	oxidative burst	HRO:0000025
+PHI:I2353	PHI:2226	oxidative burst	HRO:0000025
+PHI:I2354	PHI:2226	oxidative burst	HRO:0000025
+PHI:I2373	PHI:2234	strong host response elicited by SG200Dcmu1-cmu1R183A,K194A mutant	HRO:0000018
+PHI:I2375	PHI:2235	elevated host response	HRO:0000018
+PHI:I2376	PHI:2236	elevated host response	HRO:0000018
+PHI:I2432	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
+PHI:I2432	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
+PHI:I2433	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
+PHI:I2433	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
+PHI:I2434	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
+PHI:I2434	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
+PHI:I2435	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
+PHI:I2435	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
+PHI:I2436	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
+PHI:I2436	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
+PHI:I2437	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000019
+PHI:I2437	PHI:2291	Hypersensitive response and increased necrosis	HRO:0000011
+PHI:I2476	PHI:2315	Less chlorosis	HRO:0000012
+PHI:I2477	PHI:2316	Less chlorosis	HRO:0000012
+PHI:I2478	PHI:2315	Less chlorosis	HRO:0000012
+PHI:I2479	PHI:2316	Less chlorosis	HRO:0000012
+PHI:I2480	PHI:2315	More chlorosis	HRO:0000014
+PHI:I2481	PHI:2316	More chlorosis	HRO:0000014
+PHI:I2482	PHI:2315	More chlorosis	HRO:0000014
+PHI:I2483	PHI:2316	More chlorosis	HRO:0000014
+PHI:I2494	PHI:2331	Hypersensitive response	HRO:0000019
+PHI:I2495	PHI:2331	Hypersensitive response	HRO:0000019
+PHI:I2496	PHI:2331	Hypersensitive response	HRO:0000019
+PHI:I2535	PHI:2356	more ROS production, stronger defense response	HRO:0000025
+PHI:I2535	PHI:2356	more ROS production, stronger defense response	HRO:0000018
+PHI:I2623	PHI:2401	Compromised hypersensitive cell death and Weakened defense response	HRO:0000009
+PHI:I2623	PHI:2401	Compromised hypersensitive cell death and Weakened defense response	HRO:0000016
+PHI:I2624	PHI:2401	compromised hypersensitive cell death and weakened defense response	HRO:0000009
+PHI:I2624	PHI:2401	compromised hypersensitive cell death and weakened defense response	HRO:0000016
+PHI:I2625	PHI:2401	Enhanced defense response and cell death	HRO:0000018
+PHI:I2625	PHI:2401	Enhanced defense response and cell death	HRO:0000011
+PHI:I2626	PHI:2401	Enhanced defense response and cell death	HRO:0000018
+PHI:I2626	PHI:2401	Enhanced defense response and cell death	HRO:0000011
+PHI:I2683	PHI:2439	Hypersensitve response	HRO:0000019
+PHI:I2684	PHI:2440	Hypersensitve response	HRO:0000019
+PHI:I2685	PHI:2439	Hypersensitve response	HRO:0000019
+PHI:I2686	PHI:2440	Hypersensitve response	HRO:0000019
+PHI:I2691	PHI:2446	Induced a rice basal defence response	HRO:0000018
+PHI:I3261	PHI:2727	Cell death	HRO:0000003
+PHI:I3262	PHI:2727	Cell death	HRO:0000003
+PHI:I3289	PHI:2749	Increased inflammatory response	HRO:0000021
+PHI:I3290	PHI:2749	Increased inflammatory response	HRO:0000021
+PHI:I3809	PHI:3127	necrosis	HRO:0000011
+PHI:I3861	PHI:3167	necrosis	HRO:0000011

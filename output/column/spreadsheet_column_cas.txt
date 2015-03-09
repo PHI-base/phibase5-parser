@@ -475,7 +475,7 @@
 
 
 
-gene deletion; complementation
+
 
 
 
@@ -2633,6 +2633,7 @@ Sorbitol:  50-70-4; Sodium chloride: 7681-52-9; Sodium Lauryl Sulfate: 151-21-3;
 Sorbitol:  50-70-4; Sodium chloride: 7681-52-9; Sodium Lauryl Sulfate: 151-21-3; Calcoﬂuor white: 91-44-1
 no data found
 7-Diethylamino-4-methylcoumarin: 91-44-1; Congo red: 573-58-0; Sorbitol:  50-70-4; Sodium chloride: 7681-52-9
+Sorbitol: 50-70-4; 7-Diethylamino-4-methylcoumarin: 91-44-1; Chlorpromazine: 50-53-3; Brefeldin A: 20350-15-6; Caffeine: 58-08-2
 no data found
 7-Diethylamino-4-methylcoumarin: 91-44-1; Congo red: 573-58-0
 7-Diethylamino-4-methylcoumarin: 91-44-1; Congo red: 573-58-0
@@ -3183,10 +3184,10 @@ no data found
 no data found
 no data found
 no data found
-
 Lithium chloride: 7447-41-8; Sodium chloride:  7647-14-5; Sodium Lauryl Sulfate: 151-21-3; Hydrogen peroxide: 7722-84-1; Congo red: 573-58-0
 Lithium chloride: 7447-41-8; Sodium chloride:  7647-14-5; Sodium Lauryl Sulfate: 151-21-3; Hydrogen peroxide: 7722-84-1; Congo red: 573-58-0
-
+Lithium chloride: 7447-41-8; Sodium chloride:  7647-14-5; Sodium Lauryl Sulfate: 151-21-3; Hydrogen peroxide: 7722-84-1; Congo red: 573-58-0
+Lithium chloride: 7447-41-8; Sodium chloride:  7647-14-5; Sodium Lauryl Sulfate: 151-21-3; Hydrogen peroxide: 7722-84-1; Congo red: 573-58-0
 tert-Butyl hydroperoxide: 75-91-2; Hydrogen peroxide: 7722-84-1; Cumene hydroperoxide: 80-15-9; Glucose: 50-99-7; Sucrose: 57-50-1; Sorbitol: 50-70-4; Mannitol: 69-65-8; Sodium Lauryl Sulfate: 151-21-3
 no data found
 no data found
@@ -3279,6 +3280,10 @@ no data found
 7722-84-1
 7722-84-1
 7722-84-1
+no data found
+no data found
+no data found
+no data found
 no data found
 no data found
 no data found
@@ -3680,6 +3685,7 @@ no data found
 no data found
 no data found
 no data found
+no data found
 Trehalose: 99-20-7 ; Ammonium nitrate: 6484-52-2
 Trehalose: 99-20-7 ; Ammonium nitrate: 6484-52-2
 no data found
@@ -3765,6 +3771,8 @@ no data found
 CHEBI:30911
 no data found
 caffeine: CHEBI:27732 ; calcofluor white: CHEBI:50011; congo red: CHEBI:34653
+no data found
+no data found
 no data found
 no data found
 no data found
@@ -4152,6 +4160,602 @@ no data found
 no data found
 no data found
 no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; caspofungin: CHEBI:474180; voriconazole: CHEBI:10023;  amphotericin  B: CHEBI:2682; nikkomycinZ: CHEBI:623918
+no data found
+ H2O2: CHEBI:16240
+ H2O2: CHEBI:16240
+ H2O2: CHEBI:16240
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2: 7722-84-1; Menadione: CHEBI:28869; Congo red: CHEBI:34653; Carbendazim: CHEBI:3392; NaCl: CHEBI:26710; EDTA:CHEBI:64758; Cu2+: CHEBI:29036 ; Mn2+:CHEBI:29035; Zn2+: CHEBI:29105; Fe3+: CHEBI:29034
+H2O2: 7722-84-1; Menadione: CHEBI:28869; Congo red: CHEBI:34653; Carbendazim: CHEBI:3392; NaCl: CHEBI:26710; EDTA:CHEBI:64758; Cu2+: CHEBI:29036 ; Mn2+:CHEBI:29035; Zn2+: CHEBI:29105; Fe3+: CHEBI:29034
+fuchsin: CHEBI:75372; thionin: CHEBI:52295; polymyxin B: CHEBI:8309
+H2O2: 7722-84-1
+H2O2: 7722-84-1; Sorbitol: CHEBI:30911; NaCl: CHEBI:26710
+H2O2: 7722-84-1; NaCl: CHEBI:26710; Ethanol: CHEBI:16236 
+H2O2: 7722-84-1; NaCl: CHEBI:26710; Ethanol: CHEBI:16236 
+NaCl: CHEBI:26710
+Calcoﬂuor white (CFW):  CHEBI:50011; Congo red (CR): CHEBI:34653; H2O2: 7722-84-1; TBZ: CHEBI:45979; SDS: CHEBI:8984 
+H2O2: 7722-84-1; NaCl: CHEBI:26710
+H2O2: 7722-84-1; NaCl: CHEBI:26710
+H2O2: 7722-84-1; mitomycin C: CHEBI:27504
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+S-nitrosoglutathione (GSNO): CHEBI:50091
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2: CHEBI:16240; Congo Red: CHEBI:34653; SDS: CHEBI:8984; NaCl: CHEBI:26710
+H2O2: CHEBI:16240; Congo Red: CHEBI:34653; SDS: CHEBI:8984; NaCl: CHEBI:26710
+H2O2: CHEBI:16240; Congo Red: CHEBI:34653; SDS: CHEBI:8984; NaCl: CHEBI:26710
+no data found
+no data found
+no data found
+no data found
+H2O2: CHEBI:16240
+SDS: CHEBI:8984; Colistin: CHEBI:37943; polymyxin B: CHEBI:8309
+KCl:CHEBI:32588; D-sorbitol:CHEBI:17924; SDS: CHEBI:8984; fludioxonil:CAS No. 131341-86-1; iprodione:  CHEBI:28909; benomyl:  CHEBI:3015; H2O2: CHEBI:16240C; Congo Red: CHEBI:34653; NaCl: CHEBI:26710
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2: CHEBI:16240; D-sorbitol:CHEBI:17924; NaCl: CHEBI:26710; NaNo2: CHEBI:78870; CoCl2: CHEBI:35696; CuSO4: CHEBI:23414
+H2O2: CHEBI:16240; D-sorbitol:CHEBI:17924; NaCl: CHEBI:26710; NaNo2: CHEBI:78870; CoCl2: CHEBI:35696; CuSO4: CHEBI:23414
+H2O2: CHEBI:16240; D-sorbitol:CHEBI:17924; NaCl: CHEBI:26710; NaNo2: CHEBI:78870; CoCl2: CHEBI:35696; CuSO4: CHEBI:23414
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+glucose: CHEBI:17234 
+glucose: CHEBI:17234 
+glucose: CHEBI:17234 
+glucose: CHEBI:17234 
+no data found
+glucose: CHEBI:17234 
+glucose: CHEBI:17234 
+congo red: CHEBI:34653; calcoﬂuor white: CHEBI:50011; H2O2: CHEBI:16240; NaCl: CHEBI:26710; sodium dodecyl sulphate (SDS): CHEBI:8984
+no data found
+calcoﬂuor white: CHEBI:50011; Sorbitol: CHEBI:30911
+calcoﬂuor white: CHEBI:50011; Sorbitol: CHEBI:30911
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+paraquat:CHEBI:34905; CaCl2:CHEBI:3312; calcineurin: CAS:90371-51-0; cyclosporine:CHEBI:4031; EGTA:CHEBI:30740; voriconazole:CHEBI:10023; ketoconazole:CHEBI:48336; itraconazole:CHEBI:6076; caspofungin:CHEBI:474180
+paraquat:CHEBI:34905; CaCl2:CHEBI:3312; calcineurin: CAS:90371-51-0; cyclosporine:CHEBI:4031; EGTA:CHEBI:30740; voriconazole:CHEBI:10023; ketoconazole:CHEBI:48336; itraconazole:CHEBI:6076; caspofungin:CHEBI:474180
+paraquat:CHEBI:34905; CaCl2:CHEBI:3312; calcineurin: CAS:90371-51-0; cyclosporine:CHEBI:4031; EGTA:CHEBI:30740; voriconazole:CHEBI:10023; ketoconazole:CHEBI:48336; itraconazole:CHEBI:6076; caspofungin:CHEBI:474180
+paraquat:CHEBI:34905; CaCl2:CHEBI:3312; calcineurin: CAS:90371-51-0; cyclosporine:CHEBI:4031; EGTA:CHEBI:30740; voriconazole:CHEBI:10023; ketoconazole:CHEBI:48336; itraconazole:CHEBI:6076; caspofungin:CHEBI:474180
+paraquat:CHEBI:34905; CaCl2:CHEBI:3312; calcineurin: CAS:90371-51-0; cyclosporine:CHEBI:4031; EGTA:CHEBI:30740; voriconazole:CHEBI:10023; ketoconazole:CHEBI:48336; itraconazole:CHEBI:6076; caspofungin:CHEBI:474180
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+caspofungin: CHEBI:474180
+caspofungin: CHEBI:474180
+no data found
+no data found
+H2O2:CHEBI:16240; bathocuproine disulfonic acid: CHEBI:63934 
+H2O2:CHEBI:16240; bathocuproine disulfonic acid: CHEBI:63934 
+H2O2:CHEBI:16240; bathocuproine disulfonic acid: CHEBI:63934 
+H2O2:CHEBI:16240; bathocuproine disulfonic acid: CHEBI:63934 
+H2O2:CHEBI:16240
+H2O2:CHEBI:16240
+H2O2:CHEBI:16240
+no data found
+H2O2:CHEBI:16240; tert-butyl hydroperoxide:CHEBI:64090; paraquat:CHEBI:34905 
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+isoleucine: CHEBI:24898
+itraconazole: CHEBI:6076; amphotericin B: CHEBI:2682 
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240; Menadione: CHEBI:28869; NaCl: CHEBI:26710; Sorbitol: CHEBI:30911; congo red: CHEBI:34653; sodium dodecyl sulfate (SDS):CHEBI:8984
+H2O2:CHEBI:16240; Menadione: CHEBI:28869; NaCl: CHEBI:26710; Sorbitol: CHEBI:30911; congo red: CHEBI:34653; sodium dodecyl sulfate (SDS):CHEBI:8984
+H2O2:CHEBI:16240; Menadione: CHEBI:28869; NaCl: CHEBI:26710; Sorbitol: CHEBI:30911; congo red: CHEBI:34653; sodium dodecyl sulfate (SDS):CHEBI:8984
+H2O2:CHEBI:16240; Menadione: CHEBI:28869; NaCl: CHEBI:26710; Sorbitol: CHEBI:30911; congo red: CHEBI:34653; sodium dodecyl sulfate (SDS):CHEBI:8984
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Triton X–100:CHEBI:9750; H2O2:CHEBI:16240; Ampicillin:CHEBI:28971; Streptomycin sulfate:CHEBI:32158; Gentamicin:CHEBI:17833; Spectinomycin sulfate: CAS:23312-56-3; Chloramphenicol: CHEBI:17698; Polymyxin B: CHEBI:8309; Nalidixic acid: CHEBI:100147
+Ampicillin: CHEBI:28971; ticarcillin:CHEBI:9587; carbenicillin: CHEBI:3393; cefuroxime: CHEBI:3515
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240; Menadione: CHEBI:28869; NaCl: CHEBI:26710; sodium dodecyl sulfate (SDS):CHEBI:8984; hydroxyurea: CHEBI:44423 
+H2O2:CHEBI:16240; Menadione: CHEBI:28869; NaCl: CHEBI:26710; sodium dodecyl sulfate (SDS):CHEBI:8984; hydroxyurea: CHEBI:44423 
+no data found
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240; NaCl: CHEBI:26710; sodium dodecyl sulfate (SDS):CHEBI:8984
+H2O2:CHEBI:16240; NaCl: CHEBI:26710; sodium dodecyl sulfate (SDS):CHEBI:8984
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240
+H2O2:CHEBI:16240
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240
+no data found
+CaCl2:CHEBI:3312 ; NaCl:CHEBI:26710; MnCl2:CHEBI:63041; paraquat:CHEBI:34905; menadione:CHEBI:28869; itraconazole:  CHEBI:6076; caspofungin:CHEBI:474180
+no data found
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240; KCl:CHEBI:32588
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+ONOO−:CHEBI:29330; H2O2:CHEBI:16240
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+voriconazole: CHEBI:10023
+voriconazole: CHEBI:10023
+voriconazole: CHEBI:10023
+voriconazole: CHEBI:10023
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fluconazole:CHEBI:46081 ; miconazole:CHEBI:6923; amphotericin B:CHEBI:2682 
+fluconazole:CHEBI:46081 ; miconazole:CHEBI:6923; amphotericin B:CHEBI:2682 
+fluconazole:CHEBI:46081 ; miconazole:CHEBI:6923; amphotericin B:CHEBI:2682 
+H2O2: CHEBI:16240; D-sorbitol:CHEBI:17924; NaCl: CHEBI:26710; Menadione: CHEBI:28869
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2:CHEBI:16240; Menadione: CHEBI:28869; NaCl: CHEBI:26710
+H2O2:CHEBI:16240; Menadione: CHEBI:28869; NaCl: CHEBI:26710
+H2O2:CHEBI:16240; nisin:CHEBI:71629; bacitracin:CHEBI:28669; polymyxin:CHEBI:59062
+H2O2:CHEBI:16240; nisin:CHEBI:71629; bacitracin:CHEBI:28669; polymyxin:CHEBI:59062
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+hygromycin B:CHEBI:16976 ; vanadate:CHEBI:46442; calcofluor white:CHEBI:50011; Congo  red: CHEBI:34653; NaCl: CHEBI:26710; sorbitol:CHEBI:17924
 no data found
 no data found
 no data found

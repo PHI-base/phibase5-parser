@@ -3184,30 +3184,6 @@ no data found
 no data found
 no data found
 no data found
-Lithium chloride: 7447-41-8; Sodium chloride:  7647-14-5; Sodium Lauryl Sulfate: 151-21-3; Hydrogen peroxide: 7722-84-1; Congo red: 573-58-0
-wild type
-wild type
-Lithium chloride: 7447-41-8; Sodium chloride:  7647-14-5; Sodium Lauryl Sulfate: 151-21-3; Hydrogen peroxide: 7722-84-1; Congo red: 573-58-0
-reduced
-no data found
-wild type
-wild type
-wild type
-aberrant
-wild type
-no data found
-no data found
-no data found
-no data found
-no data found
-wild type
-no data found
-reduced
-reduced
-no data found
-no data found
-no data found
-no data found
 wild type
 wild type
 wild type
@@ -3223,6 +3199,30 @@ no data found
 no data found
 no data found
 no data found
+no data found
+wild type
+no data found
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+wild type
+wild type
+wild type
+wild type
+reduced
+no data found
+wild type
+wild type
+wild type
+aberrant
+wild type
+no data found
+no data found
+no data found
+no data found
 wild type
 no data found
 no data found
@@ -3280,6 +3280,10 @@ wild type
 wild type
 wild type
 wild type
+reduced
+reduced
+reduced
+reduced
 reduced
 no data found
 no data found
@@ -3670,6 +3674,7 @@ reduced
 reduced; aberrant
 reduced; aberrant
 wild type; aberrant
+no data found
 no data found
 no data found
 no data found
@@ -3793,6 +3798,8 @@ aberrant
 no data found
 no data found
 no data found
+no data found
+no data found
 wild type
 no data found
 no data found
@@ -4155,6 +4162,602 @@ wild type
 wild type
 reduced
 reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+aberrant
+reduced; aberrant
+reduced; aberrant
+reduced; aberrant
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+no data found
+no data found
+reduced
+reduced
+wild type
+reduced
+reduced
+reduced; aberrant
+reduced; aberrant
+reduced; aberrant
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+no data found
+reduced
+no data found
+reduced
+reduced
+reduced
+reduced
+wild type
+reduced
+no data found
+no data found
+reduced
+wild type
+reduced
+reduced
+reduced
+reduced
+wild type
+reduced
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+reduced
+reduced
+aberrant
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+no data found
+no data found
+wild type
+reduced; aberrant
+wild type
+reduced; aberrant
+reduced; aberrant
+wild type
+wild type
+wild type
+wild type
+no data found
+wild type
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+wild type
+wild type
+no data found
+no data found
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+increased
+no data found
+no data found
+reduced
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+wild type
+no data found
+reduced
+no data found
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+reduced
+reduced
+no data found
+no data found
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type; aberrant
+wild type; aberrant
+wild type; aberrant
+reduced
+increased; aberrant
+reduced
+reduced; aberrant
+reduced
+reduced
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+reduced
+wild type
+reduced
+reduced
+reduced
+reduced
+no data found
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+reduced
+reduced
+wild type
+no data found
+no data found
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+aberrant
+aberrant
+wild type
+wild type
+wild type
+wild type
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+wild type
+reduced
+reduced; aberrant
+reduced
+reduced
+wild type
+wild type
+reduced
+reduced
+reduced
+wild type
+wild type
+wild type
+wild type
+reduced
+wild type
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+reduced; aberrant
+reduced; aberrant
+reduced; aberrant
+reduced; aberrant
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+aberrant
+no data found
+no data found
+aberrant
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+reduced
+reduced
+reduced
+reduced
+wild type
+reduced
+wild type
+reduced
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+no data found
+no data found
+no data found
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+no data found
+reduced
+no data found
+reduced
+no data found
+no data found
+wild type
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+wild type
+wild type
+wild type
+reduced
+wild type
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+wild type
+wild type
+wild type
+wild type
+reduced
+reduced
+reduced
+reduced; aberrant
+no data found
+no data found
+no data found
+reduced
+reduced
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+reduced
+aberrant
+aberrant
+aberrant
+no data found
+no data found
+wild type
+reduced
+no data found
+no data found
+no data found
+reduced
+reduced
+reduced
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+no data found
+reduced
+reduced
+reduced
+wild type
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+reduced
+wild type
+wild type
+reduced
+no data found
+no data found
+no data found
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+no data found
+no data found
+no data found
+no data found
+wild type
+wild type
+no data found
+no data found
+no data found
+reduced
+no data found
+reduced
+wild type
+no data found
+no data found
+no data found
+no data found
 no data found
 no data found
 no data found

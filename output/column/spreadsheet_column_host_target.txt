@@ -2764,6 +2764,7 @@ no data found
 no data found
 no data found
 no data found
+no data found
 
 
 
@@ -3183,10 +3184,10 @@ no data found
 no data found
 no data found
 Cytosolic
-no data found
 Plasma and endosomal membranes
 Plasma and endosomal membranes
-no data found
+Plasma and endosomal membranes
+Plasma and endosomal membranes
 Nucleus
 no data found
 no data found
@@ -3279,6 +3280,10 @@ no data found
 Nuclei
 Nuclei
 Nuclei
+no data found
+no data found
+no data found
+no data found
 no data found
 no data found
 no data found
@@ -3779,11 +3784,14 @@ no data found
 no data found
 no data found
 no data found
+no data found
 nucleus
 nucleus
 no data found
 no data found
 ER; Plasma membrane
+no data found
+no data found
 no data found
 no data found
 no data found
@@ -4152,6 +4160,602 @@ no data found
 no data found
 no data found
 no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cytoplasmic; periplasmic fraction
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Cytoplasm
+no data found
+Cell Periplasm
+Cell Periplasm
+no data found
+no data found
+no data found
+no data found
+no data found
+
+
+
+
+
+
+
+
+
+
+
+
+GmNDR1a; GmNDR1b
+GmNDR1a; GmNDR1b
+ GmNDR1a;  GmNDR1b
+GmNDR1a 
+GmNDR1b
+GmNDR1a 
+GmNDR1b
+GmNDR1a; GmNDR1b
+GmNDR1a; GmNDR1b
+GmRINa
+GmRINa
+GmRINb
+GmRINb
+GmRINc
+GmRINc
+GmRINd
+GmRINd
+GmRINa
+GmRINa
+GmRINb
+GmRINb
+GmRINc
+GmRINc
+GmRINd
+GmRINd
+GmNDR1a; GmNDR1b
+GmNDR1a; GmNDR1b
+no data found
+cytosol
+endoplasmic reticulum
+cytosol
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+nucleus
+nucleus
+no data found
+nucleus
+nucleus
+no data found
+nucleus
+no data found
+nucleus
+nucleus
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+nucleus
+nucleus
+nucleus
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+nucleus
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Center of septal pores
+Center of septal pores
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+nucleus
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+flagellar  regulon
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cell periphery; vacuoles
+cell periphery; vacuoles
+plasma membrane
+plasma membrane
+plasma membrane
+plasma membrane
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Cytoplasm
+Cytoplasm
+Mitochondria
+Cytoplasm
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+periplasm
+periplasm
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Cytoplasm; vacuoles
+Plasma membrane
+nucleus
+no data found
+no data found
+Epithelium
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Cell wall
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+nucleus
+no data found
+nucleus
+no data found
+no data found
+no data found
+no data found
+no data found
+golgi apparatus
+vacuole
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Mitochondria
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+golgi apparatus
 no data found
 no data found
 no data found

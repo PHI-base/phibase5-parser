@@ -475,7 +475,7 @@
 Norm
 
 
-GO:0009405, IMP; GO:0044412
+
 
 
 
@@ -3184,10 +3184,10 @@ no data found
 no data found
 no data found
 C3H
-leaves
 cacahuazintle
 cacahuazintle
-leaves
+cacahuazintle
+cacahuazintle
 no data found
 Golden Bantam
 no data found
@@ -3282,13 +3282,9 @@ Col-0
 Thompson Seedless
 BALB/c
 CD-1
-na
 CD-1
-na
 no data found
-na
 no data found
-na
 BALB/c
 no data found
 no data found
@@ -3682,7 +3678,7 @@ Indica
 Indica
 Indica
 Indica
-no data found
+C57BL/6
 BALB/c
 BALB/c
 no data found
@@ -3803,9 +3799,7 @@ ICR
 Sasanishiki BL6
 Sasanishiki BL6
 Nijisseiki
-na
 Nijisseiki
-na
 A/Jcr
 W64A
 W64A
@@ -4173,3 +4167,599 @@ CD-1
 CD-1
 no data found
 129S6/SvEvTac
+CD1
+CD1
+CD1
+CD1
+CD1
+CD1
+CD1
+CD1
+CD1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+C57BL/6 
+no data found
+no data found
+no data found
+no data found
+no data found
+N2
+no data found
+BALB/c
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Jinchang 1316
+Jinchang 1316
+Jinchang 1316
+Jinchang 1316
+Jinchang 1316
+Jinchang 1316
+Jinchang 1316
+Jinchang 1316
+no data found
+C57BL/6 
+no data found
+no data found
+BALB/c
+Williams
+IR24
+no data found
+no data found
+no data found
+Navelina
+no data found
+CD1
+BALB/c
+Harosoy Rpg1-b
+Merit Rpg1-b
+Norchief  Rpg1-b
+Harosoy Rpg1-b
+Merit Rpg1-b
+Norchief  Rpg1-b
+Flambeau  Rpg3 Rpg4
+Flambeau  Rpg3 Rpg4
+Flambeau  Rpg3 Rpg4
+Flambeau  Rpg3 Rpg4
+Merit rpg4
+Merit rpg3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Norchief  Rpg1-b
+Harosoy Rpg1-b
+no data found
+N90598
+N90598
+N90598
+N90598
+N90598
+N90598
+N90598
+no data found
+Sprague-Dawley
+no data found
+Norm
+Norm
+Norm
+Norm
+Norm
+Pioneer 2375
+Pioneer 2375
+Pioneer 2375
+Pioneer 2375
+Pioneer 2375
+no data found
+Jubilee
+Jubilee
+no data found
+no data found
+no data found
+no data found
+no data found
+C57/BL6
+BALB/c
+no data found
+no data found
+CD1
+Kanto 51
+Kanto 51
+BALB/c
+Cherry Valley   
+no data found
+no data found
+XiaoYan 22
+XiaoYan 22
+XiaoYan 22
+XiaoYan 22
+XiaoYan 22
+XiaoYan 22
+XiaoYan 22
+XiaoYan 22
+XiaoYan 22
+no data found
+Sprague-Dawley
+C57BL/6J
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Shin-2 
+Nigrate
+no data found
+W-7984
+C57BL/6J
+Gala
+Bosc
+no data found
+no data found
+no data found
+no data found
+VF36
+Early Golden Bantam
+Early Golden Bantam
+Xiaoyan22
+no data found
+Pioneer 2375
+Balb/c
+Balb/c
+Balb/c
+Balb/c
+Williams
+no data found
+Eunpamil
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CO-39
+CO-39
+CO-39
+B73
+B73
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Moneymaker ss590
+C57BL/6
+IRF-1 -/-
+M-202
+Paymaster 2326 BG/RR; Deltapine-50
+N2
+N2
+N2
+DH26
+DH26
+DH26
+DH26
+DH26
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+Xiaoyan22
+no data found
+Vemar
+Daniela
+no data found
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+Junmian-1
+Col-0
+Marte
+Nipponbare
+Romaine
+C57BL/6J
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+no data found
+no data found
+no data found
+no data found
+no data found
+Japonica
+Japonica
+Japonica
+Riband
+ATCC 30234
+U937
+Golden promise
+BALB/c
+Navelina
+Navelina
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+CO-39
+CD-1
+CD-1
+no data found
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+Early Golden Bantam
+Early Golden Bantam
+Early Golden Bantam
+Thompson
+BALB/c
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+CO-39
+BALB/c
+no data found
+no data found
+no data found
+C3H/HeN
+C3H/HeN
+no data found
+Early Golden Bantam
+Early Golden Bantam
+CD-1
+CD-1
+CD-1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Swiss Webster
+C57 BL/6 
+no data found
+CD-1
+CD-1
+no data found
+no data found
+no data found
+no data found
+no data found
+Cherry Valley   
+no data found
+no data found
+no data found
+no data found
+no data found
+CD-1
+BALB/c
+BALB/c
+CD-1
+Swiss  Webster
+Swiss  Webster
+no data found
+BALB/c
+BALB/c
+ Macfadyen
+Jubilee
+Jubilee
+Duncan
+Valencia
+Golden delicious
+Golden delicious
+Golden delicious
+Golden delicious
+Golden delicious
+Golden delicious
+NIH-Swiss
+BALB/c
+no data found
+no data found
+no data found
+no data found
+no data found
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+CO-39
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+ICR
+Col-0
+BALB/c
+Calingiri
+no data found
+C57BL/6N
+C57Bl/6
+no data found
+Bonnie Best
+Bush Blue Lake 47
+Harosoy
+no data found
+Columbia
+no data found
+no data found
+BALB/c
+BALB/c
+no data found
+Monika
+Monika
+Tanaka
+Passe
+glp-4
+glp-4
+glp-4
+glp-4
+glp-4
+glp-4
+Bonny Best
+C57Bl/6
+C57Bl/6
+Spanish White
+Moneymaker
+Dwelley
+Russet Norkotah
+Ranger Russet
+ND4  1180 Swiss Webster
+Arbequina
+Moneymaker
+Duncan Hartley
+ICR
+Harosoy
+C57BL/6
+B73
+B73
+B73
+B73
+Sprague-Dawley
+no data found
+Nipponbare
+Nipponbare
+Nipponbare
+CD-1
+CD-1
+CD-1
+CD-1
+no data found
+no data found
+BALB/c
+C57BL/6N.HSD
+C57BL/6N.HSD
+Balb/c 
+Balb/c 
+no data found
+Harosoy
+Peking
+no data found
+no data found
+no data found
+no data found
+no data found
+Corbarino
+Suwon  11
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+Silver Queen
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Balb/c 
+Texas Grando
+Texas Grando
+Texas Grando
+Texas Grando
+C57Bl/6
+C57Bl/6
+no data found
+no data found
+no data found
+no data found
+no data found
+BALB/c
+BALB/c
+BALB/c
+no data found
+N2
+N2
+Bonny Best
+BALB/c
+N2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Thompson
+CD1
+CD1
+CD1
+BALB/c
+Daniela
+Daniela
+Daniela
+Daniela
+Golden Delicious
+Golden Delicious
+Golden Delicious
+Golden Delicious
+no data found
+no data found
+no data found
+no data found
+Mini-Lewe
+Mini-Lewe
+BALB/c
+C57BL/6
+CD-1
+Ax2
+Sprague-Dawley
+BALB/c
+Harosoy
+Norchief
+Peking
+Flambeau 
+N90598 
+N90598 
+CD1
+CD1
+no data found
+BALB/c
+C57BL/6
+no data found
+57Q77
+BALB/c
+A/Jcr
+Chinese Spring
+C57BL/6 mice
+C3H/HeN
+ BALB/c 
+ BALB/c 
+ BALB/c 
+ BALB/c 

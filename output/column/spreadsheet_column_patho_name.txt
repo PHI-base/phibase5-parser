@@ -238,9 +238,9 @@ Cryptococcus neoformans
 Cochliobolus carbonum
 Ustilago maydis
 Cryptococcus neoformans
-Exophiala dermatitidis (related: Wangiella  dermatitidis)
-Exophiala dermatitidis (related: Wangiella  dermatitidis)
-Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Exophiala dermatitidis (related: Wangiella dermatitidis)
+Exophiala dermatitidis (related: Wangiella dermatitidis)
+Exophiala dermatitidis (related: Wangiella dermatitidis)
 Candida albicans
 Botrytis cinerea
 Cryptococcus neoformans
@@ -407,7 +407,7 @@ Trichoderma virens
 Cryptococcus neoformans
 Cryptococcus neoformans
 Ustilago maydis
-Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Exophiala dermatitidis (related: Wangiella dermatitidis)
 Magnaporthe oryzae
 Candida albicans
 Claviceps purpurea
@@ -475,7 +475,7 @@ Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Aspergillus fumigatus
 Stagonospora nodorum (related: Phaeosphaeria nodorum)
-4550
+Claviceps purpurea
 Cryptococcus neoformans
 Candida albicans
 Candida albicans
@@ -1142,7 +1142,7 @@ Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Cochliobolus miyabeanus
-Alternaria Brassicicola
+Alternaria brassicicola
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
@@ -2915,8 +2915,8 @@ Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
-Xanthomonas campestris pv vesicatoria
-Xanthomonas campestris pv vesicatoria
+Xanthomonas campestris pv. vesicatoria
+Xanthomonas campestris pv. vesicatoria
 Pseudomonas syringae pv. tomato
 Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
@@ -2998,8 +2998,8 @@ Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
-Fusarium oxysporum f.sp. melonis
-Fusarium oxysporum f.sp. melonis
+Fusarium oxysporum f. sp. melonis
+Fusarium oxysporum f. sp. melonis
 Ustilago maydis
 Fusarium oxysporum f. sp. Lycopersici
 Erwinia amylovora
@@ -3017,7 +3017,7 @@ Erwinia amylovora
 Erwinia amylovora
 Erwinia amylovora
 Erwinia amylovora
-Xanthomonas oryzae pv. Oryzae
+Xanthomonas oryzae pv. oryzae
 Erwinia amylovora
 Erwinia amylovora
 Erwinia amylovora
@@ -3038,8 +3038,8 @@ Pectobacterium carotovorum
 Pectobacterium carotovorum
 Pectobacterium carotovorum
 Pectobacterium carotovorum
-Xanthomonas citri subsp. Citri
-Xanthomonas citri subsp. Citri
+Xanthomonas citri subsp. citri
+Xanthomonas citri subsp. citri
 Alternaria longipes
 Alternaria longipes
 Botrytis cinerea (related: Botryotinia fuckeliana)
@@ -3055,7 +3055,7 @@ Botrytis cinerea (related: Botryotinia fuckeliana)
 Botrytis cinerea (related: Botryotinia fuckeliana)
 Botrytis cinerea (related: Botryotinia fuckeliana)
 Magnaporthe oryzae
-Xanthomonas oryzae pv. Oryzae
+Xanthomonas oryzae pv. oryzae
 Leishmania mexicana
 Leishmania mexicana
 Gibberella zeae (related: Fusarium graminearum)
@@ -3184,10 +3184,10 @@ Myzus persicae
 Myzus persicae
 Myzus persicae
 Trypanosoma cruzi
-Maize smut disease
 Ustilago maydis
 Ustilago maydis
-Maize smut disease
+Ustilago maydis
+Ustilago maydis
 Alternaria alternata
 Ustilago maydis
 Alternaria alternata
@@ -3196,7 +3196,7 @@ Histoplasma capsulatum
 Trypanosoma cruzi
 Fusarium oxysporum f. sp. Lycopersici
 Meloidogyne javanica
-Trypanosoma brucei
+Trypanosoma cruzi
 Trypanosoma cruzi
 Trypanosoma cruzi
 Trypanosoma cruzi
@@ -3282,13 +3282,9 @@ Botrytis cinerea
 Botrytis cinerea
 Candida albicans
 Pseudomonas aeruginosa
-no data found
 Pseudomonas aeruginosa
-no data found
 Pseudomonas aeruginosa
-no data found
 Pseudomonas aeruginosa
-no data found
 Salmonella enterica serovar Typhimurium
 Agrobacterium tumefaciens
 Agrobacterium tumefaciens
@@ -3365,8 +3361,8 @@ Rhynchosporium commune
 Rhynchosporium commune
 Rhynchosporium commune
 Rhynchosporium commune
-Xanthomonas citri ssp. Citri
-Xanthomonas citri ssp. Citri
+Xanthomonas citri subsp. citri
+Xanthomonas citri subsp. citri
 Colletotrichum orbiculare
 Xanthomonas axonopodis pv. citri
 Xanthomonas axonopodis pv. citri
@@ -3524,132 +3520,132 @@ Xanthomonas oryzae pv. oryzae
 Xanthomonas oryzae pv. oryzae
 Xanthomonas oryzae pv. oryzae
 Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
-Xanthomonas oryzae  pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
 Botrytis cinerea
 Botrytis cinerea
 Botrytis cinerea
@@ -3683,7 +3679,6 @@ Xanthomonas oryzae pv. Oryzicola
 Xanthomonas oryzae pv. Oryzicola
 Xanthomonas oryzae pv. Oryzicola
 Streptococcus agalactiae
-no data found
 Mycobacterium tuberculosis
 Mycobacterium tuberculosis
 Pseudomonas syringae
@@ -3796,17 +3791,15 @@ Cryptococcus neoformans
 Candida albicans
 Candida albicans
 Candida albicans
-Fusarium oxysporum f.sp. Lycopersici
-Fusarium oxysporum f.sp. Lycopersici
-Fusarium oxysporum f.sp. Lycopersici
-Fusarium oxysporum f.sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
+Fusarium oxysporum f. sp. Lycopersici
 Aspergillus fumigatus
 Magnaporthe oryzae
 Magnaporthe oryzae
 Alternaria alternata
-no data found
 Alternaria alternata
-no data found
 Cryptococcus neoformans
 Cochliobolus heterostrophus
 Cochliobolus heterostrophus
@@ -4174,3 +4167,599 @@ Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Yersinia pseudotuberculosis
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Escherichia coli
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Vibrio vulnificus
+Vibrio vulnificus
+Vibrio vulnificus
+Vibrio vulnificus
+Staphylococcus aureus
+Vibrio cholerae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Bursaphelenchus xylophilus
+Campylobacter jejuni
+Beauveria bassiana
+Metarhizium robertsii
+Brucella abortus
+Phytophthora sojae
+Xanthomonas oryzae pv. oryzae
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Edwardsiella tarda
+Penicillium digitatum
+Candida parapsilosis
+Candida parapsilosis
+Mycobacterium tuberculosis
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. syringae
+Pseudomonas syringae  pv. maculicola
+Pseudomonas syringae ?
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Streptococcus suis Serotype 2
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Acinetobacter baumannii
+Porphyromonas gingivalis
+Photorhabdus luminescens
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Paenibacillus larvae
+Pantoea stewartii subsp. stewartii
+Pantoea stewartii subsp. stewartii
+Streptococcus suis Serotype 2
+Beauveria bassiana
+Beauveria bassiana
+Beauveria bassiana
+Beauveria bassiana
+Cryptococcus neoformans
+Streptococcus pyogenes
+Cryphonectria parasitica
+Plasmodium falciparum
+Toxoplasma gondii
+Magnaporthe oryzae
+Magnaporthe oryzae
+Listeria monocytogenes
+Escherichia coli
+Xanthomonas campestris pv. campestris
+Xanthomonas campestris pv. campestris
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Xanthomonas campestris pv. campestris
+Escherichia coli
+Helicobacter pylori
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Pseudomonas syringae pv. tomato
+Magnaporthe oryzae
+Magnaporthe oryzae
+Colletotrichum orbiculare
+Stagonospora nodorum
+Clostridium difficile
+Erwinia amylovora
+Erwinia amylovora
+Moniliophthora perniciosa
+Moniliophthora perniciosa
+Moniliophthora perniciosa
+Moniliophthora perniciosa
+Xanthomonas campestris pv. vesicatoria
+Ustilago maydis
+Ustilago maydis
+Fusarium graminearum
+Magnaporthe oryzae
+Fusarium graminearum
+Yersinia pseudotuberculosis
+Yersinia pseudotuberculosis
+Yersinia pseudotuberculosis
+Yersinia pseudotuberculosis
+Phytophthora sojae
+Pseudomonas aeruginosa
+Fusarium graminearum
+Paenibacillus larvae
+Streptococcus suis
+Helicobacter pylori
+Helicobacter pylori
+Helicobacter pylori
+Helicobacter pylori
+Helicobacter pylori
+Helicobacter pylori
+Haemophilus parasuis
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Trichoderma virens
+Trichoderma virens
+Pseudomonas cichorii
+Pseudomonas cichorii
+Pseudomonas cichorii
+Pseudomonas cichorii
+Pseudomonas cichorii
+Pseudomonas cichorii
+Pseudomonas cichorii
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Ceratocystis fimbriata f. sp. Platani
+Fusarium oxysporum f. sp. lycopersici
+Βrucella melitensis
+Βrucella melitensis
+Trichoderma virens
+Trichoderma virens
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Burkholderia cenocepacia
+Burkholderia cenocepacia
+Burkholderia cenocepacia
+Burkholderia cenocepacia
+Burkholderia cenocepacia
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Fusarium graminearum
+Magnaporthe oryzae
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Verticillium dahliae
+Verticillium dahliae
+Ceratocystis populicola
+Fusarium fujikuroi
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae pv. oryzae
+Stagonospora nodorum
+Legionella pneumophila
+Legionella pneumophila
+Ustilago maydis
+Burkholderia pseudomallei
+Penicillium digitatum
+Penicillium digitatum
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Magnaporthe oryzae
+Aspergillus fumigatus
+Aspergillus fumigatus
+Cryptococcus neoformans
+Cryptococcus neoformans
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Xylella fastidiosa
+Pseudomonas aeruginosa
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Leishmania major
+Xanthomonas campestris pv. campestris
+Xanthomonas campestris pv. campestris
+Xanthomonas campestris pv. campestris
+Francisella tularensis
+Francisella tularensis
+Metarhizium acridum
+Ustilago maydis
+Ustilago maydis
+Escherichia coli
+Escherichia coli
+Escherichia coli
+Yersinia ruckeri
+Streptococcus agalactiae
+Beauveria bassiana
+Beauveria bassiana
+Beauveria bassiana
+Beauveria bassiana
+Yersinia pestis
+Mycobacterium avium
+Paenibacillus larvae
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Colletotrichum orbiculare 
+Colletotrichum orbiculare 
+Colletotrichum orbiculare 
+Riemerella anatipestifer
+Xanthomonas campestris pv. campestris
+Xanthomonas campestris pv. campestris
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Staphylococcus aureus
+Candida glabrata
+Candida glabrata
+Streptococcus pyogenes
+Pseudomonas aeruginosa  
+Pseudomonas aeruginosa  
+Colletotrichum gloeosporioides
+Streptococcus suis
+Streptococcus suis
+Xanthomonas citri subsp. citri
+Pantoea stewartii subsp. Stewartii
+Pantoea stewartii subsp. Stewartii
+Xanthomonas citri subsp. citri
+Xanthomonas citri subsp. citri
+Penicillium expansum
+Penicillium expansum
+Penicillium expansum
+Penicillium expansum
+Penicillium expansum
+Penicillium expansum
+Staphylococcus aureus
+Brucella abortus
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Haemophilus parasuis
+Haemophilus parasuis
+Haemophilus parasuis
+Haemophilus parasuis
+Candida albicans
+Botrytis cinerea
+Aspergillus fumigatus
+Parastagonospora nodorum
+Streptococcus parauberis
+Citrobacter rodentium
+Trypanosoma brucei
+Metarhizium robertsii
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus gattii
+Candida albicans
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Erwinia amylovora
+Erwinia amylovora
+Salmonella enterica subsp. enterica serovar Typhimurium
+Salmonella enterica subsp. enterica serovar Typhimurium
+Salmonella enterica subsp. enterica serovar Typhimurium
+Salmonella enterica subsp. enterica serovar Agona
+Salmonella enterica subsp. enterica serovar Agona
+Salmonella enterica subsp. enterica serovar Agona
+Ralstonia solanacearum
+Listeria monocytogenes
+Listeria monocytogenes
+Ascochyta rabiei
+Alternaria solani
+Ascochyta rabiei
+Alternaria solani
+Alternaria solani
+Staphylococcus aureus
+Pseudomonas savastanoi pv. savastanoi
+Pseudomonas syringae pv. tomato
+Mycobacterium tuberculosis
+Vibrio vulnificus
+Phytophthora sojae
+Vibrio vulnificus
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Staphylococcus lugdunensis
+Francisella novicida
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae pv. Oryzicola
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Mycobacterium marinum
+Mycobacterium marinum
+Staphylococcus aureus
+Yersinia pestis
+Yersinia pestis
+Candida albicans
+Candida albicans
+Escherichia coli
+Pseudomonas syringae pv. Glycinea
+Pseudomonas syringae pv. Glycinea
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Fusarium graminearum
+Pyrenochaeta lycopersici
+Puccinia striiformis  f.sp.  Tritici
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium verticillioides
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Yersinia pestis
+Pantoea ananatis
+Pantoea ananatis
+Pantoea ananatis
+Pantoea ananatis
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Bordetella bronchiseptica
+Xanthomonas citri subsp. citri
+Xanthomonas citri subsp. citri
+Aeromonas salmonicida
+ Vibrio aestuarianus
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Beauveria bassiana
+Staphylococcus saprophyticus
+Staphylococcus saprophyticus
+Ralstonia solanacearum
+Burkholderia pseudomallei
+Muricauda  olearia
+Pseudomonas fuscovaginae
+Pseudomonas fuscovaginae
+Pseudomonas fuscovaginae
+Pseudomonas fuscovaginae
+Pseudomonas fuscovaginae
+Pseudomonas fuscovaginae
+Pseudomonas fuscovaginae
+Pseudomonas fuscovaginae
+Pseudomonas fuscovaginae
+Vibrio vulnificus
+Vibrio vulnificus
+Vibrio vulnificus
+Xylella fastidiosa
+Streptococcus pyogenes
+Streptococcus pyogenes
+Streptococcus pyogenes
+Salmonella Typhimurium
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Fusarium oxysporum f. sp. lycopersici
+Yersinia enterocolitica
+Yersinia enterocolitica
+Yersinia enterocolitica
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Enterococcus faecalis
+Pseudomonas syringae pv. Glycinea
+Pseudomonas syringae pv. Glycinea
+Pseudomonas syringae pv. Glycinea
+Pseudomonas syringae pv. Glycinea
+Botrytis cinerea
+Botrytis cinerea
+Bacillus anthracis
+Bacillus anthracis
+Streptococcus suis
+Klebsiella pneumoniae
+Citrobacter rodentium
+Burkholderia cenocepacia
+Burkholderia cenocepacia
+Mycobacterium  tuberculosis
+Cryptococcus neoformans
+Pseudomonas syringae pathovar syringae
+Cryptococcus neoformans
+Francisella tularensis
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans

@@ -6677,22 +6677,19 @@ SNOG_03299
 
 
 EMBL
-"CAI48090
+CAI48090
 
 
 
 
-5111
-Claviceps purpurea
-5111
-20.1
-GO
-
-Reduced virulence
 
 
-TKB; MU; AC
-10.1128/EC.4.7.1228-1238.2005
+
+
+
+
+
+
 EMBL
 AAV36564
 
@@ -16684,7 +16681,7 @@ ABJ51957
 
 
 
-
+petals
 
 
 
@@ -36903,12 +36900,8 @@ no data found
 leaves
 no data found
 
-no data found
-na
-RP
-20885997
-Pubmed
-10.1371/journal .pone.00129 33
+
+
 Genbank
 um03449.1
 no data found
@@ -44609,20 +44602,20 @@ no data found
 
 
 
-Rim9
+
+FN395064
 no data found
 
 
-no
-5270
-Ustilago maydis
-pH response /  involved in the formation of one of the signaling complexes located at the plasma membrane together with PalF/Rim21 and PalH/Rim8 proteins 
-no data found
-no data found
-wild type
-Gene deletion: full
 
-20153837
+
+
+
+leaves
+no data found
+
+
+
 EMBL
 FN395061
 no data found
@@ -44651,20 +44644,20 @@ no data found
 
 
 
-Rim23
+
+FN395063
 no data found
 
 
-no
-5270
-Ustilago maydis
-pH response / putatively involved in endocytic trafﬁcking
-no data found
-no data found
-wild type
-Gene disruption
 
-20153837
+
+
+
+leaves
+no data found
+
+
+
 
 JQ716919
 no data found
@@ -44778,7 +44771,7 @@ no data found
 
 
 Genbank
-XP846343
+XP_810645
 Chromosome 7
 
 
@@ -45113,8 +45106,8 @@ no data found
 
 
 
-
-XP846343
+Genbank
+XP_846343
 Chromosome 7
 
 
@@ -45977,16 +45970,10 @@ no data found
 
 
 lungs
-Reduced virulence
 no data found
-no data found
-no data found
-no data found
-no data found
-reduced
-RP
-23145092
-Pubmed
+
+
+
 Genbank
 EKA39411
 no data found
@@ -45997,16 +45984,10 @@ no data found
 
 
 lungs
-Reduced virulence
 no data found
-no data found
-no data found
-no data found
-no data found
-reduced
-RP
-23145092
-Pubmed
+
+
+
 Genbank
 EKA39411
 no data found
@@ -46017,16 +45998,10 @@ no data found
 
 
 lungs
-Reduced virulence
 no data found
-no data found
-no data found
-no data found
-no data found
-reduced
-RP
-23145092
-Pubmed
+
+
+
 Genbank
 EKA39411
 no data found
@@ -46037,16 +46012,10 @@ no data found
 
 
 lungs
-Reduced virulence
 no data found
-no data found
-no data found
-no data found
-no data found
-reduced
-RP
-23145092
-Pubmed
+
+
+
 Genbank
 ACY89276
 no data found
@@ -51556,17 +51525,13 @@ no data found
 
 
 
-Mouse
-C57BL/6
+
+
 bladder; kidney
-Toxin b -Hemolysin/Cytolysin production
 no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-10.1371/journal.pone.0059091
+
+
+
 Genbank
 AAK44689
 no data found
@@ -53243,16 +53208,10 @@ no data found
 
 
 fruits
-Loss of pathogenicity
 no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-RP
-10975654
-Pubmed
+
+
+
 Genbank
 BAB07811
 no data found
@@ -53263,16 +53222,10 @@ no data found
 
 
 fruits
-Loss of pathogenicity
 no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-RP
-10975654
-Pubmed
+
+
+
 Genbank
 ABG21303
 no data found
@@ -53372,7 +53325,7 @@ no data found
 
 
 Genbank
-AF525909_2
+ACP34152
 no data found
 
 
@@ -53386,7 +53339,7 @@ no data found
 
 
 Genbank
-ACP34152
+AF525909_2
 no data found
 
 
@@ -53582,7 +53535,7 @@ no data found
 
 
 Genbank
-AF525909_2
+ACP34152
 no data found
 
 
@@ -53596,7 +53549,7 @@ no data found
 
 
 Genbank
-ACP34152
+AF525909_2
 no data found
 
 
@@ -58411,3 +58364,8347 @@ no data found
 
 
 
+Genbank
+CAA63928
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+CAA63928
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+EAL87284
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+EAL84566
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+CAA63929
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+CAA63928
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+EAL93639
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+EAL93638
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+EAL85326
+no data found
+
+
+
+
+
+
+Lungs
+no data found
+
+
+
+Genbank
+CAA63928
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+CAA63928
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+EAL87284
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+EAL84566
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+CAA63929
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+CAA63928
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+EAL93639
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+EAL93638
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+EAL85326
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+BAA84895
+no data found
+
+
+
+
+
+
+colonic lumen
+no data found
+
+
+
+Genbank
+EWG36987
+no data found
+
+
+
+
+
+
+Stalks
+no data found
+
+
+
+Genbank
+EWG48238
+no data found
+
+
+
+
+
+
+Stalks
+no data found
+
+
+
+Genbank
+EWG49850
+no data found
+
+
+
+
+
+
+Stalks
+no data found
+
+
+
+Genbank
+AF204737_1
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+ABG81424
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+ACP30470
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+ACP30470
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+AAP48794
+no data found
+
+
+
+
+
+
+Blood; spleen; liver; Kidneys
+no data found
+
+
+
+Genbank
+AAF94122 
+no data found
+
+
+
+
+
+
+Intestines
+no data found
+
+
+
+Genbank
+EHA53685
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA47270
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA50862
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA45889
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA52401
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA57340
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA57304
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA47477
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA53685
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA47270
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA50862
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA45889
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA52401
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA57340
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA57304
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+EHA47477
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+ABW81468
+no data found
+
+
+
+
+
+
+leaves, cones
+no data found
+
+
+
+Genbank
+CAL35343
+no data found
+
+
+
+
+
+
+Colon; liver; kidneys; lungs
+no data found
+
+
+
+Genbank
+EJP69082
+no data found
+
+
+
+
+
+
+larvae
+Median lethal time (LT50)estimates ofDBbACandDMrACagainst susceptible insects were 10.9 and 1.4 d longer than those from wild-type strains respectively
+
+
+
+Genbank
+EFY97222
+no data found
+
+
+
+
+
+
+larvae
+Median lethal time (LT50)estimates ofDBbACandDMrACagainst susceptible insects were 10.9 and 1.4 d longer than those from wild-type strains respectively
+
+
+
+Genbank
+CAJ10307
+no data found
+
+
+
+
+
+
+spleen
+no data found
+
+
+
+Genbank
+EGZ19258
+no data found
+
+
+
+
+
+
+Leaves
+no data found
+
+
+
+Genbank
+BAE67390
+no data found
+
+
+
+
+
+
+Leaves
+no data found
+
+
+
+Genbank
+AE004827_3
+no data found
+
+
+
+
+
+
+Leaves
+no data found
+
+
+
+Genbank
+AE004827_3
+no data found
+
+
+
+
+
+
+Leaves
+no data found
+
+
+
+Genbank
+ACY83030
+no data found
+
+
+
+
+
+
+muscle; liver; intestine
+no data found
+
+
+
+Genbank
+AFJ04161
+no data found
+
+
+
+
+
+
+Fruits
+no data found
+
+
+
+Genbank
+CCE43253
+no data found
+
+
+
+
+
+
+larvae
+no data found
+
+
+
+Genbank
+CCE43253
+no data found
+
+
+
+
+
+
+Kidneys
+no data found
+
+
+
+Genbank
+CCP46420
+no data found
+
+
+
+
+
+
+lungs
+no data found
+
+
+
+EMBL
+AAA25726.1
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAA25726.1
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAA25726.1
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAA25726.1
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAA25726.1
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAA25726.1
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAZ37967
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAZ37967
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAZ37967
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAZ37967
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+ENA
+AAZ37967
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+wild-type susceptiblity
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAZ37967
+no data found
+
+
+
+
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+
+wild-type susceptiblity
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAA25726.1
+no data found
+FLAG-tagged
+
+
+
+
+
+
+no data found
+GU132856; GU132854
+no binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAY35802.1
+no data found
+FLAG-tagged
+
+
+
+
+
+
+no data found
+GU132856; GU132854
+no binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+FLAG-tagged
+
+
+
+
+
+
+no data found
+GU132856; GU132854
+no binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+FLAG-tagged
+
+
+
+
+
+
+no data found
+GU132856
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+FLAG-tagged
+
+
+
+
+
+
+no data found
+GU132854
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+FLAG-tagged
+
+
+
+
+
+
+no data found
+GU132856
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+FLAG-tagged
+
+
+
+
+
+
+no data found
+GU132854
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+Split YFP
+
+
+
+
+
+
+no data found
+GU132856; GU132854
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+Split YFP
+
+
+
+
+
+
+no data found
+GU132856; GU132854
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+Split YFP 
+
+
+
+
+
+
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+ FLAG -tagged
+
+
+
+
+
+
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINa, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+Split YFP
+
+
+
+
+
+
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+ FLAG -tagged
+
+
+
+
+
+
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINb, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+Split YFP
+
+
+
+
+
+
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+ FLAG -tagged
+
+
+
+
+
+
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINc, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+Split YFP 
+
+
+
+
+
+
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+ FLAG -tagged
+
+
+
+
+
+
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINd, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+Split YFP 
+
+
+
+
+
+
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+EEB56913.1
+no data found
+ FLAG -tagged
+
+
+
+
+
+
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINa, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+Split YFP 
+
+
+
+
+
+
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+EEB56913.1
+no data found
+ FLAG -tagged
+
+
+
+
+
+
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINb, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+Split YFP
+
+
+
+
+
+
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+EEB56913.1
+no data found
+ FLAG -tagged
+
+
+
+
+
+
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINc, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+Split YFP 
+
+
+
+
+
+
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+EEB56913.1
+no data found
+FLAG -tagged
+
+
+
+
+
+
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINd, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAA25726.1
+
+PoliC::bcltf1-gfp
+Uniprot:E2MM96
+brl
+EMBL:EEB56913
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+GU132856; GU132854
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAA25726.1
+
+bmut(S->F)
+EMBL:EEB56913
+TFIID
+Uniprot:E2MM96
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
+GU132856; GU132854
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+Genbank
+CAR47454
+no data found
+
+
+
+
+
+
+no data found
+no data found
+no data found
+
+
+BROAD
+B0510_2802 
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+BROAD
+B0510_928 
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+BROAD
+B0510_1511
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+BROAD
+B0510_2802 
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+BROAD
+B0510_1511
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+BROAD
+B0510_2036
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+BROAD
+B0510_1402
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+Genbank
+ABO12765
+no data found
+
+
+
+
+
+
+larvae
+no data found
+no data found
+
+
+Genbank
+BAA04222
+no data found
+
+
+
+
+
+
+gingiva
+no data found
+no data found
+
+
+Genbank
+AAX99101
+no data found
+
+
+
+
+
+
+larvae
+no data found
+no data found
+
+
+Genbank
+ESU13482
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU14577
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU06524
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU13482
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU14577
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU13482
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU14577
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU06524
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU13482
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU14577
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+AHD05614
+no data found
+
+
+
+
+
+
+larvae
+no data found
+no data found
+
+
+Genbank
+EHT98350
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+Genbank
+EHT98951
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+Genbank
+BAG74779
+no data found
+
+
+
+
+
+
+no data found
+no data found
+no data found
+
+
+Author
+EJP701002
+no data found
+
+
+
+
+
+
+larvae
+no data found
+no data found
+
+
+Genbank
+EJP63998
+no data found
+
+
+
+
+
+
+larvae
+no data found
+no data found
+
+
+Genbank
+EJP69973
+no data found
+
+
+
+
+
+
+larvae
+no data found
+no data found
+
+
+Genbank
+EJP62226
+no data found
+
+
+
+
+
+
+larvae
+no data found
+no data found
+
+
+Genbank
+AFR92864
+no data found
+
+
+
+
+
+
+lungs
+no data found
+no data found
+
+
+Genbank
+AFV38816
+no data found
+
+
+
+
+
+
+no data found
+no data found
+no data found
+
+
+JGI
+Crypa1.estExt_fgenesh1_kg.C_50131
+no data found
+
+
+
+
+
+
+stems
+no data found
+no data found
+
+
+Genbank
+CAD52260
+chromosome 13
+
+
+
+
+
+
+no data found
+no data found
+no data found
+
+
+Genbank
+ABE76505
+chromosome 6
+
+
+
+
+
+
+no data found
+no data found
+no data found
+
+
+Author
+AB916599
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+Author
+AB916598
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+Genbank
+CAC98491
+no data found
+
+
+
+
+
+
+spleen; liver
+no data found
+no data found
+
+
+Genbank
+AAA24524
+no data found
+
+
+
+
+
+
+no data found
+no data found
+no data found
+
+
+Genbank
+CAP52585
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+Genbank
+CAP50429
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+Genbank
+ESU12445
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU16819
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU14495
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU12445
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU16819
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU14495
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU12445
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU14495
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+ESU16819
+no data found
+
+
+
+
+
+
+Spikelets
+no data found
+no data found
+
+
+Genbank
+AAM41468
+no data found
+
+
+
+
+
+
+leaves
+no data found
+no data found
+
+
+Genbank
+AEE60096
+plasmid pRS218
+RS218:pRS218ΔstbA::cat (mutants of the plasmid gene StbA fused to chloramphenicol resistance cassette)
+no data found
+no data found
+no data found
+no data found
+no data found
+blood; cerebrospinal fluid (CSF); brain
+no data found
+no data found
+no data found
+mutants were electroporated toE. coliRS218 carrying the Red helper plasmid, pKD119
+Genbank
+AGK45292
+no data found
+ΔFrxA::kan (mutants of the plasmid gene FrxA fused to kanamycin resistance cassette)
+no data found
+no data found
+no data found
+no data found
+no data found
+stomach
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO59098
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO53915
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO55647
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO56193
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO56198
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO56809
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO58666
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO59098
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO53915
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO55647
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO56193
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO56198
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO56809
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO58666
+no data found
+ PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAQ71199
+chromosome 7
+MC69p::mCherry (MC69promoter fused with a reporter protein gene mCherry)
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAQ71199
+chromosome 7
+MC69p::mCherry (MC69promoter fused with a reporter protein gene mCherry)
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAL70272
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP89767
+Chromosome 1BS
+no data found
+no data found
+no data found
+no data found
+Snn1
+Uniprot:W5I2V6
+leaves
+no data found
+no data found
+susceptibility
+no data found
+Genbank
+AF065259_1 
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+CBA23647
+no data found
+argD1000::Tn5 (mutant was named argD1000::Tn5 because the Tn5transposon was inserted after the  129 argD gene coding region nucleotide number 999)
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot; fruit
+no data found
+no data found
+no data found
+no data found
+Genbank
+CBA23647
+no data found
+argD1000::Tn5 (mutant was named argD1000::Tn5 because the Tn5transposon was inserted after the  129 argD gene coding region nucleotide number 999)
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot; fruit
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABZ03962
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+pod
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABZ03962
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABZ03962
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABO32369
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAJ25451
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86931
+no data found
+no data found
+no data found
+ZmTTK1
+Uniprot:B6SYS4
+no data found
+no data found
+leaf
+no data found
+no data found
+susceptibility
+Agrobacterium tumefaciensGV3101 strains carrying expression plasmids indicated in each experiment were grown in YT medium containing kanamycin
+Genbank
+AEK86931
+no data found
+no data found
+no data found
+ZmTTK1
+Uniprot:B6SYS4
+no data found
+no data found
+leaf
+no data found
+no data found
+susceptibility
+no data found
+Genbank
+ESU05658
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+head
+no data found
+no data found
+no data found
+no data found
+Genbank
+ELQ66169 
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+ESU05658
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+silks
+no data found
+no data found
+no data found
+no data found
+Genbank
+GAE11165
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Peyer’s  patches;  mesenteric  lymph  nodes; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAH22766
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Peyer’s  patches;  mesenteric  lymph  nodes; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAH21544
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Peyer’s  patches;  mesenteric  lymph  nodes; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAH19952
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Peyer’s  patches;  mesenteric  lymph  nodes; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACJ09357
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+stem
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004530_14
+no data found
+DtolB araCPBADtolB (PAO1araCPBADtolB deleted of the endogenous copy of tolB)
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+ESU07428
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+head
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFQ34195
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY78938
+no data found
+pGEM-arcD PvuII released erythromycin resistance cassette derived from vectorpICerm was used to disrupt ArcD
+no data found
+no data found
+no data found
+no data found
+no data found
+ HEp-2 CELLS
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA17657
+no data found
+60190ΔvacA
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF43620
+no data found
+G27ΔcagA
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAB63389
+no data found
+G27ΔcagE
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+ADK26520
+no data found
+G27ΔcagPAI
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA25021
+no data found
+60190 Urease-negative
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAD08162
+no data found
+M5ggt::aph
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACL32380
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+PUVEC cells; PK-15 cells
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK98981
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK99283
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK99839
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL00131
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA26917
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAA09078
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK98888
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK98979
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK99734
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK99795
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL00830
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK99814
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL00072
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA56736
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA54322
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55738
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+few lesions
+no data found
+no data found
+no data found
+Genbank
+AGN70889
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+roots
+no data found
+no data found
+resistance
+no data found
+Genbank
+AGN70889
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+roots
+no data found
+no data found
+resistance
+no data found
+Genbank
+AHF65896
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHF65896
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHF65896
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHF65896
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHF65896
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHF65896
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHF65896
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004479_7
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+A549 cells
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004479_7
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+A549 cells
+no data found
+no data found
+no data found
+Recombinant PA0122 and PA0423 were transduced into A549 cells using Bioporter Protein Delivery Reagents
+Genbank
+AGQ22233
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_10510
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+LOVHK_BRUME
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen
+2 logs fewer CFUs
+no data found
+no data found
+no data found
+Genbank
+LOVHK_BRUME
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen
+significantly increased survival
+no data found
+no data found
+no data found
+Genbank
+AGN70889
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+roots
+no data found
+no data found
+resistance
+no data found
+Genbank
+AGN70889
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+roots
+no data found
+no data found
+resistance
+no data found
+Genbank
+AE004597_1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAW28339
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAG04388
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAR50527
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAR50525
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAR50526
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAR50524
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAR50523
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+gastrointestinal tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA48597
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA57057
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA47478
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA57147
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA50828
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA57147
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA50828
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+ESU15823
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+head
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA54390
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+BROAD
+FOXG_13835
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+roots
+no data found
+no data found
+no data found
+no data found
+BROAD
+FOXG_13835
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+BROAD
+FOXG_13835
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86966
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86783
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86957
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86698
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86791
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86951
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86941
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEN25695
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEN25695
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86905
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEN25689
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86885
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86877
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86867
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86750
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86831
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86849
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86822
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86813
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86931
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK8692
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86768
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86759
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86894
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL92010
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP56344
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAW09944
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL92010
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP56344
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EGY13742
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Roots; seedlings
+no data found
+no data found
+no data found
+no data found
+Genbank
+EGY13742
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+seedlings
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABM63506
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves; trunk
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCT69384
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004826_7
+no data found
+pEX18Ap::bfmSUD (1.8 kb gentamicin resistance cassette was cut from pPS858 with XbaI and then cloned into pEX18Ap::bfmSUD, yielding pEX18Ap::bfmSUGD)
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004826_7
+no data found
+pEX18Ap::bfmSUD (1.8 kb gentamicin resistance cassette was cut from pPS858 with XbaI and then cloned into pEX18Ap::bfmSUD, yielding pEX18Ap::bfmSUGD)
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA50277
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA57786
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55132
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55842
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+XM_366014
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA50277
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA57786
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55132
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55842
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+XM_366014
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACD60511
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAW75843
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAW75835
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AF074941
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAW75843
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAW75843
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+macrophage cells
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEK86680
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+Locally restricted chlorosis and no spreading necrotic lesions 6 days after inoculation.
+Q4PFQ0
+susceptibility
+no data found
+Genbank
+CAH38994
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen
+no data found
+no data found
+no
+no data found
+Genbank
+AGV28620
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Fruits
+no data found
+no data found
+no
+no data found
+Genbank
+AGV28619
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Fruits
+no data found
+no data found
+no
+no data found
+Genbank
+AAF96581
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF96122
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF95483
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF94506
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF96792
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF94454
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF96828
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF96581
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF96122
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF95483
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF94506
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF96792
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF94454
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF96828
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA48258
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+smaller lesions
+no data found
+no data found
+no data found
+Genbank
+EAL92386
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL92386
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFR93748
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFR93748
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP47698
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP54030
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP47698
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP54030
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAK81590
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+small tumours and chlorosis
+no data found
+no data found
+no data found
+Genbank
+EAK85054
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+small tumours and chlorosis
+no data found
+no data found
+no data found
+Genbank
+EAK85153
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+small tumours and chlorosis
+no data found
+no data found
+no data found
+Genbank
+AEX88335
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Stem
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABJ12706
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs. Spleen; liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no necrotic lesions formed
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+wild type
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+wild type
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+wild type
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+wild type
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+wild type
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+wild type
+no data found
+no data found
+no data found
+Genbank
+EHA55634
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+fewer and smaller lesions
+no data found
+no data found
+no data found
+Genbank
+CAJ02958
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY50743
+no data found
+no data found
+XC_2801
+Uniprot: Q4USX3
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY49850
+no data found
+no data found
+XC_3703
+Uniprot: Q4UQD0
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY50743
+no data found
+no data found
+XC_2801
+Uniprot: Q4USX3
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAJ79987
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAJ80148
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+ EFY87824
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAK86610
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAK87187
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA23448
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+intestines
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAA27969
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+intestines
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA23448
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+intestines
+no data found
+no data found
+no data found
+no data found
+Genbank
+AGT97036
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+4MBO_A
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+EJP70506
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+ EJP63017
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+EJP70506
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+ EJP63017
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE013994_1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+EUA37082
+no data found
+no data found
+no data found
+MAV_2941; MAV_4320
+MAV_2941: Uniprot: A0QGT9; MAV_4320: Uniprot: A0QKL8
+no data found
+no data found
+spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+ETK27267
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL84490
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL87202
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL85372
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL84490
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+ENH81573
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Cotyledons
+no data found
+no data found
+no data found
+no data found
+Genbank
+ENH80898
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Cotyledons
+no data found
+no data found
+no data found
+no data found
+Genbank
+ENH84705
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Cotyledons
+no data found
+no data found
+no data found
+no data found
+Genbank
+AIT59279
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY50006
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAM43076
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL47683
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL47683
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL47683
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAG40992
+no data found
+nos::erm
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; kidneys; heart; lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAG60099
+Chromosome H
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+kidney; spleen; liver; brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAG59654
+Chromosome G
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+kidney; spleen; liver; brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFC66130
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABJ11810
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Kidneys; bladder
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004532_9
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Kidneys; bladder
+no data found
+no data found
+no data found
+no data found
+Genbank
+AIL24425
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAZ51773
+no data found
+pSET4s::spxA1
+no data found
+no data found
+no data found
+no data found
+no data found
+Blood; brain; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAZ50835
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Blood; brain; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAM38576
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHT98413
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHT98409
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAM37894
+no data found
+no data found
+no data found
+HrcJ: Uniport: Q8PQB9; HrcC: Uniport: Q8PQB3
+HrcJ; HrcC
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAM37894
+no data found
+no data found
+no data found
+HrcJ: Uniport: Q8PQB9; HrcC: Uniport: Q8PQB3
+HrcJ; HrcC
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AIG62146
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+AIG62143
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+AIG62141
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+KGO36753
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+KGO69364
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+KGO60781
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+AF515775_2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+heart; spleen; kidneys
+no data found
+no data found
+no data found
+no data found
+Genbank
+AIK05883
+Chromosome 2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA48048
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA45997
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA46353
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA57568
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA47068
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA45997
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA46353
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55540
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA48048
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA57940
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA57568
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55506
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55437
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACL32370
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+heart; spleens; Lungs
+no data found
+no data found
+no data found
+no data found
+Author
+ZP_10128492.1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+heart; spleens; Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACL32202
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+heart; spleens; Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACL31860
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+heart; spleens; Lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL02842
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+AtSWEET4
+Uniprot: Q944M5; GenBank: BAB01122
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL90421
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAT91972
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACH87041
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Kidneys
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+IL-22RA1
+Uniprot: Q80XZ4; GenBank: AAM52222
+Intestines
+no data found
+no data found
+Susceptible
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MIF
+Uniprot: P34884; GenBank:  CAA80583
+blood; bone marrow; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+XP_007817332 
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDN92355
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDN92355
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDN92355
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDN92355
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDN92355
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDN92355
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAW44210
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFR97788
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+KGB78294
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAK94199
+no data found
+KC589pga7D::hisG/pga7D::hisG
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+BROAD
+FOXG_11503
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+BROAD
+FOXG_14029
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaf
+no data found
+no data found
+no data found
+no data found
+Genbank
+CBA19715
+no data found
+pGEMrpoS::Ω-Km
+no data found
+no data found
+no data found
+no data found
+no data found
+Fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+CBA19715
+no data found
+pGEMrpoS::Ω-Km
+no data found
+no data found
+no data found
+no data found
+no data found
+Fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+AGQ68292
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFD59840
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFD58044
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHB43717
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHB43652
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+KEI31823
+no data found
+ΔnasA::Gm (deletion construct containing the gentamicin (Gm) resistance cassette)
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAS05054
+no data found
+no data found
+no data found
+prfA
+Uniprot: Q4TVQ0
+no data found
+no data found
+liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY54617
+no data found
+no data found
+no data found
+CodY
+Uniprot: C1L2I8
+no data found
+no data found
+liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+KM244526
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAJ09785
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+KM244526
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAJ09785
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAJ09785
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABD20438
+no data found
+nfu::tet; nfu::kan (strains  were  created  by  digesting  the  corresponding  pJB38  plasmid  with  MluI  and  NheI  and  inserting  the  kan or  tet  genes  between  the  up-  and  down-stream regions  prior  to  mutant  construction)
+no data found
+no data found
+no data found
+no data found
+no data found
+liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+EFH97372
+no data found
+pGEM-T-bifAPsvAAL (pGEM-T  easy  derivate  containing  bifA gene  from  NCPPB  3335  with  a  pointmutation in the EAL motif (ApR))
+no data found
+no data found
+no data found
+no data found
+no data found
+stem
+smaller knots than wild type
+no data found
+no data found
+no data found
+Genbank
+AAO56114
+no data found
+pGEM-T-K.O bifAPsv- Km (pGEM-T  derivate,  containing  1.2  kb approx. on each side of the bifA gene from NCPPB  3335  interrupted  by  the kanamycin  resistance  gen  nptII  (ApR, KmR))
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+smaller lesions and lesser chlorosis than wild type
+no data found
+no data found
+no data found
+Genbank
+AFN50343
+no data found
+ΔmbtE::hyg
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; lungs; spleen
+smaller lesions and lesser chlorosis than wild type
+no data found
+no data found
+no data found
+Genbank
+ADV89163
+no data found
+no data found
+no data found
+iscR
+Uniport: Q7MNG3; Genbank: BAC93518
+no data found
+no data found
+no data found
+smaller lesions and lesser chlorosis than wild type
+no data found
+no data found
+no data found
+Genbank
+EGZ06166
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+roots
+no data found
+no data found
+no data found
+Agrobacterium  rhizogenes K599 carrying pEG104 or pEG101::PsPSR2
+Genbank
+AHW45240
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+skin
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG38880
+no data found
+Δmads1::HPH; Δmads1::GEN
+no data found
+no data found
+no data found
+no data found
+no data found
+kernels; stem
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG41694
+no data found
+Δmads2::HPH; Δmads2::GEN
+no data found
+no data found
+no data found
+no data found
+no data found
+kernels; stem
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG38880
+no data found
+Δmads1::HPH; Δmads1::GEN
+no data found
+no data found
+no data found
+no data found
+no data found
+kernels; stem
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG41694
+no data found
+Δmads2::HPH; Δmads2::GEN
+no data found
+no data found
+no data found
+no data found
+no data found
+kernels; stem
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCB52909
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood; kidney; heart
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABK89648
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEQ94335
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL87224
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP47358
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL87224
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+EDP47358
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACC40113
+no data found
+1663::Tn::1664 (M strain bearing a transposon insertion between the MMAR_1663and MMAR_1664 genes)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACC40114
+no data found
+1663::Tn::1664 (M strain bearing a transposon insertion between the MMAR_1663and MMAR_1664 genes)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAB56834
+no data found
+pCL::ccpE
+no data found
+no data found
+no data found
+no data found
+no data found
+Kidney; liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABX88786
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Casp3
+Uniprot: P70677; Genbank: AAC52768
+liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAK93117
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+EEQ44988
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+ELD24912
+no data found
+DE719ΔdotU (dotUdeletion mutant in DE719)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA25725
+no data found
+pPg6L3::Tn5-1 (Tn5 insertional mutagenesis cosmid clone
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA25725
+no data found
+pPg6L3::Tn5-1 (Tn5 insertional mutagenesis cosmid clone
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+ESU16014
+Chromosome 4
+no data found
+no data found
+FgSte50-Ste11-Ste7
+Uniprot:I1RJR9; Uniprot:V6RAJ2; Uniprot:I1RZQ2; 
+no data found
+no data found
+Flowering heads
+no data found
+no data found
+no data found
+no data found
+Genbank
+ESU16707
+Chromosome 1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Flowering heads
+no data found
+no data found
+no data found
+no data found
+Genbank
+ESU09037
+Chromosome 2
+no data found
+no data found
+FgSho1
+Uniprot: I1RYI2
+no data found
+no data found
+Flowering heads
+no data found
+no data found
+no data found
+no data found
+Genbank
+ESU11451
+Chromosome 3
+no data found
+no data found
+FgSho1
+Uniprot: I1RYI2
+no data found
+no data found
+Flowering heads
+no data found
+no data found
+no data found
+no data found
+Genbank
+ESU16547
+Chromosome 1
+no data found
+no data found
+FgSho1
+Uniprot: I1RYI2
+no data found
+no data found
+Flowering heads
+no data found
+no data found
+no data found
+no data found
+Genbank
+JN870922
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+roots
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+ BSMV:PsSRPKL-1as  or BSMV:PsSRPKL-2as
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54281
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54279
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54278
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54275
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54274
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54273
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54272
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54266
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54264
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54263
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54261
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EWG54260
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+Chromosome 5
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+shoot
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE013962_2
+no data found
+pMWO : :yapGSDM1+2+3+4+5 (pMWO : :yapGcontaining K512A, KR548–549AG, K558A, KR594–595AG and K604A mutations)
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen; lungs; lymph nodes
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004688_3
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAD22496
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAC38612
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+respiratory tract
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAM36442
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAM36442
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABO92519
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Author's accession
+VIBAEv3_A30043
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AGV14291
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFR92350
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+AGV14291
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+AHI43604
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+Q5DPX0_STASA
+no data found
+Δssp::ermB (ssp gene is interrupted by an ermB resistance gene)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+Q5DPX0_STASA
+no data found
+Δssp::ermB (ssp gene is interrupted by an ermB resistance gene)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAD17378
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+stem; roots
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAH38977
+no data found
+BpΔBPSS1504 (E8 derivate,BPSS1504ORF deleted)
+no data found
+no data found
+no data found
+no data found
+no data found
+lung; spleen; liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+KJ756328
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+80:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+90:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+188:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+102:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+169:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+270:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+420:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+445:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+480:: pKNOCK mutant of PfvUPB0736; Nfr,Kmr
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AF156494_1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood; head kidney; liver; spleen; gills
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAC15762
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood; head kidney; liver; spleen; gills
+no data found
+no data found
+no data found
+no data found
+Genbank
+ADV88340
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood; head kidney; liver; spleen; gills
+no data found
+no data found
+no data found
+no data found
+Genbank
+ AAO28921
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFC66398
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Skin
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABF37595
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Skin
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFC66398
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Skin
+no data found
+no data found
+no data found
+no data found
+Genbank
+ADD55082
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; spleen
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_06120
+no data found
+hph(B):sho1:pGemT;  phleo(B):sho1:pGemT (replacement with Hygromycin  or phleomycin)
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_09254
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_06120
+no data found
+hph(B):sho1:pGemT;  phleo(B):sho1:pGemT (replacement with Hygromycin  or phleomycin)
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_09254
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_06120
+no data found
+hph(B):sho1:pGemT;  phleo(B):sho1:pGemT (replacement with Hygromycin  or phleomycin)
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_09254
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_06120
+no data found
+hph(B):sho1:pGemT;  phleo(B):sho1:pGemT (replacement with Hygromycin  or phleomycin)
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_09254
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fruits
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_06120
+no data found
+hph(B):sho1:pGemT;  phleo(B):sho1:pGemT (replacement with Hygromycin  or phleomycin)
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_09254
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_06120
+no data found
+hph(B):sho1:pGemT;  phleo(B):sho1:pGemT (replacement with Hygromycin  or phleomycin)
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Broad
+FOXG_09254
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+ CCV53898
+no data found
+ ΔinvA, Kanr
+no data found
+no data found
+no data found
+no data found
+no data found
+Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen 
+no data found
+no data found
+no data found
+no data found
+Genbank
+ CCV53898
+no data found
+YE15 Y1,  PΔinvA IS1667
+no data found
+no data found
+no data found
+no data found
+no data found
+Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen 
+no data found
+no data found
+no data found
+no data found
+Genbank
+ CCV53898
+no data found
+ ΔinvA, Kanr
+no data found
+no data found
+no data found
+no data found
+no data found
+Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen 
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004886_3
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+blood; peritoneal lavage fluid
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004886_3
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; bronchoalveolar lavage (BAL) fluid
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004886_3
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AE004886_3
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO81706
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen; liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA25725
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA25725
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA25725
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA25725
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EMR83808
+no data found
+no data found
+BcNoxA
+Uniprot: B0BES1
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAP12516
+no data found
+no data found
+BcNoxD
+Uniprot: M7UB04
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAP24433
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Kidneys
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAP24434
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Kidneys
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAR44372
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+CNS; serosae; joints
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACI10823
+no data found
+CG43SDpgaC::Tcr
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen; liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+YP_003368469
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+intestines (feces)
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAR54082
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+bronchial epithelial cell lines were used: 16HBE14o cells and CFBE41o
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAR55348
+no data found
+bceR- mutant, TmpR 9trimethoprim resistance)
+no data found
+no data found
+no data found
+no data found
+no data found
+seedlings
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+ANXA1
+Uniport: P10107; Genbank: CAA30371
+Lungs; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAW41592
+no data found
+MATα ktr3::NAT#159/KTR3::NEO
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+ELS43793
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFR93216
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs; brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAJ78765
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; spleen; liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFR93914
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs; brain; kidneys; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+ AFR98889
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs; brain; kidneys; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFR94339
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs; brain; kidneys; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFR94879
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs; brain; kidneys; liver; spleen
+no data found
+no data found
+no data found
+no data found

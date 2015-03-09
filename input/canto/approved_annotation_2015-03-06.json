@@ -1,0 +1,291 @@
+{
+   "curation_sessions" : {
+      "36e8ad26889b5b01" : {
+         "annotations" : [
+            {
+               "creation_date" : "2015-03-05",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "Enzyme assay data",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_00076" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_00076"
+                  }
+               },
+               "publication" : "PMID:654321",
+               "status" : "new",
+               "term" : "POO:0000001",
+               "type" : "phenotype_outcome"
+            }
+         ],
+         "metadata" : {
+            "accepted_timestamp" : "2015-03-05 13:50:12",
+            "admin_session" : "1",
+            "annotation_status" : "APPROVED",
+            "annotation_status_datestamp" : "2015-03-05 13:53:40",
+            "approval_in_progress_timestamp" : "2015-03-05 13:53:33",
+            "approved_timestamp" : "2015-03-05 13:53:40",
+            "approver_email" : "alistair.irvine@rothamsted.ac.uk",
+            "approver_name" : "Alistair Irvine",
+            "canto_session" : "36e8ad26889b5b01",
+            "curation_in_progress_timestamp" : "2015-03-05 13:50:32",
+            "curation_pub_id" : "PMID:654321",
+            "needs_approval_timestamp" : "2015-03-05 13:53:01",
+            "session_created_timestamp" : "2015-03-05 13:49:58",
+            "session_genes_count" : "1",
+            "session_term_suggestions_count" : "0",
+            "session_unknown_conditions_count" : "0",
+            "term_suggestion_count" : "0",
+            "unknown_conditions_count" : "0"
+         },
+         "organisms" : {
+            "426428" : {
+               "full_name" : "Fusarium oxysporum"
+            }
+         },
+         "publications" : {
+            "PMID:654321" : {}
+         }
+      },
+      "91ee12e39f28db51" : {
+         "annotations" : [
+            {
+               "creation_date" : "2015-03-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_02277" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_02277"
+                  }
+               },
+               "publication" : "PMID:123456",
+               "status" : "new",
+               "term" : "GO:0005515",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2015-03-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IDA",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_02277" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_02277"
+                  }
+               },
+               "publication" : "PMID:123456",
+               "status" : "new",
+               "submitter_comment" : "Alistair's Comment",
+               "term" : "MOD:00435",
+               "type" : "post_translational_modification"
+            },
+            {
+               "creation_date" : "2015-03-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_02277" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_02277"
+                  }
+               },
+               "publication" : "PMID:123456",
+               "status" : "new",
+               "term" : "GO:0045736",
+               "type" : "biological_process"
+            },
+            {
+               "creation_date" : "2015-03-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IDA",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_02277" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_02277"
+                  }
+               },
+               "publication" : "PMID:123456",
+               "status" : "new",
+               "term" : "MOD:01800",
+               "type" : "post_translational_modification"
+            },
+            {
+               "creation_date" : "2015-03-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "genes" : {
+                  "Fusarium oxysporum FOXG_02277" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_02277"
+                  }
+               },
+               "publication" : "PMID:123456",
+               "status" : "new",
+               "term" : "FYPO:0000276",
+               "type" : "phenotype"
+            },
+            {
+               "creation_date" : "2015-03-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_02277" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_02277"
+                  }
+               },
+               "publication" : "PMID:123456",
+               "status" : "new",
+               "term" : "GO:0048237",
+               "type" : "cellular_component"
+            }
+         ],
+         "metadata" : {
+            "accepted_timestamp" : "2015-03-04 18:10:58",
+            "admin_session" : "1",
+            "annotation_status" : "APPROVED",
+            "annotation_status_datestamp" : "2015-03-05 17:42:07",
+            "approval_in_progress_timestamp" : "2015-03-05 17:02:58",
+            "approved_timestamp" : "2015-03-05 17:42:07",
+            "approver_email" : "alistair.irvine@rothamsted.ac.uk",
+            "approver_name" : "Alistair Irvine",
+            "canto_session" : "91ee12e39f28db51",
+            "curation_in_progress_timestamp" : "2015-03-04 18:11:58",
+            "curation_pub_id" : "PMID:123456",
+            "link_sent_to_curator_date" : "2015-03-05 17:01:20",
+            "needs_approval_timestamp" : "2015-03-04 19:20:31",
+            "session_created_timestamp" : "2015-03-04 18:10:42",
+            "session_genes_count" : "1",
+            "session_term_suggestions_count" : "0",
+            "session_unknown_conditions_count" : "0",
+            "term_suggestion_count" : "0",
+            "unknown_conditions_count" : "0"
+         },
+         "organisms" : {
+            "426428" : {
+               "full_name" : "Fusarium oxysporum"
+            }
+         },
+         "publications" : {
+            "PMID:123456" : {}
+         }
+      },
+      "a92d05a140a43074" : {
+         "annotations" : [
+            {
+               "creation_date" : "2015-03-05",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "Enzyme assay data",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_00016" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_00016"
+                  }
+               },
+               "publication" : "PMID:111111",
+               "status" : "new",
+               "term" : "ESO:0000012",
+               "type" : "experiment_specification"
+            },
+            {
+               "creation_date" : "2015-03-05",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "Immunolocalization experiment data",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_00016" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_00016"
+                  }
+               },
+               "publication" : "PMID:111111",
+               "status" : "new",
+               "term" : "HRO:0000036",
+               "type" : "host_response"
+            },
+            {
+               "creation_date" : "2015-03-05",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "Cell growth assay",
+               "genes" : {
+                  "Fusarium oxysporum FOXG_00016" : {
+                     "organism" : "Fusarium oxysporum",
+                     "uniquename" : "FOXG_00016"
+                  }
+               },
+               "publication" : "PMID:111111",
+               "status" : "new",
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            }
+         ],
+         "metadata" : {
+            "accepted_timestamp" : "2015-03-05 16:36:42",
+            "annotation_status" : "APPROVED",
+            "annotation_status_datestamp" : "2015-03-05 16:59:59",
+            "approval_in_progress_timestamp" : "2015-03-05 16:59:44",
+            "approved_timestamp" : "2015-03-05 16:59:59",
+            "approver_email" : "alistair.irvine@rothamsted.ac.uk",
+            "approver_name" : "Alistair Irvine",
+            "canto_session" : "a92d05a140a43074",
+            "curation_in_progress_timestamp" : "2015-03-05 16:58:39",
+            "curation_pub_id" : "PMID:111111",
+            "needs_approval_timestamp" : "2015-03-05 16:58:50",
+            "session_created_timestamp" : "2015-03-05 16:36:29",
+            "session_genes_count" : "1",
+            "session_term_suggestions_count" : "0",
+            "session_unknown_conditions_count" : "0",
+            "term_suggestion_count" : "0",
+            "unknown_conditions_count" : "0"
+         },
+         "organisms" : {
+            "426428" : {
+               "full_name" : "Fusarium oxysporum"
+            }
+         },
+         "publications" : {
+            "PMID:111111" : {}
+         }
+      }
+   }
+}
+

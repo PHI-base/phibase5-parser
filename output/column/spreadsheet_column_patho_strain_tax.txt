@@ -475,7 +475,7 @@
 229533
 746128
 13684
-Rye
+5111
 5207
 5476
 5477
@@ -3184,10 +3184,10 @@ no data found
 no data found
 no data found
 no data found
-Monocot
 559306
 559306
-Monocot
+559306
+559306
 no data found
 559306
 no data found
@@ -3282,13 +3282,9 @@ no data found
 332648
 no data found
 no data found
-no data found
 652611
 no data found
-no data found
-no data found
 652611
-no data found
 no data found
 no data found
 no data found
@@ -3690,7 +3686,6 @@ no data found
 no data found
 no data found
 no data found
-no data found
 652611
 652611
 652611
@@ -3801,8 +3796,6 @@ no data found
 426428
 426428
 330879
-no data found
-no data found
 no data found
 no data found
 no data found
@@ -4174,3 +4167,599 @@ no data found
 208964
 208964
 no data found
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+1266464
+216592
+334819
+334819
+334819
+914127
+914127
+914127
+914127
+no data found
+948564
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+192222
+655819
+568076
+1310173
+no data found
+342109
+208964
+no data found
+498217
+1170229
+no data found
+no data found
+83332
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+321
+59511
+
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+218494
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+400667
+431947
+no data found
+229533
+229533
+229533
+229533
+229533
+229533
+229533
+229533
+229533
+229533
+697284
+660596
+660596
+218494
+no data found
+655819
+655819
+655819
+no data found
+1235829
+660469
+no data found
+383379
+no data found
+no data found
+169963
+no data found
+314565
+314565
+229533
+229533
+229533
+229533
+229533
+229533
+229533
+229533
+229533
+no data found
+439184
+85962
+223283
+223283
+223283
+223283
+223283
+223283
+223283
+223283
+223283
+223283
+223283
+223283
+223283
+223283
+no data found
+no data found
+no data found
+no data found
+272563
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+316273
+no data found
+no data found
+229533
+no data found
+229533
+502800
+502800
+502800
+502800
+no data found
+208964
+449239
+no data found
+1214186
+563041
+563041
+563041
+563041
+563041
+563041
+no data found
+373153
+373153
+373153
+373153
+373153
+373153
+373153
+373153
+373153
+373153
+373153
+373153
+373153
+no data found
+no data found
+no data found
+413071
+413071
+1441629
+1441629
+1441629
+1441629
+1441629
+1441629
+1441629
+208964
+208964
+no data found
+426428
+224914
+224914
+413071
+413071
+208964
+208964
+208964
+985075
+985075
+985075
+985075
+985075
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+229533
+no data found
+426428
+426428
+426428
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+1279085
+1131757
+1131757
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+360094
+360094
+360094
+no data found
+297246
+297246
+no data found
+272560
+1170230
+1170230
+948564
+948564
+948564
+948564
+948564
+948564
+948564
+948564
+948564
+948564
+948564
+948564
+948564
+948564
+no data found
+505235
+no data found
+235443
+235443
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+183190
+652611
+1271791
+1271791
+1271791
+1271791
+1271791
+1271791
+1271791
+1271791
+1271791
+1271791
+1271791
+1271791
+1271791
+no data found
+860569
+314565
+314565
+314565
+376619
+376619
+655827
+no data found
+no data found
+362663
+362663
+362663
+no data found
+1203670
+655819
+655819
+655819
+655819
+no data found
+no data found
+697284
+1266464
+1266464
+1266464
+1266464
+1213857
+1213857
+1213857
+1455062
+no data found
+no data found
+208964
+208964
+208964
+561307
+no data found
+no data found
+404331
+1131757
+1131757
+1237896
+no data found
+no data found
+no data found
+660596
+660596
+1203463
+1203463
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+1310173
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+332648
+1266464
+321614
+no data found
+no data found
+no data found
+568076
+665079
+665079
+665079
+665079
+665079
+665079
+no data found
+235443
+294750
+no data found
+426428
+426428
+665029
+665029
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+342110
+393133
+393133
+no data found
+no data found
+no data found
+no data found
+no data found
+367830
+693985
+223283
+83332
+914127
+no data found
+216895
+334819
+334819
+no data found
+no data found
+1034809
+401614
+383407
+383407
+383407
+505235
+505235
+505235
+505235
+216594
+216594
+426430
+no data found
+no data found
+no data found
+no data found
+no data found
+875330
+875330
+229533
+229533
+229533
+229533
+229533
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+1378093
+1378093
+1378093
+1378093
+208964
+208964
+1427985
+1203463
+1203463
+382245
+no data found
+235443
+235443
+235443
+1436183
+no data found
+no data found
+267608
+no data found
+no data found
+1150862
+1150862
+1150862
+1150862
+1150862
+1150862
+1150862
+1150862
+1150862
+no data found
+no data found
+no data found
+no data found
+293653
+293653
+293653
+588858
+426428
+426428
+426428
+426428
+426428
+426428
+426428
+426428
+426428
+426428
+426428
+426428
+1262466
+1262466
+1262466
+652611
+652611
+652611
+652611
+no data found
+no data found
+no data found
+no data found
+no data found
+332648
+332648
+260799
+260799
+1184252
+1244085
+no data found
+216591
+985075
+83331
+235443
+no data found
+235443
+no data found
+235443
+235443
+235443
+235443

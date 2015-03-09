@@ -475,7 +475,7 @@ Transducin beta-subunit
 transducin-beta-like gene acting as a component of the Set3 complex involved in late stages of ascospore formation
 Methylcitrate synthase
 MAP kinase
-
+GTPase
 Transcription factor
 Mannosyltransferase
 Mannosyltransferase
@@ -3184,10 +3184,10 @@ Candidate Effector genes
 Candidate Effector genes
 Candidate Effector genes
 Oligopeptidase B functions as a processing enzyme, generating an active Ca2 agonist from a cytosolic precursor molecule
-Rim or Pal pathway
+pH response /  involved in the formation of one of the signaling complexes located at the plasma membrane together with PalF/Rim21 and PalH/Rim8 proteins 
 pH response /  involvement in endosomal targeting
 pH response / encodes a putative calcium-activated cys-teine protease (calpain-like)
-Rim or Pal pathway
+pH response / putatively involved in endocytic trafﬁcking
 Stress-responsive transcription regulator
 O-mannosyltransferase
 Putative polyketide synthase
@@ -3281,18 +3281,10 @@ Regulatory protein linking light signals with development and secondary metaboli
 Regulatory protein linking light signals with development and secondary metabolism
 Regulatory protein linking light signals with development and secondary metabolism
 Urea metabolism
-"Cytoplasmic serine
-
-10.1371/journal.pone.0049123
-"Cytoplasmic serine
-
-10.1371/journal.pone.0049123
-"Cytoplasmic serine
-
-10.1371/journal.pone.0049123
-"Cytoplasmic serine
-
-10.1371/journal.pone.0049123
+Cytoplasmic serine protease
+Cytoplasmic serine protease
+Cytoplasmic serine protease
+Cytoplasmic serine protease
 4-amino-4-deoxy-L-arabinose (Ara4N) production
 Functions as a VirB8 chaperone to promote T4SS-mediated DNA transfer
 Alpha-crystallin-type small heat shock proteins
@@ -3686,7 +3678,7 @@ Single-stranded DNA-binding protein
 Hairpin
 Hairpin
 Single-stranded DNA-binding protein
-
+Toxin b -Hemolysin/Cytolysin production
 Iron-regulated genes encoding predicted outer membrane proteins
 Iron-regulated genes encoding predicted outer membrane proteins
 Effector protein
@@ -3806,12 +3798,8 @@ Required for virulence
 Transcriptor factor involved in the production of secreted protease
 Effector protein
 Effector protein
-"AK-Toxin
-
-10.1094/MPMI.2000.13.9.975
-"AK-Toxin
-
-10.1094/MPMI.2000.13.9.975
+AK-Toxin Biosynthesis
+AK-Toxin Biosynthesis
 Iron regulator
 Putative 3-hydroxyacyl-CoA dehydrogenase
 Putative short chain dehydrogenase
@@ -3819,8 +3807,8 @@ Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 no data found
 Reductase
-Reductase
 Putative short chain dehydrogenase
+Reductase
 Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 Putative short chain dehydrogenase
@@ -3834,8 +3822,8 @@ Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 no data found
 Reductase
-Reductase
 Putative short chain dehydrogenase
+Reductase
 Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 Putative short chain dehydrogenase
@@ -4179,3 +4167,599 @@ chemotaxis transducer protein
 phosphodiesterases
 chemotaxis transducer protein
 Type III secretion system
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Chitin synthesase
+Regulatory protein
+primary and secondary metabolism
+primary and secondary metabolism
+primary and secondary metabolism
+major QS regulator
+upstream negative regulator of smcR
+QS-dependent exoprotease
+QS-dependent exoprotease
+global regulator; member of the MarR (multiple antibiotic resistance regulator)/SarA (staphylococcal accessory regulator A) family proteins
+essential endoribonuclease
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Rho GTPase activating proteins
+Reproduction and pathogenicity
+serine protease
+Adenylate cyclase
+Adenylate cyclase
+glycosyltransferase
+nuclease
+Hybrid Histidine Kinase Sensor
+EF-Hand Protein involved in Ca2+ homeostasis
+EF-Hand Protein involved in Ca2+ homeostasis
+Nucleoid-associated  protein,   is  a  basic  DNA-binding protein  involved in gene regulation
+chitin synthase
+Acid trehalase involved in trehalose hydrolysis
+Acid trehalase involved in trehalose hydrolysis
+Global transcriptional regulator
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+DNase
+thioredoxin system
+thioredoxin system
+thioredoxin system
+thioredoxin system
+thioredoxin system
+glutathione reductase
+glutathione reductase
+Superoxide Dismutase
+folding of newly synthesized proteins, preventing misfolding and aggregation
+encodes the virulence factor Protease A
+encode the catalytic subunits of cyclic AMP (cAMP)-dependent protein kinase A (PKA)
+encode the catalytic subunits of cyclic AMP (cAMP)-dependent protein kinase A (PKA)
+adenylate cyclase
+encode the catalytic subunits of cyclic AMP (cAMP)-dependent protein kinase A (PKA)
+encode the catalytic subunits of cyclic AMP (cAMP)-dependent protein kinase A (PKA)
+encode the catalytic subunits of cyclic AMP (cAMP)-dependent protein kinase A (PKA)
+encode the catalytic subunits of cyclic AMP (cAMP)-dependent protein kinase A (PKA)
+adenylate cyclase
+encode the catalytic subunits of cyclic AMP (cAMP)-dependent protein kinase A (PKA)
+encode the catalytic subunits of cyclic AMP (cAMP)-dependent protein kinase A (PKA)
+encodes paenilamicin, a secondary metabolite antibiotic
+activate gene expression in response to oxidative stress
+activate gene expression in response to oxidative stress
+involved in pili production
+involved in pH-dependent negative regulator ofsecondary metabolite production
+glycolipid 2-alpha-mannosyltransferase
+glycosyltransferase family 15
+glycolipid 2-alpha-mannosyltransferase
+dihydroorotase (DHOase)
+acid-induced protein histidine triad protein and virulence factor
+Subtilisin-like protease involved in virulence
+ketoacid dehydrogenase (BCKDH) complex
+ketoacid dehydrogenase (BCKDH) complex
+effector protein
+effector protein
+membrane protein
+encodes  O-antigen  ligase
+histidine kinase
+bifunctional enzyme involved in c-di-GMP synthesis and degradation
+stress-related transcription factor gene
+stress-related transcription factor gene
+stress-related transcription factor gene
+stress-related transcription factor gene
+stress-related transcription factor gene
+stress-related transcription factor gene
+stress-related transcription factor gene
+stress-related transcription factor gene
+stress-related transcription factor gene
+Uridine triphosphate (UTP)-glucose-1-phosphate uridylyltransferase
+Stability protein for the plasmid
+NADH-flavin oxidoreductase
+effector protein
+Indoleacetate-lysine ligase
+DNA-binding response regulator
+Membrane protein, TerC family
+MutT/nudix family protein
+Alkaline proteinase inhibitor
+Oxidoreductase, iron-sulfur-binding protein
+effector protein
+Indoleacetate-lysine ligase
+DNA-binding response regulator
+Membrane protein, TerC family
+MutT/nudix family protein
+Alkaline proteinase inhibitor
+Oxidoreductase, iron-sulfur-binding protein
+effector protein
+effector protein
+effector protein
+effector protein
+motility
+argDgene encodes a predicted N-acetylornithine aminotransferase enzyme
+argDgene encodes a predicted N-acetylornithine aminotransferase enzyme
+cerato-platanin (CP)-like proteins
+cerato-platanin (CP)-like proteins
+cerato-platanin (CP)-like proteins
+necrosis- and ethylene-inducing protein
+The function of wxcBin the LPS biosynthesis cluster is related to the regulation of virulence, motility, biofilm formation, and SDS tolerance, but not LPS synthesis
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+kinase
+kinase
+kinase
+Part of the pyruvate - tricarboxylic acid cycle node
+Part of the pyruvate - tricarboxylic acid cycle node
+Part of the pyruvate - tricarboxylic acid cycle node
+Part of the pyruvate - tricarboxylic acid cycle node
+Required for oxidative stress tolerance and detoxifying the plant oxidative burst
+Periplasmic component of the Tol-Pal system, a multi-protein complex present in almost all Gram-negative bacteria which connects the cytoplasmic (or inner) membrane with the outer membrane.
+Member of the GNAT family, is the catalytic subunit of the Elongator complex.
+A modular, chitin-degrading protein, this enzyme is crucial for the degradation of the larval peritrophic matrix during infection.
+arginine-ornithine antiporter
+virulence determinants
+virulence determinants
+virulence determinants
+virulence determinants
+virulence determinants
+virulence determinants
+Part of cluster invloved in lipooligosaccharide synthesis
+essential gene
+essential gene
+essential gene
+essential gene
+pathogenitcity related
+pathogenitcity related
+pathogenitcity related
+pathogenitcity related
+pathogenitcity related
+pathogenitcity related
+pathogenitcity related
+pathogenitcity related
+no data found
+Histidine Kinase
+Histidine Kinase
+Histidine Kinase
+hydrophobinlike elicitor
+hydrophobinlike elicitor
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+factor responsible for cytotoxicity in lung epithelial cells
+factor responsible for cytotoxicity in lung epithelial cells
+phytotoxic protein
+Transcriptional regulators involved in morphological switching in dimorphic fungal pathogens.
+light sensing histidine kinase
+light sensing histidine kinase
+hydrophobinlike elicitor
+hydrophobinlike elicitor
+type III secretion (T3S) system
+type III secretion (T3S) system
+Required for the synthesis of the Pseudomonas quinolone signal, a quorum sensing signal molecule that contributes to slow killing and the red death phenotype in C. Elegans.
+phenylacetic acid catabolism
+phenylacetic acid catabolism
+phenylacetic acid catabolism
+phenylacetic acid catabolism
+phenylacetic acid catabolism
+Central role in response to nutrient stress
+Central role in response to nutrient stress
+Central role in response to nutrient stress
+Putative Snf1-activating kinases
+Putative Snf1-activating kinases
+Putative Snf1-activating kinases
+Putative Snf1-activating kinases
+kinases
+kinases
+Rho-type GTPases
+Rho-type GTPases
+Rho-type GTPases
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Part of the largest Effector Gene Cluster
+Calcium homeostasis and signaling
+Calcium homeostasis and signaling
+Calcium homeostasis and signaling
+Calcium homeostasis and signaling
+Calcium homeostasis and signaling
+encodes a transmembrane mucin
+encodes a transmembrane mucin
+cerato-platanin
+ morphological switch regulator
+two-component sensor kinase
+two-component sensor kinase
+Effector (plant avirulence determinant)
+Secreted proteins
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Secreted proteins
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Effector (plant avirulence determinant)
+Flagellar motility
+Flagellar motility
+Flagellar motility
+encoding SnodProt1
+iron transporter
+iron transporter
+inhibitor of progarmmed cell death in host during infection
+ transcriptional regulator located in the type III secretion system (T3SS-3) operon
+naphthalene dioxygenase
+ pectin lyase
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+c-di-GMPphosphodiesterases
+regulators of G-protein (GTP-binding protein) signaling (RGS) proteins/homocitrate synthase
+pH-Responsive Transcription Factor
+pH-Responsive Transcription Factor
+Phosphate-Regulated, Secreted, and Vacuolar Acid Phosphatase
+Phosphate-Regulated, Secreted, and Vacuolar Acid Phosphatase
+copper transporters
+copper transporters
+copper transporters
+copper transporters
+small heat shock proteins
+small heat shock proteins
+small heat shock proteins
+signal factor-dependent quorum-sensing system that suppresses Outer membrane vesicles
+1-Cys peroxiredoxin with thioldependent peroxidase activity
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+bZIP transcription factor
+Threonine deaminase
+Sterol Biosynthesis
+Cyclic di-GMP Effectors
+transcription regulator
+Cyclic di-GMP Effectors
+disulfide bond isomerase substrates
+disulfide bond isomerase substrates
+sucrose non-fermenting protein kinase
+putative laccase
+polyketide  synthase
+Antiporter gene
+Transcriptional activator protein
+Antiporter gene
+Heat sensitive alkyl sulphatase
+Surface protein
+Contribute to the fundamental biology and physiology.
+Contribute to the fundamental biology and physiology.
+Contribute to the fundamental biology and physiology.
+Contribute to the fundamental biology and physiology.
+Glycerol-3-phosphate dehydrogenase involved in glycerol fermentation
+transport of oligopeptides across the cell membrane
+Siderophore Bacillibactin
+flavohemoglobins
+S-nitrosoglutathione reductase
+flavohemoglobins
+flavohemoglobins
+Ras GTPase Activating Protein
+Ras genes
+Ras genes
+Lipopolysaccharide Biosynthesis and Pathogenicity
+b-lactamase induction
+b-lactamase induction
+a quorum sensing-dependent protease
+a quorum sensing-dependent protease
+a quorum sensing-dependent protease
+NO-synthase
+class III phosphoinositide 3-kinase
+catalytic subunit of the C. glabrata PI3K complex
+hyaluronate  lyase
+Quorum  sensing  system  to  regulate  several  genes  required  for  its  survival  and  pathogenicity  within  the  host.
+Quorum  sensing  system  to  regulate  several  genes  required  for  its  survival  and  pathogenicity  within  the  host.
+Regulation of PACC-Dependent Acid-Expressed-Genes and pathogenicity.
+Global regulators involved in stress tolerance and virulence.
+Global regulators involved in stress tolerance and virulence.
+transcriptional activator of the NtrC family
+siderophore-mediated iron acquisition
+siderophore-mediated iron acquisition
+contributes to efficient protein secretion by type III secretion system
+contributes to efficient protein secretion by type III secretion system
+Production of Patulin 
+Production of Patulin 
+Production of Patulin 
+Production of Citrinin
+Production of Citrinin
+Production of Citrinin
+Production of extracellular proteases
+flavin-binding sensor histidine kinase
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+Zn2Cys6 transcription factors
+involved in pathogeniticity
+involved in pathogeniticity
+involved in pathogeniticity
+involved in pathogeniticity
+putative subunit of V-ATPase
+Sugar transporter
+MAP kinase kinase kinase of the HOG (high-osmolarity glycerol response) pathway
+synthesis of (R)-mellein
+phosphoglucomutase
+Cytokine for maintaining homeostasis
+macrophage migrating inhibitory factor involved in inflammatory response
+Encoding a key component involved in nonhomologous end-joining DNA repair in fungi.
+Oxaloacetate acetylhydrolase
+Oxaloacetate acetylhydrolase
+Oxaloacetate acetylhydrolase
+Oxaloacetate acetylhydrolase
+Oxaloacetate acetylhydrolase
+Oxaloacetate acetylhydrolase
+cytoplasmic exonuclease
+vacuolar-sorting protein
+vacuolar-sorting protein
+Extracellular Heme-Binding Proteins
+transcription  factor
+transcription  factor
+regulation of stress and starvation response
+regulation of stress and starvation response
+virulence factors
+virulence factors
+virulence factors
+virulence factors
+virulence factors
+virulence factors
+assimilatory nitrate reductase
+metabolic regulator
+virulence regulatory gene
+Diels-Alderase
+Diels-Alderase
+Diels-Alderase
+Diels-Alderase
+Diels-Alderase
+aids  in  the  maturation  of  Iron-Sulphur  proteins
+c-di-GMP  phosphodiesterase
+c-di-GMP  phosphodiesterase
+mycobactin biosynthesis
+Grx3/glutathione-dependent  1-Cys peroxiredoxin
+RxLR Effector
+Production of MARTX toxin
+MADS-box transcription factor
+MADS-box transcription factor
+MADS-box transcription factor
+MADS-box transcription factor
+infection process
+Replicate and survive during murine infection.
+Production of gibberellin plant hormones.
+Production of gibberellin plant hormones.
+Production of gibberellin plant hormones.
+Regulator of the Fungal Hypoxia Response
+Regulator of the Fungal Hypoxia Response
+Regulator of the Fungal Hypoxia Response
+Regulator of the Fungal Hypoxia Response
+locus required for ESX-1 export
+locus required for ESX-1 export
+catabolite control protein
+Effector
+apoptosis mediator
+V0 subunit a gene
+acidification of the vacuole
+Component organelle trafficking protein
+Effector
+Effector
+fungal development and pathogenicity
+fungal development and pathogenicity
+fungal development and pathogenicity
+fungal development and pathogenicity
+fungal development and pathogenicity
+lytic polysaccharide monooxygenase
+pathogenesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+fusaric acid biosynthesis
+Proteolytic processing
+ virulence  mechanism
+ virulence  mechanism
+ virulence  mechanism
+ virulence  mechanism
+Quorum sensing
+Quorum sensing
+required for maximal disease severity and persistence in the swine lower respiratory tract
+phosphate metabolism
+phosphate metabolism
+TTSS effector protein
+codes for a signal  transduction  histidine-protein  kinase
+Ferric Reductases
+Ferric Reductases
+Ferric Reductases
+Mitochondrial transmembrane protein
+Lipase activity
+Lipase activity
+feruloyl-CoA synthetase involved in HCA degradation
+involved in the integrity of the T6SS1 apparatus
+N-acyl  homoserine  lactonase
+involved in virulence
+involved in virulence
+involved in virulence
+involved in virulence
+involved in virulence
+involved in virulence
+involved in virulence
+involved in virulence
+involved in virulence
+ a receptor for ferric vulnibactin
+hemin receptor
+hemin receptor
+encodes an outer membrane protein
+phosphoenolpyruvate phosphotransferase system
+Streptolysin S biosynthesis protein
+phosphoenolpyruvate phosphotransferase system
+lactose negativity
+Tetraspan transmembrane protein
+mucin-like membrane protein
+Tetraspan transmembrane protein
+mucin-like membrane protein
+Tetraspan transmembrane protein
+mucin-like membrane protein
+Tetraspan transmembrane protein
+mucin-like membrane protein
+Tetraspan transmembrane protein
+mucin-like membrane protein
+Tetraspan transmembrane protein
+mucin-like membrane protein
+primary adhesion factor
+primary adhesion factor
+primary adhesion factor
+Sensor Kinase
+Sensor Kinase
+Sensor Kinase
+Sensor Kinase
+encodes a protein resembling mammalian and bacterial TIR proteins
+Effector
+Effector
+Effector
+Effector
+NADPH oxidase complex
+NADPH oxidase complex
+Tellurite Resistance
+Tellurite Resistance
+no data found
+Production of poly-b-linkedN-acetylglucosamine
+Class 1 Serine Protease Autotransporter
+Multifunctional Trimeric Autotransporter
+response regulator
+Immune response
+Protein  O-mannosylation
+a peptide derivative that inhibits the eukaryotic proteasome
+flippase
+lipoprotein involved in cell dicision and virulence
+Phosphate Acquisition and Storage
+Phosphate Acquisition and Storage
+Phosphate Acquisition and Storage
+Phosphate Acquisition and Storage

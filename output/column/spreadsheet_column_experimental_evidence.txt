@@ -1,13 +1,13 @@
 gene disruption
 gene deletion; complementation; biochemical evidence
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
+gene disruption; gene complementation
 biochemical analysis; mutation: characterised; complementation
 mutation: characterised
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -24,32 +24,32 @@ other evidence
 complementation
 complementation
 complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion; biochemical analysis
-gene disruption; gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 other evidence
 gene disruption
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -65,30 +65,30 @@ gene disruption
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene deletion
 gene deletion
-gene disruption; complementation
+gene disruption; gene complementation
 gene deletion
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene disruption
 gene disruption; altered gene expression / gene regulation: overexpression; complementation
 gene disruption
@@ -96,21 +96,21 @@ gene disruption
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene deletion
 gene disruption
 gene disruption
-gene deletion; complementation
+gene deletion; gene complementation
 complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -118,202 +118,202 @@ gene disruption
 gene disruption
 gene disruption
 mutation: characterised
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene deletion
 gene disruption
 gene disruption
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene deletion; altered gene expression / gene regulation: overexpression
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
-gene disruption
-gene deletion
-gene deletion; complementation
-gene disruption
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene deletion
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene deletion
+gene deletion; gene complementation
+gene disruption
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion
+gene disruption
+gene deletion
 gene deletion
 gene disruption
 gene disruption
 gene deletion
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
+gene disruption; gene complementation
 altered gene expression / gene regulation
 gene deletion
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 altered gene expression / gene regulation: downregulation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
 functional test in host
 functional test in host
 functional test in host
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene deletion
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 gene disruption
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
 gene deletion
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
 gene deletion
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene deletion
 gene disruption
@@ -321,28 +321,28 @@ gene deletion
 gene deletion
 gene deletion
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion; biochemical analysis
 gene disruption
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 altered gene expression / gene regulation: silencing
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene deletion; gene complementation
 gene disruption
-gene disruption; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene disruption
-gene disruption; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 other evidence
 gene deletion
 gene deletion
@@ -351,121 +351,121 @@ gene deletion
 gene deletion
 gene disruption
 gene deletion
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 altered gene expression / gene regulation: down- and upregulation
 mutation: characterised
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
 gene deletion; complementation; biochemical evidence
 gene deletion
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
+gene disruption; gene complementation
 gene deletion
 gene deletion
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
 gene deletion
-gene disruption; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 altered gene expression / gene regulation: silencing
-gene deletion; complementation
+gene deletion; gene complementation
 gene deletion
 gene disruption
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption; gene mutation: characterised
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 altered gene expression / gene regulation: overexpression
-gene disruption; complementation
+gene disruption; gene complementation
 gene deletion
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene deletion; gene complementation
 gene disruption
 gene disruption
-gene disruption; gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene disruption; gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
 altered gene expression / gene regulation: silencing
-gene deletion; complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
 gene deletion
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -475,46 +475,46 @@ gene disruption
 Gene deletion: partial
 gene deletion
 gene disruption
-PubMed
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; gene deletion; complementation
-gene disruption; gene deletion; complementation
-gene disruption; gene deletion; complementation
-gene disruption; gene deletion; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene deletion; gene complementation
+gene disruption; gene deletion; gene complementation
+gene disruption; gene deletion; gene complementation
+gene disruption; gene deletion; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 altered gene expression / gene regulation: overexpression
 gene disruption
 gene disruption
 gene disruption
 mutation
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 mutation
 other evidence
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 gene deletion
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -522,22 +522,22 @@ gene disruption
 gene deletion
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene deletion
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
 gene deletion
 gene deletion
 altered gene expression / gene regulation: silencing
 altered gene expression / gene regulation: silencing
 altered gene expression / gene regulation: silencing
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 altered gene expression / gene regulation: silencing
 other evidence
 gene deletion
@@ -554,15 +554,15 @@ other evidence
 other evidence
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -570,10 +570,10 @@ gene disruption
 gene disruption
 gene disruption; altered gene expression / gene regulation: overexpression
 gene disruption; altered gene expression / gene regulation: overexpression
-gene deletion; complementation
+gene deletion; gene complementation
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
 other evidence
 functional test in host: direct injection
@@ -605,17 +605,17 @@ gene deletion
 gene deletion
 gene deletion
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene deletion
 gene deletion
@@ -665,10 +665,10 @@ gene disruption
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
 gene deletion
 other evidence
@@ -685,23 +685,23 @@ other evidence
 other evidence
 other evidence
 other evidence
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-altered gene expression / gene regulation; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+altered gene expression / gene regulation; gene complementation
 altered gene expression / gene regulation: overexpression
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
+gene disruption; gene complementation
 other evidence
 other evidence
 other evidence
@@ -779,41 +779,41 @@ functional test in host: direct injection
 functional test in host: direct injection
 functional test in host: direct injection
 functional test in host: direct injection
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption
-gene disruption
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene deletion; complementation
 gene disruption
-gene deletion; complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene disruption
+gene deletion; gene complementation
+gene disruption
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -827,7 +827,7 @@ gene disruption
 gene disruption
 gene deletion
 other evidence
-gene deletion; complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
 gene disruption
@@ -856,20 +856,20 @@ gene disruption
 gene disruption
 gene disruption
 gene disruption; complementation; other evidence
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
 gene deletion
@@ -890,7 +890,7 @@ functional test in host: transient expression
 functional test in host: transient expression
 functional test in host: transient expression
 functional test in host: transient expression
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
 gene disruption
 gene disruption; gene deletion
@@ -952,7 +952,7 @@ altered gene expression / gene regulation: overexpression
 mutation: characterised
 mutation: characterised
 complementation
-gene deletion; complementation
+gene deletion; gene complementation
 biochemical analysis; mutation: characterised
 sexual cross, sequencing of resistance conferring allele
 mutation: characterised
@@ -971,23 +971,21 @@ sequence analysis of sensitive and resistant strains
 sequence analysis of sensitive and resistant strains
 sequence analysis of sensitive and resistant strains
 sequence analysis of sensitive and resistant strains
-gene deletion; complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene deletion
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene disruption
-gene deletion; complementation
+gene deletion; gene complementation
 gene disruption
-gene disruption; complementation
-gene disruption
-gene disruption
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -1009,6 +1007,8 @@ gene disruption
 gene disruption
 gene disruption
 gene disruption
+gene disruption
+gene disruption
 gene deletion
 gene deletion
 gene deletion
@@ -1020,9 +1020,9 @@ gene deletion
 gene deletion
 gene deletion
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
 gene deletion
@@ -1076,92 +1076,92 @@ gene deletion
 gene deletion
 gene deletion
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion
-gene deletion
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene deletion
-gene deletion
-gene deletion
-gene deletion
-gene deletion
-gene deletion
-gene deletion; complementation
-gene deletion
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion
+gene deletion
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion
+gene deletion
+gene deletion
+gene deletion
+gene deletion
+gene deletion
+gene deletion; gene complementation
+gene deletion
+gene deletion; gene complementation
 gene deletion
 gene deletion
 gene disruption
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene deletion; altered gene expression / gene regulation: overexpression
 gene deletion; altered gene expression / gene regulation: overexpression
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
 gene disruption
@@ -1170,9 +1170,9 @@ gene disruption
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
@@ -1186,116 +1186,116 @@ gene disruption
 gene deletion
 gene deletion
 gene deletion
-gene deletion; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
-gene disruption; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
-gene disruption; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption
 gene disruption
 gene disruption
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene disruption; complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption; gene complementation
 gene disruption
 sequence analysis of sensitive and resistant strains
 gene disruption
 gene disruption
 gene disruption
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene deletion
-gene deletion
-gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion; complementation
-gene deletion
-gene deletion; complementation
-gene deletion; complementation
-gene disruption
-gene disruption
-gene deletion
-gene deletion
-gene disruption
-gene disruption
-gene disruption
-gene disruption
-gene disruption
-gene disruption; complementation
-gene disruption
-gene disruption
-gene disruption
-gene disruption
-gene disruption
-gene disruption
-gene disruption; complementation
-gene disruption
-gene disruption
-gene disruption
-gene deletion; complementation
-gene deletion; complementation
-gene disruption
-gene disruption
-gene disruption
-gene disruption
-gene disruption; complementation
-gene disruption; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
 gene deletion
 gene deletion
 gene deletion
-gene deletion; complementation
-gene deletion; complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption
+gene disruption
+gene deletion
 gene deletion
 gene disruption
-gene disruption; complementation
-gene deletion
-gene deletion
-gene deletion
-
-
-
-
-
-
-
-
-
-
-
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
 gene disruption
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
-gene disruption; complementation
+gene disruption
+gene disruption
+gene disruption
+gene disruption; gene complementation
+gene disruption
+gene disruption
+gene disruption
+gene disruption
+gene disruption
+gene disruption
+gene disruption; gene complementation
+gene disruption
+gene disruption
+gene disruption
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene disruption
+gene disruption
+gene disruption
+gene disruption
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene deletion
+gene deletion
+gene deletion
+gene deletion; gene complementation
+gene deletion; gene complementation
+gene deletion
+gene disruption
+gene disruption; gene complementation
+gene deletion
+gene deletion
+gene deletion
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
+gene disruption; gene complementation
 gene disruption; complementation; other evidence
-gene disruption; complementation
+gene disruption; gene complementation
 gene disruption; other evidence
 mutation: characterised
 gene deletion
@@ -1312,66 +1312,66 @@ biochemical analysis; mutation: characterised
 gene deletion
 gene deletion
 gene deletion
-Gene deletion: full; complementation
-Gene deletion: full; complementation
-Gene deletion: full; complementation
-Gene deletion: full; complementation
-Gene deletion: full; complementation
+Gene deletion: full; gene complementation
+Gene deletion: full; gene complementation
+Gene deletion: full; gene complementation
+Gene deletion: full; gene complementation
+Gene deletion: full; gene complementation
 Gene deletion: partial; complementation
 Gene deletion: partial; complementation
 Gene deletion: partial
 Gene deletion: full; heterologous expression
-
-Gene deletion: full; Gene complementation;
-
-
-
-
-
-
+gene deletion: full
+Gene deletion: full; Gene complementation
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
+gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
-Gene deletion: full; Gene complementation;
+Gene deletion: full; Gene complementation
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
-Gene deletion: full; Gene complementation;
+Gene deletion: full; Gene complementation
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
-Gene deletion: full; Gene complementation;
+Gene deletion: full; Gene complementation
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
-Gene deletion: full; Gene complementation;
-Gene deletion: full; Gene complementation;
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
-Gene deletion: full; Gene complementation;
+Gene deletion: full; Gene complementation
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
-
-
-Gene deletion: full; Gene complementation;
-Gene deletion: full; Gene complementation;
-
+gene deletion: full
+gene deletion: full
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
@@ -1446,9 +1446,9 @@ Gene deletion: full
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
- Gene disruption; Gene deletion: full; gene complementation
- Gene disruption; Gene deletion: full; gene complementation
- Gene disruption; Gene deletion: full; gene complementation
+Gene disruption; Gene deletion: full; gene complementation
+Gene disruption; Gene deletion: full; gene complementation
+Gene disruption; Gene deletion: full; gene complementation
 Gene deletion
 Gene deletion
 Gene deletion
@@ -2476,13 +2476,13 @@ no data found
 no data found
 no data found
 no data found
-Gene disruption: Gene complementation
+Gene disruption; Gene complementation
 no data found
 no data found
 no data found
 no data found
 no data found
-Gene disruption: Gene complementation
+Gene disruption; Gene complementation
 Gene disruption
 Gene disruption
 Gene disruption
@@ -2634,6 +2634,7 @@ Gene Disruption; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full
+Gene deletion: full
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full
@@ -2670,8 +2671,8 @@ Gene disruption; Gene complementation
 Gene disruption
 Gene deletion: full; Gene complementation
 Gene deletion: full
-Sexual cross, sequencing of resistance conferring allel
-Sexual cross, sequencing of resistance conferring allel
+Sexual cross, sequencing of resistance conferring allele
+Sexual cross, sequencing of resistance conferring allele
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
@@ -2764,8 +2765,8 @@ Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene disruption; Gene complementation
-Gene deletion: full; Gene complementation;
-Gene deletion: full; Gene complementation;
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
 Gene deletion
 Gene deletion
 Gene deletion
@@ -2831,7 +2832,7 @@ Gene disruption
 altered gene expression / gene regulation: silencing
 altered gene expression / gene regulation: silencing
 Gene deletion: full; Gene complementation
-Gene mutation characterised; Gene complementation
+Gene mutation: characterised; gene complementation
 Gene disruption
 Altered gene expression / gene regulation: overexpression
 Gene deletion: full
@@ -2942,9 +2943,9 @@ Gene deletion: full
 Gene disruption; Gene complementation
 Gene disruption; Gene complementation
 Gene disruption; Gene complementation
-Gene mutation: characterised; Gene complementation
-Gene mutation: characterised; Gene complementation
-Gene mutation: characterised; Gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Functional test in host: transient expression
@@ -3000,7 +3001,7 @@ Gene disruption
 Gene disruption
 Gene mutation
 Gene deletion: full; Gene complementation
-Functional test in host: transinet expression
+Functional test in host: transient expression
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
@@ -3054,15 +3055,15 @@ Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 altered gene expression/ gene regulation: overexpression
 Gene deletion: full
-Gene mutation: characterised; Gene complementation
+Gene mutation: characterised; gene complementation
 Gene deletion: full; Gene complementation
 Altered gene expression / gene regulation: overexpression
 Gene deletion: full; Gene complementation
 Gene mutation: characterised
-Gene mutation: characterised; Gene complementation
-Gene mutation: characterised; Gene complementation
-Gene mutation: characterised; Gene complementation
-Gene mutation: characterised; Gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
@@ -3082,7 +3083,7 @@ Gene disruption
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene disruption
-Gene disruption: Gene complementation
+Gene disruption; Gene complementation
 Altered gene expression / gene regulation
 Altered gene expression / gene regulation
 Altered gene expression / gene regulation
@@ -3183,10 +3184,10 @@ Functional test in host
 Functional test in host
 Functional test in host
 Gene deletion: full; Gene complementation
-RP
+Gene deletion: full
 Gene deletion: full
 Gene disruption
-RP
+Gene disruption
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene disruption
@@ -3280,6 +3281,10 @@ Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
+Gene mutation: characterised
+Gene mutation: characterised
+Gene mutation: characterised
+Gene mutation: characterised
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
@@ -3356,8 +3361,8 @@ Gene disruption
 Gene disruption
 Gene disruption
 Gene disruption
-Gene mutation: characterised;  Gene complementation
-Gene mutation: characterised;  Gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
 Gene disruption
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
@@ -3385,7 +3390,7 @@ Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
-Gene mutation: characterised;  Gene complementation
+Gene mutation: characterised; gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
@@ -3673,6 +3678,7 @@ Gene deletion: full; Gene complementation
 Gene deletion: full
 Gene deletion: full
 Gene deletion: full
+Gene deletion: full
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Functional test in host: transient expression
@@ -3790,6 +3796,8 @@ Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene deletion: full; Gene complementation
 Gene disruption
+Gene deletion
+Gene deletion
 Gene deletion
 Gene deletion
 Gene deletion; Gene complementation
@@ -4046,13 +4054,13 @@ Gene mutation: characterised
 Gene mutation: characterised
 Gene mutation: characterised
 Gene mutation: characterised
-Gene mutation: characterised: Gene complementation
-Gene mutation: characterised: Gene complementation
-Gene mutation: characterised: Gene complementation
-Gene mutation: characterised: Gene complementation
-Gene mutation: characterised: Gene complementation
-Gene deletion: full;  Gene complementation
-Gene deletion: full;  Gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
+Gene mutation: characterised; gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
 Gene disruption
 Gene disruption
 Gene deletion: partial
@@ -4159,3 +4167,599 @@ Gene mutation
 Gene mutation
 Gene mutation
 Gene mutation; Gene complementation
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene deletion: Full
+Gene mutation; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation
+Gene mutation; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Altered gene expression/ gene regulation: silencing
+Gene mutation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene mutation: characterised; gene complementation
+Altered gene expression/ gene regulation: overexpression
+Gene deletion: partial; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene mutation; gene complementation
+Gene deletion: partial
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene deletion: Full; Gene complementation
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+other evidence
+Gene mutation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene mutation; gene complementation
+Functional test in host: direct injection
+Functional test in host: direct injection
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene disruption
+Gene mutation
+Gene mutation
+Gene mutation; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene mutation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene disruption; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene deletion: Full; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation: characterised
+Gene mutation: characterised
+Gene mutation: characterised
+Gene mutation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Functional test in host: dipping
+Functional test in host: direct injection
+Functional test in host: direct injection
+Functional test in host: direct injection
+Gene disruption; Gene complementation
+Functional test in host: transient expression
+Gene disruption
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene disruption
+Gene disruption
+Gene disruption
+Gene disruption
+Altered gene expression/ gene regulation: silencing
+Gene mutation
+Gene deletion: full; Gene complementation
+Altered gene expression/ gene regulation: down regulation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Altered gene expression/ gene regulation: overexpression
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene mutation
+Biochemical analysis
+Functional test in host: direct injection
+Gene deletion: full; Gene complementation
+Gene deletion: full
+Gene deletion: full
+Functional test in host: dipping
+Functional test in host: dipping
+Functional test in host: feeding
+Functional test in host: feeding
+Functional test in host: feeding
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Functional test in host: Direct injection
+Gene mutation; gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Functional test in host: transient expression
+Functional test in host: transient expression
+Functional test in host: transient expression
+Functional test in host: transient expression
+Functional test in host: transient expression
+Functional test in host: transient expression
+Functional test in host: transient expression
+Functional test in host: transient expression
+Functional test in host: transient expression
+Functional test in host: transient expression
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Other evidence: gene expression
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene mutation
+Gene deletion: full; Gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene disruption; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Altered gene expression/ gene regulation: silencing
+Altered gene expression/ gene regulation: silencing
+Gene deletion: full; Gene complementation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene mutation; gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Functional test in host: direct injection
+Functional test in host: direct injection
+Functional test in host: direct injection
+Gene disruption; Gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene mutation
+Gene mutation; gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Other evidence: subtractive Hyridization
+Other evidence: subtractive Hyridization
+Other evidence: subtractive Hyridization
+Other evidence: subtractive Hyridization
+Gene disruption; Gene complementation
+Gene deletion: full
+Gene deletion: full; Gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene disruption
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene deletion: full; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full; Gene complementation
+Gene mutation; gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene mutation; gene complementation
+Functional test in host: transient expression
+Gene deletion: full; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene mutation; gene complementation
+Gene mutation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene disruption; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene disruption
+Gene disruption; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene deletion: full
+Altered gene expression/ gene regulation: silencing
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene mutation
+Gene disruption
+Gene disruption
+Gene disruption; gene complementation
+Gene disruption; gene complementation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation
+Gene mutation; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene disruption; gene complementation
+Gene disruption; gene complementation
+Gene disruption; gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene disruption
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Altered gene expression/ gene regulation: constitutive expression
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene mutation
+Altered gene expression/ gene regulation: Overexpression
+Gene mutation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene deletion: full; Gene complementation
+Gene deletion: full; Gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Altered gene expression/ gene regulation: Overexpression
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene deletion: full
+Gene mutation; gene complementation
+Gene mutation; gene complementation
+Gene mutation
+Gene disruption; gene complementation
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full
+Gene deletion: full

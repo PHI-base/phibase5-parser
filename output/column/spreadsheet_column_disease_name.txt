@@ -1,11 +1,11 @@
 Leaf spot
-Leaf mold
+Leaf mould
 Leaf spot
 Cryptococcosis
 Cryptococcosis
 Rice blast
 Candidiasis
-Leaf mold
+Leaf mould
 Cryptococcosis
 Corn smut
 Take-all
@@ -52,15 +52,15 @@ Candidiasis
 Candidiasis
 Candidiasis
 Candidiasis
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Leaf mold
-Leaf mold
-Leaf mold
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Leaf mould
+Leaf mould
+Leaf mould
 Candidiasis
 Candidiasis
 Candidiasis
@@ -91,9 +91,9 @@ Corn smut
 Rice blast
 Corn smut
 Respiratory disease
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
 Candidiasis
 Candidiasis
 Candidiasis
@@ -146,9 +146,9 @@ Leaf spot
 Corn smut
 Histoplasmosis (pulmonary disease)
 Alternaria leaf blotch
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
 Candidiasis
 Histoplasmosis (pulmonary disease)
 Anthracnose
@@ -191,13 +191,13 @@ Candidiasis
 Candidiasis
 Candidiasis
 Candidiasis
-Leaf mold
+Leaf mould
 Vascular wilt
 Rice blast
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Candidiasis
 Candidiasis
 Candidiasis
@@ -242,7 +242,7 @@ Phaeohyphomycosis
 Phaeohyphomycosis
 Phaeohyphomycosis
 Candidiasis
-Grey mold rot
+Grey mould
 Cryptococcosis
 Cryptococcosis
 Candidiasis
@@ -282,16 +282,16 @@ Coccidioidomycosis
 Candidiasis
 Cryptococcosis
 Cryptococcosis
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Candidiasis
 Cryptococcosis
 Candidiasis
@@ -327,8 +327,8 @@ Fusarium ear blight
 Septoria leaf blotch
 Rice blast
 Cryptococcosis
-White mold/stem rot
-White mold/stem rot
+White mould/stem rot
+White mould/stem rot
 Vascular wilt
 Vascular wilt
 Late blight
@@ -344,11 +344,11 @@ Cryptococcosis
 Rice blast
 Candidiasis
 Downy mildew
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Candidiasis
 Anthracnose
 Candidiasis
@@ -454,14 +454,14 @@ Aspergillosis
 Candidiasis
 Cryptococcosis
 Ergot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
 Fusarium ear blight
 Candidiasis
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Fusarium ear blight
 Fusarium ear blight
 Fusarium ear blight
@@ -475,7 +475,7 @@ Fusarium ear blight
 Fusarium ear blight
 Aspergillosis
 Glume blotch
-
+Ergot
 Cryptococcosis
 Candidiasis
 Candidiasis
@@ -502,7 +502,7 @@ Candidiasis
 Leaf spot
 Cryptococcosis
 Candidiasis
-Leaf mold
+Leaf mould
 Late blight
 Cryptococcosis
 Candidiasis
@@ -530,8 +530,8 @@ Cryptococcosis
 Cryptococcosis
 Vascular wilt
 Candidiasis
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
 Candidiasis
 Aspergillosis
 Aspergillosis
@@ -575,7 +575,7 @@ Corn smut
 Candidiasis
 Candidiasis
 Corn smut
-Leaf mold
+Leaf mould
 Root rot
 Downy mildew
 Flax rust
@@ -586,41 +586,41 @@ Tan spot
 Flax rust
 Flax rust
 Flax rust
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Rice blast
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Gastroenteritis
 Gastroenteritis
 Gastroenteritis
@@ -665,7 +665,7 @@ Leaf spot
 Leaf spot
 Leaf spot
 Leaf spot
-Grey mold rot
+Grey mould
 
 
 
@@ -753,8 +753,8 @@ Gastroenteritis
 Gastroenteritis
 Gastroenteritis
 Gastroenteritis
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
 Root rot
 Root rot
 Late blight
@@ -955,7 +955,7 @@ Rice blast
 Corn smut
 Septoria leaf blotch
 Wheat powdery mildew
-Grey mold rot
+Grey mould
 Septoria leaf blotch
 Septoria leaf blotch
 Septoria leaf blotch
@@ -1158,38 +1158,38 @@ Potato scab
 Vascular wilt
 Vascular wilt
 Vascular wilt
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Ergot
 Ergot
 Ergot
@@ -1310,7 +1310,7 @@ Septoria leaf blotch
 Septoria leaf blotch
 Septoria leaf blotch
 Septoria leaf blotch
-Grey mold rot
+Grey mould
 Septoria leaf blotch
 Fusarium ear blight
 Fusarium ear blight
@@ -2700,25 +2700,25 @@ Vascular wilt
 Black spot
 Black spot
 Black spot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Aspergillosis
 Aspergillosis
 Fusarium ear blight
 Fusarium ear blight
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Black spot
 Aspergillosis
-Grey mold rot
+Grey mould
 Rice blast
 Rice blast
 Rice blast
@@ -2730,26 +2730,26 @@ Rice blast
 Rice blast
 Rice blast
 Citrus brown spot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Aspergillosis
 Fusarium wilt
-Grey mold rot
-Grey mold rot
-Grey mold rot
-Grey mold rot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Vascular wilt
 Vascular wilt
 Green muscardine disease
 Green muscardine disease
 Green muscardine disease
-White mold
-White mold
+White mould
+White mould
 Leaf blight
 Leaf blight
 Leaf blight
@@ -2758,7 +2758,7 @@ Leaf blight
 Leaf blight
 Leaf blight
 Leaf blight
-Brown spot disease
+Brown spot
 No data found
 Grey mould
 Leaf spot
@@ -2795,9 +2795,9 @@ Bacterial grain rot
 Grey mould
 Grey mould
 Phytophthora blight
-Leaf mold
-Leaf mold
-Leaf mold
+Leaf mould
+Leaf mould
+Leaf mould
 Maize stalk rot
 White muscardine disease
 Grey mould
@@ -2824,13 +2824,13 @@ Fusarium head blight
 Rice Blast
 no data found
 Invasive pulmonary aspergillosis
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-White mold
-White mold
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+White mould
+White mould
 Vascular wilt
 Maize smut disease
 Vascular wilt
@@ -2840,44 +2840,44 @@ Southern corn leaf blight
 Southern corn leaf blight
 Southern corn leaf blight
 Southern corn leaf blight
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Gray mold
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Citrus brown spot
-Gray mold
-Gray mold
-Gray mold
-Gray mold
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
+Black spot
 Maize smut disease
 Maize smut disease
 Maize smut disease
@@ -2939,7 +2939,7 @@ Downy mildew
 Downy mildew
 Downy mildew
 Downy mildew
-White mold/stem rot
+White mould/stem rot
 Bacterial spot disease
 Anthracnose stalk rot and leaf blight of maize
 Citrus brown spot
@@ -2988,10 +2988,10 @@ no data found
 no data found
 Bacterial blight of Rice
 Bacterial blight of Rice
-Gray mold
-Gray mold
-Citrus brown spots
-Citrus brown spots
+Grey mould
+Grey mould
+Citrus brown spot
+Citrus brown spot
 no data found
 Tan spot
 Fusarium head blight
@@ -3001,7 +3001,7 @@ Fusarium head blight
 Muskmelon wilt disease
 Muskmelon wilt disease
 Maize Smut Disease
-Vascular wilt fungus
+Vascular wilt
 Fire blight
 Fire blight
 Fire blight
@@ -3029,31 +3029,31 @@ Fire blight
 Fire blight
 Anthracnose
 Anthracnose
-Chestnut blight fungus
+Chesnut blight
 Bacterial wilt
 Bacterial wilt
 Bacterial wilt
 Bacterial wilt
-Soft rot disease
-Soft rot disease
-Soft rot disease
-Soft rot disease
+Soft rot
+Soft rot
+Soft rot
+Soft rot
 Citrus canker
 Citrus canker
-Brown spot disease
-Brown spot disease
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
+Brown spot
+Brown spot
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Rice Blast
 Bacterial leaf blight
 Leishmaniasis
@@ -3076,10 +3076,10 @@ Fire blight
 Fusarium head blight
 Invasive pulmonary aspergillosis
 Invasive pulmonary aspergillosis
-Black spot disease
-Black spot disease
-Black spot disease
-Black spot disease
+Black spot
+Black spot
+Black spot
+Black spot
 Invasive pulmonary aspergillosis
 Invasive pulmonary aspergillosis
 Invasive pulmonary aspergillosis
@@ -3184,14 +3184,14 @@ no data found
 no data found
 no data found
 Chagas Disease
-Maize
 Maize smut disease
 Maize smut disease
-Maize
+Maize smut disease
+Maize smut disease
 Citrus brown spot
 Maize smut disease
-Leaf spot disease
-Leaf spot disease
+Leaf spot
+Leaf spot
 Histoplasmosis
 Chagas Disease
 Tomato wilt
@@ -3214,8 +3214,8 @@ Maize smut disease
 Maize smut disease
 Citrus brown spot
 Maize smut disease
-Leaf spot disease
-Leaf spot disease
+Leaf spot
+Leaf spot
 Histoplasmosis
 Chagas Disease
 Tomato wilt
@@ -3277,18 +3277,14 @@ Salmonellosis
 Food poisoning
 Food poisoning
 Urinary tract infections, nosocomial pneumonia, intra-abdominal infections
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
+Grey mould
+Grey mould
+Grey mould
 Disseminated candidiasis
 Nosocomial infections
-
 Nosocomial infections
-
 Nosocomial infections
-
 Nosocomial infections
-
 Food poisoning
 Crown gall disease
 Crown gall disease
@@ -3313,7 +3309,7 @@ Panicle blight
 Panicle blight
 Panicle blight
 Tuberculosis
-Grey mould fungus
+Grey mould
 Nosocomial infections
 Nosocomial infections
 Nosocomial infections
@@ -3650,18 +3646,18 @@ Bacterial leaf streak
 Bacterial leaf streak
 Bacterial leaf streak
 Bacterial leaf streak
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
-Grey mould fungus
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
 Soybean stem and root rot
 Soybean stem and root rot
 Fusarium head blight
@@ -3682,13 +3678,13 @@ Leaf blight
 Leaf blight
 Leaf blight
 Leaf blight
-no data found
+Pneumonia, Meningitis, Sepsis
 Tuberculosis
 Tuberculosis
-Bacterial specks
-Bacterial specks
-Bacterial specks
-Bacterial specks
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
 Smut disease
 Soft rot
 Soft rot
@@ -3803,9 +3799,7 @@ Aspergillosis
 Rice Blast
 Rice Blast
 Black Spot of pear
-
 Black Spot of pear
-
 no data found
 Southern Corn Leaf Blight
 Southern Corn Leaf Blight
@@ -3848,8 +3842,8 @@ no data found
 Black Spot of pear
 Tomato leaf mould
 no data found
-Grey mould fungus
-Grey mould fungus
+Grey mould
+Grey mould
 Storage rots
 Storage rots
 Storage rots
@@ -3944,18 +3938,18 @@ Disseminated candidiasis
 Disseminated candidiasis
 Toxoplasmic encephalitis
 Toxoplasmic encephalitis
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
-Soybean stem and root rot agent
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
+Soybean stem and root rot
 Crown gall of grapes
 Crown gall of grapes
 Crown gall of grapes
@@ -4046,11 +4040,11 @@ Pierce’s disease
 Pierce’s disease
 Leaf blight
 Rice Blast
-Soybean stem and root rot agent
-Soybean stem and root rot agent
+Soybean stem and root rot
+Soybean stem and root rot
 Potato buckeye rot
-Soybean stem and root rot agent
-Soybean stem and root rot agent
+Soybean stem and root rot
+Soybean stem and root rot
 Downy mildew
 Downy mildew
 Downy mildew
@@ -4120,9 +4114,9 @@ Nosocomial infections
 Nosocomial infections
 Nosocomial infections
 Nosocomial infections
-Grey mould disease
-Grey mould disease
-Grey mould disease
+Grey mould
+Grey mould
+Grey mould
 Skin infections; Food poisoning; Respiratory diseases
 Skin infections; Food poisoning; Respiratory diseases
 Pneumonia, Otitis media, Septicaemia, Meningitis
@@ -4137,10 +4131,10 @@ Food poisoning
 Food poisoning
 Food poisoning
 urinary tract infections, nosocomial pneumonia, intra-abdominal infections
-stem rot of soybean
+Stem rot of soybean
 Rice Blast
-streptococcal sore throat (strep throat) to necrotizing fasciitis (flesh-eating disease)
-streptococcal sore throat (strep throat) to necrotizing fasciitis (flesh-eating disease)
+Streptococcal sore throat (strep throat) to necrotizing fasciitis (flesh-eating disease)
+Streptococcal sore throat (strep throat) to necrotizing fasciitis (flesh-eating disease)
 no data found
 no data found
 no data found
@@ -4150,10 +4144,10 @@ disseminated candidiasis
 disseminated candidiasis
 disseminated candidiasis
 no data found
-white root rot
+White root rot
 septicemia
-wilt and canker disease of tomato
-wilt and canker disease of tomato
+Wilt and canker disease of tomato
+Wilt and canker disease of tomato
 no data found
 no data found
 no data found
@@ -4173,3 +4167,599 @@ septicemia
 septicemia
 septicemia
 gastrointestinal disease yersiniosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+Traveler’s diarrhea, foodborne outbreaks and sporadic diarrhea.
+maize ear rot
+maize ear rot
+maize ear rot
+Fatal septicemia
+Fatal septicemia
+Fatal septicemia
+Fatal septicemia
+Pneumonia, toxic shock syndrome, bacteremia, endocarditis
+cholera
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Pine Wilt Disease
+gastroenteritis
+white muscardine disease
+no data found
+Brucellosis
+Stem rot of soybean
+bacterial leaf blight
+nosocomial infections
+nosocomial infections
+Hemorrhagic  septicemia
+Green mould
+Mycosis
+Mycosis
+tuberculosis
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Bacterial speck
+Meningitis; arthritis; endocarditis; septicemia
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+Grey mould
+nosocomial infections
+Periodontitis
+immunosuppression, septicemia and the subsequent death
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+American Foulbrood
+Stewart’s wilt
+Stewart’s wilt
+Meningitis; arthritis; endocarditis; septicemia
+white muscardine disease
+white muscardine disease
+white muscardine disease
+white muscardine disease
+cryptococcal meningoencephalitis
+infections
+Chesnut blight
+Malaria
+toxoplasmic encephalitis
+Rice Blast
+Rice Blast
+gastroenteritis
+Avian colibacillosis
+black rot disease
+black rot disease
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+black rot disease
+Neonatal meningitis
+Gastric infections
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+ bacterial speck of tomato
+Rice Blast
+Rice Blast
+Anthracnose of Cucurbitaceae
+Wheat Stagonospora nodorum blotch
+Enteric diseases
+Fire blight
+Fire blight
+Witches’ broom disease
+Witches’ broom disease
+Witches’ broom disease
+Witches’ broom disease
+Bacterial leaf spot
+smut disease
+smut disease
+Fusarium head blight
+Rice Blast
+Fusarium head blight
+Gut-associated diseases, such as diarrhoea, enteritis and colitis
+Gut-associated diseases, such as diarrhoea, enteritis and colitis
+Gut-associated diseases, such as diarrhoea, enteritis and colitis
+Gut-associated diseases, such as diarrhoea, enteritis and colitis
+Soybean stem and root rot
+Infections
+Fusarium head blight
+American Foulbrood
+Streptococcal toxic shock syndrome
+Gastric infections
+Gastric infections
+Gastric infections
+Gastric infections
+Gastric infections
+Gastric infections
+Glasser’s disease
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Pneumococcal pneumonia
+Rice Blast
+Rice Blast
+Rice Blast
+Suppresses soilborne plant diseases caused by a number of fungi
+Suppresses soilborne plant diseases caused by a number of fungi
+Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+nosocomial infections
+nosocomial infections
+canker stain disease
+Fusarium wilt
+Brucellosis
+Brucellosis
+Suppresses soilborne plant diseases caused by a number of fungi
+Suppresses soilborne plant diseases caused by a number of fungi
+nosocomial infections
+nosocomial infections
+nosocomial infections
+cystic fibrosis-like conditions
+cystic fibrosis-like conditions
+cystic fibrosis-like conditions
+cystic fibrosis-like conditions
+cystic fibrosis-like conditions
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Fusarium head blight
+Rice Blast
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+smut disease
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+vascular wilt
+vascular wilt
+plane canker stain
+bakanae disease
+nosocomial infections
+nosocomial infections
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+bacterial leaf blight
+bacterial leaf blight
+bacterial leaf blight
+leaf and glume blotch disease of wheat
+Legionnaires’ disease
+Legionnaires’ disease
+smut disease
+melioidosis
+green mould rot
+green mould rot
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+cholera
+Rice Blast
+Pulmonary Aspergillosis
+Pulmonary Aspergillosis
+ fungal meningitis
+ fungal meningitis
+Pulmonary Aspergillosis
+Pulmonary Aspergillosis
+Pulmonary Aspergillosis
+Pulmonary Aspergillosis
+smut disease of maize
+smut disease of maize
+smut disease of maize
+Pierce disease of grapes and citrus variegated chlorosis (CVC)
+Opportunistic infections
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+leishmaniasis
+black rot disease
+black rot disease
+black rot disease
+tularemia
+tularemia
+no data found
+smut disease
+smut disease
+Infections
+Infections
+Infections
+enteric redmouth disease
+Pneumonia and meningitis in neonates , mastitis in cows, and meningoencephalitis in fish
+white muscardine disease
+white muscardine disease
+white muscardine disease
+white muscardine disease
+pneumonic plague
+disseminated disease
+American Foulbrood
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+invasive pulmonary aspergillosis
+cucumber anthracnose
+cucumber anthracnose
+cucumber anthracnose
+Fibrinous serositis, sometimes with caseous salpingitis and vegetative disorder
+black rot disease
+black rot disease
+nosocomial infections
+nosocomial infections
+nosocomial infections
+skin infections; food poisoning; respiratory diseases
+disseminated candidiasis
+disseminated candidiasis
+Infections
+Urinary tract infections
+Urinary tract infections
+Fruit rot
+meningitis, septicemia, arthritis, pneumonia in pigs
+meningitis, septicemia, arthritis, pneumonia in pigs
+citrus canker
+Stewart’s wilt of sweet corn
+Stewart’s wilt of sweet corn
+citrus canker
+citrus canker
+Blue mold
+Blue mold
+Blue mold
+Blue mold
+Blue mold
+Blue mold
+skin infections; food poisoning; respiratory diseases
+brucellosis
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Rice Blast
+Glasser’s disease
+Glasser’s disease
+Glasser’s disease
+Glasser’s disease
+disseminated candidiasis
+grey mould fungus
+invasive pulmonary aspergillosis
+Septoria nodorum blotch
+Streptococcicosis
+no data found
+African trypanosomiasis
+no data found
+White mould
+White mould
+White mould
+White mould
+White mould
+White mould
+ fungal meningitis
+fungal meningitis
+fungal meningitis
+disseminated candidiasis
+Fusarium wilt
+Fusarium wilt
+Fire blight
+Fire blight
+Salmonellosis
+Salmonellosis
+Salmonellosis
+Salmonellosis
+Salmonellosis
+Salmonellosis
+Bacterial wilt
+listeriosis
+listeriosis
+Ascochyta blight of chickpea
+early blight of potato
+Ascochyta blight of chickpea
+early blight of potato
+early blight of potato
+skin infections; food poisoning; respiratory diseases
+olive knot
+bacterial speck
+tuberculosis
+Vibriosis
+soybean stem and root rot
+Vibriosis
+maize ear rot
+maize ear rot
+maize ear rot
+maize ear rot
+infective endocarditis
+Tularemia
+leaf blight
+leaf blight
+leaf blight
+Pulmonary Aspergillosis
+Pulmonary Aspergillosis
+Pulmonary Aspergillosis
+Pulmonary Aspergillosis
+opportunistic infections
+opportunistic infections
+skin infections; food poisoning; respiratory diseases
+pneumonic plague
+pneumonic plague
+disseminated candidiasis
+disseminated candidiasis
+avian pathogenic causing systemic infections
+bacterial blight of soybean
+bacterial blight of soybean
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+Fusarium head blight
+corky root rot of tomato
+Wheat Stripe Rust Fungus
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+ear and stalk rot of maize
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+pneumonic plague
+no data found
+no data found
+no data found
+no data found
+nosocomial infections
+nosocomial infections
+infectious bronchitis
+citrus canker
+citrus canker
+furunculosis
+no data found
+ fungal meningitis
+ fungal meningitis
+ fungal meningitis
+white muscardine disease
+Urinary tract infections
+Urinary tract infections
+Bacterial wilt
+melioidosis
+no data found
+sheath brown rot disease
+sheath brown rot disease
+sheath brown rot disease
+sheath brown rot disease
+sheath brown rot disease
+sheath brown rot disease
+sheath brown rot disease
+sheath brown rot disease
+sheath brown rot disease
+vibriosis
+vibriosis
+vibriosis
+Pierce’s disease of grapevines
+Skin lesions
+Skin lesions
+Skin lesions
+salmonellosis
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+Fusarium wilt
+yersiniosis
+yersiniosis
+yersiniosis
+Opportunistic infections
+Opportunistic infections
+Opportunistic infections
+Opportunistic infections
+nosocomial infections
+bacterial blight of soybean
+bacterial blight of soybean
+bacterial blight of soybean
+bacterial blight of soybean
+grey mould fungus
+grey mould fungus
+anthrax
+anthrax
+streptococcal toxic shock syndrome
+pneumonia
+Colitis
+nosocomial infections
+nosocomial infections
+tuberculosis
+cryptococcosis
+Bacterial speck
+cryptococcosis
+tularemia
+cryptococcosis
+cryptococcosis
+cryptococcosis
+cryptococcosis

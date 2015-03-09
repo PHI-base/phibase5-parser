@@ -110,9 +110,11 @@ my %combined_disease_mapping = (
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns_from_phi560.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns_from_phi2060.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns_from_phi2661.tsv';
-my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns_until_phi3043.tsv';
+#my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns_until_phi3043.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_cols_with_record_id.tsv';
+#my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns.tsv';
+my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns_fixed_mult_mut.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid annotations into PHI-base v5 database...\n";
@@ -1364,6 +1366,7 @@ foreach my $phi_base_ann (sort {$a<=>$b} keys %required_fields_data) {
 }
 close (REQUIRED_FIELDS_FILE);
 
+=pod
 # save all the data meeting the required criteria to file, using same format as above
 my $criteria_met_filename = '../output/required_criteria_met_annotations.txt';
 open (CRITERIA_MET_FILE, "> $criteria_met_filename") or die "Error opening output file\n";
@@ -1378,7 +1381,7 @@ foreach my $record_id (sort {$a<=>$b} keys %required_criteria_annotations) {
    print CRITERIA_MET_FILE "\n";
 }
 close (CRITERIA_MET_FILE);
-
+=cut
 
 print "\nProcess completed successfully.\n\n";
 
@@ -1432,7 +1435,7 @@ print "Output file of annotations without a Gene Name: $invalid_gene_name_filena
 print "Output file of annotations without a curator: $invalid_gene_name_filename\n\n";
 
 print "Output file of only the required data fields of all PHI-base entries: $required_data_filename\n";
-print "Output file of PHI-base entries that meet the required data criteria: $criteria_met_filename\n\n";
+#print "Output file of PHI-base entries that meet the required data criteria: $criteria_met_filename\n\n";
 
 print "Output file of valid defects: $defect_filename\n";
 print "Output file of invalid defects: $invalid_defect_filename\n";

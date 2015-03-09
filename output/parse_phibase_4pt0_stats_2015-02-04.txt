@@ -1,0 +1,65 @@
+Total PHI-base annotations processed:4767
+
+Total PHI-base annotations with an invalid accession: 4
+
+Total annotations with invalid required data: 366
+Annotations without a valid pathogen taxon ID: 1
+Annotations without a valid host taxon ID: 64
+Annotations without a valid PubMed ID: 119
+Annotations without a valid UniProt accession: 181
+Annotations without a gene name: 0
+Annotations without a curator: 9
+
+Total PHI-base accessions meeting the criteria for the required data: 4397
+
+Total curator entries: 4697
+Total species expert entries: 1138
+Total valid defects: 6074
+Total invalid defects: 358
+Total GO annotations: 1151
+GO annotations with evidence code: 935
+GO annotations without evidence code: 204
+Invalid GO annotations: 12
+Total anti-infective chemicals: 1367
+Annotations without anti-infective: 3710
+Total inducer chemicals: 1555
+Annotations without inducer: 3709
+Total annotations with a experiment specification: 4126
+Total experiment specification terms: 4504
+Invalid experiment specifications: 473
+Total annotations with a host response: 153
+Total host response terms: 122
+Invalid host responses: 50
+Total annotations with a phenotype outcome: 4131
+Total phenotype outcome terms: 4039
+Invalid phenotype outcomes: 92
+Total disease terms: 517
+Invalid disease terms: 3646
+Annotations without disease terms: 24
+
+Output file of accession string with an invalid PHI-base accession (if available): ../error/invalid_phibase_accessions.txt
+
+Output file of all PHI-base annotations with invalid required data: ../error/phibase_invalid_required_data.tsv
+Output file of annotations with invalid pathogen taxon ID: ../error/phibase_invalid_path_taxon_ids.tsv
+Output file of annotations with invalid host taxon ID: ../error/phibase_invalid_host_taxon_ids.tsv
+Output file of annotations with invalid PubMed ID: ../error/phibase_invalid_literature.tsv
+Output file of annotations with invalid UniProt accession: ../error/phibase_invalid_uniprot_acc.tsv
+Output file of annotations without a Gene Name: ../error/phibase_invalid_gene_names.tsv
+Output file of annotations without a curator: ../error/phibase_invalid_gene_names.tsv
+
+Output file of only the required data fields of all PHI-base entries: ../output/required_phibase_data.txt
+Output file of valid defects: ../output/phibase_defects.tsv
+Output file of invalid defects: ../error/phibase_invalid_defects.tsv
+Output file of GO annotations with evidence code: ../output/phibase_go_with_evid.tsv
+Output file of GO annotations without evidence code: ../output/phibase_go_without_evid.tsv
+Output file of invalid GO annotations: ../error/phibase_invalid_go.tsv
+Output file of experiment spec annotations: ../output/phibase_exp_spec_terms.tsv
+Output file of invalid experiment specs: ../error/phibase_invalid_exp_specs.tsv
+Output file of host response annotations: ../output/phibase_host_response_terms.tsv
+Output file of invalid host responses: ../error/phibase_invalid_host_responses.tsv
+Output file of phenotype outcome annotations: ../output/phibase_phenotype_outcome_terms.tsv
+Output file of invalid phenotype outcomes: ../error/phibase_invalid_phenotype_outcomes.tsv
+Output file of disease annotations: ../output/phibase_disease_terms.tsv
+Output file of invalid diseases: ../error/phibase_invalid_diseases.tsv
+Output file of annotation without a diseases: ../error/phibase_without_diseases.tsv
+

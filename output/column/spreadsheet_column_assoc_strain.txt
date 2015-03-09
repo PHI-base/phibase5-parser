@@ -475,7 +475,7 @@ PH-1; NRRL 31084
 PH-1
 ATCC 46645
 
-
+T5
 H99
 CAF3-1
 1006
@@ -2634,7 +2634,6 @@ no data found
 no data found
 no data found
 521
-Gene deletion: full
 521
 521
 521
@@ -3185,10 +3184,10 @@ Tobacco-adapted lineage (red)
 Tobacco-adapted lineage (red)
 Tobacco-adapted lineage (red)
 no data found
-
 no data found
 no data found
-
+no data found
+no data found
 no data found
 521
 no data found
@@ -3283,13 +3282,9 @@ T4
 T4
 SC5314
 ATCC700888
-no data found
 ATCC700888
-no data found
 ATCC700888
-no data found
 ATCC700888
-no data found
 14028S
 C58
 C58
@@ -3684,7 +3679,6 @@ PXO99A
 PXO99A
 KACC 10331
 2603V/R
-
 CDC1551
 CDC1551
 no data found
@@ -3805,9 +3799,7 @@ Af293
 OS99-G-7a
 OS99-G-7a
 15A
-no data found
 15A
-no data found
 B3501A
 C4
 C4
@@ -4175,3 +4167,599 @@ PAO1
 PAO1
 PAO1
 IP 32953
+H237
+H237
+Af293
+Af293
+H237
+H237
+Af293
+Af293
+Af293
+H237
+H237
+Af293
+Af293
+H237
+H237
+Af293
+Af293
+Af293
+B171
+7600
+7600
+7600
+C7184O
+ATCC 29307
+CKUH
+CKUH
+Becker
+N16961
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+no data found
+NCTC 11168
+ARSEF 2860
+ARSEF 23
+2308
+P6497
+MAFF 311018
+PAO1
+PAO1
+EIB202
+no data found
+CDC317
+CDC317
+H37Rv
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. maculicola str. M6
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. tomato T1
+Pseudomonas syringae pv. glycinea race 4
+Pseudomonas syringae pv. glycinea race 4
+P1/7
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+B05.10
+ATCC 17978
+FDC 381
+HP88
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+DSM 25430
+DC283
+DC283
+MNCM07
+no data found
+ARSEF 2860
+ARSEF 2860
+ARSEF 2860
+H99
+A20
+no data found
+3D7
+RH
+no data found
+no data found
+EGD-e
+K-12
+B100
+B100
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+ATCC 33913
+UMNK88
+SA18
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+DC3000
+70-15
+70-15
+104-T
+SN15
+79-685
+CFBP1430
+CFBP1430
+no data found
+no data found
+no data found
+no data found
+85-10
+RK123
+RK123
+PH-1
+P131
+PH-1
+NBRC 105692
+IP 32953
+IP 32953
+IP 32953
+no data found
+PAO1
+PH-1
+ATCC 9545
+I9841/1
+ATCC 49503
+PeruGJ6
+84-183
+I-34B
+no data found
+26695
+SH0165
+R6
+R6
+R6
+R6
+no data found
+R6
+R6
+R6
+R6
+R6
+R6
+R6
+R6
+70-15
+70-15
+70-15
+NBAII Tvs5
+NBAII Tvs5
+JBC1
+JBC1
+JBC1
+JBC1
+JBC1
+JBC1
+JBC1
+PAO1
+PAO1
+CBS115175
+4287
+16M
+16M
+NBAII Tvs5
+NBAII Tvs5
+PAO1
+LESB58
+PAO1
+J2315
+J2315
+J2315
+J2315
+J2315
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+PH-1
+70-15
+4287
+4287
+4287
+RK122
+RK208
+RK122
+RK124
+RK123
+RK126
+RK124
+RK126
+RK126
+RK124
+RK126
+RK122
+RK208
+RK122
+RK122
+RK122
+RK122
+RK122
+RK122
+RK122
+RK124
+RK217
+RK122
+RK122
+Af293
+A1163
+NRRL 1
+Af293
+A1163
+VdLs.17
+VdLs.17
+CBS 119.78
+IMI58289
+PAO1
+PAO1
+70-15
+70-15
+70-15
+70-15
+no data found
+70-15
+70-15
+70-15
+70-15
+no data found
+PXO99A
+KACC 10331
+KACC 10331
+LAW96
+KACC 10331
+KACC 10331
+RK209
+K96243
+CECT20795
+CECT20795
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+N16961
+70-15
+Af293
+Af293
+H99
+H99
+A1163
+A1163
+A1163
+A1163
+521
+521
+521
+EB 92-3
+UCBPP-PA14
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+70-15
+Friedlin
+8004
+8004
+8004
+LVS
+LVS
+CQMa102
+521
+521
+no data found
+K-12
+no data found
+150
+NEM316
+Bmh1
+Bmh2
+Bmh1
+Bmh2
+KIM10+
+2285 (R)
+DSM 25719
+Af293
+Af293
+Af293
+Af293
+MAFF 240422
+MAFF 240422
+MAFF 240422
+Yb2
+8004
+ATCC 33913
+PA103-29
+PA103-29
+PA103-29
+MRSA252
+CBS 138
+CBS 138
+MGAS15252
+UCBPP-PA14
+PAO1
+Cg-14
+SC84
+SC84
+306
+DC283
+DC283
+306
+306
+NRRL 35695
+NRRL 35695
+NRRL 35695
+d1
+CMP-1
+MD-8
+no data found
+3196
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+70-15
+SH0165
+no data found
+SH0165
+SH0165
+SC5314
+no data found
+Af293
+SN15
+JJI51
+no data found
+no data found
+ARSEF 23
+1980 UF-70
+1980 UF-70
+1980 UF-70
+1980 UF-70
+1980 UF-70
+1980 UF-70
+JEC21
+H99
+R265
+SC5314
+4287
+4287
+CFBP1430
+CFBP1430
+CFSAN001921
+798
+798
+24249
+24249
+no data found
+NCPPB 909
+Clip80459
+10403S
+AR628
+no data found
+AR628
+no data found
+no data found
+USA300_FPR3757
+NCPPB 3335
+DC3000
+H37Rv
+MO6-24/O
+P6497
+BAA87
+7600
+7600
+7600
+7600
+N920143
+U112
+no data found
+BLS256
+no data found
+Af293
+A1163
+Af293
+A1163
+M
+M
+Mu50
+Angola
+no data found
+SC5314
+WO-1
+KTE210
+no data found
+no data found
+PH-1
+PH-1
+PH-1
+PH-1
+PH-1
+ISPaVe ER 1211
+no data found
+7600
+7600
+7600
+7600
+7600
+7600
+7600
+7600
+7600
+7600
+7600
+7600
+4287
+no data found
+4287
+4287
+4287
+no data found
+4287
+4287
+4287
+4287
+4287
+4287
+KIM
+LMG 2665
+LMG 2665
+LMG 2665
+LMG 2665
+PAO1
+PAO1
+no data found
+306
+306
+A449
+no data found
+H99
+H99
+H99
+no data found
+no data found
+no data found
+GMI1000
+K96243
+Th120
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+MO6-24
+L-180
+MO6-24/O
+Temecula1
+MGAS15252
+MGAS10750
+MGAS15252
+CB9615
+MN25
+no data found
+MN25
+no data found
+MN25
+no data found
+MN25
+no data found
+MN25
+no data found
+MN25
+no data found
+YE12/03
+YE12/03
+YE12/03
+PAO1
+PAO1
+PAO1
+PAO1
+V583
+no data found
+no data found
+no data found
+no data found
+BcDW1
+B05.10
+Ames
+Ames
+P1/7
+342
+ICC168
+J2315
+J2315
+no data found
+JEC21
+B64
+H99
+LVS
+H99
+H99
+H99
+H99
