@@ -37,7 +37,7 @@ print "Session ID: $session_id\n";
 # annotations are an array of hashes
 my @annotations = @{ $text_response->{'curation_sessions'}{$session_id}{'annotations'} };
 
-
+# iterate through the array of annotations
 foreach my $annot_index (0 .. $#annotations) {
 
    my %annotation = %{ $text_response->{'curation_sessions'}{$session_id}{'annotations'}[$annot_index] };
@@ -53,29 +53,42 @@ foreach my $annot_index (0 .. $#annotations) {
 
    my $pubmed_id = $annotation{'publication'};
 
-   my $comment = $annotation{'submitter_comment'};
-   my @annot_extensions = split(/,/,$comment);
+   my $annot_extension_list = $annotation{'annotation_extension'};
+   my @annot_extensions = split(/,/,$annot_extension_list);
 
    my $host;
    my $tissue;
+   my $interaction_partner;
 
+   # identify each annotation extension in the list
    foreach my $annot_ext (@annot_extensions) {
+
      # if the annotation extension begins with 'pathogen_of', then assign value between brackets to host
      if ($annot_ext =~ /^pathogen_of/) {
         my @annot_ext = split(/[\(\)]/,$annot_ext);
         $host = $annot_ext[1];
      }
-     # if the annotation extension beging with 'occurs_in', then assign value between brackets to tissue
+
+     # if the annotation extension begins with 'occurs_in', then assign value between brackets to tissue
      if ($annot_ext =~ /^occurs_in/) {
         my @annot_ext = split(/[\(\)]/,$annot_ext);
         $tissue = $annot_ext[1];
      }
+
+     # if the annotation extension begins with 'interaction_partner',
+     # then assign value between brackets to interaction partner
+     # (TODO: THERE CAN BE MULTIPLE INTERACTION PARTNERS)
+     if ($annot_ext =~ /^interaction_partner/) {
+        my @annot_ext = split(/[\(\)]/,$annot_ext);
+        $interaction_partner = $annot_ext[1];
+     }
+
    }
 
    my $ontology = $annotation{'type'};
    my $ontology_term = $annotation{'term'};
 
-   print "\nANNOTATION $annot_index:\n";
+   print "\nANNOTATION ".($annot_index+1)."\n";
    print "PubMed ID: $pubmed_id\n";
    print "Pathogen Species: $pathogen_species\n";
    print "Pathogen Gene ID: $gene_id\n";
@@ -83,12 +96,15 @@ foreach my $annot_index (0 .. $#annotations) {
    print "Ontology Term: $ontology_term\n";
    print "Curator: $curator_name\n";
    print "Creation Date: $creation_date\n";
-   print "Comment: $comment\n";
+   print "Annotation Extensions: $annot_extension_list\n";
    print "Host ID: $host\n";
    print "Tissue ID: $tissue\n";
 
-}
+   if (defined $interaction_partner) {
+     print "Interaction Partner: $interaction_partner\n";
+   }
 
+}
 
 close (JSON_OUTPUT_FILE);
 

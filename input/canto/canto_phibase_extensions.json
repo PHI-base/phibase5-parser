@@ -3,6 +3,7 @@
       "2aa4c58aedd6797d" : {
          "annotations" : [
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -18,11 +19,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -38,11 +40,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -58,11 +61,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -78,11 +82,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -98,11 +103,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -118,11 +124,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -138,11 +145,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -158,11 +166,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -178,11 +187,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:318829),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -198,11 +208,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000003",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -218,11 +229,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000003",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -238,11 +250,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000003",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -258,11 +271,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000003",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -278,11 +292,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000003",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -298,11 +313,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000003",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -318,11 +334,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000003",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -338,11 +355,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -358,11 +376,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -378,11 +397,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -398,11 +418,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -418,11 +439,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -438,11 +460,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -458,11 +481,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -478,11 +502,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -498,11 +523,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -518,11 +544,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000001",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -538,11 +565,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228)",
+               "submitter_comment" : "",
                "term" : "POO:0000002",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228),interaction_partner(UniProt:Q0PND3)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -558,11 +586,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228),gene_partner(UniProt:Q0PND3)",
+               "submitter_comment" : "",
                "term" : "NCBITaxon:318829",
                "type" : "pathogen_taxon"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228),interaction_partner(UniProt:Q0PND3)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -578,11 +607,12 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228),gene_partner(UniProt:Q0PND3)",
+               "submitter_comment" : "",
                "term" : "POO:0000003",
                "type" : "phenotype_outcome"
             },
             {
+               "annotation_extension" : "pathogen_of(NCBItaxon:4530),occurs_in(BTO:0001228),interaction_partner(UniProt:Q0PND3)",
                "creation_date" : "2015-04-10",
                "curator" : {
                   "community_curated" : true,
@@ -598,7 +628,7 @@
                },
                "publication" : "PMID:17506326",
                "status" : "new",
-               "submitter_comment" : "pathogen_of(NCBItaxon:),occurs_in(BTO:0001228),gene_partner(UniProt:Q0PND3)",
+               "submitter_comment" : "",
                "term" : "DOID:12663",
                "type" : "disease"
             }
@@ -606,17 +636,19 @@
          "metadata" : {
             "accepted_timestamp" : "2015-04-10 11:46:11",
             "annotation_status" : "APPROVED",
-            "annotation_status_datestamp" : "2015-04-10 14:19:17",
-            "approval_in_progress_timestamp" : "2015-04-10 14:18:48",
-            "approved_timestamp" : "2015-04-10 14:19:17",
+            "annotation_status_datestamp" : "2015-04-10 23:40:31",
+            "approval_in_progress_timestamp" : "2015-04-10 23:40:24",
+            "approved_timestamp" : "2015-04-10 23:40:31",
             "approver_email" : "alistair_irvine@hotmail.com",
             "approver_name" : "Alistair Irvine",
             "canto_session" : "2aa4c58aedd6797d",
-            "curation_in_progress_timestamp" : "2015-04-10 12:40:52",
+            "curation_in_progress_timestamp" : "2015-04-10 20:46:16",
             "curation_pub_id" : "PMID:17506326",
-            "needs_approval_timestamp" : "2015-04-10 14:04:31",
+            "needs_approval_timestamp" : "2015-04-10 23:39:56",
+            "reactivated_timestamp" : "2015-04-10 20:46:17",
             "session_created_timestamp" : "2015-04-10 11:45:55",
             "session_genes_count" : "9",
+            "session_reactivated_timestamp" : "2015-04-10 20:46:17",
             "session_term_suggestions_count" : "0",
             "session_unknown_conditions_count" : "0",
             "term_suggestion_count" : "0",
