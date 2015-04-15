@@ -12,8 +12,6 @@ use phibase_subroutines qw(connect_to_phibase);
 
 my $db_conn = connect_to_phibase();
 
-
-
 # counters to gather statistics
 # CURRENTLY USED
 my $annotation_count = 0;
@@ -52,9 +50,6 @@ my $invalid_uniprot_acc_count = 0;
 my $invalid_gene_name_count = 0;
 my $invalid_curator_count = 0;
 
-
-
-# open JSON and output files
 my $json_filename = '../input/canto/canto_triple_mutant.json';
 #my $json_filename = '../input/canto/canto_phibase_extensions.json';
 #my $json_filename = '../input/canto/approved_annotation_2015-03-06.json';
@@ -75,6 +70,7 @@ my @annotations = @{ $text_response->{'curation_sessions'}{$session_id}{'annotat
 # where the key will be an identifier for each interaction
 # and the value will be a hash of the values that identify each unique interaction
 my %interaction_profiles;
+
 
 # iterate through the array of annotations
 foreach my $annot_index (0 .. $#annotations) {
@@ -195,7 +191,10 @@ foreach my $int_id (1 .. $interaction_count) {
   my $phenotype_outcome;
   my $disease;
   my $interaction_id;
-  my $pathogen_gene_mutant_id; 
+  #my $pathogen_gene_mutant_id; 
+
+
+my @pathogen_genes;
 
   # iterate through all annotations, to find out which ones
   # are associated with the current interaction
@@ -238,7 +237,11 @@ foreach my $int_id (1 .. $interaction_count) {
          my @gene_organism_list = keys $annotation{'genes'};
          my $gene_organism_name = $gene_organism_list[0];
          $uniprot_acc = $annotation{'genes'}{$gene_organism_name}{'uniquename'};
-         print "Pathogen Gene:$uniprot_acc\n";
+#         print "Pathogen Gene:$uniprot_acc\n";
+# add the uniprot accession for this gene to the array
+# of genes, which includes all interaction partner genes
+# (for multiple gene interaction)
+push(@pathogen_genes,$uniprot_acc);
 
          my $annot_extension_list = $annotation{'annotation_extension'};
          my @annot_extensions = split(/,/,$annot_extension_list);
@@ -260,17 +263,26 @@ foreach my $int_id (1 .. $interaction_count) {
 
             # if the annotation extension begins with 'interaction_partner',
             # then assign value between brackets to interaction partner
-            # (TODO: THERE CAN BE MULTIPLE INTERACTION PARTNERS)
+            # (note that there can multiple interaction partners)
             if ($annot_ext =~ /^interaction_partner/) {
+
               my @annot_ext = split(/[\(\)]/,$annot_ext);
               $interaction_partner = $annot_ext[1];
+	      # UniProt accession is the interaction partner with 'UniProt:' prefix removed
+	      my $interaction_partner_id = substr($interaction_partner,8);
+
+	      # add the uniprot accession for this gene to the array
+	      # of genes, which includes all interaction partner genes
+	      # (for multiple gene interaction) and the original gene
+	      push(@pathogen_genes,$interaction_partner_id);
+
             }
 
 
          } # end foreach annotation extension
 
-         if (defined $interaction_partner) {
-           print "Interaction Partner: $interaction_partner\n";
+         foreach my $pathogen_gene (@pathogen_genes) {
+           print "Pathogen Gene: $pathogen_gene\n";
          }
 
          print "Host ID: $host\n";
@@ -286,60 +298,67 @@ foreach my $int_id (1 .. $interaction_count) {
          print "Creation Date:$creation_date\n";
 
 
-	 # insert data into the pathogen_gene table,
+         # declare array to hold the list of IDs from the pathogen_gene_mutant table 
+         my @pathogen_gene_mutant_ids;
+
+	 # insert data into the pathogen_gene table, for each pathogen gene
 	 # if it does not exist already (based on combination of taxon id and gene name)
 	 # FOR CANTO, USE UNIPROT ID, INSTEAD OF GENE NAME
 	 # (NOTE THAT AT THE MOMENT UNIPROT ID IS USED FOR BOTH pathogen_gene AND pathogen_gene_mutant)
-	 # 
-	 # TODO: NEED TO COPE WITH MULTIPLE GENE INTERACTIONS (I.E. MULTIPLE MUTANTS)
-	 #
-	 my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, gene_name) 
-				 SELECT $pathogen_taxon_id,'$uniprot_acc'
-				 WHERE NOT EXISTS (
-				   SELECT 1 FROM pathogen_gene
-				   WHERE ncbi_taxon_id = $pathogen_taxon_id
-				   AND gene_name = '$uniprot_acc'
-				));
+	 foreach my $pathogen_gene_uniprot_acc (@pathogen_genes) {
 
-	 my $sql_result2 = $db_conn->prepare($sql_statement2);
-	 $sql_result2->execute() or die $DBI::errstr;
+	    my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, gene_name) 
+				    SELECT $pathogen_taxon_id,'$uniprot_acc'
+				    WHERE NOT EXISTS (
+				      SELECT 1 FROM pathogen_gene
+				      WHERE ncbi_taxon_id = $pathogen_taxon_id
+				      AND gene_name = '$pathogen_gene_uniprot_acc'
+				   ));
 
+	    my $sql_result2 = $db_conn->prepare($sql_statement2);
+	    $sql_result2->execute() or die $DBI::errstr;
 
-	 # get the unique identifier for the inserted pathogen_gene record
-	 my $sql_statement4 = qq(SELECT id FROM pathogen_gene
-				 WHERE ncbi_taxon_id = $pathogen_taxon_id
-				 AND gene_name = '$uniprot_acc');
+	    # get the unique identifier for the inserted pathogen_gene record
+	    my $sql_statement4 = qq(SELECT id FROM pathogen_gene
+				    WHERE ncbi_taxon_id = $pathogen_taxon_id
+				    AND gene_name = '$pathogen_gene_uniprot_acc');
 
-	 my $sql_result4 = $db_conn->prepare($sql_statement4);
-	 $sql_result4->execute() or die $DBI::errstr;
-	 my @row4 = $sql_result4->fetchrow_array();
-	 my $pathogen_gene_id = shift @row4;
+	    my $sql_result4 = $db_conn->prepare($sql_statement4);
+	    $sql_result4->execute() or die $DBI::errstr;
+	    my @row4 = $sql_result4->fetchrow_array();
+	    my $pathogen_gene_id = shift @row4;
 
-	 # insert data into pathogen_gene_mutant table, including foreign key to pathogen_gene table 
-	 my $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
-				  SELECT $pathogen_gene_id,$pathogen_taxon_id,
-					 '$uniprot_acc'
-				  WHERE NOT EXISTS (
-				    SELECT 1 FROM pathogen_gene_mutant
+	    # insert data into pathogen_gene_mutant table, including foreign key to pathogen_gene table 
+	    my $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
+				     SELECT $pathogen_gene_id,$pathogen_taxon_id,
+					    '$pathogen_gene_uniprot_acc'
+				     WHERE NOT EXISTS (
+				       SELECT 1 FROM pathogen_gene_mutant
+				       WHERE pathogen_gene_id = $pathogen_gene_id
+				       AND ncbi_taxon_id = $pathogen_taxon_id
+				       AND uniprot_accession = '$pathogen_gene_uniprot_acc'
+				     )
+				   );
+
+	    my $sql_result3 = $db_conn->prepare($sql_statement3);
+	    $sql_result3->execute() or die $DBI::errstr;
+
+	    # get the unique identifier for the inserted pathogen_gene_mutant record
+	    my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
 				    WHERE pathogen_gene_id = $pathogen_gene_id
 				    AND ncbi_taxon_id = $pathogen_taxon_id
-				    AND uniprot_accession = '$uniprot_acc'
-				  )
-				);
+				    AND uniprot_accession = '$pathogen_gene_uniprot_acc');
 
-	 my $sql_result3 = $db_conn->prepare($sql_statement3);
-	 $sql_result3->execute() or die $DBI::errstr;
+	    my $sql_result5 = $db_conn->prepare($sql_statement5);
+	    $sql_result5->execute() or die $DBI::errstr;
+	    my @row5 = $sql_result5->fetchrow_array();
+	    my $pathogen_gene_mutant_id = shift @row5;
 
-	 # get the unique identifier for the inserted pathogen_gene_mutant record
-	 my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
-				 WHERE pathogen_gene_id = $pathogen_gene_id
-				 AND ncbi_taxon_id = $pathogen_taxon_id
-				 AND uniprot_accession = '$uniprot_acc');
+	    # add the current pathogen gene mutant ID to the list for all genes
+	    # (in case of multiple gene interaction)
+	    push(@pathogen_gene_mutant_ids,$pathogen_gene_mutant_id);
 
-	 my $sql_result5 = $db_conn->prepare($sql_statement5);
-	 $sql_result5->execute() or die $DBI::errstr;
-	 my @row5 = $sql_result5->fetchrow_array();
-	 $pathogen_gene_mutant_id = shift @row5;
+         }
 
 
 	 # get the largest available value for phi_base_accession,
@@ -377,92 +396,26 @@ foreach my $int_id (1 .. $interaction_count) {
 	 print "Host ID:$host_taxon_id\n";
 	 print "PubMed ID:$pubmed_id_num\n";
 
-	 # add records for the literature and pathogen gene mutant tables associated with the interaction,
+	 # add records for the literature and host tables associated with the interaction,
 	 # using the interaction id as a foreign key to the interaction table
 	 my $inner_sql_statement = qq(
 				      INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
 					VALUES ($interaction_id,$host_taxon_id);
-				      INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
-					VALUES ($interaction_id,'$pathogen_gene_mutant_id');
 				      INSERT INTO interaction_literature (interaction_id, pubmed_id)
 					VALUES ($interaction_id, '$pubmed_id_num');
 				     );
 	 my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
-
-         if (defined $interaction_partner) {
-
-	    # UniProt accession is the interaction partner with 'UniProt:' prefix removed
-	    my $interaction_partner_id = substr($interaction_partner,8);
-
-            print "Interaction Partner ID: $interaction_partner_id\n";
-	    # insert data into the pathogen_gene table,
-	    # if it does not exist already (based on combination of taxon id and gene name)
-	    # FOR CANTO, USE UNIPROT ID, INSTEAD OF GENE NAME
-	    # (NOTE THAT AT THE MOMENT UNIPROT ID IS USED FOR BOTH pathogen_gene AND pathogen_gene_mutant)
-	    # 
-	    # NOTE: THE ADDITIONAL OF THE PATHOGEN GENE AND MUTANT ARE EXTACTLY THE SAME AS FOR THE ORIGINAL GENE
-	    #
-	    my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, gene_name) 
-				    SELECT $pathogen_taxon_id,'$interaction_partner_id'
-				    WHERE NOT EXISTS (
-				      SELECT 1 FROM pathogen_gene
-				      WHERE ncbi_taxon_id = $pathogen_taxon_id
-				      AND gene_name = '$interaction_partner_id'
-				   ));
-
-	    my $sql_result2 = $db_conn->prepare($sql_statement2);
-	    $sql_result2->execute() or die $DBI::errstr;
-
-
-	    # get the unique identifier for the inserted pathogen_gene record
-	    my $sql_statement4 = qq(SELECT id FROM pathogen_gene
-				    WHERE ncbi_taxon_id = $pathogen_taxon_id
-				    AND gene_name = '$interaction_partner_id');
-
-	    my $sql_result4 = $db_conn->prepare($sql_statement4);
-	    $sql_result4->execute() or die $DBI::errstr;
-	    my @row4 = $sql_result4->fetchrow_array();
-	    my $pathogen_gene_id = shift @row4;
-
-	    # insert data into pathogen_gene_mutant table, including foreign key to pathogen_gene table 
-	    my $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
-				     SELECT $pathogen_gene_id,$pathogen_taxon_id,
-					    '$interaction_partner_id'
-				     WHERE NOT EXISTS (
-				       SELECT 1 FROM pathogen_gene_mutant
-				       WHERE pathogen_gene_id = $pathogen_gene_id
-				       AND ncbi_taxon_id = $pathogen_taxon_id
-				       AND uniprot_accession = '$interaction_partner_id'
-				     )
-				   );
-
-	    my $sql_result3 = $db_conn->prepare($sql_statement3);
-	    $sql_result3->execute() or die $DBI::errstr;
-
-	    # get the unique identifier for the inserted pathogen_gene_mutant record
-	    my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
-				    WHERE pathogen_gene_id = $pathogen_gene_id
-				    AND ncbi_taxon_id = $pathogen_taxon_id
-				    AND uniprot_accession = '$interaction_partner_id');
-
-	    my $sql_result5 = $db_conn->prepare($sql_statement5);
-	    $sql_result5->execute() or die $DBI::errstr;
-	    my @row5 = $sql_result5->fetchrow_array();
-	    $pathogen_gene_mutant_id = shift @row5;
-
-
-	    # add records for the literature and pathogen gene mutant tables associated with the interaction,
-	    # using the interaction id as a foreign key to the interaction table
+	 # add records for each of the pathogen gene mutants associated with the interaction,
+	 # using the interaction id as a foreign key to the interaction table
+         # (in the case of a multiple gene interaction there will be multiple entries)
+         foreach my $pathogen_gene_mutant_id (@pathogen_gene_mutant_ids) {
 	    my $inner_sql_statement = qq(
 					 INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
-					   VALUES ($interaction_id,'$pathogen_gene_mutant_id');
+					   VALUES ($interaction_id,$pathogen_gene_mutant_id);
 					);
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
-
-	    print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
-
-	 }
+         }
 
 
          # TODO: MAY NEED TO CHANGE THIS SO THAT CURATOR IS IDENTIFIED BY THEIR EMAIL ADDRESS
@@ -514,7 +467,6 @@ foreach my $int_id (1 .. $interaction_count) {
 	 my $sql_statement = qq(UPDATE interaction_pathogen_gene_mutant 
 			       SET phenotype_outcome_id = '$phenotype_outcome'
 			       WHERE interaction_id = $interaction_id
-			       AND pathogen_gene_mutant_id = $pathogen_gene_mutant_id;
 			     );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 	 print "Phenotype added\n";
