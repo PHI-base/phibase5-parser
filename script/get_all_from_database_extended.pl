@@ -178,9 +178,15 @@ while (my @row = $sql_result->fetchrow_array()) {
      }
 
 
-  my $go_term_names = "";
-     # add the pathogen taxon id to the array
-     push(@path_taxon_ids,$path_taxon_id);
+     # add the pathogen taxon id to the array,
+     # if the taxon id is not already in the list
+     # (as will be likely for multiple gene interactions)
+     my $path_taxon_already_displayed = 0;
+     if (not $path_taxon_id ~~ @path_taxon_ids ) {
+       push(@path_taxon_ids,$path_taxon_id);
+     } else {
+       $path_taxon_already_displayed = 1;
+     }
 
      # get the pathogen taxon details from the ENA web service
      $query = "http://www.ebi.ac.uk/ena/data/view/Taxon:$path_taxon_id&display=xml";
@@ -195,10 +201,13 @@ while (my @row = $sql_result->fetchrow_array()) {
      my $path_taxon_name = $path_taxon->{'att'}->{'scientificName'};
 
      # print the pathogen taxon details, with name if available
-     if (defined $path_taxon_name) {
-         $path_taxons .= "$path_taxon_id:$path_taxon_name;";
-     } else { # just print id
-         $path_taxons .= "$path_taxon_id;";
+     # (if the current taxon has not already been displayed)
+     if (not $path_taxon_already_displayed) {
+       if (defined $path_taxon_name) {
+	   $path_taxons .= "$path_taxon_id:$path_taxon_name;";
+       } else { # just print id
+	   $path_taxons .= "$path_taxon_id;";
+       }
      }
 
      # use the ontology to retrieve the phenotype outcome term name, based on the identifier
