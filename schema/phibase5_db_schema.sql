@@ -114,6 +114,12 @@ CREATE TABLE interaction_curator (
     PRIMARY KEY (interaction_id, curator_id)    
 );
 
+CREATE TABLE interaction_approver (
+    interaction_id integer REFERENCES interaction,
+    curator_id integer REFERENCES curator,
+    PRIMARY KEY (interaction_id, curator_id)    
+);
+
 CREATE TABLE species_expert (
     ncbi_taxon_id integer,
     curator_id integer REFERENCES curator,

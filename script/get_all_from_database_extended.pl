@@ -21,7 +21,7 @@ open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output fi
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tPathogen Taxon\tDisease\tHost Taxon\tCotyledons\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPhenotype Outcome\tDefects\tInducers\tCAS Registry IDs\tChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tPathogen Taxon\tDisease\tHost Taxon\tCotyledons\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPhenotype Outcome\tDefects\tInducers\tCAS Registry IDs\tChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -705,9 +705,87 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # remove the final semi-colon from end of the strings
   $curator_output_string =~ s/;$//;
-  $species_experts_string =~ s/;$//;
   # print the list of curators and species experts to file
-  print DATABASE_DATA_FILE "$curator_output_string\t$species_experts_string\t";
+  print DATABASE_DATA_FILE "$curator_output_string\t";
+
+
+  # get the Approver fields (the approver is a special kind of curator)
+  $sql_stmt2 = qq(SELECT curator.id,
+                         curator.name
+                    FROM interaction,
+                         interaction_approver,
+                         curator
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_approver.interaction_id
+                     AND interaction_approver.curator_id = curator.id
+                 ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # initalise output string for Approvers
+  my $approver_output_string = "";
+
+  # since there may be multiple approvers,
+  # need to retrieve all of them and construct output string 
+  # based on comma and semi-colon delimiters
+  while (@row2 = $sql_result2->fetchrow_array()) {
+
+    my $curator_id = shift @row2;
+    my $approver_name = shift @row2;
+
+    # need to determine if the approver belongs to
+    # a known organisation
+    my $sql_stmt3 = qq(SELECT curation_organisation.name
+                         FROM curator,
+                              curation_organisation
+                        WHERE curator.id = $curator_id
+                          AND curation_organisation.id = curator.curation_organisation_id
+                     ;);
+
+    my $sql_result3 = $db_conn->prepare($sql_stmt3);
+    $sql_result3->execute() or die $DBI::errstr;
+    my @row3 = $sql_result3->fetchrow_array();
+    my $organisation = shift @row3;
+
+    if (defined $organisation) {  # curator with organisation
+      $approver_output_string .= "$approver_name,$organisation;";
+    } else {  # curator without organisation
+      $approver_output_string .= "$approver_name;";
+    }
+
+    # need to determine if the approver is a species expert
+    # based on the taxon ids of the pathogens in this interaction
+    foreach my $path_taxon_id (@path_taxon_ids) {
+
+       my $sql_stmt4 = qq(SELECT curator_id
+                            FROM species_expert,
+                                 curator
+                            WHERE species_expert.curator_id = $curator_id
+                            AND species_expert.ncbi_taxon_id = $path_taxon_id
+                        ;);
+
+       my $sql_result4 = $db_conn->prepare($sql_stmt4);
+       $sql_result4->execute() or die $DBI::errstr;
+       my @row4 = $sql_result4->fetchrow_array();
+       my $expert_curator_id = shift @row4;
+
+       # if a curator id was returned,
+       # then the curator is a species expert
+       # so add their name to the experts list
+       if (defined $expert_curator_id) {
+         $species_experts_string .= "$approver_name;";
+       }
+
+    } # end foreach pathogen in interaction
+
+  } # end while curators for the interaction
+
+  # remove the final semi-colon from end of the strings
+  $approver_output_string =~ s/;$//;
+  $species_experts_string =~ s/;$//;
+  # print the list of approver and species experts to file
+  print DATABASE_DATA_FILE "$approver_output_string\t$species_experts_string\t";
 
 
   # get the literature fields 

@@ -63,6 +63,11 @@ my @session_ids = keys $text_response->{'curation_sessions'};
 my $session_id = $session_ids[0];
 print "Session ID: $session_id\n";
 
+# get data about the approver of the session
+my $approver_name = $text_response->{'curation_sessions'}{$session_id}{'metadata'}{'approver_name'};
+my $approver_email = $text_response->{'curation_sessions'}{$session_id}{'metadata'}{'approver_email'};
+print "Session Approver: $approver_name, $approver_email\n";
+
 # annotations are an array of hashes
 my @annotations = @{ $text_response->{'curation_sessions'}{$session_id}{'annotations'} };
 
@@ -82,12 +87,9 @@ foreach my $annot_index (0 .. $#annotations) {
    # such as UniProt accessions, interaction partners, and annotation extensions
    my %annotation_interaction_hash = ();
 
-
-
-#######################
-my @interaction_partners;
-
-
+   # array to hold all partner gene uniprot ids
+   # (for multiple gene interactions)
+   my @interaction_partners;
 
    my %annotation = %{ $text_response->{'curation_sessions'}{$session_id}{'annotations'}[$annot_index] };
 
@@ -202,10 +204,11 @@ foreach my $int_id (1 .. $interaction_count) {
   my $phenotype_outcome;
   my $disease;
   my $interaction_id;
-  #my $pathogen_gene_mutant_id; 
 
-
-my @pathogen_genes;
+  # declare array to hold all pathogen gene
+  # involved in the interaction
+  # (useful for multiple gene interactions)
+  my @pathogen_genes;
 
   # iterate through all annotations, to find out which ones
   # are associated with the current interaction
@@ -301,6 +304,7 @@ my @pathogen_genes;
          $curator_name = $annotation{'curator'}{'name'};
          $curator_email = $annotation{'curator'}{'email'};
          print "Curator: $curator_name, $curator_email\n";
+         print "Approver: $approver_name, $approver_email\n";
 
          $pathogen_species = $annotation{'genes'}{$gene_organism_name}{'organism'};
          print "Pathogen Species: $pathogen_species\n";
@@ -315,7 +319,10 @@ my @pathogen_genes;
 	 # insert data into the pathogen_gene table, for each pathogen gene
 	 # if it does not exist already (based on combination of taxon id and gene name)
 	 # FOR CANTO, USE UNIPROT ID, INSTEAD OF GENE NAME
-	 # (NOTE THAT AT THE MOMENT UNIPROT ID IS USED FOR BOTH pathogen_gene AND pathogen_gene_mutant)
+	 # (NOTE THAT AT THE MOMENT UNIPROT ID IS USED FOR BOTH pathogen_gene AND pathogen_gene_mutant
+         # MORE CLARITY IS REQUIRED TO DEFINE THE RELATIONSHIP BETWEEN pathogen_gene
+         # (the reference gene from which the amino acid sequence if derived? the wild type gene?)
+         # AND pathogen_gene_mutant (the gene mutant on which experiments are performed? the mutated gene?) )
 	 foreach my $pathogen_gene_uniprot_acc (@pathogen_genes) {
 
 	    my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, gene_name) 
@@ -465,6 +472,43 @@ my @pathogen_genes;
 	 $sql_result = $db_conn->prepare($sql_statement);
 	 $sql_result->execute() or die $DBI::errstr;
 
+
+         # Enter approver data into database
+         # First, find out if the approver already exists as a curator
+         # (an approver is just a special type of curator),
+         # based on the email address 
+         # (the email will be a better identifier than the approver name)
+	 my $sql_statement = qq(SELECT id FROM curator
+				  WHERE email = '$approver_email';
+			       );
+
+	 my $sql_result = $db_conn->prepare($sql_statement);
+	 $sql_result->execute() or die $DBI::errstr;
+	 my @row = $sql_result->fetchrow_array();
+	 my $curator_id = shift @row;
+
+
+         # if an existing curator is not found a new curator record needs to be added
+         if (not defined $curator_id) {
+
+	    # insert a new curator into the curator table, returning the curator identifier
+	    $sql_statement = qq(INSERT INTO curator (name,email) 
+				      VALUES ('$approver_name','$approver_email') RETURNING id;
+				);
+	    $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+	    my @row = $sql_result->fetchrow_array();
+	    $curator_id = shift @row;
+
+         }
+
+	 # insert data into interaction_approver table,
+	 # with foreign keys to the interaction table and the curator table 
+	 $sql_statement = qq(INSERT INTO interaction_approver (interaction_id, curator_id)
+			       VALUES ($interaction_id, $curator_id);
+			    );
+	 $sql_result = $db_conn->prepare($sql_statement);
+	 $sql_result->execute() or die $DBI::errstr;
 
       } # end if first annotation
 
