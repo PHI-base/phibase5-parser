@@ -104,6 +104,7 @@ CREATE TABLE curator (
     id SERIAL PRIMARY KEY,
     initials varchar(50),
     name varchar(50),
+    email varchar(50),
     curation_organisation_id integer REFERENCES curation_organisation
 );
 

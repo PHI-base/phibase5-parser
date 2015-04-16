@@ -82,6 +82,13 @@ foreach my $annot_index (0 .. $#annotations) {
    # such as UniProt accessions, interaction partners, and annotation extensions
    my %annotation_interaction_hash = ();
 
+
+
+#######################
+my @interaction_partners;
+
+
+
    my %annotation = %{ $text_response->{'curation_sessions'}{$session_id}{'annotations'}[$annot_index] };
 
    my @gene_organism_list = keys $annotation{'genes'};
@@ -124,8 +131,11 @@ foreach my $annot_index (0 .. $#annotations) {
      if ($annot_ext =~ /^interaction_partner/) {
         my @annot_ext = split(/[\(\)]/,$annot_ext);
         $interaction_partner = $annot_ext[1];
-        # add annotation extension to help identify the correct interaction
-        $annotation_interaction_hash{'interaction_partner'} = $interaction_partner;
+        # add current interaction partner to the array of partners
+        # (for cases where there are three are more genes involved in interaction)
+        push(@interaction_partners,$interaction_partner);
+        # add the interaction partners array to help identify the correct interaction
+        $annotation_interaction_hash{'interaction_partner'} = @interaction_partners;
      }
 
    }
@@ -184,6 +194,7 @@ foreach my $int_id (1 .. $interaction_count) {
   my $tissue;
   my $interaction_partner;
   my $curator_name;
+  my $curator_email;
   my $pathogen_species;
   my $creation_date;
   my $pathogen_taxon;
@@ -237,11 +248,10 @@ my @pathogen_genes;
          my @gene_organism_list = keys $annotation{'genes'};
          my $gene_organism_name = $gene_organism_list[0];
          $uniprot_acc = $annotation{'genes'}{$gene_organism_name}{'uniquename'};
-#         print "Pathogen Gene:$uniprot_acc\n";
-# add the uniprot accession for this gene to the array
-# of genes, which includes all interaction partner genes
-# (for multiple gene interaction)
-push(@pathogen_genes,$uniprot_acc);
+         # add the uniprot accession for this gene to the array
+         # of genes, which includes all interaction partner genes
+         # (for multiple gene interaction)
+         push(@pathogen_genes,$uniprot_acc);
 
          my $annot_extension_list = $annotation{'annotation_extension'};
          my @annot_extensions = split(/,/,$annot_extension_list);
@@ -289,7 +299,8 @@ push(@pathogen_genes,$uniprot_acc);
          print "Tissue ID: $tissue\n";
 
          $curator_name = $annotation{'curator'}{'name'};
-         print "Curator: $curator_name\n";
+         $curator_email = $annotation{'curator'}{'email'};
+         print "Curator: $curator_name, $curator_email\n";
 
          $pathogen_species = $annotation{'genes'}{$gene_organism_name}{'organism'};
          print "Pathogen Species: $pathogen_species\n";
@@ -418,17 +429,33 @@ push(@pathogen_genes,$uniprot_acc);
          }
 
 
-         # TODO: MAY NEED TO CHANGE THIS SO THAT CURATOR IS IDENTIFIED BY THEIR EMAIL ADDRESS
-         # ALSO, NEED TO COPE WITH SITUATION WHERE CURATOR DOES NOT YET EXIST
-
+         # Enter curator data into database
+         # First, find out if the curator already exists, based on the email address
+         # (the email will be a better identifier than the curator name)
+         # NOTE: curation organisation is not currently captured by Canto
 	 my $sql_statement = qq(SELECT id FROM curator
-				  WHERE name = '$curator_name';
+				  WHERE email = '$curator_email';
 			       );
 
 	 my $sql_result = $db_conn->prepare($sql_statement);
 	 $sql_result->execute() or die $DBI::errstr;
 	 my @row = $sql_result->fetchrow_array();
 	 my $curator_id = shift @row;
+
+
+         # if an existing curator is not found a new curator record needs to be added
+         if (not defined $curator_id) {
+
+	    # insert a new curator into the curator table, returning the curator identifier
+	    $sql_statement = qq(INSERT INTO curator (name,email) 
+				      VALUES ('$curator_name','$curator_email') RETURNING id;
+				);
+	    $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+	    my @row = $sql_result->fetchrow_array();
+	    $curator_id = shift @row;
+
+         }
 
 	 # insert data into interaction_curator table,
 	 # with foreign keys to the interaction table and the curator table 
