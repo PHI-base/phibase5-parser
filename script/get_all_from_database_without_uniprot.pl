@@ -84,8 +84,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   # get the pathogen gene related fields 
   $sql_stmt2 = qq(SELECT uniprot_accession,
                          gene_name,
-                         pathogen_gene.ncbi_taxon_id,
-                         phenotype_outcome_id
+                         pathogen_gene.ncbi_taxon_id
                     FROM interaction,
                          interaction_pathogen_gene_mutant, 
                          pathogen_gene_mutant,
@@ -107,7 +106,6 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $uniprot_embl_accessions = "";
   my $uniprot_go_annotation = "";
   my $path_taxons = "";
-  my $phen_outcomes = "";
 
   # declare array for pathogen taxon ids
   # (will be needed to get species experts)
@@ -121,7 +119,6 @@ while (my @row = $sql_result->fetchrow_array()) {
      my $uniprot_acc = shift @row2;
      my $phibase_gene_name = shift @row2;
      my $path_taxon_id = shift @row2;
-     my $phenotype_outcome_id = shift @row2;
 
      # append UniProt accession and PHI-base gene name to lists
      $uniprot_accessions .= "$uniprot_acc;";
@@ -208,12 +205,6 @@ while (my @row = $sql_result->fetchrow_array()) {
        } else { # just print id
 	   $path_taxons .= "$path_taxon_id;";
        }
-     }
-
-     # use the ontology to retrieve the phenotype outcome term name, based on the identifier
-     if (defined $phenotype_outcome_id) {
-       my $phen_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
-       $phen_outcomes .= "$phenotype_outcome_id:$phen_outcome_name;";
      }
 
   } # end while pathogen_gene_mutant records
@@ -405,11 +396,37 @@ while (my @row = $sql_result->fetchrow_array()) {
   print DATABASE_DATA_FILE "$go_output_string\t";
 
 
-  # output the Phenotype Outcomes, which have already been retrieved
-  # for comparison with PHI-base 4.0 spreadsheet, it is output in this position 
+  # initalise output string for phenotype outcomes
+  my $phenotype_outcome_string = "";
+
+  # get the phenotype outcome term identifiers
+  $sql_stmt2 = qq(SELECT phenotype_outcome_id
+                    FROM interaction,
+                         interaction_phenotype_outcome
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_phenotype_outcome.interaction_id
+                 ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # since there may be phenotype outcomes,
+  # need to retrieve all of them and construct output string 
+  # based on comma and semi-colon delimiters
+  while (@row2 = $sql_result2->fetchrow_array()) {
+
+    my $phenotype_outcome_id = shift @row2;
+
+    # use the phenotype outcome ontology to retrieve the term name, based on the identifier
+    my $phen_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
+    $phenotype_outcome_string .= "$phenotype_outcome_id:$phen_outcome_name;";
+
+  }
+
   # remove the final semi-colon from end of the string
-  $phen_outcomes =~ s/;$//;
-  print DATABASE_DATA_FILE "$phen_outcomes\t";
+  $phenotype_outcome_string =~ s/;$//;
+  # output the Phenotype Outcomes
+  print DATABASE_DATA_FILE "$phenotype_outcome_string\t";
 
 
   # get the Defect fields 

@@ -478,14 +478,14 @@ foreach my $int_id (1 .. $interaction_count) {
          # (an approver is just a special type of curator),
          # based on the email address 
          # (the email will be a better identifier than the approver name)
-	 my $sql_statement = qq(SELECT id FROM curator
+	 $sql_statement = qq(SELECT id FROM curator
 				  WHERE email = '$approver_email';
 			       );
 
-	 my $sql_result = $db_conn->prepare($sql_statement);
+	 $sql_result = $db_conn->prepare($sql_statement);
 	 $sql_result->execute() or die $DBI::errstr;
-	 my @row = $sql_result->fetchrow_array();
-	 my $curator_id = shift @row;
+	 @row = $sql_result->fetchrow_array();
+	 $curator_id = shift @row;
 
 
          # if an existing curator is not found a new curator record needs to be added
@@ -532,13 +532,13 @@ foreach my $int_id (1 .. $interaction_count) {
          $phenotype_outcome = $annot_value;
          print "Phenotype Outcome: $phenotype_outcome\n";
 
-	 # insert data into the appropriate pathogen_gene_mutant table,
+	 # insert data into the appropriate interaction_phenotype_outcome table,
 	 # with for a foreign key to the phenotype_outcome ontology
 	 $phenotype_outcome_term_count++;
-	 my $sql_statement = qq(UPDATE interaction_pathogen_gene_mutant 
-			       SET phenotype_outcome_id = '$phenotype_outcome'
-			       WHERE interaction_id = $interaction_id
-			     );
+	 my $sql_statement = qq(INSERT INTO interaction_phenotype_outcome
+			       (interaction_id, phenotype_outcome_id)
+			       VALUES ($interaction_id, '$phenotype_outcome');
+			    );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 	 print "Phenotype added\n";
 

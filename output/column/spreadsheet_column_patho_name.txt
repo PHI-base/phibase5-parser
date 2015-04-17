@@ -4763,3 +4763,1078 @@ Cryptococcus neoformans
 Cryptococcus neoformans
 Cryptococcus neoformans
 Cryptococcus neoformans
+Cochliobolus carbonum
+Magnaporthe grisea
+Cladosporium fulvum
+Ustilago maydis
+Ustilago maydis
+Cochliobolus carbonum
+Nectria haematococca
+Cryptococcus neoformans
+Cryptococcus neoformans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Phytophthora parasitica
+Candida tropicalis
+Cladosporium fulvum
+Cryptococcus neoformans
+Phytophthora capsici
+Ustilago maydis
+Ustilago maydis
+Gaeumannomyces graminis
+Gaeumannomyces graminis
+Leptosphaeria maculans
+Candida albicans
+Colletotrichum gloeosporioides
+Colletotrichum gloeosporioides
+Candida albicans
+Histoplasma capsulatum
+Candida albicans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Rhynchosporium secalis
+Phytophthora sojae
+Colletotrichum lagenarium
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryphonectria parasitica
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Nectria haematococca (related: Fusarium solani)
+Nectria haematococca
+Cochliobolus heterostrophus
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Colletotrichum lagenarium
+Colletotrichum lagenarium
+Cochliobolus carbonum
+Candida albicans
+Candida albicans
+Cryphonectria parasitica
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Cladosporium fulvum
+Cladosporium fulvum
+Cladosporium fulvum
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Candida albicans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Aspergillus flavus
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Cochliobolus carbonum
+Ustilago maydis
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Aspergillus fumigatus
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Colletotrichum lindemuthianum
+Phytophthora infestans
+Nectria haematococca (related: Fusarium solani)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Fusarium oxysporum
+Cochliobolus carbonum
+Aspergillus fumigatus
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Cryptococcus neoformans
+Candida albicans
+Fusarium sporotrichioides
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Alternaria alternata
+Alternaria alternata
+Blastomyces dermatitidis
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Cercospora kikuchii
+Cochliobolus heterostrophus
+Gloeocercospora sorghi
+Trichoderma virens
+Colletotrichum trifolii
+Candida albicans
+Ustilago maydis
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cochliobolus carbonum
+Ustilago maydis
+Histoplasma capsulatum
+Alternaria alternata
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Histoplasma capsulatum
+Colletotrichum gloeosporioides
+Colletotrichum gloeosporioides
+Colletotrichum gloeosporioides
+Colletotrichum gloeosporioides
+Colletotrichum gloeosporioides
+Colletotrichum gloeosporioides
+Colletotrichum lindemuthianum
+Colletotrichum lagenarium
+Candida albicans
+Colletotrichum trifolii
+Candida albicans
+Candida albicans
+Ustilago maydis
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Aspergillus fumigatus
+Nectria haematococca (related: Fusarium solani)
+Nectria haematococca (related: Fusarium solani)
+Fusarium oxysporum
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Ustilago maydis
+Cochliobolus carbonum
+Candida albicans
+Candida albicans
+Septoria lycopersici
+Ustilago maydis
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cladosporium fulvum
+Fusarium oxysporum
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Fusarium oxysporum
+Fusarium oxysporum
+Cochliobolus carbonum
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Colletotrichum gloeosporioides
+Nectria haematococca (related: Fusarium solani)
+Nectria haematococca (related: Fusarium solani)
+Nectria haematococca (related: Fusarium solani)
+Colletotrichum lagenarium
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Pyrenophora teres
+Colletotrichum lagenarium
+Cryptococcus neoformans
+Cochliobolus carbonum
+Ustilago maydis
+Cryptococcus neoformans
+Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Candida albicans
+Botrytis cinerea
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Colletotrichum gloeosporioides
+Colletotrichum lindemuthianum
+Claviceps purpurea
+Claviceps purpurea
+Claviceps purpurea
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Cochliobolus heterostrophus
+Fusarium oxysporum
+Candida albicans
+Aspergillus fumigatus
+Fusarium oxysporum
+Gibberella fujikuroi
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Gibberella pulicaris
+Candida albicans
+Ustilago maydis
+Leptosphaeria maculans
+Candida albicans
+Colletotrichum lagenarium
+Candida albicans
+Cryptococcus neoformans
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Candida albicans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Candida albicans
+Candida albicans
+Coccidioides immitis 
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Fusarium oxysporum
+Fusarium oxysporum
+Cryptococcus neoformans
+Colletotrichum lindemuthianum
+Candida albicans
+Candida albicans
+Candida albicans
+Claviceps purpurea
+Cryptococcus neoformans
+Cochliobolus heterostrophus
+Colletotrichum lagenarium
+Cochliobolus victoriae
+Cercospora zeae-maydis
+Fusarium oxysporum
+Fusarium oxysporum
+Fusarium oxysporum
+Candida albicans
+Gibberella zeae (related: Fusarium graminearum)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Candida albicans
+Ustilago maydis
+Ustilago maydis
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Cryptococcus neoformans
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Fusarium oxysporum
+Fusarium oxysporum
+Phytophthora infestans
+Aspergillus fumigatus
+Cryptococcus gattii
+Cryptococcus gattii
+Ustilago maydis
+Candida albicans
+Candida glabrata
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Verticillium fungicola 
+Cryptococcus neoformans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Candida glabrata
+Hyaloperonospora parasitica
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Candida albicans
+Colletotrichum lagenarium
+Candida albicans
+Cochliobolus heterostrophus
+Aspergillus fumigatus
+Fusarium oxysporum
+Fusarium oxysporum
+Ustilago maydis
+Colletotrichum lindemuthianum
+Aspergillus fumigatus
+Colletotrichum lagenarium
+Cryphonectria parasitica
+Cryphonectria parasitica
+Claviceps purpurea
+Cryptococcus neoformans
+Ustilago maydis
+Candida albicans
+Candida albicans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Fusarium culmorum
+Ustilago maydis
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Aspergillus fumigatus
+Gibberella zeae (related: Fusarium graminearum)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Aspergillus fumigatus
+Candida albicans
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Candida albicans
+Phytophthora infestans
+Cryptococcus neoformans
+Aspergillus fumigatus
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Fusarium oxysporum
+Cryptococcus neoformans
+Cryptococcus neoformans
+Aspergillus fumigatus
+Candida albicans
+Fusarium oxysporum
+Candida albicans
+Ustilago maydis
+Candida albicans
+Cryptococcus neoformans
+Trichoderma virens
+Cryptococcus neoformans
+Cryptococcus neoformans
+Ustilago maydis
+Exophiala dermatitidis (related: Wangiella  dermatitidis)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Candida albicans
+Claviceps purpurea
+Ustilago maydis
+Fusarium oxysporum
+Cryptococcus neoformans
+Aspergillus nidulans
+Candida albicans
+Candida albicans
+Ustilago maydis
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Pyrenopeziza brassicae
+Beauveria bassiana
+Cryptococcus neoformans
+Ustilago maydis
+Cochliobolus heterostrophus
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Cochliobolus heterostrophus
+Cochliobolus heterostrophus
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Candida albicans
+Cryptococcus gattii
+Cryptococcus gattii
+Cryptococcus bacillisporus
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Colletotrichum lindemuthianum
+Cryptococcus neoformans
+Cryptococcus neoformans
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Cercospora nicotianae
+Aspergillus fumigatus
+Candida albicans
+Cryptococcus neoformans
+Claviceps purpurea
+Botrytis cinerea
+Botrytis cinerea
+Gibberella zeae (related: Fusarium graminearum)
+Candida albicans
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Aspergillus fumigatus
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Monocot
+Cryptococcus neoformans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago hordei
+Ustilago hordei
+Candida albicans
+Candida albicans
+Saccharomyces cerevisiae
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Cryphonectria parasitica
+Candida glabrata
+Cochliobolus carbonum
+Cryptococcus neoformans
+Candida albicans
+Cladosporium fulvum
+Phytophthora infestans
+Cryptococcus neoformans
+Candida albicans
+Cryptococcus neoformans
+Candida albicans
+Ustilago maydis
+Coccidioides posadasii
+Candida albicans
+Candida albicans
+Colletotrichum acutatum
+Colletotrichum acutatum
+Aspergillus fumigatus
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Verticillium dahliae
+Candida albicans
+Candida albicans
+Aspergillus fumigatus
+Magnaporthe grisea
+Candida albicans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Fusarium oxysporum
+Candida albicans
+Botrytis cinerea
+Botrytis cinerea
+Candida glabrata
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus fumigatus
+Cryptococcus neoformans
+Cryptococcus neoformans
+Phytophthora infestans
+Candida albicans
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Candida albicans
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Alternaria alternata
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Candida albicans
+Ustilago maydis
+Cryptococcus neoformans
+Cryptococcus neoformans
+Candida albicans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Candida albicans
+Colletotrichum gloeosporioides
+Fusarium oxysporum
+Fusarium oxysporum
+Candida albicans
+Ustilago maydis
+Ustilago maydis
+Gibberella zeae (related: Fusarium graminearum)
+Ustilago maydis
+Candida albicans
+Candida albicans
+Ustilago maydis
+Cladosporium fulvum
+Phytophthora sojae
+Hyaloperonospora parasitica
+Melampsora lini
+Melampsora lini
+Melampsora lini
+Melampsora lini
+Pyrenophora tritici-repentis
+Melampsora lini
+Melampsora lini
+Melampsora lini
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Aspergillus fumigatus
+Aspergillus fumigatus
+Cochliobolus carbonum
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Fusarium oxysporum
+Fusarium oxysporum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Cochliobolus carbonum
+Botrytis cinerea
+Epichloe festucae
+Epichloe festucae
+Epichloe festucae
+Epichloe festucae
+Epichloe festucae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Leptosphaeria maculans
+Leptosphaeria maculans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Botrytis cinerea
+Botrytis cinerea
+Phytophthora sojae
+Phytophthora sojae
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora sojae
+Phytophthora sojae
+Hyaloperonospora parasitica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Pythium aphanidermatum
+Pythium aphanidermatum
+Pythium aphanidermatum
+Phytophthora cactorum
+Phytophthora cactorum
+Phytophthora parasitica
+Phytophthora parasitica
+Phytophthora parasitica
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Cryptococcus neoformans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Cryptococcus neoformans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Cryptococcus neoformans
+Cryptococcus gattii
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Leptosphaeria maculans
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Vibrio cholerae
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella fujikuroi
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Fusarium oxysporum
+Fusarium oxysporum
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Alternaria brassicicola
+Cercospora nicotianae
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Botrytis elliptica
+Botrytis elliptica
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Blumeria graminis
+Blumeria graminis
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Phytophthora infestans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Claviceps purpurea
+Cryphonectria parasitica
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Venturia inaequalis
+Monilinia fructicola
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Rhynchosporium secalis
+Burkholderia glumae
+Trichophyton rubrum
+Trichophyton rubrum
+Aspergillus fumigatus
+Aspergillus fumigatus
+Aspergillus nidulans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Blumeria graminis
+Botrytis cinerea
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Flavobacterium psychrophilum 
+Flavobacterium psychrophilum 
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Burkholderia glumae
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Candida albicans
+Candida albicans
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Gibberella zeae (related: Fusarium graminearum)
+Gibberella zeae (related: Fusarium graminearum)
+Colletotrichum lagenarium
+Aspergillus fumigatus
+Mycosphaerella graminicola (related: Zymoseptoria triticii)
+Colletotrichum lindemuthianum
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Magnaporthe oryzae (related: Magnaporthe grisea)
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis
+Ustilago maydis

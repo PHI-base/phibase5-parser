@@ -918,19 +918,18 @@ while (<TSV_FILE>) {
              my $phenotype_outcome_id = $phenotype_outcome_mapping{$phenotype_outcome_string};
 
              # if identifier is present, then insert the appropriate
-             # record into the pathogen_gene_mutant table
+             # record into the interaction_phenotype_outcome table
              if ($phenotype_outcome_id) {
 
                 $phenotype_outcome_id =~ s/^\s+//; # remove blank space from start of string
                 $phenotype_outcome_id =~ s/\s+$//; # remove blank space from end of string
 
-                # insert data into the appropriate pathogen_gene_mutant table,
+                # insert data into the appropriate interaction_phenotype_outcome table,
                 # with for a foreign key to the phenotype_outcome ontology
                 $phenotype_outcome_term_count++;
-	        $sql_statement = qq(UPDATE interaction_pathogen_gene_mutant 
-                                      SET phenotype_outcome_id = '$phenotype_outcome_id'
-                                      WHERE interaction_id = $interaction_id
-                                      AND pathogen_gene_mutant_id = $pathogen_gene_mutant_id;
+	        $sql_statement = qq(INSERT INTO interaction_phenotype_outcome
+                                      (interaction_id, phenotype_outcome_id)
+                                      VALUES ($interaction_id, '$phenotype_outcome_id');
                                    );
 	        $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
                 print PHEN_OUTCOME_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$phenotype_outcome_string\t$phenotype_outcome_id\n";

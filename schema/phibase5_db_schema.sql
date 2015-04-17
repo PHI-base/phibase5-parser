@@ -42,8 +42,13 @@ CREATE TABLE pathogen_gene_mutant (
 CREATE TABLE interaction_pathogen_gene_mutant (
     interaction_id integer REFERENCES interaction,
     pathogen_gene_mutant_id integer REFERENCES pathogen_gene_mutant,
-    phenotype_outcome_id varchar(50),
     PRIMARY KEY (interaction_id, pathogen_gene_mutant_id)
+);
+
+CREATE TABLE interaction_phenotype_outcome (
+    interaction_id integer REFERENCES interaction,
+    phenotype_outcome_id varchar(50),
+    PRIMARY KEY (interaction_id, phenotype_outcome_id)
 );
 
 CREATE TABLE obsolete (

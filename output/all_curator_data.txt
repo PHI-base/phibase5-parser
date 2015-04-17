@@ -1,170 +1,170 @@
-Curator ID	BO
-Name	Birgit Oeser
-Organisation	
-ID	BO
-
-Curator ID	SK
-Organisation	
-Name	Sophien Kamoun
-ID	SK
-
-Curator ID	MHK
-Name	Michael Hammond-Kosack
-Organisation	Rothamsted Research
-ID	MHK
-
 Curator ID	HJC
-ID	HJC
 Name	Hans Cools
+ID	HJC
 Organisation	
 
-Curator ID	AR
-ID	AR
-Name	Arathi Raghunath
-Organisation	Molecular Connections
-
-Curator ID	ML
-ID	ML
-Name	Magdalen Lindeberg
+Curator ID	KM
 Organisation	
-
-Curator ID	JK
-Organisation	
-Name	John Keon
-ID	JK
-
-Curator ID	SH
-Organisation	
-Name	Sabrina Holland
-ID	SH
-
-Curator ID	RO
-Name	Richard Oliver
-Organisation	
-ID	RO
-
-Curator ID	AGI
-Organisation	Rothamsted Research
-Name	Alistair Irvine
-ID	AGI
-
-Curator ID	MU
-ID	MU
-Organisation	Rothamsted Research
-Name	Martin Urban
-
-Curator ID	HH
-ID	HH
-Name	Hilde Hansen
-Organisation	
-
-Curator ID	JA
-Organisation	
-Name	John Antoniw
-ID	JA
-
-Curator ID	JR
-Organisation	
-Name	Jason Rudd
-ID	JR
-
-Curator ID	HJ
-ID	HJ
-Name	Helen Jenkins
-Organisation	Rothamsted Research
-
-Curator ID	RM
-Organisation	
-Name	Ros Marshall
-ID	RM
-
-Curator ID	RP
-Name	Rashmi Pant
-Organisation	Molecular Connections
-ID	RP
-
-Curator ID	SD
-Name	Sian Deller
-Organisation	
-ID	SD
-
-Curator ID	NB
-Organisation	
-Name	Neil Brown
-ID	NB
-
-Curator ID	PR
-Organisation	
-Name	Pam Ronald
-ID	PR
-
-Curator ID	DG
-ID	DG
-Name	Donald Gardiner
-Organisation	
-
-Curator ID	AB
-ID	AB
-Name	Andrew Beacham
-Organisation	
-
-Curator ID	RK
-Name	Roland Krause
-Organisation	
-ID	RK
-
-Curator ID	ND
-ID	ND
-Name	Noemie Desmenceux
-Organisation	
-
-Curator ID	AC
-Name	Alayne Cuzick
-Organisation	Rothamsted Research
-ID	AC
-
-Curator ID	AS
-ID	AS
-Name	Ane Sesma
-Organisation	
-
-Curator ID	TKB
-Organisation	
-Name	Thomas Baldwin
-ID	TKB
-
-Curator ID	BH
-ID	BH
-Name	Barbara Howlett
-Organisation	
-
-Curator ID	DS
-Organisation	
-Name	Darren Soanes
-ID	DS
+ID	KM
+Name	Kerry Maguire
 
 Curator ID	JVK
 Name	Jan van Kan
 Organisation	
 ID	JVK
 
-Curator ID	KHK
-Organisation	Rothamsted Research
-Name	Kim Hammond-Kosack
-ID	KHK
+Curator ID	SK
+Organisation	
+ID	SK
+Name	Sophien Kamoun
+
+Curator ID	RM
+Organisation	
+ID	RM
+Name	Ros Marshall
+
+Curator ID	SD
+Name	Sian Deller
+Organisation	
+ID	SD
+
+Curator ID	PR
+Name	Pam Ronald
+ID	PR
+Organisation	
+
+Curator ID	AS
+Organisation	
+ID	AS
+Name	Ane Sesma
+
+Curator ID	DS
+Organisation	
+ID	DS
+Name	Darren Soanes
+
+Curator ID	JR
+ID	JR
+Organisation	
+Name	Jason Rudd
 
 Curator ID	MC
-Organisation	Molecular Connections
 Name	Molecular Connections
+Organisation	Molecular Connections
 ID	MC
+
+Curator ID	HJ
+ID	HJ
+Organisation	Rothamsted Research
+Name	Helen Jenkins
+
+Curator ID	KHK
+ID	KHK
+Organisation	Rothamsted Research
+Name	Kim Hammond-Kosack
+
+Curator ID	HH
+Name	Hilde Hansen
+Organisation	
+ID	HH
+
+Curator ID	ND
+ID	ND
+Organisation	
+Name	Noemie Desmenceux
+
+Curator ID	BH
+Name	Barbara Howlett
+ID	BH
+Organisation	
+
+Curator ID	ML
+Name	Magdalen Lindeberg
+Organisation	
+ID	ML
+
+Curator ID	JA
+ID	JA
+Organisation	
+Name	John Antoniw
+
+Curator ID	MU
+ID	MU
+Organisation	Rothamsted Research
+Name	Martin Urban
+
+Curator ID	AGI
+Organisation	Rothamsted Research
+ID	AGI
+Name	Alistair Irvine
+
+Curator ID	TKB
+Name	Thomas Baldwin
+ID	TKB
+Organisation	
+
+Curator ID	MHK
+Name	Michael Hammond-Kosack
+ID	MHK
+Organisation	Rothamsted Research
 
 Curator ID	AI
 ID	AI
 Organisation	
 Name	Alexander Idnurm
 
-Curator ID	KM
-Name	Kerry Maguire
+Curator ID	NB
+Name	Neil Brown
 Organisation	
-ID	KM
+ID	NB
+
+Curator ID	RK
+Name	Roland Krause
+ID	RK
+Organisation	
+
+Curator ID	RO
+ID	RO
+Organisation	
+Name	Richard Oliver
+
+Curator ID	SH
+Name	Sabrina Holland
+Organisation	
+ID	SH
+
+Curator ID	RP
+Name	Rashmi Pant
+ID	RP
+Organisation	Molecular Connections
+
+Curator ID	AC
+Name	Alayne Cuzick
+Organisation	Rothamsted Research
+ID	AC
+
+Curator ID	AR
+Organisation	Molecular Connections
+ID	AR
+Name	Arathi Raghunath
+
+Curator ID	DG
+Name	Donald Gardiner
+Organisation	
+ID	DG
+
+Curator ID	JK
+Name	John Keon
+ID	JK
+Organisation	
+
+Curator ID	AB
+Name	Andrew Beacham
+ID	AB
+Organisation	
+
+Curator ID	BO
+ID	BO
+Organisation	
+Name	Birgit Oeser
 
