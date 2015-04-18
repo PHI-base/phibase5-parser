@@ -16,7 +16,7 @@ use phibase_subroutines
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
 # open output file
-my $db_data_filename = '../output/all_database_data_extended.tsv';  
+my $db_data_filename = '../output/all_database_data.tsv';  
 open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output file\n";
 
 # print the headers for the output file
@@ -676,7 +676,11 @@ while (my @row = $sql_result->fetchrow_array()) {
     my $host_response_id = shift @row2;
 
     # use the host response ontology to retrieve the term name, based on the identifier
-    my $host_response_name = $host_response_ontology->get_term_by_id($host_response_id)->name;
+    my $host_term = $host_response_ontology->get_term_by_id($host_response_id);
+    my $host_response_name = "";
+    if (defined $host_term) {
+      $host_response_name = $host_term->name;
+    }
     $host_response_string .= "$host_response_id:$host_response_name;";
 
   }
