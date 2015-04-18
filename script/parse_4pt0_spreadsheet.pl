@@ -498,7 +498,7 @@ while (<TSV_FILE>) {
 						);
 		    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
-		    print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
+		    #print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
 
 		    # TODO: NEED TO ADDITIONALLY FIND OUT IF HOST TAXONOMY IDs MATCH (AND POSSIBLY PUBMED IDs)
 		    last;
@@ -1236,21 +1236,6 @@ foreach my $invalid_accession (@invalid_phibase_acc) {
 }
 close (INVALID_FILE);
 
-# save required data to a separate file
-my $required_data_filename = '../output/required_phibase_data.txt';
-open (REQUIRED_FIELDS_FILE, "> $required_data_filename") or die "Error opening output file\n";
-foreach my $phi_base_ann (sort {$a<=>$b} keys %required_fields_data) {
-   print REQUIRED_FIELDS_FILE "PHI:$phi_base_ann\n";
-   foreach my $col_name (sort keys %{ $required_fields_data{$phi_base_ann} }) {
-     # check that the value is defined before attempting to display it
-     if (defined $required_fields_data{$phi_base_ann}{$col_name}) {
-       print REQUIRED_FIELDS_FILE "$col_name\t$required_fields_data{$phi_base_ann}{$col_name}\n";
-     }
-   }
-   print REQUIRED_FIELDS_FILE "\n";
-}
-close (REQUIRED_FIELDS_FILE);
-
 print "\nProcess completed successfully.\n\n";
 
 print "Total PHI-base annotations processed:$annotation_count\n\n";
@@ -1301,8 +1286,6 @@ print "Output file of annotations with invalid PubMed ID: $invalid_literature_fi
 print "Output file of annotations with invalid UniProt accession: $invalid_uniprot_filename\n";
 print "Output file of annotations without a Gene Name: $invalid_gene_name_filename\n";
 print "Output file of annotations without a curator: $invalid_gene_name_filename\n\n";
-
-print "Output file of only the required data fields of all PHI-base entries: $required_data_filename\n";
 
 print "Output file of valid defects: $defect_filename\n";
 print "Output file of invalid defects: $invalid_defect_filename\n";
