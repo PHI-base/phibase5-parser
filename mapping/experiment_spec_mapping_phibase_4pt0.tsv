@@ -40,11 +40,13 @@ Gene deletion: full	ESO:0000002
 Gene deletion: Full	ESO:0000002
 Gene deletion: full; chemical complementation	ESO:0000002;ESO:0000007
 Gene deletion: full; complementation	ESO:0000002;ESO:0000007
+Gene deletion: full; gene complementation	ESO:0000002;ESO:0000007
 Gene deletion: full;  Gene complementation	ESO:0000002;ESO:0000007
 Gene deletion: full; Gene complementation;	ESO:0000002;ESO:0000007
 Gene deletion: full; Gene complementation	ESO:0000002;ESO:0000007
 Gene deletion: Full; Gene complementation	ESO:0000002;ESO:0000007
 Gene deletion: full; heterologous expression
+gene deletion; gene complementation	ESO:0000002;ESO:0000007
 Gene deletion; Gene complementation	ESO:0000002;ESO:0000007
 Gene deletion; partial	ESO:0000002
 Gene deletion: partial	ESO:0000002
@@ -59,6 +61,7 @@ gene disruption; altered gene expression / gene regulation: overexpression	ESO:0
 gene disruption; altered gene expression / gene regulation: overexpression; complementation	ESO:0000001;ESO:0000011;ESO:0000007
 gene disruption; complementation	ESO:0000001;ESO:0000007
 gene disruption; complementation; other evidence	ESO:0000001;ESO:0000007;ESO:0000010
+gene disruption; gene complementation	ESO:0000001;ESO:0000007
 Gene disruption; gene complementation	ESO:0000001;ESO:0000007
 Gene disruption; Gene complementation	ESO:0000001;ESO:0000007
 Gene disruption: Gene complementation	ESO:0000001;ESO:0000007
@@ -66,6 +69,7 @@ Gene disruption; Gene Complementation	ESO:0000001;ESO:0000007
 Gene Disruption; Gene complementation	ESO:0000001;ESO:0000007
 gene disruption; gene deletion	ESO:0000001;ESO:0000002
 gene disruption; gene deletion; complementation	ESO:0000001;ESO:0000002;ESO:0000007
+gene disruption; gene deletion; gene complementation	ESO:0000001;ESO:0000002;ESO:0000007
 Gene disruption; Gene deletion: full; gene complementation	ESO:0000001;ESO:0000002;ESO:0000007
 gene disruption; gene mutation: characterised	ESO:0000001;ESO:0000016
 gene disruption; other evidence	ESO:0000001;ESO:0000010
