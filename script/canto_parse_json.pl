@@ -13,49 +13,26 @@ use phibase_subroutines qw(connect_to_phibase);
 my $db_conn = connect_to_phibase();
 
 # counters to gather statistics
-# CURRENTLY USED
 my $annotation_count = 0;
 my $interaction_count = 0;
-# CURRENTLY UNUSED
-my $defect_count = 0;
-my $invalid_defect_count = 0;
-my $curator_count = 0;
-my $species_expert_count = 0;
-my $anti_infective_count = 0;
-my $no_anti_infective_count = 0;
-my $inducer_count = 0;
-my $no_inducer_count = 0;
 my $go_annotation_count = 0;
-my $go_with_evid_count = 0;
-my $go_without_evid_count = 0;
-my $invalid_go_count = 0;
-my $exp_spec_count = 0;
-my $exp_spec_term_count = 0;
-my $invalid_exp_spec_count = 0;
 my $host_response_count = 0;
-my $host_response_term_count = 0;
-my $invalid_host_response_count = 0;
 my $phenotype_outcome_count = 0;
-my $phenotype_outcome_term_count = 0;
-my $invalid_phenotype_outcome_count = 0;
 my $disease_count = 0;
-my $disease_term_count = 0;
-my $invalid_disease_count = 0;
-my $without_disease_count = 0;
-my $invalid_required_data_count = 0;
-my $invalid_path_taxon_id_count = 0;
-my $invalid_host_taxon_id_count = 0;
-my $invalid_literature_count = 0;
-my $invalid_uniprot_acc_count = 0;
-my $invalid_gene_name_count = 0;
-my $invalid_curator_count = 0;
+# CURRENTLY UNUSED
+#my $defect_count = 0;
+#my $anti_infective_count = 0;
+#my $inducer_count = 0;
+#my $exp_spec_count = 0;
 
-my $json_filename = '../input/canto/canto_triple_mutant.json';
+my $json_filename = '../input/canto/canto_with_go.json';
+#my $json_filename = '../input/canto/canto_triple_mutant.json';
 #my $json_filename = '../input/canto/canto_phibase_extensions.json';
 #my $json_filename = '../input/canto/approved_annotation_2015-03-06.json';
-my $output_filename = '../output/json_output.tsv';
-open (JSON_OUTPUT_FILE,"> $output_filename") or die "Error opening output file\n";
-print "Printing JSON details to output file $output_filename...\n";
+
+#my $output_filename = '../output/json_output.tsv';
+#open (JSON_OUTPUT_FILE,"> $output_filename") or die "Error opening output file\n";
+#print "Printing JSON details to output file $output_filename...\n";
 
 my $text_response = json_file_to_perl($json_filename);
 
@@ -104,7 +81,7 @@ foreach my $annot_index (0 .. $#annotations) {
    my $annot_extension_list = $annotation{'annotation_extension'};
    my @annot_extensions = split(/,/,$annot_extension_list);
 
-   my $host;
+   my $host_taxon;
    my $tissue;
    my $interaction_partner;
 
@@ -114,9 +91,9 @@ foreach my $annot_index (0 .. $#annotations) {
      # if the annotation extension begins with 'pathogen_of', then assign value between brackets to host
      if ($annot_ext =~ /^pathogen_of/) {
         my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $host = $annot_ext[1];
+        $host_taxon = $annot_ext[1];
         # add annotation extension to help identify the correct interaction
-        $annotation_interaction_hash{'host_taxon_id'} = $host;
+        $annotation_interaction_hash{'host_taxon_id'} = $host_taxon;
      }
 
      # if the annotation extension begins with 'occurs_in', then assign value between brackets to tissue
@@ -192,7 +169,8 @@ foreach my $int_id (1 .. $interaction_count) {
   # declare variables
   my $uniprot_acc;
   my $pubmed_id;
-  my $host;
+  my $host_taxon;
+  my $host_taxon_id;
   my $tissue;
   my $interaction_partner;
   my $curator_name;
@@ -203,6 +181,9 @@ foreach my $int_id (1 .. $interaction_count) {
   my $pathogen_taxon_id;
   my $phenotype_outcome;
   my $disease;
+  my $go_id;
+  my $go_evid_code;
+  my $host_response_id;
   my $interaction_id;
 
   # declare array to hold all pathogen gene
@@ -231,7 +212,7 @@ foreach my $int_id (1 .. $interaction_count) {
          $first_annot_of_int_flag = 0;
 
          $pubmed_id = $annotation{'publication'};
-         print "PubMed ID: $pubmed_id\n";
+         print "PubMed Article: $pubmed_id\n";
 
          # the first annotation type must be the pathogen taxon ID
          my $annot_type = $annotations[$annot_index]{'type'};
@@ -245,7 +226,6 @@ foreach my $int_id (1 .. $interaction_count) {
             # need to extract the taxon value
             my @pathogen_taxon_parts = split(/[:]/,$pathogen_taxon);
             $pathogen_taxon_id = $pathogen_taxon_parts[1];
-            print "Pathogen Taxon ID: $pathogen_taxon_id\n";
          }
 
          my @gene_organism_list = keys $annotation{'genes'};
@@ -265,7 +245,7 @@ foreach my $int_id (1 .. $interaction_count) {
             # if the annotation extension begins with 'pathogen_of', then assign value between brackets to host
             if ($annot_ext =~ /^pathogen_of/) {
               my @annot_ext = split(/[\(\)]/,$annot_ext);
-              $host = $annot_ext[1];
+              $host_taxon = $annot_ext[1];
             }
 
             # if the annotation extension begins with 'occurs_in', then assign value between brackets to tissue
@@ -298,8 +278,8 @@ foreach my $int_id (1 .. $interaction_count) {
            print "Pathogen Gene: $pathogen_gene\n";
          }
 
-         print "Host ID: $host\n";
-         print "Tissue ID: $tissue\n";
+         print "Host Taxon: $host_taxon\n";
+         print "Tissue: $tissue\n";
 
          $curator_name = $annotation{'curator'}{'name'};
          $curator_email = $annotation{'curator'}{'email'};
@@ -310,7 +290,7 @@ foreach my $int_id (1 .. $interaction_count) {
          print "Pathogen Species: $pathogen_species\n";
 
          $creation_date = $annotation{'creation_date'};
-         print "Creation Date:$creation_date\n";
+         print "Creation Date: $creation_date\n";
 
 
          # declare array to hold the list of IDs from the pathogen_gene_mutant table 
@@ -376,7 +356,7 @@ foreach my $int_id (1 .. $interaction_count) {
 	    # (in case of multiple gene interaction)
 	    push(@pathogen_gene_mutant_ids,$pathogen_gene_mutant_id);
 
-         }
+         } # end foreach pathogen gene UniProt identifier
 
 
 	 # get the largest available value for phi_base_accession,
@@ -408,17 +388,17 @@ foreach my $int_id (1 .. $interaction_count) {
 	 $interaction_id = shift @row1;
 
 	 # host taxon id is the taxon with 'NCBItaxon:' prefix removed
-	 my $host_taxon_id = substr($host,10);
+	 $host_taxon_id = substr($host_taxon,10);
 	 # PubMed id is the pubmed string with 'PMID:' prefix removed
 	 my $pubmed_id_num = substr($pubmed_id,5);
-	 print "Host ID:$host_taxon_id\n";
-	 print "PubMed ID:$pubmed_id_num\n";
 
-	 # add records for the literature and host tables associated with the interaction,
+	 # add records for the literature, host, and tissue tables associated with the interaction,
 	 # using the interaction id as a foreign key to the interaction table
 	 my $inner_sql_statement = qq(
 				      INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
 					VALUES ($interaction_id,$host_taxon_id);
+				      INSERT INTO interaction_tissue (interaction_id,brenda_tissue_id) 
+					VALUES ($interaction_id,'$tissue');
 				      INSERT INTO interaction_literature (interaction_id, pubmed_id)
 					VALUES ($interaction_id, '$pubmed_id_num');
 				     );
@@ -488,7 +468,8 @@ foreach my $int_id (1 .. $interaction_count) {
 	 $curator_id = shift @row;
 
 
-         # if an existing curator is not found a new curator record needs to be added
+         # if an existing curator is not found,
+         # then a new curator record needs to be added for the approver
          if (not defined $curator_id) {
 
 	    # insert a new curator into the curator table, returning the curator identifier
@@ -513,9 +494,10 @@ foreach my $int_id (1 .. $interaction_count) {
       } # end if first annotation
 
       # for each annotation, find the type of data being annotated
-      # and the corresponding value
+      # and the corresponding value and evidence code
       my $annot_type = $annotations[$annot_index]{'type'};
       my $annot_value = $annotations[$annot_index]{'term'};
+      my $annot_evid_code = $annotations[$annot_index]{'evidence_code'};
 
       # make appropriate assignment depending on the type of data
 #      if ($annot_type eq 'pathogen_taxon') {
@@ -534,13 +516,12 @@ foreach my $int_id (1 .. $interaction_count) {
 
 	 # insert data into the appropriate interaction_phenotype_outcome table,
 	 # with for a foreign key to the phenotype_outcome ontology
-	 $phenotype_outcome_term_count++;
+	 $phenotype_outcome_count++;
 	 my $sql_statement = qq(INSERT INTO interaction_phenotype_outcome
 			       (interaction_id, phenotype_outcome_id)
 			       VALUES ($interaction_id, '$phenotype_outcome');
 			    );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-	 print "Phenotype added\n";
 
       } elsif ($annot_type eq 'disease') {
 
@@ -549,16 +530,53 @@ foreach my $int_id (1 .. $interaction_count) {
 
 	 # insert data into interaction_disease table,
 	 # with foreign keys to the interaction table and the disease ontology
-	 $disease_term_count++;
+	 $disease_count++;
 	 #$sql_statement = qq(INSERT INTO interaction_disease (interaction_id, disease_id, disease_severity_id)
 	 my $sql_statement = qq(INSERT INTO interaction_disease (interaction_id, disease_id)
 			       VALUES ($interaction_id, '$disease');
 			    );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-	 print "Disease added\n";
+
+      } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' ) {
+
+         $go_id = $annot_value;
+         $go_evid_code = $annot_evid_code;
+         print "GO Annotation: $go_id ($go_evid_code)\n";
+
+	 # insert data into interaction_go_annotation table,
+	 # with foreign keys to the interaction table and the go_evidence_code_table 
+	 my $sql_statement = qq(INSERT INTO interaction_go_annotation (interaction_id, go_id, go_evidence_code)
+			       VALUES ($interaction_id, '$go_id', '$go_evid_code');
+			    );
+	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+	 $go_annotation_count++;
+
+      } elsif ($annot_type eq 'host_response') {
+
+         $host_response_id = $annot_value;
+         print "Host Response: $host_response_id\n";
+
+         # before we can insert the host response,
+         # we need to get the identifier for the appropriate host
+	 my $sql_statement = qq(SELECT id FROM interaction_host
+				  WHERE interaction_id = $interaction_id
+				  AND ncbi_taxon_id = $host_taxon_id
+			       );
+
+	 my $sql_result = $db_conn->prepare($sql_statement);
+	 $sql_result->execute() or die $DBI::errstr;
+	 my @row = $sql_result->fetchrow_array();
+	 my $interaction_host_id = shift @row;
+
+	 # insert data into interaction_host_response table,
+	 # with foreign keys to the interaction table and the host_response ontology
+	 $host_response_count++;
+	 $sql_statement = qq(INSERT INTO interaction_host_response (interaction_host_id, host_response_id)
+			       VALUES ($interaction_id, '$host_response_id');
+			    );
+	 $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
       } # end elsif annotation type
-
 
     } # end if annotation belongs to interaction
 
@@ -566,16 +584,14 @@ foreach my $int_id (1 .. $interaction_count) {
 
 } # end foreach interaction
 
+print "\nTotal interactions:$interaction_count\n";
+print "Total annotations :$annotation_count\n";
+print "Total phenotype outcomes: $phenotype_outcome_count\n";
+print "Total diseases: $disease_count\n";
+print "Total GO annotations: $go_annotation_count\n";
+print "Total host responses: $host_response_count\n";
 
-print "\nTotal number of interactions:$interaction_count\n";
-print "Total number of annotations :$annotation_count\n";
+#close (JSON_OUTPUT_FILE);
 
-close (JSON_OUTPUT_FILE);
-
-#$sql_stmt->finish() or die "Failed to finish SQL statement\n";
 $db_conn->disconnect() or die "Failed to disconnect database\n";
-
-#print "Unique PubMed IDs:$article_count\n";
-#print "PubMed articles found: $article_found_count, output file $pubmed_filename\n";
-#print "PubMed articles not found: $article_not_found_count, output file $no_pubmed_filename\n";
 

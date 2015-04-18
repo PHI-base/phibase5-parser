@@ -133,8 +133,8 @@ CREATE TABLE species_expert (
 
 CREATE TABLE interaction_tissue (
     interaction_id integer REFERENCES interaction,
-    brenda_tissue_ontology_id integer,
-    PRIMARY KEY (interaction_id, brenda_tissue_ontology_id)
+    brenda_tissue_id varchar(50),
+    PRIMARY KEY (interaction_id, brenda_tissue_id)
 );
 
 CREATE TABLE frac (

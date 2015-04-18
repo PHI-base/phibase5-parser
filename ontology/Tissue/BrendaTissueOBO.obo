@@ -4,7 +4,7 @@ saved-by: Marion
 auto-generated-by: OBO-Edit 2.3-beta5
 synonymtypedef: GE "LANGUAGE GERMAN"
 synonymtypedef: SCI "SCIENTIFIC NAME"
-default-namespace: 
+default-namespace:
 
 [Term]
 id: BTO:0000000
