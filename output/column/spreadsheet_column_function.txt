@@ -42,7 +42,7 @@ Pisatin demethylase
 Polyketide synthase
 MAP kinase
 Transcription factor
-Scytalone dehydratase 
+Scytalone dehydratase
 Reductase
 Toxin Pump
 Cell wall 1,3-beta-glucosyltransferase (bgl2p)
@@ -58,7 +58,7 @@ Cutinase
 Cutinase
 Cutinase
 Cutinase
-Extracellular Protein 
+Extracellular Protein
 Effector protein
 Effector protein
 Aspartyl proteinase
@@ -120,7 +120,7 @@ Aspartyl proteinase
 PKA regulatory subunit
 Capsule associated protein
 Trehalose-6-phosphate synthase
-Toxin efflux pump 
+Toxin efflux pump
 ABC transporter
 Carboxyl-activating enzyme, essential for AK Toxin
 Unknown, mutant is AK toxin non-producer
@@ -215,7 +215,7 @@ MAP kinase
 Histone deacetylase
 GlcNAc kinase
 Inositol-phosphoryl ceramide synthase 1
-DNA ligase 
+DNA ligase
 Phosphomannose isomerase
 Phosphomannose isomerase
 Glucosamine-6-phosphate deaminase
@@ -300,7 +300,7 @@ Polarity establishment protein
 Chitin Synthase
 Chitin Synthase
 Chloride Channel
-AREA/NIT2-like global nitrogen regulator 
+AREA/NIT2-like global nitrogen regulator
 Calcineurin A catalytic subunit
 Calcineurin A catalytic subunit
 Calcineurin B regulatory subunit
@@ -339,7 +339,7 @@ Guanine nucleotide exchange factor
 Global transcriptional co-repressor
 Transcription factor
 Trehalose-6-phosphate synthase
-Beta-1,6-glucanase 
+Beta-1,6-glucanase
 Adenylyl cyclase-associated protein
 Effector protein, polyketide synthase
 Transcription factor
@@ -364,9 +364,9 @@ MAP kinase
 G-protein signalling molecule
 Transcription factor
 G-protein
-Cell cycle 
+Cell cycle
 Amino acid transporter
-Extracellular protein 
+Extracellular protein
 ABC transporter
 Glyoxal oxidase
 G alpha protein subunit
@@ -402,7 +402,7 @@ Effector protein
 Response regulator
 Serine/threonine kinase
 Superoxide dismutase
-Chimeric spermidine synthase/saccharopine dehydrogenase 
+Chimeric spermidine synthase/saccharopine dehydrogenase
 G alpha protein subunit
 Thiol peroxidase
 UDP-glucose dehydrogenase
@@ -419,14 +419,14 @@ Mannosyltransferase
 Manganese superoxide dismutase
 MAP kinase kinase
 Membrane protein
-Tagged; aminophospholipid translocase 
+Tagged; aminophospholipid translocase
 MAP kinase
 Cutinase
 Chitinase
 Superoxide dismutase
 Transcription factor
 Transcription factor
-Mannitol 1-phosphate dehydrogenase 
+Mannitol 1-phosphate dehydrogenase
 Glyoxalase
 3-isopropylmalate dehydrogenase
 Non-ribosomal peptide synthetase
@@ -524,7 +524,7 @@ MAP kinase
 MAP kinase
 Chitin synthesis
 High affinity iron permease
-L-ornithine N5-oxygenase 
+L-ornithine N5-oxygenase
 Negative regulator of MAP kinase pathway
 Thioredoxin
 Thioredoxin
@@ -533,9 +533,9 @@ Phosphatase
 Endopolygalacturonase
 Endopolygalacturonase
 MAP kinase kinase kinase
-Fatty acid oxygenase 
-Fatty acid oxygenase 
-Fatty acid oxygenase 
+Fatty acid oxygenase
+Fatty acid oxygenase
+Fatty acid oxygenase
 MAP kinase
 MAP kinase kinase
 b-ZIP transcription factor
@@ -543,7 +543,7 @@ NO-scavenging flavohemoglobin
 Phosphoribosylaminoimidazole carboxylase
 Amidophosphoribosyltransferase
 Cytochrome c oxidase assembly
-beta-isopropyl-malate dehydrogenase 
+beta-isopropyl-malate dehydrogenase
 Mitochondrial-specific DNA polymerase catalytic subunit
 Orotidine 5'-phosphate decarboxylase
 GTPase
@@ -636,8 +636,8 @@ Type III secretion
 
 
 
-Chitin synthase 
-Chitin synthase 
+Chitin synthase
+Chitin synthase
 Endo-beta-1,4-glucanase
 Endo-beta-1,4-xylanase
 Endo-beta-1,4-xylanase
@@ -688,7 +688,7 @@ Type III effector
 Type III effector
 Alkohol dehydrogenase
 ApbE- family protein
-Type III effector 
+Type III effector
 shikimate kinase
 Unknown
 Unknown
@@ -757,8 +757,8 @@ trehalose-6-phosphate synthase
 neutral trehalase
 glucanase inhibitor protein
 glucanase inhibitor protein
-Extracellular protein inhibitor 
-Extracellular protein inhibitor 
+Extracellular protein inhibitor
+Extracellular protein inhibitor
 Effector protein
 Effector protein
 Effector protein
@@ -819,8 +819,8 @@ neutral trehelase
 neutral trehelase
 UDP-glucose: sterol glucosyltransferase
 UDP-glucose: sterol glucosyltransferase
-Cholera toxin (CT) 
-Cholera toxin (CT) 
+Cholera toxin (CT)
+Cholera toxin (CT)
 Toxin-coregulated pilus (TCP) – an intestinal colonization factor
 Controls expression of CT and TCP
 Required for philus assembly and CT secretion
@@ -891,7 +891,7 @@ Effector protein
 Effector protein
 Effector protein
 
-superoxide dismutase 
+superoxide dismutase
 G alpha protein subunit
 
 
@@ -909,7 +909,7 @@ G alpha protein subunit
 Hypothetical protein
 Hypothetical protein
 Hypothetical protein
-Predicted protein 
+Predicted protein
 Hypothetical protein
 Hypothetical protein
 Hypothetical protein
@@ -919,7 +919,7 @@ neutral trehalase
 Hypothetical protein
 HDEL sequence binding protein, putative
 Hypothetical protein
-Predicted protein 
+Predicted protein
 Hypothetical protein
 Hypothetical protein
 Hypothetical protein
@@ -934,12 +934,12 @@ Hypothetical protein
 Hypothetical protein
 Hypothetical protein
 Hypothetical protein
-Predicted protein 
-Predicted protein 
+Predicted protein
+Predicted protein
 Hypothetical protein
 Hypothetical protein
 Hypothetical protein
-Predicted protein 
+Predicted protein
 Hypothetical protein
 beta-tubulin
 beta-tubulin
@@ -973,7 +973,7 @@ DNA gyrase (bacterial topoisomerase II)
 DNA gyrase (bacterial topoisomerase II)
 Transcription factor
 Cytochrome C peroxidase precursor
-Haem peroxidase 
+Haem peroxidase
 cAMP phosphodiesterase
 phosphodiesterase
 NADPH Oxidase
@@ -1280,7 +1280,6 @@ Small GTPase
 
 
 
-
 Effector protein
 Effector protein
 UDP-4-Galactose epimerase
@@ -1290,11 +1289,11 @@ Two component response regulator activity required for Ax21 (synonym: AvrXa21) a
 Two component sensor kinase activity required for Ax21 (synonym: AvrXa21) activity
 Sulfate adenylyltransferase (ATP) required for Ax21 activity
 Adenylylsulfate kinase protein required for Ax21 (synonym: AvrXa21) activity
-Membrane fusion transporter protein required for Ax21 (synonym: AvrXa21) activity 
+Membrane fusion transporter protein required for Ax21 (synonym: AvrXa21) activity
 ATP-binding transporter protein required for Ax21 activity
 Outer membrane protein required for Ax21 (synonym: AvrXa21) activity
 Sulfotransferase required for Ax21 (synonym: AvrXa21) activity
-Two-component system response regulatory required for Ax21 (synonym: AvrXa21)activity 
+Two-component system response regulatory required for Ax21 (synonym: AvrXa21)activity
 Two-component system sensor kinase required for Ax21 (synonym: AvrXa21) activity
 Activator of XA21-mediated immunity
 regulator of aurofusarin biosynthesis
@@ -1318,7 +1317,7 @@ phosphoducin-like protein; modulator of downstream signalling from G-abg complex
 
 transcription factor Zn(II)2Cys6 domain
 response regulator HOG pathway
-Histidine kinase two-component response regulator 
+Histidine kinase two-component response regulator
 response regulator HOG pathway
 autophagy-like lipase
 sterol trafficking
@@ -2684,7 +2683,7 @@ no data found
 Avirulence
 Avirulence
 bZIP Protein
-Global nitrogen regulator 
+Global nitrogen regulator
 Transmembrane protein
 Transmembrane protein
 Transmembrane protein
@@ -2760,7 +2759,7 @@ Regulate T-toxin biosyn thesis
 Regulate T-toxin biosyn thesis
 cAMP-Dependent Protein Kinase
 Mitogen-activated protein (MAP) kinase
-Mitogen-activated protein kinase kinase 
+Mitogen-activated protein kinase kinase
 no data found
 Acyl-CoA ligase
 Anoyl-CoA hydratase
@@ -2885,10 +2884,10 @@ Cutinase
 Cutinase
 Cutinase
 Cutinase
-Transcription Factor 
-Transcription Factor 
-Putative Transcription Factor 
-Putative Transcription Factor 
+Transcription Factor
+Transcription Factor
+Putative Transcription Factor
+Putative Transcription Factor
 Adenosine triphosphate (ATP) citrate lyase
 Adenosine triphosphate (ATP) citrate lyase
 Adenosine triphosphate (ATP) citrate lyase
@@ -3154,7 +3153,7 @@ GPI protein
 Component of the 40S ribosomal subunit
 Zinc ﬁnger containing transcriptional regulators
 Small cell wall protein
-Pre-vacuolar protein sorting gene 
+Pre-vacuolar protein sorting gene
 Hog1p-MAP kinase-activated protein kinase
 Transcription factor in ferric reductase activity
 Global regulator of nitrogen metabolism and virulence
@@ -3175,16 +3174,16 @@ Temperature induced transcriptional regulator
 Lactate dehydrogenase
 Potential fungal transcription factor
 Potential zinc finger upstream protein 1
-Calmodulin-ubiquitin  associated  (CUB)  gene 
+Calmodulin-ubiquitin  associated  (CUB)  gene
 Thiol–disulphide redox reactions
 Fumarate reductase activity
-Calmodulin-ubiquitin  associated  (CUB)  gene 
-Calmodulin-ubiquitin  associated  (CUB)  gene 
+Calmodulin-ubiquitin  associated  (CUB)  gene
+Calmodulin-ubiquitin  associated  (CUB)  gene
 Candidate Effector genes
 Candidate Effector genes
 Candidate Effector genes
 Oligopeptidase B functions as a processing enzyme, generating an active Ca2 agonist from a cytosolic precursor molecule
-pH response /  involved in the formation of one of the signaling complexes located at the plasma membrane together with PalF/Rim21 and PalH/Rim8 proteins 
+pH response /  involved in the formation of one of the signaling complexes located at the plasma membrane together with PalF/Rim21 and PalH/Rim8 proteins
 pH response /  involvement in endosomal targeting
 pH response / encodes a putative calcium-activated cys-teine protease (calpain-like)
 pH response / putatively involved in endocytic trafﬁcking
@@ -3199,16 +3198,16 @@ Effector protein
 no data found
 no data found
 no data found
-Calmodulin-ubiquitin  associated  (CUB)  gene 
+Calmodulin-ubiquitin  associated  (CUB)  gene
 Thiol–disulphide redox reactions
 Fumarate reductase activity
-Calmodulin-ubiquitin  associated  (CUB)  gene 
-Calmodulin-ubiquitin  associated  (CUB)  gene 
+Calmodulin-ubiquitin  associated  (CUB)  gene
+Calmodulin-ubiquitin  associated  (CUB)  gene
 Candidate Effector genes
 Candidate Effector genes
 Candidate Effector genes
 Oligopeptidase B functions as a processing enzyme, generating an active Ca2 agonist from a cytosolic precursor molecule
-pH response /  involved in the formation of one of the signaling complexes located at the plasma membrane together with PalF/Rim21 and PalH/Rim8 proteins 
+pH response /  involved in the formation of one of the signaling complexes located at the plasma membrane together with PalF/Rim21 and PalH/Rim8 proteins
 pH response /  involvement in endosomal targeting
 pH response / encodes a putative calcium-activated cys-teine protease (calpain-like)
 pH response / putatively involved in endocytic trafﬁcking
@@ -3254,7 +3253,7 @@ Acetylglutamate kinase
 Ornithine carbamoyltransferase
 Proline dehydrogenase
 Calcium Dependent Kinase 3
-RpoS Regulates Essential Virulence Factors 
+RpoS Regulates Essential Virulence Factors
 Dihydroxyacid dehydratase
 Dihydroxyacid dehydratase
 Dihydroxyacid dehydratase
@@ -3299,8 +3298,8 @@ Alpha-crystallin-type small heat shock proteins
 Alpha-crystallin-type small heat shock proteins
 Alpha-crystallin-type small heat shock proteins
 Developmental Regulator
-Surface protective antigen 
-Surface protective antigen 
+Surface protective antigen
+Surface protective antigen
 Surface glycoprotein
 Produce toxoflavin
 Produce toxoflavin
@@ -3391,7 +3390,7 @@ Necrosis and ethylene inducing like protein
 Necrosis and ethylene inducing like protein
 Necrosis and ethylene inducing like protein
 Effector protein
-Peroxisomal targeting signal receptor   
+Peroxisomal targeting signal receptor
 Peroxisomal biogenesis factor 6
 Peroxin (PEX) protein
 Effector protein
@@ -3807,8 +3806,8 @@ Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 no data found
 Reductase
-Putative short chain dehydrogenase
 Reductase
+Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 Putative short chain dehydrogenase
@@ -3822,8 +3821,8 @@ Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 no data found
 Reductase
-Putative short chain dehydrogenase
 Reductase
+Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 Putative short chain dehydrogenase
 Putative short chain dehydrogenase
@@ -4059,14 +4058,14 @@ Gene belonging to the noncanonical type III secretion system
 Gene belonging to the noncanonical type III secretion system
 Gene belonging to the noncanonical type III secretion system
 Gene belonging to the noncanonical type III secretion system
-Nucleotide-sugar transporter 
+Nucleotide-sugar transporter
 Phosphoinositide-Dependent Kinase 1
 Putative transmembrane protein
 Putative transmembrane protein
 Succinate dehydrogenase
 Malate dehydrogenase
 Fumarate reductase
-Glycine dehydrogenase 
+Glycine dehydrogenase
 Serine h ydroxymethyltra nsferase
 Effector
 Asparagine synthetase
@@ -4225,45 +4224,6 @@ chitin synthase
 Acid trehalase involved in trehalose hydrolysis
 Acid trehalase involved in trehalose hydrolysis
 Global transcriptional regulator
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
 DNase
 thioredoxin system
 thioredoxin system
@@ -4448,7 +4408,7 @@ Calcium homeostasis and signaling
 encodes a transmembrane mucin
 encodes a transmembrane mucin
 cerato-platanin
- morphological switch regulator
+morphological switch regulator
 two-component sensor kinase
 two-component sensor kinase
 Effector (plant avirulence determinant)
@@ -4468,9 +4428,9 @@ encoding SnodProt1
 iron transporter
 iron transporter
 inhibitor of progarmmed cell death in host during infection
- transcriptional regulator located in the type III secretion system (T3SS-3) operon
+transcriptional regulator located in the type III secretion system (T3SS-3) operon
 naphthalene dioxygenase
- pectin lyase
+pectin lyase
 c-di-GMPphosphodiesterases
 c-di-GMPphosphodiesterases
 c-di-GMPphosphodiesterases
@@ -4561,9 +4521,9 @@ siderophore-mediated iron acquisition
 siderophore-mediated iron acquisition
 contributes to efficient protein secretion by type III secretion system
 contributes to efficient protein secretion by type III secretion system
-Production of Patulin 
-Production of Patulin 
-Production of Patulin 
+Production of Patulin
+Production of Patulin
+Production of Patulin
 Production of Citrinin
 Production of Citrinin
 Production of Citrinin
@@ -4582,10 +4542,10 @@ Zn2Cys6 transcription factors
 Zn2Cys6 transcription factors
 Zn2Cys6 transcription factors
 Zn2Cys6 transcription factors
-involved in pathogeniticity
-involved in pathogeniticity
-involved in pathogeniticity
-involved in pathogeniticity
+involved in pathogenicity
+involved in pathogenicity
+involved in pathogenicity
+involved in pathogenicity
 putative subunit of V-ATPase
 Sugar transporter
 MAP kinase kinase kinase of the HOG (high-osmolarity glycerol response) pathway
@@ -4684,10 +4644,10 @@ fusaric acid biosynthesis
 fusaric acid biosynthesis
 fusaric acid biosynthesis
 Proteolytic processing
- virulence  mechanism
- virulence  mechanism
- virulence  mechanism
- virulence  mechanism
+virulence  mechanism
+virulence  mechanism
+virulence  mechanism
+virulence  mechanism
 Quorum sensing
 Quorum sensing
 required for maximal disease severity and persistence in the swine lower respiratory tract
@@ -4713,7 +4673,7 @@ involved in virulence
 involved in virulence
 involved in virulence
 involved in virulence
- a receptor for ferric vulnibactin
+a receptor for ferric vulnibactin
 hemin receptor
 hemin receptor
 encodes an outer membrane protein
@@ -4763,1078 +4723,167 @@ Phosphate Acquisition and Storage
 Phosphate Acquisition and Storage
 Phosphate Acquisition and Storage
 Phosphate Acquisition and Storage
-Endopolygalacturonase
 Effector protein
 Effector protein
-Transcription factor
-Transcription factor
-Cylic Peptide Synthase
-Pectate lyase
-Phosphoribosylaminoimidazole carboxylase
-Phosphoribosylaminoimidazole carboxylase
-Hydrophobin
-Effector protein
-Acid proteinase
-Effector protein
-Myristoyl-CoA:protein N-myristoyltransferase
-Cutinase and esterase activity
-Adenylate cyclase
-PKA regulatory subunit
-Avenacinase
-Avenacinase
-Effector protein
-Fungal efflux pump
-Appressorial wall
-Appressorial wall
-Chitin Synthase
-Desaturase (delta-9)
-Membrane protein; pH responsive protein
-Transcription factor
-PKA catalytic subunit
-Mycelial Development
-Effector protein
-transglutaminase
-Polyketide synthase
 Effector protein
 Effector protein
-Trichodiene synthase
-Trichodiene synthase
-Trichodiene synthase
-Trichodiene synthase
-Trichodiene synthase
-Trichodiene synthase
-Trichodiene synthase
-Capsule formation
-Laccase
-Laccase
-
-G alpha protein subunit
-GATA transcription factor for nitrogen metabolism
-Global regulation of nitrogen utilisation
-Pisatin demethylase
-Pectate lyase
-Polyketide synthase
-MAP kinase
-Transcription factor
-Scytalone dehydratase 
-Reductase
-Toxin Pump
-Cell wall 1,3-beta-glucosyltransferase (bgl2p)
-Cell morphogenesis
-G beta protein subunit
-Tyrosine phosphatase
-MAP kinase
-Aspartyl proteinase
-Aspartyl proteinase
-Cutinase
-Cutinase
-Cutinase
-Cutinase
-Cutinase
-Cutinase
-Extracellular Protein 
 Effector protein
 Effector protein
-Aspartyl proteinase
-Aspartyl proteinase
-Aspartyl proteinase
-Aspartyl proteinase
-
-G alpha protein subunit
-G alpha protein subunit
-G alpha protein subunit
-G alpha protein subunit
-G alpha protein subunit
-G alpha protein subunit
-Topoisomerase I
-Adenylate cyclase
-G alpha protein subunit
-G alpha protein subunit
-G alpha protein subunit
-Protein Kinase
-Regulatory protein
-Transcription factor
-Transcription factor
-Polygalacturonase
-Calcineurin A catalytic subunit/ Serine/threonine phosphatase 2B
-Membrane protein
-Fatty acid synthetase
-Fatty acid synthetase
-Chitin Synthase
-Putative transcription factor
-PKA catalytic subunit
-Polyketide synthase
-Endopolygalacturonase
-Endopolygalacturonase
-Endopolygalacturonase
-Synthesis of mannoproteins
-Synthesis of mannoproteins
-Phospholipase B
-Catalase
-MAP kinase
-Protein kinase (Ser/thr)
 Effector protein
-Maackiain detoxification
-MAP kinase
-Endopolygalacturonase
-Exopolygalacturonase
-Polyketide Synthase
-Carnitine acetyl transferase
-Imidazole glycerol phosphate dehydrogenase
-Pathogenicity protein
-Trehalase
-Integrin
-Aspartyl proteinase
-Aspartyl proteinase
-Aspartyl proteinase
-Aspartyl proteinase
-Aspartyl proteinase
-Aspartyl proteinase
-PKA regulatory subunit
-Capsule associated protein
-Trehalose-6-phosphate synthase
-Toxin efflux pump 
-ABC transporter
-Carboxyl-activating enzyme, essential for AK Toxin
-Unknown, mutant is AK toxin non-producer
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Effector protein
+Biosynthesis of Glucosylceramides
+nucleoside triphosphate diphosphohydrolases
+nucleoside triphosphate diphosphohydrolases
+encoding extracellular hyaluronidase
+encoding extracellular hyaluronidase
+Diffusible signal factor production
+Diffusible signal factor production
+Diffusible signal factor production
+Diffusible signal factor production
+Production of haemagglutination
+Production of haemagglutination
+regulator
+DNA replication/repair protein
+regulator
+Part of a two component regulatory system
+A veA-dependent gene encoding a novel C2H2 finger domain transcription factor
+Virulence
+Virulence
+Virulence
+Global transcriptional  regulator
+Periplasm spanning protein
+Part of the  arginine deiminase system
+Part of the  arginine deiminase system
+Part of the  arginine deiminase system
+Part of the  arginine deiminase system
+Part of the  arginine deiminase system
+Small GTPase
+p21-activated kinase
+TIR-like domain containing proteins
+TIR-like domain containing proteins
+response regulator
+Orphan genes
+Orphan genes
+Orphan genes
+Orphan genes
+Adhesin competence repressor
+autotransporter
+autotransporter
+GDP-Mannose Transporters
+GDP-Mannose Transporters
+encoding the DSF synthase
+"encoding the histidine sensor kinase of the two-component system 
+10.1111/mpp.12230
+intramacrophage growth/Mg2+ transport p-type ATPase
+Protein tyrosine phosphatases
+Protein tyrosine phosphatases
+Protein tyrosine phosphatases
+Protein tyrosine phosphatases
+RTX Toxin
+Nitrite transporter
+Cellular receptor for Clostridium difficile toxin B
+Response Regulator
+Response Regulator
+"Phospholipase B (PLB) is a secretory enzyme that hydrolyzes phospholipids, plays key roles in cellular processes like signal transduction and membrane modeling, and mediates microbial
+10.1128/IAI.00062-14
+"Phospholipase B (PLB) is a secretory enzyme that hydrolyzes phospholipids, plays key roles in cellular processes like signal transduction and membrane modeling, and mediates microbial
+10.1128/IAI.00062-14
+Mycobacterial type VII protein secretion system responsible for transport of numerous PE and PPE proteins.
+Mycobacterial type VII protein secretion system responsible for transport of numerous PE and PPE proteins.
+Global mediator of carbon catabolite repression
+Pyruvate Oxidase Gene
+NADPH quinone oxidoreductase
+Involved in the production of abscisic acid
+non-ribosomal peptide synthetase gene (sidN) encoding a siderophore synthetase
 Adhesin
-Histidine Kinase
-Histidine Kinase
-Histidine Kinase
-Histidine Kinase
-Histidine Kinase
-Capsule formation
-Histidine Kinase
-Cercosporin secretion
-MAP kinase
-Cyanide hydratase
-Chitinase
-PKA catalytic subunit
-MAP Kinase
-MAP kinase
-MAP kinase
-Transcription factor
-Transcription factor
-Branched-chain-amino-acid aminotransferase
-Protein kinase
-Pyrimidine biosynthesis
-AM toxin synthase
-MAP kinase
-MAP kinase
-MAP kinase
-High-affinity iron permease
-Calcium binding protein
-Suppressor of plant defense
-MAP kinase kinase
-Unknown
-Unknown
-Unknown
-Unknown
-Transcription factor
-MAP kinase
-Cdc2-related protein kinase
-G alpha protein subunit
-Glucosamine-6-phosphate acetyltransferase
-Surface protein; hyphal development
-Unknown
-Ornithine decarboxylase
-Para-aminobenzoic acid synthetase
-Pectate lyase
-Pectate lyase
-Exopolygalacturonase
-
-Signalling cascade
-Signalling cascade
-
-GPI-modified cell wall protein
-GPI-modified cell wall protein
-Plant-pathogenesis related protein (PR-1)
-Plant-pathogenesis related protein (PR-1)
-Transcription factor
-Activates RIM101
-Transcription regulator
-Protein Kinase
-Two component response regulator
-TEA/ATTS transcription factor
-Tomatinase
-MAP kinase kinase
-Urease
-Phosphatidylinositol 3-kinase
-Phosphoribosylaminoimidazole carboxylase
-D-arabinono-1,4-lactone oxidase
-Cell surface protein
-Cell surface protein
-Cell surface protein
-Alcohol oxidase
-Argininosuccinate lyase
-Effector protein
-ABC transporter
-ABC transporter
-G alpha protein subunit
-G alpha protein subunit
-Adenylate cyclase
-Chitin Synthase
-GlcN6P deaminase
-GlcNAcP deacetylase
-GlcNAc kinase
-Transcription factor
-Adenylate cyclase
-Transcription factor
-Histidine Kinase
-Cyclophillin
-Cyclophillin
-GlcNAc-6-phosphate deacetylase
-MAP kinase
-MAP kinase
-Histone deacetylase
-GlcNAc kinase
-Inositol-phosphoryl ceramide synthase 1
-DNA ligase 
-Phosphomannose isomerase
-Phosphomannose isomerase
-Glucosamine-6-phosphate deaminase
-Pectate lyase
-Unknown
-Unknown
-Unknown
-Peroxisome biogenesis
-
-Cyclic AMP dependent protein kinase
-Cyclic AMP dependent protein kinase
-Cyclic AMP dependent protein kinase
-
-Phospholipase B
-Phospholipase B
-Tetraspanin
-MAP kinase
-PKA regulatory subunit
-Regulates mRNA levels
-Transcription factor
-Pheromone adapter protein
-Vesicular proton pump
-Chitin Synthase
-Chitin Synthase
-Polyketide synthase
-Transcription factor
-Adenylate cyclase
-Adenylate cyclase
-Adenylate cyclase
-Trehalose-6-phosphate phosphatase
-Sterol glycosyl transferase
-Copper transporting ATPase
-MAP kinase
-MAP kinase
-Endopolygalacturonase
-Cyclophillin
-Acetoacetate decarboxylase- T-toxin production
-G alpha protein subunit
-Transcription factor
-Histidine Kinase
-Mitochondrial carrier protein
-Polyketide synthase
-Appressorial penetration
-Appressorial penetration
-ABC transporter
-Glycosylphosphatidylinositol modifying enzyme
-Histone deacetylase
-Isocitrate lyase
-Spindle assembly checkpoint
-MAP kinase
-Alkaline dependent filamentation
-ATP sulfurylase
-MAP kinase
-MAPK
-MAPK
-MAP kinase
-MAP kinase
-ABC transporter
-Transcription factor
-GTP-binding protein
-GTP-binding protein
-Superoxide dismutase
-Adhesin
-Mating, sporulation and normal filamentation
-UDP-xylose synthase
-Alternative oxidase
-Chitin Synthase
-Cyclophillin
-Cyclophillin
-Pectin Methylesterase
-Pectin Methylesterase
-Pectin Methylesterase
-Pectin Methylesterase
-Pectin Methylesterase
-Pectin Methylesterase
-Pectin Methylesterase
-Polarity establishment protein
-Cell cycle checkpoint
-Septin protein
-Septin protein
-Polarity establishment protein
-Histidine Kinase
-Chitin Synthase
-Chitin Synthase
-Chloride Channel
-AREA/NIT2-like global nitrogen regulator 
-Calcineurin A catalytic subunit
-Calcineurin A catalytic subunit
-Calcineurin B regulatory subunit
-Hydrophobin
-Pheromone receptor
-Adenylate forming enzymes
-Transcription factor
-Adenylate forming enzymes
-MAP kinase kinase kinase
-G beta protein subunit
-Protein Kinase
-Protein Kinase
-GATA transcription factor for nitrogen metabolism
-Adenylate forming enzymes
-Isocitrate lyase
-Kexin Gene
-MAP kinase kinase kinase
-MAP kinase
-MAP kinase
-MAP kinase
-MAPK
-MAPK
-MAP kinase
-ABC transporter
-G beta protein subunit
-MAP kinase
-Transcription factor
-Transcription factor
-pH signalling transcription factor
-pH signalling transcription factor
-G beta protein subunit
-Nutrient signalling
-Superoxide dismutase
-Superoxide dismutase
-Guanine nucleotide exchange factor
-Global transcriptional co-repressor
-Transcription factor
-Trehalose-6-phosphate synthase
-Beta-1,6-glucanase 
-Adenylyl cyclase-associated protein
-Effector protein, polyketide synthase
-Transcription factor
-Effector protein
-Tetraspanin
-Tetraspanin
-Tetraspanin
-Tetraspanin
-Cu-Zn-superoxide dismutase
-Transcription factor
-Adenylate cyclase
-GPI-anchored protein
-G beta protein subunit
-Ribosome synthesis
-Chitin Synthase
-Chitin Synthase
-B-type Cyclin
-GTPase
-Transcription factor
-PKA catalytic subunit
-MAP kinase
-G-protein signalling molecule
-Transcription factor
-G-protein
-Cell cycle 
-Amino acid transporter
-Carnitine acetyl transferase
-Extracellular protein 
-ABC transporter
-Glyoxal oxidase
-G alpha protein subunit
-G alpha protein subunit
-Homoserine O-acetyltransferase
-Woronin body assembly
-G1 cyclin-related protein
-Acetolactate synthase
-pH-regulated lysine/glutamic-acid-rich protein
-Serine/threonine protein kinase
-
-Glucosyltransferase
-Homoaconitase
-GDP-mannose: inositol-phospho-ceramide mannose transferase
-Malate synthase
-Metallothionein
-Metallothionein
-Mitochondrial matrix protein
-Ubiquitin-conjugation
-G alpha protein subunit
-Cyclic AMP dependent protein kinase
-PKA catalytic subunit
-Regulatory protein
-Regulatory protein
-
-Phospholipase D1
-Transcription regulator
-Protein Kinase
-Protein Kinase
-L-ornithine-N-5-monooxygenase
-Protein phosphatase
-Effector protein
-Response regulator
-Serine/threonine kinase
-Superoxide dismutase
-Chimeric spermidine synthase/saccharopine dehydrogenase 
-G alpha protein subunit
-Thiol peroxidase
-UDP-glucose dehydrogenase
-Chitin synthase
-Chitin Synthase
-ABC transporter
-Alpha-1,2-mannosyltransferase
-Serine/threonine protein kinase
-CDK-related kinase
-G alpha protein subunit
-Laccase
-pH signalling transcription factor
-Mannosyltransferase
-Manganese superoxide dismutase
-MAP kinase kinase
-Membrane protein
-Tagged; aminophospholipid translocase 
-MAP kinase
-Cutinase
-Chitinase
-Superoxide dismutase
-Transcription factor
-Transcription factor
-Mannitol 1-phosphate dehydrogenase 
-Glyoxalase
-3-isopropylmalate dehydrogenase
-Non-ribosomal peptide synthetase
-Non-ribosomal peptide synthetase
-MAP kinase kinase
-MAP kinase kinase kinase
-Cell surface protein
-Superoxide dismutase
-Superoxide dismutase
-Superoxide dismutase
-Superoxide dismutase
-Superoxide dismutase
-Superoxide dismutase
-RNA helicase
-Phosphoenolpyruvate carboxykinase
-Mannoprotein
-PKA catalytic subunit
-PKA catalytic subunit
-Tetraspanin
-UV/Blue Light Response
-Transcription factor; Zinc finger DNA binding domain; UV/Blue Light Response
-Secreted Lipase
-Secreted Lipase
-Polyketide synthase
-Beta-1,3-glucanosyltransferase
-H+-ATPase
-Peptidyl-prolyl cis/trans isomerases
-Endopolygalacturonase
-Cytochrome P450 monooxygenase
-Cytochrome P450 monooxygenase
-Transcription factor
-P-type ATPase transporter
-G-protein coupled receptor
-G-protein coupled receptor
-G-protein coupled receptor
-G-protein coupled receptor
-Methionine synthase
-Methionine synthase
-Cystathionine beta-lyase
-Cystathionine beta-lyase
-b-ZIP transcription factor
-b-ZIP transcription factor
-Ubiquinone oxidoreductase
-Ubiquinone oxidoreductase
-Transducin beta-subunit
-Transducin beta-subunit
-Methylcitrate synthase
-MAP kinase
-
-Transcription factor
-Mannosyltransferase
-Mannosyltransferase
-Mannosyltransferase
-Mannosyltransferase
-Mannosyltransferase
-Mannosyltransferase
-Capsule formation
-
-
-
-Chitin Synthase
-Hydrophobin
-Mating locus protein
-Mating locus protein
-Protein kinase
-Protein kinase
-Heat Shock Protein
-Kinesin
-Kinesin
-PKA regulatory subunit
-General amino acid control transcription factor
-Cell wall protein
-Alanine racemase
-Transcription factor
-Polarity establishment protein
-Effector protein
-Effector protein
-Calcineurin B regulatory subunit
-Transcription regulator
-MAP kinase kinase kinase
-Isocitrate lyase
-Transcription regulator
-Metalloproteinase
-Aspartyl proteinase
-Aspartyl proteinase
-Transcription activator
-Transcription activator
-Transcription regulator
-MAP kinase
-MAP kinase
-MAP kinase
-MAP kinase
-MAP kinase
-MAP kinase
-MAP kinase
-Chitin synthesis
-High affinity iron permease
-L-ornithine N5-oxygenase 
-Hydrophobin
-Negative regulator of MAP kinase pathway
-Thioredoxin
-Thioredoxin
-F-box protein
-Phosphatase
-Endopolygalacturonase
-Endopolygalacturonase
-MAP kinase kinase kinase
-Fatty acid oxygenase 
-Fatty acid oxygenase 
-Fatty acid oxygenase 
-MAP kinase
-MAP kinase kinase
-b-ZIP transcription factor
-NO-scavenging flavohemoglobin
-Phosphoribosylaminoimidazole carboxylase
-Amidophosphoribosyltransferase
-Cytochrome c oxidase assembly
-beta-isopropyl-malate dehydrogenase 
-Mitochondrial-specific DNA polymerase catalytic subunit
-Orotidine 5'-phosphate decarboxylase
-GTPase
-AF-toxin biosynthesis
-AF-toxin biosynthesis
-AF-toxin biosynthesis
-AF-toxin biosynthesis
-Unknown
-Unknown
-Unknown
-Siderophore transporter
-Siderophore transporter
-Unknown
-Serine/threonine kinase
-Secreted protein. Anti-phagocytic.
-Secreted protein. Anti-phagocytic.
-Cell wall adhesin
-PAK kinase
-PAK kinase
-Transcription regulator
-Unknown
-Beta-1,3-glucanosyltransferase
-Beta-1,3-glucanosyltransferase
-Transcription factor
-G1 cyclin
-G1 cyclin
-DON toxin biosynthesis
-Glucosidase 1
-Cell surface protein
-Cell surface protein
-Serine/threonine kinase
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Protein Toxin
-Effector protein
-Effector protein
-Effector protein
-Fructose transporter
-Fructose transporter
-Pectin Methylesterase
-Pectin Methylesterase
-Pectin Methylesterase
-Pectin Methylesterase
-Lipase
-Lipase
-Lipase
-Lipase
-Lipase
-Lipase
-Catalase
-Catalase
-ABC transporter
-ABC transporter
-MFS transporters
-MFS transporters
-MFS transporters
-MAP Kinase
-endo-beta-1,4-xylanase
-endo-beta-1,4-xylanase
-endo-beta-1,4-xylanase
-endo-beta-1,4-xylanase
-Unknown
-Unknown
-Chitin Synthase
-Chitin Synthase
-Histidine Kinase
-Histidine Kinase
-Histidine Kinase
-Laccase2
-Laccase2
-Laccase2
-Laccase2
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-
-
-
-
-
-
-Chitin synthase 
-Chitin synthase 
-Endo-beta-1,4-glucanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-Endo-beta-1,4-xylanase
-G protein alpha subunit
-NADPH oxidase
-NADPH oxidase
-NADPH oxidase
-NADPH oxidase
-NADPH oxidase
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-Type III effector
-
-
-Type III effector
-Alkohol dehydrogenase
-ApbE- family protein
-Type III effector 
-shikimate kinase
-Unknown
-Unknown
-
-
-carnitine-dependent acetyl unit transport from peroxisomes
-ALA synthase
-Autophagy
-Unknown
-3-ketoacyl-CoA thiolase
-Putative histidine sensor kinase
-Calcineurin binding protein
-Calcineurin binding protein
-
-
-
-tetrathionate reductase
-tetrathionate reductase
-tetrathionate reductase
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-
-
-Type III secretion
-Type III secretion
-Type III secretion
-
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-Type III secretion
-
-Type III secretion
-Type III secretion
-Type III secretion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-trehalose-6-phosphate synthase
-neutral trehalase
-glucanase inhibitor protein
-glucanase inhibitor protein
-Extracellular protein inhibitor 
-Extracellular protein inhibitor 
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-
-
-
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Flavohemoglobin
-Flavohemoglobin
-Flavohemoglobin
-Flavohemoglobin
-GSNO reductase
-GSNO reductase
-GSNO reductase
-Pheromone (MFalpha)
-Pheromone (MFalpha)
-Pheromone (MFalpha)
-Capsule polysaccharide biosynthesis
-Carbonic Anhydrase
-Carbonic Anhydrase
-Carbonic Anhydrase
-
-
-Protein Kinase
-Protein Kinase
-Protein Kinase
-Protein Kinase
-Protein Kinase
-Protein Kinase
-Protein Kinase
-Protein Kinase
-Protein Kinase
-Protein Kinase
-Regulation of starvation response
-cAMP-regulated transcription factor
-
-Adaptor protein in PMK1 cascade
-orotidine monophosphate pyrophosphorylase
-MAP Kinase
-MAP Kinase
-Glucosylceramide synthase
-Transcription factor
-secreted protein 1
-neutral trehelase
-neutral trehelase
-UDP-glucose: sterol glucosyltransferase
-UDP-glucose: sterol glucosyltransferase
-Cholera toxin (CT) 
-Cholera toxin (CT) 
-Toxin-coregulated pilus (TCP) – an intestinal colonization factor
-Controls expression of CT and TCP
-Required for philus assembly and CT secretion
-O-antigen biosynthesis
-RNA binding protein that modulates gene expression post-transcription
-Outer membrane protein
-Quorum-sensing regulator
-GTP pyrophosphokinase
-Virulence transcriptional activator
-Virulence activator
-Putative laccase
-Zearalenone synthesis
-Zearalenone synthesis
-Zearalenone synthesis
-Zearalenone synthesis
-Zearalenone synthesis
-Zearalenone synthesis
-Zearalenone synthesis
-Polyketide synthase
-Polyketide synthase
-Fusarin C synthesis
-Aurofusarin synthesis
-Polyketide synthase
-Black p erithecial pigment synthesis
-Polyketide synthase
-Polyketide synthase
-Polyketide synthase
-Polyketide synthase
-Polyketide synthase
-Polyketide synthase
-Polyketide synthase
-Polyketide synthase
-Putative signalling scaffold protein
-Putative signalling scaffold protein
-F-box protein
-Putative Zn finger transcription factor
-Putative Zn finger transcription factor
-Fus3/Kss1 MAP kinase homologue
-Fus3/Kss1 MAP kinase homologue
-Fus3/Kss1 MAP kinase homologue
-Fus3/Kss1 MAP kinase homologue
-Putative MFS transporter
-Ferricrocin synthetase
-Necrosis and ethylene-inducing protein homologue
-Necrosis and ethylene-inducing protein homologue
-Acetylglutamate synthase
-Phosphoribosylamine-glycine ligase
-hypothetical protein
-conserved hypothetical protein
-probable beta-glucosidase
-putative protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-hypothetical protein
-conserved hypothetical Ustilago-specific protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-Effector protein
-
-superoxide dismutase 
-G alpha protein subunit
-
-
-
-
-
-
-
-
-
-
-
-
-
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Predicted protein 
+intracellular multiplication
+aerobactin
+aerobactin
+aerobactin
+Sulfotransferase
+transcription factor with a Zn(II)2Cys6(C6-zinc) helps in Symbiotic relationship
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Two-Component Regulatory Systems
+Encode proteins with hydrophobic stretchesat their N terminus, indicative of surface-exposed proteins
+Regulates production of ROS to maintain a symbiotic interaction withthe perennial rye grass.
+serine/threonine kinase
+Kinase
+Regulates expression of theSAP2protease, which is required for rat vaginal infections.
+Regulates expression of theSAP2protease, which is required for rat vaginal infections.
+Formamidopyrimidine-DNA-glycosylase
+Possible role in chromosome segregation
+Possible dehydrogenase
+Probable aminopeptidase
+Transcriptional regulator (IclR family)
+Lsr2 homologue
+Unknown mycolic acid methyltransferase
+Unknown, possible transcriptional regulator
+PstA component of phosphate uptake
+Polyphosphate glucokinase
+Possible alkane-1-monooxygenase
+Export protein
 Hypothetical protein
 Hypothetical protein
 Hypothetical protein
 Hypothetical protein
-Hypothetical protein
-neutral trehalase
-Hypothetical protein
-HDEL sequence binding protein, putative
-Hypothetical protein
-Predicted protein 
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Predicted protein 
-Predicted protein 
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Predicted protein 
-Hypothetical protein
-beta-tubulin
-beta-tubulin
-succinate dehydrogenase subunit
-beta-tubulin
-DNA gyrase (bacterial topoisomerase II)
-Squalene epoxidase
-Squalene epoxidase
-Squalene epoxidase
-Squalene epoxidase
-Squalene epoxidase
-Delta8-delta7 sterol isomerase
-Delta8-delta7 sterol isomerase
-complex III cytochrome bc1
-complex III cytochrome bc1
-two component histidine kinase
-eburicol 14 alpha-demethylase
-eburicol 14 alpha-demethylase
-eburicol 14 alpha-demethylase
-eburicol 14 alpha-demethylase
-eburicol 14 alpha-demethylase
-eburicol 14 alpha-demethylase
-eburicol 14 alpha-demethylase
-eburicol 14 alpha-demethylase
-eburicol 14 alpha-demethylase
-DNA gyrase (bacterial topoisomerase II)
-DNA gyrase (bacterial topoisomerase II)
-DNA gyrase (bacterial topoisomerase II)
-DNA gyrase (bacterial topoisomerase II)
-DNA gyrase (bacterial topoisomerase II)
-DNA gyrase (bacterial topoisomerase II)
-Transcription factor
-Cytochrome C peroxidase precursor
-Haem peroxidase 
-cAMP phosphodiesterase
-phosphodiesterase
-NADPH Oxidase
-NADPH Oxidase
-Small secreted protein
-Small secreted protein
-Ras GTPase
-Ras GTPase
-Regulation of cell wall assembly
-Regulation of zinc homeostasis
-ABC Transporter
-Transcription factor
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-Hypothetical protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-related to carboxypeptidase
-putative protein
-probable serine-type carboxypeptidase f precursor
-hypothetical protein
-hypothetical protein
-hypothetical protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-hypothetical protein
-hypothetical protein
-related to COP9 signalosome complex subunit 6
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-hypothetical protein
-hypothetical protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical protein
-related to Glucose oxidase
-related to DCR2 - dosage-dependent cell cycle regulator
-hypothetical protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-hypothetical protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-hypothetical protein
-hypothetical protein
-conserved hypothetical protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-hypothetical protein
-hypothetical protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
-conserved hypothetical Ustilago-specific protein
+Conserved hypothetical protein
+Conserved hypothetical protein
+cyclic-di-GMP-specific phosphodiesterase
+cyclic-di-GMP-specific phosphodiesterase
+cyclic-di-GMP-specific phosphodiesterase
+Transferrin receptors
+Transferrin receptors
+Transferrin receptors
+Vulnibactin outer membrane receptor
+receptor
+D-Ala-D-Ala dipeptidase
+D-Ala-D-Ala dipeptidase
+Glutathione biosynthesis
+Listeriolysin positive regulatory factor
+Glutathione biosynthesis
+Listeriolysin positive regulatory factor
+N-acetylglucosamine (GlcNAc) utilization
+Acyltransferase

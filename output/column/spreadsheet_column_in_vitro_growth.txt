@@ -1284,7 +1284,6 @@ No sporulation
 
 
 
-
 Slow germination rate. Increased sporulation
 
 
@@ -3152,7 +3151,7 @@ aberrant
 wild type
 no data found
 no data found
-reduced 
+reduced
 increased; aberrant
 no data found
 reduced
@@ -4225,45 +4224,6 @@ reduced
 reduced
 reduced
 reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
-reduced
 no data found
 reduced
 no data found
@@ -4763,1078 +4723,161 @@ no data found
 no data found
 no data found
 no data found
-
-
-
-
-
-
-
-
-
-
-
-
-
-Heat sensitive
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Reduced
-
-Reduced
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-Reduced
-
-
-
-
-
-
-
-
-
-Wild type
-Reduced
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Reduced
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Reduced
-
-
-
-
-
-
-
-
-
-
-
-Arginine auxotroph
-
-
-
-Different colony morphology
-Different colony morphology
-
-
-
-
-
-
-Unable to switch from budding to mycelial growth
-
-Wild type
-
-
-
-Wild type
-Wild type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Reduced
-
-Mating efficiency reduced
-
-
-
-
-
-
-
-Reduced
-Wild type
-Wild type
-
-Wild type
-beige colonies
-
-
-
-
-
-Reduced
-
-
-Wild type
-
-Wild type
-Wild type
-
-
-
-Unable to metabolise acetate and fatty acids
-
-Wild type
-
-Reduced
-Reduced on solid media
-
-
-
-
-
-
-Altered cell morphology
-
-delayed
-
-
-
-
-
-Wild type
-Wild type
-unaffected
-unaffected
-unaffected
-Reduced on pectin
-Reduced on pectin
-unaffected
-Reduced on pectin
-
-
-Reduced
-Reduced
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+reduced
+no data found
+no data found
+no data found
+no data found
 increased
-
-Wild type
-Wild type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-
-
-
-Mating, pheromone response and filamentation defects
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Reduced by 20% on solid media, 30% in liquid culture
-
-
-
-
-
-
-
-
-
-
-
-
-
-Unaffected
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+increased
+increased
+increased
 reduced
 reduced
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Normal growth rate.
-Reduced
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-unaffected
-unaffected
-unaffected
-unaffected
-unaffected
-unaffected
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-unaffected
-unaffected
-unaffected
-unaffected
-reduced on solid medium, not in liquid medium
-reduced on solid medium, not in liquid medium
-
-
-unaffected
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+no data found
+no data found
+no data found
+no data found
+reduced
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced; aberrant
+reduced; aberrant
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+wild type
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced
+wild type
 reduced
 reduced
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-Wild type
-Wild type
-Wild type
-Wild type
-Wild type
-Wild type
-Wild type
-Wild type
-Wild type
-Wild type
-Wild type
-
-Reduced aerial hyphae
-Reduced aerial hyphae
-Reduced aerial hyphae
-Wild-type
-Wild-type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Wild type
-Wild type
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-unaffected
-
-
-unaffected
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-unaffected
-unaffected
-unaffected
-unaffected
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Some impairment
-
-
-
-
-
-
-
-
-
-
-Defective
-Defective  on minimal media
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Slowed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Slowed
-Slowed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+wild type
+no data found
+no data found
+no data found
+no data found
+reduced; aberrant
+no data found
+no data found
+wild type
+wild type
+wild type
+no data found
+aberrant
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+reduced; aberrant
+wild type
+no data found
+increased; aberrant
+increased; aberrant
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+wild type
+wild type
+no data found
+wild type
+no data found
+aberrant
+aberrant

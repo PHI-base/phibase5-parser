@@ -475,7 +475,7 @@ AAB06581
 
 
 EMBL
-BAD91825   
+BAD91825
 
 
 
@@ -489,7 +489,7 @@ BAD91825
 
 
 EMBL
-BAD91825   
+BAD91825
 
 
 
@@ -503,7 +503,7 @@ BAD91825
 
 
 EMBL
-BAD91825   
+BAD91825
 
 
 
@@ -2057,7 +2057,7 @@ AAC62627
 
 
 EMBL
-AAF01762 
+AAF01762
 
 
 
@@ -3023,7 +3023,7 @@ EAK93243
 
 
 EMBL
-AAD28749 
+AAD28749
 
 
 
@@ -3583,7 +3583,7 @@ BAB69488
 
 
 EMBL
-EAK98810 
+EAK98810
 
 
 
@@ -3723,7 +3723,7 @@ AAM89498
 
 
 EMBL
-EAK94586 
+EAK94586
 
 
 
@@ -4115,7 +4115,7 @@ CAC29255
 
 
 EMBL
-EAK92427                
+EAK92427
 
 
 
@@ -5137,7 +5137,7 @@ AAN10186
 
 
 EMBL
-EAK92385                 
+EAK92385
 
 
 
@@ -5319,7 +5319,7 @@ AAW46354
 
 
 EMBL
-EAL01265 
+EAL01265
 
 
 
@@ -5585,7 +5585,7 @@ AAT84594
 
 
 EMBL
-EAK91146 
+EAK91146
 
 
 
@@ -5613,7 +5613,7 @@ CAE55866
 
 
 EMBL
-EAK97884 
+EAK97884
 
 
 
@@ -5641,7 +5641,7 @@ AAM97788
 
 
 EMBL
-EAL00626                 
+EAL00626
 
 
 
@@ -5837,7 +5837,7 @@ CAA87390
 
 
 EMBL
-EAK95207 
+EAK95207
 
 
 
@@ -6061,7 +6061,7 @@ AAX09988
 
 
 Genbank
-EHA48601 
+EHA48601
 
 
 
@@ -6327,7 +6327,7 @@ AAT69682
 
 
 EMBL
-EAL88984                 
+EAL88984
 
 
 
@@ -6341,7 +6341,7 @@ EAL88984
 
 
 EMBL
-EAL02110 
+EAL02110
 
 
 
@@ -6635,7 +6635,7 @@ FG00332
 
 
 Broad
-FGSG_00332  
+FGSG_00332
 
 
 
@@ -6649,7 +6649,7 @@ ear
 
 
 EMBL
-CAI48090 
+CAI48090
 
 
 
@@ -6733,7 +6733,7 @@ AAF16867
 
 
 EMBL
-EAL00423 
+EAL00423
 
 
 
@@ -6747,7 +6747,7 @@ EAL00423
 
 
 EMBL
-EAL00423 
+EAL00423
 
 
 
@@ -6761,7 +6761,7 @@ EAL00423
 
 
 EMBL
-EAL00423 
+EAL00423
 
 
 
@@ -6775,7 +6775,7 @@ EAL00423
 
 
 EMBL
-EAL01044 
+EAL01044
 
 
 
@@ -6915,7 +6915,7 @@ AAB38875
 
 
 EMBL
-AAB59338 
+AAB59338
 
 
 
@@ -7125,7 +7125,7 @@ AAG30205
 
 
 EMBL
-EAK93039 
+EAK93039
 
 
 
@@ -8931,7 +8931,7 @@ SPI1
 
 
 EMBL
-CAA63929 
+CAA63929
 
 
 
@@ -11689,7 +11689,7 @@ Chromosome 1
 
 
 Broad
-FGSG_02328  
+FGSG_02328
 
 
 
@@ -11801,7 +11801,7 @@ ABB90284
 
 
 Broad
-FGSG_04488 
+FGSG_04488
 
 
 
@@ -11843,7 +11843,7 @@ FGSG_07798
 
 
 Broad
-FGSG_02324   
+FGSG_02324
 
 
 
@@ -11857,7 +11857,7 @@ FGSG_02324
 
 
 Broad
-FGSG_03964 
+FGSG_03964
 
 
 
@@ -11871,7 +11871,7 @@ FGSG_03964
 
 
 Broad
-FGSG_09182 
+FGSG_09182
 
 
 
@@ -11885,7 +11885,7 @@ FGSG_09182
 
 
 Broad
-FGSG_03340 
+FGSG_03340
 
 
 
@@ -11941,7 +11941,7 @@ AAS57292
 
 
 Broad
-FGSG_03340 
+FGSG_03340
 
 
 
@@ -12193,7 +12193,7 @@ FGSG_01939
 
 
 Broad
-FGSG_02506 
+FGSG_02506
 
 
 
@@ -12501,7 +12501,7 @@ EHA48293
 
 
 EMBL
-CAC50073 
+CAC50073
 
 
 
@@ -13537,7 +13537,7 @@ ABO93371
 
 
 EMBL
-BAD26622 
+BAD26622
 
 
 
@@ -13551,7 +13551,7 @@ BAD26622
 
 
 EMBL
-BAD26642 
+BAD26642
 
 
 
@@ -15385,7 +15385,7 @@ AAF71481
 
 
 EMBL
-AAL84247 
+AAL84247
 
 
 
@@ -15399,7 +15399,7 @@ AAL84247
 
 
 EMBL
-AAL84247 
+AAL84247
 
 
 
@@ -15567,7 +15567,7 @@ AAD47203
 
 
 EMBL
-AAL71883 
+AAL71883
 
 
 
@@ -16001,7 +16001,7 @@ FG03747
 
 
 EMBL
-ABI51982  
+ABI51982
 
 
 
@@ -16015,7 +16015,7 @@ ABI51982
 
 
 EMBL
-ABI51983  
+ABI51983
 
 
 
@@ -17149,7 +17149,7 @@ ACR82519
 
 
 EMBL
-ACS91346      
+ACS91346
 
 
 
@@ -17163,7 +17163,7 @@ ACS91346
 
 
 EMBL
-ACS34772  
+ACS34772
 
 
 
@@ -17177,7 +17177,7 @@ ACS34772
 
 
 EMBL
-ACS29558     
+ACS29558
 
 
 
@@ -17191,7 +17191,7 @@ ACS29558
 
 
 EMBL
-ACS91347  
+ACS91347
 
 
 
@@ -17919,20 +17919,6 @@ SNOG_05556
 
 
 Broad
-SNOG_08981
-
-
-
-
-
-
-
-
-
-
-
-
-Broad
 SNOG_09603
 
 
@@ -18325,7 +18311,7 @@ Chromosome 7
 
 
 Broad
-FJ196457 
+FJ196457
 Chromosome 7
 
 
@@ -20257,7 +20243,7 @@ ear
 
 
 Broad
-FGSG_06874 
+FGSG_06874
 4
 
 
@@ -30897,7 +30883,7 @@ reduction in disease lesion development
 
 
 EMBL
-ABB46201 
+ABB46201
 no data found
 
 
@@ -30911,7 +30897,7 @@ Low disease severity; few and isolated lesions
 
 
 EMBL
-ABB46201 
+ABB46201
 no data found
 
 
@@ -30925,7 +30911,7 @@ Low disease severity; few and isolated lesions
 
 
 EMBL
-ABB46201 
+ABB46201
 no data found
 
 
@@ -30939,7 +30925,7 @@ Low disease severity; few and isolated lesions
 
 
 EMBL
-ABB46201 
+ABB46201
 no data found
 
 
@@ -31219,7 +31205,7 @@ no data found
 
 
 Genbank
-MGG_02370.6 
+MGG_02370.6
 no data found
 
 
@@ -31233,7 +31219,7 @@ typical blast lesions
 
 
 Genbank
-MGG_02370.6 
+MGG_02370.6
 no data found
 
 
@@ -31247,7 +31233,7 @@ typical blast lesions
 
 
 Genbank
-MGG_02370.6 
+MGG_02370.6
 no data found
 
 
@@ -31289,7 +31275,7 @@ no data found
 
 
 EMBL
-ACH58563 
+ACH58563
 no data found
 
 
@@ -33991,7 +33977,7 @@ no data found
 
 
 EMBL
-ACJ06588 
+ACJ06588
 no data found
 
 
@@ -34019,7 +34005,7 @@ no data found
 
 
 EMBL
-ACJ06588 
+ACJ06588
 no data found
 
 
@@ -34047,7 +34033,7 @@ no data found
 
 
 EMBL
-ACJ06588 
+ACJ06588
 no data found
 
 
@@ -34355,7 +34341,7 @@ no data found
 
 
 Genbank
-MGG_07460.6 
+MGG_07460.6
 no data found
 
 
@@ -34369,7 +34355,7 @@ no data found
 
 
 Genbank
-MGG_07460.6 
+MGG_07460.6
 no data found
 
 
@@ -34915,7 +34901,7 @@ no data found
 
 
 Genbank
-MGG_02860.6 
+MGG_02860.6
 no data found
 
 
@@ -34971,7 +34957,7 @@ no data found
 
 
 EMBL
-EHA57107.1 
+EHA57107.1
 no data found
 
 
@@ -35139,7 +35125,7 @@ no data found
 
 
 EMBL
-EHA49812 
+EHA49812
 no data found
 
 
@@ -35167,7 +35153,7 @@ no data found
 
 
 EMBL
-EHA49812 
+EHA49812
 no data found
 
 
@@ -37254,7 +37240,7 @@ Lesions
 
 GenBank
 FJ823644
-located on the end of supercontig14 
+located on the end of supercontig14
 
 
 
@@ -37967,7 +37953,7 @@ no data found
 
 
 
-FGSG_01326 
+FGSG_01326
 no data found
 
 
@@ -37981,7 +37967,7 @@ no data found
 
 
 
-FGSG_01326 
+FGSG_01326
 no data found
 
 
@@ -38051,7 +38037,7 @@ no data found
 
 
 EMBL
-ABW87261.1 
+ABW87261.1
 no data found
 
 
@@ -39255,7 +39241,7 @@ no data found
 
 
 
-FGSG_11955 
+FGSG_11955
 
 
 
@@ -39269,7 +39255,7 @@ ear
 
 
 
-FGSG_11955 
+FGSG_11955
 
 
 
@@ -39543,13 +39529,13 @@ no data found
 
 
 
-larvae 
+larvae
 no data found
 
 
 
 
-XM_750896 
+XM_750896
 no data found
 
 
@@ -44099,7 +44085,7 @@ no data found
 
 
 
-XP_715022.1 
+XP_715022.1
 no data found
 
 
@@ -44113,7 +44099,7 @@ no data found
 
 
 
-O42766 
+AAB96910.2
 no data found
 
 
@@ -44673,7 +44659,7 @@ no data found
 
 
 
-EAK86491 
+EAK86491
 Chromosome 19
 
 
@@ -44715,7 +44701,7 @@ Necrotic lesions
 
 
 
-ACB59235 
+ACB59235
 no data found
 
 
@@ -44729,7 +44715,7 @@ no data found
 
 
 
-CAE17296 
+CAE17296
 no data found
 
 
@@ -44785,7 +44771,7 @@ no data found
 
 
 Genbank
-AF263616_1 
+AF263616_1
 no data found
 
 
@@ -44799,7 +44785,7 @@ no data found
 
 
 Genbank
-AF263616_1 
+AF263616_1
 no data found
 
 
@@ -45009,7 +44995,7 @@ no data found
 
 
 
-EAK86491 
+EAK86491
 Chromosome 19
 
 
@@ -45051,7 +45037,7 @@ Necrotic lesions
 
 
 
-ACB59235 
+ACB59235
 no data found
 
 
@@ -45065,7 +45051,7 @@ no data found
 
 
 
-CAE17296 
+CAE17296
 no data found
 
 
@@ -45121,7 +45107,7 @@ no data found
 
 
 
-AF263616_1 
+AF263616_1
 no data found
 
 
@@ -45135,7 +45121,7 @@ no data found
 
 
 
-AF263616_1 
+AF263616_1
 no data found
 
 
@@ -45163,7 +45149,7 @@ no data found
 
 
 Genbank
-DQ347777 
+DQ347777
 no data found
 
 
@@ -45177,7 +45163,7 @@ no data found
 
 
 Genbank
-EAK94325 
+EAK94325
 no data found
 
 
@@ -45275,7 +45261,7 @@ no data found
 
 
 Genbank
-AAA27028 
+AAA27028
 no data found
 
 
@@ -45303,7 +45289,7 @@ no data found
 
 
 Genbank
-AAC44300 
+AAC44300
 no data found
 
 
@@ -45359,7 +45345,7 @@ no data found
 
 
 Genbank
-AAA27028 
+AAA27028
 no data found
 
 
@@ -45429,7 +45415,7 @@ no data found
 
 
 Genbank
-CCP45593 
+CCP45593
 no data found
 
 
@@ -45443,7 +45429,7 @@ no data found
 
 
 Genbank
-CCP45593 
+CCP45593
 no data found
 
 
@@ -45457,7 +45443,7 @@ no data found
 
 
 Genbank
-ACC40462   
+ACC40462
 no data found
 
 
@@ -45485,7 +45471,7 @@ no data found
 
 
 Genbank
-ACC40462   
+ACC40462
 no data found
 
 
@@ -45667,7 +45653,7 @@ no data found
 
 
 Genbank
-EEQ40635 
+EEQ40635
 no data found
 
 
@@ -45709,7 +45695,7 @@ no data found
 
 
 Genbank
-BAA00903  
+BAA00903
 no data found
 
 
@@ -45723,7 +45709,7 @@ no data found
 
 
 Genbank
-BAA00903  
+BAA00903
 no data found
 
 
@@ -45751,7 +45737,7 @@ no data found
 
 
 Genbank
-ADT75274 
+ADT75274
 no data found
 
 
@@ -45793,7 +45779,7 @@ no data found
 
 
 Genbank
-ADT75274 
+ADT75274
 no data found
 
 
@@ -45821,7 +45807,7 @@ no data found
 
 
 Genbank
-EAL03648 
+EAL03648
 chromosome 2
 
 
@@ -45863,7 +45849,7 @@ no data found
 
 
 Genbank
-AAL20029 
+AAL20029
 no data found
 
 
@@ -45877,7 +45863,7 @@ no data found
 
 
 Genbank
-AAL20029 
+AAL20029
 no data found
 
 
@@ -45905,7 +45891,7 @@ no data found
 
 
 Genbank
-CCD47187 
+CCD47187
 no data found
 
 
@@ -45919,7 +45905,7 @@ no data found
 
 
 Genbank
-CCD47187 
+CCD47187
 no data found
 
 
@@ -45933,7 +45919,7 @@ no data found
 
 
 Genbank
-CCD47187 
+CCD47187
 no data found
 
 
@@ -46255,7 +46241,7 @@ no data found
 
 
 Genbank
-ACR31807  
+ACR31807
 no data found
 
 
@@ -46297,7 +46283,7 @@ no data found
 
 
 Genbank
-ACR31807  
+ACR31807
 no data found
 
 
@@ -46353,7 +46339,7 @@ no data found
 
 
 Genbank
-CCD47187 
+CCD47187
 no data found
 
 
@@ -46437,7 +46423,7 @@ no data found
 
 
 Genbank
-CRA_SALTY  
+CRA_SALTY
 no data found
 
 
@@ -46731,7 +46717,7 @@ no data found
 
 
 Genbank
-EFX00255 
+EFX00255
 no data found
 
 
@@ -46829,7 +46815,7 @@ no data found
 
 
 Genbank
-ABR92629 
+ABR92629
 no data found
 
 
@@ -46857,77 +46843,7 @@ no data found
 
 
 Genbank
-ABR92629 
-no data found
-
-
-
-
-
-
-leaves
-no data found
-
-
-
-Genbank
-AFI43935
-no data found
-
-
-
-
-
-
-leaves
-no data found
-
-
-
-Genbank
-AFI43936
-no data found
-
-
-
-
-
-
-leaves
-no data found
-
-
-
-Genbank
-ABR92629 
-no data found
-
-
-
-
-
-
-leaves
-no data found
-
-
-
-Genbank
-AFI43935
-no data found
-
-
-
-
-
-
-leaves
-no data found
-
-
-
-Genbank
-ABR92629 
+ABR92629
 no data found
 
 
@@ -46969,7 +46885,7 @@ no data found
 
 
 Genbank
-ABR92629 
+ABR92629
 no data found
 
 
@@ -46997,7 +46913,7 @@ no data found
 
 
 Genbank
-ABR92629 
+ABR92629
 no data found
 
 
@@ -47039,7 +46955,7 @@ no data found
 
 
 Genbank
-ABR92629 
+ABR92629
 no data found
 
 
@@ -47067,7 +46983,77 @@ no data found
 
 
 Genbank
-ABR92629 
+ABR92629
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+AFI43935
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+AFI43936
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+ABR92629
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+AFI43935
+no data found
+
+
+
+
+
+
+leaves
+no data found
+
+
+
+Genbank
+ABR92629
 no data found
 
 
@@ -47109,7 +47095,7 @@ no data found
 
 
 Genbank
-BAM42534 
+BAM42534
 no data found
 
 
@@ -47151,7 +47137,7 @@ no data found
 
 
 Genbank
-AAM37935 
+AAM37935
 no data found
 
 
@@ -47193,7 +47179,7 @@ no data found
 
 
 Genbank
-FGSG_11025 
+FGSG_11025
 no data found
 
 
@@ -47207,7 +47193,7 @@ no data found
 
 
 Genbank
-CBG72886  
+CBG72886
 no data found
 
 
@@ -47249,7 +47235,7 @@ no data found
 
 
 Genbank
-CBG72884 
+CBG72884
 no data found
 
 
@@ -47263,7 +47249,7 @@ no data found
 
 
 Genbank
-CBG72886  
+CBG72886
 no data found
 
 
@@ -47305,7 +47291,7 @@ no data found
 
 
 Genbank
-CBG72884 
+CBG72884
 no data found
 
 
@@ -47319,7 +47305,7 @@ no data found
 
 
 Genbank
-CBG72886  
+CBG72886
 no data found
 
 
@@ -47361,7 +47347,7 @@ no data found
 
 
 Genbank
-CBG72884 
+CBG72884
 no data found
 
 
@@ -47487,7 +47473,7 @@ no data found
 
 
 Genbank
-ADM80412 
+ADM80412
 no data found
 
 
@@ -51323,7 +51309,7 @@ no data found
 
 
 Genbank
-EGY16897 
+EGY16897
 Chromosome 6
 
 
@@ -51547,7 +51533,7 @@ no data found
 
 
 Genbank
-AAK44930 
+AAK44930
 no data found
 
 
@@ -51575,7 +51561,7 @@ no data found
 
 
 Genbank
-AAL71883 
+AAL71883
 no data found
 
 
@@ -51603,7 +51589,7 @@ no data found
 
 
 Genbank
-AAL71883 
+AAL71883
 no data found
 
 
@@ -51631,7 +51617,7 @@ no data found
 
 
 Genbank
-ABJ15692 
+ABJ15692
 no data found
 
 
@@ -51659,7 +51645,7 @@ no data found
 
 
 Genbank
-ABJ15692 
+ABJ15692
 no data found
 
 
@@ -51687,7 +51673,7 @@ no data found
 
 
 Genbank
-ABJ15692 
+ABJ15692
 no data found
 
 
@@ -51715,7 +51701,7 @@ no data found
 
 
 Genbank
-ABJ15692 
+ABJ15692
 no data found
 
 
@@ -51757,7 +51743,7 @@ no data found
 
 
 MUMDB
- um11293
+um11293
 no data found
 
 
@@ -52709,7 +52695,7 @@ no data found
 
 
 Genbank
- JX399796
+JX399796
 no data found
 
 
@@ -52877,7 +52863,7 @@ no data found
 
 
 Genbank
-AAB64846 
+AAB64846
 no data found
 
 
@@ -53157,7 +53143,7 @@ no data found
 
 
 Genbank
-EAL89776 
+EAL89776
 no data found
 
 
@@ -53325,7 +53311,7 @@ no data found
 
 
 Genbank
-ACP34152
+AF525909_2
 no data found
 
 
@@ -53339,7 +53325,7 @@ no data found
 
 
 Genbank
-AF525909_2
+ACP34152
 no data found
 
 
@@ -53535,7 +53521,7 @@ no data found
 
 
 Genbank
-ACP34152
+AF525909_2
 no data found
 
 
@@ -53549,7 +53535,7 @@ no data found
 
 
 Genbank
-AF525909_2
+ACP34152
 no data found
 
 
@@ -53829,7 +53815,7 @@ no data found
 
 
 Genbank
-ABP88773 
+ABP88773
 no data found
 
 
@@ -53899,7 +53885,7 @@ no data found
 
 
 Genbank
-ACO58459 
+ACO58459
 no data found
 
 
@@ -53913,7 +53899,7 @@ no data found
 
 
 Genbank
-ACO58459 
+ACO58459
 no data found
 
 
@@ -53927,7 +53913,7 @@ no data found
 
 
 Genbank
-AAX47479 
+AAX47479
 Chromosome 21
 
 
@@ -54011,7 +53997,7 @@ no data found
 
 
 Genbank
-EIS88482 
+EIS88482
 no data found
 
 
@@ -54753,7 +54739,7 @@ no data found
 
 
 Genbank
- AFJ93332
+AFJ93332
 no data found
 
 
@@ -54823,7 +54809,7 @@ no data found
 
 
 Genbank
-EAL00561 
+EAL00561
 no data found
 
 
@@ -54851,7 +54837,7 @@ no data found
 
 
 Genbank
-EAK98234 
+EAK98234
 no data found
 
 
@@ -54921,7 +54907,7 @@ no data found
 
 
 Genbank
-EAL00561 
+EAL00561
 no data found
 
 
@@ -54935,7 +54921,7 @@ no data found
 
 
 Genbank
-EAK98234 
+EAK98234
 no data found
 
 
@@ -55005,7 +54991,7 @@ no data found
 
 
 Genbank
-EAL00561 
+EAL00561
 no data found
 
 
@@ -55033,7 +55019,7 @@ no data found
 
 
 Genbank
-EAK98234 
+EAK98234
 no data found
 
 
@@ -55075,7 +55061,7 @@ no data found
 
 
 Genbank
-EAL00561 
+EAL00561
 no data found
 
 
@@ -55103,7 +55089,7 @@ no data found
 
 
 Genbank
-EAK98234 
+EAK98234
 no data found
 
 
@@ -56293,7 +56279,7 @@ no data found
 
 
 Genbank
-EF613329       
+EF613329
 no data found
 
 
@@ -56909,7 +56895,7 @@ no data found
 
 
 Genbank
-ACR70033 
+ACR70033
 no data found
 
 
@@ -56951,7 +56937,7 @@ no data found
 
 
 Genbank
- ACR70489
+ACR70489
 no data found
 
 
@@ -56965,7 +56951,7 @@ no data found
 
 
 Genbank
- ACR70340
+ACR70340
 no data found
 
 
@@ -57007,7 +56993,7 @@ no data found
 
 
 Genbank
-BAF96735 
+BAF96735
 no data found
 
 
@@ -57049,7 +57035,7 @@ no data found
 
 
 Genbank
-BAF96735 
+BAF96735
 no data found
 
 
@@ -57077,7 +57063,7 @@ no data found
 
 
 Genbank
-BAF96735 
+BAF96735
 no data found
 
 
@@ -57091,7 +57077,7 @@ no data found
 
 
 Genbank
-BAF96735 
+BAF96735
 no data found
 
 
@@ -57105,7 +57091,7 @@ no data found
 
 
 Genbank
-AFR96662  
+AFR96662
 Chromosome 8
 
 
@@ -57147,7 +57133,7 @@ no data found
 
 
 Genbank
-AAO82613 
+AAO82613
 no data found
 
 
@@ -57161,7 +57147,7 @@ no data found
 
 
 Genbank
-AAO82613 
+AAO82613
 no data found
 
 
@@ -57203,7 +57189,7 @@ no data found
 
 
 Genbank
-EEB56752 
+EEB56752
 no data found
 
 
@@ -57217,21 +57203,7 @@ no data found
 
 
 Genbank
-EEB56752 
-no data found
-
-
-
-
-
-
-Leaves
-no data found
-
-
-
-Genbank
-AAF71498
+EEB56752
 no data found
 
 
@@ -57259,7 +57231,7 @@ no data found
 
 
 Genbank
-FJ008981 
+AAF71498
 no data found
 
 
@@ -57273,7 +57245,21 @@ no data found
 
 
 Genbank
-EGF37258 
+FJ008981
+no data found
+
+
+
+
+
+
+Leaves
+no data found
+
+
+
+Genbank
+EGF37258
 no data found
 
 
@@ -57315,7 +57301,7 @@ no data found
 
 
 Genbank
-CAG45002 
+CAG45002
 no data found
 
 
@@ -57483,7 +57469,7 @@ no data found
 
 
 Uniprot
- EHA54568
+EHA54568
 no data found
 
 
@@ -57623,7 +57609,7 @@ no data found
 
 
 Genbank
-XM_001548468 
+XM_001548468
 no data found
 
 
@@ -57791,7 +57777,7 @@ no data found
 
 
 Genbank
-AAL20894 
+AAL20894
 no data found
 
 
@@ -58743,7 +58729,7 @@ no data found
 
 
 Genbank
-AAF94122 
+AAF94122
 no data found
 
 
@@ -59176,552 +59162,6 @@ no data found
 
 
 
-EMBL
-AAA25726.1
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Resistance
-VIGS using BPMV- empty vector control
-EMBL
-AAA25726.1
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Resistance
-VIGS using BPMV- empty vector control
-EMBL
-AAA25726.1
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Resistance
-VIGS using BPMV- empty vector control
-EMBL
-AAA25726.1
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Susceptible
-VIGS using BPMV- GmNDR1 (to both genes)
-EMBL
-AAA25726.1
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Susceptible
-VIGS using BPMV- GmNDR1 (to both genes)
-EMBL
-AAA25726.1
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Susceptible
-VIGS using BPMV- GmNDR1 (to both genes)
-EMBL
-AAZ37967
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Resistance
-VIGS using BPMV- empty vector control
-EMBL
-AAZ37967
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Susceptible
-VIGS using BPMV- GmNDR1 (to both genes)
-EMBL
-AAZ37967
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Resistance
-VIGS using BPMV- empty vector control
-EMBL
-AAZ37967
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-Susceptible
-VIGS using BPMV- GmNDR1 (to both genes)
-ENA
-AAZ37967
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-wild-type susceptiblity
-VIGS using BPMV- GmNDR1 (to both genes)
-EMBL
-AAZ37967
-no data found
-
-
-
-
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-
-wild-type susceptiblity
-VIGS using BPMV- GmNDR1 (to both genes)
-EMBL
-AAA25726.1
-no data found
-FLAG-tagged
-
-
-
-
-
-
-no data found
-GU132856; GU132854
-no binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAY35802.1
-no data found
-FLAG-tagged
-
-
-
-
-
-
-no data found
-GU132856; GU132854
-no binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-EEB56913.1
-no data found
-FLAG-tagged
-
-
-
-
-
-
-no data found
-GU132856; GU132854
-no binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAZ37967
-no data found
-FLAG-tagged
-
-
-
-
-
-
-no data found
-GU132856
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAZ37967
-no data found
-FLAG-tagged
-
-
-
-
-
-
-no data found
-GU132854
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAZ37967
-no data found
-FLAG-tagged
-
-
-
-
-
-
-no data found
-GU132856
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAZ37967
-no data found
-FLAG-tagged
-
-
-
-
-
-
-no data found
-GU132854
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAZ37967
-no data found
-Split YFP
-
-
-
-
-
-
-no data found
-GU132856; GU132854
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-AAZ37967
-no data found
-Split YFP
-
-
-
-
-
-
-no data found
-GU132856; GU132854
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-AAZ37967
-no data found
-Split YFP 
-
-
-
-
-
-
-no data found
-no data found
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-AAZ37967
-no data found
- FLAG -tagged
-
-
-
-
-
-
-no data found
-no data found
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINa, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAZ37967
-no data found
-Split YFP
-
-
-
-
-
-
-no data found
-no data found
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-AAZ37967
-no data found
- FLAG -tagged
-
-
-
-
-
-
-no data found
-no data found
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINb, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAZ37967
-no data found
-Split YFP
-
-
-
-
-
-
-no data found
-no data found
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-AAZ37967
-no data found
- FLAG -tagged
-
-
-
-
-
-
-no data found
-no data found
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINc, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAZ37967
-no data found
-Split YFP 
-
-
-
-
-
-
-no data found
-no data found
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-AAZ37967
-no data found
- FLAG -tagged
-
-
-
-
-
-
-no data found
-no data found
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINd, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-EEB56913.1
-no data found
-Split YFP 
-
-
-
-
-
-
-no data found
-no data found
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-EEB56913.1
-no data found
- FLAG -tagged
-
-
-
-
-
-
-no data found
-no data found
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINa, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-EEB56913.1
-no data found
-Split YFP 
-
-
-
-
-
-
-no data found
-no data found
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-EEB56913.1
-no data found
- FLAG -tagged
-
-
-
-
-
-
-no data found
-no data found
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINb, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-EEB56913.1
-no data found
-Split YFP
-
-
-
-
-
-
-no data found
-no data found
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-EEB56913.1
-no data found
- FLAG -tagged
-
-
-
-
-
-
-no data found
-no data found
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINc, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-EEB56913.1
-no data found
-Split YFP 
-
-
-
-
-
-
-no data found
-no data found
-positive YFP fluorescence
-Co-expression in N. benthamiana and BiFC assays using split YFP constructs
-EMBL
-EEB56913.1
-no data found
-FLAG -tagged
-
-
-
-
-
-
-no data found
-no data found
-binding
-Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINd, FLAG tagged Avr, IP using  FLAG specific antibodies
-EMBL
-AAA25726.1
-
-PoliC::bcltf1-gfp
-Uniprot:E2MM96
-brl
-EMBL:EEB56913
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-GU132856; GU132854
-Resistance
-VIGS using BPMV- empty vector control
-EMBL
-AAA25726.1
-
-bmut(S->F)
-EMBL:EEB56913
-TFIID
-Uniprot:E2MM96
-GmNDR1a, GmNDR1b
-Genbank:GU132856; Genbank:GU132854
-leaf
-no data found
-GU132856; GU132854
-Susceptible
-VIGS using BPMV- GmNDR1 (to both genes)
 Genbank
 CAR47454
 no data found
@@ -59737,7 +59177,7 @@ no data found
 
 
 BROAD
-B0510_2802 
+B0510_2802
 no data found
 
 
@@ -59751,7 +59191,7 @@ no data found
 
 
 BROAD
-B0510_928 
+B0510_928
 no data found
 
 
@@ -59779,7 +59219,7 @@ no data found
 
 
 BROAD
-B0510_2802 
+B0510_2802
 no data found
 
 
@@ -60453,7 +59893,7 @@ no data found
 Genbank
 AAO59098
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60467,7 +59907,7 @@ no data found
 Genbank
 AAO53915
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60481,7 +59921,7 @@ no data found
 Genbank
 AAO55647
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60495,7 +59935,7 @@ no data found
 Genbank
 AAO56193
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60509,7 +59949,7 @@ no data found
 Genbank
 AAO56198
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60523,7 +59963,7 @@ no data found
 Genbank
 AAO56809
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60537,7 +59977,7 @@ no data found
 Genbank
 AAO58666
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60551,7 +59991,7 @@ no data found
 Genbank
 AAO59098
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60565,7 +60005,7 @@ no data found
 Genbank
 AAO53915
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60579,7 +60019,7 @@ no data found
 Genbank
 AAO55647
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60593,7 +60033,7 @@ no data found
 Genbank
 AAO56193
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60607,7 +60047,7 @@ no data found
 Genbank
 AAO56198
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60621,7 +60061,7 @@ no data found
 Genbank
 AAO56809
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60635,7 +60075,7 @@ no data found
 Genbank
 AAO58666
 no data found
- PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633); 
+PSPTO_5633::Cya (translocation reporter geneadenylate cyclase was fused to the C terminus of PSPTO_5633);
 no data found
 no data found
 no data found
@@ -60703,7 +60143,7 @@ no data found
 susceptibility
 no data found
 Genbank
-AF065259_1 
+AF065259_1
 no data found
 no data found
 no data found
@@ -60857,7 +60297,7 @@ no data found
 no data found
 no data found
 Genbank
-ELQ66169 
+ELQ66169
 no data found
 no data found
 no data found
@@ -61005,7 +60445,7 @@ no data found
 no data found
 no data found
 no data found
- HEp-2 CELLS
+HEp-2 CELLS
 no data found
 no data found
 no data found
@@ -63293,7 +62733,7 @@ no data found
 no data found
 no data found
 Genbank
- EFY87824
+EFY87824
 no data found
 no data found
 no data found
@@ -63419,7 +62859,7 @@ no data found
 no data found
 no data found
 Genbank
- EJP63017
+EJP63017
 no data found
 no data found
 no data found
@@ -63447,7 +62887,7 @@ no data found
 no data found
 no data found
 Genbank
- EJP63017
+EJP63017
 no data found
 no data found
 no data found
@@ -64329,7 +63769,7 @@ no data found
 no data found
 no data found
 Genbank
-XP_007817332 
+XP_007817332
 no data found
 no data found
 no data found
@@ -65160,7 +64600,7 @@ Chromosome 4
 no data found
 no data found
 FgSte50-Ste11-Ste7
-Uniprot:I1RJR9; Uniprot:V6RAJ2; Uniprot:I1RZQ2; 
+Uniprot:I1RJR9; Uniprot:V6RAJ2; Uniprot:I1RZQ2;
 no data found
 no data found
 Flowering heads
@@ -65241,7 +64681,7 @@ no data found
 Genbank
 no data found
 no data found
- BSMV:PsSRPKL-1as  or BSMV:PsSRPKL-2as
+BSMV:PsSRPKL-1as  or BSMV:PsSRPKL-2as
 no data found
 no data found
 no data found
@@ -66051,7 +65491,7 @@ no data found
 no data found
 no data found
 Genbank
- AAO28921
+AAO28921
 no data found
 no data found
 no data found
@@ -66289,21 +65729,21 @@ no data found
 no data found
 no data found
 Genbank
- CCV53898
+CCV53898
 no data found
- ΔinvA, Kanr
-no data found
-no data found
+ΔinvA, Kanr
 no data found
 no data found
 no data found
-Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen 
+no data found
+no data found
+Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen
 no data found
 no data found
 no data found
 no data found
 Genbank
- CCV53898
+CCV53898
 no data found
 YE15 Y1,  PΔinvA IS1667
 no data found
@@ -66311,21 +65751,21 @@ no data found
 no data found
 no data found
 no data found
-Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen 
+Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen
 no data found
 no data found
 no data found
 no data found
 Genbank
- CCV53898
+CCV53898
 no data found
- ΔinvA, Kanr
-no data found
-no data found
+ΔinvA, Kanr
 no data found
 no data found
 no data found
-Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen 
+no data found
+no data found
+Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen
 no data found
 no data found
 no data found
@@ -66667,7 +66107,7 @@ no data found
 no data found
 no data found
 Genbank
- AFR98889
+AFR98889
 no data found
 no data found
 no data found
@@ -66708,3229 +66148,2275 @@ no data found
 no data found
 no data found
 no data found
-3
+EMBL
+AAA25726.1
+no data found
 
 
-5
-AF463528
 
-7
 
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
-10
-ACL14418
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAA25726.1
+no data found
 
-11
-M84179
 
-12
 
 
-13
-AAA33338
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
-14
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAA25726.1
+no data found
 
 
-14
 
 
-15
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAA25726.1
+no data found
 
-16
-AAB29433
 
-17
 
 
-18
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAA25726.1
+no data found
 
-19
 
 
-21
-X89452
 
-22
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAA25726.1
+no data found
 
-23
-L33917
 
-24
 
 
-24
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAZ37967
+no data found
 
-25
 
 
-26
 
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
-27
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAZ37967
+no data found
 
 
-27
 
 
-31
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAZ37987.1
+no data found
 
-32
-CAA59938
 
-33
 
 
-35
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
+Resistance
+VIGS using BPMV- empty vector control
+EMBL
+AAZ37987.1
+no data found
 
-36
 
 
-37
 
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
-38
+Susceptible
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAZ37987.1
+no data found
 
 
-39
 
 
-40
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
+wild-type susceptiblity
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAZ37967
+no data found
 
-41
 
 
-42
 
+GmNDR1a, GmNDR1b
+Genbank:GU132856; Genbank:GU132854
+leaf
+no data found
 
-44
+wild-type susceptiblity
+VIGS using BPMV- GmNDR1 (to both genes)
+EMBL
+AAA25726.1
+no data found
+FLAG-tagged
 
 
-44
 
 
-44
 
 
-44
+no data found
+GU132856; GU132854
+no binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAY35802.1
+no data found
+FLAG-tagged
 
 
-44
 
 
-44
 
 
-44
+no data found
+GU132856; GU132854
+no binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+FLAG-tagged
 
 
-47
 
 
-48
 
 
-48
+no data found
+GU132856; GU132854
+no binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+FLAG-tagged
 
 
-48
 
 
-49
 
 
-52
+no data found
+GU132856
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+FLAG-tagged
 
 
-52
 
 
-53
 
-conditionally dispensable (CD) chromosome
-54
-AAC49420
 
-55
+no data found
+GU132854
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37987.1
+no data found
+FLAG-tagged
 
 
-56
 
 
-57
 
 
-58
+no data found
+GU132856
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37987.1
+no data found
+FLAG-tagged
 
 
-59
 
 
-60
 
 
-61
+no data found
+GU132854
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmNDR1a and 1b, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+Split YFP
 
 
-62
 
 
-65
 
 
-66
+no data found
+GU132856; GU132854
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37987.1
+no data found
+Split YFP
 
 
-67
 
 
-68
 
 
-68
+no data found
+GU132856; GU132854
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+Split YFP
 
 
-69
 
 
-69
 
 
-69
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+FLAG -tagged
 
 
-69
 
 
-69
 
 
-69
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINa, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+Split YFP
 
 
-70
 
 
-71
 
 
-71
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+FLAG -tagged
 
 
-72
 
 
-72
 
 
-73
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINb, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+Split YFP
 
 
-73
 
 
-75
 
 
-75
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+FLAG -tagged
 
 
-75
 
 
-76
 
 
-77
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINc, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+AAZ37967
+no data found
+Split YFP
 
 
-78
 
 
-79
 
 
-80
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+AAZ37967
+no data found
+FLAG -tagged
 
 
-81
 
 
-82
 
 
-83
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINd, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+Split YFP
 
 
-84
 
 
-85
 
 
-86
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+EEB56913.1
+no data found
+FLAG -tagged
 
 
-87
 
 
-87
 
 
-88
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINa, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+Split YFP
 
 
-89
 
 
-95
 
 
-96
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+EEB56913.1
+no data found
+FLAG -tagged
 
 
-97
 
 
-98
 
 
-99
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINb, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+Split YFP
 
 
-100
 
 
-101
 
 
-103
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+EEB56913.1
+no data found
+FLAG -tagged
 
 
-103
 
 
-103
 
 
-104
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINc, FLAG tagged Avr, IP using  FLAG specific antibodies
+EMBL
+EEB56913.1
+no data found
+Split YFP
 
 
-104
 
 
-105
 
 
-106
+no data found
+no data found
+positive YFP fluorescence
+Co-expression in N. benthamiana and BiFC assays using split YFP constructs
+EMBL
+EEB56913.1
+no data found
+FLAG -tagged
 
 
-107
 
 
-109
 
 
-111
-
-
-112
-
-
-113
-
-
-114
-
-
-115
-
-
-116
-
-
-120
-
-
-121
-
-
-122
-
-
-123
-
-
-124
-
-
-125
-
-
-125
-
-
-126
-
-
-126
-
-
-127
-
-
-127
-
-
-128
-
-
-129
-
-
-130
-
-
-131
-
-
-132
-
-
-133
-
-
-134
-
-
-135
-
-
-136
-
-
-136
-
-
-136
-
-
-136
-
-
-138
-
-
-139
-
-
-140
-
-
-141
-
-
-142
-
-
-143
-
-
-144
-
-
-146
-
-
-149
-
-
-151
-
-
-153
-
-
-156
-
-
-156
-
-
-157
-
-
-158
-
-
-159
-
-
-160
-
-
-161
-
-
-161
-
-
-161
-
-
-162
-
-
-163
-
-
-164
-
-
-165
-
-
-166
-
-
-166
-
-
-167
-
-
-167
-
-
-169
-
-
-170
-
-
-172
-
-
-173
-
-
-174
-
-
-175
-
-
-176
-
-
-177
-SNOG_03643
-
-178
-
-
-179
-
-
-180
-
-
-181
-
-
-182
-
-
-182
-
-
-182
-
-
-182
-
-
-183
-
-
-183
-
-
-184
-
-
-184
-
-
-185
-
-
-186
-
-
-187
-
-
-188
-
-
-189
-
-
-190
-
-
-191
-
-
-193
-AAA62242
-
-194
-
-
-195
-
-
-196
-
-
-197
-
-
-198
-
-
-198
-
-
-198
-
-
-199
-
-
-200
-
-
-201
-
-
-202
-
-
-202
-
-
-203
-
-
-203
-
-
-204
-
-
-205
-
-
-206
-
-
-207
-
-
-208
-
-
-209
-
-
-210
-
-
-211
-
-
-212
-
-
-213
-
-
-213
-
-
-214
-
-
-215
-
-
-215
-
-
-216
-
-
-217
-
-
-218
-
-
-219
-
-
-220
-
-
-220
-
-
-221
-
-
-222
-
-
-223
-
-
-224
-
-
-225
-
-
-226
-
-
-227
-
-
-227
-
-
-227
-
-
-227
-
-
-227
-
-
-228
-
-
-228
-
-
-229
-
-
-230
-
-
-231
-
-
-232
-
-
-233
-
-
-234
-
-
-235
-
-
-236
-
-
-237
-
-
-238
-
-
-239
-
-
-240
-
-
-241
-
-
-241
-
-
-242
-
-
-243
-
-
-244
-
-
-245
-
-
-246
-
-
-247
-
-
-249
-
-
-250
-
-
-251
-
-
-252
-
-
-253
-
-
-254
-
-
-255
-
-
-256
-
-
-257
-
-
-258
-
-
-259
-
-
-260
-
-
-261
-
-
-262
-
-
-263
-
-
-264
-
-
-265
-
-
-266
-FG10313
-
-266
-FG10313
-
-266
-FG10313
-
-266
-FG10313
-
-266
-FG10313
-
-267
-
-
-268
-
-
-269
-
-
-270
-
-
-271
-
-
-272
-
-
-273
-
-
-274
-
-
-275
-
-
-276
-
-
-277
-
-
-277
-
-
-278
-
-
-278
-
-
-278
-
-
-278
-
-
-278
-
-
-278
-
-
-278
-
-
-279
-
-
-280
-
-
-281
-
-
-282
-
-
-283
-
-
-284
-AAC39451
-
-285
-
-
-285
-
-
-286
-
-
-287
-
-
-288
-
-
-289
-
-
-290
-
-
-291
-
-
-292
-
-
-293
-
-
-294
-
-
-295
-
-
-296
-
-
-300
-
-
-301
-
-
-301
-
-
-303
-
-
-304
-FGSG_06631
-
-305
-
-
-306
-
-
-307
-
-
-308
-
-
-309
-
-
-309
-
-
-309
-FG06385
-
-309
-FG06385
-
-309
-
-
-310
-
-
-311
-
-
-313
-
-
-314
-
-
-314
-
-
-315
-
-
-315
-
-
-316
-
-
-317
-
-
-318
-
-
-318
-
-
-319
-
-
-320
-
-
-321
-
-
-322
-
-
-323
-
-
-324
-
-
-325
-
-
-326
-
-
-328
-
-
-329
-
-
-329
-
-
-329
-
-
-329
-
-
-330
-
-
-331
-
-
-332
-
-
-333
-
-
-334
-
-
-335
-
-
-336
-
-
-337
-
-
-338
-
-
-339
-
-
-340
-
-
-341
-
-
-342
-
-
-343
-
-
-344
-
-
-345
-
-
-346
-
-
-348
-
-
-349
-AF441394
-
-350
-
-
-351
-
-
-352
-
-
-353
-SNOG_10086
-
-354
-
-
-355
-FG05658
-
-356
-
-
-357
-
-
-358
-
-
-359
-
-
-360
-
-
-360
-
-
-361
-
-
-362
-
-
-364
-
-
-365
-SNOG_07548
-
-366
-
-
-366
-
-
-367
-
-
-368
-
-
-369
-
-
-370
-
-
-371
-
-
-372
-
-
-372
-
-
-372
-
-
-373
-
-
-375
-
-
-376
-
-
-376
-
-
-377
-
-
-378
-
-
-379
-
-
-380
-
-
-382
-
-
-383
-
-
-384
-
-
-385
-
-
-386
-
-
-387
-
-
-389
-
-
-390
-
-
-391
-
-
-392
-
-
-393
-
-
-394
-
-
-395
-
-
-397
-
-
-398
-
-
-399
-
-
-401
-
-
-402
-
-
-404
-
-
-405
-
-
-406
-
-
-407
-
-
-409
-
-
-410
-
-
-411
-
-
-412
-
-
-413
-SNOG_12666
-
-414
-SNOG_13161
-
-415
-SNOG_02041
-
-416
-
-
-416
-
-
-417
-
-
-418
-
-
-419
-
-
-420
-
-
-420
-
-
-421
-AAK31919
-
-422
-
-
-422
-
-
-422
-
-
-423
-
-
-424
-
-
-425
-
-
-427
-
-
-428
-
-
-429
-
-
-430
-
-
-431
-
-
-432
-
-
-432
-
-
-433
-
-
-434
-
-
-435
-
-
-436
-
-
-437
-
-
-438
-
-
-438
-
-
-439
-
-
-440
-
-
-441
-
-
-441
-
-
-441
-
-
-441
-
-
-442
-FGSG_10825
-
-442
-FGSG_10825
-
-443
-FG01932
-
-443
-FG01932
-
-444
-FG01555
-
-444
-FG01555
-
-445
-FG00376
-
-445
-FG00376
-
-446
-FG00332
-
-446
-FG00332
-
-447
-
-
-448
-SNOG_03299
-
-449
-"
-
-Claviceps purpurea
-450
-
-
-451
-
-
-452
-
-
-453
-
-
-453
-
-
-453
-
-
-454
-
-
-455
-
-
-455
-
-
-455
-
-
-455
-
-
-457
-
-
-458
-
-
-459
-
-
-460
-
-
-461
-
-
-462
-
-
-463
-
-
-464
-
-
-465
-
-
-466
-
-
-467
-
-
-468
-
-
-469
-
-
-470
-
-
-471
-
-
-472
-
-
-473
-
-
-474
-
-
-475
-
-
-476
-
-
-477
-
-
-478
-
-
-479
-
-
-480
-
-
-480
-
-
-481
-
-
-481
-
-
-482
-
-
-483
-
-
-483
-
-
-483
-
-
-483
-
-
-483
-
-
-483
-
-
-483
-
-
-484
-
-
-485
-
-
-486
-
-
-487
-AAD18059
-
-488
-
-
-489
-
-
-489
-
-
-490
-
-
-491
-
-
-492
-
-
-492
-
-
-493
-
-
-494
-
-
-495
-
-
-496
-
-
-497
-
-
-498
-
-
-499
-
-
-500
-
-
-501
-
-
-502
-
-
-503
-
-
-504
-
-
-505
-
-
-506
-
-
-507
-
-
-508
-
-
-508
-
-
-509
-
-
-509
-
-
-510
-
-
-511
-
-
-512
-
-
-513
-
-
-513
-
-
-514
-
-
-515
-
-
-516
-
-
-516
-
-
-517
-
-
-518
-
-
-519
-
-
-520
-
-
-521
-
-
-522
-
-
-522
-
-
-523
-
-
-524
-
-
-524
-
-
-525
-
-
-526
-
-
-527
-
-
-527
-
-
-528
-
-
-529
-
-
-530
-
-
-531
-
-
-532
-
-
-532
-
-
-533
-
-
-533
-
-
-534
-
-
-535
-
-
-536
-
-
-537
-
-
-538
-
-
-538
-
-
-540
-
-
-540
-
-
-540
-
-
-540
-
-
-541
-
-
-541
-
-
-541
-
-
-541
-
-
-541
-
-
-541
-
-
-542
-
-
-542
-
-
-543
-
-
-543
-
-
-544
-
-
-544
-
-
-544
-
-
-545
-
-
-546
-
-
-546
-
-
-547
-
-
-547
-
-
-548
-
-
-548
-
-
-549
-
-
-549
-
-
-550
-
-
-550
-
-
-551
-
-
-552
-
-
-552
-
-
-552
-
-
-552
-
-
-553
-
-SPI2
-553
-
-SPI2
-554
-
-SPI2
-555
-
-SPI2
-556
-
-SPI2
-557
-
-SPI2
-558
-
-SPI2
-559
-
-
-560
-
-
-561
-
-SPI1
-563
-
-SPI1
-563
-
-SPI1
-563
-
-SPI1
-564
-
-
-565
-
-
-566
-
-
-567
-
-
-567
-
-
-567
-
-
-567
-
-
-567
-
-
-567
-
-
-568
-
-
-568
-
-
-568
-
-
-568
-
-
-568
-
-
-568
-
-
-569
-
-
-570
-
-
-571
-
-
-571
-
-
-571
-
-
-571
-
-
-572
-
-
-572
-
-
-572
-
-
-572
-
-
-573
-
-
-573
-
-
-573
-
-
-573
-
-
-574
-
-
-576
-
-
-576
-
-
-576
-
-
-577
-
-
-578
-
-
-579
-
-
-579
-
-
-580
-
-
-580
-
-
-581
-
-
-581
-
-
-582
-
-
-582
-
-
-583
-
-
-583
-
-
-584
-
-
-584
-
-
-585
-
-
-585
-
-
-586
-
-
-587
-
-
-588
-
-
-589
-
-
-590
-
-
-591
-
-
-591
-
-
-593
-
-
-593
-
-
-594
-
-
-595
-SNOG_09357
-
-596
-
-
-597
-
-
-598
-
-
-599
-
-
-600
-
-
-600
-
-
-601
-
-SPI2
-602
-
-SPI2
-603
-
-SPI2
-604
-
-SPI2
-605
-
-SPI2
-606
-
-SPI2
-607
-
-SPI2
-608
-
-SPI2
-609
-
-SPI2
-610
-
-SPI2
-611
-
-SPI2
-612
-
-SPI2
-613
-
-SPI2
-614
-
-SPI2
-615
-
-SPI2
-616
-
-SPI2
-617
-
-SPI2
-618
-
-SPI2
-619
-
-SPI2
-620
-
-SPI2
-621
-
-SPI2
-622
-
-SPI2
-623
-
-SPI2
-624
-
-SPI2
-625
-
-SPI2
-626
-
-SPI2
-627
-
-SPI2
-628
-
-SPI2
-629
-
-SPI2
-630
-
-SPI2
-631
-
-SPI1
-632
-
-SPI1
-633
-
-SPI1
-634
-
-SPI1
-634
-
-SPI1
-634
-
-SPI1
-635
-
-SPI1
-636
-
-SPI1
-637
-
-SPI1
-638
-
-SPI1
-639
-
-SPI1
-640
-
-SPI1
-641
-
-SPI1
-642
-
-SPI1
-643
-
-SPI1
-644
-
-SPI1
-645
-
-SPI1
-646
-
-SPI1
-647
-
-SPI1
-648
-
-SPI1
-649
-
-SPI1
-650
-
-
-651
-
-
-652
-
-
-653
-
-
-654
-
-
-655
-
-
-656
-
-
-656
-
-
-656
-
-
-657
-
-
-657
-
-
-657
-
-
-658
-
-
-659
-
-
-660
-
-
-661
-
-
-662
-
-
-663
-
-pSLT
-664
-
-
-664
-
-
-664
-
-
-665
-
-
-665
-
-
-666
-
-
-666
-
-
-666
-
-
-667
-
-
-667
-
-
-667
-
-
-667
-
-
-668
-
-
-668
-
-
-668
-
-
-669
-
-
-670
-
-
-671
-
-
-672
-
-
-673
-
-
-674
-
-
-674
-
-
-675
-
-
-675
-
-
-676
-
-
-676
-
-
-676
-
-
-677
-
-
-677
-
-
-678
-
-
-678
-
-
-679
-
-
-679
-
-
-680
-
-
-681
-
-
-683
-
-
-685
-
-
-686
-
-
-687
-
-
-690
-
-
-690
-
-
-693
-
-
-694
-
-
-695
-
-
-696
-
-
-696
-
-
-697
-
-
-697
-
-
-698
-
-Chromosome 1
-699
-
-Chromosome 1
-700
-
-Chromosome 1
-701
-
-Chromosome 1
-702
-
-Chromosome 1
-703
-
-Chromosome 1
-704
-
-Chromosome 1
-707
-
-Chromosome 1
-708
-
-Chromosome 1
-709
-
-Chromosome 1
-710
-
-Chromosome 1
-711
-
-Chromosome 1
-712
-FGSG_02328  
-
-713
-
-
-713
-
-
-714
-
-
-714
-
-
-714
-
-
-715
-
-
-716
-
-
-717
-FGSG_04488 
-
-718
-
-
-719
-FGSG_07798
-
-720
-FGSG_02324   
-
-721
-FGSG_03964 
-
-722
-FGSG_09182 
-
-723
-
-
-724
-
-
-725
-
-
-726
-
-
-727
-FGSG_03340 
-
-728
-
-
-729
-
-
-730
-FGSG_07226
-
-731
-
-
-731
-
-
-733
-FGSG_02095
-
-734
-
-
-734
-
-
-736
-
-
-736
-
-
-736
-
-
-736
-
-
-737
-
-
-739
-
-
-740
-
-
-741
-
-
-743
-FGSG_01939
-
-744
-FGSG_02506 
-
-746
-um10115
-
-747
-um00445
-
-748
-um00446
-
-749
-um01234
-
-750
-um01235
-
-751
-um01236
-
-752
-um01237
-
-753
-um01238
-
-754
-um01239
-
-755
-um01240
-
-756
-um01241
-
-757
-um01297
-
-758
-
-
-759
-
-
-760
-
-
-761
-
-
-762
-
-
-763
-
-
-764
-
-
-765
-
-
-768
-
-
-769
-
-
-770
-
-
-772
-
-
-773
-
-
-774
-
-
-775
-
-
-776
-
-
-777
-
-
-778
-
-
-779
-
-
-780
-
-
-781
-
-
-782
-
-
-783
-
-
-784
-
-
-785
-
-
-786
-
-
-787
-
-
-788
-
-
-789
-
-
-790
-
-
-791
-
-
-792
-
-
-793
-
-
-794
-
-
-795
-
-
-796
-
-
-797
-
-
-798
-
-
-799
-
-
-800
-
-
-801
-
-
-802
-
-
-803
-
-
-804
-
-
-805
-
-
-806
-
-
-807
-
-
-808
-
-
-809
-
-
-810
-
-
-811
-
-
-812
-
-
-813
-
-
-814
-
-
-815
-
-
-816
-
-
-817
-
-
-818
-
-
-819
-
-
-820
-
-
-821
-
-
-822
-estExt_Genewise1Plus.C_chr_70864
-
-823
-
-
-824
-
-
-825
-TERG_05717.2
-
-826
-TERG_05717.2
-
-828
-Afu5g07780
-
-829
-Afu5g07780
-
-830
-ANID_11008.1
-
-831
-MGG_08624.6
-
-832
-UM01934.1
-
-835
-ESTEXT_GENEWISE1PLUS.C_CHR_60851
-
-836
-
-
-837
-BC1G_00374.1
-
-838
-estExt_fgenesh1_pg.C_chr_70359
-
-839
-estExt_fgenesh1_pg.C_chr_70359
-
-840
-estExt_fgenesh1_pg.C_chr_70359
-
-841
-estExt_fgenesh1_pg.C_chr_70359
-
-842
-estExt_fgenesh1_pg.C_chr_70359
-
-843
-estExt_fgenesh1_pg.C_chr_70359
-
-844
-estExt_fgenesh1_pg.C_chr_70359
-
-845
-estExt_fgenesh1_pg.C_chr_70359
-
-846
-estExt_fgenesh1_pg.C_chr_70359
-
-847
-FP0748
-
-848
-FP0748
-
-849
-
-
-850
-
-
-851
-
-
-852
-
-
-853
-
-
-854
-
-
-855
-um10672
-
-856
-
-
-857
-
-
-858
-
-
-859
-
-
-860
-
-
-860
-
-
-861
-FGSG_10114 
-
-861
-FGSG_10114 
-
-862
-
-
-864
-
-
-867
-
-
-868
-
-
-871
-
-
-872
-
-
-873
-
-
-874
-
-
-875
-
-
-876
-
-
-877
-
-
-878
-
-
-879
-
-
-880
-
-
-881
-
-
-882
-
-
-883
-
-
-884
-
-
-885
-
-
-886
-
-
-887
-
-
-888
-
-
-889
-
-
-890
-
-
-891
-
-
-892
-
-
-893
-
-
-896
-um01298
-
-897
-um01299
-
-898
-um01300
-
-899
-um01301
-
-900
-um01302
-
-901
-um01886
-
-902
-um12173
-
-903
-um01888
-
-904
-um02192
-
-905
-um02193
-
-906
-um02194
-
-907
-um02473
-
-908
-um02474
-
-909
-um02475
-
-910
-um02533
-
-911
-um11451
-
-912
-um02535
-
-913
-um11416
-
-914
-um02537
-
-915
-um02538
-
-916
-um11417
-
-917
-um02540
-
-918
-um03201
-
-919
-um03202
-
-920
-um10403
-
-921
-um03614
-
-922
-um03615
-
-923
-um03616
-
-924
-um03744
-
-925
-um03745
-
-926
-um03746
-
-927
-um03747
-
-928
-um03748
-
-929
-um03749
-
-930
-um03750
-
-931
-um03751
-
-932
-um03752
-
-933
-um03753
-
-934
-um05294
-
-935
-um05295
-
-936
-um12302
-
-937
-um10553
-
-938
-um10554
-
-939
-um05299
-
-940
-um05300
-
-941
-um05301
-
-942
-um05302
-
-943
-um05303
-
-944
-um10555
-
-945
-um05305
-
-946
-um05306
-
-947
-um10556
-
-948
-um05308
-
-949
-um05309
-
-950
-um05310
-
-951
-um05311
-
+no data found
+no data found
+binding
+Co-expression in N. benthamiana using the pSITE vectors; MyC-tagged GmRINd, FLAG tagged Avr, IP using  FLAG specific antibodies
+Genbank
+EKV12123
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Fruits
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAJ03227
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAJ02396
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA56749
+no data found
+pSET4s::hylB (pSET4S vector digested with the same restriction enzymes to generate thehylBknockout vector, pSET4S::hylB)
+no data found
+no data found
+no data found
+no data found
+no data found
+Blood; spleen; brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAA56749
+no data found
+pSET4s::hylB (pSET4S vector digested with the same restriction enzymes to generate thehylBknockout vector, pSET4S::hylB)
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+KJ149475
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+KJ149475
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+KJ149475
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+KJ149475
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+KJ867495
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+KJ867495
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK33390
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Skin
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFC65667
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Skin
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK33390
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Skin
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABJ00993
+no data found
+E058ΔrstA::cat ( The catcassette was  inserted into the rstA gene at the EcoRV site to form pMD-rstA-cat)
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; spleen; lung; kidney
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL85770
+Chromosome 6
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AIG00947
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Spleen; Kidneys
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Spleen; Kidneys
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Spleen; Kidneys
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAC05680
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Spleen; Kidneys
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAG55075
+no data found
+TW14359ΔtolA
+no data found
+no data found
+no data found
+no data found
+no data found
+larvae
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK76205
+no data found
+TIGR4luxΔarcA
+no data found
+no data found
+no data found
+no data found
+no data found
+Nasopharyngeal and bronchoalveolar lavage fluid
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK76206
+no data found
+TIGR4luxΔarcB
+no data found
+no data found
+no data found
+no data found
+no data found
+Nasopharyngeal and bronchoalveolar lavage fluid
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK76207
+no data found
+TIGR4luxΔarcC
+no data found
+no data found
+no data found
+no data found
+no data found
+Nasopharyngeal and bronchoalveolar lavage fluid
+no data found
+no data found
+no data found
+no data found
+Genbank
+KGI24034
+no data found
+TIGR4luxΔarcD
+no data found
+no data found
+no data found
+no data found
+no data found
+Nasopharyngeal and bronchoalveolar lavage fluid
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAK76209
+no data found
+TIGR4luxΔarcT
+no data found
+no data found
+no data found
+no data found
+no data found
+Nasopharyngeal and bronchoalveolar lavage fluid
+no data found
+no data found
+no data found
+no data found
+Genbank
+EGY20950
+Chromosome 3
+Vdcla4: Uniprot:G2X6S4
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves; roots
+no data found
+no data found
+no data found
+no data found
+Genbank
+EGY14692
+Chromosome 4
+Vdrac1: Uniprot:G2WXZ2
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAQ50581.1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAQ50581.2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAF94478
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Intestine
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA52648
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55314
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+EHA55387
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAT86260
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAC68408
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Urogenital parts
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAC68408
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Ocular parts
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY85624
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAR96298
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEO22192
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+stem
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEO22193
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+stem
+reduced virulence
+no data found
+yes
+no data found
+no data found
+no data found
+no data found
+RP
+25530086
+Pubmed
+Genbank
+ACC41130
+no data found
+ΔmgtC+attB::mgtC
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFB74084
+no data found
+MATaptp2Δ::NEO
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs, brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+AGC31491
+no data found
+MATaptp1Δ::NEO
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs, brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFB74084
+no data found
+MATaptp2Δ::NEO
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs, brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+AGC31491
+no data found
+MATaptp2Δ::NEO
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs, brain
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABK58601
+no data found
+pUC19-rtxA::kan
+no data found
+no data found
+no data found
+no data found
+no data found
+heart, lung, kidney, thymus, spleen, hip joint, and tibia bone marrow
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAA32418
+no data found
+SCI-07ΔnirC
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+TcdB
+TcdB: Uniprot: P18177
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO90736
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cells
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAO90736
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+cells
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAM16160
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Abdomen; spleen; liver; pancreas
+unaffected pathogenicity
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+RP
+24799629
+Pubmed
+Genbank
+AAM19335
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Abdomen; spleen; liver; pancreas
+unaffected pathogenicity
+no data found
+no data found
+no data found
+no data found
+no data found
+wild type
+RP
+24799629
+Pubmed
+Genbank
+ACC41119
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+embryo
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACC41119
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Adult
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFC65804
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Skin
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAB40976
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AEJ48086
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Molybdenum cofactor sulfurase
+Uniprot: M0VB89; Genbank
+no data found
+no data found
+no data found
+Resistance
+no data found
+Genbank
+AET13879
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAQ82692
+Chromosome E
+PPGK::FRT::TRP1::FRT::hph epa2Δ::FLP1 (EPA2ORF was replaced with the S. cerevisiae FLP1 gene encoding the Flp1 site-specific recombinase in the BG625 background).
+no data found
+no data found
+no data found
+no data found
+no data found
+Kidney; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCW73000
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACJ63516
+no data found
+E058ΔiucD
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; spleen; lung; kidney; heart
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACB16832
+no data found
+E058ΔiucDΔiutA
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; spleen; lung; kidney; heart
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACJ63516
+no data found
+E058ΔiucD
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; spleen; lung; kidney; heart
+no data found
+no data found
+no data found
+no data found
+Genbank
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; spleen; lung
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAN17453
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAD17452
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAA67749
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP46591
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN48924
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP43778
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP43777
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP43592
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP46036
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAD17452
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAA67749
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP46591
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN48924
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP43778
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP43777
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP43592
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP46036
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN48018
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAF36499
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+leaves
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP44022
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP44509
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Lungs; liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL03698
+no data found
+opi1::CaNAT1-FLP
+no data found
+no data found
+no data found
+no data found
+no data found
+systemic
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL03698
+no data found
+opi1::CaNAT1-FLP
+no data found
+no data found
+no data found
+no data found
+no data found
+vagina
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP45727
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN51214
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN48246
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN50433
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN49702
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP46420
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN48327
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+ABQ58103
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAA53045
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAC43638
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN51257
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN49013
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP42829
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP43690
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP43797
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP46226
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+CCP44046
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFN49822
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL52634
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL52629
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAL52701
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAL25382
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; kidney; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAL25382
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; kidney; spleen; gills
+no data found
+no data found
+no data found
+no data found
+Genbank
+CAL25382
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; kidney; spleen; gills
+no data found
+no data found
+no data found
+no data found
+Genbank
+AF156494_1
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; kidney; spleen; gills
+no data found
+no data found
+no data found
+no data found
+Genbank
+BAC15762
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; kidney; spleen; gills
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFD58524
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AFD58524
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAT05525
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY54617
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAT05525
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+AAY54617
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+liver
+no data found
+no data found
+no data found
+no data found
+Genbank
+EAL03420
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+kidneys; spleen
+no data found
+no data found
+no data found
+no data found
+Genbank
+ACF15629
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+larynx epithelial cells
+no data found
+no data found
+no data found
+no data found

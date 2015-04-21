@@ -1311,7 +1311,6 @@ pectin and PGA
 
 
 
-
 na
 na
 na
@@ -2748,8 +2747,8 @@ no data found
 no data found
 no data found
 no data found
-Ditiocarb sodium (DETC); Menadione sodium bisulfite anhydrous; Potassium oxalate (KOA) 
-Ditiocarb sodium (DETC); Menadione sodium bisulfite anhydrous; Potassium oxalate (KOA)  
+Ditiocarb sodium (DETC); Menadione sodium bisulfite anhydrous; Potassium oxalate (KOA)
+Ditiocarb sodium (DETC); Menadione sodium bisulfite anhydrous; Potassium oxalate (KOA)
 Hydrogen peroxide
 Hydrogen peroxide
 Hydrogen peroxide
@@ -4018,7 +4017,7 @@ Rose bengal;  H2O2
 Rose bengal;  H2O2
 Rose bengal;  H2O2
 no data found
-Rose bengal;  H2O2; Cumyl H2O2; Menadione; t -butyl H2O2; KO2 ;  Bathophenanthroline disulphonic acid; 2,2 ′-dipyridyl; Sodium nitroprusside; Hydroxylamine-HCl 
+Rose bengal;  H2O2; Cumyl H2O2; Menadione; t -butyl H2O2; KO2 ;  Bathophenanthroline disulphonic acid; 2,2 ′-dipyridyl; Sodium nitroprusside; Hydroxylamine-HCl
 no data found
 no data found
 no data found
@@ -4060,7 +4059,7 @@ no data found
 no data found
 no data found
 no data found
- NaNO2; H2O2; OSU-03012; ﬂuconazole; amphotericin B
+NaNO2; H2O2; OSU-03012; ﬂuconazole; amphotericin B
 no data found
 no data found
 no data found
@@ -4131,7 +4130,7 @@ no data found
 no data found
 no data found
 no data found
-H2O2; sorbitol; NaCl; CaCl2 
+H2O2; sorbitol; NaCl; CaCl2
 no data found
 vancomycin; bacitracin; colistin; nisin; ampicillin; cefotaxime; polymixin B; LL-37
 vancomycin; bacitracin; colistin; nisin; ampicillin; cefotaxime; polymixin B; LL-37
@@ -4225,45 +4224,6 @@ Calcoﬂuor white (CFW); Congo red; H2O2; TBZ; IMZ; SDS
 H2O2; NaCl
 H2O2; NaCl
 H2O2; mitomycin C
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 no data found
 no data found
 no data found
@@ -4353,7 +4313,7 @@ no data found
 no data found
 H2O2
 SDS; colistin; polymyxin B
-NaCl; KCl; D-sorbitol; SDS; Congo red; fludioxonil; iprodione; benomyl; H2O2; 
+NaCl; KCl; D-sorbitol; SDS; Congo red; fludioxonil; iprodione; benomyl; H2O2;
 no data found
 no data found
 no data found
@@ -4593,7 +4553,7 @@ no data found
 no data found
 no data found
 no data found
- H2O2; KCl
+H2O2; KCl
 no data found
 no data found
 no data found
@@ -4763,7 +4723,6 @@ no data found
 no data found
 no data found
 no data found
-pectin
 
 
 
@@ -4777,15 +4736,12 @@ pectin
 
 
 
-on host contact
 
 
 
 
 
 
-avocado surface wax
-avocado surface wax
 
 
 
@@ -4804,1037 +4760,124 @@ avocado surface wax
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-pectin and galacturonic acid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-early infection stage
-
-host surface (hard surface contact and ethylene)
-host surface (hard surface contact and ethylene)
-host surface (hard surface contact and ethylene)
-host surface (hard surface contact and ethylene)
-
-
-
-
-
-
-
-
-
-
-
-pectin and PGA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2
+H2O2
+H2O2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+fluconazole; ketoconazole; flucytosine; fludioxonil; tert-butyl hydroperoxide (tBOOH); H2O2; NaCl; KCl; Hydroxyurea; methyl methanesulfonate; CdSO4
+fluconazole; ketoconazole; flucytosine; fludioxonil; tert-butyl hydroperoxide (tBOOH); H2O2; NaCl; KCl; Hydroxyurea; methyl methanesulfonate; CdSO4
+fluconazole; ketoconazole; flucytosine; fludioxonil; tert-butyl hydroperoxide (tBOOH); H2O2; NaCl; KCl; Hydroxyurea; methyl methanesulfonate; CdSO4
+fluconazole; ketoconazole; flucytosine; fludioxonil; tert-butyl hydroperoxide (tBOOH); H2O2; NaCl; KCl; Hydroxyurea; methyl methanesulfonate; CdSO4
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+H2O2
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+Sodium nitrite
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found

@@ -18,5 +18,6 @@ Reduced virulence	POO:0000002
 Resistant to chemical	POO:0000008
 Sensitive to chemical	POO:0000009
 Unaffected pathogenicity	POO:0000003
+unaffected pathogenicity	POO:0000003
 wildtype	POO:0000004
 Wild-type mutualism

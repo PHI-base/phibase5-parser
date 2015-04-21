@@ -102,7 +102,7 @@ No
 No
 
 
-No 
+No
 
 
 
@@ -274,7 +274,7 @@ No
 
 
 
-No 
+No
 
 
 
@@ -2158,7 +2158,6 @@ wild type
 
 
 
-
 No
 No
 no data found
@@ -4226,45 +4225,6 @@ no data found
 no data found
 no data found
 no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
 no
 no
 no
@@ -4763,1078 +4723,161 @@ no data found
 no data found
 no data found
 no data found
-No
-NA
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-See publication
-
-No
-No
-
-
-No
-No
-
-
-
-
-Yes
-
-
-
-Yes
-
-
-No
-No
-No
-No
-No
-No
-
-
-
-
-
-
-
-
-
-
-No
-Yes
-
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-Yes
-
-
-
-
-
-
-
-
-
-No
-
-Yes
-
-
-No
-No
-No
-
-
-
-
-
-No
-
-
-No 
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-No
-No
-No
-
-
-
-
-
-
-
-
-
-No
-
-
-No
-
-Yes
-
-
-
-
-Yes
-
-
-Yes
-Yes
-Yes
-
-
-
-Yes
-No
-No
-No
-No
-No
-Yes
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-No
-
-
-
-Yes
-
-
-
-
-
-
-
-No
-Yes
-No
-
-
-
-
-
-
-
-
-No
-
-
-
-No
-Yes
-No
-
-No
-
-
-
-
-
-
-
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No 
-
-
-
-
-
-
-
-
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-No
-
-
-
-
-
-
-No
-
-
-
-No
-No
-
-
-Yes
-
-
-
-No
-No
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-No
-No
-No
-No
-
-
-No
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-Yes
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-Yes
-
-
-
-
-
-
-
-Yes
-
-
-No
-
-
-No
-
-No
-No
-
-
-
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-No
-No
-No
-
-
-
-No
-No
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-No
-Yes
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-no
-no
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-Yes
-Yes
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-Yes
-
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-
-
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found

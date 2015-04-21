@@ -12,8 +12,8 @@ Gaeumannomyces graminis
 Gaeumannomyces graminis
 Leptosphaeria maculans
 Candida albicans
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
 Candida albicans
 Candida albicans
 Magnaporthe oryzae
@@ -38,7 +38,7 @@ Cryptococcus neoformans
 Cryphonectria parasitica
 Magnaporthe oryzae
 Magnaporthe oryzae
-Nectria haematococca (related: Fusarium solani)
+Nectria haematococca
 Cochliobolus heterostrophus
 Magnaporthe oryzae
 Ustilago maydis
@@ -101,7 +101,7 @@ Candida albicans
 Candida albicans
 Colletotrichum lindemuthianum
 Phytophthora infestans
-Nectria haematococca (related: Fusarium solani)
+Nectria haematococca
 Magnaporthe oryzae
 Fusarium oxysporum
 Cochliobolus carbonum
@@ -151,12 +151,12 @@ Botrytis cinerea
 Botrytis cinerea
 Candida albicans
 Histoplasma capsulatum
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
 Colletotrichum lindemuthianum
 Colletotrichum lagenarium
 Candida albicans
@@ -166,8 +166,8 @@ Candida albicans
 Ustilago maydis
 Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Aspergillus fumigatus
-Nectria haematococca (related: Fusarium solani)
-Nectria haematococca (related: Fusarium solani)
+Nectria haematococca
+Nectria haematococca
 Fusarium oxysporum
 Cryptococcus neoformans
 Cryptococcus neoformans
@@ -219,10 +219,10 @@ Candida albicans
 Cryptococcus neoformans
 Cryptococcus neoformans
 Candida albicans
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
-Nectria haematococca (related: Fusarium solani)
-Nectria haematococca (related: Fusarium solani)
-Nectria haematococca (related: Fusarium solani)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
+Nectria haematococca
+Nectria haematococca
+Nectria haematococca
 Colletotrichum lagenarium
 Cryptococcus neoformans
 Cryptococcus neoformans
@@ -246,7 +246,7 @@ Botrytis cinerea
 Cryptococcus neoformans
 Cryptococcus neoformans
 Candida albicans
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
 Colletotrichum lindemuthianum
 Claviceps purpurea
 Claviceps purpurea
@@ -278,7 +278,7 @@ Magnaporthe oryzae
 Ustilago maydis
 Candida albicans
 Candida albicans
-Coccidioides immitis 
+Coccidioides immitis
 Candida albicans
 Cryptococcus neoformans
 Cryptococcus neoformans
@@ -339,7 +339,7 @@ Ustilago maydis
 Candida albicans
 Candida glabrata
 Magnaporthe oryzae
-Verticillium fungicola 
+Verticillium fungicola
 Cryptococcus neoformans
 Magnaporthe oryzae
 Candida glabrata
@@ -564,7 +564,7 @@ Candida albicans
 Magnaporthe oryzae
 Magnaporthe oryzae
 Candida albicans
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
 Fusarium oxysporum
 Fusarium oxysporum
 Candida albicans
@@ -965,8 +965,8 @@ Zymoseptoria triticii (related: Mycosphaerella graminicola)
 Zymoseptoria triticii (related: Mycosphaerella graminicola)
 Zymoseptoria triticii (related: Mycosphaerella graminicola)
 Zymoseptoria triticii (related: Mycosphaerella graminicola)
-Flavobacterium psychrophilum 
-Flavobacterium psychrophilum 
+Flavobacterium psychrophilum
+Flavobacterium psychrophilum
 Burkholderia glumae
 Burkholderia glumae
 Burkholderia glumae
@@ -1210,9 +1210,9 @@ Cercospora nicotianae
 Cercospora nicotianae
 Cercospora zeae-maydis
 Alternaria brassicicola
-Colletotrichum graminicola
-Colletotrichum graminicola
-Colletotrichum graminicola
+Colletotrichum graminicola (related: Glomerella graminicola)
+Colletotrichum graminicola (related: Glomerella graminicola)
+Colletotrichum graminicola (related: Glomerella graminicola)
 Magnaporthe oryzae
 Magnaporthe oryzae
 Magnaporthe oryzae
@@ -1270,7 +1270,6 @@ Ustilago maydis
 Ustilago maydis
 Ustilago maydis
 Ustilago maydis
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Stagonospora nodorum (related: Phaeosphaeria nodorum)
@@ -2681,8 +2680,8 @@ Fusarium oxysporum
 Fusarium oxysporum
 Fusarium oxysporum
 Fusarium oxysporum
-Leptosphaeria maculans 
-Leptosphaeria maculans 
+Leptosphaeria maculans
+Leptosphaeria maculans
 Fusarium oxysporum
 Fusarium oxysporum
 Fusarium oxysporum
@@ -2759,7 +2758,7 @@ Cochliobolus heterostrophus
 Cochliobolus heterostrophus
 Cochliobolus heterostrophus
 Alternaria alternata
-Alternaria alternata 
+Alternaria alternata
 Botrytis cinerea
 Alternaria alternata
 Aspergillus fumigatus
@@ -2798,7 +2797,7 @@ Phytophthora capsici
 Cladosporium fulvum
 Cladosporium fulvum
 Cladosporium fulvum
-Gibberella moniliformis (related: Fusarium verticillioides)
+Fusarium verticillioides
 Beauveria bassiana
 Botrytis cinerea
 Botrytis cinerea
@@ -2895,9 +2894,9 @@ Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Metarhizium anisopliae
 Metarhizium anisopliae
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
 Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
@@ -2915,9 +2914,9 @@ Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
 Gibberella zeae (related: Fusarium graminearum)
-Xanthomonas campestris pv. vesicatoria
-Xanthomonas campestris pv. vesicatoria
-Pseudomonas syringae pv. tomato
+Xanthomonas campestris
+Xanthomonas campestris
+Pseudomonas syringae
 Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
@@ -2941,7 +2940,7 @@ Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
 Sclerotinia sclerotiorum
 Xanthomonas campestris
-Colletotrichum graminicola
+Colletotrichum graminicola (related: Glomerella graminicola)
 Alternaria alternata
 Vibrio cholerae
 Vibrio cholerae
@@ -2984,10 +2983,10 @@ Burkholderia glumae
 Burkholderia glumae
 Burkholderia glumae
 Zymoseptoria triticii (related: Mycosphaerella graminicola)
-Pseudomonas syringae pv. tabaci
-Pseudomonas syringae pv. tabaci
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
+Pseudomonas syringae
+Pseudomonas syringae
+Xanthomonas oryzae
+Xanthomonas oryzae
 Botrytis cinerea
 Botrytis cinerea
 Alternaria alternata
@@ -3017,12 +3016,12 @@ Erwinia amylovora
 Erwinia amylovora
 Erwinia amylovora
 Erwinia amylovora
-Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae
 Erwinia amylovora
 Erwinia amylovora
 Erwinia amylovora
 Erwinia amylovora
-Pantoea stewartii subsp. stewartii
+Pantoea stewartii
 Cryptococcus neoformans
 Cryptococcus neoformans
 Erwinia amylovora
@@ -3038,32 +3037,32 @@ Pectobacterium carotovorum
 Pectobacterium carotovorum
 Pectobacterium carotovorum
 Pectobacterium carotovorum
-Xanthomonas citri subsp. citri
-Xanthomonas citri subsp. citri
+Xanthomonas citri
+Xanthomonas citri
 Alternaria longipes
 Alternaria longipes
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
-Botrytis cinerea (related: Botryotinia fuckeliana)
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
+Botrytis cinerea
 Magnaporthe oryzae
-Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae
 Leishmania mexicana
 Leishmania mexicana
 Gibberella zeae (related: Fusarium graminearum)
 Ralstonia solanacearum
-Xanthomonas campestris pv. Campestris
-Xanthomonas campestris pv. Campestris
-Xanthomonas campestris pv. Campestris
-Xanthomonas campestris pv. Campestris
+Xanthomonas campestris
+Xanthomonas campestris
+Xanthomonas campestris
+Xanthomonas campestris
 Ustilago maydis
 Ustilago maydis
 Ustilago maydis
@@ -3229,20 +3228,20 @@ Candida albicans
 Candida albicans
 Clostridium difficile
 Pseudomonas aeruginosa
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
 Mycobacterium tuberculosis
 Mycobacterium tuberculosis
 Mycobacterium tuberculosis
@@ -3263,8 +3262,8 @@ Candida lusitaniae
 Candida lusitaniae
 Edwardsiella tarda
 Leishmania infantum
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
+Salmonella enterica
+Salmonella enterica
 Bordetella bronchiseptica
 Escherichia coli
 Escherichia coli
@@ -3274,8 +3273,8 @@ Escherichia coli
 Candida albicans
 Salmonella enteritidis
 Salmonella enteritidis
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
+Salmonella enterica
+Salmonella enterica
 Klebsiella pneumoniae
 Botrytis cinerea
 Botrytis cinerea
@@ -3285,7 +3284,7 @@ Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
-Salmonella enterica serovar Typhimurium
+Salmonella enterica
 Agrobacterium tumefaciens
 Agrobacterium tumefaciens
 Agrobacterium tumefaciens
@@ -3314,24 +3313,24 @@ Pseudomonas aeruginosa
 Acinetobacter baumannii
 Acinetobacter baumannii
 Acinetobacter baumannii
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Xanthomonas campestris pv. vesicatoria
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Xanthomonas campestris
 Listeria monocytogenes
 Escherichia coli
 Candida glabrata
@@ -3361,14 +3360,14 @@ Rhynchosporium commune
 Rhynchosporium commune
 Rhynchosporium commune
 Rhynchosporium commune
-Xanthomonas citri subsp. citri
-Xanthomonas citri subsp. citri
+Xanthomonas citri
+Xanthomonas citri
 Colletotrichum orbiculare
-Xanthomonas axonopodis pv. citri
-Xanthomonas axonopodis pv. citri
-Xanthomonas axonopodis pv. citri
-Xanthomonas axonopodis pv. citri
-Xanthomonas axonopodis pv. citri
+Xanthomonas axonopodis
+Xanthomonas axonopodis
+Xanthomonas axonopodis
+Xanthomonas axonopodis
+Xanthomonas axonopodis
 Fusarium graminearum
 Streptomyces scabies
 Streptomyces scabies
@@ -3382,270 +3381,270 @@ Streptomyces scabies
 Streptomyces scabies
 Streptomyces scabies
 Streptomyces scabies
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
 Verticillium dahliae
 Verticillium dahliae
 Verticillium dahliae
 Verticillium dahliae
 Verticillium dahliae
 Verticillium dahliae
-Xanthomonas axonopodis pv. manihotis 
+Xanthomonas axonopodis
 Fusarium graminearum
 Fusarium graminearum
 Fusarium graminearum
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
 Botrytis cinerea
 Botrytis cinerea
 Botrytis cinerea
@@ -3662,8 +3661,8 @@ Phytophthora sojae
 Phytophthora sojae
 Fusarium graminearum
 Fusarium graminearum
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
 Verticillium dahliae
 Streptococcus Pneumoniae
 Streptococcus Pneumoniae
@@ -3674,10 +3673,10 @@ Streptococcus Pneumoniae
 Pectobacterium wasabiae
 Pectobacterium wasabiae
 Streptococcus pneumoniae
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
 Streptococcus agalactiae
 Mycobacterium tuberculosis
 Mycobacterium tuberculosis
@@ -3698,11 +3697,11 @@ Staphylococcus aureus
 Ustilago maydis
 Cryptococcus neoformans
 Cryptococcus neoformans
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Pseudomonas syringae pv. tomato
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Pseudomonas syringae
 Cochliobolus heterostrophus
 Cochliobolus heterostrophus
 Cochliobolus heterostrophus
@@ -3710,53 +3709,53 @@ Cochliobolus heterostrophus
 Burkholderia glumae
 Burkholderia glumae
 Burkholderia glumae
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas savastanoi pv. savastanoi
-Streptococcus sp
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Pseudomonas savastanoi
+Streptococcus sp.
 Setosphaeria turcica
 Setosphaeria turcica
 Setosphaeria turcica
@@ -3764,10 +3763,10 @@ Setosphaeria turcica
 Setosphaeria turcica
 Setosphaeria turcica
 Streptococcus suis
-Sclerotinia sclerotiorum 
-Sclerotinia sclerotiorum 
-Sclerotinia sclerotiorum 
-Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
 Fusarium oxysporum f. sp. Lycopersici
 Aspergillus fumigatus
 Cryptococcus gattii
@@ -3844,10 +3843,10 @@ Cladosporium fulvum
 Cryptococcus neoformans
 Botrytis cinerea
 Botrytis cinerea
-Fusarium solani f. sp. cucurbitae
-Fusarium solani f. sp. cucurbitae
-Fusarium solani f. sp. cucurbitae
-Fusarium solani f. sp. cucurbitae
+Fusarium solani
+Fusarium solani f. sp. cucurbitae (related: Nectria haematococca mpV)
+Fusarium solani f. sp. cucurbitae (related: Nectria haematococca mpV)
+Fusarium solani f. sp. cucurbitae (related: Nectria haematococca mpV)
 Magnaporthe oryzae
 Magnaporthe oryzae
 Ustilago maydis
@@ -3868,45 +3867,45 @@ Candida albicans
 Candida albicans
 Candida albicans
 Candida albicans
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
-Francisella tularensis 
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
+Francisella tularensis
 Klebsiella pneumoniae
 Campylobacter jejuni
-Pseudomonas syringae pv. Syringae
-Pseudomonas syringae pv. Syringae
-Pseudomonas syringae pv. Syringae
-Pseudomonas syringae pv. Syringae
-Pseudomonas syringae pv. Syringae
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
 Streptococcus pyogenes
 Streptococcus pyogenes
 Globodera pallida
@@ -3954,14 +3953,14 @@ Agrobacterium vitis
 Agrobacterium vitis
 Agrobacterium vitis
 Agrobacterium vitis
-Blumeria graminis f. sp. hordei
-Blumeria graminis f. sp. hordei
-Blumeria graminis f. sp. hordei
-Blumeria graminis f. sp. hordei
-Blumeria graminis f. sp. hordei
-Blumeria graminis f. sp. hordei
-Blumeria graminis f. sp. hordei
-Blumeria graminis f. sp. hordei
+Blumeria graminis
+Blumeria graminis
+Blumeria graminis
+Blumeria graminis
+Blumeria graminis
+Blumeria graminis
+Blumeria graminis
+Blumeria graminis
 Macrosiphum euphorbiae
 Macrosiphum euphorbiae
 Macrosiphum euphorbiae
@@ -3996,11 +3995,11 @@ Fusarium graminearum
 Fusarium graminearum
 Fusarium graminearum
 Fusarium graminearum
-Sclerotinia sclerotiorum 
-Sclerotinia sclerotiorum 
-Sclerotinia sclerotiorum 
-Sclerotinia sclerotiorum 
-Sclerotinia sclerotiorum 
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
+Sclerotinia sclerotiorum
 Alternaria alternata
 Alternaria alternata
 Alternaria alternata
@@ -4011,12 +4010,12 @@ Alternaria alternata
 Fusarium verticillioides
 Fusarium verticillioides
 Cladosporium fulvum
-Xanthomonas campestris pv. campestris
+Xanthomonas campestris
 Leptosphaeria maculans
-Colletotrichum graminicola
-Colletotrichum graminicola
-Colletotrichum graminicola
-Colletotrichum graminicola
+Colletotrichum graminicola (related: Glomerella graminicola)
+Colletotrichum graminicola (related: Glomerella graminicola)
+Colletotrichum graminicola (related: Glomerella graminicola)
+Colletotrichum graminicola (related: Glomerella graminicola)
 Ralstonia solanacearum
 Alternaria alternata
 Fusarium oxysporum f. sp. Lycopersici
@@ -4033,12 +4032,12 @@ Alternaria alternata
 Alternaria alternata
 Alternaria alternata
 Alternaria alternata
-Pseudomonas cichorii 
-Pseudomonas cichorii 
+Pseudomonas cichorii
+Pseudomonas cichorii
 Xylella fastidiosa
 Xylella fastidiosa
 Xylella fastidiosa
-Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae
 Magnaporthe oryzae
 Phytophthora sojae
 Phytophthora sojae
@@ -4050,17 +4049,17 @@ Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
 Hyaloperonospora arabidopsidis
-Pseudomonas syringae pv. tabaci
-Pseudomonas syringae pv. tabaci
-Pseudomonas syringae pv. tabaci
-Pseudomonas syringae pv. tabaci
-Xanthomonas translucens pv. graminis
-Xanthomonas translucens pv. graminis
-Xanthomonas translucens pv. graminis
-Xanthomonas translucens pv. graminis
-Xanthomonas translucens pv. graminis
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Xanthomonas translucens
+Xanthomonas translucens
+Xanthomonas translucens
+Xanthomonas translucens
+Xanthomonas translucens
 Toxoplasma gondii
-Cryptococcus neoformans var. grubii   
+Cryptococcus neoformans
 Ralstonia solanacearum
 Ralstonia solanacearum
 Edwardsiella ictaluri
@@ -4069,7 +4068,7 @@ Edwardsiella ictaluri
 Edwardsiella ictaluri
 Edwardsiella ictaluri
 Yersinia pseudotuberculosis
-Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae
 Staphylococcus aureus
 Staphylococcus aureus
 Staphylococcus aureus
@@ -4083,16 +4082,16 @@ Aspergillus fumigatus
 Enterococcus faecalis
 Enterococcus faecalis
 Candida albicans
-Xanthomonas campestris pv. vesicatoria
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Glomerella cingulata (related: Colletotrichum gloeosporioides)
+Xanthomonas campestris
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
 Listeria monocytogenes
 Magnaporthe oryzae
 Magnaporthe oryzae
-Francisella  tularensis ssp. tularensis 
+Francisella tularensis
 Shigella flexneri 2a
 Fusarium oxysporum f. sp. Lycopersici
 Bacillus cereus
@@ -4124,12 +4123,12 @@ Streptococcus Pneumoniae
 Streptococcus Pneumoniae
 Streptococcus Pneumoniae
 Streptococcus Pneumoniae
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
-Salmonella enterica serovar Typhimurium
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
 Klebsiella pneumoniae
 Phytophthora sojae
 Magnaporthe oryzae
@@ -4146,8 +4145,8 @@ Candida albicans
 Cryptococcus neoformans
 Rosellinia necatrix
 Pseudomonas aeruginosa
-Clavibacter michiganensis subsp. michiganensis
-Clavibacter michiganensis subsp. michiganensis
+Clavibacter michiganensis
+Clavibacter michiganensis
 Cryptococcus neoformans
 Cryptococcus neoformans
 Cryptococcus neoformans
@@ -4162,7 +4161,7 @@ Fusarium graminearum
 Fusarium graminearum
 Magnaporthe oryzae
 Magnaporthe oryzae
-Salmonella enterica serovar Typhimurium
+Salmonella enterica
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
@@ -4217,7 +4216,7 @@ Beauveria bassiana
 Metarhizium robertsii
 Brucella abortus
 Phytophthora sojae
-Xanthomonas oryzae pv. oryzae
+Xanthomonas oryzae
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Edwardsiella tarda
@@ -4225,46 +4224,7 @@ Penicillium digitatum
 Candida parapsilosis
 Candida parapsilosis
 Mycobacterium tuberculosis
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. syringae
-Pseudomonas syringae  pv. maculicola
-Pseudomonas syringae ?
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Pseudomonas syringae pv. glycinea race 4
-Streptococcus suis Serotype 2
+Streptococcus suis
 Botrytis cinerea
 Botrytis cinerea
 Botrytis cinerea
@@ -4286,9 +4246,9 @@ Fusarium graminearum
 Fusarium graminearum
 Fusarium graminearum
 Paenibacillus larvae
-Pantoea stewartii subsp. stewartii
-Pantoea stewartii subsp. stewartii
-Streptococcus suis Serotype 2
+Pantoea stewartii
+Pantoea stewartii
+Streptococcus suis
 Beauveria bassiana
 Beauveria bassiana
 Beauveria bassiana
@@ -4302,8 +4262,8 @@ Magnaporthe oryzae
 Magnaporthe oryzae
 Listeria monocytogenes
 Escherichia coli
-Xanthomonas campestris pv. campestris
-Xanthomonas campestris pv. campestris
+Xanthomonas campestris
+Xanthomonas campestris
 Fusarium graminearum
 Fusarium graminearum
 Fusarium graminearum
@@ -4313,27 +4273,27 @@ Fusarium graminearum
 Fusarium graminearum
 Fusarium graminearum
 Fusarium graminearum
-Xanthomonas campestris pv. campestris
+Xanthomonas campestris
 Escherichia coli
 Helicobacter pylori
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
-Pseudomonas syringae pv. tomato
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
 Magnaporthe oryzae
 Magnaporthe oryzae
 Colletotrichum orbiculare
-Stagonospora nodorum
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Clostridium difficile
 Erwinia amylovora
 Erwinia amylovora
@@ -4341,7 +4301,7 @@ Moniliophthora perniciosa
 Moniliophthora perniciosa
 Moniliophthora perniciosa
 Moniliophthora perniciosa
-Xanthomonas campestris pv. vesicatoria
+Xanthomonas campestris
 Ustilago maydis
 Ustilago maydis
 Fusarium graminearum
@@ -4390,7 +4350,7 @@ Pseudomonas cichorii
 Pseudomonas cichorii
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
-Ceratocystis fimbriata f. sp. Platani
+Ceratocystis fimbriata
 Fusarium oxysporum f. sp. lycopersici
 Βrucella melitensis
 Βrucella melitensis
@@ -4461,10 +4421,10 @@ Magnaporthe oryzae
 Magnaporthe oryzae
 Magnaporthe oryzae
 Magnaporthe oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Xanthomonas oryzae pv. oryzae
-Stagonospora nodorum
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
+Stagonospora nodorum (related: Phaeosphaeria nodorum)
 Legionella pneumophila
 Legionella pneumophila
 Ustilago maydis
@@ -4514,9 +4474,9 @@ Magnaporthe oryzae
 Magnaporthe oryzae
 Magnaporthe oryzae
 Leishmania major
-Xanthomonas campestris pv. campestris
-Xanthomonas campestris pv. campestris
-Xanthomonas campestris pv. campestris
+Xanthomonas campestris
+Xanthomonas campestris
+Xanthomonas campestris
 Francisella tularensis
 Francisella tularensis
 Metarhizium acridum
@@ -4538,12 +4498,12 @@ Aspergillus fumigatus
 Aspergillus fumigatus
 Aspergillus fumigatus
 Aspergillus fumigatus
-Colletotrichum orbiculare 
-Colletotrichum orbiculare 
-Colletotrichum orbiculare 
+Colletotrichum orbiculare
+Colletotrichum orbiculare
+Colletotrichum orbiculare
 Riemerella anatipestifer
-Xanthomonas campestris pv. campestris
-Xanthomonas campestris pv. campestris
+Xanthomonas campestris
+Xanthomonas campestris
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
@@ -4551,16 +4511,16 @@ Staphylococcus aureus
 Candida glabrata
 Candida glabrata
 Streptococcus pyogenes
-Pseudomonas aeruginosa  
-Pseudomonas aeruginosa  
-Colletotrichum gloeosporioides
+Pseudomonas aeruginosa
+Pseudomonas aeruginosa
+Colletotrichum gloeosporioides (related: Glomerella cingulata)
 Streptococcus suis
 Streptococcus suis
-Xanthomonas citri subsp. citri
-Pantoea stewartii subsp. Stewartii
-Pantoea stewartii subsp. Stewartii
-Xanthomonas citri subsp. citri
-Xanthomonas citri subsp. citri
+Xanthomonas citri
+Pantoea stewartii
+Pantoea stewartii
+Xanthomonas citri
+Xanthomonas citri
 Penicillium expansum
 Penicillium expansum
 Penicillium expansum
@@ -4608,12 +4568,12 @@ Fusarium oxysporum f. sp. lycopersici
 Fusarium oxysporum f. sp. lycopersici
 Erwinia amylovora
 Erwinia amylovora
-Salmonella enterica subsp. enterica serovar Typhimurium
-Salmonella enterica subsp. enterica serovar Typhimurium
-Salmonella enterica subsp. enterica serovar Typhimurium
-Salmonella enterica subsp. enterica serovar Agona
-Salmonella enterica subsp. enterica serovar Agona
-Salmonella enterica subsp. enterica serovar Agona
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
+Salmonella enterica
 Ralstonia solanacearum
 Listeria monocytogenes
 Listeria monocytogenes
@@ -4623,8 +4583,8 @@ Ascochyta rabiei
 Alternaria solani
 Alternaria solani
 Staphylococcus aureus
-Pseudomonas savastanoi pv. savastanoi
-Pseudomonas syringae pv. tomato
+Pseudomonas savastanoi
+Pseudomonas syringae
 Mycobacterium tuberculosis
 Vibrio vulnificus
 Phytophthora sojae
@@ -4635,9 +4595,9 @@ Fusarium verticillioides
 Fusarium verticillioides
 Staphylococcus lugdunensis
 Francisella novicida
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
-Xanthomonas oryzae pv. Oryzicola
+Xanthomonas oryzae
+Xanthomonas oryzae
+Xanthomonas oryzae
 Aspergillus fumigatus
 Aspergillus fumigatus
 Aspergillus fumigatus
@@ -4650,8 +4610,8 @@ Yersinia pestis
 Candida albicans
 Candida albicans
 Escherichia coli
-Pseudomonas syringae pv. Glycinea
-Pseudomonas syringae pv. Glycinea
+Pseudomonas syringae
+Pseudomonas syringae
 Fusarium graminearum
 Fusarium graminearum
 Fusarium graminearum
@@ -4691,10 +4651,10 @@ Pantoea ananatis
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Bordetella bronchiseptica
-Xanthomonas citri subsp. citri
-Xanthomonas citri subsp. citri
+Xanthomonas citri
+Xanthomonas citri
 Aeromonas salmonicida
- Vibrio aestuarianus
+Vibrio aestuarianus
 Cryptococcus neoformans
 Cryptococcus neoformans
 Cryptococcus neoformans
@@ -4703,7 +4663,7 @@ Staphylococcus saprophyticus
 Staphylococcus saprophyticus
 Ralstonia solanacearum
 Burkholderia pseudomallei
-Muricauda  olearia
+Muricauda olearia
 Pseudomonas fuscovaginae
 Pseudomonas fuscovaginae
 Pseudomonas fuscovaginae
@@ -4741,10 +4701,10 @@ Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Pseudomonas aeruginosa
 Enterococcus faecalis
-Pseudomonas syringae pv. Glycinea
-Pseudomonas syringae pv. Glycinea
-Pseudomonas syringae pv. Glycinea
-Pseudomonas syringae pv. Glycinea
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
 Botrytis cinerea
 Botrytis cinerea
 Bacillus anthracis
@@ -4754,1087 +4714,176 @@ Klebsiella pneumoniae
 Citrobacter rodentium
 Burkholderia cenocepacia
 Burkholderia cenocepacia
-Mycobacterium  tuberculosis
+Mycobacterium tuberculosis
 Cryptococcus neoformans
-Pseudomonas syringae pathovar syringae
+Pseudomonas syringae
 Cryptococcus neoformans
 Francisella tularensis
 Cryptococcus neoformans
 Cryptococcus neoformans
 Cryptococcus neoformans
 Cryptococcus neoformans
-Cochliobolus carbonum
-Magnaporthe grisea
-Cladosporium fulvum
-Ustilago maydis
-Ustilago maydis
-Cochliobolus carbonum
-Nectria haematococca
-Cryptococcus neoformans
-Cryptococcus neoformans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Phytophthora parasitica
-Candida tropicalis
-Cladosporium fulvum
-Cryptococcus neoformans
-Phytophthora capsici
-Ustilago maydis
-Ustilago maydis
-Gaeumannomyces graminis
-Gaeumannomyces graminis
-Leptosphaeria maculans
-Candida albicans
-Colletotrichum gloeosporioides
-Colletotrichum gloeosporioides
-Candida albicans
-Histoplasma capsulatum
-Candida albicans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
-Rhynchosporium secalis
-Phytophthora sojae
-Colletotrichum lagenarium
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryphonectria parasitica
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Nectria haematococca (related: Fusarium solani)
-Nectria haematococca
-Cochliobolus heterostrophus
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
-Colletotrichum lagenarium
-Colletotrichum lagenarium
-Cochliobolus carbonum
-Candida albicans
-Candida albicans
-Cryphonectria parasitica
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Cladosporium fulvum
-Cladosporium fulvum
-Cladosporium fulvum
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Candida albicans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Aspergillus flavus
-Cryptococcus neoformans
-Candida albicans
-Candida albicans
-Cochliobolus carbonum
-Ustilago maydis
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Pseudomonas syringae
+Penicillium digitatum
+Leishmania major
+Leishmania major
+Streptococcus agalactiae
+Streptococcus agalactiae
+Stenotrophomonas maltophilia
+Stenotrophomonas maltophilia
+Stenotrophomonas maltophilia
+Stenotrophomonas maltophilia
+Avibacterium paragallinarum
+Avibacterium paragallinarum
+Streptococcus pyogenes
+Streptococcus pyogenes
+Streptococcus pyogenes
+Escherichia coli
 Aspergillus fumigatus
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Colletotrichum lindemuthianum
-Phytophthora infestans
-Nectria haematococca (related: Fusarium solani)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Fusarium oxysporum
-Cochliobolus carbonum
-Aspergillus fumigatus
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Cryptococcus neoformans
-Candida albicans
-Fusarium sporotrichioides
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Alternaria alternata
-Alternaria alternata
-Blastomyces dermatitidis
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Cryptococcus neoformans
-Candida albicans
-Cercospora kikuchii
-Cochliobolus heterostrophus
-Gloeocercospora sorghi
-Trichoderma virens
-Colletotrichum trifolii
-Candida albicans
-Ustilago maydis
-Magnaporthe oryzae (related: Magnaporthe grisea)
+Pseudomonas fluorescens
+Pseudomonas fluorescens
+Pseudomonas fluorescens
+Pseudomonas fluorescens
+Escherichia coli
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Streptococcus pneumoniae
+Verticillium dahliae
+Verticillium dahliae
+Staphylococcus aureus
+Staphylococcus aureus
+Vibrio cholerae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Magnaporthe oryzae
+Streptococcus pyogenes
+Chlamydia trachomatis
+Chlamydia trachomatis
 Cryptococcus neoformans
 Cryptococcus neoformans
-Cochliobolus carbonum
-Ustilago maydis
-Histoplasma capsulatum
-Alternaria alternata
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Candida albicans
-Histoplasma capsulatum
-Colletotrichum gloeosporioides
-Colletotrichum gloeosporioides
-Colletotrichum gloeosporioides
-Colletotrichum gloeosporioides
-Colletotrichum gloeosporioides
-Colletotrichum gloeosporioides
-Colletotrichum lindemuthianum
-Colletotrichum lagenarium
-Candida albicans
-Colletotrichum trifolii
-Candida albicans
-Candida albicans
-Ustilago maydis
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
-Aspergillus fumigatus
-Nectria haematococca (related: Fusarium solani)
-Nectria haematococca (related: Fusarium solani)
-Fusarium oxysporum
+Xanthomonas hortorum
+Xanthomonas hortorum
+no data found
+Mycobacterium marinum
 Cryptococcus neoformans
 Cryptococcus neoformans
 Cryptococcus neoformans
 Cryptococcus neoformans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Ustilago maydis
-Cochliobolus carbonum
-Candida albicans
-Candida albicans
-Septoria lycopersici
-Ustilago maydis
-Cryptococcus neoformans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Cladosporium fulvum
-Fusarium oxysporum
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Candida albicans
-Fusarium oxysporum
-Fusarium oxysporum
-Cochliobolus carbonum
-Candida albicans
-Cryptococcus neoformans
-Candida albicans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Candida albicans
-Colletotrichum gloeosporioides
-Nectria haematococca (related: Fusarium solani)
-Nectria haematococca (related: Fusarium solani)
-Nectria haematococca (related: Fusarium solani)
-Colletotrichum lagenarium
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Pyrenophora teres
-Colletotrichum lagenarium
-Cryptococcus neoformans
-Cochliobolus carbonum
-Ustilago maydis
-Cryptococcus neoformans
-Exophiala dermatitidis (related: Wangiella  dermatitidis)
-Exophiala dermatitidis (related: Wangiella  dermatitidis)
-Exophiala dermatitidis (related: Wangiella  dermatitidis)
-Candida albicans
-Botrytis cinerea
-Cryptococcus neoformans
-Cryptococcus neoformans
-Candida albicans
-Colletotrichum gloeosporioides
-Colletotrichum lindemuthianum
-Claviceps purpurea
-Claviceps purpurea
-Claviceps purpurea
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Cochliobolus heterostrophus
-Fusarium oxysporum
-Candida albicans
-Aspergillus fumigatus
-Fusarium oxysporum
-Gibberella fujikuroi
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Gibberella pulicaris
-Candida albicans
-Ustilago maydis
-Leptosphaeria maculans
-Candida albicans
-Colletotrichum lagenarium
-Candida albicans
-Cryptococcus neoformans
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Candida albicans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
-Candida albicans
-Candida albicans
-Coccidioides immitis 
-Candida albicans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Candida albicans
-Cryptococcus neoformans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Fusarium oxysporum
-Fusarium oxysporum
-Cryptococcus neoformans
-Colletotrichum lindemuthianum
-Candida albicans
-Candida albicans
-Candida albicans
-Claviceps purpurea
-Cryptococcus neoformans
-Cochliobolus heterostrophus
-Colletotrichum lagenarium
-Cochliobolus victoriae
-Cercospora zeae-maydis
-Fusarium oxysporum
-Fusarium oxysporum
-Fusarium oxysporum
-Candida albicans
-Gibberella zeae (related: Fusarium graminearum)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Candida albicans
-Ustilago maydis
-Ustilago maydis
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Cryptococcus neoformans
-Sclerotinia sclerotiorum
-Sclerotinia sclerotiorum
-Fusarium oxysporum
-Fusarium oxysporum
-Phytophthora infestans
-Aspergillus fumigatus
-Cryptococcus gattii
-Cryptococcus gattii
-Ustilago maydis
-Candida albicans
+Kingella kingae
+Escherichia coli
+Clostridium difficile
+Coxiella burnetii
+Coxiella burnetii
 Candida glabrata
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Verticillium fungicola 
-Cryptococcus neoformans
-Magnaporthe oryzae (related: Magnaporthe grisea)
+no data found
 Candida glabrata
-Hyaloperonospora parasitica
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Candida albicans
-Colletotrichum lagenarium
-Candida albicans
-Cochliobolus heterostrophus
-Aspergillus fumigatus
-Fusarium oxysporum
-Fusarium oxysporum
-Ustilago maydis
-Colletotrichum lindemuthianum
-Aspergillus fumigatus
-Colletotrichum lagenarium
-Cryphonectria parasitica
-Cryphonectria parasitica
-Claviceps purpurea
-Cryptococcus neoformans
-Ustilago maydis
-Candida albicans
-Candida albicans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Fusarium culmorum
-Ustilago maydis
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
-Aspergillus fumigatus
-Gibberella zeae (related: Fusarium graminearum)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Candida albicans
-Cryptococcus neoformans
-Candida albicans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Candida albicans
-Aspergillus fumigatus
-Candida albicans
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
-Candida albicans
-Phytophthora infestans
-Cryptococcus neoformans
-Aspergillus fumigatus
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Candida albicans
-Fusarium oxysporum
-Cryptococcus neoformans
-Cryptococcus neoformans
-Aspergillus fumigatus
-Candida albicans
-Fusarium oxysporum
-Candida albicans
-Ustilago maydis
-Candida albicans
-Cryptococcus neoformans
-Trichoderma virens
-Cryptococcus neoformans
-Cryptococcus neoformans
-Ustilago maydis
-Exophiala dermatitidis (related: Wangiella  dermatitidis)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Candida albicans
-Claviceps purpurea
-Ustilago maydis
-Fusarium oxysporum
-Cryptococcus neoformans
-Aspergillus nidulans
-Candida albicans
-Candida albicans
-Ustilago maydis
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
-Pyrenopeziza brassicae
-Beauveria bassiana
-Cryptococcus neoformans
-Ustilago maydis
-Cochliobolus heterostrophus
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
-Cochliobolus heterostrophus
-Cochliobolus heterostrophus
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Candida albicans
-Cryptococcus gattii
-Cryptococcus gattii
-Cryptococcus bacillisporus
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Candida albicans
-Candida albicans
-Colletotrichum lindemuthianum
-Cryptococcus neoformans
-Cryptococcus neoformans
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Cercospora nicotianae
-Aspergillus fumigatus
-Candida albicans
-Cryptococcus neoformans
-Claviceps purpurea
-Botrytis cinerea
-Botrytis cinerea
-Gibberella zeae (related: Fusarium graminearum)
-Candida albicans
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Aspergillus fumigatus
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
-Monocot
-Cryptococcus neoformans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Candida albicans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago hordei
-Ustilago hordei
-Candida albicans
-Candida albicans
-Saccharomyces cerevisiae
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Cryphonectria parasitica
+no data found
+Mycobacterium marinum
+Mycobacterium marinum
+Streptococcus pyogenes
+Streptococcus pneumoniae
+Mycobacterium tuberculosis
+Magnaporthe oryzae
+Epichloe festucae
 Candida glabrata
-Cochliobolus carbonum
-Cryptococcus neoformans
-Candida albicans
-Cladosporium fulvum
-Phytophthora infestans
-Cryptococcus neoformans
-Candida albicans
-Cryptococcus neoformans
-Candida albicans
-Ustilago maydis
-Coccidioides posadasii
-Candida albicans
-Candida albicans
-Colletotrichum acutatum
-Colletotrichum acutatum
-Aspergillus fumigatus
-Verticillium dahliae
-Verticillium dahliae
-Verticillium dahliae
-Verticillium dahliae
-Verticillium dahliae
-Verticillium dahliae
-Verticillium dahliae
-Candida albicans
-Candida albicans
-Aspergillus fumigatus
-Magnaporthe grisea
-Candida albicans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Fusarium oxysporum
-Candida albicans
-Botrytis cinerea
-Botrytis cinerea
-Candida glabrata
-Aspergillus fumigatus
-Aspergillus fumigatus
-Aspergillus fumigatus
-Cryptococcus neoformans
-Cryptococcus neoformans
-Phytophthora infestans
-Candida albicans
-Saccharomyces cerevisiae
-Saccharomyces cerevisiae
-Saccharomyces cerevisiae
-Saccharomyces cerevisiae
-Saccharomyces cerevisiae
-Saccharomyces cerevisiae
-Candida albicans
-Alternaria alternata
-Alternaria alternata
-Alternaria alternata
-Alternaria alternata
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Candida albicans
-Ustilago maydis
-Cryptococcus neoformans
-Cryptococcus neoformans
-Candida albicans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Candida albicans
-Colletotrichum gloeosporioides
-Fusarium oxysporum
-Fusarium oxysporum
-Candida albicans
-Ustilago maydis
-Ustilago maydis
-Gibberella zeae (related: Fusarium graminearum)
-Ustilago maydis
-Candida albicans
-Candida albicans
-Ustilago maydis
-Cladosporium fulvum
-Phytophthora sojae
-Hyaloperonospora parasitica
-Melampsora lini
-Melampsora lini
-Melampsora lini
-Melampsora lini
-Pyrenophora tritici-repentis
-Melampsora lini
-Melampsora lini
-Melampsora lini
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
-Botrytis cinerea
 Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Aspergillus fumigatus
-Aspergillus fumigatus
-Cochliobolus carbonum
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Fusarium oxysporum
-Fusarium oxysporum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Cochliobolus carbonum
-Botrytis cinerea
+Escherichia coli
+Escherichia coli
+Escherichia coli
+Mycobacterium tuberculosis
 Epichloe festucae
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
 Epichloe festucae
-Epichloe festucae
-Epichloe festucae
-Epichloe festucae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Pseudomonas syringae
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Stagonospora nodorum (related: Phaeosphaeria nodorum)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Leptosphaeria maculans
-Leptosphaeria maculans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Botrytis cinerea
-Botrytis cinerea
-Phytophthora sojae
-Phytophthora sojae
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora sojae
-Phytophthora sojae
-Hyaloperonospora parasitica
-Salmonella enterica
-Salmonella enterica
-Salmonella enterica
-Pythium aphanidermatum
-Pythium aphanidermatum
-Pythium aphanidermatum
-Phytophthora cactorum
-Phytophthora cactorum
-Phytophthora parasitica
-Phytophthora parasitica
-Phytophthora parasitica
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Cryptococcus neoformans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Cryptococcus neoformans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Cryptococcus neoformans
-Cryptococcus gattii
-Leptosphaeria maculans
-Leptosphaeria maculans
-Leptosphaeria maculans
-Leptosphaeria maculans
-Leptosphaeria maculans
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Vibrio cholerae
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella fujikuroi
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Fusarium oxysporum
-Fusarium oxysporum
-Alternaria brassicicola
-Alternaria brassicicola
-Alternaria brassicicola
-Alternaria brassicicola
-Cercospora nicotianae
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Botrytis elliptica
-Botrytis elliptica
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Blumeria graminis
-Blumeria graminis
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Phytophthora infestans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Claviceps purpurea
-Cryphonectria parasitica
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Venturia inaequalis
-Monilinia fructicola
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Rhynchosporium secalis
-Burkholderia glumae
-Trichophyton rubrum
-Trichophyton rubrum
-Aspergillus fumigatus
-Aspergillus fumigatus
-Aspergillus nidulans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Blumeria graminis
-Botrytis cinerea
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Flavobacterium psychrophilum 
-Flavobacterium psychrophilum 
-Burkholderia glumae
-Burkholderia glumae
-Burkholderia glumae
-Burkholderia glumae
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
 Candida albicans
 Candida albicans
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Gibberella zeae (related: Fusarium graminearum)
-Gibberella zeae (related: Fusarium graminearum)
-Colletotrichum lagenarium
-Aspergillus fumigatus
-Mycosphaerella graminicola (related: Zymoseptoria triticii)
-Colletotrichum lindemuthianum
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Magnaporthe oryzae (related: Magnaporthe grisea)
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
-Ustilago maydis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Mycobacterium tuberculosis
+Brucella melitensis
+Brucella melitensis
+Brucella melitensis
+Vibrio vulnificus
+Vibrio vulnificus
+Vibrio vulnificus
+Vibrio vulnificus
+Vibrio vulnificus
+Salmonella enterica
+Salmonella enterica
+Listeria monocytogenes
+Listeria monocytogenes
+Listeria monocytogenes
+Listeria monocytogenes
+Candida albicans
+Serratia marcescens

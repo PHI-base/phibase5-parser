@@ -1,162 +1,47 @@
-Curator ID	HJC
-Name	Hans Cools
-Organisation	
-ID	HJC
-
-Curator ID	DG
-Organisation	
-ID	DG
-Name	Donald Gardiner
-
-Curator ID	ND
-Organisation	
-ID	ND
-Name	Noemie Desmenceux
-
-Curator ID	MHK
-ID	MHK
-Organisation	Rothamsted Research
-Name	Michael Hammond-Kosack
-
-Curator ID	AGI
-Name	Alistair Irvine
-ID	AGI
-Organisation	Rothamsted Research
-
 Curator ID	SK
+Name	Sophien Kamoun
 ID	SK
 Organisation	
-Name	Sophien Kamoun
-
-Curator ID	RO
-Name	Richard Oliver
-ID	RO
-Organisation	
-
-Curator ID	MU
-Name	Martin Urban
-ID	MU
-Organisation	Rothamsted Research
-
-Curator ID	MC
-ID	MC
-Organisation	Molecular Connections
-Name	Molecular Connections
-
-Curator ID	JR
-Organisation	
-ID	JR
-Name	Jason Rudd
-
-Curator ID	SH
-Organisation	
-ID	SH
-Name	Sabrina Holland
-
-Curator ID	ML
-Name	Magdalen Lindeberg
-ID	ML
-Organisation	
-
-Curator ID	KM
-ID	KM
-Organisation	
-Name	Kerry Maguire
-
-Curator ID	RK
-Organisation	
-ID	RK
-Name	Roland Krause
-
-Curator ID	TKB
-Name	Thomas Baldwin
-ID	TKB
-Organisation	
-
-Curator ID	JVK
-Name	Jan van Kan
-ID	JVK
-Organisation	
-
-Curator ID	RM
-ID	RM
-Organisation	
-Name	Ros Marshall
-
-Curator ID	HH
-ID	HH
-Organisation	
-Name	Hilde Hansen
-
-Curator ID	DS
-Name	Darren Soanes
-Organisation	
-ID	DS
-
-Curator ID	BH
-Name	Barbara Howlett
-ID	BH
-Organisation	
-
-Curator ID	AB
-ID	AB
-Organisation	
-Name	Andrew Beacham
-
-Curator ID	JK
-Name	John Keon
-Organisation	
-ID	JK
-
-Curator ID	AS
-ID	AS
-Organisation	
-Name	Ane Sesma
 
 Curator ID	HJ
 Name	Helen Jenkins
 ID	HJ
 Organisation	Rothamsted Research
 
-Curator ID	AI
-ID	AI
+Curator ID	HJC
+ID	HJC
 Organisation	
-Name	Alexander Idnurm
+Name	Hans Cools
 
-Curator ID	AR
-Name	Arathi Raghunath
-ID	AR
-Organisation	Molecular Connections
+Curator ID	AB
+Name	Andrew Beacham
+Organisation	
+ID	AB
 
-Curator ID	RP
-Name	Rashmi Pant
-Organisation	Molecular Connections
-ID	RP
+Curator ID	SH
+Name	Sabrina Holland
+ID	SH
+Organisation	
+
+Curator ID	RO
+Organisation	
+ID	RO
+Name	Richard Oliver
 
 Curator ID	BO
-ID	BO
-Organisation	
 Name	Birgit Oeser
+Organisation	
+ID	BO
 
-Curator ID	AC
-Name	Alayne Cuzick
-Organisation	Rothamsted Research
-ID	AC
+Curator ID	TKB
+Name	Thomas Baldwin
+Organisation	
+ID	TKB
 
 Curator ID	SD
+Name	Sian Deller
 ID	SD
 Organisation	
-Name	Sian Deller
-
-Curator ID	JA
-ID	JA
-Organisation	
-Name	John Antoniw
-
-Curator ID	NB
-ID	NB
-Organisation	
-Name	Neil Brown
 
 Curator ID	PR
 Organisation	
@@ -164,7 +49,122 @@ ID	PR
 Name	Pam Ronald
 
 Curator ID	KHK
+Name	Kim Hammond-Kosack
 Organisation	Rothamsted Research
 ID	KHK
-Name	Kim Hammond-Kosack
+
+Curator ID	AGI
+Organisation	Rothamsted Research
+ID	AGI
+Name	Alistair Irvine
+
+Curator ID	NB
+Organisation	
+ID	NB
+Name	Neil Brown
+
+Curator ID	KM
+Name	Kerry Maguire
+Organisation	
+ID	KM
+
+Curator ID	JVK
+Name	Jan van Kan
+ID	JVK
+Organisation	
+
+Curator ID	AR
+Name	Arathi Raghunath
+Organisation	Molecular Connections
+ID	AR
+
+Curator ID	AI
+Name	Alexander Idnurm
+ID	AI
+Organisation	
+
+Curator ID	JK
+ID	JK
+Organisation	
+Name	John Keon
+
+Curator ID	HH
+Organisation	
+ID	HH
+Name	Hilde Hansen
+
+Curator ID	RP
+ID	RP
+Organisation	Molecular Connections
+Name	Rashmi Pant
+
+Curator ID	MC
+Name	Molecular Connections
+Organisation	Molecular Connections
+ID	MC
+
+Curator ID	DG
+Name	Donald Gardiner
+ID	DG
+Organisation	
+
+Curator ID	RM
+Name	Ros Marshall
+ID	RM
+Organisation	
+
+Curator ID	AC
+ID	AC
+Organisation	Rothamsted Research
+Name	Alayne Cuzick
+
+Curator ID	JR
+ID	JR
+Organisation	
+Name	Jason Rudd
+
+Curator ID	AS
+Organisation	
+ID	AS
+Name	Ane Sesma
+
+Curator ID	MU
+ID	MU
+Organisation	Rothamsted Research
+Name	Martin Urban
+
+Curator ID	RK
+ID	RK
+Organisation	
+Name	Roland Krause
+
+Curator ID	ND
+Name	Noemie Desmenceux
+Organisation	
+ID	ND
+
+Curator ID	ML
+Organisation	
+ID	ML
+Name	Magdalen Lindeberg
+
+Curator ID	MHK
+Organisation	Rothamsted Research
+ID	MHK
+Name	Michael Hammond-Kosack
+
+Curator ID	BH
+Name	Barbara Howlett
+Organisation	
+ID	BH
+
+Curator ID	DS
+Name	Darren Soanes
+Organisation	
+ID	DS
+
+Curator ID	JA
+Name	John Antoniw
+ID	JA
+Organisation	
 

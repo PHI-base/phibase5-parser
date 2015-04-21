@@ -114,7 +114,8 @@ my %combined_disease_mapping = (
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_columns.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_cols_with_record_id.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns.tsv';
-my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns_fixed_mult_mut.tsv';
+#my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns_fixed_mult_mut.tsv';
+my $phibase_tsv_filename = '../input/phi4_2015-04-18_reduced_columns.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid annotations into PHI-base v5 database...\n";
@@ -220,6 +221,9 @@ while (<TSV_FILE>) {
    # increment annotation counter
    $annotation_count++;
 
+   # remove newline from input string
+   chomp($_);
+
    # each value is separated based on the tab, then saved as an element of the array
    my @phi_array = split(/\t/,$_);
 
@@ -233,6 +237,7 @@ while (<TSV_FILE>) {
    # the name of the text file is determined by mapping the column header to db field name
    foreach my $phi_value (@phi_array) {
 
+      #print "Col Value:$phi_value\n";
       #print "Col num:$column_num\n";
       #print "Col header:$col_headers[$column_num]\n";
 
@@ -300,6 +305,7 @@ while (<TSV_FILE>) {
           and $required_fields_annot{"gene_name"} ne ""
           and $required_fields_annot{"host_tax"} =~ /^\d+$/  # taxon ID must be an integer
           and $required_fields_annot{"literature_id"} ne ""
+          and $required_fields_annot{"literature_id"} ne "no data found"
           and $required_fields_annot{"entered_by"} ne ""
           and lc $required_fields_annot{"db_type"} eq "uniprot"
           and lc $required_fields_annot{"literature_source"} eq "pubmed"
@@ -575,11 +581,12 @@ while (<TSV_FILE>) {
 		# insert the PubMed ID into interaction_literature table,
 		# using the interaction id and as a foreign key
 		$inner_sql_statement = qq(INSERT INTO interaction_literature (interaction_id, pubmed_id)
-		  	              VALUES ($interaction_id, $pubmed_id);
+				      VALUES ($interaction_id, $pubmed_id);
 				   );
 		$inner_sql_result = $db_conn->prepare($inner_sql_statement);
 		#$inner_sql_result->execute() or die $DBI::errstr;
 		$inner_sql_result->execute(); # ignore errors due to possible duplication in spreadsheet
+
              }
 
 	  }

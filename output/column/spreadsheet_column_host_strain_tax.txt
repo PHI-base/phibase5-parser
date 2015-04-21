@@ -1311,7 +1311,6 @@ Norm
 
 
 
-
 Bess
 Pioneer hybrid 33D47
 Pioneer hybrid 33D47
@@ -2752,12 +2751,12 @@ no data found
 no data found
 W64A-N
 W64A-N
-W64A-T 
-W64A-T 
+W64A-T
+W64A-T
 W64A-N
 W64A-N
-W64A-T 
-W64A-T 
+W64A-T
+W64A-T
 K326
 no data found
 no data found
@@ -2800,7 +2799,7 @@ Col-0
 Col-0
 B73
 no data found
-Petit Havana -SR1 
+Petit Havana -SR1
 PG201
 Bobwhite
 Bobwhite
@@ -2878,9 +2877,9 @@ Pad3
 Pad3
 Pad3
 Pad3
-Truckers Favorite 
-Truckers Favorite 
-Truckers Favorite 
+Truckers Favorite
+Truckers Favorite
+Truckers Favorite
 no data found
 nectarina
 no data found
@@ -2964,7 +2963,7 @@ no data found
 W64A
 W64A
 C32
-90E341F (I-2 ) 
+90E341F (I-2 )
 no data found
 Jimai22
 no data found
@@ -3012,10 +3011,10 @@ Idared
 no data found
 no data found
 no data found
- Xanthi
- Xanthi
- Xanthi
- Xanthi
+Xanthi
+Xanthi
+Xanthi
+Xanthi
 Rootstock  Malus MM106
 Baldo
 Gala on rootstock MM 106
@@ -3390,7 +3389,7 @@ Col-0
 Col-0
 no data found
 no data found
- HMC-1
+HMC-1
 Eunpamil
 Eunpamil
 Eunpamil
@@ -3662,8 +3661,8 @@ Williams
 Williams
 Jimai22
 no data found
-Japonica 
-Japonica 
+Japonica
+Japonica
 Money maker
 CD1
 CD1
@@ -3982,13 +3981,13 @@ Landsberg
 Landsberg
 Landsberg
 Landsberg
-Encore 
-Encore 
-Encore 
-Encore 
-Encore 
-Encore 
-Encore 
+Encore
+Encore
+Encore
+Encore
+Encore
+Encore
+Encore
 Braeburn
 Braeburn
 Braeburn
@@ -4059,7 +4058,7 @@ no data found
 no data found
 no data found
 no data found
- CBA/ J
+CBA/ J
 no data found
 Bonny Best
 Bonny Best
@@ -4090,8 +4089,8 @@ Col-0
 Rio Grande 76S
 no data found
 BALB
-Shin-2 
-Shin-2 
+Shin-2
+Shin-2
 BALBc/j
 BALBc/
 Vemar
@@ -4185,7 +4184,7 @@ no data found
 no data found
 no data found
 no data found
-C57BL/6 
+C57BL/6
 no data found
 no data found
 no data found
@@ -4212,7 +4211,7 @@ Jinchang 1316
 Jinchang 1316
 Jinchang 1316
 no data found
-C57BL/6 
+C57BL/6
 no data found
 no data found
 BALB/c
@@ -4225,45 +4224,6 @@ Navelina
 no data found
 CD1
 BALB/c
-Harosoy Rpg1-b
-Merit Rpg1-b
-Norchief  Rpg1-b
-Harosoy Rpg1-b
-Merit Rpg1-b
-Norchief  Rpg1-b
-Flambeau  Rpg3 Rpg4
-Flambeau  Rpg3 Rpg4
-Flambeau  Rpg3 Rpg4
-Flambeau  Rpg3 Rpg4
-Merit rpg4
-Merit rpg3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Norchief  Rpg1-b
-Harosoy Rpg1-b
 no data found
 N90598
 N90598
@@ -4301,7 +4261,7 @@ CD1
 Kanto 51
 Kanto 51
 BALB/c
-Cherry Valley   
+Cherry Valley
 no data found
 no data found
 XiaoYan 22
@@ -4330,7 +4290,7 @@ no data found
 no data found
 no data found
 no data found
-Shin-2 
+Shin-2
 Nigrate
 no data found
 W-7984
@@ -4532,7 +4492,7 @@ no data found
 no data found
 no data found
 Swiss Webster
-C57 BL/6 
+C57 BL/6
 no data found
 CD-1
 CD-1
@@ -4541,7 +4501,7 @@ no data found
 no data found
 no data found
 no data found
-Cherry Valley   
+Cherry Valley
 no data found
 no data found
 no data found
@@ -4556,7 +4516,7 @@ Swiss  Webster
 no data found
 BALB/c
 BALB/c
- Macfadyen
+Macfadyen
 Jubilee
 Jubilee
 Duncan
@@ -4647,8 +4607,8 @@ no data found
 BALB/c
 C57BL/6N.HSD
 C57BL/6N.HSD
-Balb/c 
-Balb/c 
+Balb/c
+Balb/c
 no data found
 Harosoy
 Peking
@@ -4683,7 +4643,7 @@ no data found
 no data found
 no data found
 no data found
-Balb/c 
+Balb/c
 Texas Grando
 Texas Grando
 Texas Grando
@@ -4744,9 +4704,9 @@ BALB/c
 Harosoy
 Norchief
 Peking
-Flambeau 
-N90598 
-N90598 
+Flambeau
+N90598
+N90598
 CD1
 CD1
 no data found
@@ -4759,7 +4719,171 @@ A/Jcr
 Chinese Spring
 C57BL/6 mice
 C3H/HeN
- BALB/c 
- BALB/c 
- BALB/c 
- BALB/c 
+BALB/c
+BALB/c
+BALB/c
+BALB/c
+Harosoy Rpg1-b
+Merit Rpg1-b
+Norchief  Rpg1-b
+Harosoy Rpg1-b
+Merit Rpg1-b
+Norchief  Rpg1-b
+Flambeau  Rpg3 Rpg4
+Flambeau  Rpg3 Rpg4
+Flambeau  Rpg3 Rpg4
+Flambeau  Rpg3 Rpg4
+Merit rpg4
+Merit rpg3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no data found
+BALB/c
+BALB/c
+BALB/c
+no data found
+no data found
+no data found
+CF512
+CF512
+no data found
+no data found
+Slc:ICR
+Slc:ICR
+Slc:ICR
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+CD-1
+CD-1
+CD-1
+CD-1
+CD-1
+Col-0
+no data found
+CD-1
+CD-1
+CD-1
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+Nakdongbyeo
+CD-1
+C3H/HeJ
+no data found
+A/Jcr
+A/Jcr
+Anthony
+Anthony
+
+no data found
+A/Jcr
+A/Jcr
+A/Jcr
+A/Jcr
+Sprague-Dawley
+no data found
+C57BL/6
+CCL-81;  THP-1
+acute monocytic leukemia cell line
+ICR
+
+ICR
+
+no data found
+no data found
+CD1
+C57BL/6
+C57BL/6
+Steptoe
+Nui
+BALB/c
+BALB/c
+no data found
+no data found
+no data found
+C57BL/6
+no data found
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+DBA/2
+DBA/2
+DBA/2
+DBA/2
+DBA/2
+DBA/2
+DBA/2
+DBA/2
+BALB/c
+no data found
+BALB/c
+BALB/c
+CD1
+Wistar
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+SCID
+IRF-1/ -
+IRF-1/ -
+IRF-1/ -
+BALB/c
+no data found
+no data found
+no data found
+no data found
+C3H/HeN
+CBA/J
+CD-1
+CD-1
+CD-1
+CD-1
+BALB/c
+Hep-2 cells

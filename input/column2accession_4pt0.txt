@@ -8,9 +8,9 @@ Genomic sequence providing strain	assoc_strain
 Gene_name	gene_name
 Genome location	none
 Specific modification/s to the targeted protein or promoter	none
-Accession ID for the modified genetic element  	none
+Accession ID for the modified genetic element	none
 Known interacting protein(s) in the pathogen	none
-Interacting protein - locus ID 	none
+Interacting protein - locus ID	none
 Multiple_mutation	multiple_mutation
 Pathogen_NCBI_species_Taxonomy ID	patho_tax
 Pathogen_species	patho_name

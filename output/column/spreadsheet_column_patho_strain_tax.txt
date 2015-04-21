@@ -10,10 +10,10 @@
 5270
 29850
 29850
-5022
+no data found
 5476
-5457
-5457
+
+
 5476
 5476
 
@@ -38,7 +38,7 @@
 5116
 
 
-140110
+
 5016
 
 5270
@@ -52,12 +52,12 @@
 5476
 5476
 5476
-40559
-40559
-40559
-40559
-40559
-40559
+332648
+332648
+332648
+332648
+332648
+332648
 5499
 5499
 5499
@@ -90,7 +90,7 @@
 5270
 
 5270
-746128
+no data found
 40559
 40559
 40559
@@ -101,11 +101,11 @@
 5476
 290576
 4787
-140110
+
 
 5507
 5017
-746128
+no data found
 
 
 
@@ -151,12 +151,12 @@
 40559
 5476
 5037
-5457
-5457
-5457
-5457
-5457
-5457
+
+
+
+
+
+
 290576
 5462
 5476
@@ -165,9 +165,9 @@
 5476
 5270
 13684
-746128
-140110
-140110
+no data found
+
+
 5507
 178876
 5207
@@ -194,10 +194,10 @@
 5499
 5507
 
-40559
-40559
-40559
-40559
+332648
+332648
+332648
+332648
 5476
 5476
 5476
@@ -219,10 +219,10 @@
 5207
 5207
 5476
-5457
-140110
-140110
-140110
+1237896
+
+
+
 5462
 178876
 178876
@@ -242,11 +242,11 @@
 5970
 5970
 5476
-40559
+332648
 5207
 5207
 5476
-5457
+
 290576
 5111
 5111
@@ -255,7 +255,7 @@
 5016
 5507
 5476
-746128
+no data found
 5507
 5127
 
@@ -263,7 +263,7 @@
 5128
 5476
 5270
-5022
+no data found
 5476
 5462
 5476
@@ -286,11 +286,11 @@
 40559
 40559
 40559
+332648
 40559
 40559
 40559
-40559
-40559
+332648
 40559
 5476
 5207
@@ -327,14 +327,14 @@
 336722
 
 5207
-5180
-5180
+665079
+665079
 5507
 5507
 4787
-746128
-292817
-292817
+
+1441719
+1441719
 5270
 5476
 5478
@@ -353,12 +353,12 @@
 5462
 5476
 5016
-746128
+
 5507
 5507
 5270
 290576
-746128
+
 5462
 5116
 5116
@@ -370,7 +370,7 @@
 5516
 5270
 13684
-746128
+
 229533
 
 5476
@@ -379,7 +379,7 @@
 5207
 178876
 5476
-746128
+
 5476
 13684
 
@@ -388,7 +388,7 @@
 5476
 4787
 5207
-746128
+
 5207
 5207
 178876
@@ -396,7 +396,7 @@
 5507
 5207
 5207
-746128
+
 5476
 5507
 5476
@@ -434,8 +434,8 @@
 
 
 5476
-292817
-292817
+
+
 178876
 178876
 178876
@@ -450,7 +450,7 @@
 229533
 229533
 29003
-746128
+
 5476
 5207
 5111
@@ -473,7 +473,7 @@
 229533
 229533
 229533
-746128
+
 13684
 5111
 5207
@@ -514,7 +514,7 @@
 5476
 27357
 27357
-746128
+
 27337
 27337
 27337
@@ -524,7 +524,7 @@
 27337
 5476
 5476
-746128
+
 5476
 5207
 5207
@@ -533,9 +533,9 @@
 40559
 40559
 5478
-746128
-746128
-746128
+
+
+
 5207
 5207
 4787
@@ -564,7 +564,7 @@
 
 
 5476
-5457
+
 5507
 5507
 5476
@@ -588,26 +588,26 @@
 5261
 40559
 40559
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
 40559
 40559
 40559
+332648
+332648
+332648
+332648
 40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
+332648
+332648
 40559
 40559
 40559
@@ -636,8 +636,8 @@
 216597
 90371
 90371
-746128
-746128
+no data found
+no data found
 5017
 
 
@@ -666,11 +666,11 @@
 5017
 5017
 40559
-35717
-35717
-35717
-35717
-35717
+877507
+877507
+877507
+877507
+877507
 223283
 223283
 223283
@@ -697,8 +697,8 @@
 
 13684
 
-5022
-5022
+no data found
+no data found
 5207
 5207
 5207
@@ -753,8 +753,8 @@
 216597
 216597
 216597
-40559
-40559
+332648
+332648
 67593
 67593
 4787
@@ -813,12 +813,12 @@
 
 
 5207
-292817
-5022
-5022
-5022
-5022
-5022
+1441719
+no data found
+no data found
+no data found
+no data found
+no data found
 243277
 243277
 345073
@@ -948,8 +948,8 @@
 337
 5551
 5551
-746128
-746128
+no data found
+no data found
 162425
 
 5270
@@ -983,7 +983,7 @@
 229533
 229533
 5462
-746128
+1266464
 336722
 290576
 1271791
@@ -1158,46 +1158,46 @@
 5507
 5507
 5508
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
 40559
 40559
 40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
 5111
 5111
 5111
 5111
 5111
 5111
-5022
-5022
+no data found
+no data found
 336722
 336722
 336722
@@ -1210,9 +1210,9 @@
 29003
 135779
 29001
-31870
-31870
-31870
+no data found
+no data found
+no data found
 
 
 
@@ -1280,12 +1280,11 @@
 13684
 13684
 13684
-13684
-5022
-5022
-5022
-5022
-5022
+no data found
+no data found
+no data found
+no data found
+no data found
 360094
 360094
 360094
@@ -1310,7 +1309,7 @@
 
 
 336722
-40559
+332648
 
 229533
 229533
@@ -2269,7 +2268,7 @@
 
 
 
-31870
+no data found
 
 
 1271791
@@ -2671,8 +2670,8 @@
 13684
 5111
 5111
-5022
-5022
+no data found
+no data found
 426428
 426428
 426428
@@ -2681,8 +2680,8 @@
 426428
 426428
 426428
-5022
-5022
+no data found
+no data found
 426428
 426428
 426428
@@ -2700,25 +2699,25 @@
 29001
 29001
 29001
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-746128
-746128
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+1266464
+1266464
 229533
 229533
-40559
-40559
-40559
-40559
+332648
+332648
+332648
+332648
 29001
-746128
-40559
+1266464
+332648
 
 
 
@@ -2730,26 +2729,26 @@
 
 
 5599
-40559
-40559
-40559
-40559
-40559
-40559
-40559
-746128
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+no data found
 251360
-40559
-40559
-40559
-40559
+332648
+332648
+332648
+332648
 27337
 27337
 5530
 5530
 5530
-5180
-5180
+665079
+665079
 5016
 5016
 5016
@@ -2762,9 +2761,9 @@
 5599
 40559
 5599
-746128
-746128
-568076
+no data found
+no data found
+1432499
 
 
 229533
@@ -2780,8 +2779,8 @@
 27337
 337
 337
-40559
-40559
+332648
+332648
 40559
 40559
 13684
@@ -2798,7 +2797,7 @@
 5499
 5499
 5499
-117187
+334819
 176275
 40559
 40559
@@ -2823,6 +2822,14 @@
 229533
 
 
+no data found
+
+
+
+
+
+665079
+665079
 
 
 
@@ -2832,34 +2839,26 @@
 
 
 
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
+332648
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+332648
+332648
+332648
+332648
 
 
 
@@ -2915,8 +2914,8 @@ no data found
 229533
 229533
 229533
-no data found
-no data found
+456327
+456327
 223283
 no data found
 no data found
@@ -2986,8 +2985,8 @@ no data found
 336722
 1189622
 1189622
-no data found
-no data found
+64187
+64187
 332648
 332648
 no data found
@@ -3017,12 +3016,12 @@ no data found
 no data found
 no data found
 no data found
+64187
 no data found
 no data found
 no data found
 no data found
-no data found
-no data found
+66271
 no data found
 no data found
 no data found
@@ -3055,7 +3054,7 @@ no data found
 332648
 332648
 no data found
-no data found
+64187
 no data found
 no data found
 229533
@@ -3229,20 +3228,20 @@ no data found
 no data found
 no data found
 208964
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
 83332
 83332
 83332
@@ -3285,7 +3284,7 @@ no data found
 652611
 no data found
 652611
-no data found
+90371
 no data found
 no data found
 no data found
@@ -3314,23 +3313,23 @@ no data found
 400667
 400667
 400667
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
+90371
 316273
 393132
 591946
@@ -3382,8 +3381,8 @@ no data found
 680198
 680198
 680198
-474922
-474922
+1237896
+1237896
 1202531
 1202531
 1202531
@@ -3394,132 +3393,132 @@ no data found
 no data found
 no data found
 no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
+64187
 383407
 383407
 383407
@@ -3674,10 +3673,10 @@ no data found
 no data found
 no data found
 170187
-no data found
-no data found
-no data found
-no data found
+129394
+129394
+129394
+129394
 no data found
 no data found
 no data found
@@ -3954,14 +3953,14 @@ no data found
 no data found
 no data found
 no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
+62688
+62688
+62688
+62688
+62688
+62688
+62688
+62688
 no data found
 no data found
 no data found
@@ -4036,9 +4035,9 @@ no data found
 no data found
 no data found
 no data found
-no data found
-no data found
-no data found
+183190
+183190
+129394
 no data found
 no data found
 no data found
@@ -4060,7 +4059,7 @@ no data found
 1195885
 1195885
 no data found
-no data found
+178876
 1091042
 1091042
 634503
@@ -4069,7 +4068,7 @@ no data found
 634503
 634503
 502800
-no data found
+129394
 561307
 561307
 561307
@@ -4162,7 +4161,7 @@ no data found
 no data found
 
 
-no data found
+90371
 208964
 208964
 208964
@@ -4214,7 +4213,7 @@ no data found
 no data found
 192222
 655819
-568076
+1432499
 1310173
 no data found
 342109
@@ -4225,45 +4224,6 @@ no data found
 no data found
 no data found
 83332
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-321
-59511
-
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
-875330
 218494
 332648
 332648
@@ -4313,7 +4273,7 @@ no data found
 229533
 229533
 229533
-no data found
+314565
 439184
 85962
 223283
@@ -4542,8 +4502,8 @@ no data found
 1213857
 1213857
 1455062
-no data found
-no data found
+340
+340
 208964
 208964
 208964
@@ -4556,7 +4516,7 @@ no data found
 1237896
 no data found
 no data found
-no data found
+611301
 660596
 660596
 1203463
@@ -4593,7 +4553,7 @@ no data found
 no data found
 no data found
 no data found
-568076
+1432499
 665079
 665079
 665079
@@ -4608,12 +4568,12 @@ no data found
 426428
 665029
 665029
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
+90371
+90371
+90371
+58095
+58095
+58095
 342110
 393133
 393133
@@ -4741,10 +4701,10 @@ no data found
 652611
 652611
 no data found
-no data found
-no data found
-no data found
-no data found
+318
+318
+318
+318
 332648
 332648
 260799
@@ -4756,10 +4716,174 @@ no data found
 985075
 83331
 235443
+321
+235443
+177416
+235443
+235443
+235443
+235443
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+321
+59511
+
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
+875330
 no data found
-235443
 no data found
+no data found
+1203670
+1203670
+no data found
+1451188
+no data found
+1451188
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+505235
+no data found
+no data found
+no data found
+no data found
+544404
+170187
+170187
+170187
+170187
+170187
+no data found
+no data found
+523796
+523796
+948564
+1271791
+1271791
+1271791
+1271791
+530008
+272561
+272561
+214684
+214684
+453602
+453602
+no data found
+216594
 235443
 235443
 235443
 235443
+1150867
+1144302
+no data found
+227377
+227377
+no data found
+no data found
+no data found
+no data found
+1131442
+1131442
+293653
+373153
+no data found
+no data found
+877507
+no data found
+90371
+no data found
+no data found
+no data found
+83332
+696363
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+877507
+83332
+83332
+237561
+237561
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+83332
+224914
+224914
+224914
+196600
+196600
+196600
+196600
+196600
+90371
+90371
+393133
+393133
+393133
+393133
+237561
+no data found

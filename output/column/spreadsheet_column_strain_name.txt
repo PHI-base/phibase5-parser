@@ -405,10 +405,10 @@ RM1000
 H99
 
 H99
-JEC21 (Serotype D) 
+JEC21 (Serotype D)
 FB1, FB2
 
-P-2b (MAFF235001, 
+P-2b (MAFF235001,
 CAI-4
 20.1
 SG200
@@ -504,7 +504,7 @@ B4500 (serotype D) and JEC21 (serotype D)
 BWP17
 
 
-jEC20 (Serotype D) and JEC21 (Serotype D) 
+jEC20 (Serotype D) and JEC21 (Serotype D)
 CAI-4
 WSA-7
 
@@ -558,8 +558,8 @@ CAI-4
 CAI-4
 CAI-4
 518, 521
-M001 (H99 strain with ade2 mutation) 
-M001 (H99 strain with ade2 mutation) 
+M001 (H99 strain with ade2 mutation)
+M001 (H99 strain with ade2 mutation)
 SC5314
 
 
@@ -671,25 +671,25 @@ Fl1
 Fl1
 Fl1
 Fl1
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. tomato DC 3000
-pv. Phaseolicola 1448A
-pv. Phaseolicola 1448A
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. phaseolicola 1448A
+pv. phaseolicola 1448A
 
 
 
@@ -1076,59 +1076,59 @@ SG200
 SG200
 SG200
 SG200
-
-race 4
-race 4
-NPS3121
-B728A
-race 6-1448A
-PT23
-race 1
-race 3
-race 6
-PT23
-PT23
-JL1065
-DC3000
-B728A
-M2
-151
-JL1065
-JL1065
-JL1065
-61
-ES4326
-ES4326
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-1302A (race 4)
-M6
-DC3000
-DC3000
-1449B (race7)
-1449B (race7)
-DC3000
-870A
-DC3000
-DC3000
-DC3000
-race 3
-61
-61
-B728A
-B728A
-B728A
-B728A
-B728A
-B728A
-B728A
-B728A
-B728A
-B728A
-1449A race5 & 7
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. phaseolicola  NPS3121
+pv. syringae B728A
+pv. phaseolicola 1448A
+pv. tomato PT23
+pv. glycinea race 1
+pv. glycinea race 3
+pv. glycinea race 6
+pv. tomato PT23
+pv. tomato PT23
+pv. tomato JL1065
+pv. tomato DC3000
+pv. syringae B728A
+pv. maculicola M2
+pv. pisi 151
+pv. tomato JL1065
+pv. tomato JL1065
+pv. tomato JL1065
+pv. syringae 61
+pv. maculicola ES4326
+pv. maculicola ES4326
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. phaseolicola 1302A (race 4)
+pv. maculicola M6
+pv. tomato DC3000
+pv. tomato DC3000
+pv. phaseolicola 1449B (race7)
+pv. phaseolicola 1449B (race7)
+pv. tomato DC3000
+pv. pisi 870A
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. phaseolicola race 3
+pv. syringae 61
+pv. syringae 61
+pv. syringae B728A
+pv. syringae B728A
+pv. syringae B728A
+pv. syringae B728A
+pv. syringae B728A
+pv. syringae B728A
+pv. syringae B728A
+pv. syringae B728A
+pv. syringae B728A
+pv. syringae B728A
+pv. phaseolicola 1449A race5 & 7
 Car8
 PH-1
 PH-1
@@ -1270,7 +1270,6 @@ FB1
 518, 521
 FB1, Bub8
 FB1, Bub8
-
 
 
 
@@ -2272,9 +2271,9 @@ Guy11
 CgM2
 70-15
 70-15
-KJ201 
-KJ201 
-KJ201 
+KJ201
+KJ201
+KJ201
 Guy11
 Guy11
 Guy11
@@ -2505,7 +2504,7 @@ Guy11
 2539
 Guy11
 2539
- Ina86-137
+Ina86-137
 Guy11
 70-15
 70-15
@@ -2895,9 +2894,9 @@ GZ3639
 GZ3639
 E6
 E6
-DC3000
-DC3000
-DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
 Emco5
 Emco5
 Emco5
@@ -2915,9 +2914,9 @@ PH-1
 PH-1
 PH-1
 PH-1
-Ds1
-Bv5-4a
-DC3000
+pv. vesicatoria Ds1
+pv. vesicatoria Bv5-4a
+pv. tomato DC3000
 Noco2
 Emco5
 Emco5
@@ -2984,10 +2983,10 @@ IPO323
 411gr-6
 411gr-6
 IPO323
-6605
-6605
-BXO43
-BXO43
+pv. tabaci 6605
+pv. tabaci 6605
+pv. oryzae BXO43
+pv. oryzae BXO43
 B05.10
 B05.10
 EV-MIL31
@@ -3017,12 +3016,12 @@ Ea321
 Ea321
 Ea321
 Ea1189
-XKK.12
+pv. oryzae XKK.12
 Ea1189
 Ea1189
 Ea1189
 Ea1189
-SS104
+subsp. stewartii SS104
 H99
 H99
 Ea321
@@ -3038,8 +3037,8 @@ KD100
 Ecc71
 KD100
 Ecc71
-306
-306
+subsp. citri 306
+subsp. citri 306
 C-00
 C-00
 HYOGO11
@@ -3055,15 +3054,15 @@ B05.10
 B05.10
 B05.10
 Guy11
-13751
+pv. oryzae 13751
 MNYC/BZ/62/M379
 MNYC/BZ/62/M379
 PH-1
 ZJ3721
-8004
-8004
-8004
-8004
+pv. campestris 8004
+pv. campestris 8004
+pv. campestris 8004
+pv. campestris 8004
 521
 521
 521
@@ -3145,8 +3144,8 @@ SC5314
 RM1000
 SC5314
 CAF2
-Af293 
-Af293 
+Af293
+Af293
 RM1000
 SN152
 BWP17
@@ -3229,30 +3228,30 @@ SN425
 SN425
 no data found
 PAO1
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
-NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
+serovar Typhimurium NCTC S12023
 H37Rv
 H37Rv
 H37Rv
 H37Rv
 H37Rv
 H37Rv
-USA300 strain JE2 
-USA300 strain JE2 
-USA300 strain JE2 
-USA300 strain JE2 
+USA300 strain JE2
+USA300 strain JE2
+USA300 strain JE2
+USA300 strain JE2
 RH
 B31
 CEA10
@@ -3263,8 +3262,8 @@ ATCC42720
 ATCC42720
 H1
 JPCM5
-14028
-14028
+serovar Typhimurium 14028
+serovar Typhimurium 14028
 RB50
 CH2
 CH2
@@ -3274,8 +3273,8 @@ CH2
 CAI4
 LA5
 LA5
-SL1344
-SL1344
+serovar Typhimurium SL1344
+serovar Typhimurium SL1344
 NTUH-K2044
 B05.10
 B05.10
@@ -3285,7 +3284,7 @@ H103
 PA14
 H103
 PA14
-JSG210
+serovar Typhimurium JSG210
 NT1RE
 NT1RE
 NT1RE
@@ -3314,24 +3313,24 @@ PAO1
 ATCC 17978
 ATCC 17978
 ATCC 17978
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-ATCC14028s 
-85-10
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+serovar Typhimurium ATCC14028s
+pv. vesicatoria 85-10
 LO28
 LF82
 CBS138
@@ -3361,14 +3360,14 @@ UK7
 UK7
 UK7
 UK7
-306
-306
+subsp. citri 306
+subsp. citri 306
 104-T
-no data found
-no data found
-no data found
-no data found
-no data found
+pv. citri
+pv. citri
+pv. citri
+pv. citri
+pv. citri
 PH-1
 87.22
 87.22
@@ -3390,262 +3389,262 @@ JR2
 JR2
 JR2
 JR2
-CFBP1851
+pv. manihotis CFBP1851
 Z-3639
 Z-3639
 Z-3639
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-X11-5A
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
-BLS256
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzae X11-5A
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
 B05.10
 B05.10
 B05.10
@@ -3662,8 +3661,8 @@ P6497 (race 2)
 P6497 (race 2)
 HN9-1
 HN9-1
-PXO99A
-PXO99A
+pv. oryzae PXO99A
+pv. oryzae PXO99A
 JR2
 100993
 100993
@@ -3674,10 +3673,10 @@ JR2
 SCC3193
 SCC3193
 TIGR4
-RS105
-RS105
-RS105
-RS105
+pv. oryzicola RS105
+pv. oryzicola RS105
+pv. oryzicola RS105
+pv. oryzicola RS105
 CNCTC 10/84 (1169-NT1; ATCC 49447, serotype V)
 ML617
 ML617
@@ -3686,23 +3685,23 @@ no data found
 no data found
 no data found
 SG200
- PA14
- PA14
- PA14
- PA14
- PA14
- PA14
- PA14
- PA14
-RN6390 
+PA14
+PA14
+PA14
+PA14
+PA14
+PA14
+PA14
+PA14
+RN6390
 512
 H99
 H99
-SL1344
-SL1344
-SL1344
-SL1344
-DC3000
+serovar Typhimurium SL1344
+serovar Typhimurium SL1344
+serovar Typhimurium SL1344
+serovar Typhimurium SL1344
+pv. tomato DC3000
 C4
 C4
 C4
@@ -3710,52 +3709,52 @@ C4
 106619
 106619
 106619
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
-NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
+pv. savastanoi NCPPB 3335
 5448
 Et28A
 Et28A
@@ -3842,12 +3841,12 @@ H99
 15A
 Race 5
 H99
-no data found
-no data found
-PGB153
-PGB153
-PGB153
-PGB153
+Multiple isolates
+Multiple isolates
+f. sp. cucurbitae PGB153
+f. sp. cucurbitae PGB153
+f. sp. cucurbitae PGB153
+f. sp. cucurbitae PGB153
 O-137
 O-137
 SG200
@@ -3899,16 +3898,16 @@ Schu S4
 Schu S4
 Kp52145
 11-164
-B728a
-B728a
-B728a
-B728a
-B728a
-DC3000
-DC3000
-DC3000
+pv. syringae B728a
+pv. syringae B728a
+pv. syringae B728a
+pv. syringae B728a
+pv. syringae B728a
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
 MGAS6180
-MGAS10270 
+MGAS10270
 Pa 2/3
 NI-13
 NI-13
@@ -3938,30 +3937,30 @@ CAI-4+CIp10
 CAI-4+CIp10
 RH
 RH
-P6954 
-P6954 
-P6954 
-P6954 
-P6954 
-P6954 
-P6954 
-P6954 
-P6954 
-P6954 
-P6954 
-P6954 
+P6954
+P6954
+P6954
+P6954
+P6954
+P6954
+P6954
+P6954
+P6954
+P6954
+P6954
+P6954
 F2/5
 F2/5
 F2/5
 F2/5
-CH4.8
-CH4.8
-CH4.8
-CH4.8
-CH4.8
-CH4.8
-CH4.8
-CH4.8
+f. sp. hordei CH4.8
+f. sp. hordei CH4.8
+f. sp. hordei CH4.8
+f. sp. hordei CH4.8
+f. sp. hordei CH4.8
+f. sp. hordei CH4.8
+f. sp. hordei CH4.8
+f. sp. hordei CH4.8
 no data found
 no data found
 no data found
@@ -4011,7 +4010,7 @@ EV-MIL31
 7600
 7600
 race 0WU
-8004
+pv. campestris 8004
 IBCN 14
 CgM2
 CgM2
@@ -4035,10 +4034,10 @@ no data found
 15A
 SF1-54
 SF1-54
-Fetzer 
+Fetzer
 Temecula
 Temecula
-RS105
+pv. oryzicola RS105
 Guy11
 P6497
 P6497
@@ -4050,26 +4049,26 @@ Emoy2
 Emoy2
 Emoy2
 Emoy2
-6605
-6605
-6605
-6605
-Xtg29
-Xtg29
-Xtg29
-Xtg29
-Xtg29
+pv. tabaci 6605
+pv. tabaci 6605
+pv. tabaci 6605
+pv. tabaci 6605
+pv. graminis ART-Xtg29
+pv. graminis ART-Xtg29
+pv. graminis ART-Xtg29
+pv. graminis ART-Xtg29
+pv. graminis ART-Xtg29
 PRY225
-CM018
- K60 
- K60 
-93-146   
-93-146   
-93-146   
-93-146   
-93-146   
-YPIII(pIB102) 
-RS105
+var. grubii CM018
+K60
+K60
+93-146
+93-146
+93-146
+93-146
+93-146
+YPIII(pIB102)
+pv. oryzicola RS105
 RN4220
 RN4220
 RN4220
@@ -4083,19 +4082,19 @@ Af293
 EryS
 EryS
 CAI-4
-85-10
-DC3000
-DC3000
-DC3000
-DC3000
-Colletotrichum gloeosporioides f. sp. aeschynomenes
+pv. vesicatoria 85-10
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+f. sp. aeschynomenes
 EGD
 Ina72 , race 031
 Ina72 , race 031
 SCHU S4
 301
 4287
-F4810/72 
+F4810/72
 KJ201
 KJ201
 KJ201
@@ -4124,12 +4123,12 @@ TIGR4
 TIGR4
 TIGR4
 TIGR4
-14028s
-14028s
-14028s
-14028s
-14028s
-14028s
+serovar Typhimurium 14028s
+serovar Typhimurium 14028s
+serovar Typhimurium 14028s
+serovar Typhimurium 14028s
+serovar Typhimurium 14028s
+serovar Typhimurium 14028s
 Kp52.145
 P6497
 KJ201
@@ -4146,8 +4145,8 @@ CAF2-1
 H99
 W97
 PA103
-NCPPB 382
-NCPPB 382
+subsp. michiganensis NCPPB 382
+subsp. michiganensis NCPPB 382
 JEC21
 JEC21
 JEC21
@@ -4162,7 +4161,7 @@ HN9-1
 HN9-1
 P131
 P131
-C5
+serovar Typhimurium C5
 PAO1
 PAO1
 PAO1
@@ -4217,7 +4216,7 @@ ARSEF 2860
 ARSEF 2575
 2308
 P6497
-MAFF 311018
+pv. oryzae MAFF 311018
 PAO1
 FRD1
 EIB202
@@ -4225,46 +4224,7 @@ CECT20796 (isolate PHI26)
 AM2001/0013
 AM2001/0013
 H37Rv
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-P1/7
+Serotype 2 P1/7
 B05.10
 B05.10
 B05.10
@@ -4286,9 +4246,9 @@ PH-1
 PH-1
 PH-1
 DSM25430
-DC283
-DC283
-P1/7
+subsp. stewartii DC283
+subsp. stewartii DC283
+Serotype 2 P1/7
 Bb0062
 ARSEF2860
 ARSEF2860
@@ -4302,8 +4262,8 @@ RH
 84R-62B
 EGDe
 DE17
-8004
-8004
+pv. campestris 8004
+pv. campestris 8004
 PH-1
 PH-1
 PH-1
@@ -4313,23 +4273,23 @@ PH-1
 PH-1
 PH-1
 PH-1
-Xcc17
+pv. campestris 8004
 RS218
 26695
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
-DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
+pv. tomato DC3000
 Ina72
 Ina72
 104-T
@@ -4341,7 +4301,7 @@ CP02
 CP02
 CP02
 CP02
-85-10
+pv. vesicatoria 85-10
 SG200
 SG200
 PH-1
@@ -4390,7 +4350,7 @@ JBC1
 JBC1
 PAO1
 PAO1
- AF 100
+f. sp. Platani AF 100
 4287
 16M
 16M
@@ -4448,7 +4408,7 @@ ATCC 46645
 Vd8
 Vd8
 119.78
- IMI58289
+IMI58289
 MPAO1
 MPAO1
 70-15
@@ -4461,9 +4421,9 @@ MPAO1
 70-15
 70-15
 70-15
-PXO99
-PXO99
-PXO99
+pv. oryzae PXO99A
+pv. oryzae PXO99A
+pv. oryzae PXO99A
 LAW95
 Paris  CIP  107629T
 Paris  CIP  107629T
@@ -4490,33 +4450,33 @@ CEA10
 ATCC46645
 H99
 H99
-A1160 
-A1160 
-A1160 
-A1160 
+A1160
+A1160
+A1160
+A1160
 SG200
 SG200
 SG200
 Temecula1
 PA14
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
- KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
+KJ201
 Guy11
 lv39
-8004
-8004
-8004
+pv. campestris 8004
+pv. campestris 8004
+pv. campestris 8004
 LVS
 LVS
 CQMa102
@@ -4542,8 +4502,8 @@ MAFF240422
 MAFF240422
 MAFF240422
 Yb2
-Xc17
-Xc17
+pv. campestris Xc17
+pv. campestris Xc17
 PAO1
 PAO1
 PAO1
@@ -4551,23 +4511,23 @@ RN4220
 no data found
 no data found
 M4
-MPAO1  
-MPAO1  
+MPAO1
+MPAO1
 Cg-14
 SC19
 SC19
-no data found
-DC283
-DC283
-306
-306
+subsp. Citri
+subsp. stewartii DC283
+subsp. stewartii DC283
+subsp. citri 306
+subsp. citri 306
 PEX1
 PEX1
 PEX1
 PEX1
 PEX1
 PEX1
-LAC 
+LAC
 2308
 70-15
 70-15
@@ -4608,13 +4568,13 @@ KC645
 4287
 CFBP 1430
 CFBP 1430
-ATCC 14028
-ATCC 14028
-ATCC 14028
-Ag 1
-Ag 1
-Ag 1
- UW551
+serovar Typhimurium ATCC 14028
+serovar Typhimurium ATCC 14028
+serovar Typhimurium ATCC 14028
+subsp. enterica serovar Agona Ag 1
+subsp. enterica serovar Agona Ag 1
+subsp. enterica serovar Agona Ag 1
+UW551
 10403S
 10403S
 AR628
@@ -4623,8 +4583,8 @@ AR628
 ALS1; ALS2
 ALS1; ALS2
 USA300
-NCPPB 3335
-DC3000
+pv. savastanoi NCPPB 3335
+pv. tomato DC3000
 H37Rv
 MO6-24/O
 P6497
@@ -4635,9 +4595,9 @@ CMCP6
 7598
 N920143
 U112
-BLS256
-BLS256
-BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
+pv. oryzicola BLS256
 CEA10
 CEA10
 CEA10
@@ -4647,18 +4607,18 @@ M
 Newman
 KIM5
 KIM5
- SN152
- SN152
+SN152
+SN152
 DE719
-race 4
-race 4
+pv. glycinea race 4
+pv. glycinea race 4
 PH-1
 PH-1
 PH-1
 PH-1
 PH-1
 ISPaVe ER 1211
-CYR32 
+CYR32
 M-3125
 M-3125
 M-3125
@@ -4691,8 +4651,8 @@ LMG 2665
 PAO1-UW
 PAO1-UW
 KM22
-306
-306
+subsp. citri 306
+subsp. citri 306
 A449
 07_115
 H99
@@ -4741,10 +4701,10 @@ PA14
 PA14
 PA14
 E99
-race 6
-race 6
-race 6
-race 6
+pv. glycinea race 6
+pv. glycinea race 6
+pv. glycinea race 6
+pv. glycinea race 6
 B05.10
 B05.10
 Sterne
@@ -4756,10 +4716,174 @@ J2315
 K56-2
 CDC1551
 H99
-BRIP34876
+pv. syringae BRIP34876
 H99
 Schu S4
 H99
 H99
 H99
 H99
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. syringae
+pv. maculicola
+
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+pv. glycinea race 4
+PdKH8
+MHOM/SU/73/5-ASKH
+MHOM/SU/73/5-ASKH
+GD201008-001
+GD201008-001
+E77
+M30
+E77
+M30
+TW94
+TW07
+1529
+1529
+1529
+E058
+CEA10
+TSS
+TSS
+TSS
+TSS
+TW14359
+TIGR4
+TIGR4
+TIGR4
+TIGR4
+TIGR4
+Vd8
+Vd8
+ST398
+ST398
+C6706
+KJ201
+KJ201
+KJ201
+KJ201
+MGAS10870
+D/UW-3/CX
+D/UW-3/CX
+JEC21
+JEC21
+pv. pelargonii 305
+pv. pelargonii 305
+no data found
+M
+H99
+H99
+H99
+H99
+PYKK081
+SCI-07
+no data found
+Nine Mile (RSA493)
+Nine Mile (RSA493)
+BG2
+no data found
+BG2
+no data found
+E11
+E11
+MGAS5005
+D39
+Mt103
+TH6772
+Fl1
+BG2
+serovar Typhimurium ATCC 14028
+E058
+E058
+E058
+H37Rv
+E2368
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+Fl1
+H37Rv
+H37Rv
+SC5314
+SC5314
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+H37Rv
+16M
+16M
+16M
+YJ016
+YJ016
+YJ016
+YJ016
+YJ016
+serovar Typhimurium 14028s
+serovar Typhimurium 14028s
+10403S
+10403S
+10403S
+10403S
+SC5314
+CH-1

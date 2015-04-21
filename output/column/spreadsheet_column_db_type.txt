@@ -2162,7 +2162,6 @@ Uniprot
 Uniprot
 Uniprot
 Uniprot
-Uniprot
 
 
 Uniprot
@@ -4136,27 +4135,6 @@ Uniprot
 Uniprot
 Uniprot
 
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
 Uniprot
 Uniprot
 Uniprot
@@ -4247,24 +4225,6 @@ Uniprot
 Uniprot
 Uniprot
 Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
-Uniprot
 
 
 
@@ -4755,6 +4715,11 @@ Uniprot
 Uniprot
 Uniprot
 
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
 Uniprot
 Uniprot
 Uniprot
@@ -4763,482 +4728,25 @@ Uniprot
 Uniprot
 Uniprot
 Uniprot
-Entrez Protein
 Uniprot
-Entrez Protein
 Uniprot
 Uniprot
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
 Uniprot
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-NULL
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
 Uniprot
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
 Uniprot
 Uniprot
@@ -5249,547 +4757,91 @@ Uniprot
 Uniprot
 Uniprot
 Uniprot
-NULL
 Uniprot
-NULL
-T5
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-PDB
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
 Uniprot
 Uniprot
 Uniprot
 Uniprot
 Uniprot
-NULL
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-Entrez Protein
 Uniprot
-Entrez Protein
-NULL
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
 Uniprot
-NULL
 Uniprot
 Uniprot
 Uniprot
+
+
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+
+Uniprot
+Uniprot
+
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
 Uniprot
 Uniprot
 Uniprot
+no data found
 Uniprot
 Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+
+Uniprot
+Uniprot
+Uniprot
+no data found
+Uniprot
+no data found
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+Uniprot
+
 Uniprot
 Uniprot
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
 Uniprot
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-NULL
-NULL
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
-Entrez Protein
 Uniprot
 Uniprot
 Uniprot
 Uniprot
 Uniprot
 Uniprot
-NULL
 Uniprot
 Uniprot
 Uniprot
@@ -5798,16 +4850,12 @@ Uniprot
 Uniprot
 Uniprot
 Uniprot
-NULL
 Uniprot
-NULL
 Uniprot
 Uniprot
-NULL
 Uniprot
 Uniprot
 Uniprot
-NULL
 Uniprot
 Uniprot
 Uniprot

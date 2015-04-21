@@ -17,7 +17,7 @@ Yes
 
 
 
-Yes 
+Yes
 No Data
 
 
@@ -35,7 +35,7 @@ No
 
 
 
-No Data 
+No Data
 
 
 
@@ -75,7 +75,7 @@ No Data
 
 
 No
- Yes
+Yes
 
 
 
@@ -158,7 +158,7 @@ No
 No
 No
 No
-Yes 
+Yes
 
 No Data
 
@@ -307,7 +307,7 @@ No
 
 
 
-Yes 
+Yes
 
 
 
@@ -424,7 +424,7 @@ No
 Yes
 
 
-No 
+No
 
 No
 No
@@ -892,7 +892,7 @@ Yes
 
 
 
-No Data 
+No Data
 
 
 
@@ -1227,7 +1227,6 @@ does not go through stomata
 reduced stomatal invasion
 wild-type
 wild-type
-
 
 
 
@@ -2262,9 +2261,9 @@ yes
 yes
 yes
 yes
-yes 
-yes 
-yes 
+yes
+yes
+yes
 yes
 yes
 yes
@@ -4291,45 +4290,6 @@ no data found
 no data found
 no data found
 no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
 yes
 yes
 yes
@@ -4763,1078 +4723,161 @@ no data found
 no data found
 no data found
 no data found
-No
-NA
-
-
-
-
-
-
-
-No Data
-
-
-
-No Data
-
-See publication
-
-No
-Yes
-
-
-Yes
-Yes
-
-
-
-
-Yes 
-
-
-
-Yes
-
-
-No
-No
-No
-No
-No
-No
-
-
-
-
-
-
-
-
-
-
-No
-Yes
-
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
- Yes
-
-
-
-
-
-
-
-
-
-No
-
-Yes
-
-
-No
-No
-No
-
-
-
-
-
-Yes
-
-
-Yes
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-No
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-No
-
-
-Yes
-
-No Data
-
-
-
-
-Yes
-
-Yes
-Yes
-Yes
-Yes
-
-
-Yes
-Yes
-No
-No
-No
-No
-No
-Yes 
-
-No Data
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-No Data
-
-
-
-Yes
-
-
-
-
-
-
-
-Yes
-Yes
-Yes
-
-
-
-
-
-
-
-
-No
-
-
-
-Yes
-Yes
-Yes
-
-No
-
-
-
-
-
-
-
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-No Data
-No Data
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-No
-
-
-
-
-
-
-Yes 
-
-
-
-Yes
-Yes
-
-
-Yes
-
-
-Yes
-Yes
-Yes
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-Yes
-Yes
-Yes
-Yes
-
-
-Yes
-
-
-
-
-
-
-
-
-Yes: Non-functional appressoria
-
-
-
-
-
-
-
-
-No?
-
-Yes
-
-
-Yes
-
-
-
-
-
-
-
-
-Yes
-Yes
-Yes
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-Yes
-
-
-
-
-
-
-
-No
-
-
-Yes
-
-
-No 
-
-No
-No
-
-
-
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-No Data
-No Data
-No
-
-
-
-No
-No
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-No
-Yes
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-no
-no
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-Yes
-
-Yes
-Yes
-Yes
-Yes
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-
-
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yes
-Yes
-Yes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+yes
+yes
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found

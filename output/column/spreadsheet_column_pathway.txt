@@ -304,7 +304,7 @@ Downstream of PMK1
 
 
 
- 
+
 
 
 
@@ -1227,7 +1227,6 @@ Signal transduction
 Signal transduction
 Signal transduction
 Signal transduction
-
 
 
 
@@ -2474,13 +2473,13 @@ no data found
 PMK1 signalling pathway
 PMK1 signalling pathway
 PMK1 signalling pathway
-PKA and PKC signaling pathways 
+PKA and PKC signaling pathways
 PMK1 signalling pathway
 PMK1 signalling pathway
 PMK1 signalling pathway
 PMK1 signalling pathway
 PMK1 signalling pathway
-PKA and PKC signaling pathways 
+PKA and PKC signaling pathways
 PMK1 signalling pathway
 PMK1 signalling pathway
 no data found
@@ -4225,45 +4224,6 @@ no data found
 no data found
 no data found
 no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
-no data found
 
 
 
@@ -4344,9 +4304,9 @@ no data found
 no data found
 anthocyanin biosynthesis
 anthocyanin biosynthesis
- TORC1 and cAMPPKA pathways
- TORC1 and cAMPPKA pathways
- TORC1 and cAMPPKA pathways
+TORC1 and cAMPPKA pathways
+TORC1 and cAMPPKA pathways
+TORC1 and cAMPPKA pathways
 no data found
 no data found
 no data found
@@ -4763,1078 +4723,161 @@ no data found
 no data found
 no data found
 no data found
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cAMP signalling
-cAMP signalling
-
-
-
-
-
-
-
-membrane composition
-
-
-cAMP signalling
-
-
-
-Melanin biosynthesis
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-T-toxin production
-
-
-Melanin biosynthesis
-Melanin biosynthesis
-toxin secretion
-
-
-
-VH1 dual specificity protein phosphatase
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cAMP signalling
-
-cAMP signalling
-
-
-
-
-Ras-protein kinase A
-
-
-
-
-HC-toxin biosynthesis
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-osmotic sensing
-
-
-
-fatty acid oxidation
-histidine biosynthesis
-
-
-
-
-
-
-
-
-
-cAMP signalling
-
-
-trichothecene secretion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cAMP signalling
-
-
-
-
-
-
-
-
-toxin synthesis
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cell signalling
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-fatty acid metabolism
-
-
-
-
-
-
-
-
-
-
-
-toxin biosythesis
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Fumonisin biosynthesis
-
-
-
-
-
-glyoxylate
-
-
-
-
-
-
-
-
-
-
-Downstream of PMK1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Amino acid biosynthesis
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cell signalling
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Possibly 2 pathways plant/fungal signals
-
-
-
-
-
-
-
-
-
-
-biosynthesis pathway to leucine
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Ras-protein kinase A
-Ras-protein kinase A
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-No
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Glyoxylate cycle
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cAMP signalling
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-mitochondrial respiration
-mitochondrial respiration
-signal perception and transduction - osmosensing
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-Sterol biosynthesis
-
-
-
-
-
-
-Oxidative stress response
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+HOG pathway
+HOG pathway
+HOG pathway
+HOG pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+sulfate assimilation pathway
+ROS signalling pathway
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
+no data found
