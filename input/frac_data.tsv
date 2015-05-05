@@ -174,6 +174,7 @@ I	melanin synthesis in cell wall	I1	reductase in melanin biosynthesis	MBI-R (Mel
 		I2	dehydratase in melanin biosynthesis	MBI-D (Melanin Biosynthesis Inhibitors – Dehydratase)	cyclopropane-carboxamide	carpropamid	104030-54-8	3434	medium	Resistance known. Medium risk. Resistance management required.	16.2
 					carboxamide	diclocymet	139920-32-4	3434			
 					propionamide	fenoxanil	115852-48-7	3434			
+		I3	polyketide synthase in melanin biosythesis	MBI-P (Melanin Biosynthesis Inhibitors – Polyketide synthase)	trifluoroethyl-carbamate	tolprocarb	911499-62-2	85628	unknown	Resistance not known	16.3
 P	host plant defence induction	P1	salicylic acid pathway	benzo-thiadiazole BTH	benzo-thiadiazole BTH	acibenzolar-S-methyl	135158-54-2	3434	unknown	Resistance not known	P1
 		P2	none	benzisothiazole	benzisothiazole	probenazole (also antibacterial and antifungal activity)	27605-76-1	3434	unknown	Resistance not known 	P2
 		P3	none	thiadiazole-carboxamide	thiadiazole-carboxamide	tiadinil	223580-51-6	81825	unknown	Resistance not known	P3
@@ -196,6 +197,7 @@ U	unknown	U1	unknown	cyanoacetamide-oxime	cyanoacetamide-oxime	cymoxanil	57966-9
 		U14	unknown	pyrimidinone-hydrazones	pyrimidinone-hydrazones	ferimzone	89269-64-7	81844	unknown	Resistance not known. Reclassified from C5 in 2012.	U14
 		U15	oxysterol binding protein (OSBP) inhibition (proposed)	piperidinyl- thiazole-isoxazolines	piperidinyl-thiazole-isoxazolines	oxathiapiprolin	1003318-67-9	83268	medium/high	Resistance risk assumed to be medium to high (single site inhibitor). Resistance management required.	U15
 		U16	complex III: cytochrome bc1, unknown binding site (proposed)	4-quinolyl-acetate	4-quinolyl-acetate	tebufloquin	376645-78-2	83266	medium	Not cross resistant to QoI. Resistance risk unknown but assumed to be medium. Resistance management required.	U16
+		U17	unknown	tetrazoyloxime	tetrazoyloxime	picarbutrazox	500207-04-5	85627	unknown	Resistance not known. Not cross resistant to PA, QoI, CAA	U17
 N	not classified	NC	unknown	diverse	diverse	mineral oils, organic oils, potassium bicarbonate, material of biological origin			unknown	Resistance not known	NC
 M	multi-site contact activity	M	multi-site contact activity	inorganic	inorganic	copper (different salts)	7440-50-8		low	Generally considered as a low risk group without any signs of resistance developing to the fungicides	M1
 				inorganic	inorganic	sulphur	7704-34-9	17909			M2
