@@ -1,0 +1,9 @@
+Biotroph	PLO:0000001
+Endophyte	PLO:0000002
+Hemibiotroph	PLO:0000003
+Hemibiotroph -necrotroph	PLO:0000003;PLO:0000004
+Necrotroph	PLO:0000004
+Necrotroph -HST	PLO:0000007
+Necrotroph-PHST	PLO:0000008
+Obligate Biotroph	PLO:0000006
+Phloem feeding insect	PLO:0000005

@@ -105,5 +105,5 @@ print "Total inducer chemicals:$inducer_count\n";
 print "Inducer chemicals with both ChEBI ID and CAS registry number:$chebi_and_cas_count\n";
 print "Inducer chemicals with a ChEBI ID but no CAS registry number:$chebi_only_count\n";
 print "Inducer chemicals with a CAS registry number but no ChEBI ID:$cas_only_count\n";
-print "Inducer chemicals with neither a ChEBI ID nor a CAS registry number:$no_chebi_or_cas_count\n\n";
+print "Inducer chemicals with neither a ChEBI ID nor a CAS registry number:$no_chebi_or_cas_count\n";
 

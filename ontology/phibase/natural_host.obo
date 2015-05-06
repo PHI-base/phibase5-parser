@@ -1,0 +1,68 @@
+format-version: 1.2
+date: 05:05:2015 22:08
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: natural_host
+
+[Term]
+id: NHO:0000000
+name: natural_host
+created_by: irvinea
+creation_date: 2015-05-05T21:59:16Z
+
+[Term]
+id: NHO:0000001
+name: dicot
+is_a: NHO:0000000 ! natural_host
+created_by: irvinea
+creation_date: 2015-05-05T22:00:47Z
+
+[Term]
+id: NHO:0000002
+name: fungus
+is_a: NHO:0000000 ! natural_host
+created_by: irvinea
+creation_date: 2015-05-05T22:02:04Z
+
+[Term]
+id: NHO:0000003
+name: monocot
+is_a: NHO:0000000 ! natural_host
+created_by: irvinea
+creation_date: 2015-05-05T22:02:41Z
+
+[Term]
+id: NHO:0000004
+name: dicot tree
+is_a: NHO:0000001 ! dicot
+created_by: irvinea
+creation_date: 2015-05-05T22:03:00Z
+
+[Term]
+id: NHO:0000005
+name: dicot cereal
+is_a: NHO:0000001 ! dicot
+created_by: irvinea
+creation_date: 2015-05-05T22:03:54Z
+
+[Term]
+id: NHO:0000006
+name: Linum sp.
+is_a: NHO:0000001 ! dicot
+created_by: irvinea
+creation_date: 2015-05-05T22:04:22Z
+
+[Term]
+id: NHO:0000007
+name: monocot cereal
+is_a: NHO:0000003 ! monocot
+created_by: irvinea
+creation_date: 2015-05-05T22:05:54Z
+
+[Term]
+id: NHO:0000008
+name: non-cereal monocot
+is_a: NHO:0000003 ! monocot
+created_by: irvinea
+creation_date: 2015-05-05T22:06:15Z
+

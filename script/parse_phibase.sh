@@ -35,3 +35,7 @@ perl parse_frac_data.pl
 echo "\nParsing Inducer chemical data..."
 perl parse_inducer_data.pl
 
+echo "\nParsing USDA data..."
+perl parse_usda_data.pl
+
+echo "\nPHI-base 5 database populated with all pre-requisite data.\n"

@@ -1,0 +1,38 @@
+Cereal Monocot	NHO:0000007
+Cereal Monocot	NHO:0000007 
+Cereal Monocot  	NHO:0000007
+Cereal Monocot   and Dicot	NHO:0000007;NHO:0000001
+Cereal Monocot, Dicots	NHO:0000007;NHO:0000001
+Cereal Monocot - Dicot	NHO:0000007;NHO:0000001
+Cereal Monocot   - Non Cereal Monocot 	NHO:0000007;NHO:0000008
+Cereal Monocot   - Non Cereal Monocot	NHO:0000007;NHO:0000008
+Cereal Monocot  - Non Cereal Monocot - Dicot 	NHO:0000007;NHO:0000008;NHO:0000001
+Cereal Monocot  - Non Cereal Monocot - Dicot	NHO:0000007;NHO:0000008;NHO:0000001
+Cereal Monocot - Non Cereal Monocot  - Dicot 	NHO:0000007;NHO:0000008;NHO:0000001
+Cereal Monocot - Non Cereal Monocot  - Dicot	NHO:0000007;NHO:0000008;NHO:0000001
+Cereal Monocot - Non Cereal Monocot - Dicot 	NHO:0000007;NHO:0000008;NHO:0000001
+Cereal Monocot - Non Cereal Monocot - Dicot	NHO:0000007;NHO:0000008;NHO:0000001
+Diciot	NHO:0000001
+Dicot	NHO:0000001
+Dicot 	NHO:0000001
+Dicot and Cereal Monocot	NHO:0000001;NHO:0000007
+Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot	NHO:0000001;NHO:0000004;NHO:0000007;NHO:0000008
+Dicot, Dicot-Tree,  Non Cereal Monocot	NHO:0000001;NHO:0000004;NHO:0000008
+Dicot - Dicot Trees	NHO:0000001;NHO:0000004
+Dicot - Dicot Trees 	NHO:0000001;NHO:0000004
+Dicot - Dicot Trees, Cereal Monocot  - Non Cereal Monocot	NHO:0000001;NHO:0000004;NHO:0000007;NHO:0000008
+Dicot - Linum sp only	NHO:0000006
+Dicot - Non Cereal Monocot	NHO:0000001;NHO:0000008
+Dicots	NHO:0000001
+Dicots - Cereal Monocot - Non Cereal Monocot 	NHO:0000001;NHO:0000007;NHO:0000008
+Dicots - Cereal Monocot - Non Cereal Monocot	NHO:0000001;NHO:0000007;NHO:0000008
+Dicot - Tree	NHO:0000004
+Dicot - Tree 	NHO:0000004
+Dicot - trees 	NHO:0000004
+Dicot - trees	NHO:0000004
+Fungi	NHO:0000002
+Fungi, Dicot, Dicot - Trees	NHO:0000002;NHO:0000001;NHO:0000004
+Non Cereal Monocot	NHO:0000008
+Non Cereal Monocot - Dicot 	NHO:0000008;NHO:0000001
+Non Cereal Monocot - Dicot	NHO:0000008;NHO:0000001
+Non Cereal Monocot - Dicot (D)	NHO:0000008;NHO:0000001

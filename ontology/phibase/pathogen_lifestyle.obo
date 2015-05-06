@@ -1,0 +1,68 @@
+format-version: 1.2
+date: 05:05:2015 19:52
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: pathogen_lifestyle
+
+[Term]
+id: PLO:0000000
+name: pathogen lifestyle
+created_by: irvinea
+creation_date: 2015-05-05T16:41:22Z
+
+[Term]
+id: PLO:0000001
+name: biotroph
+is_a: PLO:0000000 ! pathogen lifestyle
+created_by: irvinea
+creation_date: 2015-05-05T16:43:53Z
+
+[Term]
+id: PLO:0000002
+name: endophyte
+is_a: PLO:0000000 ! pathogen lifestyle
+created_by: irvinea
+creation_date: 2015-05-05T16:44:43Z
+
+[Term]
+id: PLO:0000003
+name: hemibiotroph
+is_a: PLO:0000000 ! pathogen lifestyle
+created_by: irvinea
+creation_date: 2015-05-05T16:45:56Z
+
+[Term]
+id: PLO:0000004
+name: necrotroph
+is_a: PLO:0000000 ! pathogen lifestyle
+created_by: irvinea
+creation_date: 2015-05-05T16:46:28Z
+
+[Term]
+id: PLO:0000005
+name: phloem feeding insect
+is_a: PLO:0000000 ! pathogen lifestyle
+created_by: irvinea
+creation_date: 2015-05-05T16:46:50Z
+
+[Term]
+id: PLO:0000006
+name: obligate biotroph
+is_a: PLO:0000001 ! biotroph
+created_by: irvinea
+creation_date: 2015-05-05T16:49:00Z
+
+[Term]
+id: PLO:0000007
+name: necrotroph - host selective toxin (metabolite)
+is_a: PLO:0000004 ! necrotroph
+created_by: irvinea
+creation_date: 2015-05-05T16:49:33Z
+
+[Term]
+id: PLO:0000008
+name: necrotroph - proteinaceous host selective toxin
+is_a: PLO:0000004 ! necrotroph
+created_by: irvinea
+creation_date: 2015-05-05T16:51:08Z
+

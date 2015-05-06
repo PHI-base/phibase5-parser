@@ -24,6 +24,27 @@ CREATE TABLE interaction_host_response (
     PRIMARY KEY (interaction_host_id, host_response_id)
 );
 
+CREATE TABLE usda (
+    id SERIAL PRIMARY KEY,
+    pathogen_taxon_id integer,
+    host_kingdom varchar(50),
+    num_plant_hosts varchar(50),
+    num_interactions_usda integer,
+    num_interactions_plantwise integer
+);
+
+CREATE TABLE usda_pathogen_lifestyle (
+    usda_id integer REFERENCES usda,
+    pathogen_lifestyle_id varchar(50),
+    PRIMARY KEY (usda_id, pathogen_lifestyle_id)
+);
+
+CREATE TABLE usda_natural_host (
+    usda_id integer REFERENCES usda,
+    natural_host_id varchar(50),
+    PRIMARY KEY (usda_id, natural_host_id)
+);
+
 CREATE TABLE pathogen_gene (
     id SERIAL PRIMARY KEY,
     ncbi_taxon_id integer,
