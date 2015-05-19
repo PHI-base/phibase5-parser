@@ -59,6 +59,12 @@ my @annotations = @{ $text_response->{'curation_sessions'}{$session_id}{'annotat
 # and the value will be a hash of the values that identify each unique interaction
 my %interaction_profiles;
 
+# Read in the experiment specification ontology
+# so that the identifier can be matched from the
+# available exp specification strring (from the evidence code)
+print "Reading ontology files...\n";
+my $obo_parser = OBO::Parser::OBOParser->new;
+my $exp_spec_ontology = $obo_parser->work("../ontology/phibase/experiment_specification.obo");
 
 # iterate through the array of annotations
 foreach my $annot_index (0 .. $#annotations) {
@@ -191,6 +197,7 @@ foreach my $int_id (1 .. $interaction_count) {
   my $go_evid_code;
   my $host_response_id;
   my $interaction_id;
+  my $experiment_spec;
 
   # declare array to hold all pathogen gene
   # involved in the interaction
@@ -595,6 +602,22 @@ print "Host Response ID:$host_response_id\n";
 			       VALUES ($interaction_id, '$phenotype_outcome');
 			    );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+
+         # get the experiment specification term associated with the phenotype outcome,
+         # which is given by the evidence code
+         # get the term ID from the ontology, based on the name
+         print "Evidence Code:$annot_evid_code\n";
+         my $exp_spec_id = $exp_spec_ontology->get_term_by_name($annot_evid_code)->id;
+
+         if (defined $exp_spec_id) {
+            print "Experiment Specification ID:$exp_spec_id\n";
+	    my $inner_sql_statement = qq(
+					 INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id) 
+					   VALUES ($interaction_id,'$exp_spec_id');
+					);
+	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+         }
 
 =pod
       } elsif ($annot_type eq 'disease') {
