@@ -25,7 +25,8 @@ my $disease_count = 0;
 #my $inducer_count = 0;
 #my $exp_spec_count = 0;
 
-my $json_filename = '../input/canto/canto_with_go.json';
+my $json_filename = '../input/canto/paper_with_double_triple_mutants.json';
+#my $json_filename = '../input/canto/canto_with_go.json';
 #my $json_filename = '../input/canto/canto_triple_mutant.json';
 #my $json_filename = '../input/canto/canto_phibase_extensions.json';
 #my $json_filename = '../input/canto/approved_annotation_2015-03-06.json';
@@ -44,6 +45,11 @@ print "Session ID: $session_id\n";
 my $approver_name = $text_response->{'curation_sessions'}{$session_id}{'metadata'}{'approver_name'};
 my $approver_email = $text_response->{'curation_sessions'}{$session_id}{'metadata'}{'approver_email'};
 print "Session Approver: $approver_name, $approver_email\n";
+
+# get the pathogen taxon for the session (assumes only one pathogen for the entire session - use the first one available)
+my @pathogen_taxon_ids = keys $text_response->{'curation_sessions'}{$session_id}{'organisms'};
+my $pathogen_taxon_id = $pathogen_taxon_ids[0];
+print "Pathogen Taxon ID: $pathogen_taxon_id\n";
 
 # annotations are an array of hashes
 my @annotations = @{ $text_response->{'curation_sessions'}{$session_id}{'annotations'} };
@@ -106,7 +112,7 @@ foreach my $annot_index (0 .. $#annotations) {
 
      # if the annotation extension begins with 'interaction_partner',
      # then assign value between brackets to interaction partner
-     # (TODO: THERE CAN BE MULTIPLE INTERACTION PARTNERS)
+     # (note that there can be multiple interaction partners)
      if ($annot_ext =~ /^interaction_partner/) {
         my @annot_ext = split(/[\(\)]/,$annot_ext);
         $interaction_partner = $annot_ext[1];
@@ -178,7 +184,7 @@ foreach my $int_id (1 .. $interaction_count) {
   my $pathogen_species;
   my $creation_date;
   my $pathogen_taxon;
-  my $pathogen_taxon_id;
+#  my $pathogen_taxon_id;
   my $phenotype_outcome;
   my $disease;
   my $go_id;
@@ -214,6 +220,7 @@ foreach my $int_id (1 .. $interaction_count) {
          $pubmed_id = $annotation{'publication'};
          print "PubMed Article: $pubmed_id\n";
 
+=pod
          # the first annotation type must be the pathogen taxon ID
          my $annot_type = $annotations[$annot_index]{'type'};
          my $annot_value = $annotations[$annot_index]{'term'};
@@ -227,6 +234,7 @@ foreach my $int_id (1 .. $interaction_count) {
             my @pathogen_taxon_parts = split(/[:]/,$pathogen_taxon);
             $pathogen_taxon_id = $pathogen_taxon_parts[1];
          }
+=cut
 
          my @gene_organism_list = keys $annotation{'genes'};
          my $gene_organism_name = $gene_organism_list[0];
@@ -252,6 +260,22 @@ foreach my $int_id (1 .. $interaction_count) {
             if ($annot_ext =~ /^occurs_in/) {
               my @annot_ext = split(/[\(\)]/,$annot_ext);
               $tissue = $annot_ext[1];
+            }
+
+            # if the annotation extension begins with 'causes_disease', then assign value between brackets to disease
+            if ($annot_ext =~ /^causes_disease/) {
+print "Disease Annot Ext:$annot_ext\n";
+              my @annot_ext = split(/[\(\)]/,$annot_ext);
+              $disease = $annot_ext[1];
+print "Disease ID:$disease\n";
+            }
+
+            # if the annotation extension begins with 'host_responsee', then assign value between brackets to host_response
+            if ($annot_ext =~ /^host_response/) {
+print "Host Response Annot Ext:$annot_ext\n";
+              my @annot_ext = split(/[\(\)]/,$annot_ext);
+              $host_response_id = $annot_ext[1];
+print "Host Response ID:$host_response_id\n";
             }
 
             # if the annotation extension begins with 'interaction_partner',
@@ -280,6 +304,8 @@ foreach my $int_id (1 .. $interaction_count) {
 
          print "Host Taxon: $host_taxon\n";
          print "Tissue: $tissue\n";
+         print "Disease: $disease\n";
+         print "Host Response: $host_response_id\n";
 
          $curator_name = $annotation{'curator'}{'name'};
          $curator_email = $annotation{'curator'}{'email'};
@@ -393,16 +419,63 @@ foreach my $int_id (1 .. $interaction_count) {
 	 my $pubmed_id_num = substr($pubmed_id,5);
 
 	 # add records for the literature, host, and tissue tables associated with the interaction,
-	 # using the interaction id as a foreign key to the interaction table
-	 my $inner_sql_statement = qq(
-				      INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
-					VALUES ($interaction_id,$host_taxon_id);
-				      INSERT INTO interaction_tissue (interaction_id,brenda_tissue_id) 
-					VALUES ($interaction_id,'$tissue');
-				      INSERT INTO interaction_literature (interaction_id, pubmed_id)
-					VALUES ($interaction_id, '$pubmed_id_num');
-				     );
-	 my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+	 # using the interaction id as a foreign key to the interaction table (where values exist)
+         if (defined $host_taxon_id) {
+	    my $inner_sql_statement = qq(
+					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
+					   VALUES ($interaction_id,$host_taxon_id);
+					);
+	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+         }
+         if (defined $tissue) {
+	    my $inner_sql_statement = qq(
+					 INSERT INTO interaction_tissue (interaction_id,brenda_tissue_id) 
+					   VALUES ($interaction_id,'$tissue');
+					);
+	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+         }
+         if (defined $disease) {
+	    my $inner_sql_statement = qq(
+					 INSERT INTO interaction_disease (interaction_id,disease_id) 
+					   VALUES ($interaction_id,'$disease');
+					);
+	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+         }
+         if (defined $pubmed_id_num) {
+	    my $inner_sql_statement = qq(
+					 INSERT INTO interaction_literature (interaction_id, pubmed_id)
+					   VALUES ($interaction_id, '$pubmed_id_num');
+					);
+	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+         }
+
+
+         if (defined $host_response_id) {
+
+	    print "Host Response: $host_response_id\n";
+
+	    # before we can insert the host response,
+	    # we need to get the identifier for the appropriate host
+	    my $sql_statement = qq(SELECT id FROM interaction_host
+				     WHERE interaction_id = $interaction_id
+				     AND ncbi_taxon_id = $host_taxon_id
+				  );
+
+	    my $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+	    my @row = $sql_result->fetchrow_array();
+	    my $interaction_host_id = shift @row;
+
+	    # insert data into interaction_host_response table,
+	    # with foreign keys to the interaction table and the host_response ontology
+	    $host_response_count++;
+	    $sql_statement = qq(INSERT INTO interaction_host_response (interaction_host_id, host_response_id)
+				  VALUES ($interaction_id, '$host_response_id');
+			       );
+	    $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+         } # end if host response
+
 
 	 # add records for each of the pathogen gene mutants associated with the interaction,
 	 # using the interaction id as a foreign key to the interaction table
@@ -523,6 +596,7 @@ foreach my $int_id (1 .. $interaction_count) {
 			    );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
+=pod
       } elsif ($annot_type eq 'disease') {
 
          $disease = $annot_value;
@@ -536,6 +610,7 @@ foreach my $int_id (1 .. $interaction_count) {
 			       VALUES ($interaction_id, '$disease');
 			    );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+=cut
 
       } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' ) {
 
@@ -551,6 +626,7 @@ foreach my $int_id (1 .. $interaction_count) {
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 	 $go_annotation_count++;
 
+=pod
       } elsif ($annot_type eq 'host_response') {
 
          $host_response_id = $annot_value;
@@ -575,6 +651,7 @@ foreach my $int_id (1 .. $interaction_count) {
 			       VALUES ($interaction_id, '$host_response_id');
 			    );
 	 $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+=cut
 
       } # end elsif annotation type
 
@@ -587,9 +664,9 @@ foreach my $int_id (1 .. $interaction_count) {
 print "\nTotal interactions:$interaction_count\n";
 print "Total annotations :$annotation_count\n";
 print "Total phenotype outcomes: $phenotype_outcome_count\n";
-print "Total diseases: $disease_count\n";
+#print "Total diseases: $disease_count\n";
 print "Total GO annotations: $go_annotation_count\n";
-print "Total host responses: $host_response_count\n";
+#print "Total host responses: $host_response_count\n";
 
 #close (JSON_OUTPUT_FILE);
 
