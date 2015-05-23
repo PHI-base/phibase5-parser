@@ -84,10 +84,10 @@ CREATE TABLE interaction_literature (
     PRIMARY KEY (interaction_id, pubmed_id)
 );
 
-CREATE TABLE protein_interacting_with_mutant (
-    pathogen_gene_mutant_id integer REFERENCES pathogen_gene_mutant,
+CREATE TABLE pathogen_interacting_protein (
+    interaction_id integer REFERENCES interaction,
     uniprot_accession varchar(50),
-    PRIMARY KEY (pathogen_gene_mutant_id, uniprot_accession)
+    PRIMARY KEY (interaction_id, uniprot_accession)
 );
 
 CREATE TABLE modification_within_mutant (
