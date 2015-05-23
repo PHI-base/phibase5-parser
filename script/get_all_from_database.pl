@@ -21,7 +21,7 @@ open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output fi
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tPathogen Taxon\tDisease\tHost Taxon\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPhenotype Outcome\tDefects\tInducers\tCAS Registry IDs\tChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tHost Response\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tPathogen Interacting Proteins\tPathogen Taxon\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPhenotype Outcome\tDefects\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tHost Response\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -60,13 +60,11 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   my $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
-#  my @row2 = $sql_result2->fetchrow_array();
-#  my $obsolete_accession = shift @row2;
 
   # initalise output string for obsolete PHI-base accessions
   my $obsolete_acc_output_string = "";
 
-  # with "multiple mutant" interactions,
+  # with multiple gene interactions,
   # there may be more than one obsolete accession
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
@@ -77,11 +75,8 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # remove the final semi-colon from end of the string
   $obsolete_acc_output_string =~ s/;$//;
-  # print the list of inducers to file
+  # print the list of obsolete PHI accessions to file
   print DATABASE_DATA_FILE "$obsolete_acc_output_string\t";
-
-#  print DATABASE_DATA_FILE "$obsolete_accession\t";
-
 
   # get the pathogen gene related fields 
   $sql_stmt2 = qq(SELECT uniprot_accession,
@@ -108,13 +103,14 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $uniprot_embl_accessions = "";
   my $uniprot_go_annotation = "";
   my $path_taxons = "";
+  my $pathogen_interacting_proteins_string = "";
 
   # declare array for pathogen taxon ids
   # (will be needed to get species experts)
   my @path_taxon_ids;
 
   # since there may be multiple pathogen gene mutants in a single interaction
-  # (as in multiple mutation), need to retrieve all of them and construct
+  # (as in multiple gene interaction), need to retrieve all of them and construct
   # output string based on semi-colon delimiter
   while (my @row2 = $sql_result2->fetchrow_array()) {
 
@@ -176,7 +172,6 @@ while (my @row = $sql_result->fetchrow_array()) {
        }
      }
 
-
      # add the pathogen taxon id to the array,
      # if the taxon id is not already in the list
      # (as will be likely for multiple gene interactions)
@@ -211,6 +206,30 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   } # end while pathogen_gene_mutant records
 
+
+  # get the interacting protein uniprot accessions
+  # Note that the pathogen interacting protein is not directly connnected
+  # to a pathogen gene, since the interacting protein may be the result
+  # of a multiple gene interaction (thus is not associated with a single gene)
+  my $sql_stmt3 = qq(SELECT uniprot_accession
+                    FROM interaction,
+                         pathogen_interacting_protein
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = pathogen_interacting_protein.interaction_id
+                 ;);
+
+  my $sql_result3 = $db_conn->prepare($sql_stmt3);
+  $sql_result3->execute() or die $DBI::errstr;
+
+  # since there may be multiple interacting proteins,
+  # need to retrieve all of them and construct output string 
+  # based on comma and semi-colon delimiters
+  while (my @row3 = $sql_result3->fetchrow_array()) {
+    my $interacting_protein_uniprot_acc = shift @row3;
+    $pathogen_interacting_proteins_string .= "$interacting_protein_uniprot_acc;";
+  }
+
+
   # remove the final semi-colon from end of the strings
   $uniprot_accessions =~ s/;$//;
   $phibase_gene_names =~ s/;$//;
@@ -218,10 +237,11 @@ while (my @row = $sql_result->fetchrow_array()) {
   $uniprot_protein_names =~ s/;$//;
   $uniprot_embl_accessions =~ s/;$//;
   $uniprot_go_annotation =~ s/;$//;
+  $pathogen_interacting_proteins_string =~ s/;$//;
   $path_taxons =~ s/;$//;
 
   # print the the output file
-  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$path_taxons\t";
+  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$pathogen_interacting_proteins_string\t$path_taxons\t";
 
 
   # get the disease related fields 
@@ -268,7 +288,8 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # get the host related fields 
   $sql_stmt2 = qq(SELECT interaction_host.id,
-                         interaction_host.ncbi_taxon_id
+                         interaction_host.ncbi_taxon_id,
+                         interaction_host.first_target_uniprot_accession
                     FROM interaction,
                          interaction_host
                    WHERE interaction.id = $interaction_id
@@ -282,6 +303,15 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $interaction_host_id = shift @row2;
   my $host_taxon_id = shift @row2;
   my $host_taxon_string = $host_taxon_id;
+  my $host_target_protein = shift @row2;
+
+  # host target output string
+  my $host_target_string;
+  if (defined $host_target_protein) {
+     $host_target_string = $host_target_protein;
+  } else {
+     $host_target_string = '';
+  }
 
   # get the host taxon details from the ENA web service
   my $query = "http://www.ebi.ac.uk/ena/data/view/Taxon:$host_taxon_id&display=xml";
@@ -340,7 +370,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   }
 
   # print the host taxon details
-  print DATABASE_DATA_FILE "$host_taxon_string\t$cotyledon_output_string\t";
+  print DATABASE_DATA_FILE "$host_taxon_string\t$host_target_string\t$cotyledon_output_string\t";
 
 
   # initalise output string for tissues
@@ -500,6 +530,87 @@ while (my @row = $sql_result->fetchrow_array()) {
 
 
   # get the Inducer fields 
+  $sql_stmt2 = qq(SELECT chemical.name,
+                         cas_registry,
+                         chebi_id 
+                    FROM interaction,
+                         interaction_inducer_chemical,
+                         chemical
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_inducer_chemical.interaction_id
+                     AND chemical.id = interaction_inducer_chemical.chemical_id
+                 ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # initalise output string for Inducer names, CAS IDs, and ChEBI IDs
+  my $inducer_output_string = "";
+  my $inducer_cas_output_string = "";
+  my $inducer_chebi_output_string = "";
+
+  # since there may be multiple inducers,
+  # need to retrieve all of them and construct output string 
+  # based on semi-colon delimiter
+  while (@row2 = $sql_result2->fetchrow_array()) {
+    my $chemical = shift @row2;
+    my $cas_registry = shift @row2; 
+    my $chebi_id = shift @row2;
+    $inducer_output_string .= "$chemical;" if defined $chemical;
+    $inducer_cas_output_string .= "$cas_registry;" if defined $cas_registry;
+    $inducer_chebi_output_string .= "$chebi_id;" if defined $chebi_id;
+  }
+
+  # remove the final semi-colon from end of the strings
+  $inducer_output_string =~ s/;$//;
+  $inducer_cas_output_string =~ s/;$//;
+  $inducer_chebi_output_string =~ s/;$//;
+  # print the list of inducers to file
+  print DATABASE_DATA_FILE "$inducer_output_string\t$inducer_cas_output_string\t$inducer_chebi_output_string\t";
+
+
+  # get the Anti-infective fields 
+  $sql_stmt2 = qq(SELECT chemical.name,
+                         cas_registry,
+                         chebi_id 
+                    FROM interaction,
+                         interaction_anti_infective_chemical,
+                         chemical
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_anti_infective_chemical.interaction_id
+                     AND chemical.id = interaction_anti_infective_chemical.chemical_id
+                 ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # initalise output string for anti-infective names, CAS IDs, and ChEBI IDs
+  my $anti_infective_output_string = "";
+  my $anti_infective_cas_output_string = "";
+  my $anti_infective_chebi_output_string = "";
+
+  # since there may be multiple anti-infectives,
+  # need to retrieve all of them and construct output string 
+  # based on semi-colon delimiter
+  while (@row2 = $sql_result2->fetchrow_array()) {
+    my $chemical = shift @row2;
+    my $cas_registry = shift @row2; 
+    my $chebi_id = shift @row2;
+    $anti_infective_output_string .= "$chemical;" if defined $chemical;
+    $anti_infective_cas_output_string .= "$cas_registry;" if defined $cas_registry;
+    $anti_infective_chebi_output_string .= "$chebi_id;" if defined $chebi_id;
+  }
+
+  # remove the final semi-colon from end of the strings
+  $anti_infective_output_string =~ s/;$//;
+  $anti_infective_cas_output_string =~ s/;$//;
+  $anti_infective_chebi_output_string =~ s/;$//;
+  # print the list of anti-infectives to file
+  print DATABASE_DATA_FILE "$anti_infective_output_string\t$anti_infective_cas_output_string\t$anti_infective_chebi_output_string\t";
+
+
+=pod
+  # get the Inducer fields 
   $sql_stmt2 = qq(SELECT chemical.name
                     FROM interaction,
                          interaction_inducer_chemical,
@@ -587,6 +698,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   $chebi_output_string =~ s/;$//;
   # print the list of inducers to file
   print DATABASE_DATA_FILE "$chebi_output_string\t";
+=cut
 
 
   # get the FRAC related fields

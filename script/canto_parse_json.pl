@@ -25,7 +25,8 @@ my $disease_count = 0;
 #my $inducer_count = 0;
 #my $exp_spec_count = 0;
 
-my $json_filename = '../input/canto/paper_with_double_triple_mutants.json';
+my $json_filename = '../input/canto/paper_with_complex_annot_extension.json';
+#my $json_filename = '../input/canto/paper_with_double_triple_mutants.json';
 #my $json_filename = '../input/canto/canto_with_go.json';
 #my $json_filename = '../input/canto/canto_triple_mutant.json';
 #my $json_filename = '../input/canto/canto_phibase_extensions.json';
@@ -96,6 +97,14 @@ foreach my $annot_index (0 .. $#annotations) {
    my $host_taxon;
    my $tissue;
    my $interaction_partner;
+   my $disease;
+   my $inducer;
+   my $anti_infective;
+   my $host_interacting_protein;
+   my $pathogen_interacting_protein;
+   my $experiment_spec;
+   my $host_response_id;
+   my $pathogen_strain_id;
 
    # identify each annotation extension in the list
    foreach my $annot_ext (@annot_extensions) {
@@ -116,6 +125,65 @@ foreach my $annot_index (0 .. $#annotations) {
         $annotation_interaction_hash{'host_tissue'} = $tissue;
      }
 
+     # if the annotation extension begins with 'causes_disease', then assign value between brackets to disease
+     if ($annot_ext =~ /^causes_disease/) {
+	my @annot_ext = split(/[\(\)]/,$annot_ext);
+	$disease = $annot_ext[1];
+	# add annotation extension to help identify the correct interaction
+	$annotation_interaction_hash{'disease'} = $disease;
+     }
+
+     # if the annotation extension begins with 'host_responsee', then assign value between brackets to host_response
+     if ($annot_ext =~ /^host_response/) {
+	my @annot_ext = split(/[\(\)]/,$annot_ext);
+	$host_response_id = $annot_ext[1];
+	# add annotation extension to help identify the correct interaction
+	$annotation_interaction_hash{'host_response_id'} = $host_response_id;
+     }
+
+     # if the annotation extension begins with 'induced_by', then assign value between brackets to inducer
+     if ($annot_ext =~ /^induced_by/) {
+        my @annot_ext = split(/[\(\)]/,$annot_ext);
+        $inducer = $annot_ext[1];
+        # add annotation extension to help identify the correct interaction
+        $annotation_interaction_hash{'inducer'} = $inducer;
+     }
+
+     # if the annotation extension begins with 'anti_infective', then assign value between brackets to anti_infective
+     if ($annot_ext =~ /^anti_infective/) {
+        my @annot_ext = split(/[\(\)]/,$annot_ext);
+        $anti_infective = $annot_ext[1];
+        # add annotation extension to help identify the correct interaction
+        $annotation_interaction_hash{'anti_infective'} = $anti_infective;
+     }
+
+     # if the annotation extension begins with 'host_interacting_protein',
+     # then assign value between brackets to host_interacting_protein
+     if ($annot_ext =~ /^host_interacting_protein/) {
+        my @annot_ext = split(/[\(\)]/,$annot_ext);
+        $host_interacting_protein = $annot_ext[1];
+        # add annotation extension to help identify the correct interaction
+        $annotation_interaction_hash{'host_interacting_protein'} = $host_interacting_protein;
+     }
+
+     # if the annotation extension begins with 'pathogen_interacting_protein',
+     # then assign value between brackets to pathogen_interacting_protein
+     if ($annot_ext =~ /^pathogen_interacting_protein/) {
+        my @annot_ext = split(/[\(\)]/,$annot_ext);
+        $pathogen_interacting_protein = $annot_ext[1];
+        # add annotation extension to help identify the correct interaction
+        $annotation_interaction_hash{'pathogen_interacting_protein'} = $pathogen_interacting_protein;
+     }
+
+     # if the annotation extension begins with 'experimental_strain', then assign value between brackets to pathogen_strain_id
+     if ($annot_ext =~ /^experimental_strain/) {
+        my @annot_ext = split(/[\(\)]/,$annot_ext);
+        $pathogen_strain_id = $annot_ext[1];
+        # add annotation extension to help identify the correct interaction
+        $annotation_interaction_hash{'pathogen_strain_id'} = $pathogen_strain_id;
+     }
+
+
      # if the annotation extension begins with 'interaction_partner',
      # then assign value between brackets to interaction partner
      # (note that there can be multiple interaction partners)
@@ -128,6 +196,7 @@ foreach my $annot_index (0 .. $#annotations) {
         # add the interaction partners array to help identify the correct interaction
         $annotation_interaction_hash{'interaction_partner'} = @interaction_partners;
      }
+
 
    }
 
@@ -188,16 +257,20 @@ foreach my $int_id (1 .. $interaction_count) {
   my $curator_name;
   my $curator_email;
   my $pathogen_species;
-  my $creation_date;
+  my $host_response_id;
   my $pathogen_taxon;
-#  my $pathogen_taxon_id;
   my $phenotype_outcome;
   my $disease;
   my $go_id;
   my $go_evid_code;
-  my $host_response_id;
   my $interaction_id;
   my $experiment_spec;
+  my $inducer;
+  my $anti_infective;
+  my $host_interacting_protein;
+  my $pathogen_interacting_protein;
+  my $pathogen_strain_id;
+  my $creation_date;
 
   # declare array to hold all pathogen gene
   # involved in the interaction
@@ -227,22 +300,6 @@ foreach my $int_id (1 .. $interaction_count) {
          $pubmed_id = $annotation{'publication'};
          print "PubMed Article: $pubmed_id\n";
 
-=pod
-         # the first annotation type must be the pathogen taxon ID
-         my $annot_type = $annotations[$annot_index]{'type'};
-         my $annot_value = $annotations[$annot_index]{'term'};
-
-         # extract the pathogen taxon ID from the annotation
-         if ($annot_type eq 'pathogen_taxon') {
-            $pathogen_taxon = $annot_value;
-            print "Pathogen Taxon: $pathogen_taxon\n";
-            # the pathogen taxon is split between the name and value, separated by colon
-            # need to extract the taxon value
-            my @pathogen_taxon_parts = split(/[:]/,$pathogen_taxon);
-            $pathogen_taxon_id = $pathogen_taxon_parts[1];
-         }
-=cut
-
          my @gene_organism_list = keys $annotation{'genes'};
          my $gene_organism_name = $gene_organism_list[0];
          $uniprot_acc = $annotation{'genes'}{$gene_organism_name}{'uniquename'};
@@ -271,19 +328,51 @@ foreach my $int_id (1 .. $interaction_count) {
 
             # if the annotation extension begins with 'causes_disease', then assign value between brackets to disease
             if ($annot_ext =~ /^causes_disease/) {
-print "Disease Annot Ext:$annot_ext\n";
               my @annot_ext = split(/[\(\)]/,$annot_ext);
               $disease = $annot_ext[1];
-print "Disease ID:$disease\n";
             }
 
             # if the annotation extension begins with 'host_responsee', then assign value between brackets to host_response
             if ($annot_ext =~ /^host_response/) {
-print "Host Response Annot Ext:$annot_ext\n";
               my @annot_ext = split(/[\(\)]/,$annot_ext);
               $host_response_id = $annot_ext[1];
-print "Host Response ID:$host_response_id\n";
             }
+
+	    # if the annotation extension begins with 'induced_by', then assign value between brackets to inducer
+	    if ($annot_ext =~ /^induced_by/) {
+	       my @annot_ext = split(/[\(\)]/,$annot_ext);
+	       $inducer = $annot_ext[1];
+	    }
+
+	    # if the annotation extension begins with 'anti_infective', then assign value between brackets to anti_infective
+	    if ($annot_ext =~ /^anti_infective/) {
+	       my @annot_ext = split(/[\(\)]/,$annot_ext);
+	       $anti_infective = $annot_ext[1];
+	    }
+
+	    # if the annotation extension begins with 'host_interacting_protein',
+	    # then assign value between brackets to host_interacting_protein
+	    if ($annot_ext =~ /^host_interacting_protein/) {
+	       my @annot_ext = split(/[\(\)]/,$annot_ext);
+	       $host_interacting_protein = $annot_ext[1];
+	       # UniProt accession is the interacting protein with 'UniProt:' prefix removed
+	       $host_interacting_protein = substr($host_interacting_protein,8);
+	    }
+
+	    # if the annotation extension begins with 'pathogen_interacting_protein',
+	    # then assign value between brackets to pathogen_interacting_protein
+	    if ($annot_ext =~ /^pathogen_interacting_protein/) {
+	       my @annot_ext = split(/[\(\)]/,$annot_ext);
+	       $pathogen_interacting_protein = $annot_ext[1];
+	       # UniProt accession is the interacting protein with 'UniProt:' prefix removed
+	       $pathogen_interacting_protein = substr($pathogen_interacting_protein,8);
+	    }
+
+	    # if the annotation extension begins with 'experimental_strain', then assign value between brackets to pathogen_strain_id
+	    if ($annot_ext =~ /^experimental_strain/) {
+	       my @annot_ext = split(/[\(\)]/,$annot_ext);
+	       $pathogen_strain_id = $annot_ext[1];
+	    }
 
             # if the annotation extension begins with 'interaction_partner',
             # then assign value between brackets to interaction partner
@@ -313,6 +402,11 @@ print "Host Response ID:$host_response_id\n";
          print "Tissue: $tissue\n";
          print "Disease: $disease\n";
          print "Host Response: $host_response_id\n";
+         print "Inducer: $inducer\n";
+         print "Anti-infective: $anti_infective\n";
+         print "Host Interaction protein: $host_interacting_protein\n";
+         print "Pathogen Interaction protein: $pathogen_interacting_protein\n";
+         print "Pathogen Strain ID: $pathogen_strain_id\n";
 
          $curator_name = $annotation{'curator'}{'name'};
          $curator_email = $annotation{'curator'}{'email'};
@@ -329,6 +423,14 @@ print "Host Response ID:$host_response_id\n";
          # declare array to hold the list of IDs from the pathogen_gene_mutant table 
          my @pathogen_gene_mutant_ids;
 
+         # if a pathogen strain taxon ID has been explicitly given in the annotation extension
+         # then this taxon ID should be used for all interactions, otherwise use the taxon ID
+         # retrieved from the UniProt accessions supplied
+         if (defined $pathogen_strain_id) {
+	    # pathogen taxon id becomes the strain taxon with 'NCBItaxon:' prefix removed
+            $pathogen_taxon_id = substr($pathogen_strain_id,10);
+         }
+
 	 # insert data into the pathogen_gene table, for each pathogen gene
 	 # if it does not exist already (based on combination of taxon id and gene name)
 	 # FOR CANTO, USE UNIPROT ID, INSTEAD OF GENE NAME
@@ -339,7 +441,7 @@ print "Host Response ID:$host_response_id\n";
 	 foreach my $pathogen_gene_uniprot_acc (@pathogen_genes) {
 
 	    my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, gene_name) 
-				    SELECT $pathogen_taxon_id,'$uniprot_acc'
+				    SELECT $pathogen_taxon_id,'$pathogen_gene_uniprot_acc'
 				    WHERE NOT EXISTS (
 				      SELECT 1 FROM pathogen_gene
 				      WHERE ncbi_taxon_id = $pathogen_taxon_id
@@ -428,10 +530,20 @@ print "Host Response ID:$host_response_id\n";
 	 # add records for the literature, host, and tissue tables associated with the interaction,
 	 # using the interaction id as a foreign key to the interaction table (where values exist)
          if (defined $host_taxon_id) {
-	    my $inner_sql_statement = qq(
+            # if the host interacting protein is defined, then this is also added to the interaction_host table,
+            # otherwise, it is left out of the SQL insert statement
+            my $inner_sql_statement;
+            if (defined $host_interacting_protein) {
+	       $inner_sql_statement = qq(
+					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id,first_target_uniprot_accession) 
+					   VALUES ($interaction_id,$host_taxon_id,'$host_interacting_protein');
+					);
+            } else {
+	       $inner_sql_statement = qq(
 					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
 					   VALUES ($interaction_id,$host_taxon_id);
 					);
+            }
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
          }
          if (defined $tissue) {
@@ -448,6 +560,13 @@ print "Host Response ID:$host_response_id\n";
 					);
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
          }
+	 if (defined $pathogen_interacting_protein) {
+	    my $inner_sql_statement = qq(
+	                                 INSERT INTO pathogen_interacting_protein (interaction_id, uniprot_accession)
+				           VALUES ($interaction_id, '$pathogen_interacting_protein');
+					);
+	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+	 }
          if (defined $pubmed_id_num) {
 	    my $inner_sql_statement = qq(
 					 INSERT INTO interaction_literature (interaction_id, pubmed_id)
@@ -458,8 +577,6 @@ print "Host Response ID:$host_response_id\n";
 
 
          if (defined $host_response_id) {
-
-	    print "Host Response: $host_response_id\n";
 
 	    # before we can insert the host response,
 	    # we need to get the identifier for the appropriate host
@@ -482,6 +599,76 @@ print "Host Response ID:$host_response_id\n";
 	    $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
          } # end if host response
+
+
+         if (defined $inducer) {
+
+	    # insert data into the chemical_table,
+	    # if it does not exist already (based on the ChEBI ID)
+	    my $sql_statement = qq(INSERT INTO chemical (chebi_id) 
+				      SELECT '$inducer'
+				    WHERE NOT EXISTS (
+				      SELECT 1 FROM chemical
+				      WHERE chebi_id = '$inducer'
+				    )
+				  );
+
+	    my $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+
+	    # before we can insert the inducer chemical,
+	    # we need to get the identifier for the chemical
+	    $sql_statement = qq(SELECT id FROM chemical
+				     WHERE chebi_id = '$inducer'
+				  );
+	    $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+	    my @row = $sql_result->fetchrow_array();
+	    my $chemical_id = shift @row;
+
+            # insert data into interaction_inducer_chemical table,
+            # with foreign keys to the interaction table and the chemical table 
+	    $sql_statement = qq(INSERT INTO interaction_inducer_chemical (interaction_id, chemical_id)
+                                  VALUES ($interaction_id, $chemical_id);
+                               );
+	    $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+         } # end if inducer
+
+
+         if (defined $anti_infective) {
+
+	    # insert data into the chemical_table,
+	    # if it does not exist already (based on the ChEBI ID)
+	    my $sql_statement = qq(INSERT INTO chemical (chebi_id) 
+				      SELECT '$anti_infective'
+				    WHERE NOT EXISTS (
+				      SELECT 1 FROM chemical
+				      WHERE chebi_id = '$anti_infective'
+				    )
+				  );
+
+	    my $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+
+	    # before we can insert the anti-infective chemical,
+	    # we need to get the identifier for the chemical
+	    $sql_statement = qq(SELECT id FROM chemical
+				     WHERE chebi_id = '$anti_infective'
+				  );
+	    $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+	    my @row = $sql_result->fetchrow_array();
+	    my $chemical_id = shift @row;
+
+            # insert data into interaction_anti_infective_chemical table,
+            # with foreign keys to the interaction table and the chemical table 
+	    $sql_statement = qq(INSERT INTO interaction_anti_infective_chemical (interaction_id, chemical_id)
+                                  VALUES ($interaction_id, $chemical_id);
+                               );
+	    $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+         } # end if anti-infective
 
 
 	 # add records for each of the pathogen gene mutants associated with the interaction,
