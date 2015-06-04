@@ -19,6 +19,17 @@ my $db_conn = connect_to_phibase(); # connect to PHI-base database
 my $db_data_filename = '../output/all_database_data.tsv';  
 open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output file\n";
 
+# create hash for JSON output
+# and assign an empty array of interactions to the hash
+my %json_output = ();
+my @interactions = ();
+$json_output{"interactions"} = \@interactions;
+
+# test if the JSON output produces proper hash string
+#use Data::Dumper;
+#print Dumper(\%json_output)."\n";
+#die;
+
 # print the headers for the output file
 print DATABASE_DATA_FILE 
 "New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tPathogen Interacting Proteins\tPathogen Taxon\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPhenotype Outcome\tDefects\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tHost Response\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
@@ -47,11 +58,20 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   $interaction_count++;
 
+  # create a new annotation 
+#  $json_output{"interaction"} = $interaction_count;
+#  push(@interactions,$interaction_count); 
+  my %interaction_hash = ();
+#print @interactions;
+
   my $interaction_id = shift @row;
   my $phibase_accession = shift @row;
   my $curation_date = shift @row;
 
   print DATABASE_DATA_FILE "$phibase_accession\t";
+#  $json_output[$interaction_count]{"phibase_accession"} = $phibase_accession;
+#  $interactions[$interaction_count] = $phibase_accession;
+  $interaction_hash{"phibase_accession"} = $phibase_accession;
 
   # get the obsolete PHI-base accession(s)
   my $sql_stmt2 = qq(SELECT obsolete_accession FROM obsolete
@@ -77,6 +97,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   $obsolete_acc_output_string =~ s/;$//;
   # print the list of obsolete PHI accessions to file
   print DATABASE_DATA_FILE "$obsolete_acc_output_string\t";
+  $interaction_hash{"obsolete_accession"} = $obsolete_acc_output_string;
 
   # get the pathogen gene related fields 
   $sql_stmt2 = qq(SELECT uniprot_accession,
@@ -1049,6 +1070,10 @@ while (my @row = $sql_result->fetchrow_array()) {
   # finally, output curation date
   print DATABASE_DATA_FILE "$curation_date\n";
 
+  # add the interaction hashref to the array of interactions
+  # note the backslash used to deference the hash
+  push(@interactions,\%interaction_hash);
+ 
   # print message for every 50th PHI-base interaction processed
   print "PHI-base annotations processed:$interaction_count\n" unless ($interaction_count % 50);
 
@@ -1058,6 +1083,17 @@ close (DATABASE_DATA_FILE);
 
 $sql_result->finish() or die "Failed to finish SQL statement\n";
 $db_conn->disconnect() or die "Failed to disconnect database\n";
+
+# encode JSON output hash into JSON format
+# Note that the encode_json requires a hashref, not the hash itself
+# so it's prefixed with backslash
+my $json_data = encode_json(\%json_output);
+print $json_data."\n";
+
+# test if the JSON output produces proper hash string
+use Data::Dumper;
+my $json_string = decode_json($json_data);
+print Dumper($json_string)."\n";
 
 print "\nProcess completed successfully.\n";
 print "Total interactions:$interaction_count\n";
