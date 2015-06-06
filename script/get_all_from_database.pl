@@ -25,11 +25,6 @@ my %json_output = ();
 my @interactions = ();
 $json_output{"interactions"} = \@interactions;
 
-# test if the JSON output produces proper hash string
-#use Data::Dumper;
-#print Dumper(\%json_output)."\n";
-#die;
-
 # print the headers for the output file
 print DATABASE_DATA_FILE 
 "New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tPathogen Interacting Proteins\tPathogen Taxon\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPhenotype Outcome\tDefects\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tHost Response\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
@@ -54,26 +49,29 @@ my $brenda_tissue_ontology = $obo_parser->work("../ontology/Tissue/BrendaTissueO
 
 print "Parsing PHI-base data...\n";
 
+# iterate through all interactions,
+# getting all of the details associated with each one,
+# and outputing in both tab-separated format and JSON format
 while (my @row = $sql_result->fetchrow_array()) {
 
+  # increment interaction counter
   $interaction_count++;
 
-  # create a new annotation 
-#  $json_output{"interaction"} = $interaction_count;
-#  push(@interactions,$interaction_count); 
+  # create a new interaction hash to store 
+  # details of each interaction for JSON output 
   my %interaction_hash = ();
-#print @interactions;
 
+  # retrieve data from current row of SQL result
   my $interaction_id = shift @row;
   my $phibase_accession = shift @row;
   my $curation_date = shift @row;
 
+  # output PHI-base accession to file and hash
   print DATABASE_DATA_FILE "$phibase_accession\t";
-#  $json_output[$interaction_count]{"phibase_accession"} = $phibase_accession;
-#  $interactions[$interaction_count] = $phibase_accession;
   $interaction_hash{"phibase_accession"} = $phibase_accession;
 
   # get the obsolete PHI-base accession(s)
+  # (for multiple gene interactions their may be multiple obsolete accessions)
   my $sql_stmt2 = qq(SELECT obsolete_accession FROM obsolete
                        WHERE phi_base_accession = '$phibase_accession';
                     );
@@ -81,23 +79,29 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
-  # initalise output string for obsolete PHI-base accessions
+  # initalise output string and array for obsolete PHI-base accessions
   my $obsolete_acc_output_string = "";
+  my @obsolete_acc_array;
 
   # with multiple gene interactions,
   # there may be more than one obsolete accession
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
+  # and accession to the array of accessions
   while (my @row2 = $sql_result2->fetchrow_array()) {
     my $obsolete_accession = shift @row2;
     $obsolete_acc_output_string .= "$obsolete_accession;";
+    push(@obsolete_acc_array, $obsolete_accession);
   }
 
   # remove the final semi-colon from end of the string
   $obsolete_acc_output_string =~ s/;$//;
   # print the list of obsolete PHI accessions to file
+  # and add array to the interaction hash
   print DATABASE_DATA_FILE "$obsolete_acc_output_string\t";
-  $interaction_hash{"obsolete_accession"} = $obsolete_acc_output_string;
+  if (@obsolete_acc_array) {
+    $interaction_hash{"obsolete_accessions"} = \@obsolete_acc_array;
+  }
 
   # get the pathogen gene related fields 
   $sql_stmt2 = qq(SELECT uniprot_accession,
@@ -124,11 +128,12 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $uniprot_embl_accessions = "";
   my $uniprot_go_annotation = "";
   my $path_taxons = "";
-  my $pathogen_interacting_proteins_string = "";
+  my $pathogen_interacting_proteins = "";
 
-  # declare array for pathogen taxon ids
-  # (will be needed to get species experts)
-  my @path_taxon_ids;
+  # declare arrays for JSON output
+  my @path_taxon_id_array;
+  my @path_taxon_array;
+  my @pathogen_gene_array;
 
   # since there may be multiple pathogen gene mutants in a single interaction
   # (as in multiple gene interaction), need to retrieve all of them and construct
@@ -139,9 +144,16 @@ while (my @row = $sql_result->fetchrow_array()) {
      my $phibase_gene_name = shift @row2;
      my $path_taxon_id = shift @row2;
 
+     # create a new pathogen gene hash to store 
+     # details of each pathogen gene for JSON output 
+     my %pathogen_gene_hash = ();
+
      # append UniProt accession and PHI-base gene name to lists
+     # and add them to the pathogen gene hash
      $uniprot_accessions .= "$uniprot_acc;";
      $phibase_gene_names .= "$phibase_gene_name;";
+     $pathogen_gene_hash{"uniprot_acc"} = $uniprot_acc;
+     $pathogen_gene_hash{"phibase_gene_name"} = $phibase_gene_name;
 
      # get corresponding data from UniProt
 
@@ -154,51 +166,69 @@ while (my @row = $sql_result->fetchrow_array()) {
      my $uniprot_details_string = $gene_names_plus_header[1]; # the uniprot details is second element, after the header
      my @uniprot_fields = split ("\t",$uniprot_details_string); # split into header & gene names
 
-     my $gene_names_string = $uniprot_fields[0]; # the gene names string is second element, after the header
-     # check if any gene names have been defined
+     my $gene_names_string = $uniprot_fields[0]; # the gene names string is the first element of the uniprot fields
+     # add the gene names to the TSV and JSON output
      if (defined $gene_names_string) {
+       my @uniprot_gene_name_array;
        my @gene_names = split (" ",$gene_names_string); # split into array of individual gene names
        foreach my $gene_name (@gene_names) {
          $uniprot_gene_names .= "$gene_name;";
+         push(@uniprot_gene_name_array, $gene_name);
        }
+       $pathogen_gene_hash{"uniprot_gene_names"} = \@uniprot_gene_name_array;
      }
 
-     my $embl_ids_string = $uniprot_fields[1]; # the EMBL IDs string is second element, after the header
+     my $embl_ids_string = $uniprot_fields[1]; # the EMBL IDs string is the second element of the uniprot fields
+     # add the EMBL IDs to the TSV and JSON output
      if (defined $embl_ids_string) {
+       my @uniprot_embl_acc_array;
        my @embl_ids = split (";",$embl_ids_string); # split into array of individual EMBL IDs, wrich are delimited by semi-colon
        foreach my $embl_id (@embl_ids) 
        {
          $uniprot_embl_accessions .= "$embl_id;";
+         push(@uniprot_embl_acc_array, $embl_id);
        }
+       $pathogen_gene_hash{"uniprot_embl_accessions"} = \@uniprot_embl_acc_array;
      }
 
-     my $protein_names_string = $uniprot_fields[2]; # the EMBL IDs string is second element, after the header
+     my $protein_names_string = $uniprot_fields[2]; # the protein names string is the third element of the uniprot fields
+     # add the protein names to the TSV and JSON output
      if (defined $protein_names_string) {
+       my @uniprot_protein_name_array;
        my @protein_names = split (";",$protein_names_string); # split into array of individual EMBL IDs, wrich are delimited by semi-colon
        foreach my $protein_name (@protein_names) 
        {
          $uniprot_protein_names .= "$protein_name;";
+         push(@uniprot_protein_name_array,$protein_name);
        }
+       $pathogen_gene_hash{"uniprot_protein_names"} = \@uniprot_protein_name_array;
      }
 
-     my $go_ids_string = $uniprot_fields[3]; # the EMBL IDs string is second element, after the header
-     my $go_names_string = $uniprot_fields[4]; # the EMBL IDs string is second element, after the header
+     my $go_ids_string = $uniprot_fields[3]; # the GO IDs string is the fourth element of the uniprot fields
+     my $go_names_string = $uniprot_fields[4]; # the GO names string is the fifth element of the uniprot fields
+     # add the gene ontology annotation to the TSV and JSON output
      if (defined $go_ids_string) {
+       my @uniprot_go_array;
        my @go_ids = split (";",$go_ids_string); # split into array of individual EMBL IDs, wrich are delimited by semi-colon
        my @go_names = split (";",$go_names_string); # split into array of individual EMBL IDs, wrich are delimited by semi-colon
        foreach my $go_id (@go_ids) 
        {
+         my %go_hash;
          my $go_name = shift @go_names;
          $uniprot_go_annotation .= "$go_id:$go_name;";
+         $go_hash{"go_id"} = $go_id;
+         $go_hash{"go_name"} = $go_name;
+         push(@uniprot_go_array,\%go_hash);
        }
+       $pathogen_gene_hash{"uniprot_go_annotations"} = \@uniprot_go_array;
      }
 
      # add the pathogen taxon id to the array,
      # if the taxon id is not already in the list
      # (as will be likely for multiple gene interactions)
      my $path_taxon_already_displayed = 0;
-     if (not $path_taxon_id ~~ @path_taxon_ids ) {
-       push(@path_taxon_ids,$path_taxon_id);
+     if (not $path_taxon_id ~~ @path_taxon_id_array ) {
+       push(@path_taxon_id_array, $path_taxon_id);
      } else {
        $path_taxon_already_displayed = 1;
      }
@@ -217,16 +247,32 @@ while (my @row = $sql_result->fetchrow_array()) {
 
      # print the pathogen taxon details, with name if available
      # (if the current taxon has not already been displayed)
+     # and add the taxon details to the relevant array for JSON output
      if (not $path_taxon_already_displayed) {
        if (defined $path_taxon_name) {
 	   $path_taxons .= "$path_taxon_id:$path_taxon_name;";
+           my %path_taxon;
+           $path_taxon{"pathogen_taxon_id"} = $path_taxon_id;
+           $path_taxon{"pathogen_taxon_name"} = $path_taxon_name;
+           push (@path_taxon_array, \%path_taxon);
        } else { # just print id
 	   $path_taxons .= "$path_taxon_id;";
        }
      }
 
+     # add the current pathogen gene to the array of all pathogen genes
+     # (there will be multiple genes for a multiple gene interaction)
+     push(@pathogen_gene_array,\%pathogen_gene_hash);
+
   } # end while pathogen_gene_mutant records
 
+  # add all of the gene data taxon data to the interaction_hash for JSON output
+  if (@pathogen_gene_array) {
+    $interaction_hash{"pathogen_genes"} = \@pathogen_gene_array;
+  }
+  if (@path_taxon_array) {
+    $interaction_hash{"pathogen_taxons"} = \@path_taxon_array;
+  }
 
   # get the interacting protein uniprot accessions
   # Note that the pathogen interacting protein is not directly connnected
@@ -245,11 +291,18 @@ while (my @row = $sql_result->fetchrow_array()) {
   # since there may be multiple interacting proteins,
   # need to retrieve all of them and construct output string 
   # based on comma and semi-colon delimiters
+  # and add the interacting proteins to the array for JSON output
+  my @pathogen_interacting_protein_array;
   while (my @row3 = $sql_result3->fetchrow_array()) {
     my $interacting_protein_uniprot_acc = shift @row3;
-    $pathogen_interacting_proteins_string .= "$interacting_protein_uniprot_acc;";
+    $pathogen_interacting_proteins .= "$interacting_protein_uniprot_acc;";
+    push(@pathogen_interacting_protein_array, $interacting_protein_uniprot_acc);
   }
 
+  # add the list of interacting proteins to the interaction hash for JSON output
+  if (@pathogen_interacting_protein_array) {
+    $interaction_hash{"pathogen_interacting_proteins"} = \@pathogen_interacting_protein_array;
+  }
 
   # remove the final semi-colon from end of the strings
   $uniprot_accessions =~ s/;$//;
@@ -258,11 +311,11 @@ while (my @row = $sql_result->fetchrow_array()) {
   $uniprot_protein_names =~ s/;$//;
   $uniprot_embl_accessions =~ s/;$//;
   $uniprot_go_annotation =~ s/;$//;
-  $pathogen_interacting_proteins_string =~ s/;$//;
+  $pathogen_interacting_proteins =~ s/;$//;
   $path_taxons =~ s/;$//;
 
-  # print the the output file
-  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$pathogen_interacting_proteins_string\t$path_taxons\t";
+  # print to the output file
+  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$pathogen_interacting_proteins\t$path_taxons\t";
 
 
   # get the disease related fields 
@@ -301,6 +354,13 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     # now print the disease id and name 
     print DATABASE_DATA_FILE "$disease_id:$disease_name\t";
+
+    # create a hash of the disease details
+    # and add this to the interaction hash for JSON output
+    my %disease_hash;
+    $disease_hash{"disease_id"} = $disease_id;
+    $disease_hash{"disease_name"} = $disease_name;
+    $interaction_hash{"disease"} = \%disease_hash;
 
   } else { # no disease found
     print DATABASE_DATA_FILE "\t";
@@ -904,7 +964,7 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     # need to determine if the curator is a species expert
     # based on the taxon ids of the pathogens in this interaction
-    foreach my $path_taxon_id (@path_taxon_ids) {
+    foreach my $path_taxon_id (@path_taxon_id_array) {
 
        my $sql_stmt4 = qq(SELECT curator_id
                             FROM species_expert,
@@ -982,7 +1042,7 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     # need to determine if the approver is a species expert
     # based on the taxon ids of the pathogens in this interaction
-    foreach my $path_taxon_id (@path_taxon_ids) {
+    foreach my $path_taxon_id (@path_taxon_id_array) {
 
        my $sql_stmt4 = qq(SELECT curator_id
                             FROM species_expert,
@@ -1069,6 +1129,7 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # finally, output curation date
   print DATABASE_DATA_FILE "$curation_date\n";
+  $interaction_hash{"curation_date"} = $curation_date;
 
   # add the interaction hashref to the array of interactions
   # note the backslash used to deference the hash
