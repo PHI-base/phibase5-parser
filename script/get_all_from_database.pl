@@ -15,9 +15,13 @@ use phibase_subroutines
 
 my $db_conn = connect_to_phibase(); # connect to PHI-base database
 
-# open output file
+# open output file for tab-separated data
 my $db_data_filename = '../output/all_database_data.tsv';  
 open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output file\n";
+
+# open output file for JSON encoded data
+my $json_data_filename = '../output/all_database_data.json';  
+open (JSON_DATA_FILE, "> $json_data_filename") or die "Error opening output file\n";
 
 # create hash for JSON output
 # and assign an empty array of interactions to the hash
@@ -127,10 +131,11 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $uniprot_protein_names = "";
   my $uniprot_embl_accessions = "";
   my $uniprot_go_annotation = "";
-  my $path_taxons = "";
+  my $path_taxa = "";
   my $pathogen_interacting_proteins = "";
 
   # declare arrays for JSON output
+  # (taxon ID array required to check if curator is species expert)
   my @path_taxon_id_array;
   my @path_taxon_array;
   my @pathogen_gene_array;
@@ -250,13 +255,13 @@ while (my @row = $sql_result->fetchrow_array()) {
      # and add the taxon details to the relevant array for JSON output
      if (not $path_taxon_already_displayed) {
        if (defined $path_taxon_name) {
-	   $path_taxons .= "$path_taxon_id:$path_taxon_name;";
+	   $path_taxa .= "$path_taxon_id:$path_taxon_name;";
            my %path_taxon;
            $path_taxon{"pathogen_taxon_id"} = $path_taxon_id;
            $path_taxon{"pathogen_taxon_name"} = $path_taxon_name;
            push (@path_taxon_array, \%path_taxon);
        } else { # just print id
-	   $path_taxons .= "$path_taxon_id;";
+	   $path_taxa .= "$path_taxon_id;";
        }
      }
 
@@ -271,7 +276,7 @@ while (my @row = $sql_result->fetchrow_array()) {
     $interaction_hash{"pathogen_genes"} = \@pathogen_gene_array;
   }
   if (@path_taxon_array) {
-    $interaction_hash{"pathogen_taxons"} = \@path_taxon_array;
+    $interaction_hash{"pathogen_taxa"} = \@path_taxon_array;
   }
 
   # get the interacting protein uniprot accessions
@@ -312,10 +317,10 @@ while (my @row = $sql_result->fetchrow_array()) {
   $uniprot_embl_accessions =~ s/;$//;
   $uniprot_go_annotation =~ s/;$//;
   $pathogen_interacting_proteins =~ s/;$//;
-  $path_taxons =~ s/;$//;
+  $path_taxa =~ s/;$//;
 
   # print to the output file
-  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$pathogen_interacting_proteins\t$path_taxons\t";
+  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$pathogen_interacting_proteins\t$path_taxa\t";
 
 
   # get the disease related fields 
@@ -367,6 +372,9 @@ while (my @row = $sql_result->fetchrow_array()) {
   }
 
 
+  # create a hash to store details of the host for JSON output 
+  my %host_hash = ();
+
   # get the host related fields 
   $sql_stmt2 = qq(SELECT interaction_host.id,
                          interaction_host.ncbi_taxon_id,
@@ -386,10 +394,11 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $host_taxon_string = $host_taxon_id;
   my $host_target_protein = shift @row2;
 
-  # host target output string
+  # save host target protein to output
   my $host_target_string;
   if (defined $host_target_protein) {
      $host_target_string = $host_target_protein;
+     $host_hash{"host_target_protein"} = $host_target_protein;
   } else {
      $host_target_string = '';
   }
@@ -403,19 +412,26 @@ while (my @row = $sql_result->fetchrow_array()) {
   $xml_twig->parse($xml_response);
 
   # parse the XML data to get the relevant host taxon info
+  my %host_taxon_hash;
   my $host_taxon = $xml_twig->root->first_child('taxon');
   my $host_taxon_name = $host_taxon->{'att'}->{'scientificName'};
   $host_taxon_string .= ":$host_taxon_name"; 
+  $host_taxon_hash{"host_taxon_id"} = $host_taxon_id;
+  $host_taxon_hash{"host_taxon_sci_name"} = $host_taxon_name;
 
   # need to check if common name exists for this taxon
   my $host_taxon_common_name;
   if ($host_taxon->{'att'}->{'commonName'}) {
     $host_taxon_common_name = "$host_taxon->{'att'}->{'commonName'}";
     $host_taxon_string .= " ($host_taxon_common_name) "; 
+    $host_taxon_hash{"host_taxon_common_name"} = $host_taxon_common_name;
   }
 
+  # add the host taxon details to the host hash for JSON
+  $host_hash{"host_taxon"} = \%host_taxon_hash;
+
   # get all the taxon ids for the lineage of the current taxon
-  my @lineage_taxons = $host_taxon->first_child('lineage')->children('taxon');
+  my @lineage_taxa = $host_taxon->first_child('lineage')->children('taxon');
 
   # cotyledon output string
   my $cotyledon_output_string;
@@ -425,7 +441,7 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # check each of the lineage taxon IDs against the taxon IDs for monocot (4447) or dicot (71240)
   # then print the appropriate label for the host taxon
-  foreach my $lineage_taxon (@lineage_taxons) {
+  foreach my $lineage_taxon (@lineage_taxa) {
 
      my $lineage_taxon_id = $lineage_taxon->{'att'}->{'taxId'};
 
@@ -454,8 +470,9 @@ while (my @row = $sql_result->fetchrow_array()) {
   print DATABASE_DATA_FILE "$host_taxon_string\t$host_target_string\t$cotyledon_output_string\t";
 
 
-  # initalise output string for tissues
+  # initalise output string and array for tissues
   my $tissue_output_string = "";
+  my @host_tissues;
 
   # get the tissue term identifiers
   $sql_stmt2 = qq(SELECT brenda_tissue_id
@@ -475,19 +492,31 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     my $tissue_id = shift @row2;
 
+    # create hash for the host tissue
+    my %tissue_hash;
+
     # use the tissue ontology to retrieve the term name, based on the identifier
     my $tissue_name = $brenda_tissue_ontology->get_term_by_id($tissue_id)->name;
     $tissue_output_string .= "$tissue_id:$tissue_name;";
-
+    $tissue_hash{"tissue_id"} = $tissue_id;
+    $tissue_hash{"tissue_name"} = $tissue_name;
+    
+    # add the current tissue to array of tissues
+    push(@host_tissues, \%tissue_hash);
+ 
   }
 
   # remove the final semi-colon from end of the string
   $tissue_output_string =~ s/;$//;
   # output the tissues
   print DATABASE_DATA_FILE "$tissue_output_string\t";
+  # add the array of tissues to the host hash for JSON output
+  if (@host_tissues) {
+    $host_hash{"host_tissues"} = \@host_tissues;
+  }
 
 
-  # get the Gene Ontology annotation fields 
+  # get the PHI-base curated Gene Ontology annotation fields 
   $sql_stmt2 = qq(SELECT go_id,
                          go_evidence_code
                     FROM interaction,
@@ -499,17 +528,25 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
-  # initalise output string for GO terms
+  # initalise output string for GO terms and array for JSON output
   my $go_output_string = "";
+  my @phibase_go_annotations;
 
   # since there may be multiple GO terms,
   # need to retrieve all of them and construct output string 
   # based on comma and semi-colon delimiters
   while (@row2 = $sql_result2->fetchrow_array()) {
 
+    # create a hash for the current go annotation
+    my %go_annotation;
+
     my $go_id = shift @row2;
     my $go_evid_code = shift @row2;
     my $go_term = "";
+
+    # add ID and evidence to the hash
+    $go_annotation{"go_id"} = $go_id;
+    $go_annotation{"go_evidence_code"} = $go_evid_code;
 
     # retrieve the name of the GO term, using the Quick REST web service
     my $query = "http://www.ebi.ac.uk/QuickGO/GTerm?id=$go_id&format=oboxml";
@@ -529,9 +566,13 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     if (defined $go_evid_code) {  # GO term with evid code
       $go_output_string .= "$go_id($go_evid_code):$go_term;";
+      $go_annotation{"go_term_name"} = $go_term;
     } else {  # GO term without evid code
       $go_output_string .= "$go_id:$go_term;";
     }
+
+    # add the current GO annotation to the list of PHI-base curated GO annotation
+    push(@phibase_go_annotations, \%go_annotation);
 
   }
 
@@ -542,9 +583,13 @@ while (my @row = $sql_result->fetchrow_array()) {
   # followed by the additional GO terms curated into PHI-base
   print DATABASE_DATA_FILE "$uniprot_go_annotation\t$go_output_string\t";
 
+  # add the phibase GO annotation to the interaction hash
+  $interaction_hash{"phibase_go_annotations"} = \@phibase_go_annotations;
 
-  # initalise output string for phenotype outcomes
+
+  # initalise output string for phenotype outcomes and array for JSON output
   my $phenotype_outcome_string = "";
+  my @phenotype_outcomes;
 
   # get the phenotype outcome term identifiers
   $sql_stmt2 = qq(SELECT phenotype_outcome_id
@@ -562,11 +607,19 @@ while (my @row = $sql_result->fetchrow_array()) {
   # based on comma and semi-colon delimiters
   while (@row2 = $sql_result2->fetchrow_array()) {
 
+    # create phenotype hash for JSON output
+    my %phenotype_hash;
+
     my $phenotype_outcome_id = shift @row2;
 
     # use the phenotype outcome ontology to retrieve the term name, based on the identifier
-    my $phen_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
-    $phenotype_outcome_string .= "$phenotype_outcome_id:$phen_outcome_name;";
+    my $phenotype_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
+    $phenotype_outcome_string .= "$phenotype_outcome_id:$phenotype_outcome_name;";
+    $phenotype_hash{"phenotype_outcome_id"} = $phenotype_outcome_id;
+    $phenotype_hash{"phenotype_outcome_name"} = $phenotype_outcome_name;
+
+    # add the current phenotype to the list of phenotypes
+    push(@phenotype_outcomes, \%phenotype_hash);
 
   }
 
@@ -574,7 +627,11 @@ while (my @row = $sql_result->fetchrow_array()) {
   $phenotype_outcome_string =~ s/;$//;
   # output the Phenotype Outcomes
   print DATABASE_DATA_FILE "$phenotype_outcome_string\t";
-
+  # add the phenotypes outcomes to the interaction hash for JSON output
+  if (@phenotype_outcomes) {
+    $interaction_hash{"phenotype_outcomes"} = \@phenotype_outcomes;
+  }
+ 
 
   # get the Defect fields 
   $sql_stmt2 = qq(SELECT defect_attribute.attribute,
@@ -592,22 +649,37 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
-  # initalise output string for defects
+  # initalise output string and JSON array for defects
   my $defect_output_string = "";
+  my @defects;
 
   # since there may be multiple defects,
   # need to retrieve all of them and construct output string 
   # based on colon and semi-colon delimiters
   while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create a defect hash for JSON output
+    my %defect_hash;
+
     my $attribute = shift @row2;
     my $value = shift @row2;
     $defect_output_string .= "$attribute:$value;";
+    $defect_hash{"defect_attribute"} = $attribute;
+    $defect_hash{"defect_value"} = $value;
+
+    # add the current defect to the list of defects
+    push(@defects, \%defect_hash);
+
   }
 
   # remove the final semi-colon from end of the string
   $defect_output_string =~ s/;$//;
-  # print the list of GO terms to file
+  # print the list of defects to file
   print DATABASE_DATA_FILE "$defect_output_string\t";
+  # add the list of defects to the interaction hash for JSON output
+  if (@defects) {
+    $interaction_hash{"defects"} = \@defects;
+  }
 
 
   # get the Inducer fields 
@@ -625,6 +697,9 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
+  # create an array of inducers for JSON output
+  my @inducers;
+
   # initalise output string for Inducer names, CAS IDs, and ChEBI IDs
   my $inducer_output_string = "";
   my $inducer_cas_output_string = "";
@@ -634,12 +709,30 @@ while (my @row = $sql_result->fetchrow_array()) {
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create hash for the inducer
+    my %inducer_hash;
+
     my $chemical = shift @row2;
     my $cas_registry = shift @row2; 
     my $chebi_id = shift @row2;
-    $inducer_output_string .= "$chemical;" if defined $chemical;
-    $inducer_cas_output_string .= "$cas_registry;" if defined $cas_registry;
-    $inducer_chebi_output_string .= "$chebi_id;" if defined $chebi_id;
+
+    if (defined $chemical) {
+      $inducer_output_string .= "$chemical;";
+      $inducer_hash{"chemical_name"} = $chemical;
+    }
+    if (defined $cas_registry) {
+      $inducer_cas_output_string .= "$cas_registry;";
+      $inducer_hash{"cas_registry_id"} = $cas_registry;
+    }
+    if (defined $chebi_id ) {
+      $inducer_chebi_output_string .= "$chebi_id;";
+      $inducer_hash{"chebi_id"} = $chebi_id;
+    }
+
+    # add current inducer chemical to the list of inducers
+    push(@inducers, \%inducer_hash);
+
   }
 
   # remove the final semi-colon from end of the strings
@@ -648,6 +741,10 @@ while (my @row = $sql_result->fetchrow_array()) {
   $inducer_chebi_output_string =~ s/;$//;
   # print the list of inducers to file
   print DATABASE_DATA_FILE "$inducer_output_string\t$inducer_cas_output_string\t$inducer_chebi_output_string\t";
+  # add the list of inducers to the interaction hash for JSON output
+  if (@inducers) {
+    $interaction_hash{"inducers"} = \@inducers
+  }
 
 
   # get the Anti-infective fields 
@@ -670,16 +767,37 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $anti_infective_cas_output_string = "";
   my $anti_infective_chebi_output_string = "";
 
+  # create an array of anti-infectives for JSON output
+  my @anti_infectives;
+
   # since there may be multiple anti-infectives,
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create hash for the anti_infective
+    my %anti_infective_hash;
+
     my $chemical = shift @row2;
     my $cas_registry = shift @row2; 
     my $chebi_id = shift @row2;
-    $anti_infective_output_string .= "$chemical;" if defined $chemical;
-    $anti_infective_cas_output_string .= "$cas_registry;" if defined $cas_registry;
-    $anti_infective_chebi_output_string .= "$chebi_id;" if defined $chebi_id;
+
+    if (defined $chemical) {
+      $anti_infective_output_string .= "$chemical;";
+      $anti_infective_hash{"chemical_name"} = $chemical;
+    }
+    if (defined $cas_registry) {
+      $anti_infective_cas_output_string .= "$cas_registry;";
+      $anti_infective_hash{"cas_registry_id"} = $cas_registry;
+    }
+    if (defined $chebi_id ) {
+      $anti_infective_chebi_output_string .= "$chebi_id;";
+      $anti_infective_hash{"chebi_id"} = $chebi_id;
+    }
+
+    # add current anti-infective chemical to the list of anti-infectives
+    push(@anti_infectives, \%anti_infective_hash);
+
   }
 
   # remove the final semi-colon from end of the strings
@@ -688,101 +806,13 @@ while (my @row = $sql_result->fetchrow_array()) {
   $anti_infective_chebi_output_string =~ s/;$//;
   # print the list of anti-infectives to file
   print DATABASE_DATA_FILE "$anti_infective_output_string\t$anti_infective_cas_output_string\t$anti_infective_chebi_output_string\t";
-
-
-=pod
-  # get the Inducer fields 
-  $sql_stmt2 = qq(SELECT chemical.name
-                    FROM interaction,
-                         interaction_inducer_chemical,
-                         chemical
-                   WHERE interaction.id = $interaction_id
-                     AND interaction.id = interaction_inducer_chemical.interaction_id
-                     AND chemical.id = interaction_inducer_chemical.chemical_id
-                 ;);
-
-  $sql_result2 = $db_conn->prepare($sql_stmt2);
-  $sql_result2->execute() or die $DBI::errstr;
-
-  # initalise output string for Inducers
-  my $inducer_output_string = "";
-
-  # since there may be multiple inducers,
-  # need to retrieve all of them and construct output string 
-  # based on semi-colon delimiter
-  while (@row2 = $sql_result2->fetchrow_array()) {
-    my $chemical = shift @row2;
-    $inducer_output_string .= "$chemical;";
+  # add the list of anti_infectives to the interaction hash for JSON output
+  if (@anti_infectives) {
+    $interaction_hash{"anti_infectives"} = \@anti_infectives
   }
 
-  # remove the final semi-colon from end of the string
-  $inducer_output_string =~ s/;$//;
-  # print the list of inducers to file
-  print DATABASE_DATA_FILE "$inducer_output_string\t";
 
-
-  # get the CAS IDs
-  $sql_stmt2 = qq(SELECT cas_registry
-                    FROM interaction,
-                         interaction_anti_infective_chemical,
-                         chemical
-                   WHERE interaction.id = $interaction_id
-                     AND interaction.id = interaction_anti_infective_chemical.interaction_id
-                     AND chemical.id = interaction_anti_infective_chemical.chemical_id
-                ;);
-
-  $sql_result2 = $db_conn->prepare($sql_stmt2);
-  $sql_result2->execute() or die $DBI::errstr;
-
-  # initalise output string for CAS IDs
-  my $cas_output_string = "";
-
-  # since there may be multiple anti-infectives,
-  # need to retrieve all of them and construct output string 
-  # based on semi-colon delimiter
-  while (@row2 = $sql_result2->fetchrow_array()) {
-    my $cas_registry = shift @row2; 
-    $cas_output_string .= "$cas_registry;" if defined $cas_registry;
-  }
-
-  # remove the final semi-colon from end of the strings
-  $cas_output_string =~ s/;$//;
-  # print the list of CAS IDs
-  print DATABASE_DATA_FILE "$cas_output_string\t";
-
-
-  # get the ChEBI ID IDs
-  $sql_stmt2 = qq(SELECT chebi_id
-                    FROM interaction,
-                         interaction_inducer_chemical,
-                         chemical
-                   WHERE interaction.id = $interaction_id
-                     AND interaction.id = interaction_inducer_chemical.interaction_id
-                     AND chemical.id = interaction_inducer_chemical.chemical_id
-                ;);
-
-  $sql_result2 = $db_conn->prepare($sql_stmt2);
-  $sql_result2->execute() or die $DBI::errstr;
-
-  # initalise output string for ChEBI IDs
-  my $chebi_output_string = "";
-
-  # since there may be multiple ChEBI IDs,
-  # need to retrieve all of them and construct output string 
-  # based on semi-colon delimiter
-  while (@row2 = $sql_result2->fetchrow_array()) {
-    my $chebi_id = shift @row2;
-    $chebi_output_string .= "$chebi_id;" if defined $chebi_id;
-  }
-
-  # remove the final semi-colon from end of the strings
-  $chebi_output_string =~ s/;$//;
-  # print the list of inducers to file
-  print DATABASE_DATA_FILE "$chebi_output_string\t";
-=cut
-
-
-  # get the FRAC related fields
+  # get the FRAC related fields (which are part of the anti-infective data)
   $sql_stmt2 = qq(SELECT frac_code, moa_code, moa_name, target_code, target_site, group_name, 
                          chemical_group, common_name, resistance_risk, comments
                     FROM interaction,
@@ -798,6 +828,9 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
+  # create FRAC array to hold all FRAC chemicals
+  my @frac_array;
+
   # initalise output string for FRAC codes
   my $frac_code_string = "";
   my $frac_moa_string = "";
@@ -812,6 +845,10 @@ while (my @row = $sql_result->fetchrow_array()) {
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create hash to hold FRAC data
+    my %frac_hash;
+
     my $frac_code = shift @row2;
     my $moa_code = shift @row2;
     my $moa_name = shift @row2;
@@ -822,14 +859,45 @@ while (my @row = $sql_result->fetchrow_array()) {
     my $common_name = shift @row2;
     my $resistance_risk = shift @row2;
     my $comments = shift @row2;
-    $frac_code_string .= "$frac_code;" if defined $frac_code;
-    $frac_moa_string .= "$moa_code:$moa_name;" if defined $moa_code;
-    $frac_target_string .= "$target_code:$target_site;" if defined $target_code;
-    $frac_group_string .= "$group_name;" if defined $group_name;
-    $frac_chem_group_string .= "$chemical_group;" if defined $chemical_group;
-    $frac_common_name_string .= "$common_name;" if defined $common_name;
-    $frac_resistance_string .= "$resistance_risk;" if defined $resistance_risk;
-    $frac_comments_string .= "$comments;" if defined $comments;
+
+    if (defined $frac_code) {
+      $frac_code_string .= "$frac_code;";
+      $frac_hash{"frac_code"} = $frac_code;
+    }
+    if (defined $moa_code) {
+      $frac_moa_string .= "$moa_code:$moa_name;";
+      $frac_hash{"frac_moa_code"} = $moa_code;
+      $frac_hash{"frac_moa_name"} = $moa_name;
+    }
+    if (defined $target_code) {
+      $frac_target_string .= "$target_code:$target_site;";
+      $frac_hash{"frac_target_code"} = $target_code;
+      $frac_hash{"frac_target_site"} = $target_site;
+    }
+    if (defined $group_name) {
+      $frac_group_string .= "$group_name;";
+      $frac_hash{"frac_group_name"} = $group_name;
+    }
+    if (defined $chemical_group) {
+      $frac_chem_group_string .= "$chemical_group;";
+      $frac_hash{"frac_chemical_group"} = $chemical_group;
+    }
+    if (defined $common_name) {
+      $frac_common_name_string .= "$common_name;";
+      $frac_hash{"frac_common_name"} = $common_name;
+    }
+    if (defined $resistance_risk) {
+      $frac_resistance_string .= "$resistance_risk;";
+      $frac_hash{"frac_resistance_risk"} = $resistance_risk;
+    }
+    if (defined $comments) {
+      $frac_comments_string .= "$comments;";
+      $frac_hash{"frac_comments"} = $comments;
+    }
+
+    # add the current FRAC chemical to the list of FRAC chemicals for this interaction
+    push(@frac_array, \%frac_hash);
+
   }
 
   # remove the final semi-colon from end of the strings
@@ -845,10 +913,21 @@ while (my @row = $sql_result->fetchrow_array()) {
   # print the list of FRAC details to file
   print DATABASE_DATA_FILE "$frac_code_string\t$frac_moa_string\t$frac_target_string\t$frac_group_string\t$frac_chem_group_string\t$frac_common_name_string\t$frac_resistance_string\t$frac_comments_string\t";
 
+  # add FRAC data to the interaction hash
+  # TODO: possibly add the list of FRAC details to the anti-infective hash instead
+  # (since the FRAC details belong to the anti-infective chemical, as a fungicide)
+  # (but the SQL code should be moved to inside the anti-infective loop,
+  # and searched by the FRAC ID from the anti-infective chemical)
+  if (@frac_array) {
+    $interaction_hash{"frac_data"} = \@frac_array;
+  }
+
 
   # get the host responses associated with the host
   # initalise output string for host responses
+  # and the host response array for JSON output
   my $host_response_string = "";
+  my @host_responses;
 
   # get the host response term identifiers
   $sql_stmt2 = qq(SELECT host_response_id
@@ -866,15 +945,23 @@ while (my @row = $sql_result->fetchrow_array()) {
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
 
+    # create hash for the host response
+    my %host_response_hash;
+
     my $host_response_id = shift @row2;
+    $host_response_hash{"host_response_id"} = $host_response_id;
 
     # use the host response ontology to retrieve the term name, based on the identifier
     my $host_term = $host_response_ontology->get_term_by_id($host_response_id);
     my $host_response_name = "";
     if (defined $host_term) {
       $host_response_name = $host_term->name;
+      $host_response_hash{"host_response_name"} = $host_response_name
     }
     $host_response_string .= "$host_response_id:$host_response_name;";
+  
+    # add the current host response to the array of responses
+    push(@host_responses, \%host_response_hash);
 
   }
 
@@ -882,6 +969,13 @@ while (my @row = $sql_result->fetchrow_array()) {
   $host_response_string =~ s/;$//;
   # print the list of host responses to file,
   print DATABASE_DATA_FILE "$host_response_string\t";
+  # add the list of host responses to the host hash for JSON output
+  if (@host_responses) {
+    $host_hash{"host_responses"} = \@host_responses;
+  }
+
+  # add the host hash to the interaction hash for JSON output
+  $interaction_hash{"host"} = \%host_hash;
 
 
   # get the Experiment Specification fields 
@@ -896,24 +990,40 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2->execute() or die $DBI::errstr;
 
   # initalise output string for exp spec
+  # and array of experiments for JSON output
   my $exp_spec_output_string = "";
+  my @exp_spec_array;
 
   # since there may be multiple experiment specifications
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create hash for the exp spec for JSON output
+    my %exp_spec_hash;
+
     my $exp_spec_id = shift @row2;
     
     # get the term name from the ontology, based on the identifier
     my $exp_spec_name = $exp_spec_ontology->get_term_by_id($exp_spec_id)->name;
 
     $exp_spec_output_string .= "$exp_spec_id:$exp_spec_name;";
+    $exp_spec_hash{"experimental_spec_id"} = $exp_spec_id;
+    $exp_spec_hash{"experimental_spec_name"} = $exp_spec_name;
+
+    # add the current exp spec to the list of exp specs
+    push(@exp_spec_array, \%exp_spec_hash);
+
   }
 
   # remove the final semi-colon from end of the string
   $exp_spec_output_string =~ s/;$//;
   # print the list of experimental evidence to file
   print DATABASE_DATA_FILE "$exp_spec_output_string\t";
+  # add the experiemental spec data to the interaction hash for JSON output
+  if (@exp_spec_array) {
+    $interaction_hash{"experimental_specs"} = \@exp_spec_array;
+  }
 
 
   # get the Curator fields 
@@ -931,16 +1041,24 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2->execute() or die $DBI::errstr;
 
   # initalise output string for both Curators and Species Experts
+  # as well as array for JSON output
   my $curator_output_string = "";
   my $species_experts_string = "";
+  my @curators;
+  my @species_experts;
 
   # since there may be multiple curators,
   # need to retrieve all of them and construct output string 
   # based on comma and semi-colon delimiters
   while (@row2 = $sql_result2->fetchrow_array()) {
 
+    # create a new hash to store curator data for JSON output
+    my %curator_hash;
+
     my $curator_id = shift @row2;
     my $curator_name = shift @row2;
+    $curator_hash{"curator_id"} = $curator_id;
+    $curator_hash{"curator_name"} = $curator_name;
 
     # need to determine if the curator belongs to
     # a known organisation
@@ -958,13 +1076,20 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     if (defined $organisation) {  # curator with organisation
       $curator_output_string .= "$curator_name,$organisation;";
+      $curator_hash{"curator_organisation"} = $organisation;
     } else {  # curator without organisation
       $curator_output_string .= "$curator_name;";
     }
 
+    # add the current curator to the list of curators
+    push(@curators, \%curator_hash);
+
     # need to determine if the curator is a species expert
     # based on the taxon ids of the pathogens in this interaction
     foreach my $path_taxon_id (@path_taxon_id_array) {
+    
+       # create a new hash to store species expert data for JSON output
+       my %species_expert_hash;
 
        my $sql_stmt4 = qq(SELECT curator_id
                             FROM species_expert,
@@ -982,7 +1107,14 @@ while (my @row = $sql_result->fetchrow_array()) {
        # then the curator is a species expert
        # so add their name to the experts list
        if (defined $expert_curator_id) {
+
          $species_experts_string .= "$curator_name;";
+         $species_expert_hash{"species_expert_curator_id"} = $expert_curator_id;
+         $species_expert_hash{"species_expert_name"} = $curator_name;
+
+         # add the current species expert to the list of experts        
+         push(@species_experts, \%species_expert_hash);
+
        }
 
     } # end foreach pathogen in interaction
@@ -991,8 +1123,12 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # remove the final semi-colon from end of the strings
   $curator_output_string =~ s/;$//;
-  # print the list of curators and species experts to file
+  # print the list of curators to file
   print DATABASE_DATA_FILE "$curator_output_string\t";
+  # add the curator list to the interaction hash
+  if (@curators) {
+    $interaction_hash{"curators"} = \@curators;
+  }
 
 
   # get the Approver fields (the approver is a special kind of curator)
@@ -1010,15 +1146,22 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2->execute() or die $DBI::errstr;
 
   # initalise output string for Approvers
+  # as well as array for JSON output
   my $approver_output_string = "";
+  my @approvers;
 
   # since there may be multiple approvers,
   # need to retrieve all of them and construct output string 
   # based on comma and semi-colon delimiters
   while (@row2 = $sql_result2->fetchrow_array()) {
 
+    # create a new hash to store approver data for JSON output
+    my %approver_hash;
+
     my $curator_id = shift @row2;
     my $approver_name = shift @row2;
+    $approver_hash{"curator_id"} = $curator_id;
+    $approver_hash{"approver_name"} = $approver_name;
 
     # need to determine if the approver belongs to
     # a known organisation
@@ -1036,13 +1179,20 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     if (defined $organisation) {  # curator with organisation
       $approver_output_string .= "$approver_name,$organisation;";
+      $approver_hash{"approver_organisation"} = $organisation;
     } else {  # curator without organisation
       $approver_output_string .= "$approver_name;";
     }
 
+    # add the current approver to the list of approvers
+    push(@approvers, \%approver_hash);
+
     # need to determine if the approver is a species expert
     # based on the taxon ids of the pathogens in this interaction
     foreach my $path_taxon_id (@path_taxon_id_array) {
+
+       # create a new hash to store species expert data for JSON output
+       my %species_expert_hash;
 
        my $sql_stmt4 = qq(SELECT curator_id
                             FROM species_expert,
@@ -1060,7 +1210,14 @@ while (my @row = $sql_result->fetchrow_array()) {
        # then the curator is a species expert
        # so add their name to the experts list
        if (defined $expert_curator_id) {
+
          $species_experts_string .= "$approver_name;";
+         $species_expert_hash{"species_expert_curator_id"} = $expert_curator_id;
+         $species_expert_hash{"species_expert_name"} = $approver_name;
+
+         # add the current species expert to the list of experts
+         push(@species_experts, \%species_expert_hash);
+
        }
 
     } # end foreach pathogen in interaction
@@ -1072,6 +1229,13 @@ while (my @row = $sql_result->fetchrow_array()) {
   $species_experts_string =~ s/;$//;
   # print the list of approver and species experts to file
   print DATABASE_DATA_FILE "$approver_output_string\t$species_experts_string\t";
+  # add the approver and species expert lists to the interaction hash
+  if (@approvers) {
+    $interaction_hash{"approvers"} = \@approvers;
+  }
+  if (@species_experts) {
+    $interaction_hash{"species_experts"} = \@species_experts;
+  }
 
 
   # get the literature fields 
@@ -1085,15 +1249,20 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
-  # initalise output string for literature
+  # initalise output string and JSON array for literature
   my $pubmed_output_string = "";
+  my @pubmed_articles;
 
   # since there may be multiple PubMed articles,
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
 
+    # create pubmed hash for JSON output
+    my %pubmed_hash;
+
     my $pubmed_id = shift @row2;
+    $pubmed_hash{"pubmed_id"} = $pubmed_id;
 
     # run REST query and get JSON response
     my $url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search/query=EXT_ID:$pubmed_id&format=json";
@@ -1112,20 +1281,37 @@ while (my @row = $sql_result->fetchrow_array()) {
 
     # if title is empty or undefined, then assume the article has not been found
     if (defined $title and $title ne "") {
+
        # print article details in citation format
        # note that warnings about non-ascii characters is suppressed,
        # but these characters may not display as desired.
        { no warnings; $pubmed_output_string .= "$pubmed_id: $authors ($year). \"$title\" $journal $volume($issue): $pages. $doi.;" };
+
+       # add each of the details to the pubmed hash
+       $pubmed_hash{"pubmed_authors"} = $authors;
+       $pubmed_hash{"pubmed_year"} = $year;
+       $pubmed_hash{"pubmed_title"} = $title;
+       $pubmed_hash{"pubmed_journal"} = $journal;
+       $pubmed_hash{"pubmed_volume"} = $volume;
+       $pubmed_hash{"pubmed_issue"} = $issue;
+       $pubmed_hash{"pubmed_pages"} = $pages;
+       $pubmed_hash{"pubmed_doi"} = $doi;
+       
     } else { # article not found
        $pubmed_output_string .= "$pubmed_id: Not Found;";
     }
 
-  }
+    # add current pubmed record to the list of pubmed articles for this interaction
+    push(@pubmed_articles, \%pubmed_hash);
+
+  } # end while pubmed articles
 
   # remove the final semi-colon from end of the string
   $pubmed_output_string =~ s/;$//;
   # print the list of pubmed ids to file
   print DATABASE_DATA_FILE "$pubmed_output_string\t";
+  # add the list of pubmed ids to the interaction hash for JSON output
+  $interaction_hash{"pubmed_articles"} = \@pubmed_articles;
 
   # finally, output curation date
   print DATABASE_DATA_FILE "$curation_date\n";
@@ -1149,12 +1335,14 @@ $db_conn->disconnect() or die "Failed to disconnect database\n";
 # Note that the encode_json requires a hashref, not the hash itself
 # so it's prefixed with backslash
 my $json_data = encode_json(\%json_output);
+open (JSON_DATA_FILE, "> $json_data_filename") or die "Error opening output file\n";
+print JSON_DATA_FILE $json_data;
 print $json_data."\n";
 
 # test if the JSON output produces proper hash string
-use Data::Dumper;
-my $json_string = decode_json($json_data);
-print Dumper($json_string)."\n";
+#use Data::Dumper;
+#my $json_string = decode_json($json_data);
+#print Dumper($json_string)."\n";
 
 print "\nProcess completed successfully.\n";
 print "Total interactions:$interaction_count\n";
