@@ -558,7 +558,9 @@ while (my @row = $sql_result->fetchrow_array()) {
     if (defined $xml_response) {
        # parse the XML data to get the GO term name
        $xml_twig->parse($xml_response);
-       $go_term = $xml_twig->root->first_child('term')->field('name');
+       if (defined $xml_twig->root->first_child('term')) {
+         $go_term = $xml_twig->root->first_child('term')->field('name');
+       }
     } else {
        print STDERR "ERROR: Gene Ontology term not found for $go_id\n";
     }
