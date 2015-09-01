@@ -4,11 +4,6 @@ CREATE TABLE interaction (
     curation_date date
 );
 
-CREATE TABLE interaction_host_phenotype (
-    id SERIAL PRIMARY KEY,
-    phenotype varchar(50)    
-);
-
 CREATE TABLE interaction_host (
     id SERIAL PRIMARY KEY,
     interaction_id integer REFERENCES interaction,
@@ -18,10 +13,22 @@ CREATE TABLE interaction_host (
     genbank_locus_id varchar(50)
 );
 
-CREATE TABLE interaction_host_response (
+CREATE TABLE phi_evidence (
+    id SERIAL PRIMARY KEY,
+    phi_evidence varchar(50)
+);
+
+CREATE TABLE interaction_phi_host_phenotype (
     interaction_host_id integer REFERENCES interaction_host,
-    host_response_id varchar(50),
-    PRIMARY KEY (interaction_host_id, host_response_id)
+    phi_phenotype_id varchar(50),
+    phi_evidence_id integer REFERENCES phi_evidence,
+    PRIMARY KEY (interaction_host_id, phi_phenotype_id)
+);
+
+CREATE TABLE interaction_host_tissue (
+    interaction_host_id integer REFERENCES interaction_host,
+    brenda_tissue_id varchar(50),
+    PRIMARY KEY (interaction_host_id, brenda_tissue_id)
 );
 
 CREATE TABLE usda (
@@ -66,10 +73,11 @@ CREATE TABLE interaction_pathogen_gene_mutant (
     PRIMARY KEY (interaction_id, pathogen_gene_mutant_id)
 );
 
-CREATE TABLE interaction_phenotype_outcome (
+CREATE TABLE interaction_phi_interaction_phenotype (
     interaction_id integer REFERENCES interaction,
-    phenotype_outcome_id varchar(50),
-    PRIMARY KEY (interaction_id, phenotype_outcome_id)
+    phi_phenotype_id varchar(50),
+    phi_evidence_id integer REFERENCES phi_evidence,
+    PRIMARY KEY (interaction_id, phi_phenotype_id)
 );
 
 CREATE TABLE obsolete (
@@ -152,12 +160,6 @@ CREATE TABLE species_expert (
     PRIMARY KEY (ncbi_taxon_id, curator_id)
 );
 
-CREATE TABLE interaction_tissue (
-    interaction_id integer REFERENCES interaction,
-    brenda_tissue_id varchar(50),
-    PRIMARY KEY (interaction_id, brenda_tissue_id)
-);
-
 CREATE TABLE frac (
     id SERIAL PRIMARY KEY,
     frac_code varchar(50),    
@@ -205,19 +207,10 @@ CREATE TABLE interaction_disease (
     PRIMARY KEY (interaction_id, disease_id)       
 );
 
-CREATE TABLE defect_attribute (
-    id SERIAL PRIMARY KEY,
-    attribute varchar(50)
-);
-
-CREATE TABLE defect_value (
-    id SERIAL PRIMARY KEY,
-    value varchar(50)
-);
-
-CREATE TABLE interaction_defect (
+CREATE TABLE interaction_phi_pathogen_phenotype (
     interaction_id integer REFERENCES interaction,
-    defect_attribute_id integer REFERENCES defect_attribute,
-    defect_value_id integer REFERENCES defect_value
+    phi_phenotype_id varchar(50),
+    phi_evidence_id integer REFERENCES phi_evidence,
+    PRIMARY KEY (interaction_host_id, phi_phenotype_id)
 );
 
