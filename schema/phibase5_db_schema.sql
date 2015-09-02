@@ -8,7 +8,6 @@ CREATE TABLE interaction_host (
     id SERIAL PRIMARY KEY,
     interaction_id integer REFERENCES interaction,
     ncbi_taxon_id integer,
-    interaction_host_phenotype_id integer REFERENCES interaction_host_phenotype,
     first_target_uniprot_accession varchar(50),
     genbank_locus_id varchar(50)
 );
@@ -211,6 +210,6 @@ CREATE TABLE interaction_phi_pathogen_phenotype (
     interaction_id integer REFERENCES interaction,
     phi_phenotype_id varchar(50),
     phi_evidence_id integer REFERENCES phi_evidence,
-    PRIMARY KEY (interaction_host_id, phi_phenotype_id)
+    PRIMARY KEY (interaction_id, phi_phenotype_id)
 );
 

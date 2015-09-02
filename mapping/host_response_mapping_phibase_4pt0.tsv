@@ -1,45 +1,45 @@
-accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	HRO:0000025;HRO0000031;HRO0000023
-a mixture of MpCP1 with MpNEP2 led to a synergistic necrosis effect very similar to that found in naturally infected plants
-Callose deposition	HRO:0000002
-Cell death	HRO:0000003
-compromised hypersensitive cell death and weakened defense response	HRO:0000009;HRO:0000016
-Compromised hypersensitive cell death and Weakened defense response	HRO:0000009;HRO:0000016
-deletions do not affect the hypersensitive response orin planta growth of the resulting strains
+accumulation of H2O2; induction of defense related genes; transcriptional inhibition of genes associated with jasmonate biosynthesis	PHIPO:0000057;PHIPO:0000083;PHIPO:0000085
+a mixture of MpCP1 with MpNEP2 led to a synergistic necrosis effect very similar to that found in naturally infected plants	PHIPO:0000070
+Callose deposition	PHIPO:0000043
+Cell death	PHIPO:0000049
+compromised hypersensitive cell death and weakened defense response	PHIPO:0000071;PHIPO:0000064
+Compromised hypersensitive cell death and Weakened defense response	PHIPO:0000071;PHIPO:0000064
+deletions do not affect the hypersensitive response orin planta growth of the resulting strains	PHIPO:0000061
 disease
-elevated host response	HRO:0000018
-Enhance callose deposition	HRO:0000008
-Enhanced defense response and cell death	HRO:0000018;HRO:0000011
-expression of the rice defense-related genes PR1a and PBZ1 in response to Dlhs1 infection was less than that caused by infection with the wild-type KJ201 when analyzed by quantitative RT-PCR; reduced hypersensitive death
-failed to elicit proper hypersensitive reaction	HRO:0000005
-fewer and smaller lesions	HRO:0000036
-HR, rapid ion leakage, milder  visual cell death
-HR, rapid ion leakage, visual cell death
-Hypersensitive reaction	HRO:0000019
-Hypersensitive response	HRO:0000019
-Hypersensitive response and increased necrosis	HRO:0000019;HRO:0000011
-hypersensitive response-like cell death	HRO:0000019;HRO:0000011
-hypersensitive response with generation of water soaked lesions around infiltration site which further enlarged and further enlarged and collapsed large areas of tissues around infiltration sites; Confers disease resistance (small necrotic lesions , few and small chlorotic lesions) against different fungal and bacterial pathogens including B. cinerea, P. syringae pv. tomato and A. brassicicola.
-Hypersensitve response	HRO:0000019
-Increased inflammatory response	HRO:0000021
-Indications that gas1 mutants provoke a plant response	HRO:0000018
-Induced a rice basal defence response	HRO:0000018
-Less chlorosis	HRO:0000012
+elevated host response	PHIPO:0000062
+Enhance callose deposition	PHIPO:0000055
+Enhanced defense response and cell death	PHIPO:0000062;PHIPO:0000072
+expression of the rice defense-related genes PR1a and PBZ1 in response to Dlhs1 infection was less than that caused by infection with the wild-type KJ201 when analyzed by quantitative RT-PCR; reduced hypersensitive death	PHIPO:0000082;PHIPO:0000071
+failed to elicit proper hypersensitive reaction	PHIPO:0000063
+fewer and smaller lesions	PHIPO:0000068
+HR, rapid ion leakage, milder  visual cell death	PHIPO:0000062;PHIPO:0000071
+HR, rapid ion leakage, visual cell death	PHIPO:0000062;PHIPO:0000072
+Hypersensitive reaction	PHIPO:0000107
+Hypersensitive response	PHIPO:0000107
+Hypersensitive response and increased necrosis	PHIPO:0000107;PHIPO:0000072
+hypersensitive response-like cell death	PHIPO:0000107;PHIPO:0000072
+hypersensitive response with generation of water soaked lesions around infiltration site which further enlarged and further enlarged and collapsed large areas of tissues around infiltration sites; Confers disease resistance (small necrotic lesions , few and small chlorotic lesions) against different fungal and bacterial pathogens including B. cinerea, P. syringae pv. tomato and A. brassicicola.	PHIPO:0000107;PHIPO:0000069;PHIPO:0000080;PHIPO:0000068
+Hypersensitve response	PHIPO:0000107
+Increased inflammatory response	PHIPO:0000066
+Indications that gas1 mutants provoke a plant response	PHIPO:0000062
+Induced a rice basal defence response	PHIPO:0000062
+Less chlorosis	PHIPO:0000059
 LOX activity
-More chlorosis	HRO:0000014
-more ROS production, stronger defense response	HRO:0000025;HRO:0000018
-necrosis	HRO:0000011
-Necrosis	HRO:0000011
+More chlorosis	PHIPO:0000060
+more ROS production, stronger defense response	PHIPO:0000057;PHIPO:0000062
+necrosis	PHIPO:0000072
+Necrosis	PHIPO:0000072
 no data found
-no HR, no  ion leakage, no visual cell death,  bacterial accumulation equal to control Vir strain, abolished Rpg3-derived resistance
-no HR, no  ion leakage, no visual cell death,  bacterial accumulation slightly less than  control  Vir strain, compromised Rpg4-derived resistance
-no HR, reduced ion leakage, no visual cell death, 9 fold more bacterial accumulation
-oxidative burst	HRO:0000025
-Oxidative burst in adjacent uninfected cells	HRO:0000026
-PemG1 induces transient expression of Pathogen Related genes in rice and increases resistance to other bacterial infections	HRO:0000022;HRO:0000039
-Production of Phenolic compounds; Oxidative burst	HRO:0000028
-radical length reduced by all isolates	HRO:0000044
-slight induction of hypersensitive reaction	HRO:0000019
-Strong defense response	HRO:0000018
-strong host response elicited by SG200Dcmu1-cmu1R183A,K194A mutant	HRO:0000018
-The presence of the gene sm1 from Trichoderma virens (root nodules) confers resistance to maize against Colletotrichum graminicola infections.
+no HR, no  ion leakage, no visual cell death,  bacterial accumulation equal to control Vir strain, abolished Rpg3-derived resistance	PHIPO:0000063
+no HR, no  ion leakage, no visual cell death,  bacterial accumulation slightly less than  control  Vir strain, compromised Rpg4-derived resistance	PHIPO:0000063
+no HR, reduced ion leakage, no visual cell death, 9 fold more bacterial accumulation	PHIPO:0000063
+oxidative burst	PHIPO:0000057
+Oxidative burst in adjacent uninfected cells	PHIPO:0000081
+PemG1 induces transient expression of Pathogen Related genes in rice and increases resistance to other bacterial infections	PHIPO:0000086;PHIPO:0000080
+Production of Phenolic compounds; Oxidative burst	PHIPO:0000056;PHIPO:0000057
+radical length reduced by all isolates	PHIPO:0000077
+slight induction of hypersensitive reaction	PHIPO:0000107
+Strong defense response	PHIPO:0000062
+strong host response elicited by SG200Dcmu1-cmu1R183A,K194A mutant	PHIPO:0000062
+The presence of the gene sm1 from Trichoderma virens (root nodules) confers resistance to maize against Colletotrichum graminicola infections.	PHIPO:0000080
 transparency, dried leaf

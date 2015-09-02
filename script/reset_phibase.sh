@@ -20,8 +20,11 @@ createdb -U postgres phibase
 psql -U postgres phibase < ../schema/phibase5_db_schema.sql
 echo "\nGenerated SQL schema successfully"
 
-echo "\nInserting valid defect attributes and values..."
-perl insert_defect_attributes.pl
+#echo "\nInserting valid defect attributes and values..."
+#perl insert_defect_attributes.pl
+
+echo "\nInserting PHI Evidence types..."
+perl insert_phi_evidence_types.pl
 
 echo "\nInserting Gene Ontology Evidence Codes..."
 perl insert_go_evidence_codes.pl
