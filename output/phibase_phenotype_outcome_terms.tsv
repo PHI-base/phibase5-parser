@@ -1,0 +1,161 @@
+PHI:I1	PHI:3	Unaffected pathogenicity	PHIPO:0000011
+PHI:I2	PHI:7	Effector (plant avirulence determinant)	PHIPO:0000003
+PHI:I3	PHI:12	Loss of pathogenicity	PHIPO:0000007
+PHI:I4	PHI:14	Reduced virulence	PHIPO:0000008
+PHI:I5	PHI:14	Loss of pathogenicity	PHIPO:0000007
+PHI:I6	PHI:15	Reduced virulence	PHIPO:0000008
+PHI:I7	PHI:17	Reduced virulence	PHIPO:0000008
+PHI:I8	PHI:18	Effector (plant avirulence determinant)	PHIPO:0000003
+PHI:I9	PHI:19	Reduced virulence	PHIPO:0000008
+PHI:I10	PHI:22	Loss of pathogenicity	PHIPO:0000007
+PHI:I11	PHI:24	Unaffected pathogenicity	PHIPO:0000011
+PHI:I12	PHI:24	Loss of pathogenicity	PHIPO:0000007
+PHI:I13	PHI:25	Effector (plant avirulence determinant)	PHIPO:0000003
+PHI:I14	PHI:26	Reduced virulence	PHIPO:0000008
+PHI:I15	PHI:27	Loss of pathogenicity	PHIPO:0000007
+PHI:I16	PHI:27	Loss of pathogenicity	PHIPO:0000007
+PHI:I17	PHI:31	Reduced virulence	PHIPO:0000008
+PHI:I18	PHI:33	Reduced virulence	PHIPO:0000008
+PHI:I19	PHI:36	Loss of pathogenicity	PHIPO:0000007
+PHI:I20	PHI:37	Reduced virulence	PHIPO:0000008
+PHI:I21	PHI:38	Effector (plant avirulence determinant)	PHIPO:0000003
+PHI:I22	PHI:39	Unaffected pathogenicity	PHIPO:0000011
+PHI:I23	PHI:40	Reduced virulence	PHIPO:0000008
+PHI:I24	PHI:41	Effector (plant avirulence determinant)	PHIPO:0000003
+PHI:I25	PHI:42	Effector (plant avirulence determinant)	PHIPO:0000003
+PHI:I26	PHI:44	Unaffected pathogenicity	PHIPO:0000011
+PHI:I27	PHI:44	Unaffected pathogenicity	PHIPO:0000011
+PHI:I28	PHI:44	Unaffected pathogenicity	PHIPO:0000011
+PHI:I29	PHI:44	Reduced virulence	PHIPO:0000008
+PHI:I30	PHI:44	Unaffected pathogenicity	PHIPO:0000011
+PHI:I31	PHI:44	Reduced virulence	PHIPO:0000008
+PHI:I32	PHI:44	Unaffected pathogenicity	PHIPO:0000011
+PHI:I33	PHI:47	Loss of pathogenicity	PHIPO:0000007
+PHI:I34	PHI:48	Reduced virulence	PHIPO:0000008
+PHI:I35	PHI:48	Reduced virulence	PHIPO:0000008
+PHI:I36	PHI:48	Reduced virulence	PHIPO:0000008
+PHI:I37	PHI:49	Reduced virulence	PHIPO:0000008
+PHI:I38	PHI:52	Unaffected pathogenicity	PHIPO:0000011
+PHI:I39	PHI:52	Reduced virulence	PHIPO:0000008
+PHI:I40	PHI:53	Reduced virulence	PHIPO:0000008
+PHI:I41	PHI:55	Reduced virulence	PHIPO:0000008
+PHI:I42	PHI:56	Loss of pathogenicity	PHIPO:0000007
+PHI:I43	PHI:57	Loss of pathogenicity	PHIPO:0000007
+PHI:I44	PHI:58	Reduced virulence	PHIPO:0000008
+PHI:I45	PHI:59	Reduced virulence	PHIPO:0000008
+PHI:I46	PHI:60	Lethal	PHIPO:0000006
+PHI:I47	PHI:61	Reduced virulence	PHIPO:0000008
+PHI:I48	PHI:62	Reduced virulence	PHIPO:0000008
+PHI:I49	PHI:65	Reduced virulence	PHIPO:0000008
+PHI:I50	PHI:66	Reduced virulence	PHIPO:0000008
+PHI:I51	PHI:67	Reduced virulence	PHIPO:0000008
+PHI:I52	PHI:68	Reduced virulence	PHIPO:0000008
+PHI:I53	PHI:68	Reduced virulence	PHIPO:0000008
+PHI:I54	PHI:69	Unaffected pathogenicity	PHIPO:0000011
+PHI:I55	PHI:69	Unaffected pathogenicity	PHIPO:0000011
+PHI:I56	PHI:71	Effector (plant avirulence determinant)	PHIPO:0000003
+PHI:I57	PHI:72	Reduced virulence	PHIPO:0000008
+PHI:I58	PHI:72	Reduced virulence	PHIPO:0000008
+PHI:I59	PHI:73	Reduced virulence	PHIPO:0000008
+PHI:I60	PHI:73	Reduced virulence	PHIPO:0000008
+PHI:I61	PHI:75	Reduced virulence	PHIPO:0000008
+PHI:I62	PHI:75	Reduced virulence	PHIPO:0000008
+PHI:I63	PHI:75	Reduced virulence	PHIPO:0000008
+PHI:I64	PHI:76	Unaffected pathogenicity	PHIPO:0000011
+PHI:I65	PHI:77	Unaffected pathogenicity	PHIPO:0000011
+PHI:I66	PHI:78	Loss of pathogenicity	PHIPO:0000007
+PHI:I67	PHI:79	Unaffected pathogenicity	PHIPO:0000011
+PHI:I68	PHI:80	Reduced virulence	PHIPO:0000008
+PHI:I69	PHI:81	Reduced virulence	PHIPO:0000008
+PHI:I70	PHI:82	Unaffected pathogenicity	PHIPO:0000011
+PHI:I71	PHI:83	Reduced virulence	PHIPO:0000008
+PHI:I72	PHI:84	Unaffected pathogenicity	PHIPO:0000011
+PHI:I73	PHI:85	Reduced virulence	PHIPO:0000008
+PHI:I74	PHI:86	Loss of pathogenicity	PHIPO:0000007
+PHI:I75	PHI:87	Reduced virulence	PHIPO:0000008
+PHI:I76	PHI:88	Reduced virulence	PHIPO:0000008
+PHI:I77	PHI:89	Loss of pathogenicity	PHIPO:0000007
+PHI:I78	PHI:95	Reduced virulence	PHIPO:0000008
+PHI:I79	PHI:96	Loss of pathogenicity	PHIPO:0000007
+PHI:I80	PHI:96	Loss of pathogenicity	PHIPO:0000007
+PHI:I81	PHI:97	Reduced virulence	PHIPO:0000008
+PHI:I82	PHI:98	Reduced virulence	PHIPO:0000008
+PHI:I83	PHI:99	Loss of pathogenicity	PHIPO:0000007
+PHI:I84	PHI:100	Loss of pathogenicity	PHIPO:0000007
+PHI:I85	PHI:101	Reduced virulence	PHIPO:0000008
+PHI:I86	PHI:103	Reduced virulence	PHIPO:0000008
+PHI:I87	PHI:103	Reduced virulence	PHIPO:0000008
+PHI:I88	PHI:103	Reduced virulence	PHIPO:0000008
+PHI:I89	PHI:104	Reduced virulence	PHIPO:0000008
+PHI:I90	PHI:104	Reduced virulence	PHIPO:0000008
+PHI:I91	PHI:105	Reduced virulence	PHIPO:0000008
+PHI:I92	PHI:106	Reduced virulence	PHIPO:0000008
+PHI:I93	PHI:107	Reduced virulence	PHIPO:0000008
+PHI:I94	PHI:109	Reduced virulence	PHIPO:0000008
+PHI:I95	PHI:111	Effector (plant avirulence determinant)	PHIPO:0000003
+PHI:I96	PHI:113	Loss of pathogenicity	PHIPO:0000007
+PHI:I97	PHI:114	Unaffected pathogenicity	PHIPO:0000011
+PHI:I98	PHI:115	Unaffected pathogenicity	PHIPO:0000011
+PHI:I99	PHI:116	Reduced virulence	PHIPO:0000008
+PHI:I100	PHI:120	Loss of pathogenicity	PHIPO:0000007
+PHI:I101	PHI:121	Loss of pathogenicity	PHIPO:0000007
+PHI:I102	PHI:122	Reduced virulence	PHIPO:0000008
+PHI:I103	PHI:123	Reduced virulence	PHIPO:0000008
+PHI:I104	PHI:124	Reduced virulence	PHIPO:0000008
+PHI:I105	PHI:125	Reduced virulence	PHIPO:0000008
+PHI:I106	PHI:125	Reduced virulence	PHIPO:0000008
+PHI:I107	PHI:128	Unaffected pathogenicity	PHIPO:0000011
+PHI:I108	PHI:129	Reduced virulence	PHIPO:0000008
+PHI:I109	PHI:130	Reduced virulence	PHIPO:0000008
+PHI:I110	PHI:131	Unaffected pathogenicity	PHIPO:0000011
+PHI:I111	PHI:132	Reduced virulence	PHIPO:0000008
+PHI:I112	PHI:133	Loss of pathogenicity	PHIPO:0000007
+PHI:I113	PHI:134	Loss of pathogenicity	PHIPO:0000007
+PHI:I114	PHI:135	Loss of pathogenicity	PHIPO:0000007
+PHI:I115	PHI:136	Reduced virulence	PHIPO:0000008
+PHI:I116	PHI:136	Reduced virulence	PHIPO:0000008
+PHI:I117	PHI:136	Loss of pathogenicity	PHIPO:0000007
+PHI:I118	PHI:136	Unaffected pathogenicity	PHIPO:0000011
+PHI:I119	PHI:138	Reduced virulence	PHIPO:0000008
+PHI:I120	PHI:139	Reduced virulence	PHIPO:0000008
+PHI:I121	PHI:140	Reduced virulence	PHIPO:0000008
+PHI:I122	PHI:141	Reduced virulence	PHIPO:0000008
+PHI:I123	PHI:142	Reduced virulence	PHIPO:0000008
+PHI:I124	PHI:143	Unaffected pathogenicity	PHIPO:0000011
+PHI:I125	PHI:144	Reduced virulence	PHIPO:0000008
+PHI:I126	PHI:146	Loss of pathogenicity	PHIPO:0000007
+PHI:I127	PHI:149	Reduced virulence	PHIPO:0000008
+PHI:I128	PHI:151	Reduced virulence	PHIPO:0000008
+PHI:I129	PHI:153	Unaffected pathogenicity	PHIPO:0000011
+PHI:I130	PHI:156	Unaffected pathogenicity	PHIPO:0000011
+PHI:I131	PHI:156	Unaffected pathogenicity	PHIPO:0000011
+PHI:I132	PHI:157	Loss of pathogenicity	PHIPO:0000007
+PHI:I133	PHI:158	Reduced virulence	PHIPO:0000008
+PHI:I134	PHI:159	Loss of pathogenicity	PHIPO:0000007
+PHI:I135	PHI:160	Loss of pathogenicity	PHIPO:0000007
+PHI:I136	PHI:161	Loss of pathogenicity	PHIPO:0000007
+PHI:I137	PHI:161	Loss of pathogenicity	PHIPO:0000007
+PHI:I138	PHI:161	Loss of pathogenicity	PHIPO:0000007
+PHI:I139	PHI:162	Loss of pathogenicity	PHIPO:0000007
+PHI:I140	PHI:163	Reduced virulence	PHIPO:0000008
+PHI:I141	PHI:164	Loss of pathogenicity	PHIPO:0000007
+PHI:I142	PHI:165	Loss of pathogenicity	PHIPO:0000007
+PHI:I143	PHI:166	Unaffected pathogenicity	PHIPO:0000011
+PHI:I144	PHI:166	Unaffected pathogenicity	PHIPO:0000011
+PHI:I145	PHI:167	Unaffected pathogenicity	PHIPO:0000011
+PHI:I146	PHI:167	Unaffected pathogenicity	PHIPO:0000011
+PHI:I147	PHI:169	Loss of pathogenicity	PHIPO:0000007
+PHI:I148	PHI:170	Loss of pathogenicity	PHIPO:0000007
+PHI:I149	PHI:172	Loss of pathogenicity	PHIPO:0000007
+PHI:I150	PHI:174	Reduced virulence	PHIPO:0000008
+PHI:I151	PHI:175	Reduced virulence	PHIPO:0000008
+PHI:I152	PHI:176	Unaffected pathogenicity	PHIPO:0000011
+PHI:I153	PHI:177	Reduced virulence	PHIPO:0000008
+PHI:I154	PHI:178	Reduced virulence	PHIPO:0000008
+PHI:I155	PHI:179	Reduced virulence	PHIPO:0000008
+PHI:I156	PHI:181	Unaffected pathogenicity	PHIPO:0000011
+PHI:I157	PHI:182	Reduced virulence	PHIPO:0000008
+PHI:I158	PHI:182	Loss of pathogenicity	PHIPO:0000007
+PHI:I159	PHI:182	Reduced virulence	PHIPO:0000008
+PHI:I160	PHI:182	Reduced virulence	PHIPO:0000008
+PHI:I161	PH

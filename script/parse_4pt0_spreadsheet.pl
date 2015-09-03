@@ -55,7 +55,7 @@ close (EXP_SPEC_MAPPINGS_FILE);
 
 
 # parse tab-separated file that maps host response values of the spreadsheet
-# to identifiers in the host response ontology
+# to identifiers in the PHI phenotype ontology
 # saving the value and identifiers as key/value pairs in a hash
 open (HOST_RES_MAPPINGS_FILE, "../mapping/host_response_mapping_phibase_4pt0.tsv") || die "Error opening input file\n";
 
@@ -63,7 +63,7 @@ open (HOST_RES_MAPPINGS_FILE, "../mapping/host_response_mapping_phibase_4pt0.tsv
 my %host_response_mapping;
 
 # each row of the file contains a "valid spreadsheet value"
-# and corresponding "host response ontology identifiers", separated by tab
+# and corresponding "phi phenotype ontology identifiers", separated by tab
 # mutliple ontology identifiers are separated by semi-colon
 # separate these fields and save as key/value pairs in a hash
 # where key becomes the valid value & value becomes ontology identifiers
@@ -77,7 +77,7 @@ close (HOST_RES_MAPPINGS_FILE);
 
 
 # parse tab-separated file that maps phenotype outcome values of the spreadsheet
-# to the identifier in the phenotype outcome ontology
+# to the identifier in the PHI phenotype ontology
 # saving the value and identifier as key/value pairs in a hash
 open (PHEN_OUTCOME_MAPPINGS_FILE, "../mapping/phenotype_outcome_mapping_phibase_4pt0.tsv") || die "Error opening input file\n";
 
@@ -85,7 +85,7 @@ open (PHEN_OUTCOME_MAPPINGS_FILE, "../mapping/phenotype_outcome_mapping_phibase_
 my %phenotype_outcome_mapping;
 
 # each row of the file contains a "valid spreadsheet value"
-# and corresponding "phenotype outcome ontology identifier", separated by tab
+# and corresponding "PHI phenotype ontology identifier", separated by tab
 # separate these fields and save as key/value pairs in a hash
 # where key becomes the valid value & value becomes the ontology identifier
 while (<PHEN_OUTCOME_MAPPINGS_FILE>) {
@@ -121,8 +121,8 @@ print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid annotations into PHI-base v5 database...\n";
 
 # open output files
-my $defect_filename = '../output/phibase_defects.tsv';
-my $invalid_defect_filename = '../error/phibase_invalid_defects.tsv';
+my $pathogen_phenotype_filename = '../output/phibase_pathogen_phenotypes.tsv';
+my $invalid_pathogen_phenotype_filename = '../error/phibase_invalid_pathogen_phenotypes.tsv';
 my $go_with_evid_filename = '../output/phibase_go_with_evid.tsv';
 my $go_without_evid_filename = '../output/phibase_go_without_evid.tsv';
 my $invalid_go_filename = '../error/phibase_invalid_go.tsv';
@@ -142,8 +142,8 @@ my $invalid_literature_filename = '../error/phibase_invalid_literature.tsv';
 my $invalid_uniprot_filename = '../error/phibase_invalid_uniprot_acc.tsv';
 my $invalid_gene_name_filename = '../error/phibase_invalid_gene_names.tsv';
 my $invalid_curator_filename = '../error/phibase_invalid_curators.tsv';
-open (DEFECT_FILE, "> $defect_filename") or die "Error opening output file\n";
-open (INVALID_DEFECT_FILE, "> $invalid_defect_filename") or die "Error opening output file\n";
+open (PATH_PHENOTYPE_FILE, "> $pathogen_phenotype_filename") or die "Error opening output file\n";
+open (INVALID_PATH_PHENOTYPE_FILE, "> $invalid_pathogen_phenotype_filename") or die "Error opening output file\n";
 open (GO_WITH_EVID_FILE, "> $go_with_evid_filename") or die "Error opening output file\n";
 open (GO_WITHOUT_EVID_FILE, "> $go_without_evid_filename") or die "Error opening output file\n";
 open (INVALID_GO_FILE, "> $invalid_go_filename") or die "Error opening output file\n";
@@ -181,8 +181,8 @@ my $interaction_num = 0;
 
 # counters to gather statistics
 my $annotation_count = 0;
-my $defect_count = 0;
-my $invalid_defect_count = 0;
+my $pathogen_phenotype_count = 0;
+my $invalid_pathogen_phenotype_count = 0;
 my $curator_count = 0;
 my $species_expert_count = 0;
 my $anti_infective_count = 0;
@@ -663,8 +663,8 @@ while (<TSV_FILE>) {
           }
 
 
-          # create hash of key/value pairs for attribute/value of all the defects
-          my %defects = (
+          # create hash of key/value pairs for attribute/value of all the pathogen_phenotypes
+          my %pathogen_phenotypes = (
                            'Mating Defect'     => $phi_base_annotation{"mating_defect"},
                            'Pre-penetration'   => $phi_base_annotation{"prepenetration"},
                            'Penetration'       => $phi_base_annotation{"penetration"},
@@ -676,64 +676,172 @@ while (<TSV_FILE>) {
                         );
 
 
-          # for each of the defects, retrieve the id for the relevant defect,
-          # then retrieve the id for each defect value (if available)
-          # then insert a interaction_defect record,
-          # based on combination of interaction id, defect attribute id and defect value id
-          foreach my $defect_attribute (keys %defects)
+          # for each of the pathogen_phenotypes, retrieve the id for the relevant pathogen_phenotype,
+          # then retrieve the id for each pathogen_phenotype value (if available)
+          # then insert a interaction_phi_pathogen_phenotype record,
+          # based on combination of interaction id and phenotype id
+          foreach my $pathogen_phenotype_attribute (keys %pathogen_phenotypes)
           {
 
-             my $defect_values_string = $defects{$defect_attribute};
+             my $pathogen_phenotype_values_string = $pathogen_phenotypes{$pathogen_phenotype_attribute};
 
-             if (defined $defect_values_string and $defect_values_string ne "" and lc($defect_values_string) ne "none" and lc($defect_values_string) ne "na" and lc($defect_values_string) ne "nd" and lc($defect_values_string) ne "no data found" and lc($defect_values_string) ne "no data") {
+             if (defined $pathogen_phenotype_values_string and $pathogen_phenotype_values_string ne "" and lc($pathogen_phenotype_values_string) ne "none" and lc($pathogen_phenotype_values_string) ne "na" and lc($pathogen_phenotype_values_string) ne "nd" and lc($pathogen_phenotype_values_string) ne "no data found" and lc($pathogen_phenotype_values_string) ne "no data") {
 
-		# get the id for the current defect attribute
-		my $sql_statement = qq(SELECT id FROM defect_attribute
-		               	         WHERE attribute = '$defect_attribute';
-				      );
-		my $sql_result = $db_conn->prepare($sql_statement);
-		$sql_result->execute() or die $DBI::errstr;
-		my @row = $sql_result->fetchrow_array();
-		my $defect_attr_id = shift @row;
+                # separate list of pathogen_phenotype values, based on semi-colon delimiter
+                my @pathogen_phenotype_values = split (";",$pathogen_phenotype_values_string);
 
-                # separate list of defect values, based on semi-colon delimiter
-                my @defect_values = split (";",$defect_values_string);
+                # insert interaction_phi_pathogen_phenotype record for each pathogen_phenotype value
+                foreach my $pathogen_phenotype_value (@pathogen_phenotype_values) {
 
-                # insert interaction_defect record for each defect value
-                foreach my $defect_value (@defect_values) {
+                   $pathogen_phenotype_value =~ s/^\s+//; # remove blank space from start of pathogen_phenotype value
+                   $pathogen_phenotype_value =~ s/\s+$//; # remove blank space from end of pathogen_phenotype value
 
-                   $defect_value =~ s/^\s+//; # remove blank space from start of defect value
-                   $defect_value =~ s/\s+$//; # remove blank space from end of defect value
+                   my @phi_phenotype_id_list;
 
-		   # get the id for the current defect value, if it is a valid value
-		   $sql_statement = qq(SELECT id FROM defect_value
-		   	               WHERE lower(value) = lower('$defect_value');
-				      );
-		   $sql_result = $db_conn->prepare($sql_statement);
-		   $sql_result->execute() or die $DBI::errstr;
-		   @row = $sql_result->fetchrow_array();
-		   my $defect_value_id = shift @row;
+		   # insert data into interaction_phi_pathogen_phenotype table,
+		   # using the interaction id and PHI phenotype id as foreign keys 
+		   if (defined $pathogen_phenotype_value) {
 
-		   # insert data into interaction_defect table,
-		   # using the interaction id, defect attribute id and defect value id as foreign keys 
-		   if (defined $defect_value_id) {
-                      $defect_count++;
-		      $sql_statement = qq(INSERT INTO interaction_defect (interaction_id, defect_attribute_id, defect_value_id)
-		  			    VALUES ($interaction_id, $defect_attr_id, $defect_value_id);
+                      if ($pathogen_phenotype_attribute eq "Mating Defect" and lc($pathogen_phenotype_value) eq "yes") {
+                        push(@phi_phenotype_id_list,'PHIPO:0000015');
+                        push(@phi_phenotype_id_list,'PHIPO:0000098');
+                      } 
+                      elsif ($pathogen_phenotype_attribute eq "Pre-penetration" and lc($pathogen_phenotype_value) eq "yes") {
+                        push(@phi_phenotype_id_list,'PHIPO:0000098');
+                      }
+                      elsif ($pathogen_phenotype_attribute eq "Penetration" and lc($pathogen_phenotype_value) eq "yes") {
+                        push(@phi_phenotype_id_list,'PHIPO:0000099');
+                      }
+                      elsif ($pathogen_phenotype_attribute eq "Post-penetration" and lc($pathogen_phenotype_value) eq "yes") {
+                        push(@phi_phenotype_id_list,'PHIPO:0000097');
+                      }
+                      elsif ($pathogen_phenotype_attribute eq "Vegetative Spores") {
+
+                        # note that more than one pattern can be present in the value string
+                        if ( lc($pathogen_phenotype_value) =~ /aberrant/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000021');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /abnormal/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000021');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /altered/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000018');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /decreased/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000020');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /defective/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000021');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /deficient/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000020');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /enhanced/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000019');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /increased/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000019');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /no conidia/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000091');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /no sporulation/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000100');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /none/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000091');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /reduced/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000020');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /unaffected/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000034');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /wild type/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000034');
+                        }
+                      
+                      }
+                      elsif ($pathogen_phenotype_attribute eq "Sexual Spores") {
+
+                        # note that more than one pattern can be present in the value string
+                        if ( lc($pathogen_phenotype_value) =~ /aberrant/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000026');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /defective/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000026');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /enhanced/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000024');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /few/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000025');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /increased/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000024');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /none/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000025');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /reduced/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000025');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /sterile/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000025');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /unaffected/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000035');
+                        }
+                        if ( lc($pathogen_phenotype_value) =~ /wild type/ ) {
+                          push(@phi_phenotype_id_list,'PHIPO:0000035');
+                        }
+
+                      }
+                      elsif ($pathogen_phenotype_attribute eq "In Vitro Growth") {
+
+                        # NOT CURRENTLY IMPLEMENTED
+                        # MAY NEED TO EXPAND THE PHI PHENOTYPE ONTOLOGY TO INCLUDE THE IN VITRO GROWTH TERMS
+
+                      }
+                      elsif ($pathogen_phenotype_attribute eq "Spore Germination") {
+                       
+                        # NOT CURRENTLY IMPLEMENTED
+                        # AMBIGUITY IF SPORE GERMINATION REFERS TO SEXUAL SPORES OR VEGETATIVE SPORES
+                        
+                      }
+                       
+                   } # end if pathogen phenotype defined
+
+                   if (@phi_phenotype_id_list) {
+
+                      foreach my $phi_phenotype_id (@phi_phenotype_id_list) {
+
+#                        print "PATH_PHENOTYPE ATT:$pathogen_phenotype_attribute\n";
+#                        print "PATH_PHENOTYPE VALUE:$pathogen_phenotype_value\n";
+#                        print "PHI PHENOTYPE ID:$phi_phenotype_id\n";
+#                        print "INTERACTION ID:$interaction_id\n";
+#                        print "PHI-BASE ACC:$required_fields_annot{'phi_base_acc'}\n";
+                         $pathogen_phenotype_count++;
+		         $sql_statement = qq(INSERT INTO interaction_phi_pathogen_phenotype (interaction_id, phi_phenotype_id)
+		  			    VALUES ($interaction_id, '$phi_phenotype_id');
 					 );
-		      $sql_result = $db_conn->prepare($sql_statement);
-		      $sql_result->execute() or die $DBI::errstr;
-                      print DEFECT_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$defect_attribute\t$defect_value\n";
+#                        print "SQL STATEMENT:$sql_statement\n";
+		         $sql_result = $db_conn->prepare($sql_statement);
+#		         $sql_result->execute() or die $DBI::errstr;
+		         $sql_result->execute();
+                         print PATH_PHENOTYPE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$pathogen_phenotype_attribute\t$pathogen_phenotype_value\n";
+                      }
+
                    } else {
-                      $invalid_defect_count++;
-                      print INVALID_DEFECT_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$defect_attribute\t$defect_value\n";
+                      $invalid_pathogen_phenotype_count++;
+                      print INVALID_PATH_PHENOTYPE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$pathogen_phenotype_attribute\t$pathogen_phenotype_value\n";
                    }
 
-                } # end foreach defect value
+                } # end foreach pathogen phenotype value
 
-             } # end if defect values
+             } # end if pathogen phenotype values
 
-          } # end foreach defect attribute
+          } # end foreach pathogen phenotype attribute
 
           
           # Get the GO annotations
@@ -990,11 +1098,11 @@ while (<TSV_FILE>) {
 
              # using the host response mappings,
              # get the appropriate ontology identifiers associated with the host response
-             my $host_response_id_list = $host_response_mapping{$host_response};
+             my $phi_phenotype_id_list = $host_response_mapping{$host_response};
 
              # if identifiers are present, then insert the appropriate
-             # records into the interaction_host_response table
-             if ($host_response_id_list) {
+             # records into the interaction_phi_host_phenotype table
+             if ($phi_phenotype_id_list) {
 
                 my $sql_statement = qq(SELECT id FROM interaction_host
                                          WHERE interaction_id = $interaction_id
@@ -1006,21 +1114,21 @@ while (<TSV_FILE>) {
 	        my @row = $sql_result->fetchrow_array();
 	        my $interaction_host_id = shift @row;
 
-                $host_response_id_list =~ s/^\s+//; # remove blank space from start of string
-                $host_response_id_list =~ s/\s+$//; # remove blank space from end of string
+                $phi_phenotype_id_list =~ s/^\s+//; # remove blank space from start of string
+                $phi_phenotype_id_list =~ s/\s+$//; # remove blank space from end of string
 
                 # need to split list based on semi-colon delimiter
-                my @host_res_ontology_ids = split(";",$host_response_id_list);
+                my @phi_phenotype_ids = split(";",$phi_phenotype_id_list);
 
-                # for each host response id, insert data into interaction_host_response table,
-                # with foreign keys to the interaction_host table and the host response ontology
-                foreach my $host_response_id (@host_res_ontology_ids) {
+                # for each phi phenotype id, insert data into interaction_phi_host_phenotype table,
+                # with foreign keys to the interaction_host table and the PHI phenotype ontology
+                foreach my $phi_phenotype_id (@phi_phenotype_ids) {
                   $host_response_term_count++;
-	          $sql_statement = qq(INSERT INTO interaction_host_response (interaction_host_id, host_response_id)
-                                        VALUES ($interaction_host_id, '$host_response_id');
+	          $sql_statement = qq(INSERT INTO interaction_phi_host_phenotype (interaction_host_id, phi_phenotype_id)
+                                        VALUES ($interaction_host_id, '$phi_phenotype_id');
                                      );
 	          $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-                  print HOST_RES_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$host_response\t$host_response_id\n";
+                  print HOST_RES_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$host_response\t$phi_phenotype_id\n";
                 }
 
              } else { # no host response identifiers
@@ -1045,26 +1153,26 @@ while (<TSV_FILE>) {
 
              # using the phenotype outcome mappings,
              # get the appropriate ontology identifier associated with the phenotype outcome
-             my $phenotype_outcome_id = $phenotype_outcome_mapping{$phenotype_outcome_string};
+             my $phi_phenotype_id = $phenotype_outcome_mapping{$phenotype_outcome_string};
 
              # if identifier is present, then insert the appropriate
-             # record into the interaction_phenotype_outcome table
-             if ($phenotype_outcome_id) {
+             # record into the interaction_phi_interaction_phenotype table
+             if ($phi_phenotype_id) {
 
-                $phenotype_outcome_id =~ s/^\s+//; # remove blank space from start of string
-                $phenotype_outcome_id =~ s/\s+$//; # remove blank space from end of string
+                $phi_phenotype_id =~ s/^\s+//; # remove blank space from start of string
+                $phi_phenotype_id =~ s/\s+$//; # remove blank space from end of string
 
-                # insert data into the appropriate interaction_phenotype_outcome table,
-                # with for a foreign key to the phenotype_outcome ontology
+                # insert data into the appropriate interaction_phi_interaction_phenotype table,
+                # with for a foreign key to the phi_phenotype ontology
                 $phenotype_outcome_term_count++;
-	        $sql_statement = qq(INSERT INTO interaction_phenotype_outcome
-                                      (interaction_id, phenotype_outcome_id)
-                                      VALUES ($interaction_id, '$phenotype_outcome_id');
+	        $sql_statement = qq(INSERT INTO interaction_phi_interaction_phenotype
+                                      (interaction_id, phi_phenotype_id)
+                                      VALUES ($interaction_id, '$phi_phenotype_id');
                                    );
 	        $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-                print PHEN_OUTCOME_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$phenotype_outcome_string\t$phenotype_outcome_id\n";
+                print PHEN_OUTCOME_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$phenotype_outcome_string\t$phi_phenotype_id\n";
 
-             } else { # no phenotype outcome identifier
+             } else { # no phi phenotype identifier
                 $invalid_phenotype_outcome_count++;
                 print STDERR "ERROR:Phenotype outcome $phenotype_outcome_string given for $required_fields_annot{'phi_base_acc'} is not valid\n";
                 print INVALID_PHEN_OUTCOME_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$phenotype_outcome_string\n";
@@ -1213,8 +1321,8 @@ while (<TSV_FILE>) {
 } # end of file
 
 close (TSV_FILE);
-close (DEFECT_FILE);
-close (INVALID_DEFECT_FILE);
+close (PATH_PHENOTYPE_FILE);
+close (INVALID_PATH_PHENOTYPE_FILE);
 close (GO_WITH_EVID_FILE);
 close (GO_WITHOUT_EVID_FILE);
 close (INVALID_GO_FILE);
@@ -1261,8 +1369,8 @@ print "Total PHI-base accessions meeting the criteria for the required data: ".s
 
 print "Total curator entries: $curator_count\n";
 print "Total species expert entries: $species_expert_count\n";
-print "Total valid defects: $defect_count\n";
-print "Total invalid defects: $invalid_defect_count\n";
+print "Total valid pathogen_phenotypes: $pathogen_phenotype_count\n";
+print "Total invalid pathogen_phenotypes: $invalid_pathogen_phenotype_count\n";
 print "Total GO annotations: $go_annotation_count\n";
 print "GO annotations with evidence code: $go_with_evid_count\n";
 print "GO annotations without evidence code: $go_without_evid_count\n";
@@ -1294,8 +1402,8 @@ print "Output file of annotations with invalid UniProt accession: $invalid_unipr
 print "Output file of annotations without a Gene Name: $invalid_gene_name_filename\n";
 print "Output file of annotations without a curator: $invalid_gene_name_filename\n\n";
 
-print "Output file of valid defects: $defect_filename\n";
-print "Output file of invalid defects: $invalid_defect_filename\n";
+print "Output file of valid pathogen phenotypes: $pathogen_phenotype_filename\n";
+print "Output file of invalid pathogen phenotypes: $invalid_pathogen_phenotype_filename\n";
 print "Output file of GO annotations with evidence code: $go_with_evid_filename\n";
 print "Output file of GO annotations without evidence code: $go_without_evid_filename\n";
 print "Output file of invalid GO annotations: $invalid_go_filename\n";

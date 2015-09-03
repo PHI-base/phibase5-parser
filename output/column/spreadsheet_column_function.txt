@@ -1,1 +1,232 @@
 Endopolygalacturonase
+Effector protein
+Cylic Peptide Synthase
+Phosphoribosylaminoimidazole carboxylase
+Phosphoribosylaminoimidazole carboxylase
+Hydrophobin
+Acid proteinase
+Effector protein
+Myristoyl-CoA:protein N-myristoyltransferase
+Adenylate cyclase
+Avenacinase
+Avenacinase
+Effector protein
+Fungal efflux pump
+Appressorial wall
+Appressorial wall
+Chitin Synthase
+Membrane protein; pH responsive protein
+Transcription factor
+PKA catalytic subunit
+Mycelial Development
+Effector protein
+transglutaminase
+Polyketide synthase
+Effector protein
+Effector protein
+Trichodiene synthase
+Trichodiene synthase
+Trichodiene synthase
+Trichodiene synthase
+Trichodiene synthase
+Trichodiene synthase
+Trichodiene synthase
+Capsule formation
+Laccase
+Laccase
+
+G alpha protein subunit
+GATA transcription factor for nitrogen metabolism
+Global regulation of nitrogen utilisation
+Pisatin demethylase
+Polyketide synthase
+MAP kinase
+Transcription factor
+Scytalone dehydratase
+Reductase
+Toxin Pump
+Cell wall 1,3-beta-glucosyltransferase (bgl2p)
+Cell morphogenesis
+G beta protein subunit
+Tyrosine phosphatase
+MAP kinase
+Aspartyl proteinase
+Aspartyl proteinase
+Cutinase
+Cutinase
+Cutinase
+Cutinase
+Cutinase
+Cutinase
+Extracellular Protein
+Effector protein
+Effector protein
+Aspartyl proteinase
+Aspartyl proteinase
+Aspartyl proteinase
+Aspartyl proteinase
+
+G alpha protein subunit
+G alpha protein subunit
+G alpha protein subunit
+G alpha protein subunit
+G alpha protein subunit
+G alpha protein subunit
+Topoisomerase I
+Adenylate cyclase
+G alpha protein subunit
+G alpha protein subunit
+G alpha protein subunit
+Protein Kinase
+Regulatory protein
+Transcription factor
+Transcription factor
+Polygalacturonase
+Calcineurin A catalytic subunit/ Serine/threonine phosphatase 2B
+Membrane protein
+Fatty acid synthetase
+Fatty acid synthetase
+Fatty acid synthetase
+Chitin Synthase
+Putative transcription factor
+PKA catalytic subunit
+Polyketide synthase
+Endopolygalacturonase
+Endopolygalacturonase
+Endopolygalacturonase
+Synthesis of mannoproteins
+Synthesis of mannoproteins
+Phospholipase B
+Catalase
+MAP kinase
+Protein kinase (Ser/thr)
+Effector protein
+Maackiain detoxification
+MAP kinase
+Endopolygalacturonase
+Exopolygalacturonase
+Polyketide Synthase
+Carnitine acetyl transferase
+Imidazole glycerol phosphate dehydrogenase
+Pathogenicity protein
+Trehalase
+Integrin
+Aspartyl proteinase
+Aspartyl proteinase
+Aspartyl proteinase
+Aspartyl proteinase
+Aspartyl proteinase
+Aspartyl proteinase
+PKA regulatory subunit
+Capsule associated protein
+Trehalose-6-phosphate synthase
+Toxin efflux pump
+ABC transporter
+Carboxyl-activating enzyme, essential for AK Toxin
+Unknown, mutant is AK toxin non-producer
+Adhesin
+Histidine Kinase
+Histidine Kinase
+Histidine Kinase
+Histidine Kinase
+Histidine Kinase
+Capsule formation
+Histidine Kinase
+Cercosporin secretion
+MAP kinase
+Cyanide hydratase
+Chitinase
+PKA catalytic subunit
+MAP Kinase
+MAP kinase
+MAP kinase
+Transcription factor
+Transcription factor
+Branched-chain-amino-acid aminotransferase
+Protein kinase
+Pyrimidine biosynthesis
+AM toxin synthase
+MAP kinase
+MAP kinase
+MAP kinase
+High-affinity iron permease
+Calcium binding protein
+Suppressor of plant defense
+MAP kinase kinase
+Unknown
+Unknown
+Unknown
+Unknown
+Transcription factor
+MAP kinase
+Cdc2-related protein kinase
+G alpha protein subunit
+Glucosamine-6-phosphate acetyltransferase
+Surface protein; hyphal development
+Unknown
+Ornithine decarboxylase
+Para-aminobenzoic acid synthetase
+Pectate lyase
+Pectate lyase
+Exopolygalacturonase
+
+Signalling cascade
+Signalling cascade
+
+GPI-modified cell wall protein
+GPI-modified cell wall protein
+Plant-pathogenesis related protein (PR-1)
+Plant-pathogenesis related protein (PR-1)
+Transcription factor
+Activates RIM101
+Transcription regulator
+Protein Kinase
+Two component response regulator
+TEA/ATTS transcription factor
+Tomatinase
+Urease
+Phosphatidylinositol 3-kinase
+Phosphoribosylaminoimidazole carboxylase
+D-arabinono-1,4-lactone oxidase
+Cell surface protein
+Cell surface protein
+Cell surface protein
+Alcohol oxidase
+Argininosuccinate lyase
+Effector protein
+ABC transporter
+ABC transporter
+G alpha protein subunit
+G alpha protein subunit
+Adenylate cyclase
+Chitin Synthase
+GlcN6P deaminase
+GlcNAcP deacetylase
+GlcNAc kinase
+Transcription factor
+Adenylate cyclase
+Transcription factor
+Histidine Kinase
+Cyclophillin
+Cyclophillin
+GlcNAc-6-phosphate deacetylase
+MAP kinase
+MAP kinase
+Histone deacetylase
+GlcNAc kinase
+Inositol-phosphoryl ceramide synthase 1
+DNA ligase
+Phosphomannose isomerase
+Phosphomannose isomerase
+Glucosamine-6-phosphate deaminase
+Pectate lyase
+Unknown
+Unknown
+Unknown
+Peroxisome biogenesis
+
+Cyclic AMP dependent protein kinase
+Cyclic AMP dependent protein kinase
+Cyclic AMP dependent protein kinase
+
+Phospholipase B

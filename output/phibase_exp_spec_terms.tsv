@@ -1,0 +1,273 @@
+PHI:I1	PHI:3	gene disruption	ESO:0000001
+PHI:I2	PHI:7	gene deletion; complementation; biochemical evidence	ESO:0000002
+PHI:I2	PHI:7	gene deletion; complementation; biochemical evidence	ESO:0000007
+PHI:I2	PHI:7	gene deletion; complementation; biochemical evidence	ESO:0000005
+PHI:I3	PHI:12	gene disruption	ESO:0000001
+PHI:I4	PHI:14	gene disruption; gene complementation	ESO:0000001
+PHI:I4	PHI:14	gene disruption; gene complementation	ESO:0000007
+PHI:I5	PHI:14	gene disruption; gene complementation	ESO:0000001
+PHI:I5	PHI:14	gene disruption; gene complementation	ESO:0000007
+PHI:I6	PHI:15	gene deletion	ESO:0000002
+PHI:I7	PHI:17	gene disruption; gene complementation	ESO:0000001
+PHI:I7	PHI:17	gene disruption; gene complementation	ESO:0000007
+PHI:I8	PHI:18	biochemical analysis; mutation: characterised; complementation	ESO:0000005
+PHI:I8	PHI:18	biochemical analysis; mutation: characterised; complementation	ESO:0000016
+PHI:I8	PHI:18	biochemical analysis; mutation: characterised; complementation	ESO:0000007
+PHI:I9	PHI:19	mutation: characterised	ESO:0000016
+PHI:I10	PHI:22	gene disruption; gene complementation	ESO:0000001
+PHI:I10	PHI:22	gene disruption; gene complementation	ESO:0000007
+PHI:I11	PHI:24	gene disruption	ESO:0000001
+PHI:I12	PHI:24	gene disruption	ESO:0000001
+PHI:I13	PHI:25	gene disruption	ESO:0000001
+PHI:I14	PHI:26	gene disruption	ESO:0000001
+PHI:I15	PHI:27	gene disruption	ESO:0000001
+PHI:I16	PHI:27	gene disruption	ESO:0000001
+PHI:I17	PHI:31	gene disruption	ESO:0000001
+PHI:I18	PHI:33	gene disruption	ESO:0000001
+PHI:I19	PHI:36	gene deletion	ESO:0000002
+PHI:I20	PHI:37	gene deletion	ESO:0000002
+PHI:I21	PHI:38	other evidence	ESO:0000010
+PHI:I22	PHI:39	other evidence	ESO:0000010
+PHI:I23	PHI:40	complementation	ESO:0000007
+PHI:I24	PHI:41	complementation	ESO:0000007
+PHI:I25	PHI:42	complementation	ESO:0000007
+PHI:I26	PHI:44	gene disruption; gene complementation	ESO:0000001
+PHI:I26	PHI:44	gene disruption; gene complementation	ESO:0000007
+PHI:I27	PHI:44	gene disruption; gene complementation	ESO:0000001
+PHI:I27	PHI:44	gene disruption; gene complementation	ESO:0000007
+PHI:I28	PHI:44	gene disruption; gene complementation	ESO:0000001
+PHI:I28	PHI:44	gene disruption; gene complementation	ESO:0000007
+PHI:I29	PHI:44	gene disruption; gene complementation	ESO:0000001
+PHI:I29	PHI:44	gene disruption; gene complementation	ESO:0000007
+PHI:I30	PHI:44	gene disruption; gene complementation	ESO:0000001
+PHI:I30	PHI:44	gene disruption; gene complementation	ESO:0000007
+PHI:I31	PHI:44	gene disruption; gene complementation	ESO:0000001
+PHI:I31	PHI:44	gene disruption; gene complementation	ESO:0000007
+PHI:I32	PHI:44	gene deletion; biochemical analysis	ESO:0000002
+PHI:I32	PHI:44	gene deletion; biochemical analysis	ESO:0000005
+PHI:I33	PHI:47	gene disruption; gene deletion; gene complementation	ESO:0000001
+PHI:I33	PHI:47	gene disruption; gene deletion; gene complementation	ESO:0000002
+PHI:I33	PHI:47	gene disruption; gene deletion; gene complementation	ESO:0000007
+PHI:I34	PHI:48	gene disruption; gene complementation	ESO:0000001
+PHI:I34	PHI:48	gene disruption; gene complementation	ESO:0000007
+PHI:I35	PHI:48	gene disruption; gene complementation	ESO:0000001
+PHI:I35	PHI:48	gene disruption; gene complementation	ESO:0000007
+PHI:I36	PHI:48	gene disruption; gene complementation	ESO:0000001
+PHI:I36	PHI:48	gene disruption; gene complementation	ESO:0000007
+PHI:I37	PHI:49	gene disruption	ESO:0000001
+PHI:I38	PHI:52	gene disruption; gene complementation	ESO:0000001
+PHI:I38	PHI:52	gene disruption; gene complementation	ESO:0000007
+PHI:I39	PHI:52	gene disruption	ESO:0000001
+PHI:I40	PHI:53	other evidence	ESO:0000010
+PHI:I41	PHI:55	gene disruption	ESO:0000001
+PHI:I42	PHI:56	gene deletion; gene complementation	ESO:0000002
+PHI:I42	PHI:56	gene deletion; gene complementation	ESO:0000007
+PHI:I43	PHI:57	gene disruption	ESO:0000001
+PHI:I44	PHI:58	gene deletion; gene complementation	ESO:0000002
+PHI:I44	PHI:58	gene deletion; gene complementation	ESO:0000007
+PHI:I45	PHI:59	gene disruption	ESO:0000001
+PHI:I46	PHI:60	gene disruption	ESO:0000001
+PHI:I47	PHI:61	gene disruption; gene complementation	ESO:0000001
+PHI:I47	PHI:61	gene disruption; gene complementation	ESO:0000007
+PHI:I48	PHI:62	gene disruption; gene complementation	ESO:0000001
+PHI:I48	PHI:62	gene disruption; gene complementation	ESO:0000007
+PHI:I49	PHI:65	gene disruption	ESO:0000001
+PHI:I50	PHI:66	gene disruption; gene complementation	ESO:0000001
+PHI:I50	PHI:66	gene disruption; gene complementation	ESO:0000007
+PHI:I51	PHI:67	gene disruption; gene complementation	ESO:0000001
+PHI:I51	PHI:67	gene disruption; gene complementation	ESO:0000007
+PHI:I52	PHI:68	gene disruption	ESO:0000001
+PHI:I53	PHI:68	gene disruption	ESO:0000001
+PHI:I54	PHI:69	gene disruption	ESO:0000001
+PHI:I55	PHI:69	gene disruption	ESO:0000001
+PHI:I56	PHI:71	gene deletion	ESO:0000002
+PHI:I57	PHI:72	gene disruption	ESO:0000001
+PHI:I58	PHI:72	gene disruption	ESO:0000001
+PHI:I59	PHI:73	gene disruption	ESO:0000001
+PHI:I60	PHI:73	gene disruption	ESO:0000001
+PHI:I61	PHI:75	gene disruption; gene complementation	ESO:0000001
+PHI:I61	PHI:75	gene disruption; gene complementation	ESO:0000007
+PHI:I62	PHI:75	gene disruption; gene complementation	ESO:0000001
+PHI:I62	PHI:75	gene disruption; gene complementation	ESO:0000007
+PHI:I63	PHI:75	gene disruption; gene complementation	ESO:0000001
+PHI:I63	PHI:75	gene disruption; gene complementation	ESO:0000007
+PHI:I64	PHI:76	gene disruption	ESO:0000001
+PHI:I65	PHI:77	gene disruption	ESO:0000001
+PHI:I66	PHI:78	gene disruption	ESO:0000001
+PHI:I67	PHI:79	gene disruption	ESO:0000001
+PHI:I68	PHI:80	gene disruption; gene complementation	ESO:0000001
+PHI:I68	PHI:80	gene disruption; gene complementation	ESO:0000007
+PHI:I69	PHI:81	gene deletion	ESO:0000002
+PHI:I70	PHI:82	gene deletion	ESO:0000002
+PHI:I71	PHI:83	gene disruption; gene complementation	ESO:0000001
+PHI:I71	PHI:83	gene disruption; gene complementation	ESO:0000007
+PHI:I72	PHI:84	gene deletion	ESO:0000002
+PHI:I73	PHI:85	gene disruption	ESO:0000001
+PHI:I74	PHI:86	gene disruption; gene complementation	ESO:0000001
+PHI:I74	PHI:86	gene disruption; gene complementation	ESO:0000007
+PHI:I75	PHI:87	gene disruption; gene complementation	ESO:0000001
+PHI:I75	PHI:87	gene disruption; gene complementation	ESO:0000007
+PHI:I76	PHI:88	gene deletion; gene complementation	ESO:0000002
+PHI:I76	PHI:88	gene deletion; gene complementation	ESO:0000007
+PHI:I77	PHI:89	gene disruption; gene complementation	ESO:0000001
+PHI:I77	PHI:89	gene disruption; gene complementation	ESO:0000007
+PHI:I78	PHI:95	gene disruption	ESO:0000001
+PHI:I79	PHI:96	gene disruption; gene complementation	ESO:0000001
+PHI:I79	PHI:96	gene disruption; gene complementation	ESO:0000007
+PHI:I80	PHI:96	gene disruption; gene complementation	ESO:0000001
+PHI:I80	PHI:96	gene disruption; gene complementation	ESO:0000007
+PHI:I81	PHI:97	gene disruption	ESO:0000001
+PHI:I82	PHI:98	gene deletion; gene complementation	ESO:0000002
+PHI:I82	PHI:98	gene deletion; gene complementation	ESO:0000007
+PHI:I83	PHI:99	gene deletion; gene complementation	ESO:0000002
+PHI:I83	PHI:99	gene deletion; gene complementation	ESO:0000007
+PHI:I84	PHI:100	gene disruption	ESO:0000001
+PHI:I85	PHI:101	gene disruption; altered gene expression / gene regulation: overexpression; complementation	ESO:0000001
+PHI:I85	PHI:101	gene disruption; altered gene expression / gene regulation: overexpression; complementation	ESO:0000011
+PHI:I85	PHI:101	gene disruption; altered gene expression / gene regulation: overexpression; complementation	ESO:0000007
+PHI:I86	PHI:103	gene disruption	ESO:0000001
+PHI:I87	PHI:103	gene disruption	ESO:0000001
+PHI:I88	PHI:103	gene disruption	ESO:0000001
+PHI:I89	PHI:104	gene disruption	ESO:0000001
+PHI:I90	PHI:104	gene disruption	ESO:0000001
+PHI:I91	PHI:105	gene disruption; gene complementation	ESO:0000001
+PHI:I91	PHI:105	gene disruption; gene complementation	ESO:0000007
+PHI:I92	PHI:106	gene disruption	ESO:0000001
+PHI:I93	PHI:107	gene disruption; gene complementation	ESO:0000001
+PHI:I93	PHI:107	gene disruption; gene complementation	ESO:0000007
+PHI:I94	PHI:109	gene deletion	ESO:0000002
+PHI:I95	PHI:111	gene disruption	ESO:0000001
+PHI:I96	PHI:113	gene deletion; gene complementation	ESO:0000002
+PHI:I96	PHI:113	gene deletion; gene complementation	ESO:0000007
+PHI:I97	PHI:114	complementation	ESO:0000007
+PHI:I98	PHI:115	gene disruption	ESO:0000001
+PHI:I99	PHI:116	gene disruption; gene complementation	ESO:0000001
+PHI:I99	PHI:116	gene disruption; gene complementation	ESO:0000007
+PHI:I100	PHI:120	gene disruption; gene complementation	ESO:0000001
+PHI:I100	PHI:120	gene disruption; gene complementation	ESO:0000007
+PHI:I101	PHI:121	gene disruption; gene complementation	ESO:0000001
+PHI:I101	PHI:121	gene disruption; gene complementation	ESO:0000007
+PHI:I102	PHI:122	gene disruption; gene complementation	ESO:0000001
+PHI:I102	PHI:122	gene disruption; gene complementation	ESO:0000007
+PHI:I103	PHI:123	gene disruption; gene complementation	ESO:0000001
+PHI:I103	PHI:123	gene disruption; gene complementation	ESO:0000007
+PHI:I104	PHI:124	gene disruption; gene complementation	ESO:0000001
+PHI:I104	PHI:124	gene disruption; gene complementation	ESO:0000007
+PHI:I105	PHI:125	gene disruption	ESO:0000001
+PHI:I106	PHI:125	gene disruption	ESO:0000001
+PHI:I107	PHI:128	mutation: characterised	ESO:0000016
+PHI:I108	PHI:129	gene deletion; gene complementation	ESO:0000002
+PHI:I108	PHI:129	gene deletion; gene complementation	ESO:0000007
+PHI:I109	PHI:130	gene disruption; gene complementation	ESO:0000001
+PHI:I109	PHI:130	gene disruption; gene complementation	ESO:0000007
+PHI:I110	PHI:131	gene disruption	ESO:0000001
+PHI:I111	PHI:132	gene deletion	ESO:0000002
+PHI:I112	PHI:133	gene disruption	ESO:0000001
+PHI:I113	PHI:134	gene disruption	ESO:0000001
+PHI:I114	PHI:135	gene deletion; gene complementation	ESO:0000002
+PHI:I114	PHI:135	gene deletion; gene complementation	ESO:0000007
+PHI:I115	PHI:136	gene disruption; gene complementation	ESO:0000001
+PHI:I115	PHI:136	gene disruption; gene complementation	ESO:0000007
+PHI:I116	PHI:136	gene disruption	ESO:0000001
+PHI:I117	PHI:136	gene disruption; gene complementation	ESO:0000001
+PHI:I117	PHI:136	gene disruption; gene complementation	ESO:0000007
+PHI:I118	PHI:136	gene disruption; gene complementation	ESO:0000001
+PHI:I118	PHI:136	gene disruption; gene complementation	ESO:0000007
+PHI:I119	PHI:138	gene disruption	ESO:0000001
+PHI:I120	PHI:139	gene deletion; gene complementation	ESO:0000002
+PHI:I120	PHI:139	gene deletion; gene complementation	ESO:0000007
+PHI:I121	PHI:140	gene disruption	ESO:0000001
+PHI:I122	PHI:141	gene disruption; gene complementation	ESO:0000001
+PHI:I122	PHI:141	gene disruption; gene complementation	ESO:0000007
+PHI:I123	PHI:142	gene disruption	ESO:0000001
+PHI:I124	PHI:143	gene disruption	ESO:0000001
+PHI:I125	PHI:144	gene deletion; altered gene expression / gene regulation: overexpression	ESO:0000002
+PHI:I125	PHI:144	gene deletion; altered gene expression / gene regulation: overexpression	ESO:0000011
+PHI:I126	PHI:146	gene deletion	ESO:0000002
+PHI:I127	PHI:149	gene disruption; gene complementation	ESO:0000001
+PHI:I127	PHI:149	gene disruption; gene complementation	ESO:0000007
+PHI:I128	PHI:151	gene disruption; gene complementation	ESO:0000001
+PHI:I128	PHI:151	gene disruption; gene complementation	ESO:0000007
+PHI:I129	PHI:153	gene deletion	ESO:0000002
+PHI:I130	PHI:156	gene disruption; gene complementation	ESO:0000001
+PHI:I130	PHI:156	gene disruption; gene complementation	ESO:0000007
+PHI:I131	PHI:156	gene disruption; gene complementation	ESO:0000001
+PHI:I131	PHI:156	gene disruption; gene complementation	ESO:0000007
+PHI:I132	PHI:157	gene disruption	ESO:0000001
+PHI:I133	PHI:158	gene deletion	ESO:0000002
+PHI:I134	PHI:159	gene deletion; gene complementation	ESO:0000002
+PHI:I134	PHI:159	gene deletion; gene complementation	ESO:0000007
+PHI:I135	PHI:160	gene disruption	ESO:0000001
+PHI:I136	PHI:161	gene deletion; gene complementation	ESO:0000002
+PHI:I136	PHI:161	gene deletion; gene complementation	ESO:0000007
+PHI:I137	PHI:161	gene deletion; gene complementation	ESO:0000002
+PHI:I137	PHI:161	gene deletion; gene complementation	ESO:0000007
+PHI:I138	PHI:161	gene deletion; gene complementation	ESO:0000002
+PHI:I138	PHI:161	gene deletion; gene complementation	ESO:0000007
+PHI:I139	PHI:162	gene disruption; gene complementation	ESO:0000001
+PHI:I139	PHI:162	gene disruption; gene complementation	ESO:0000007
+PHI:I140	PHI:163	gene disruption; gene complementation	ESO:0000001
+PHI:I140	PHI:163	gene disruption; gene complementation	ESO:0000007
+PHI:I141	PHI:164	gene deletion	ESO:0000002
+PHI:I142	PHI:165	gene disruption	ESO:0000001
+PHI:I143	PHI:166	gene deletion	ESO:0000002
+PHI:I144	PHI:166	gene deletion	ESO:0000002
+PHI:I145	PHI:167	gene disruption	ESO:0000001
+PHI:I146	PHI:167	gene disruption	ESO:0000001
+PHI:I147	PHI:169	gene deletion	ESO:0000002
+PHI:I148	PHI:170	gene deletion; gene complementation	ESO:0000002
+PHI:I148	PHI:170	gene deletion; gene complementation	ESO:0000007
+PHI:I149	PHI:172	gene disruption; gene complementation	ESO:0000001
+PHI:I149	PHI:172	gene disruption; gene complementation	ESO:0000007
+PHI:I150	PHI:174	gene disruption; gene complementation	ESO:0000001
+PHI:I150	PHI:174	gene disruption; gene complementation	ESO:0000007
+PHI:I151	PHI:175	gene disruption; gene complementation	ESO:0000001
+PHI:I151	PHI:175	gene disruption; gene complementation	ESO:0000007
+PHI:I152	PHI:176	gene deletion	ESO:0000002
+PHI:I153	PHI:177	gene deletion; gene complementation	ESO:0000002
+PHI:I153	PHI:177	gene deletion; gene complementation	ESO:0000007
+PHI:I154	PHI:178	gene deletion; gene complementation	ESO:0000002
+PHI:I154	PHI:178	gene deletion; gene complementation	ESO:0000007
+PHI:I155	PHI:179	gene disruption; gene complementation	ESO:0000001
+PHI:I155	PHI:179	gene disruption; gene complementation	ESO:0000007
+PHI:I156	PHI:181	gene deletion	ESO:0000002
+PHI:I157	PHI:182	gene disruption; gene complementation	ESO:0000001
+PHI:I157	PHI:182	gene disruption; gene complementation	ESO:0000007
+PHI:I158	PHI:182	gene disruption; gene complementation	ESO:0000001
+PHI:I158	PHI:182	gene disruption; gene complementation	ESO:0000007
+PHI:I159	PHI:182	gene disruption; gene complementation	ESO:0000001
+PHI:I159	PHI:182	gene disruption; gene complementation	ESO:0000007
+PHI:I160	PHI:182	gene disruption; gene complementation	ESO:0000001
+PHI:I160	PHI:182	gene disruption; gene complementation	ESO:0000007
+PHI:I161	PHI:183	gene disruption; gene complementation	ESO:0000001
+PHI:I161	PHI:183	gene disruption; gene complementation	ESO:0000007
+PHI:I162	PHI:183	gene disruption; gene complementation	ESO:0000001
+PHI:I162	PHI:183	gene disruption; gene complementation	ESO:0000007
+PHI:I163	PHI:184	gene disruption	ESO:0000001
+PHI:I164	PHI:184	gene disruption	ESO:0000001
+PHI:I165	PHI:185	gene disruption	ESO:0000001
+PHI:I166	PHI:186	gene disruption; gene complementation	ESO:0000001
+PHI:I166	PHI:186	gene disruption; gene complementation	ESO:0000007
+PHI:I167	PHI:187	gene disruption; gene complementation	ESO:0000001
+PHI:I167	PHI:187	gene disruption; gene complementation	ESO:0000007
+PHI:I168	PHI:188	gene disruption; gene complementation	ESO:0000001
+PHI:I168	PHI:188	gene disruption; gene complementation	ESO:0000007
+PHI:I169	PHI:189	gene disruption; gene complementation	ESO:0000001
+PHI:I169	PHI:189	gene disruption; gene complementation	ESO:0000007
+PHI:I170	PHI:190	gene disruption; gene complementation	ESO:0000001
+PHI:I170	PHI:190	gene disruption; gene complementation	ESO:0000007
+PHI:I171	PHI:191	gene disruption	ESO:0000001
+PHI:I172	PHI:194	gene disruption; gene complementation	ESO:0000001
+PHI:I172	PHI:194	gene disruption; gene complementation	ESO:0000007
+PHI:I173	PHI:195	gene disruption; gene complementation	ESO:0000001
+PHI:I173	PHI:195	gene disruption; gene complementation	ESO:0000007
+PHI:I174	PHI:196	gene disruption; gene complementation	ESO:0000001
+PHI:I174	PHI:196	gene disruption; gene complementation	ESO:0000007
+PHI:I175	PHI:197	gene disruption; gene complementation	ESO:0000001
+PHI:I175	PHI:197	gene disruption; gene complementation	ESO:0000007
+PHI:I176	PHI:198	gene disruption; gene complementation	ESO:0000001
+PHI:I176	PHI:198	gene disruption; gene complementation	ESO:0000007
+PHI:I177	PHI:198	gene disruption; gene complementation	ESO:0000001
+PHI:I177	PHI:198	gene disruption; gene complementation	ESO:0000007
+PHI:I178	PHI:198	gene disruption; gene complementation	ESO:0000001
+PHI:I178	PHI:198	gene disruption; gene complementation	E

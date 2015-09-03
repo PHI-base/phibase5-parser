@@ -1,1422 +1,1422 @@
-USDA entry	5037
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	5037
-No of plant hosts	
-Natural Host Type	
+USDA entry	5811
 No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5811
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+
+USDA entry	66271
+Host Kingdom	plant
+No of host interactions USDA Fungal database	none
+No of host interactions Plantwise Knowledge Bank	16
+Pathogen Taxonomy NCBI Identifier	66271
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Cereal Monocot
+No of plant hosts	A few
+
+USDA entry	101028
+Pathogen Taxonomy NCBI Identifier	101028
+No of host interactions USDA Fungal database	22
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Natural Host Type	Cereal Monocot
+No of plant hosts	Many
+Pathogen Lifestyle	Necrotroph
+
+USDA entry	552
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Dicot - trees
+No of plant hosts	Many
+Host Kingdom	plant
+No of host interactions USDA Fungal database	10
+No of host interactions Plantwise Knowledge Bank	28
+Pathogen Taxonomy NCBI Identifier	552
+
+USDA entry	5457
+Natural Host Type	Non Cereal Monocot - Dicot (D)
+No of plant hosts	Vast
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+Pathogen Taxonomy NCBI Identifier	5457
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	1911
+
+USDA entry	1280
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Pathogen Taxonomy NCBI Identifier	1280
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+
+USDA entry	5599
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	905
+Pathogen Taxonomy NCBI Identifier	5599
+Pathogen Lifestyle	Necrotroph
+No of plant hosts	Vast
+Natural Host Type	Cereal Monocot - Non Cereal Monocot  - Dicot
 
 USDA entry	176275
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+No of host interactions USDA Fungal database	
 Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
 Pathogen Taxonomy NCBI Identifier	176275
-No of plant hosts	
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	37769
-No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	37769
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	4932
-Natural Host Type	
-No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	4932
-
-USDA entry	62690
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	1
-Pathogen Lifestyle	Obligate Biotroph
-No of host interactions Plantwise Knowledge Bank	
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	62690
-No of plant hosts	One
 
 USDA entry	633
-Natural Host Type	
-No of host interactions USDA Fungal database	
-Pathogen Lifestyle	
 No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
 Pathogen Taxonomy NCBI Identifier	633
-Host Kingdom	animal
+Pathogen Lifestyle	
+Natural Host Type	
 No of plant hosts	
 
-USDA entry	278938
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph -necrotroph
+USDA entry	101162
 No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	278938
-Natural Host Type	Non Cereal Monocot
-No of host interactions USDA Fungal database	37
-
-USDA entry	93612
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	37
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Taxonomy NCBI Identifier	93612
-Host Kingdom	plant
-No of plant hosts	Many
-
-USDA entry	149539
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	149539
-Host Kingdom	animal
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	322
-No of host interactions USDA Fungal database	none
-Natural Host Type	Dicot
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	322
-No of plant hosts	A few
-No of host interactions Plantwise Knowledge Bank	20
-Pathogen Lifestyle	Hemibiotroph
-
-USDA entry	76659
-No of host interactions USDA Fungal database	16
-Natural Host Type	Dicot
-No of plant hosts	A few
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	76659
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph
-
-USDA entry	290576
-Natural Host Type	Cereal Monocot - Non Cereal Monocot - Dicot
-No of host interactions USDA Fungal database	61
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	290576
-Host Kingdom	plant
-
-USDA entry	5665
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	5665
-Host Kingdom	animal
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	5022
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5022
-No of plant hosts	Vast
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	110
-
-USDA entry	226899
-Natural Host Type	Dicot - Tree
-No of host interactions USDA Fungal database	13
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	A few
-Pathogen Taxonomy NCBI Identifier	226899
-Host Kingdom	plant
-
-USDA entry	1313
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	1313
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	518
-Natural Host Type	
-No of host interactions USDA Fungal database	
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	518
-
-USDA entry	263
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Pathogen Taxonomy NCBI Identifier	263
-Host Kingdom	animal
-No of plant hosts	
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	5127
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5127
-No of plant hosts	Many
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	51
-Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
-
-USDA entry	5551
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Taxonomy NCBI Identifier	5551
-Host Kingdom	animal
-No of plant hosts	
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	140110
-Natural Host Type	Cereal Monocot - Non Cereal Monocot - Dicot
-No of host interactions USDA Fungal database	623
+Natural Host Type	Cereal Monocot   and Dicot
 Pathogen Lifestyle	Necrotroph
+Pathogen Taxonomy NCBI Identifier	101162
 No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	140110
+No of host interactions USDA Fungal database	33
 Host Kingdom	plant
 
 USDA entry	93591
 Natural Host Type	
-No of host interactions USDA Fungal database	none
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
 No of plant hosts	
+Pathogen Lifestyle	
 Pathogen Taxonomy NCBI Identifier	93591
+No of host interactions USDA Fungal database	none
 Host Kingdom	fungus
-
-USDA entry	123356
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	330
 No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Obligate Biotroph
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	123356
-Host Kingdom	plant
 
-USDA entry	317
-No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	317
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	61
-No of host interactions USDA Fungal database	28
-Natural Host Type	Dicots - Cereal Monocot - Non Cereal Monocot
-
-USDA entry	1314
-Natural Host Type	
-No of host interactions USDA Fungal database	
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Taxonomy NCBI Identifier	1314
+USDA entry	1311
 Host Kingdom	animal
-No of plant hosts	
-
-USDA entry	39703
-No of plant hosts	A few
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	39703
-Pathogen Lifestyle	Necrotroph
 No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	17
+No of host interactions USDA Fungal database	
+Pathogen Taxonomy NCBI Identifier	1311
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+
+USDA entry	5516
+No of host interactions USDA Fungal database	136
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5516
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+Natural Host Type	Cereal Monocot   and Dicot
+No of plant hosts	Vast
+
+USDA entry	36746
+Pathogen Lifestyle	Hemibiotroph
 Natural Host Type	Dicot
+No of plant hosts	Many
+No of host interactions USDA Fungal database	2
+No of host interactions Plantwise Knowledge Bank	73
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	36746
+
+USDA entry	42897
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Pathogen Taxonomy NCBI Identifier	42897
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
 
 USDA entry	129394
-Natural Host Type	Cereal Monocot
 No of host interactions USDA Fungal database	none
-No of host interactions Plantwise Knowledge Bank	4
-Pathogen Lifestyle	Hemibiotroph
-Pathogen Taxonomy NCBI Identifier	129394
 Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	4
+Pathogen Taxonomy NCBI Identifier	129394
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Cereal Monocot
 No of plant hosts	A few
 
-USDA entry	5514
-Natural Host Type	Cereal Monocot   and Dicot
-No of host interactions USDA Fungal database	66
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
+USDA entry	278938
+Pathogen Taxonomy NCBI Identifier	278938
 Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5514
-No of plant hosts	Many
-
-USDA entry	666
 No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Pathogen Taxonomy NCBI Identifier	666
-Host Kingdom	animal
+No of host interactions USDA Fungal database	37
+Natural Host Type	Non Cereal Monocot
+No of plant hosts	Many
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+
+USDA entry	70790
+Natural Host Type	Dicots
+No of plant hosts	A few
+Pathogen Lifestyle	Necrotroph
+Pathogen Taxonomy NCBI Identifier	70790
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	10
+
+USDA entry	518
 No of plant hosts	
 Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	518
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	373
+Pathogen Taxonomy NCBI Identifier	373
+Host Kingdom	plant
+No of host interactions USDA Fungal database	none
+No of host interactions Plantwise Knowledge Bank	none
+Natural Host Type	Dicot
+No of plant hosts	One
+Pathogen Lifestyle	Biotroph
+
+USDA entry	55208
+No of plant hosts	A few
+Natural Host Type	Dicot
+Pathogen Lifestyle	Necrotroph
+Pathogen Taxonomy NCBI Identifier	55208
+No of host interactions USDA Fungal database	none
+No of host interactions Plantwise Knowledge Bank	none
+Host Kingdom	plant
+
+USDA entry	272952
+Pathogen Taxonomy NCBI Identifier	272952
+Host Kingdom	plant
+No of host interactions USDA Fungal database	5
+No of host interactions Plantwise Knowledge Bank	
+Natural Host Type	Dicot
+No of plant hosts	A few
+Pathogen Lifestyle	Obligate Biotroph
+
+USDA entry	54734
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	33
+Pathogen Taxonomy NCBI Identifier	54734
+Pathogen Lifestyle	Hemibiotroph
+No of plant hosts	A few
+Natural Host Type	Cereal Monocot
+
+USDA entry	29850
+Pathogen Lifestyle	Necrotroph
+No of plant hosts	A few
+Natural Host Type	Cereal Monocot
+Host Kingdom	plant
+No of host interactions USDA Fungal database	18
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	29850
+
+USDA entry	358
+No of host interactions Plantwise Knowledge Bank	none
+No of host interactions USDA Fungal database	47
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	358
+Pathogen Lifestyle	Biotroph
+Natural Host Type	Dicot
+No of plant hosts	Many
+
+USDA entry	5482
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	5482
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
 No of host interactions USDA Fungal database	
 
-USDA entry	38448
+USDA entry	498217
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	498217
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	62690
+Pathogen Taxonomy NCBI Identifier	62690
+No of host interactions USDA Fungal database	1
 Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	38448
+No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	One
+Natural Host Type	Cereal Monocot
+Pathogen Lifestyle	Obligate Biotroph
+
+USDA entry	4932
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	4932
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+
+USDA entry	140110
+No of host interactions USDA Fungal database	623
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	140110
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Cereal Monocot - Non Cereal Monocot - Dicot
+No of plant hosts	Vast
+
+USDA entry	29001
+Pathogen Taxonomy NCBI Identifier	29001
+No of host interactions USDA Fungal database	73
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+Natural Host Type	Dicot
 No of plant hosts	Many
 Pathogen Lifestyle	Necrotroph
+
+USDA entry	67593
+Pathogen Lifestyle	Hemibiotroph
+No of plant hosts	Many
+Natural Host Type	Non Cereal Monocot - Dicot
+Host Kingdom	plant
+No of host interactions USDA Fungal database	49
 No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	103
-Natural Host Type	Dicot
+Pathogen Taxonomy NCBI Identifier	67593
 
 USDA entry	568076
-Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	568076
 No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+
+USDA entry	226899
+Pathogen Lifestyle	
+No of plant hosts	A few
+Natural Host Type	Dicot - Tree
+Host Kingdom	plant
+No of host interactions USDA Fungal database	13
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	226899
+
+USDA entry	573
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+Pathogen Taxonomy NCBI Identifier	573
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+
+USDA entry	27357
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	178
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	27357
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+Natural Host Type	Dicot - Dicot Trees
+No of plant hosts	Vast
+
+USDA entry	1314
+Pathogen Lifestyle	
+Natural Host Type	
 No of plant hosts	
 Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	568076
-Natural Host Type	
 No of host interactions USDA Fungal database	
-
-USDA entry	5499
-Pathogen Lifestyle	Biotroph
 No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5499
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	34
+Pathogen Taxonomy NCBI Identifier	1314
 
-USDA entry	321
-No of host interactions USDA Fungal database	1
-Natural Host Type	Dicot
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	321
-No of plant hosts	A few
-No of host interactions Plantwise Knowledge Bank	20
+USDA entry	45130
 Pathogen Lifestyle	Hemibiotroph
+No of plant hosts	Vast
+Natural Host Type	Cereal Monocot
+No of host interactions USDA Fungal database	374
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	45130
 
 USDA entry	5693
-Natural Host Type	
-No of host interactions USDA Fungal database	
 No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
 Pathogen Taxonomy NCBI Identifier	5693
-Host Kingdom	animal
-
-USDA entry	1396
-No of host interactions USDA Fungal database	
-Natural Host Type	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	1396
-No of plant hosts	
-No of host interactions Plantwise Knowledge Bank	
 Pathogen Lifestyle	
-
-USDA entry	992166
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Taxonomy NCBI Identifier	992166
-Host Kingdom	animal
 No of plant hosts	
 Natural Host Type	
-No of host interactions USDA Fungal database	
 
-USDA entry	5478
-No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	5478
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	66271
-No of host interactions Plantwise Knowledge Bank	16
-Pathogen Lifestyle	Necrotroph
+USDA entry	290576
+Pathogen Lifestyle	Hemibiotroph
+No of plant hosts	Many
+Natural Host Type	Cereal Monocot - Non Cereal Monocot - Dicot
 Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	66271
-No of plant hosts	A few
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	none
+No of host interactions USDA Fungal database	61
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	290576
+
+USDA entry	1351
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	1351
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+
+USDA entry	5691
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	5691
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+
+USDA entry	340
+No of plant hosts	Many
+Natural Host Type	Dicot
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	340
+No of host interactions Plantwise Knowledge Bank	25
+Host Kingdom	plant
+No of host interactions USDA Fungal database	3
+
+USDA entry	27358
+Natural Host Type	Dicot and Cereal Monocot
+No of plant hosts	Many
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+Pathogen Taxonomy NCBI Identifier	27358
+No of host interactions USDA Fungal database	59
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
 
 USDA entry	43353
 Natural Host Type	Dicot
-No of host interactions USDA Fungal database	none
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	2
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	43353
 No of plant hosts	A few
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	43353
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	2
+No of host interactions USDA Fungal database	none
 
 USDA entry	5180
-No of plant hosts	Vast
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5180
-Pathogen Lifestyle	Necrotroph
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	684
 Natural Host Type	Non Cereal Monocot - Dicot
+No of plant hosts	Vast
+Pathogen Lifestyle	Necrotroph
+Pathogen Taxonomy NCBI Identifier	5180
+Host Kingdom	plant
+No of host interactions USDA Fungal database	684
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	135779
+Natural Host Type	Cereal Monocot
+No of plant hosts	A few
+Pathogen Lifestyle	Necrotroph -HST
+Pathogen Taxonomy NCBI Identifier	135779
+No of host interactions USDA Fungal database	4
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+
+USDA entry	199306
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	199306
+
+USDA entry	149539
+Pathogen Taxonomy NCBI Identifier	149539
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+
+USDA entry	5017
+Pathogen Lifestyle	Necrotroph -HST
+No of plant hosts	Many
+Natural Host Type	Cereal Monocot
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	40
+Pathogen Taxonomy NCBI Identifier	5017
+
+USDA entry	162425
+Pathogen Taxonomy NCBI Identifier	162425
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+
+USDA entry	5016
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	101
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	5016
+Pathogen Lifestyle	Necrotroph -HST
+Natural Host Type	Cereal Monocot   and Dicot
+No of plant hosts	Many
+
+USDA entry	5261
+No of host interactions USDA Fungal database	56
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5261
+Pathogen Lifestyle	Biotroph
+Natural Host Type	Dicot - Linum sp only
+No of plant hosts	Many
+
+USDA entry	992166
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	992166
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+
+USDA entry	1773
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	1773
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	67780
+Pathogen Taxonomy NCBI Identifier	67780
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+
+USDA entry	13684
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	113
+Pathogen Taxonomy NCBI Identifier	13684
+Pathogen Lifestyle	Necrotroph-PHST
+Natural Host Type	Cereal Monocot
+No of plant hosts	Vast
+
+USDA entry	53485
+No of plant hosts	Many
+Natural Host Type	Cereal Monocot
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	53485
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	29
+
+USDA entry	5671
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	5671
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+
+USDA entry	29003
+Pathogen Lifestyle	Necrotroph -HST
+No of plant hosts	A few
+Natural Host Type	Dicot
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	6
+Pathogen Taxonomy NCBI Identifier	29003
+
+USDA entry	5037
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	5037
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+
+USDA entry	5127
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+No of plant hosts	Many
+Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
+Host Kingdom	plant
+No of host interactions USDA Fungal database	51
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5127
+
+USDA entry	61369
+No of host interactions USDA Fungal database	no entry
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	61369
+Pathogen Lifestyle	Necrotroph
+No of plant hosts	
+Natural Host Type	
+
+USDA entry	554
+No of host interactions USDA Fungal database	none
+No of host interactions Plantwise Knowledge Bank	73
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	554
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Dicot - Non Cereal Monocot
+No of plant hosts	Many
+
+USDA entry	40559
+Pathogen Taxonomy NCBI Identifier	40559
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	1367
+Host Kingdom	plant
+No of plant hosts	Vast
+Natural Host Type	Cereal Monocot - Non Cereal Monocot  - Dicot
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+
+USDA entry	5563
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	32
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	5563
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Cereal Monocot
+No of plant hosts	Many
+
+USDA entry	5207
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	5207
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+
+USDA entry	339
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	multiple
+No of host interactions USDA Fungal database	6
+Pathogen Taxonomy NCBI Identifier	339
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Dicot
+No of plant hosts	Many
+
+USDA entry	5466
+No of host interactions USDA Fungal database	37
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5466
+Pathogen Lifestyle	Hemibiotroph
+No of plant hosts	Many
+Natural Host Type	Dicot
+
+USDA entry	5111
+Pathogen Lifestyle	Biotroph
+No of plant hosts	Vast
+Natural Host Type	Cereal Monocot
+No of host interactions USDA Fungal database	515
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	5111
+
+USDA entry	5116
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+No of plant hosts	Many
+Natural Host Type	Dicot - Tree
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	50
+Pathogen Taxonomy NCBI Identifier	5116
+
+USDA entry	5551
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+Pathogen Taxonomy NCBI Identifier	5551
+
+USDA entry	39703
+Natural Host Type	Dicot
+No of plant hosts	A few
+Pathogen Lifestyle	Necrotroph
+Pathogen Taxonomy NCBI Identifier	39703
+Host Kingdom	plant
+No of host interactions USDA Fungal database	17
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	4792
+Natural Host Type	Dicot, Dicot-Tree,  Non Cereal Monocot
+No of plant hosts	Vast
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	4792
+No of host interactions USDA Fungal database	897
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+
+USDA entry	5970
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5970
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+
+USDA entry	13131
+Pathogen Lifestyle	Phloem feeding insect
+No of plant hosts	Many
+Natural Host Type	Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot
+No of host interactions Plantwise Knowledge Bank	35
+No of host interactions USDA Fungal database	none
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	13131
+
+USDA entry	5022
+Host Kingdom	plant
+No of host interactions USDA Fungal database	110
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5022
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Dicot
+No of plant hosts	Vast
+
+USDA entry	36090
+Pathogen Taxonomy NCBI Identifier	36090
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	23
+No of host interactions USDA Fungal database	none
+No of plant hosts	Many
+Natural Host Type	Dicot
+Pathogen Lifestyle	Obligate Biotroph
+
+USDA entry	5514
+Pathogen Lifestyle	Necrotroph
+No of plant hosts	Many
+Natural Host Type	Cereal Monocot   and Dicot
+No of host interactions USDA Fungal database	66
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	5514
+
+USDA entry	470
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	470
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+
+USDA entry	1396
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+Pathogen Taxonomy NCBI Identifier	1396
+
+USDA entry	5665
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	5665
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	27337
+No of host interactions USDA Fungal database	395
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	27337
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Dicot
+No of plant hosts	Vast
+
+USDA entry	40125
+Host Kingdom	plant
+No of host interactions USDA Fungal database	40
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	40125
+Pathogen Lifestyle	Necrotroph -HST
+No of plant hosts	Many
+Natural Host Type	Cereal Monocot   and Dicot
+
+USDA entry	5025
+Pathogen Taxonomy NCBI Identifier	5025
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	141
+Host Kingdom	plant
+No of plant hosts	Vast
+Natural Host Type	Dicot - Tree
+Pathogen Lifestyle	Hemibiotroph
+
+USDA entry	76659
+Pathogen Taxonomy NCBI Identifier	76659
+No of host interactions USDA Fungal database	16
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Natural Host Type	Dicot
+No of plant hosts	A few
+Pathogen Lifestyle	Hemibiotroph
+
+USDA entry	13164
+No of host interactions USDA Fungal database	none
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	115
+Pathogen Taxonomy NCBI Identifier	13164
+Pathogen Lifestyle	Phloem feeding insect
+Natural Host Type	Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot
+No of plant hosts	Vast
+
+USDA entry	93612
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Cereal Monocot
+No of plant hosts	Many
+No of host interactions USDA Fungal database	37
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	93612
+
+USDA entry	38038
+Natural Host Type	Cereal Monocot
+No of plant hosts	Many
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	38038
+No of host interactions USDA Fungal database	80
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	5507
+Pathogen Taxonomy NCBI Identifier	5507
+Host Kingdom	plant
+No of host interactions USDA Fungal database	707
+No of host interactions Plantwise Knowledge Bank	
+Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
+No of plant hosts	Vast
+Pathogen Lifestyle	Necrotroph
+
+USDA entry	1639
+Pathogen Taxonomy NCBI Identifier	1639
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+
+USDA entry	746128
+Pathogen Taxonomy NCBI Identifier	746128
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+
+USDA entry	65070
+No of host interactions USDA Fungal database	285
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	65070
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
+No of plant hosts	Vast
+
+USDA entry	123356
+Pathogen Taxonomy NCBI Identifier	123356
+Host Kingdom	plant
+No of host interactions USDA Fungal database	330
+No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	Vast
+Natural Host Type	Dicot
+Pathogen Lifestyle	Obligate Biotroph
+
+USDA entry	160389
+Pathogen Taxonomy NCBI Identifier	160389
+No of host interactions USDA Fungal database	22
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	Many
+Natural Host Type	Dicot
+Pathogen Lifestyle	Necrotroph
+
+USDA entry	5039
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+Pathogen Taxonomy NCBI Identifier	5039
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+
+USDA entry	139
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	139
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	5128
+Pathogen Lifestyle	Necrotroph
+No of plant hosts	Vast
+Natural Host Type	Cereal Monocot - Non Cereal Monocot - Dicot
+Host Kingdom	plant
+No of host interactions USDA Fungal database	132
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5128
+
+USDA entry	5465
+Pathogen Taxonomy NCBI Identifier	5465
+No of host interactions USDA Fungal database	101
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Natural Host Type	Dicot
+No of plant hosts	Vast
+Pathogen Lifestyle	Hemibiotroph
+
+USDA entry	322
+Pathogen Taxonomy NCBI Identifier	322
+No of host interactions USDA Fungal database	none
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	20
+Natural Host Type	Dicot
+No of plant hosts	A few
+Pathogen Lifestyle	Hemibiotroph
+
+USDA entry	4787
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Dicot
+No of plant hosts	Vast
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	134
+Pathogen Taxonomy NCBI Identifier	4787
+
+USDA entry	1307
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+Pathogen Taxonomy NCBI Identifier	1307
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+
+USDA entry	321
+Pathogen Taxonomy NCBI Identifier	321
+Host Kingdom	plant
+No of host interactions USDA Fungal database	1
+No of host interactions Plantwise Knowledge Bank	20
+Natural Host Type	Dicot
+No of plant hosts	A few
+Pathogen Lifestyle	Hemibiotroph
+
+USDA entry	62688
+Pathogen Taxonomy NCBI Identifier	62688
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	1
+Natural Host Type	Cereal Monocot
+No of plant hosts	One
+Pathogen Lifestyle	Obligate Biotroph
+
+USDA entry	6303
+Natural Host Type	Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot
+No of plant hosts	Vast
+Pathogen Lifestyle	Obligate Biotroph
+Pathogen Taxonomy NCBI Identifier	6303
+Host Kingdom	plant
+No of host interactions USDA Fungal database	none
+No of host interactions Plantwise Knowledge Bank	102
+
+USDA entry	5518
+Pathogen Taxonomy NCBI Identifier	5518
+Host Kingdom	plant
+No of host interactions USDA Fungal database	216
+No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	Vast
+Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+
+USDA entry	35717
+Pathogen Taxonomy NCBI Identifier	35717
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	3
+Natural Host Type	Cereal Monocot
+No of plant hosts	A few
+Pathogen Lifestyle	Endophyte
+
+USDA entry	323
+Natural Host Type	Dicot
+No of plant hosts	A few
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	323
+No of host interactions Plantwise Knowledge Bank	3
+No of host interactions USDA Fungal database	none
+Host Kingdom	plant
+
+USDA entry	38448
+Pathogen Lifestyle	Necrotroph
+No of plant hosts	Many
+Natural Host Type	Dicot
+No of host interactions USDA Fungal database	103
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	38448
+
+USDA entry	562
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	562
+
+USDA entry	134874
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Cereal Monocot
+No of plant hosts	A few
+No of host interactions USDA Fungal database	none
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	none
+Pathogen Taxonomy NCBI Identifier	134874
+
+USDA entry	117187
+Pathogen Lifestyle	Hemibiotroph -necrotroph
+No of plant hosts	Many
+Natural Host Type	Cereal Monocot, Dicots
+No of host interactions USDA Fungal database	43
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	117187
+
+USDA entry	169388
+Pathogen Taxonomy NCBI Identifier	169388
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	516
+Natural Host Type	Dicot - Dicot Trees, Cereal Monocot  - Non Cereal Monocot
+No of plant hosts	Vast
+Pathogen Lifestyle	Necrotroph
+
+USDA entry	1496
+Pathogen Taxonomy NCBI Identifier	1496
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+
+USDA entry	5499
+Pathogen Lifestyle	Biotroph
+No of plant hosts	Many
+Natural Host Type	Dicot
+No of host interactions USDA Fungal database	34
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	5499
+
+USDA entry	317
+Host Kingdom	plant
+No of host interactions USDA Fungal database	28
+No of host interactions Plantwise Knowledge Bank	61
+Pathogen Taxonomy NCBI Identifier	317
+Pathogen Lifestyle	Hemibiotroph
+No of plant hosts	Many
+Natural Host Type	Dicots - Cereal Monocot - Non Cereal Monocot
+
+USDA entry	183190
+Pathogen Taxonomy NCBI Identifier	183190
+No of host interactions USDA Fungal database	9
+No of host interactions Plantwise Knowledge Bank	49
+Host Kingdom	plant
+No of plant hosts	Many
+Natural Host Type	Dicot and Cereal Monocot
+Pathogen Lifestyle	
+
+USDA entry	914237
+Host Kingdom	plant
+No of host interactions USDA Fungal database	4
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	914237
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Cereal Monocot
+No of plant hosts	A few
+
+USDA entry	611301
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Dicot - Dicot Trees
+No of plant hosts	A few
+No of host interactions Plantwise Knowledge Bank	none
+Host Kingdom	plant
+No of host interactions USDA Fungal database	none
+Pathogen Taxonomy NCBI Identifier	611301
+
+USDA entry	1306
+Pathogen Taxonomy NCBI Identifier	1306
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+
+USDA entry	31870
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Cereal Monocot   and Dicot
+No of plant hosts	Vast
+No of host interactions USDA Fungal database	342
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	31870
+
+USDA entry	29875
+Pathogen Taxonomy NCBI Identifier	29875
+Host Kingdom	fungus
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	12
+No of plant hosts	A few
+Natural Host Type	Fungi, Dicot, Dicot - Trees
+Pathogen Lifestyle	
+
+USDA entry	29471
+Pathogen Lifestyle	Necrotroph
+No of plant hosts	Many
+Natural Host Type	Dicots - Cereal Monocot - Non Cereal Monocot
+Host Kingdom	plant
+No of host interactions USDA Fungal database	none
+No of host interactions Plantwise Knowledge Bank	37
+Pathogen Taxonomy NCBI Identifier	29471
+
+USDA entry	37769
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	37769
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+
+USDA entry	1930
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	7
+No of host interactions USDA Fungal database	19
+Pathogen Taxonomy NCBI Identifier	1930
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Diciot
+No of plant hosts	A few
+
+USDA entry	5476
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+Pathogen Taxonomy NCBI Identifier	5476
+
+USDA entry	5478
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	5478
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+
+USDA entry	64187
+No of plant hosts	A few
+Natural Host Type	Cereal Monocot
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	64187
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	18
+No of host interactions USDA Fungal database	none
+
+USDA entry	5059
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	136
+Pathogen Taxonomy NCBI Identifier	5059
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
+No of plant hosts	Vast
+
+USDA entry	84275
+Pathogen Lifestyle	Necrotroph -HST
+Natural Host Type	Dicot
+No of plant hosts	A few
+No of host interactions USDA Fungal database	14
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	84275
+
+USDA entry	456327
+Natural Host Type	Dicot
+No of plant hosts	A few
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	456327
+No of host interactions USDA Fungal database	2
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	none
+
+USDA entry	5462
+Natural Host Type	Dicot
+No of plant hosts	Many
+Pathogen Lifestyle	Hemibiotroph
+Pathogen Taxonomy NCBI Identifier	5462
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	100
+
+USDA entry	360920
+Pathogen Lifestyle	Hemibiotroph
+No of plant hosts	A few
+Natural Host Type	Dicot - Dicot Trees
+No of host interactions USDA Fungal database	none
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	6
+Pathogen Taxonomy NCBI Identifier	360920
+
+USDA entry	5480
+Pathogen Taxonomy NCBI Identifier	5480
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+Natural Host Type	
+No of plant hosts	
+Pathogen Lifestyle	
+
+USDA entry	120017
+Pathogen Taxonomy NCBI Identifier	120017
+No of host interactions USDA Fungal database	115
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Natural Host Type	Cereal Monocot
+No of plant hosts	Many
+Pathogen Lifestyle	Obligate Biotroph
+
+USDA entry	337
+Host Kingdom	plant
+No of host interactions USDA Fungal database	none
+No of host interactions Plantwise Knowledge Bank	2
+Pathogen Taxonomy NCBI Identifier	337
+Pathogen Lifestyle	Necrotroph
+No of plant hosts	A few
+Natural Host Type	Cereal Monocot
+
+USDA entry	36911
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	36911
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+
+USDA entry	59765
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	
+No of plant hosts	
+No of host interactions USDA Fungal database	no entry
+Host Kingdom	plant
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	59765
+
+USDA entry	4784
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Dicot, Dicot-Tree,  Non Cereal Monocot
+No of plant hosts	Many
+Host Kingdom	plant
+No of host interactions USDA Fungal database	84
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	4784
+
+USDA entry	666
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	666
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+
+USDA entry	346
+No of host interactions USDA Fungal database	none
+No of host interactions Plantwise Knowledge Bank	none
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	346
+Pathogen Lifestyle	Hemibiotroph
+Natural Host Type	Dicot - Dicot Trees
+No of plant hosts	A few
+
+USDA entry	292817
+Pathogen Lifestyle	
+Natural Host Type	
+No of plant hosts	
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+No of host interactions USDA Fungal database	
+Pathogen Taxonomy NCBI Identifier	292817
+
+USDA entry	263
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+No of host interactions USDA Fungal database	
+Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	263
+
+USDA entry	45151
+Pathogen Taxonomy NCBI Identifier	45151
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	plant
+No of host interactions USDA Fungal database	87
+No of plant hosts	Many
+Natural Host Type	Cereal Monocot
+Pathogen Lifestyle	Necrotroph-PHST
+
+USDA entry	5270
+Pathogen Lifestyle	Biotroph
+Natural Host Type	Cereal Monocot
+No of plant hosts	A few
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	17
+Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	5270
+
+USDA entry	85558
+Pathogen Lifestyle	Necrotroph
+Natural Host Type	Dicot
+No of plant hosts	A few
+No of host interactions Plantwise Knowledge Bank	none
+Host Kingdom	plant
+No of host interactions USDA Fungal database	none
+Pathogen Taxonomy NCBI Identifier	85558
+
+USDA entry	5501
+Pathogen Lifestyle	
+No of plant hosts	
+Natural Host Type	
+No of host interactions USDA Fungal database	
+No of host interactions Plantwise Knowledge Bank	
+Host Kingdom	animal
+Pathogen Taxonomy NCBI Identifier	5501
 
 USDA entry	135859
 Pathogen Taxonomy NCBI Identifier	135859
 Host Kingdom	plant
-No of plant hosts	Many
-Pathogen Lifestyle	Necrotroph
 No of host interactions Plantwise Knowledge Bank	
 No of host interactions USDA Fungal database	48
+No of plant hosts	Many
 Natural Host Type	Dicot
-
-USDA entry	85558
-No of host interactions USDA Fungal database	none
-Natural Host Type	Dicot
-Pathogen Taxonomy NCBI Identifier	85558
-Host Kingdom	plant
-No of plant hosts	A few
 Pathogen Lifestyle	Necrotroph
-No of host interactions Plantwise Knowledge Bank	none
 
-USDA entry	498217
-No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	498217
+USDA entry	305
 Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	Many
+Natural Host Type	Dicot - Non Cereal Monocot
+No of host interactions Plantwise Knowledge Bank	49
+Host Kingdom	plant
+No of host interactions USDA Fungal database	4
+Pathogen Taxonomy NCBI Identifier	305
 
-USDA entry	5563
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	32
+USDA entry	29920
+Pathogen Taxonomy NCBI Identifier	29920
+Host Kingdom	plant
+No of host interactions USDA Fungal database	420
 No of host interactions Plantwise Knowledge Bank	
+No of plant hosts	Vast
+Natural Host Type	Cereal Monocot - Non Cereal Monocot - Dicot
 Pathogen Lifestyle	Necrotroph
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5563
-No of plant hosts	Many
 
-USDA entry	4784
-Pathogen Lifestyle	Hemibiotroph
+USDA entry	287
+No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
+Pathogen Taxonomy NCBI Identifier	287
+Host Kingdom	animal
 No of host interactions Plantwise Knowledge Bank	
-Pathogen Taxonomy NCBI Identifier	4784
-Host Kingdom	plant
-No of plant hosts	Many
-Natural Host Type	Dicot, Dicot-Tree,  Non Cereal Monocot
-No of host interactions USDA Fungal database	84
+No of host interactions USDA Fungal database	
 
 USDA entry	96345
-No of plant hosts	
 Pathogen Taxonomy NCBI Identifier	96345
 Host Kingdom	animal
-Pathogen Lifestyle	
 No of host interactions Plantwise Knowledge Bank	
 No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	135779
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	4
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph -HST
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	135779
-No of plant hosts	A few
-
-USDA entry	36746
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	36746
-Host Kingdom	plant
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	73
-No of host interactions USDA Fungal database	2
-Natural Host Type	Dicot
-
-USDA entry	65070
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-Pathogen Taxonomy NCBI Identifier	65070
-Host Kingdom	plant
-No of plant hosts	Vast
-Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
-No of host interactions USDA Fungal database	285
-
-USDA entry	1307
 No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	1307
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	
 Natural Host Type	
-
-USDA entry	160389
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	22
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-Pathogen Taxonomy NCBI Identifier	160389
-Host Kingdom	plant
-No of plant hosts	Many
-
-USDA entry	70790
-Natural Host Type	Dicots
-No of host interactions USDA Fungal database	10
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	70790
-No of plant hosts	A few
-
-USDA entry	337
-No of plant hosts	A few
-Pathogen Taxonomy NCBI Identifier	337
-Host Kingdom	plant
-No of host interactions Plantwise Knowledge Bank	2
-Pathogen Lifestyle	Necrotroph
-No of host interactions USDA Fungal database	none
-Natural Host Type	Cereal Monocot
-
-USDA entry	117187
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	117187
-Host Kingdom	plant
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-No of host interactions USDA Fungal database	43
-Natural Host Type	Cereal Monocot, Dicots
-
-USDA entry	339
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	multiple
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	339
-Host Kingdom	plant
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	6
-
-USDA entry	5025
-Natural Host Type	Dicot - Tree
-No of host interactions USDA Fungal database	141
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	5025
-Host Kingdom	plant
-
-USDA entry	29471
-Pathogen Lifestyle	Necrotroph
-No of host interactions Plantwise Knowledge Bank	37
-No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	29471
-Natural Host Type	Dicots - Cereal Monocot - Non Cereal Monocot
-No of host interactions USDA Fungal database	none
-
-USDA entry	45151
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	87
-Pathogen Lifestyle	Necrotroph-PHST
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	45151
-Host Kingdom	plant
-
-USDA entry	29001
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	73
-Pathogen Lifestyle	Necrotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	29001
-
-USDA entry	67593
-Natural Host Type	Non Cereal Monocot - Dicot
-No of host interactions USDA Fungal database	49
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	67593
-No of plant hosts	Many
-
-USDA entry	4792
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	4792
-No of plant hosts	Vast
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions USDA Fungal database	897
-Natural Host Type	Dicot, Dicot-Tree,  Non Cereal Monocot
-
-USDA entry	611301
-No of plant hosts	A few
-Pathogen Taxonomy NCBI Identifier	611301
-Host Kingdom	plant
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	none
-No of host interactions USDA Fungal database	none
-Natural Host Type	Dicot - Dicot Trees
-
-USDA entry	183190
-No of host interactions Plantwise Knowledge Bank	49
 Pathogen Lifestyle	
-Pathogen Taxonomy NCBI Identifier	183190
-Host Kingdom	plant
-No of plant hosts	Many
-Natural Host Type	Dicot and Cereal Monocot
-No of host interactions USDA Fungal database	9
 
-USDA entry	5671
-Pathogen Taxonomy NCBI Identifier	5671
-Host Kingdom	animal
-No of plant hosts	
+USDA entry	90371
 Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	746128
-No of host interactions USDA Fungal database	
 Natural Host Type	
 No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	746128
-Host Kingdom	animal
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	360920
-No of host interactions USDA Fungal database	none
-Natural Host Type	Dicot - Dicot Trees
-No of plant hosts	A few
-Pathogen Taxonomy NCBI Identifier	360920
-Host Kingdom	plant
-No of host interactions Plantwise Knowledge Bank	6
-Pathogen Lifestyle	Hemibiotroph
-
-USDA entry	29850
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	29850
-No of plant hosts	A few
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	18
-
-USDA entry	40559
-Natural Host Type	Cereal Monocot - Non Cereal Monocot  - Dicot
-No of host interactions USDA Fungal database	1367
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	40559
-Host Kingdom	plant
-
-USDA entry	27337
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	27337
-Host Kingdom	plant
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	395
-
-USDA entry	5476
 No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	5476
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-
-USDA entry	5691
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	5691
-No of plant hosts	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	36911
-No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	36911
 Host Kingdom	animal
 No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-
-USDA entry	1773
-Natural Host Type	
-No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	1773
-No of plant hosts	
-
-USDA entry	373
-No of host interactions USDA Fungal database	none
-Natural Host Type	Dicot
-Pathogen Taxonomy NCBI Identifier	373
-Host Kingdom	plant
-No of plant hosts	One
-No of host interactions Plantwise Knowledge Bank	none
-Pathogen Lifestyle	Biotroph
-
-USDA entry	13164
-Natural Host Type	Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot
-No of host interactions USDA Fungal database	none
-Pathogen Lifestyle	Phloem feeding insect
-No of host interactions Plantwise Knowledge Bank	115
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	13164
-No of plant hosts	Vast
-
-USDA entry	67780
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	67780
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	169388
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	169388
-Host Kingdom	plant
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-No of host interactions USDA Fungal database	516
-Natural Host Type	Dicot - Dicot Trees, Cereal Monocot  - Non Cereal Monocot
+Pathogen Taxonomy NCBI Identifier	90371
 
 USDA entry	5530
-No of host interactions Plantwise Knowledge Bank	
 Pathogen Lifestyle	
 No of plant hosts	
+Natural Host Type	
 Host Kingdom	animal
+No of host interactions Plantwise Knowledge Bank	
+No of host interactions USDA Fungal database	
 Pathogen Taxonomy NCBI Identifier	5530
-Natural Host Type	
-No of host interactions USDA Fungal database	
 
-USDA entry	61369
+USDA entry	178876
+Pathogen Taxonomy NCBI Identifier	178876
 No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-No of plant hosts	
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	61369
-Natural Host Type	
-No of host interactions USDA Fungal database	no entry
-
-USDA entry	6303
-Pathogen Lifestyle	Obligate Biotroph
-No of host interactions Plantwise Knowledge Bank	102
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	6303
-Host Kingdom	plant
-Natural Host Type	Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot
-No of host interactions USDA Fungal database	none
-
-USDA entry	323
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	none
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	3
-Pathogen Taxonomy NCBI Identifier	323
-Host Kingdom	plant
-No of plant hosts	A few
-
-USDA entry	4787
-Pathogen Taxonomy NCBI Identifier	4787
-Host Kingdom	plant
-No of plant hosts	Vast
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions USDA Fungal database	134
-Natural Host Type	Dicot
-
-USDA entry	5270
-No of plant hosts	A few
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5270
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Biotroph
-No of host interactions USDA Fungal database	17
-Natural Host Type	Cereal Monocot
-
-USDA entry	5017
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph -HST
-Pathogen Taxonomy NCBI Identifier	5017
-Host Kingdom	plant
-No of plant hosts	Many
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	40
-
-USDA entry	62688
-Pathogen Lifestyle	Obligate Biotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	One
-Pathogen Taxonomy NCBI Identifier	62688
-Host Kingdom	plant
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	1
-
-USDA entry	42897
-Pathogen Taxonomy NCBI Identifier	42897
 Host Kingdom	animal
-No of plant hosts	
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
 No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	27358
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-Pathogen Taxonomy NCBI Identifier	27358
-Host Kingdom	plant
-No of plant hosts	Many
-Natural Host Type	Dicot and Cereal Monocot
-No of host interactions USDA Fungal database	59
-
-USDA entry	1496
-Natural Host Type	
-No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	1496
-
-USDA entry	5970
-Natural Host Type	
-No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	5970
-Host Kingdom	animal
-
-USDA entry	914237
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	914237
-No of plant hosts	A few
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions USDA Fungal database	4
-Natural Host Type	Cereal Monocot
-
-USDA entry	1639
-Natural Host Type	
-No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Pathogen Taxonomy NCBI Identifier	1639
-Host Kingdom	animal
-No of plant hosts	
-
-USDA entry	5128
-Pathogen Lifestyle	Necrotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	5128
-Host Kingdom	plant
-Natural Host Type	Cereal Monocot - Non Cereal Monocot - Dicot
-No of host interactions USDA Fungal database	132
-
-USDA entry	101028
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	101028
-No of plant hosts	Many
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-No of host interactions USDA Fungal database	22
-Natural Host Type	Cereal Monocot
-
-USDA entry	5207
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	5207
 No of plant hosts	
 Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	120017
-No of host interactions USDA Fungal database	115
-Natural Host Type	Cereal Monocot
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	120017
-Host Kingdom	plant
-Pathogen Lifestyle	Obligate Biotroph
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	1306
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Taxonomy NCBI Identifier	1306
-Host Kingdom	animal
-No of plant hosts	
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	5482
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	5482
-Host Kingdom	animal
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	139
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Pathogen Taxonomy NCBI Identifier	139
-Host Kingdom	animal
-No of plant hosts	
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	5111
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	515
-Pathogen Lifestyle	Biotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Vast
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5111
-
-USDA entry	5501
-No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	5501
-No of host interactions Plantwise Knowledge Bank	
 Pathogen Lifestyle	
 
-USDA entry	31870
-Pathogen Taxonomy NCBI Identifier	31870
-Host Kingdom	plant
-No of plant hosts	Vast
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	342
-Natural Host Type	Cereal Monocot   and Dicot
-
-USDA entry	59765
-No of host interactions USDA Fungal database	no entry
-Natural Host Type	
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	59765
-No of plant hosts	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-
-USDA entry	55208
-No of host interactions USDA Fungal database	none
-Natural Host Type	Dicot
-No of plant hosts	A few
-Pathogen Taxonomy NCBI Identifier	55208
-Host Kingdom	plant
-Pathogen Lifestyle	Necrotroph
-No of host interactions Plantwise Knowledge Bank	none
-
-USDA entry	5480
-Natural Host Type	
+USDA entry	1313
 No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
 Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	5480
-No of plant hosts	
-
-USDA entry	5039
 No of host interactions Plantwise Knowledge Bank	
+Pathogen Taxonomy NCBI Identifier	1313
 Pathogen Lifestyle	
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	5039
-Host Kingdom	animal
 Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	5507
-No of host interactions USDA Fungal database	707
-Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5507
-No of plant hosts	Vast
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-
-USDA entry	27357
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	27357
-Host Kingdom	plant
-Natural Host Type	Dicot - Dicot Trees
-No of host interactions USDA Fungal database	178
-
-USDA entry	40125
-No of host interactions USDA Fungal database	40
-Natural Host Type	Cereal Monocot   and Dicot
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	40125
-No of plant hosts	Many
-Pathogen Lifestyle	Necrotroph -HST
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	5116
-No of host interactions USDA Fungal database	50
-Natural Host Type	Dicot - Tree
-Pathogen Taxonomy NCBI Identifier	5116
-Host Kingdom	plant
-No of plant hosts	Many
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	552
-No of host interactions Plantwise Knowledge Bank	28
-Pathogen Lifestyle	Necrotroph
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	552
-No of plant hosts	Many
-Natural Host Type	Dicot - trees
-No of host interactions USDA Fungal database	10
-
-USDA entry	470
 No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	470
-Host Kingdom	animal
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	5016
-Natural Host Type	Cereal Monocot   and Dicot
-No of host interactions USDA Fungal database	101
-Pathogen Lifestyle	Necrotroph -HST
-No of host interactions Plantwise Knowledge Bank	
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5016
-No of plant hosts	Many
-
-USDA entry	1930
-No of plant hosts	A few
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	1930
-No of host interactions Plantwise Knowledge Bank	7
-Pathogen Lifestyle	Necrotroph
-No of host interactions USDA Fungal database	19
-Natural Host Type	Diciot
-
-USDA entry	1311
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	1311
-Host Kingdom	animal
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	292817
-No of host interactions USDA Fungal database	
-Natural Host Type	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	292817
-No of plant hosts	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-
-USDA entry	358
-Pathogen Taxonomy NCBI Identifier	358
-Host Kingdom	plant
-No of plant hosts	Many
-No of host interactions Plantwise Knowledge Bank	none
-Pathogen Lifestyle	Biotroph
-No of host interactions USDA Fungal database	47
-Natural Host Type	Dicot
-
-USDA entry	5465
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5465
-No of plant hosts	Vast
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions USDA Fungal database	101
-Natural Host Type	Dicot
-
-USDA entry	5261
-Natural Host Type	Dicot - Linum sp only
-No of host interactions USDA Fungal database	56
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Biotroph
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5261
-No of plant hosts	Many
-
-USDA entry	199306
-Natural Host Type	
-No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	199306
-No of plant hosts	
-
-USDA entry	13684
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	13684
-No of plant hosts	Vast
-Pathogen Lifestyle	Necrotroph-PHST
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	113
-Natural Host Type	Cereal Monocot
-
-USDA entry	1280
-No of host interactions USDA Fungal database	
-Natural Host Type	
-Pathogen Taxonomy NCBI Identifier	1280
-Host Kingdom	animal
-No of plant hosts	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-
-USDA entry	5518
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	5518
-Host Kingdom	plant
-Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
-No of host interactions USDA Fungal database	216
-
-USDA entry	340
-No of host interactions USDA Fungal database	3
-Natural Host Type	Dicot
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	340
-Host Kingdom	plant
-No of host interactions Plantwise Knowledge Bank	25
-Pathogen Lifestyle	Hemibiotroph
 
 USDA entry	148305
 Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
 No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	148305
 Natural Host Type	Cereal Monocot
 No of host interactions USDA Fungal database	46
-
-USDA entry	346
 Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	346
-No of plant hosts	A few
-No of host interactions Plantwise Knowledge Bank	none
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions USDA Fungal database	none
-Natural Host Type	Dicot - Dicot Trees
-
-USDA entry	5599
-Pathogen Taxonomy NCBI Identifier	5599
-Host Kingdom	plant
-No of plant hosts	Vast
-Pathogen Lifestyle	Necrotroph
 No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	905
-Natural Host Type	Cereal Monocot - Non Cereal Monocot  - Dicot
-
-USDA entry	38038
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	38038
-Host Kingdom	plant
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	80
-
-USDA entry	5811
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	5811
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	64187
-No of host interactions USDA Fungal database	none
-Natural Host Type	Cereal Monocot
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	64187
-No of plant hosts	A few
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	18
-
-USDA entry	554
-Natural Host Type	Dicot - Non Cereal Monocot
-No of host interactions USDA Fungal database	none
-Pathogen Lifestyle	Necrotroph
-No of host interactions Plantwise Knowledge Bank	73
-Pathogen Taxonomy NCBI Identifier	554
-Host Kingdom	plant
-No of plant hosts	Many
-
-USDA entry	54734
-Pathogen Taxonomy NCBI Identifier	54734
-Host Kingdom	plant
-No of plant hosts	A few
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions USDA Fungal database	33
-Natural Host Type	Cereal Monocot
-
-USDA entry	5462
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	100
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5462
-
-USDA entry	5059
-No of host interactions USDA Fungal database	136
-Natural Host Type	Cereal Monocot  - Non Cereal Monocot - Dicot
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5059
-No of plant hosts	Vast
-Pathogen Lifestyle	Necrotroph
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	287
-Natural Host Type	
-No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	287
-
-USDA entry	134874
-Pathogen Taxonomy NCBI Identifier	134874
-Host Kingdom	plant
-No of plant hosts	A few
-No of host interactions Plantwise Knowledge Bank	none
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions USDA Fungal database	none
-Natural Host Type	Cereal Monocot
-
-USDA entry	45130
-No of host interactions USDA Fungal database	374
-Natural Host Type	Cereal Monocot
-Pathogen Taxonomy NCBI Identifier	45130
-Host Kingdom	plant
-No of plant hosts	Vast
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	101162
-Natural Host Type	Cereal Monocot   and Dicot
-No of host interactions USDA Fungal database	33
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph
-No of plant hosts	Many
-Pathogen Taxonomy NCBI Identifier	101162
-Host Kingdom	plant
-
-USDA entry	29875
-Natural Host Type	Fungi, Dicot, Dicot - Trees
-No of host interactions USDA Fungal database	12
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Host Kingdom	fungus
-Pathogen Taxonomy NCBI Identifier	29875
-No of plant hosts	A few
-
-USDA entry	1351
-No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	1351
-Host Kingdom	animal
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	90371
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-Pathogen Taxonomy NCBI Identifier	90371
-Host Kingdom	animal
-No of plant hosts	
-Natural Host Type	
-No of host interactions USDA Fungal database	
-
-USDA entry	36090
-No of host interactions USDA Fungal database	none
-Natural Host Type	Dicot
-Pathogen Taxonomy NCBI Identifier	36090
-Host Kingdom	plant
-No of plant hosts	Many
-No of host interactions Plantwise Knowledge Bank	23
-Pathogen Lifestyle	Obligate Biotroph
-
-USDA entry	35717
-Natural Host Type	Cereal Monocot
-No of host interactions USDA Fungal database	3
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Endophyte
-No of plant hosts	A few
-Pathogen Taxonomy NCBI Identifier	35717
-Host Kingdom	plant
+Pathogen Taxonomy NCBI Identifier	148305
 
 USDA entry	197
-Natural Host Type	
-No of host interactions USDA Fungal database	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
 No of plant hosts	
+Natural Host Type	
+Pathogen Lifestyle	
 Pathogen Taxonomy NCBI Identifier	197
 Host Kingdom	animal
-
-USDA entry	305
-Pathogen Taxonomy NCBI Identifier	305
-Host Kingdom	plant
-No of plant hosts	Many
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	49
-No of host interactions USDA Fungal database	4
-Natural Host Type	Dicot - Non Cereal Monocot
-
-USDA entry	29920
-No of host interactions USDA Fungal database	420
-Natural Host Type	Cereal Monocot - Non Cereal Monocot - Dicot
-No of plant hosts	Vast
-Pathogen Taxonomy NCBI Identifier	29920
-Host Kingdom	plant
-Pathogen Lifestyle	Necrotroph
 No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	5457
-Natural Host Type	Non Cereal Monocot - Dicot (D)
-No of host interactions USDA Fungal database	1911
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-Pathogen Taxonomy NCBI Identifier	5457
-Host Kingdom	plant
-No of plant hosts	Vast
-
-USDA entry	562
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	562
-No of plant hosts	
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
 No of host interactions USDA Fungal database	
-Natural Host Type	
-
-USDA entry	29003
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	6
-Pathogen Lifestyle	Necrotroph -HST
-No of host interactions Plantwise Knowledge Bank	
-No of plant hosts	A few
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	29003
-
-USDA entry	5516
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph -necrotroph
-Pathogen Taxonomy NCBI Identifier	5516
-Host Kingdom	plant
-No of plant hosts	Vast
-Natural Host Type	Cereal Monocot   and Dicot
-No of host interactions USDA Fungal database	136
-
-USDA entry	5466
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	37
-Pathogen Lifestyle	Hemibiotroph
-No of host interactions Plantwise Knowledge Bank	
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	5466
-No of plant hosts	Many
-
-USDA entry	272952
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	272952
-No of plant hosts	A few
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Obligate Biotroph
-No of host interactions USDA Fungal database	5
-Natural Host Type	Dicot
-
-USDA entry	573
-No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	573
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	
-
-USDA entry	178876
-No of host interactions USDA Fungal database	
-Natural Host Type	
-No of plant hosts	
-Pathogen Taxonomy NCBI Identifier	178876
-Host Kingdom	animal
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	53485
-No of host interactions USDA Fungal database	29
-Natural Host Type	Cereal Monocot
-No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	53485
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Hemibiotroph
-
-USDA entry	456327
-No of host interactions Plantwise Knowledge Bank	none
-Pathogen Lifestyle	Hemibiotroph
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	456327
-No of plant hosts	A few
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	2
-
-USDA entry	162425
-No of host interactions USDA Fungal database	
-Natural Host Type	
-Host Kingdom	animal
-Pathogen Taxonomy NCBI Identifier	162425
-No of plant hosts	
-Pathogen Lifestyle	
-No of host interactions Plantwise Knowledge Bank	
-
-USDA entry	13131
-No of host interactions Plantwise Knowledge Bank	35
-Pathogen Lifestyle	Phloem feeding insect
-No of plant hosts	Many
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	13131
-Natural Host Type	Dicot, Dicot -Tree,  Cereal  Monocot, Non Cereal monocot
-No of host interactions USDA Fungal database	none
-
-USDA entry	84275
-Natural Host Type	Dicot
-No of host interactions USDA Fungal database	14
-No of host interactions Plantwise Knowledge Bank	
-Pathogen Lifestyle	Necrotroph -HST
-Host Kingdom	plant
-Pathogen Taxonomy NCBI Identifier	84275
-No of plant hosts	A few
 
