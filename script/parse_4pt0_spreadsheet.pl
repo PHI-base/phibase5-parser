@@ -95,6 +95,9 @@ while (<PHEN_OUTCOME_MAPPINGS_FILE>) {
 }
 close (PHEN_OUTCOME_MAPPINGS_FILE);
 
+=pod
+NO LONGER QUERYING DISEASE ONTOLOGY DIRECTLY - USING PRE-COMPOSED MAPPING FILE INSTEAD
+(JUST LIKE THE OTHER ONTOLOGIES)
 # disease terms for PHI-base should include the combined terms from
 # both the Plant Disease ontology and the [Human] Disease Ontology,
 # so a hash of key/value pairs is created where the key is the ontology identifier
@@ -103,6 +106,29 @@ my %combined_disease_mapping = (
       ontology_mapping('../ontology/Disease/PlantDisease/plant_disease_ontology.obo'),
       ontology_mapping('../ontology/Disease/HumanDisease/doid.obo')
    );
+=cut
+
+# parse tab-separated file that maps disease values of the spreadsheet
+# to identifiers in the [Human] Disease Ontology or Plant Disease Ontology
+# saving the value and identifiers as key/value pairs in a hash
+open (DISEASE_MAPPINGS_FILE, "../mapping/disease_mapping_phibase_4pt0_2015-09-03.tsv") || die "Error opening input file\n";
+
+# hash to map disease to ontology identifiers
+my %disease_mapping;
+
+# each row of the file contains a "valid spreadsheet value"
+# and corresponding "ontology identifiers", separated by tab (for either the human or plant disease ontologies)
+# mutliple ontology identifiers are separated by semi-colon
+# separate these fields and save as key/value pairs in a hash
+# where key becomes the valid value & value becomes ontology identifiers
+# (note that the identifiers themselves will be separated later)
+while (<DISEASE_MAPPINGS_FILE>) {
+  chomp;
+  my ($disease_value,$disease_ontology_id_list) = split(/\t/,$_);
+  $disease_mapping{$disease_value} = $disease_ontology_id_list;
+}
+close (DISEASE_MAPPINGS_FILE);
+
 
 # open the tab separated values (TSV) version of the PHI-base spreadsheet
 #my $phibase_tsv_filename = '../input/phi-base-1_vs36_reduced_columns.tsv';
@@ -1039,6 +1065,7 @@ while (<TSV_FILE>) {
           } else {  # no inducers supplied 
              $no_inducer_count++;
           }
+
           
           # get the experimental evidence
           my $exp_evid_string = $phi_base_annotation{"experimental_evidence"};
@@ -1185,7 +1212,55 @@ while (<TSV_FILE>) {
           my $disease_string = $phi_base_annotation{"disease_name"};
 
           # if the disease string is empty, no disease has been supplied
-          if (defined $disease_string and $disease_string ne "") {
+          if (defined $disease_string and $disease_string ne "" and $disease_string ne "no data found") {
+
+             $disease_count++;
+
+             $disease_string =~ s/^\s+//; # remove blank space from start of string
+             $disease_string =~ s/\s+$//; # remove blank space from end of string
+
+             # using the disease mappings,
+             # get the appropriate ontology identifiers associated with the disease
+             my $disease_id_list = $disease_mapping{lc($disease_string)};
+
+             # if identifiers are present, then insert the appropriate
+             # records into the interaction_disease table
+             if ($disease_id_list) {
+
+                $disease_id_list =~ s/^\s+//; # remove blank space from start of string
+                $disease_id_list =~ s/\s+$//; # remove blank space from end of string
+
+                # need to split list based on semi-colon delimiter
+                my @disease_ontology_ids = split(";",$disease_id_list);
+
+                # for each disease id, insert data into interaction_disease table,
+                # with foreign keys to the interaction table and either the disease ontology
+                # or plant disease ontology
+                foreach my $disease_id (@disease_ontology_ids) {
+                  $disease_term_count++;
+	          $sql_statement = qq(INSERT INTO interaction_disease (interaction_id, disease_id)
+                                        VALUES ($interaction_id, '$disease_id');
+                                     );
+	          $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+                  print DISEASE_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$disease_string\t$disease_id\n";
+                }
+
+             } else { # no experiment spec identifiers
+                $invalid_disease_count++;
+                #print STDERR "ERROR:Disease $disease_string given for $required_fields_annot{'phi_base_acc'} is not valid\n";
+                print INVALID_DISEASE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$disease_string\n";
+             }
+
+          } else { # no disease supplied
+              $without_disease_count++;
+              print WITHOUT_DISEASE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\n";
+          }
+          
+         
+=pod
+NOW FINDING DISEASE BASED ON MAPPING FILE, RATHER THAN NAME SEARCH IN ONTOLOGY FILE
+          # if the disease string is empty, no disease has been supplied
+          if (defined $disease_string and $disease_string ne "" and $disease_string ne "no data found") {
 
              $disease_count++;
 
@@ -1230,7 +1305,7 @@ while (<TSV_FILE>) {
               $without_disease_count++;
               print WITHOUT_DISEASE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\n";
           }
-          
+=cut          
 
         } # end else multiple mutation
 
@@ -1388,7 +1463,8 @@ print "Invalid host responses: $invalid_host_response_count\n";
 print "Total annotations with a phenotype outcome: $phenotype_outcome_count\n";
 print "Total phenotype outcome terms: $phenotype_outcome_term_count\n";
 print "Invalid phenotype outcomes: $invalid_phenotype_outcome_count\n";
-print "Total disease terms: $disease_term_count\n";
+print "Total disease names: $disease_count\n";
+print "Valid disease terms: $disease_term_count\n";
 print "Invalid disease terms: $invalid_disease_count\n";
 print "Annotations without disease terms: $without_disease_count\n\n";
 

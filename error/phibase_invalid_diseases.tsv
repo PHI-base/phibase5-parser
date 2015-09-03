@@ -1,0 +1,2246 @@
+PHI:I2	PHI:7	Leaf mould
+PHI:I8	PHI:18	Leaf mould
+PHI:I11	PHI:24	Take-all
+PHI:I12	PHI:24	Take-all
+PHI:I13	PHI:25	Phoma stem canker
+PHI:I15	PHI:27	Anthracnose
+PHI:I16	PHI:27	Anthracnose
+PHI:I21	PHI:38	Scald/leaf blotch
+PHI:I22	PHI:39	Root rot
+PHI:I23	PHI:40	Anthracnose
+PHI:I26	PHI:44	Fusarium ear blight
+PHI:I27	PHI:44	Fusarium ear blight
+PHI:I28	PHI:44	Fusarium ear blight
+PHI:I29	PHI:44	Fusarium ear blight
+PHI:I30	PHI:44	Fusarium ear blight
+PHI:I31	PHI:44	Fusarium ear blight
+PHI:I32	PHI:44	Fusarium ear blight
+PHI:I37	PHI:49	Chesnut blight
+PHI:I40	PHI:53	Root rot
+PHI:I44	PHI:58	Anthracnose
+PHI:I45	PHI:59	Anthracnose
+PHI:I49	PHI:65	Chesnut blight
+PHI:I54	PHI:69	Grey mould
+PHI:I55	PHI:69	Grey mould
+PHI:I56	PHI:71	Leaf mould
+PHI:I86	PHI:103	Grey mould
+PHI:I87	PHI:103	Grey mould
+PHI:I88	PHI:103	Grey mould
+PHI:I94	PHI:109	Anthracnose
+PHI:I97	PHI:114	Vascular wilt
+PHI:I110	PHI:131	Fusarium ear blight
+PHI:I112	PHI:133	Black spot
+PHI:I113	PHI:134	Black spot
+PHI:I122	PHI:141	Leaf blight and purple seed stain
+PHI:I124	PHI:143	Leaf spot/blight
+PHI:I125	PHI:144	Mycopathogen
+PHI:I126	PHI:146	Anthracnose
+PHI:I135	PHI:160	Alternaria leaf blotch
+PHI:I136	PHI:161	Grey mould
+PHI:I137	PHI:161	Grey mould
+PHI:I138	PHI:161	Grey mould
+PHI:I141	PHI:164	Anthracnose
+PHI:I142	PHI:165	Anthracnose
+PHI:I143	PHI:166	Anthracnose
+PHI:I144	PHI:166	Anthracnose
+PHI:I145	PHI:167	Anthracnose
+PHI:I146	PHI:167	Anthracnose
+PHI:I147	PHI:169	Anthracnose
+PHI:I148	PHI:170	Anthracnose
+PHI:I153	PHI:177	Glume blotch
+PHI:I155	PHI:179	Root rot
+PHI:I156	PHI:181	Vascular wilt
+PHI:I179	PHI:199	Leaf mould
+PHI:I180	PHI:200	Vascular wilt
+PHI:I182	PHI:202	Grey mould
+PHI:I183	PHI:202	Grey mould
+PHI:I184	PHI:203	Grey mould
+PHI:I185	PHI:203	Grey mould
+PHI:I198	PHI:215	Vascular wilt
+PHI:I199	PHI:215	Vascular wilt
+PHI:I205	PHI:222	Anthracnose
+PHI:I206	PHI:223	Root rot
+PHI:I207	PHI:224	Root rot
+PHI:I208	PHI:225	Root rot
+PHI:I209	PHI:226	Anthracnose
+PHI:I217	PHI:230	Net blotch
+PHI:I218	PHI:231	Anthracnose
+PHI:I229	PHI:243	Anthracnose
+PHI:I230	PHI:244	Anthracnose
+PHI:I231	PHI:245	Ergot
+PHI:I232	PHI:246	Ergot
+PHI:I233	PHI:247	Ergot
+PHI:I236	PHI:251	Vascular wilt
+PHI:I239	PHI:254	Vascular wilt
+PHI:I240	PHI:255	Foolish seedling
+PHI:I243	PHI:258	Potato rot
+PHI:I246	PHI:261	Phoma stem canker
+PHI:I248	PHI:263	Anthracnose
+PHI:I251	PHI:266	Fusarium ear blight
+PHI:I252	PHI:266	Fusarium ear blight
+PHI:I253	PHI:266	Fusarium ear blight
+PHI:I254	PHI:266	Fusarium ear blight
+PHI:I255	PHI:266	Fusarium ear blight
+PHI:I265	PHI:276	Grey mould
+PHI:I266	PHI:277	Grey mould
+PHI:I267	PHI:277	Grey mould
+PHI:I268	PHI:278	Grey mould
+PHI:I269	PHI:278	Grey mould
+PHI:I270	PHI:278	Grey mould
+PHI:I276	PHI:285	Vascular wilt
+PHI:I277	PHI:285	Vascular wilt
+PHI:I279	PHI:287	Anthracnose
+PHI:I283	PHI:291	Ergot
+PHI:I286	PHI:294	Anthracnose
+PHI:I289	PHI:300	Vascular wilt
+PHI:I290	PHI:301	Vascular wilt
+PHI:I291	PHI:301	Vascular wilt
+PHI:I293	PHI:304	Fusarium ear blight
+PHI:I298	PHI:309	Fusarium ear blight
+PHI:I299	PHI:309	Fusarium ear blight
+PHI:I300	PHI:309	Fusarium ear blight
+PHI:I301	PHI:309	Fusarium ear blight
+PHI:I302	PHI:310	Septoria leaf blotch
+PHI:I305	PHI:314	White mould/stem rot
+PHI:I306	PHI:314	White mould/stem rot
+PHI:I307	PHI:315	Vascular wilt
+PHI:I308	PHI:315	Vascular wilt
+PHI:I317	PHI:323	Mycopathogen
+PHI:I321	PHI:328	Downy mildew
+PHI:I322	PHI:329	Grey mould
+PHI:I323	PHI:329	Grey mould
+PHI:I324	PHI:329	Grey mould
+PHI:I325	PHI:329	Grey mould
+PHI:I327	PHI:332	Anthracnose
+PHI:I331	PHI:336	Vascular wilt
+PHI:I332	PHI:337	Vascular wilt
+PHI:I334	PHI:339	Anthracnose
+PHI:I336	PHI:341	Anthracnose
+PHI:I337	PHI:342	Chesnut blight
+PHI:I338	PHI:343	Chesnut blight
+PHI:I339	PHI:344	Ergot
+PHI:I345	PHI:353	Glume blotch
+PHI:I347	PHI:355	Fusarium ear blight
+PHI:I357	PHI:365	Glume blotch
+PHI:I369	PHI:375	Vascular wilt
+PHI:I374	PHI:379	Vascular wilt
+PHI:I379	PHI:385	Mycopathogen
+PHI:I385	PHI:393	Ergot
+PHI:I387	PHI:395	Vascular wilt
+PHI:I396	PHI:407	Light leaf spot
+PHI:I401	PHI:413	Glume blotch
+PHI:I402	PHI:414	Glume blotch
+PHI:I418	PHI:429	Anthracnose
+PHI:I421	PHI:432	Fusarium ear blight
+PHI:I422	PHI:432	Fusarium ear blight
+PHI:I427	PHI:438	Grey mould
+PHI:I428	PHI:438	Grey mould
+PHI:I429	PHI:439	Fusarium ear blight
+PHI:I431	PHI:442	Fusarium ear blight
+PHI:I432	PHI:442	Fusarium ear blight
+PHI:I433	PHI:443	Fusarium ear blight
+PHI:I434	PHI:443	Fusarium ear blight
+PHI:I435	PHI:444	Fusarium ear blight
+PHI:I436	PHI:444	Fusarium ear blight
+PHI:I437	PHI:445	Fusarium ear blight
+PHI:I438	PHI:445	Fusarium ear blight
+PHI:I439	PHI:446	Fusarium ear blight
+PHI:I440	PHI:446	Fusarium ear blight
+PHI:I441	PHI:2348	Fusarium ear blight
+PHI:I442	PHI:448	Glume blotch
+PHI:I443	PHI:449	Ergot
+PHI:I457	PHI:459	Barley smut
+PHI:I464	PHI:467	Chesnut blight
+PHI:I469	PHI:472	Leaf mould
+PHI:I480	PHI:483	Vascular wilt
+PHI:I481	PHI:483	Vascular wilt
+PHI:I482	PHI:483	Vascular wilt
+PHI:I483	PHI:483	Vascular wilt
+PHI:I484	PHI:483	Vascular wilt
+PHI:I485	PHI:483	Vascular wilt
+PHI:I486	PHI:483	Vascular wilt
+PHI:I493	PHI:490	Vascular wilt
+PHI:I495	PHI:492	Grey mould
+PHI:I496	PHI:492	Grey mould
+PHI:I509	PHI:508	Black spot
+PHI:I510	PHI:508	Black spot
+PHI:I511	PHI:509	Black spot
+PHI:I512	PHI:509	Black spot
+PHI:I526	PHI:521	Anthracnose
+PHI:I534	PHI:529	Leaf mould
+PHI:I535	PHI:530	Root rot
+PHI:I536	PHI:531	Downy mildew
+PHI:I537	PHI:532	Flax rust
+PHI:I538	PHI:532	Flax rust
+PHI:I539	PHI:533	Flax rust
+PHI:I540	PHI:533	Flax rust
+PHI:I541	PHI:534	Tan spot
+PHI:I542	PHI:535	Flax rust
+PHI:I543	PHI:536	Flax rust
+PHI:I544	PHI:537	Flax rust
+PHI:I545	PHI:538	Grey mould
+PHI:I546	PHI:538	Grey mould
+PHI:I547	PHI:543	Grey mould
+PHI:I548	PHI:544	Grey mould
+PHI:I549	PHI:545	Grey mould
+PHI:I550	PHI:546	Grey mould
+PHI:I551	PHI:546	Grey mould
+PHI:I552	PHI:548	Grey mould
+PHI:I553	PHI:548	Grey mould
+PHI:I554	PHI:549	Grey mould
+PHI:I555	PHI:549	Grey mould
+PHI:I556	PHI:550	Grey mould
+PHI:I557	PHI:550	Grey mould
+PHI:I559	PHI:552	Grey mould
+PHI:I560	PHI:552	Grey mould
+PHI:I561	PHI:552	Grey mould
+PHI:I562	PHI:552	Grey mould
+PHI:I588	PHI:574	Grey mould
+PHI:I594	PHI:579	Bacterial speck
+PHI:I595	PHI:579	Bacterial speck
+PHI:I596	PHI:580	Bacterial speck
+PHI:I597	PHI:580	Bacterial speck
+PHI:I598	PHI:581	Bacterial speck
+PHI:I599	PHI:581	Bacterial speck
+PHI:I600	PHI:582	Bacterial speck
+PHI:I601	PHI:582	Bacterial speck
+PHI:I602	PHI:583	Bacterial speck
+PHI:I603	PHI:583	Bacterial speck
+PHI:I604	PHI:584	Bacterial speck
+PHI:I605	PHI:584	Bacterial speck
+PHI:I606	PHI:585	Bacterial speck
+PHI:I607	PHI:585	Bacterial speck
+PHI:I608	PHI:586	Bacterial speck
+PHI:I609	PHI:587	Bacterial speck
+PHI:I610	PHI:588	Bacterial speck
+PHI:I611	PHI:589	Halo blight
+PHI:I612	PHI:590	Halo blight
+PHI:I615	PHI:595	Glume blotch
+PHI:I617	PHI:597	Phoma stem canker
+PHI:I618	PHI:598	Phoma stem canker
+PHI:I673	PHI:650	Grey mould
+PHI:I674	PHI:651	Grey mould
+PHI:I675	PHI:652	Root rot
+PHI:I676	PHI:653	Root rot
+PHI:I685	PHI:658	Root rot
+PHI:I686	PHI:659	Root rot
+PHI:I687	PHI:660	Potato buckeye rot
+PHI:I694	PHI:665	Root rot
+PHI:I695	PHI:665	Root rot
+PHI:I696	PHI:666	Potato buckeye rot
+PHI:I697	PHI:666	Potato buckeye rot
+PHI:I698	PHI:666	Potato buckeye rot
+PHI:I727	PHI:695	Phoma stem canker
+PHI:I741	PHI:712	Fusarium ear blight
+PHI:I742	PHI:713	Fusarium ear blight
+PHI:I743	PHI:713	Fusarium ear blight
+PHI:I744	PHI:714	Fusarium ear blight
+PHI:I745	PHI:714	Fusarium ear blight
+PHI:I746	PHI:714	Fusarium ear blight
+PHI:I747	PHI:715	Fusarium ear blight
+PHI:I748	PHI:716	Fusarium ear blight
+PHI:I749	PHI:717	Fusarium ear blight
+PHI:I750	PHI:718	Fusarium ear blight
+PHI:I751	PHI:719	Fusarium ear blight
+PHI:I752	PHI:720	Fusarium ear blight
+PHI:I753	PHI:721	Fusarium ear blight
+PHI:I754	PHI:722	Fusarium ear blight
+PHI:I755	PHI:723	Fusarium ear blight
+PHI:I756	PHI:724	Fusarium ear blight
+PHI:I757	PHI:725	Fusarium ear blight
+PHI:I758	PHI:726	Fusarium ear blight
+PHI:I759	PHI:727	Fusarium ear blight
+PHI:I760	PHI:728	Fusarium ear blight
+PHI:I761	PHI:729	Fusarium ear blight
+PHI:I762	PHI:730	Fusarium ear blight
+PHI:I763	PHI:731	Foolish seedling
+PHI:I764	PHI:733	Fusarium ear blight
+PHI:I765	PHI:734	Vascular wilt
+PHI:I766	PHI:734	Vascular wilt
+PHI:I767	PHI:736	Black spot
+PHI:I768	PHI:736	Black spot
+PHI:I769	PHI:736	Black spot
+PHI:I770	PHI:736	Black spot
+PHI:I771	PHI:737	Frog-eye leafspot
+PHI:I783	PHI:758	Powdery mildew
+PHI:I784	PHI:759	Powdery mildew
+PHI:I786	PHI:769	Ergot
+PHI:I787	PHI:770	Chesnut blight
+PHI:I825	PHI:822	Septoria leaf blotch
+PHI:I826	PHI:823	Leaf blotch of barley
+PHI:I830	PHI:835	Septoria leaf blotch
+PHI:I831	PHI:836	Wheat powdery mildew
+PHI:I832	PHI:838	Septoria leaf blotch
+PHI:I833	PHI:839	Septoria leaf blotch
+PHI:I834	PHI:840	Septoria leaf blotch
+PHI:I835	PHI:841	Septoria leaf blotch
+PHI:I836	PHI:842	Septoria leaf blotch
+PHI:I837	PHI:843	Septoria leaf blotch
+PHI:I838	PHI:844	Septoria leaf blotch
+PHI:I839	PHI:845	Septoria leaf blotch
+PHI:I840	PHI:846	Septoria leaf blotch
+PHI:I841	PHI:847	Bacterial cold-water disease
+PHI:I842	PHI:848	Bacterial cold-water disease
+PHI:I854	PHI:861	Fusarium ear blight
+PHI:I855	PHI:861	Fusarium ear blight
+PHI:I856	PHI:862	Anthracnose
+PHI:I858	PHI:867	Septoria leaf blotch
+PHI:I859	PHI:868	Anthracnose
+PHI:I941	PHI:966	Halo blight
+PHI:I943	PHI:968	Halo blight
+PHI:I944	PHI:969	Bacterial speck
+PHI:I948	PHI:973	Bacterial speck
+PHI:I949	PHI:973	Bacterial speck
+PHI:I950	PHI:974	Bacterial speck
+PHI:I951	PHI:975	Bacterial speck
+PHI:I953	PHI:977	Bacterial leaf spot
+PHI:I955	PHI:979	Bacterial speck
+PHI:I956	PHI:979	Bacterial speck
+PHI:I957	PHI:979	Bacterial speck
+PHI:I959	PHI:981	Bacterial leaf spot
+PHI:I960	PHI:981	Bacterial leaf spot
+PHI:I961	PHI:982	Bacterial speck
+PHI:I962	PHI:982	Bacterial speck
+PHI:I963	PHI:983	Bacterial speck
+PHI:I964	PHI:983	Bacterial speck
+PHI:I965	PHI:984	Bacterial speck
+PHI:I966	PHI:985	Halo blight
+PHI:I968	PHI:987	Bacterial speck
+PHI:I969	PHI:988	Bacterial speck
+PHI:I970	PHI:989	Halo blight
+PHI:I971	PHI:989	Halo blight
+PHI:I972	PHI:990	Bacterial speck
+PHI:I974	PHI:992	Bacterial speck
+PHI:I975	PHI:992	Bacterial speck
+PHI:I976	PHI:992	Bacterial speck
+PHI:I977	PHI:993	Halo blight
+PHI:I990	PHI:1000	Halo blight
+PHI:I991	PHI:1004	Fusarium ear blight
+PHI:I992	PHI:1004	Fusarium ear blight
+PHI:I993	PHI:1005	Fusarium ear blight
+PHI:I994	PHI:1005	Fusarium ear blight
+PHI:I995	PHI:1006	Fusarium ear blight
+PHI:I996	PHI:1007	Fusarium ear blight
+PHI:I998	PHI:1009	Black spot
+PHI:I999	PHI:1012	Fusarium ear blight
+PHI:I1000	PHI:1013	Fusarium ear blight
+PHI:I1001	PHI:1014	Fusarium ear blight
+PHI:I1002	PHI:1015	Fusarium ear blight
+PHI:I1003	PHI:1016	Fusarium ear blight
+PHI:I1004	PHI:1016	Fusarium ear blight
+PHI:I1008	PHI:1020	Vascular wilt
+PHI:I1009	PHI:1021	Vascular wilt
+PHI:I1010	PHI:1022	Vascular wilt
+PHI:I1011	PHI:1023	Grey mould
+PHI:I1012	PHI:1023	Grey mould
+PHI:I1013	PHI:1024	Grey mould
+PHI:I1014	PHI:1025	Grey mould
+PHI:I1015	PHI:1026	Grey mould
+PHI:I1016	PHI:1027	Grey mould
+PHI:I1017	PHI:1027	Grey mould
+PHI:I1018	PHI:1027	Grey mould
+PHI:I1019	PHI:1027	Grey mould
+PHI:I1020	PHI:1027	Grey mould
+PHI:I1021	PHI:1028	Grey mould
+PHI:I1022	PHI:1028	Grey mould
+PHI:I1023	PHI:1028	Grey mould
+PHI:I1024	PHI:1028	Grey mould
+PHI:I1025	PHI:1028	Grey mould
+PHI:I1026	PHI:1030	Grey mould
+PHI:I1027	PHI:1030	Grey mould
+PHI:I1028	PHI:1030	Grey mould
+PHI:I1029	PHI:1031	Grey mould
+PHI:I1030	PHI:1032	Grey mould
+PHI:I1031	PHI:1032	Grey mould
+PHI:I1032	PHI:1032	Grey mould
+PHI:I1033	PHI:1034	Ergot
+PHI:I1034	PHI:1035	Ergot
+PHI:I1035	PHI:1036	Ergot
+PHI:I1036	PHI:1037	Ergot
+PHI:I1037	PHI:1038	Ergot
+PHI:I1038	PHI:1039	Ergot
+PHI:I1039	PHI:1040	Phoma stem canker
+PHI:I1040	PHI:1041	Phoma stem canker
+PHI:I1041	PHI:1042	Septoria leaf blotch
+PHI:I1042	PHI:1043	Septoria leaf blotch
+PHI:I1043	PHI:1046	Frog-eye leafspot
+PHI:I1044	PHI:1047	Frog-eye leafspot
+PHI:I1045	PHI:1048	Frog-eye leafspot
+PHI:I1046	PHI:1051	Frog-eye leafspot
+PHI:I1060	PHI:1072	Septoria leaf blotch
+PHI:I1061	PHI:1073	Septoria leaf blotch
+PHI:I1062	PHI:1074	Septoria leaf blotch
+PHI:I1063	PHI:1075	Septoria leaf blotch
+PHI:I1064	PHI:1076	Septoria leaf blotch
+PHI:I1065	PHI:1078	Fusarium ear blight
+PHI:I1066	PHI:1079	Fusarium ear blight
+PHI:I1067	PHI:1080	Fusarium ear blight
+PHI:I1068	PHI:1080	Fusarium ear blight
+PHI:I1069	PHI:1082	Glume blotch
+PHI:I1070	PHI:1083	Glume blotch
+PHI:I1071	PHI:1084	Glume blotch
+PHI:I1072	PHI:1086	Fusarium ear blight
+PHI:I1073	PHI:1087	Fusarium ear blight
+PHI:I1074	PHI:1088	Fusarium ear blight
+PHI:I1075	PHI:1089	Fusarium ear blight
+PHI:I1076	PHI:1090	Fusarium ear blight
+PHI:I1077	PHI:1091	Fusarium ear blight
+PHI:I1078	PHI:1092	Fusarium ear blight
+PHI:I1079	PHI:1093	Fusarium ear blight
+PHI:I1080	PHI:1094	Fusarium ear blight
+PHI:I1081	PHI:1095	Fusarium ear blight
+PHI:I1082	PHI:1096	Fusarium ear blight
+PHI:I1083	PHI:1097	Fusarium ear blight
+PHI:I1084	PHI:1098	Fusarium ear blight
+PHI:I1085	PHI:1099	Glume blotch
+PHI:I1086	PHI:1100	Glume blotch
+PHI:I1087	PHI:1101	Vascular wilt
+PHI:I1088	PHI:1101	Vascular wilt
+PHI:I1089	PHI:1103	Vascular wilt
+PHI:I1090	PHI:1103	Vascular wilt
+PHI:I1091	PHI:1105	Vascular wilt
+PHI:I1092	PHI:1105	Vascular wilt
+PHI:I1093	PHI:1107	Vascular wilt
+PHI:I1094	PHI:1108	Vascular wilt
+PHI:I1106	PHI:1122	Glume blotch
+PHI:I1107	PHI:1124	Glume blotch
+PHI:I1108	PHI:1127	Glume blotch
+PHI:I1109	PHI:1130	Glume blotch
+PHI:I1110	PHI:1131	Phoma stem canker
+PHI:I1111	PHI:1132	Phoma stem canker
+PHI:I1112	PHI:1133	Phoma stem canker
+PHI:I1113	PHI:1134	Phoma stem canker
+PHI:I1114	PHI:1135	Phoma stem canker
+PHI:I1126	PHI:1147	Barley stem blight
+PHI:I1127	PHI:1148	Ergot
+PHI:I1128	PHI:1149	Septoria leaf blotch
+PHI:I1129	PHI:1150	Septoria leaf blotch
+PHI:I1130	PHI:1151	Septoria leaf blotch
+PHI:I1131	PHI:1152	Septoria leaf blotch
+PHI:I1132	PHI:1153	Septoria leaf blotch
+PHI:I1133	PHI:1154	Septoria leaf blotch
+PHI:I1134	PHI:1155	Septoria leaf blotch
+PHI:I1135	PHI:1156	Septoria leaf blotch
+PHI:I1136	PHI:1157	Septoria leaf blotch
+PHI:I1137	PHI:1158	Septoria leaf blotch
+PHI:I1138	PHI:1160	Grey mould
+PHI:I1139	PHI:1161	Septoria leaf blotch
+PHI:I1140	PHI:1162	Fusarium ear blight
+PHI:I1141	PHI:1162	Fusarium ear blight
+PHI:I1142	PHI:1162	Fusarium ear blight
+PHI:I1143	PHI:1162	Fusarium ear blight
+PHI:I1144	PHI:1163	Fusarium ear blight
+PHI:I1145	PHI:1164	Fusarium ear blight
+PHI:I1146	PHI:1164	Fusarium ear blight
+PHI:I1147	PHI:1165	Fusarium ear blight
+PHI:I1148	PHI:1166	Fusarium ear blight
+PHI:I1149	PHI:1168	Fusarium ear blight
+PHI:I1150	PHI:1169	Fusarium ear blight
+PHI:I1151	PHI:1170	Fusarium ear blight
+PHI:I1152	PHI:1171	Fusarium ear blight
+PHI:I1153	PHI:1172	Fusarium ear blight
+PHI:I1154	PHI:1173	Fusarium ear blight
+PHI:I1155	PHI:1174	Fusarium ear blight
+PHI:I1156	PHI:1175	Fusarium ear blight
+PHI:I1157	PHI:1176	Fusarium ear blight
+PHI:I1158	PHI:1177	Fusarium ear blight
+PHI:I1159	PHI:1178	Fusarium ear blight
+PHI:I1160	PHI:1179	Fusarium ear blight
+PHI:I1161	PHI:1180	Fusarium ear blight
+PHI:I1162	PHI:1181	Fusarium ear blight
+PHI:I1163	PHI:1182	Fusarium ear blight
+PHI:I1164	PHI:1183	Fusarium ear blight
+PHI:I1165	PHI:1184	Fusarium ear blight
+PHI:I1166	PHI:1185	Fusarium ear blight
+PHI:I1167	PHI:1186	Fusarium ear blight
+PHI:I1168	PHI:1187	Fusarium ear blight
+PHI:I1169	PHI:1188	Fusarium ear blight
+PHI:I1170	PHI:1189	Fusarium ear blight
+PHI:I1171	PHI:1190	Fusarium ear blight
+PHI:I1172	PHI:1191	Fusarium ear blight
+PHI:I1173	PHI:1192	Fusarium ear blight
+PHI:I1174	PHI:1193	Fusarium ear blight
+PHI:I1175	PHI:1194	Fusarium ear blight
+PHI:I1176	PHI:1195	Fusarium ear blight
+PHI:I1177	PHI:1196	Fusarium ear blight
+PHI:I1178	PHI:1197	Fusarium ear blight
+PHI:I1179	PHI:1198	Fusarium ear blight
+PHI:I1180	PHI:1199	Fusarium ear blight
+PHI:I1181	PHI:1200	Fusarium ear blight
+PHI:I1182	PHI:1201	Fusarium ear blight
+PHI:I1183	PHI:1202	Fusarium ear blight
+PHI:I1184	PHI:1203	Fusarium ear blight
+PHI:I1185	PHI:1204	Fusarium ear blight
+PHI:I1186	PHI:1205	Fusarium ear blight
+PHI:I1187	PHI:1206	Fusarium ear blight
+PHI:I1188	PHI:1207	Fusarium ear blight
+PHI:I1189	PHI:1208	Fusarium ear blight
+PHI:I1190	PHI:1209	Fusarium ear blight
+PHI:I1191	PHI:1210	Fusarium ear blight
+PHI:I1192	PHI:1211	Fusarium ear blight
+PHI:I1193	PHI:1212	Fusarium ear blight
+PHI:I1194	PHI:1215	Fusarium ear blight
+PHI:I1195	PHI:1216	Fusarium ear blight
+PHI:I1196	PHI:1218	Fusarium ear blight
+PHI:I1197	PHI:1219	Fusarium ear blight
+PHI:I1198	PHI:1220	Fusarium ear blight
+PHI:I1199	PHI:1221	Fusarium ear blight
+PHI:I1200	PHI:1222	Fusarium ear blight
+PHI:I1201	PHI:1223	Fusarium ear blight
+PHI:I1202	PHI:1224	Fusarium ear blight
+PHI:I1203	PHI:1225	Fusarium ear blight
+PHI:I1204	PHI:1226	Fusarium ear blight
+PHI:I1205	PHI:1227	Fusarium ear blight
+PHI:I1206	PHI:1228	Fusarium ear blight
+PHI:I1207	PHI:1229	Fusarium ear blight
+PHI:I1208	PHI:1230	Fusarium ear blight
+PHI:I1209	PHI:1231	Fusarium ear blight
+PHI:I1210	PHI:1232	Fusarium ear blight
+PHI:I1211	PHI:1233	Fusarium ear blight
+PHI:I1212	PHI:1234	Fusarium ear blight
+PHI:I1213	PHI:1235	Fusarium ear blight
+PHI:I1214	PHI:1236	Fusarium ear blight
+PHI:I1215	PHI:1237	Fusarium ear blight
+PHI:I1216	PHI:1238	Fusarium ear blight
+PHI:I1217	PHI:1239	Fusarium ear blight
+PHI:I1218	PHI:1240	Fusarium ear blight
+PHI:I1219	PHI:1241	Fusarium ear blight
+PHI:I1220	PHI:1242	Fusarium ear blight
+PHI:I1221	PHI:1243	Fusarium ear blight
+PHI:I1222	PHI:1244	Fusarium ear blight
+PHI:I1223	PHI:1245	Fusarium ear blight
+PHI:I1224	PHI:1246	Fusarium ear blight
+PHI:I1225	PHI:1247	Fusarium ear blight
+PHI:I1226	PHI:1248	Fusarium ear blight
+PHI:I1227	PHI:1249	Fusarium ear blight
+PHI:I1228	PHI:1250	Fusarium ear blight
+PHI:I1229	PHI:1251	Fusarium ear blight
+PHI:I1230	PHI:1252	Fusarium ear blight
+PHI:I1231	PHI:1253	Fusarium ear blight
+PHI:I1232	PHI:1254	Fusarium ear blight
+PHI:I1233	PHI:1255	Fusarium ear blight
+PHI:I1234	PHI:1256	Fusarium ear blight
+PHI:I1235	PHI:1257	Fusarium ear blight
+PHI:I1236	PHI:1258	Fusarium ear blight
+PHI:I1237	PHI:1259	Fusarium ear blight
+PHI:I1238	PHI:1260	Fusarium ear blight
+PHI:I1239	PHI:1261	Fusarium ear blight
+PHI:I1240	PHI:1262	Fusarium ear blight
+PHI:I1241	PHI:1263	Fusarium ear blight
+PHI:I1242	PHI:1264	Fusarium ear blight
+PHI:I1243	PHI:1265	Fusarium ear blight
+PHI:I1244	PHI:1266	Fusarium ear blight
+PHI:I1245	PHI:1267	Fusarium ear blight
+PHI:I1246	PHI:1268	Fusarium ear blight
+PHI:I1247	PHI:1269	Fusarium ear blight
+PHI:I1248	PHI:1270	Fusarium ear blight
+PHI:I1249	PHI:1271	Fusarium ear blight
+PHI:I1250	PHI:1272	Fusarium ear blight
+PHI:I1251	PHI:1273	Fusarium ear blight
+PHI:I1252	PHI:1274	Fusarium ear blight
+PHI:I1253	PHI:1275	Fusarium ear blight
+PHI:I1254	PHI:1276	Fusarium ear blight
+PHI:I1255	PHI:1277	Fusarium ear blight
+PHI:I1256	PHI:1278	Fusarium ear blight
+PHI:I1257	PHI:1279	Fusarium ear blight
+PHI:I1258	PHI:1280	Fusarium ear blight
+PHI:I1259	PHI:1281	Fusarium ear blight
+PHI:I1260	PHI:1282	Fusarium ear blight
+PHI:I1261	PHI:1283	Fusarium ear blight
+PHI:I1262	PHI:1284	Fusarium ear blight
+PHI:I1263	PHI:1285	Fusarium ear blight
+PHI:I1264	PHI:1286	Fusarium ear blight
+PHI:I1265	PHI:1287	Fusarium ear blight
+PHI:I1266	PHI:1288	Fusarium ear blight
+PHI:I1267	PHI:1289	Fusarium ear blight
+PHI:I1268	PHI:1290	Fusarium ear blight
+PHI:I1269	PHI:1291	Fusarium ear blight
+PHI:I1270	PHI:1292	Fusarium ear blight
+PHI:I1271	PHI:1292	Fusarium ear blight
+PHI:I1272	PHI:1292	Fusarium ear blight
+PHI:I1273	PHI:1293	Fusarium ear blight
+PHI:I1274	PHI:1294	Fusarium ear blight
+PHI:I1275	PHI:1295	Fusarium ear blight
+PHI:I1276	PHI:1296	Fusarium ear blight
+PHI:I1277	PHI:1297	Fusarium ear blight
+PHI:I1278	PHI:1298	Fusarium ear blight
+PHI:I1279	PHI:1299	Fusarium ear blight
+PHI:I1280	PHI:1300	Fusarium ear blight
+PHI:I1281	PHI:1301	Fusarium ear blight
+PHI:I1282	PHI:1302	Fusarium ear blight
+PHI:I1283	PHI:1303	Fusarium ear blight
+PHI:I1284	PHI:1304	Fusarium ear blight
+PHI:I1285	PHI:1305	Fusarium ear blight
+PHI:I1286	PHI:1306	Fusarium ear blight
+PHI:I1287	PHI:1307	Fusarium ear blight
+PHI:I1288	PHI:1308	Fusarium ear blight
+PHI:I1289	PHI:1309	Fusarium ear blight
+PHI:I1290	PHI:1310	Fusarium ear blight
+PHI:I1291	PHI:1311	Fusarium ear blight
+PHI:I1292	PHI:1312	Fusarium ear blight
+PHI:I1293	PHI:1313	Fusarium ear blight
+PHI:I1294	PHI:1314	Fusarium ear blight
+PHI:I1295	PHI:1315	Fusarium ear blight
+PHI:I1296	PHI:1316	Fusarium ear blight
+PHI:I1297	PHI:1317	Fusarium ear blight
+PHI:I1298	PHI:1318	Fusarium ear blight
+PHI:I1299	PHI:1319	Fusarium ear blight
+PHI:I1300	PHI:1320	Fusarium ear blight
+PHI:I1301	PHI:1321	Fusarium ear blight
+PHI:I1302	PHI:1322	Fusarium ear blight
+PHI:I1303	PHI:1323	Fusarium ear blight
+PHI:I1304	PHI:1324	Fusarium ear blight
+PHI:I1305	PHI:1325	Fusarium ear blight
+PHI:I1306	PHI:1326	Fusarium ear blight
+PHI:I1307	PHI:1327	Fusarium ear blight
+PHI:I1308	PHI:1328	Fusarium ear blight
+PHI:I1309	PHI:1329	Fusarium ear blight
+PHI:I1310	PHI:1330	Fusarium ear blight
+PHI:I1311	PHI:1331	Fusarium ear blight
+PHI:I1312	PHI:1332	Fusarium ear blight
+PHI:I1313	PHI:1333	Fusarium ear blight
+PHI:I1314	PHI:1334	Fusarium ear blight
+PHI:I1315	PHI:1335	Fusarium ear blight
+PHI:I1316	PHI:1336	Fusarium ear blight
+PHI:I1317	PHI:1337	Fusarium ear blight
+PHI:I1318	PHI:1338	Fusarium ear blight
+PHI:I1319	PHI:1339	Fusarium ear blight
+PHI:I1320	PHI:1340	Fusarium ear blight
+PHI:I1321	PHI:1341	Fusarium ear blight
+PHI:I1322	PHI:1342	Fusarium ear blight
+PHI:I1323	PHI:1343	Fusarium ear blight
+PHI:I1324	PHI:1344	Fusarium ear blight
+PHI:I1325	PHI:1345	Fusarium ear blight
+PHI:I1326	PHI:1346	Fusarium ear blight
+PHI:I1327	PHI:1347	Fusarium ear blight
+PHI:I1328	PHI:1348	Fusarium ear blight
+PHI:I1329	PHI:1349	Fusarium ear blight
+PHI:I1330	PHI:1350	Fusarium ear blight
+PHI:I1331	PHI:1351	Fusarium ear blight
+PHI:I1332	PHI:1352	Fusarium ear blight
+PHI:I1333	PHI:1353	Fusarium ear blight
+PHI:I1334	PHI:1354	Fusarium ear blight
+PHI:I1335	PHI:1355	Fusarium ear blight
+PHI:I1336	PHI:1356	Fusarium ear blight
+PHI:I1337	PHI:1357	Fusarium ear blight
+PHI:I1338	PHI:1358	Fusarium ear blight
+PHI:I1339	PHI:1359	Fusarium ear blight
+PHI:I1340	PHI:1360	Fusarium ear blight
+PHI:I1341	PHI:1361	Fusarium ear blight
+PHI:I1342	PHI:1362	Fusarium ear blight
+PHI:I1343	PHI:1363	Fusarium ear blight
+PHI:I1344	PHI:1364	Fusarium ear blight
+PHI:I1345	PHI:1365	Fusarium ear blight
+PHI:I1346	PHI:1366	Fusarium ear blight
+PHI:I1347	PHI:1367	Fusarium ear blight
+PHI:I1348	PHI:1368	Fusarium ear blight
+PHI:I1349	PHI:1369	Fusarium ear blight
+PHI:I1350	PHI:1370	Fusarium ear blight
+PHI:I1351	PHI:1371	Fusarium ear blight
+PHI:I1352	PHI:1372	Fusarium ear blight
+PHI:I1353	PHI:1373	Fusarium ear blight
+PHI:I1354	PHI:1374	Fusarium ear blight
+PHI:I1355	PHI:1375	Fusarium ear blight
+PHI:I1356	PHI:1376	Fusarium ear blight
+PHI:I1357	PHI:1377	Fusarium ear blight
+PHI:I1358	PHI:1378	Fusarium ear blight
+PHI:I1359	PHI:1379	Fusarium ear blight
+PHI:I1360	PHI:1380	Fusarium ear blight
+PHI:I1361	PHI:1381	Fusarium ear blight
+PHI:I1362	PHI:1382	Fusarium ear blight
+PHI:I1363	PHI:1383	Fusarium ear blight
+PHI:I1364	PHI:1384	Fusarium ear blight
+PHI:I1365	PHI:1385	Fusarium ear blight
+PHI:I1366	PHI:1386	Fusarium ear blight
+PHI:I1367	PHI:1387	Fusarium ear blight
+PHI:I1368	PHI:1388	Fusarium ear blight
+PHI:I1369	PHI:1389	Fusarium ear blight
+PHI:I1370	PHI:1390	Fusarium ear blight
+PHI:I1371	PHI:1391	Fusarium ear blight
+PHI:I1372	PHI:1392	Fusarium ear blight
+PHI:I1373	PHI:1393	Fusarium ear blight
+PHI:I1374	PHI:1394	Fusarium ear blight
+PHI:I1375	PHI:1395	Fusarium ear blight
+PHI:I1376	PHI:1396	Fusarium ear blight
+PHI:I1377	PHI:1397	Fusarium ear blight
+PHI:I1378	PHI:1398	Fusarium ear blight
+PHI:I1379	PHI:1399	Fusarium ear blight
+PHI:I1380	PHI:1400	Fusarium ear blight
+PHI:I1381	PHI:1401	Fusarium ear blight
+PHI:I1382	PHI:1402	Fusarium ear blight
+PHI:I1383	PHI:1403	Fusarium ear blight
+PHI:I1384	PHI:1404	Fusarium ear blight
+PHI:I1385	PHI:1405	Fusarium ear blight
+PHI:I1386	PHI:1406	Fusarium ear blight
+PHI:I1387	PHI:1407	Fusarium ear blight
+PHI:I1388	PHI:1408	Fusarium ear blight
+PHI:I1389	PHI:1409	Fusarium ear blight
+PHI:I1390	PHI:1410	Fusarium ear blight
+PHI:I1391	PHI:1411	Fusarium ear blight
+PHI:I1392	PHI:1412	Fusarium ear blight
+PHI:I1393	PHI:1413	Fusarium ear blight
+PHI:I1394	PHI:1414	Fusarium ear blight
+PHI:I1395	PHI:1415	Fusarium ear blight
+PHI:I1396	PHI:1416	Fusarium ear blight
+PHI:I1397	PHI:1417	Fusarium ear blight
+PHI:I1398	PHI:1418	Fusarium ear blight
+PHI:I1399	PHI:1419	Fusarium ear blight
+PHI:I1400	PHI:1420	Fusarium ear blight
+PHI:I1401	PHI:1421	Fusarium ear blight
+PHI:I1402	PHI:1422	Fusarium ear blight
+PHI:I1403	PHI:1423	Fusarium ear blight
+PHI:I1404	PHI:1424	Fusarium ear blight
+PHI:I1405	PHI:1425	Fusarium ear blight
+PHI:I1406	PHI:1426	Fusarium ear blight
+PHI:I1407	PHI:1427	Fusarium ear blight
+PHI:I1408	PHI:1428	Fusarium ear blight
+PHI:I1409	PHI:1429	Fusarium ear blight
+PHI:I1410	PHI:1430	Fusarium ear blight
+PHI:I1411	PHI:1431	Fusarium ear blight
+PHI:I1412	PHI:1432	Fusarium ear blight
+PHI:I1413	PHI:1433	Fusarium ear blight
+PHI:I1414	PHI:1434	Fusarium ear blight
+PHI:I1415	PHI:1435	Fusarium ear blight
+PHI:I1416	PHI:1436	Fusarium ear blight
+PHI:I1417	PHI:1437	Fusarium ear blight
+PHI:I1418	PHI:1438	Fusarium ear blight
+PHI:I1419	PHI:1439	Fusarium ear blight
+PHI:I1420	PHI:1440	Fusarium ear blight
+PHI:I1421	PHI:1441	Fusarium ear blight
+PHI:I1422	PHI:1442	Fusarium ear blight
+PHI:I1423	PHI:1443	Fusarium ear blight
+PHI:I1424	PHI:1444	Fusarium ear blight
+PHI:I1425	PHI:1445	Fusarium ear blight
+PHI:I1426	PHI:1446	Fusarium ear blight
+PHI:I1427	PHI:1447	Fusarium ear blight
+PHI:I1428	PHI:1448	Fusarium ear blight
+PHI:I1429	PHI:1449	Fusarium ear blight
+PHI:I1430	PHI:1450	Fusarium ear blight
+PHI:I1431	PHI:1451	Fusarium ear blight
+PHI:I1432	PHI:1452	Fusarium ear blight
+PHI:I1433	PHI:1453	Fusarium ear blight
+PHI:I1434	PHI:1454	Fusarium ear blight
+PHI:I1435	PHI:1455	Fusarium ear blight
+PHI:I1436	PHI:1456	Fusarium ear blight
+PHI:I1437	PHI:1457	Fusarium ear blight
+PHI:I1438	PHI:1458	Fusarium ear blight
+PHI:I1439	PHI:1459	Fusarium ear blight
+PHI:I1440	PHI:1460	Fusarium ear blight
+PHI:I1441	PHI:1461	Fusarium ear blight
+PHI:I1442	PHI:1462	Fusarium ear blight
+PHI:I1443	PHI:1463	Fusarium ear blight
+PHI:I1444	PHI:1464	Fusarium ear blight
+PHI:I1445	PHI:1465	Fusarium ear blight
+PHI:I1446	PHI:1466	Fusarium ear blight
+PHI:I1447	PHI:1467	Fusarium ear blight
+PHI:I1448	PHI:1468	Fusarium ear blight
+PHI:I1449	PHI:1469	Fusarium ear blight
+PHI:I1450	PHI:1470	Fusarium ear blight
+PHI:I1451	PHI:1471	Fusarium ear blight
+PHI:I1452	PHI:1472	Fusarium ear blight
+PHI:I1453	PHI:1473	Fusarium ear blight
+PHI:I1454	PHI:1474	Fusarium ear blight
+PHI:I1455	PHI:1475	Fusarium ear blight
+PHI:I1456	PHI:1476	Fusarium ear blight
+PHI:I1457	PHI:1477	Fusarium ear blight
+PHI:I1458	PHI:1478	Fusarium ear blight
+PHI:I1459	PHI:1479	Fusarium ear blight
+PHI:I1460	PHI:1480	Fusarium ear blight
+PHI:I1461	PHI:1481	Fusarium ear blight
+PHI:I1462	PHI:1482	Fusarium ear blight
+PHI:I1463	PHI:1483	Fusarium ear blight
+PHI:I1464	PHI:1484	Fusarium ear blight
+PHI:I1465	PHI:1485	Fusarium ear blight
+PHI:I1466	PHI:1486	Fusarium ear blight
+PHI:I1467	PHI:1487	Fusarium ear blight
+PHI:I1468	PHI:1488	Fusarium ear blight
+PHI:I1469	PHI:1489	Fusarium ear blight
+PHI:I1470	PHI:1490	Fusarium ear blight
+PHI:I1471	PHI:1491	Fusarium ear blight
+PHI:I1472	PHI:1492	Fusarium ear blight
+PHI:I1473	PHI:1493	Fusarium ear blight
+PHI:I1474	PHI:1494	Fusarium ear blight
+PHI:I1475	PHI:1495	Fusarium ear blight
+PHI:I1476	PHI:1496	Fusarium ear blight
+PHI:I1477	PHI:1497	Fusarium ear blight
+PHI:I1478	PHI:1498	Fusarium ear blight
+PHI:I1479	PHI:1499	Fusarium ear blight
+PHI:I1480	PHI:1500	Fusarium ear blight
+PHI:I1481	PHI:1501	Fusarium ear blight
+PHI:I1482	PHI:1502	Fusarium ear blight
+PHI:I1483	PHI:1503	Fusarium ear blight
+PHI:I1484	PHI:1504	Fusarium ear blight
+PHI:I1485	PHI:1505	Fusarium ear blight
+PHI:I1486	PHI:1506	Fusarium ear blight
+PHI:I1487	PHI:1507	Fusarium ear blight
+PHI:I1488	PHI:1508	Fusarium ear blight
+PHI:I1489	PHI:1509	Fusarium ear blight
+PHI:I1490	PHI:1510	Fusarium ear blight
+PHI:I1491	PHI:1511	Fusarium ear blight
+PHI:I1492	PHI:1512	Fusarium ear blight
+PHI:I1493	PHI:1513	Fusarium ear blight
+PHI:I1494	PHI:1514	Fusarium ear blight
+PHI:I1495	PHI:1515	Fusarium ear blight
+PHI:I1496	PHI:1516	Fusarium ear blight
+PHI:I1497	PHI:1517	Fusarium ear blight
+PHI:I1498	PHI:1518	Fusarium ear blight
+PHI:I1499	PHI:1519	Fusarium ear blight
+PHI:I1500	PHI:1520	Fusarium ear blight
+PHI:I1501	PHI:1521	Fusarium ear blight
+PHI:I1502	PHI:1522	Fusarium ear blight
+PHI:I1503	PHI:1523	Fusarium ear blight
+PHI:I1504	PHI:1524	Fusarium ear blight
+PHI:I1505	PHI:1525	Fusarium ear blight
+PHI:I1506	PHI:1526	Fusarium ear blight
+PHI:I1507	PHI:1527	Fusarium ear blight
+PHI:I1508	PHI:1528	Fusarium ear blight
+PHI:I1509	PHI:1529	Fusarium ear blight
+PHI:I1510	PHI:1530	Fusarium ear blight
+PHI:I1511	PHI:1531	Fusarium ear blight
+PHI:I1512	PHI:1532	Fusarium ear blight
+PHI:I1513	PHI:1533	Fusarium ear blight
+PHI:I1514	PHI:1534	Fusarium ear blight
+PHI:I1515	PHI:1535	Fusarium ear blight
+PHI:I1516	PHI:1536	Fusarium ear blight
+PHI:I1517	PHI:1537	Fusarium ear blight
+PHI:I1518	PHI:1538	Fusarium ear blight
+PHI:I1519	PHI:1539	Fusarium ear blight
+PHI:I1520	PHI:1540	Fusarium ear blight
+PHI:I1521	PHI:1541	Fusarium ear blight
+PHI:I1522	PHI:1542	Fusarium ear blight
+PHI:I1523	PHI:1543	Fusarium ear blight
+PHI:I1524	PHI:1544	Fusarium ear blight
+PHI:I1525	PHI:1545	Fusarium ear blight
+PHI:I1526	PHI:1546	Fusarium ear blight
+PHI:I1527	PHI:1547	Fusarium ear blight
+PHI:I1528	PHI:1548	Fusarium ear blight
+PHI:I1529	PHI:1549	Fusarium ear blight
+PHI:I1530	PHI:1550	Fusarium ear blight
+PHI:I1531	PHI:1551	Fusarium ear blight
+PHI:I1532	PHI:1552	Fusarium ear blight
+PHI:I1533	PHI:1553	Fusarium ear blight
+PHI:I1534	PHI:1554	Fusarium ear blight
+PHI:I1535	PHI:1555	Fusarium ear blight
+PHI:I1536	PHI:1556	Fusarium ear blight
+PHI:I1537	PHI:1557	Fusarium ear blight
+PHI:I1538	PHI:1558	Fusarium ear blight
+PHI:I1539	PHI:1559	Fusarium ear blight
+PHI:I1540	PHI:1560	Fusarium ear blight
+PHI:I1541	PHI:1561	Fusarium ear blight
+PHI:I1542	PHI:1562	Fusarium ear blight
+PHI:I1543	PHI:1563	Fusarium ear blight
+PHI:I1544	PHI:1564	Fusarium ear blight
+PHI:I1545	PHI:1565	Fusarium ear blight
+PHI:I1546	PHI:1566	Fusarium ear blight
+PHI:I1547	PHI:1567	Fusarium ear blight
+PHI:I1548	PHI:1568	Fusarium ear blight
+PHI:I1549	PHI:1569	Fusarium ear blight
+PHI:I1550	PHI:1570	Fusarium ear blight
+PHI:I1551	PHI:1571	Fusarium ear blight
+PHI:I1552	PHI:1572	Fusarium ear blight
+PHI:I1553	PHI:1573	Fusarium ear blight
+PHI:I1554	PHI:1574	Fusarium ear blight
+PHI:I1555	PHI:1575	Fusarium ear blight
+PHI:I1556	PHI:1576	Fusarium ear blight
+PHI:I1557	PHI:1577	Fusarium ear blight
+PHI:I1558	PHI:1578	Fusarium ear blight
+PHI:I1559	PHI:1579	Fusarium ear blight
+PHI:I1560	PHI:1580	Fusarium ear blight
+PHI:I1561	PHI:1581	Fusarium ear blight
+PHI:I1562	PHI:1582	Fusarium ear blight
+PHI:I1563	PHI:1583	Fusarium ear blight
+PHI:I1564	PHI:1584	Fusarium ear blight
+PHI:I1565	PHI:1585	Fusarium ear blight
+PHI:I1566	PHI:1586	Fusarium ear blight
+PHI:I1567	PHI:1587	Fusarium ear blight
+PHI:I1568	PHI:1588	Fusarium ear blight
+PHI:I1569	PHI:1589	Fusarium ear blight
+PHI:I1570	PHI:1590	Fusarium ear blight
+PHI:I1571	PHI:1591	Fusarium ear blight
+PHI:I1572	PHI:1592	Fusarium ear blight
+PHI:I1573	PHI:1593	Fusarium ear blight
+PHI:I1574	PHI:1594	Fusarium ear blight
+PHI:I1575	PHI:1595	Fusarium ear blight
+PHI:I1576	PHI:1596	Fusarium ear blight
+PHI:I1577	PHI:1597	Fusarium ear blight
+PHI:I1578	PHI:1598	Fusarium ear blight
+PHI:I1579	PHI:1599	Fusarium ear blight
+PHI:I1580	PHI:1600	Fusarium ear blight
+PHI:I1581	PHI:1601	Fusarium ear blight
+PHI:I1582	PHI:1602	Fusarium ear blight
+PHI:I1583	PHI:1603	Fusarium ear blight
+PHI:I1584	PHI:1604	Fusarium ear blight
+PHI:I1585	PHI:1605	Fusarium ear blight
+PHI:I1586	PHI:1606	Fusarium ear blight
+PHI:I1587	PHI:1607	Fusarium ear blight
+PHI:I1588	PHI:1608	Fusarium ear blight
+PHI:I1589	PHI:1609	Fusarium ear blight
+PHI:I1590	PHI:1610	Fusarium ear blight
+PHI:I1591	PHI:1611	Fusarium ear blight
+PHI:I1592	PHI:1612	Fusarium ear blight
+PHI:I1593	PHI:1613	Fusarium ear blight
+PHI:I1594	PHI:1614	Fusarium ear blight
+PHI:I1595	PHI:1615	Fusarium ear blight
+PHI:I1596	PHI:1616	Fusarium ear blight
+PHI:I1597	PHI:1617	Fusarium ear blight
+PHI:I1598	PHI:1618	Fusarium ear blight
+PHI:I1599	PHI:1619	Fusarium ear blight
+PHI:I1600	PHI:1620	Fusarium ear blight
+PHI:I1601	PHI:1621	Fusarium ear blight
+PHI:I1602	PHI:1622	Fusarium ear blight
+PHI:I1603	PHI:1623	Fusarium ear blight
+PHI:I1604	PHI:1624	Fusarium ear blight
+PHI:I1605	PHI:1625	Fusarium ear blight
+PHI:I1606	PHI:1626	Fusarium ear blight
+PHI:I1607	PHI:1627	Fusarium ear blight
+PHI:I1608	PHI:1628	Fusarium ear blight
+PHI:I1609	PHI:1629	Fusarium ear blight
+PHI:I1610	PHI:1630	Fusarium ear blight
+PHI:I1611	PHI:1631	Fusarium ear blight
+PHI:I1612	PHI:1632	Fusarium ear blight
+PHI:I1613	PHI:1633	Fusarium ear blight
+PHI:I1614	PHI:1634	Fusarium ear blight
+PHI:I1615	PHI:1635	Fusarium ear blight
+PHI:I1616	PHI:1636	Fusarium ear blight
+PHI:I1617	PHI:1637	Fusarium ear blight
+PHI:I1618	PHI:1638	Fusarium ear blight
+PHI:I1619	PHI:1639	Fusarium ear blight
+PHI:I1620	PHI:1640	Fusarium ear blight
+PHI:I1621	PHI:1641	Fusarium ear blight
+PHI:I1622	PHI:1642	Fusarium ear blight
+PHI:I1623	PHI:1643	Fusarium ear blight
+PHI:I1624	PHI:1644	Fusarium ear blight
+PHI:I1625	PHI:1645	Fusarium ear blight
+PHI:I1626	PHI:1646	Fusarium ear blight
+PHI:I1627	PHI:1647	Fusarium ear blight
+PHI:I1628	PHI:1648	Fusarium ear blight
+PHI:I1629	PHI:1649	Fusarium ear blight
+PHI:I1630	PHI:1650	Fusarium ear blight
+PHI:I1631	PHI:1651	Fusarium ear blight
+PHI:I1632	PHI:1652	Fusarium ear blight
+PHI:I1633	PHI:1653	Fusarium ear blight
+PHI:I1634	PHI:1654	Fusarium ear blight
+PHI:I1635	PHI:1655	Fusarium ear blight
+PHI:I1636	PHI:1656	Fusarium ear blight
+PHI:I1637	PHI:1657	Fusarium ear blight
+PHI:I1638	PHI:1658	Fusarium ear blight
+PHI:I1639	PHI:1659	Fusarium ear blight
+PHI:I1640	PHI:1660	Fusarium ear blight
+PHI:I1641	PHI:1661	Fusarium ear blight
+PHI:I1642	PHI:1662	Fusarium ear blight
+PHI:I1643	PHI:1663	Fusarium ear blight
+PHI:I1644	PHI:1664	Fusarium ear blight
+PHI:I1645	PHI:1665	Fusarium ear blight
+PHI:I1646	PHI:1666	Fusarium ear blight
+PHI:I1647	PHI:1667	Fusarium ear blight
+PHI:I1648	PHI:1668	Fusarium ear blight
+PHI:I1649	PHI:1669	Fusarium ear blight
+PHI:I1650	PHI:1670	Fusarium ear blight
+PHI:I1651	PHI:1671	Fusarium ear blight
+PHI:I1652	PHI:1672	Fusarium ear blight
+PHI:I1653	PHI:1673	Fusarium ear blight
+PHI:I1654	PHI:1674	Fusarium ear blight
+PHI:I1655	PHI:1675	Fusarium ear blight
+PHI:I1656	PHI:1676	Fusarium ear blight
+PHI:I1657	PHI:1677	Fusarium ear blight
+PHI:I1658	PHI:1678	Fusarium ear blight
+PHI:I1659	PHI:1679	Fusarium ear blight
+PHI:I1660	PHI:1680	Fusarium ear blight
+PHI:I1661	PHI:1681	Fusarium ear blight
+PHI:I1662	PHI:1682	Fusarium ear blight
+PHI:I1663	PHI:1683	Fusarium ear blight
+PHI:I1664	PHI:1684	Fusarium ear blight
+PHI:I1665	PHI:1685	Fusarium ear blight
+PHI:I1666	PHI:1686	Fusarium ear blight
+PHI:I1667	PHI:1687	Fusarium ear blight
+PHI:I1668	PHI:1688	Fusarium ear blight
+PHI:I1669	PHI:1689	Fusarium ear blight
+PHI:I1670	PHI:1690	Fusarium ear blight
+PHI:I1671	PHI:1691	Fusarium ear blight
+PHI:I1672	PHI:1692	Fusarium ear blight
+PHI:I1673	PHI:1693	Fusarium ear blight
+PHI:I1674	PHI:1694	Fusarium ear blight
+PHI:I1675	PHI:1695	Fusarium ear blight
+PHI:I1676	PHI:1696	Fusarium ear blight
+PHI:I1677	PHI:1697	Fusarium ear blight
+PHI:I1678	PHI:1698	Fusarium ear blight
+PHI:I1679	PHI:1699	Fusarium ear blight
+PHI:I1680	PHI:1700	Fusarium ear blight
+PHI:I1681	PHI:1701	Fusarium ear blight
+PHI:I1682	PHI:1702	Fusarium ear blight
+PHI:I1683	PHI:1703	Fusarium ear blight
+PHI:I1684	PHI:1704	Fusarium ear blight
+PHI:I1685	PHI:1705	Fusarium ear blight
+PHI:I1686	PHI:1706	Fusarium ear blight
+PHI:I1687	PHI:1707	Fusarium ear blight
+PHI:I1688	PHI:1708	Fusarium ear blight
+PHI:I1689	PHI:1709	Fusarium ear blight
+PHI:I1690	PHI:1710	Fusarium ear blight
+PHI:I1691	PHI:1711	Fusarium ear blight
+PHI:I1692	PHI:1712	Fusarium ear blight
+PHI:I1693	PHI:1713	Fusarium ear blight
+PHI:I1694	PHI:1714	Fusarium ear blight
+PHI:I1695	PHI:1715	Fusarium ear blight
+PHI:I1696	PHI:1716	Fusarium ear blight
+PHI:I1697	PHI:1717	Fusarium ear blight
+PHI:I1698	PHI:1718	Fusarium ear blight
+PHI:I1699	PHI:1719	Fusarium ear blight
+PHI:I1700	PHI:1720	Fusarium ear blight
+PHI:I1701	PHI:1721	Fusarium ear blight
+PHI:I1702	PHI:1722	Fusarium ear blight
+PHI:I1703	PHI:1723	Fusarium ear blight
+PHI:I1704	PHI:1724	Fusarium ear blight
+PHI:I1705	PHI:1725	Fusarium ear blight
+PHI:I1706	PHI:1726	Fusarium ear blight
+PHI:I1707	PHI:1727	Fusarium ear blight
+PHI:I1708	PHI:1728	Fusarium ear blight
+PHI:I1709	PHI:1729	Fusarium ear blight
+PHI:I1710	PHI:1730	Fusarium ear blight
+PHI:I1711	PHI:1731	Fusarium ear blight
+PHI:I1712	PHI:1732	Fusarium ear blight
+PHI:I1713	PHI:1733	Fusarium ear blight
+PHI:I1714	PHI:1734	Fusarium ear blight
+PHI:I1715	PHI:1735	Fusarium ear blight
+PHI:I1716	PHI:1736	Fusarium ear blight
+PHI:I1717	PHI:1737	Fusarium ear blight
+PHI:I1718	PHI:1738	Fusarium ear blight
+PHI:I1719	PHI:1739	Fusarium ear blight
+PHI:I1720	PHI:1740	Fusarium ear blight
+PHI:I1721	PHI:1741	Fusarium ear blight
+PHI:I1722	PHI:1742	Fusarium ear blight
+PHI:I1723	PHI:1743	Fusarium ear blight
+PHI:I1724	PHI:1744	Fusarium ear blight
+PHI:I1725	PHI:1745	Fusarium ear blight
+PHI:I1726	PHI:1746	Fusarium ear blight
+PHI:I1727	PHI:1747	Fusarium ear blight
+PHI:I1728	PHI:1748	Fusarium ear blight
+PHI:I1729	PHI:1749	Fusarium ear blight
+PHI:I1730	PHI:1750	Fusarium ear blight
+PHI:I1731	PHI:1751	Fusarium ear blight
+PHI:I1732	PHI:1752	Fusarium ear blight
+PHI:I1733	PHI:1753	Fusarium ear blight
+PHI:I1734	PHI:1754	Fusarium ear blight
+PHI:I1735	PHI:1755	Fusarium ear blight
+PHI:I1736	PHI:1756	Fusarium ear blight
+PHI:I1737	PHI:1757	Fusarium ear blight
+PHI:I1738	PHI:1758	Fusarium ear blight
+PHI:I1739	PHI:1759	Fusarium ear blight
+PHI:I1740	PHI:1760	Fusarium ear blight
+PHI:I1741	PHI:1761	Fusarium ear blight
+PHI:I1742	PHI:1762	Fusarium ear blight
+PHI:I1743	PHI:1763	Fusarium ear blight
+PHI:I1744	PHI:1764	Fusarium ear blight
+PHI:I1745	PHI:1765	Fusarium ear blight
+PHI:I1746	PHI:1766	Fusarium ear blight
+PHI:I1747	PHI:1767	Fusarium ear blight
+PHI:I1748	PHI:1768	Fusarium ear blight
+PHI:I1749	PHI:1769	Fusarium ear blight
+PHI:I1750	PHI:1770	Fusarium ear blight
+PHI:I1751	PHI:1771	Fusarium ear blight
+PHI:I1752	PHI:1772	Fusarium ear blight
+PHI:I1753	PHI:1773	Fusarium ear blight
+PHI:I1754	PHI:1774	Fusarium ear blight
+PHI:I1755	PHI:1775	Fusarium ear blight
+PHI:I1756	PHI:1776	Fusarium ear blight
+PHI:I1757	PHI:1777	Fusarium ear blight
+PHI:I1758	PHI:1778	Fusarium ear blight
+PHI:I1759	PHI:1779	Fusarium ear blight
+PHI:I1760	PHI:1780	Fusarium ear blight
+PHI:I1761	PHI:1781	Fusarium ear blight
+PHI:I1762	PHI:1782	Fusarium ear blight
+PHI:I1763	PHI:1783	Fusarium ear blight
+PHI:I1764	PHI:1784	Fusarium ear blight
+PHI:I1765	PHI:1785	Fusarium ear blight
+PHI:I1766	PHI:1786	Fusarium ear blight
+PHI:I1767	PHI:1787	Fusarium ear blight
+PHI:I1768	PHI:1788	Fusarium ear blight
+PHI:I1769	PHI:1789	Fusarium ear blight
+PHI:I1770	PHI:1790	Fusarium ear blight
+PHI:I1771	PHI:1791	Fusarium ear blight
+PHI:I1772	PHI:1792	Fusarium ear blight
+PHI:I1773	PHI:1793	Fusarium ear blight
+PHI:I1774	PHI:1794	Fusarium ear blight
+PHI:I1775	PHI:1795	Fusarium ear blight
+PHI:I1776	PHI:1796	Fusarium ear blight
+PHI:I1777	PHI:1797	Fusarium ear blight
+PHI:I1778	PHI:1798	Fusarium ear blight
+PHI:I1779	PHI:1799	Fusarium ear blight
+PHI:I1780	PHI:1800	Fusarium ear blight
+PHI:I1781	PHI:1801	Fusarium ear blight
+PHI:I1782	PHI:1802	Fusarium ear blight
+PHI:I1783	PHI:1803	Fusarium ear blight
+PHI:I1784	PHI:1804	Fusarium ear blight
+PHI:I1785	PHI:1805	Fusarium ear blight
+PHI:I1786	PHI:1806	Fusarium ear blight
+PHI:I1787	PHI:1807	Fusarium ear blight
+PHI:I1788	PHI:1808	Fusarium ear blight
+PHI:I1789	PHI:1809	Fusarium ear blight
+PHI:I1790	PHI:1810	Fusarium ear blight
+PHI:I1791	PHI:1811	Fusarium ear blight
+PHI:I1792	PHI:1812	Fusarium ear blight
+PHI:I1793	PHI:1813	Fusarium ear blight
+PHI:I1794	PHI:1814	Fusarium ear blight
+PHI:I1795	PHI:1815	Fusarium ear blight
+PHI:I1796	PHI:1816	Fusarium ear blight
+PHI:I1797	PHI:1817	Fusarium ear blight
+PHI:I1798	PHI:1818	Fusarium ear blight
+PHI:I1799	PHI:1819	Fusarium ear blight
+PHI:I1800	PHI:1820	Fusarium ear blight
+PHI:I1801	PHI:1821	Fusarium ear blight
+PHI:I1802	PHI:1822	Fusarium ear blight
+PHI:I1803	PHI:1823	Fusarium ear blight
+PHI:I1804	PHI:1824	Fusarium ear blight
+PHI:I1805	PHI:1825	Fusarium ear blight
+PHI:I1806	PHI:1826	Fusarium ear blight
+PHI:I1807	PHI:1827	Fusarium ear blight
+PHI:I1808	PHI:1828	Fusarium ear blight
+PHI:I1809	PHI:1829	Fusarium ear blight
+PHI:I1810	PHI:1830	Fusarium ear blight
+PHI:I1811	PHI:1831	Fusarium ear blight
+PHI:I1812	PHI:1832	Fusarium ear blight
+PHI:I1813	PHI:1833	Fusarium ear blight
+PHI:I1814	PHI:1834	Fusarium ear blight
+PHI:I1815	PHI:1835	Fusarium ear blight
+PHI:I1816	PHI:1836	Fusarium ear blight
+PHI:I1817	PHI:1837	Fusarium ear blight
+PHI:I1818	PHI:1838	Fusarium ear blight
+PHI:I1819	PHI:1839	Fusarium ear blight
+PHI:I1820	PHI:1840	Fusarium ear blight
+PHI:I1821	PHI:1841	Fusarium ear blight
+PHI:I1822	PHI:1842	Fusarium ear blight
+PHI:I1823	PHI:1843	Fusarium ear blight
+PHI:I1824	PHI:1844	Fusarium ear blight
+PHI:I1825	PHI:1845	Fusarium ear blight
+PHI:I1826	PHI:1846	Fusarium ear blight
+PHI:I1827	PHI:1847	Fusarium ear blight
+PHI:I1828	PHI:1848	Fusarium ear blight
+PHI:I1829	PHI:1849	Fusarium ear blight
+PHI:I1830	PHI:1850	Fusarium ear blight
+PHI:I1831	PHI:1851	Fusarium ear blight
+PHI:I1832	PHI:1852	Fusarium ear blight
+PHI:I1833	PHI:1853	Fusarium ear blight
+PHI:I1834	PHI:1854	Fusarium ear blight
+PHI:I1835	PHI:1855	Fusarium ear blight
+PHI:I1836	PHI:1856	Fusarium ear blight
+PHI:I1837	PHI:1857	Fusarium ear blight
+PHI:I1838	PHI:1858	Fusarium ear blight
+PHI:I1839	PHI:1859	Fusarium ear blight
+PHI:I1840	PHI:1860	Fusarium ear blight
+PHI:I1841	PHI:1861	Fusarium ear blight
+PHI:I1842	PHI:1862	Fusarium ear blight
+PHI:I1843	PHI:1863	Fusarium ear blight
+PHI:I1844	PHI:1864	Fusarium ear blight
+PHI:I1845	PHI:1865	Fusarium ear blight
+PHI:I1846	PHI:1866	Fusarium ear blight
+PHI:I1847	PHI:1867	Fusarium ear blight
+PHI:I1848	PHI:1868	Fusarium ear blight
+PHI:I1849	PHI:1869	Fusarium ear blight
+PHI:I1850	PHI:1870	Fusarium ear blight
+PHI:I1851	PHI:1871	Fusarium ear blight
+PHI:I1852	PHI:1872	Fusarium ear blight
+PHI:I1853	PHI:1873	Fusarium ear blight
+PHI:I1854	PHI:1874	Fusarium ear blight
+PHI:I1855	PHI:1875	Fusarium ear blight
+PHI:I1856	PHI:1876	Fusarium ear blight
+PHI:I1857	PHI:1877	Fusarium ear blight
+PHI:I1858	PHI:1878	Fusarium ear blight
+PHI:I1859	PHI:1879	Fusarium ear blight
+PHI:I1860	PHI:1880	Fusarium ear blight
+PHI:I1861	PHI:1881	Fusarium ear blight
+PHI:I1862	PHI:1882	Fusarium ear blight
+PHI:I1863	PHI:1883	Fusarium ear blight
+PHI:I1864	PHI:1884	Fusarium ear blight
+PHI:I1865	PHI:1885	Fusarium ear blight
+PHI:I1866	PHI:1886	Fusarium ear blight
+PHI:I1867	PHI:1887	Fusarium ear blight
+PHI:I1868	PHI:1888	Fusarium ear blight
+PHI:I1869	PHI:1889	Fusarium ear blight
+PHI:I1870	PHI:1890	Fusarium ear blight
+PHI:I1871	PHI:1891	Fusarium ear blight
+PHI:I1872	PHI:1892	Fusarium ear blight
+PHI:I1873	PHI:1893	Fusarium ear blight
+PHI:I1874	PHI:1894	Fusarium ear blight
+PHI:I1875	PHI:1895	Fusarium ear blight
+PHI:I1876	PHI:1896	Fusarium ear blight
+PHI:I1877	PHI:1897	Fusarium ear blight
+PHI:I1878	PHI:1898	Fusarium ear blight
+PHI:I1879	PHI:1899	Fusarium ear blight
+PHI:I1880	PHI:1900	Fusarium ear blight
+PHI:I1881	PHI:1901	Fusarium ear blight
+PHI:I1882	PHI:1902	Fusarium ear blight
+PHI:I1883	PHI:1903	Fusarium ear blight
+PHI:I1884	PHI:1904	Fusarium ear blight
+PHI:I1885	PHI:1905	Fusarium ear blight
+PHI:I1886	PHI:1906	Fusarium ear blight
+PHI:I1887	PHI:1907	Fusarium ear blight
+PHI:I1888	PHI:1908	Fusarium ear blight
+PHI:I1889	PHI:1909	Fusarium ear blight
+PHI:I1890	PHI:1910	Fusarium ear blight
+PHI:I1891	PHI:1911	Fusarium ear blight
+PHI:I1892	PHI:1912	Fusarium ear blight
+PHI:I1893	PHI:1913	Fusarium ear blight
+PHI:I1894	PHI:1914	Fusarium ear blight
+PHI:I1895	PHI:1915	Fusarium ear blight
+PHI:I1896	PHI:1916	Fusarium ear blight
+PHI:I1897	PHI:1917	Fusarium ear blight
+PHI:I1898	PHI:1918	Fusarium ear blight
+PHI:I1899	PHI:1919	Fusarium ear blight
+PHI:I1900	PHI:1920	Fusarium ear blight
+PHI:I1901	PHI:1921	Fusarium ear blight
+PHI:I1902	PHI:1922	Fusarium ear blight
+PHI:I1903	PHI:1923	Fusarium ear blight
+PHI:I1904	PHI:1924	Fusarium ear blight
+PHI:I1905	PHI:1925	Fusarium ear blight
+PHI:I1906	PHI:1926	Fusarium ear blight
+PHI:I1907	PHI:1927	Fusarium ear blight
+PHI:I1908	PHI:1928	Fusarium ear blight
+PHI:I1909	PHI:1929	Fusarium ear blight
+PHI:I1910	PHI:1930	Fusarium ear blight
+PHI:I1911	PHI:1931	Fusarium ear blight
+PHI:I1912	PHI:1932	Fusarium ear blight
+PHI:I1913	PHI:1933	Fusarium ear blight
+PHI:I1914	PHI:1934	Fusarium ear blight
+PHI:I1915	PHI:1935	Fusarium ear blight
+PHI:I1916	PHI:1936	Fusarium ear blight
+PHI:I1917	PHI:1937	Fusarium ear blight
+PHI:I1918	PHI:1938	Fusarium ear blight
+PHI:I1919	PHI:1939	Fusarium ear blight
+PHI:I1920	PHI:1940	Fusarium ear blight
+PHI:I1921	PHI:1941	Fusarium ear blight
+PHI:I1922	PHI:1942	Fusarium ear blight
+PHI:I1923	PHI:1943	Fusarium ear blight
+PHI:I1924	PHI:1944	Fusarium ear blight
+PHI:I1925	PHI:1945	Fusarium ear blight
+PHI:I1926	PHI:1946	Fusarium ear blight
+PHI:I1927	PHI:1947	Fusarium ear blight
+PHI:I1928	PHI:1948	Fusarium ear blight
+PHI:I1929	PHI:1949	Fusarium ear blight
+PHI:I1930	PHI:1950	Fusarium ear blight
+PHI:I1931	PHI:1951	Fusarium ear blight
+PHI:I1932	PHI:1952	Fusarium ear blight
+PHI:I1933	PHI:1953	Fusarium ear blight
+PHI:I1934	PHI:1954	Fusarium ear blight
+PHI:I1935	PHI:1955	Fusarium ear blight
+PHI:I1936	PHI:1956	Fusarium ear blight
+PHI:I1937	PHI:1957	Fusarium ear blight
+PHI:I1938	PHI:1958	Fusarium ear blight
+PHI:I1939	PHI:1959	Fusarium ear blight
+PHI:I1940	PHI:1960	Fusarium ear blight
+PHI:I1941	PHI:1961	Fusarium ear blight
+PHI:I1942	PHI:1962	Fusarium ear blight
+PHI:I1943	PHI:1963	Fusarium ear blight
+PHI:I1944	PHI:1964	Fusarium ear blight
+PHI:I1945	PHI:1965	Fusarium ear blight
+PHI:I1946	PHI:1966	Fusarium ear blight
+PHI:I1947	PHI:1967	Fusarium ear blight
+PHI:I1948	PHI:1968	Fusarium ear blight
+PHI:I1949	PHI:1969	Fusarium ear blight
+PHI:I1950	PHI:1970	Fusarium ear blight
+PHI:I1951	PHI:1971	Fusarium ear blight
+PHI:I1952	PHI:1972	Fusarium ear blight
+PHI:I1953	PHI:1973	Fusarium ear blight
+PHI:I1954	PHI:1974	Fusarium ear blight
+PHI:I1955	PHI:1975	Fusarium ear blight
+PHI:I1956	PHI:1976	Fusarium ear blight
+PHI:I1957	PHI:1977	Fusarium ear blight
+PHI:I1958	PHI:1978	Fusarium ear blight
+PHI:I1959	PHI:1979	Fusarium ear blight
+PHI:I1960	PHI:1980	Fusarium ear blight
+PHI:I1961	PHI:1981	Fusarium ear blight
+PHI:I1962	PHI:1982	Fusarium ear blight
+PHI:I1963	PHI:1983	Fusarium ear blight
+PHI:I1964	PHI:1984	Fusarium ear blight
+PHI:I1965	PHI:1985	Fusarium ear blight
+PHI:I1966	PHI:1986	Fusarium ear blight
+PHI:I1967	PHI:1987	Fusarium ear blight
+PHI:I1968	PHI:1988	Fusarium ear blight
+PHI:I1969	PHI:1989	Fusarium ear blight
+PHI:I1970	PHI:1990	Fusarium ear blight
+PHI:I1971	PHI:1991	Fusarium ear blight
+PHI:I1972	PHI:1992	Fusarium ear blight
+PHI:I1973	PHI:1993	Fusarium ear blight
+PHI:I1974	PHI:1994	Fusarium ear blight
+PHI:I1975	PHI:1995	Fusarium ear blight
+PHI:I1976	PHI:1996	Fusarium ear blight
+PHI:I1977	PHI:1997	Fusarium ear blight
+PHI:I1978	PHI:1998	Fusarium ear blight
+PHI:I1979	PHI:1999	Fusarium ear blight
+PHI:I1980	PHI:2000	Fusarium ear blight
+PHI:I1981	PHI:2001	Fusarium ear blight
+PHI:I2195	PHI:2123	Leaf blotch
+PHI:I2196	PHI:2124	Leaf blotch
+PHI:I2197	PHI:2125	Leaf blotch
+PHI:I2198	PHI:2126	Leaf blotch
+PHI:I2199	PHI:2127	Leaf blotch
+PHI:I2391	PHI:2247	Glume blotch
+PHI:I2392	PHI:2248	Glume blotch
+PHI:I2393	PHI:2248	Glume blotch
+PHI:I2394	PHI:2249	Glume blotch
+PHI:I2395	PHI:2255	Glume blotch
+PHI:I2396	PHI:2256	Glume blotch
+PHI:I2397	PHI:2255	Glume blotch
+PHI:I2398	PHI:2257	Glume blotch
+PHI:I2399	PHI:2258	Spot blotch disease
+PHI:I2400	PHI:2259	Spot blotch disease
+PHI:I2401	PHI:2260	Spot blotch disease
+PHI:I2402	PHI:2261	Spot blotch disease
+PHI:I2403	PHI:2262	Glume blotch
+PHI:I2404	PHI:2262	Glume blotch
+PHI:I2405	PHI:2263	Glume blotch
+PHI:I2406	PHI:2264	Glume blotch
+PHI:I2407	PHI:2265	Glume blotch
+PHI:I2408	PHI:2267	Glume blotch
+PHI:I2409	PHI:2268	Glume blotch
+PHI:I2410	PHI:2269	Glume blotch
+PHI:I2411	PHI:2270	Glume blotch
+PHI:I2412	PHI:2271	Glume blotch
+PHI:I2413	PHI:2272	Glume blotch
+PHI:I2414	PHI:2274	Ergot
+PHI:I2415	PHI:2277	Vascular wilt
+PHI:I2416	PHI:2277	Vascular wilt
+PHI:I2417	PHI:2278	Vascular wilt
+PHI:I2418	PHI:2279	Vascular wilt
+PHI:I2419	PHI:2279	Vascular wilt
+PHI:I2420	PHI:2280	Vascular wilt
+PHI:I2421	PHI:2280	Vascular wilt
+PHI:I2422	PHI:2280	Vascular wilt
+PHI:I2423	PHI:2282	Vascular wilt
+PHI:I2424	PHI:2283	Vascular wilt
+PHI:I2425	PHI:2284	Vascular wilt
+PHI:I2426	PHI:2284	Vascular wilt
+PHI:I2427	PHI:2284	Vascular wilt
+PHI:I2428	PHI:2285	Vascular wilt
+PHI:I2429	PHI:2285	Vascular wilt
+PHI:I2430	PHI:2285	Vascular wilt
+PHI:I2431	PHI:2285	Vascular wilt
+PHI:I2432	PHI:2285	Vascular wilt
+PHI:I2433	PHI:2285	Vascular wilt
+PHI:I2434	PHI:2288	Black spot
+PHI:I2435	PHI:2289	Grey mould
+PHI:I2436	PHI:2291	Grey mould
+PHI:I2437	PHI:2291	Grey mould
+PHI:I2438	PHI:2291	Grey mould
+PHI:I2439	PHI:2291	Grey mould
+PHI:I2440	PHI:2291	Grey mould
+PHI:I2441	PHI:2291	Grey mould
+PHI:I2444	PHI:2294	Fusarium ear blight
+PHI:I2445	PHI:2294	Fusarium ear blight
+PHI:I2446	PHI:2295	Grey mould
+PHI:I2447	PHI:2295	Grey mould
+PHI:I2448	PHI:2295	Grey mould
+PHI:I2449	PHI:2295	Grey mould
+PHI:I2450	PHI:2296	Black spot
+PHI:I2452	PHI:2298	Grey mould
+PHI:I2461	PHI:2303	Citrus brown spot
+PHI:I2462	PHI:2304	Grey mould
+PHI:I2463	PHI:2304	Grey mould
+PHI:I2464	PHI:2304	Grey mould
+PHI:I2465	PHI:2305	Grey mould
+PHI:I2466	PHI:2305	Grey mould
+PHI:I2467	PHI:2305	Grey mould
+PHI:I2468	PHI:2305	Grey mould
+PHI:I2470	PHI:2307	Fusarium wilt
+PHI:I2471	PHI:2308	Grey mould
+PHI:I2472	PHI:2308	Grey mould
+PHI:I2473	PHI:2308	Grey mould
+PHI:I2474	PHI:2309	Grey mould
+PHI:I2475	PHI:2310	Vascular wilt
+PHI:I2476	PHI:2310	Vascular wilt
+PHI:I2477	PHI:2311	Green muscardine disease
+PHI:I2478	PHI:2312	Green muscardine disease
+PHI:I2479	PHI:2313	Green muscardine disease
+PHI:I2488	PHI:2318	No data found
+PHI:I2489	PHI:2319	Grey mould
+PHI:I2492	PHI:2323	No data found
+PHI:I2493	PHI:2327	Fusarium ear blight
+PHI:I2494	PHI:2327	Fusarium ear blight
+PHI:I2495	PHI:2329	Frog-eye leafspot
+PHI:I2496	PHI:2330	Dry bubble disease
+PHI:I2497	PHI:2331	Verticillium wilt
+PHI:I2498	PHI:2331	Verticillium wilt
+PHI:I2499	PHI:2331	Verticillium wilt
+PHI:I2500	PHI:2331	Verticillium wilt
+PHI:I2503	PHI:2334	Grey mould
+PHI:I2504	PHI:2334	Grey mould
+PHI:I2505	PHI:2336	Wheat glume blotch disease
+PHI:I2506	PHI:2336	Wheat glume blotch disease
+PHI:I2508	PHI:2338	Covered smut
+PHI:I2509	PHI:2339	Covered smut
+PHI:I2513	PHI:2341	Grey mould
+PHI:I2514	PHI:2342	Grey mould
+PHI:I2515	PHI:2343	Phytophthora blight
+PHI:I2516	PHI:2344	Leaf mould
+PHI:I2517	PHI:2344	Leaf mould
+PHI:I2518	PHI:2344	Leaf mould
+PHI:I2520	PHI:2346	White muscardine disease
+PHI:I2521	PHI:2347	Grey mould
+PHI:I2522	PHI:2347	Grey mould
+PHI:I2523	PHI:2349	Fusarium ear blight
+PHI:I2524	PHI:2349	Fusarium ear blight
+PHI:I2525	PHI:2350	Fusarium ear blight
+PHI:I2526	PHI:2350	Fusarium ear blight
+PHI:I2527	PHI:2351	Fusarium head blight
+PHI:I2528	PHI:2351	Fusarium head blight
+PHI:I2529	PHI:2351	Fusarium head blight
+PHI:I2530	PHI:2352	Fusarium head blight
+PHI:I2531	PHI:2352	Fusarium head blight
+PHI:I2532	PHI:2352	Fusarium head blight
+PHI:I2533	PHI:2353	Fusarium head blight
+PHI:I2534	PHI:2353	Fusarium head blight
+PHI:I2535	PHI:2353	Fusarium head blight
+PHI:I2536	PHI:2355	Fusarium head blight
+PHI:I2537	PHI:2355	Fusarium head blight
+PHI:I2538	PHI:2355	Fusarium head blight
+PHI:I2542	PHI:2359	Grey mould
+PHI:I2543	PHI:2359	Grey mould
+PHI:I2544	PHI:2359	Grey mould
+PHI:I2545	PHI:2359	Grey mould
+PHI:I2546	PHI:2359	Grey mould
+PHI:I2547	PHI:2361	White mould
+PHI:I2548	PHI:2361	White mould
+PHI:I2549	PHI:2362	Vascular wilt
+PHI:I2551	PHI:2364	Vascular wilt
+PHI:I2552	PHI:2364	Vascular wilt
+PHI:I2557	PHI:2368	Grey mould
+PHI:I2558	PHI:2369	Grey mould
+PHI:I2559	PHI:2370	Grey mould
+PHI:I2560	PHI:2371	Grey mould
+PHI:I2561	PHI:2372	Grey mould
+PHI:I2562	PHI:2368	Grey mould
+PHI:I2563	PHI:2369	Grey mould
+PHI:I2564	PHI:2370	Grey mould
+PHI:I2565	PHI:2371	Grey mould
+PHI:I2566	PHI:2372	Grey mould
+PHI:I2567	PHI:2368	Grey mould
+PHI:I2568	PHI:2369	Grey mould
+PHI:I2569	PHI:2370	Grey mould
+PHI:I2570	PHI:2371	Grey mould
+PHI:I2571	PHI:2372	Grey mould
+PHI:I2572	PHI:2373	Citrus brown spot
+PHI:I2573	PHI:2374	Grey mould
+PHI:I2574	PHI:2374	Grey mould
+PHI:I2575	PHI:2374	Grey mould
+PHI:I2576	PHI:2374	Grey mould
+PHI:I2577	PHI:2375	Black spot
+PHI:I2578	PHI:2376	Black spot
+PHI:I2579	PHI:2377	Black spot
+PHI:I2580	PHI:2378	Black spot
+PHI:I2581	PHI:2379	Black spot
+PHI:I2582	PHI:2380	Black spot
+PHI:I2583	PHI:2375	Black spot
+PHI:I2584	PHI:2376	Black spot
+PHI:I2585	PHI:2377	Black spot
+PHI:I2586	PHI:2378	Black spot
+PHI:I2587	PHI:2379	Black spot
+PHI:I2588	PHI:2380	Black spot
+PHI:I2589	PHI:2375	Black spot
+PHI:I2590	PHI:2376	Black spot
+PHI:I2591	PHI:2377	Black spot
+PHI:I2592	PHI:2378	Black spot
+PHI:I2593	PHI:2379	Black spot
+PHI:I2594	PHI:2380	Black spot
+PHI:I2598	PHI:2383	Brown rot
+PHI:I2599	PHI:2383	Brown rot
+PHI:I2600	PHI:2383	Brown rot
+PHI:I2601	PHI:2383	Brown rot
+PHI:I2604	PHI:2385	Fusarium head blight
+PHI:I2605	PHI:2385	Fusarium head blight
+PHI:I2606	PHI:2386	Fusarium head blight
+PHI:I2607	PHI:2387	Fusarium head blight
+PHI:I2608	PHI:2386	Fusarium head blight
+PHI:I2612	PHI:2389	Downy mildew
+PHI:I2614	PHI:2393	Fusarium head blight
+PHI:I2615	PHI:2393	Fusarium head blight
+PHI:I2616	PHI:2394	Fusarium head blight
+PHI:I2617	PHI:2395	Fusarium head blight
+PHI:I2618	PHI:2396	Fusarium head blight
+PHI:I2621	PHI:2399	Fusarium head blight
+PHI:I2622	PHI:2400	Fusarium head blight
+PHI:I2623	PHI:2399	Fusarium head blight
+PHI:I2624	PHI:2400	Fusarium head blight
+PHI:I2625	PHI:2399	Fusarium head blight
+PHI:I2626	PHI:2400	Fusarium head blight
+PHI:I2630	PHI:2401	Downy mildew
+PHI:I2631	PHI:2402	Downy mildew
+PHI:I2632	PHI:2402	Downy mildew
+PHI:I2639	PHI:2408	Fusarium head blight
+PHI:I2640	PHI:2409	Fusarium head blight
+PHI:I2641	PHI:2408	Fusarium head blight
+PHI:I2642	PHI:2409	Fusarium head blight
+PHI:I2643	PHI:2408	Fusarium head blight
+PHI:I2644	PHI:2409	Fusarium head blight
+PHI:I2645	PHI:2408	Fusarium head blight
+PHI:I2646	PHI:2409	Fusarium head blight
+PHI:I2647	PHI:2410	Downy mildew
+PHI:I2648	PHI:2410	Downy mildew
+PHI:I2649	PHI:2410	Downy mildew
+PHI:I2650	PHI:2410	Downy mildew
+PHI:I2651	PHI:2411	White mould/stem rot
+PHI:I2652	PHI:2412	Bacterial spot disease
+PHI:I2654	PHI:2414	Citrus brown spot
+PHI:I2656	PHI:2418	Fusarium head blight
+PHI:I2657	PHI:2419	Fusarium head blight
+PHI:I2658	PHI:2420	Downy mildew
+PHI:I2659	PHI:2420	Downy mildew
+PHI:I2660	PHI:2420	Downy mildew
+PHI:I2661	PHI:2421	Downy mildew
+PHI:I2662	PHI:2421	Downy mildew
+PHI:I2663	PHI:2421	Downy mildew
+PHI:I2664	PHI:2422	Downy mildew
+PHI:I2665	PHI:2422	Downy mildew
+PHI:I2666	PHI:2422	Downy mildew
+PHI:I2667	PHI:2423	Downy mildew
+PHI:I2668	PHI:2423	Downy mildew
+PHI:I2669	PHI:2423	Downy mildew
+PHI:I2673	PHI:2426	Vascular wilt
+PHI:I2674	PHI:2426	Vascular wilt
+PHI:I2675	PHI:2426	Vascular wilt
+PHI:I2676	PHI:2427	Fusarium head blight
+PHI:I2677	PHI:2429	White muscardine disease
+PHI:I2678	PHI:2430	Fusarium head blight
+PHI:I2679	PHI:2430	Fusarium head blight
+PHI:I2680	PHI:2431	Alternaria brown spot
+PHI:I2681	PHI:2432	Fusarium head blight
+PHI:I2682	PHI:2433	Fusarium head blight
+PHI:I2683	PHI:2434	Fusarium head blight
+PHI:I2685	PHI:2438	Leaf blotch
+PHI:I2686	PHI:2438	Leaf blotch
+PHI:I2691	PHI:2441	Leaf blotch
+PHI:I2696	PHI:2448	Citrus brown spot
+PHI:I2697	PHI:2448	Citrus brown spot
+PHI:I2699	PHI:2450	Tan spot
+PHI:I2700	PHI:2451	Fusarium head blight
+PHI:I2701	PHI:2452	Fusarium head blight
+PHI:I2702	PHI:2451	Fusarium head blight
+PHI:I2703	PHI:2452	Fusarium head blight
+PHI:I2704	PHI:2453	Muskmelon wilt disease
+PHI:I2705	PHI:2453	Muskmelon wilt disease
+PHI:I2706	PHI:2455	Vascular wilt
+PHI:I2707	PHI:2456	Fire blight
+PHI:I2708	PHI:2457	Fire blight
+PHI:I2709	PHI:2458	Fire blight
+PHI:I2710	PHI:2459	Fire blight
+PHI:I2711	PHI:2464	Fire blight
+PHI:I2712	PHI:2465	Fire blight
+PHI:I2713	PHI:2466	Fire blight
+PHI:I2714	PHI:2464	Fire blight
+PHI:I2715	PHI:2465	Fire blight
+PHI:I2716	PHI:2466	Fire blight
+PHI:I2717	PHI:2467	Fire blight
+PHI:I2718	PHI:2468	Fire blight
+PHI:I2719	PHI:2467	Fire blight
+PHI:I2720	PHI:2468	Fire blight
+PHI:I2721	PHI:2469	Fire blight
+PHI:I2723	PHI:2471	Fire blight
+PHI:I2724	PHI:2471	Fire blight
+PHI:I2725	PHI:2472	Fire blight
+PHI:I2726	PHI:2472	Fire blight
+PHI:I2730	PHI:2475	Fire blight
+PHI:I2731	PHI:2475	Fire blight
+PHI:I2732	PHI:2476	Anthracnose
+PHI:I2733	PHI:2476	Anthracnose
+PHI:I2734	PHI:2477	Chesnut blight
+PHI:I2735	PHI:2478	Bacterial wilt
+PHI:I2736	PHI:2478	Bacterial wilt
+PHI:I2737	PHI:2478	Bacterial wilt
+PHI:I2738	PHI:2478	Bacterial wilt
+PHI:I2739	PHI:2479	Soft rot
+PHI:I2740	PHI:2479	Soft rot
+PHI:I2741	PHI:2479	Soft rot
+PHI:I2742	PHI:2479	Soft rot
+PHI:I2743	PHI:2480	Citrus canker
+PHI:I2744	PHI:2481	Citrus canker
+PHI:I2747	PHI:2483	Grey mould
+PHI:I2748	PHI:2483	Grey mould
+PHI:I2749	PHI:2484	Grey mould
+PHI:I2750	PHI:2485	Grey mould
+PHI:I2751	PHI:2486	Grey mould
+PHI:I2752	PHI:2487	Grey mould
+PHI:I2753	PHI:2487	Grey mould
+PHI:I2754	PHI:2484	Grey mould
+PHI:I2755	PHI:2485	Grey mould
+PHI:I2756	PHI:2486	Grey mould
+PHI:I2757	PHI:2487	Grey mould
+PHI:I2758	PHI:2487	Grey mould
+PHI:I2761	PHI:2490	Leishmaniasis
+PHI:I2762	PHI:2490	Leishmaniasis
+PHI:I2763	PHI:2491	Fusarium head blight
+PHI:I2765	PHI:2493	Black rot of crucifers
+PHI:I2766	PHI:2494	Black rot of crucifers
+PHI:I2767	PHI:2495	Black rot of crucifers
+PHI:I2768	PHI:2496	Black rot of crucifers
+PHI:I2772	PHI:2499	Fire blight
+PHI:I2773	PHI:2500	Fire blight
+PHI:I2774	PHI:2501	Fire blight
+PHI:I2775	PHI:2499	Fire blight
+PHI:I2776	PHI:2502	Fusarium head blight
+PHI:I2779	PHI:2506	Black spot
+PHI:I2824	PHI:2564	Candidemia
+PHI:I2841	PHI:2585	Citrus brown spot
+PHI:I2846	PHI:2590	Tomato wilt
+PHI:I2857	PHI:2606	Citrus brown spot
+PHI:I2862	PHI:2611	Tomato wilt
+PHI:I2870	PHI:2620	Septicemia
+PHI:I2871	PHI:2621	Food poisoning
+PHI:I2872	PHI:2622	Food poisoning
+PHI:I2873	PHI:2623	Food poisoning
+PHI:I2874	PHI:2624	Food poisoning
+PHI:I2875	PHI:2625	Food poisoning
+PHI:I2876	PHI:2626	Food poisoning
+PHI:I2877	PHI:2627	Food poisoning
+PHI:I2878	PHI:2628	Food poisoning
+PHI:I2879	PHI:2622	Food poisoning
+PHI:I2880	PHI:2624	Food poisoning
+PHI:I2881	PHI:2622	Food poisoning
+PHI:I2882	PHI:2623	Food poisoning
+PHI:I2888	PHI:2632	Community-associated and nosocomial infections
+PHI:I2889	PHI:2633	Community-associated and nosocomial infections
+PHI:I2890	PHI:2635	Community-associated and nosocomial infections
+PHI:I2892	PHI:2637	Lyme disease
+PHI:I2896	PHI:2640	Opportunistic infections
+PHI:I2897	PHI:2641	Opportunistic infections
+PHI:I2898	PHI:2642	Edwardsiellosis
+PHI:I2899	PHI:2643	Leishmaniasis
+PHI:I2900	PHI:2644	Food poisoning
+PHI:I2901	PHI:2644	Food poisoning
+PHI:I2902	PHI:2645	Bordetellosis
+PHI:I2907	PHI:2649	Oral candidiasis
+PHI:I2908	PHI:2650	Salmonellosis
+PHI:I2909	PHI:2650	Salmonellosis
+PHI:I2910	PHI:2651	Food poisoning
+PHI:I2911	PHI:2651	Food poisoning
+PHI:I2913	PHI:2653	Grey mould
+PHI:I2914	PHI:2653	Grey mould
+PHI:I2915	PHI:2653	Grey mould
+PHI:I2917	PHI:2655	Nosocomial infections
+PHI:I2918	PHI:2655	Nosocomial infections
+PHI:I2919	PHI:2655	Nosocomial infections
+PHI:I2920	PHI:2655	Nosocomial infections
+PHI:I2921	PHI:2656	Food poisoning
+PHI:I2922	PHI:2657	Crown gall disease
+PHI:I2923	PHI:2658	Crown gall disease
+PHI:I2924	PHI:2659	Crown gall disease
+PHI:I2925	PHI:2660	Crown gall disease
+PHI:I2926	PHI:2658	Crown gall disease
+PHI:I2927	PHI:2657	Crown gall disease
+PHI:I2928	PHI:2657	Crown gall disease
+PHI:I2929	PHI:2657	Crown gall disease
+PHI:I2939	PHI:2668	Grey mould
+PHI:I2940	PHI:2669	Nosocomial infections
+PHI:I2941	PHI:2670	Nosocomial infections
+PHI:I2942	PHI:2670	Nosocomial infections
+PHI:I2943	PHI:2670	Nosocomial infections
+PHI:I2944	PHI:2671	Food poisoning
+PHI:I2945	PHI:2672	Food poisoning
+PHI:I2946	PHI:2673	Food poisoning
+PHI:I2947	PHI:2674	Food poisoning
+PHI:I2948	PHI:2676	Food poisoning
+PHI:I2949	PHI:2678	Food poisoning
+PHI:I2950	PHI:2679	Food poisoning
+PHI:I2951	PHI:2680	Food poisoning
+PHI:I2952	PHI:2681	Food poisoning
+PHI:I2953	PHI:2682	Food poisoning
+PHI:I2954	PHI:2683	Food poisoning
+PHI:I2955	PHI:2684	Food poisoning
+PHI:I2956	PHI:2685	Food poisoning
+PHI:I2957	PHI:2687	Food poisoning
+PHI:I2959	PHI:2689	Listeriosis
+PHI:I2962	PHI:2692	Soybean stem and root rot
+PHI:I2964	PHI:2694	Rotting of tubers; blackleg disease of the plant stem
+PHI:I2965	PHI:2695	Rotting of tubers; blackleg disease of the plant stem
+PHI:I2966	PHI:2694	Rotting of tubers; blackleg disease of the plant stem
+PHI:I2967	PHI:2696	Barley leaf scald
+PHI:I2968	PHI:2697	Barley leaf scald
+PHI:I2969	PHI:2698	Barley leaf scald
+PHI:I2970	PHI:2696	Barley leaf scald
+PHI:I2971	PHI:2696	Barley leaf scald
+PHI:I2972	PHI:2697	Barley leaf scald
+PHI:I2973	PHI:2698	Barley leaf scald
+PHI:I2974	PHI:2696	Barley leaf scald
+PHI:I2975	PHI:2696	Barley leaf scald
+PHI:I2976	PHI:2697	Barley leaf scald
+PHI:I2977	PHI:2698	Barley leaf scald
+PHI:I2978	PHI:2696	Barley leaf scald
+PHI:I2979	PHI:2696	Barley leaf scald
+PHI:I2980	PHI:2697	Barley leaf scald
+PHI:I2981	PHI:2698	Barley leaf scald
+PHI:I2982	PHI:2696	Barley leaf scald
+PHI:I2983	PHI:2699	Citrus canker
+PHI:I2984	PHI:2699	Citrus canker
+PHI:I2985	PHI:2700	Cucumber anthracnose
+PHI:I2986	PHI:2701	Citrus canker
+PHI:I2987	PHI:2702	Citrus canker
+PHI:I2988	PHI:2703	Citrus canker
+PHI:I2989	PHI:2701	Citrus canker
+PHI:I2990	PHI:2704	Fusarium head blight
+PHI:I2991	PHI:2705	Common scab of potato
+PHI:I2992	PHI:2706	Common scab of potato
+PHI:I2993	PHI:2707	Common scab of potato
+PHI:I2994	PHI:2708	Common scab of potato
+PHI:I2995	PHI:2705	Common scab of potato
+PHI:I2996	PHI:2706	Common scab of potato
+PHI:I2997	PHI:2707	Common scab of potato
+PHI:I2998	PHI:2708	Common scab of potato
+PHI:I2999	PHI:2705	Common scab of potato
+PHI:I3000	PHI:2706	Common scab of potato
+PHI:I3001	PHI:2707	Common scab of potato
+PHI:I3002	PHI:2708	Common scab of potato
+PHI:I3003	PHI:2710	Anthracnose
+PHI:I3004	PHI:2711	Vascular wilt
+PHI:I3005	PHI:2712	Vascular wilt
+PHI:I3006	PHI:2711	Vascular wilt
+PHI:I3007	PHI:2712	Vascular wilt
+PHI:I3008	PHI:2711	Vascular wilt
+PHI:I3009	PHI:2712	Vascular wilt
+PHI:I3010	PHI:2713	Cassava bacterial blight
+PHI:I3011	PHI:2714	Fusarium head blight
+PHI:I3012	PHI:2715	Fusarium head blight
+PHI:I3013	PHI:2716	Fusarium head blight
+PHI:I3266	PHI:2727	Soybean stem and root rot
+PHI:I3267	PHI:2727	Soybean stem and root rot
+PHI:I3268	PHI:2728	Fusarium head blight
+PHI:I3269	PHI:2728	Fusarium head blight
+PHI:I3272	PHI:2731	Vascular wilt
+PHI:I3273	PHI:2732	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3274	PHI:2733	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3275	PHI:2732	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3276	PHI:2735	Soft rot
+PHI:I3277	PHI:2735	Soft rot
+PHI:I3278	PHI:2736	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3282	PHI:2739	Pneumonia, Meningitis, Sepsis
+PHI:I3284	PHI:2742	Bacterial speck
+PHI:I3285	PHI:2743	Bacterial speck
+PHI:I3286	PHI:2742	Bacterial speck
+PHI:I3287	PHI:2743	Bacterial speck
+PHI:I3289	PHI:2745	Soft rot
+PHI:I3290	PHI:2745	Soft rot
+PHI:I3291	PHI:2745	Soft rot
+PHI:I3292	PHI:2745	Soft rot
+PHI:I3296	PHI:2751	Food poisoning
+PHI:I3297	PHI:2751	Food poisoning
+PHI:I3298	PHI:2752	Bacterial speck of tomato
+PHI:I3302	PHI:2755	Tumors, galls or knots
+PHI:I3303	PHI:2756	Tumors, galls or knots
+PHI:I3304	PHI:2757	Tumors, galls or knots
+PHI:I3305	PHI:2758	Tumors, galls or knots
+PHI:I3306	PHI:2759	Tumors, galls or knots
+PHI:I3307	PHI:2760	Tumors, galls or knots
+PHI:I3308	PHI:2762	Tumors, galls or knots
+PHI:I3309	PHI:2763	Tumors, galls or knots
+PHI:I3310	PHI:2764	Tumors, galls or knots
+PHI:I3311	PHI:2765	Tumors, galls or knots
+PHI:I3312	PHI:2766	Tumors, galls or knots
+PHI:I3313	PHI:2767	Tumors, galls or knots
+PHI:I3314	PHI:2768	Tumors, galls or knots
+PHI:I3315	PHI:2769	Tumors, galls or knots
+PHI:I3316	PHI:2770	Tumors, galls or knots
+PHI:I3317	PHI:2771	Tumors, galls or knots
+PHI:I3318	PHI:2772	Tumors, galls or knots
+PHI:I3319	PHI:2773	Tumors, galls or knots
+PHI:I3320	PHI:2774	Tumors, galls or knots
+PHI:I3321	PHI:2775	Tumors, galls or knots
+PHI:I3322	PHI:2776	Tumors, galls or knots
+PHI:I3323	PHI:2777	Tumors, galls or knots
+PHI:I3324	PHI:2778	Tumors, galls or knots
+PHI:I3325	PHI:2779	Tumors, galls or knots
+PHI:I3326	PHI:2780	Tumors, galls or knots
+PHI:I3327	PHI:2781	Tumors, galls or knots
+PHI:I3328	PHI:2782	Tumors, galls or knots
+PHI:I3329	PHI:2783	Tumors, galls or knots
+PHI:I3330	PHI:2784	Tumors, galls or knots
+PHI:I3331	PHI:2785	Tumors, galls or knots
+PHI:I3332	PHI:2786	Tumors, galls or knots
+PHI:I3333	PHI:2787	Tumors, galls or knots
+PHI:I3334	PHI:2788	Tumors, galls or knots
+PHI:I3335	PHI:2789	Tumors, galls or knots
+PHI:I3336	PHI:2790	Tumors, galls or knots
+PHI:I3337	PHI:2791	Tumors, galls or knots
+PHI:I3338	PHI:2792	Tumors, galls or knots
+PHI:I3339	PHI:2793	Tumors, galls or knots
+PHI:I3340	PHI:2794	Tumors, galls or knots
+PHI:I3341	PHI:2795	Tumors, galls or knots
+PHI:I3342	PHI:2796	Tumors, galls or knots
+PHI:I3343	PHI:2797	Tumors, galls or knots
+PHI:I3344	PHI:2798	Tumors, galls or knots
+PHI:I3345	PHI:2799	Tumors, galls or knots
+PHI:I3346	PHI:2800	Tumors, galls or knots
+PHI:I3348	PHI:2802	Northern Leaf Blight
+PHI:I3349	PHI:2802	Northern Leaf Blight
+PHI:I3350	PHI:2805	Pneumonia, Endocarditis, Meningitis, Arthritis
+PHI:I3355	PHI:2808	Vascular wilt
+PHI:I3364	PHI:2818	Citrus Black Rot
+PHI:I3365	PHI:2818	Citrus Black Rot
+PHI:I3366	PHI:2818	Citrus Black Rot
+PHI:I3367	PHI:2818	Citrus Black Rot
+PHI:I3368	PHI:2818	Citrus Black Rot
+PHI:I3369	PHI:2818	Citrus Black Rot
+PHI:I3377	PHI:2826	Vascular wilt
+PHI:I3378	PHI:2827	Vascular wilt
+PHI:I3379	PHI:2826	Vascular wilt
+PHI:I3383	PHI:2831	Black Spot of pear
+PHI:I3384	PHI:2832	Black Spot of pear
+PHI:I3412	PHI:2844	Black Spot of pear
+PHI:I3413	PHI:2845	Tomato leaf mould
+PHI:I3414	PHI:2847	Grey mould
+PHI:I3415	PHI:2848	Grey mould
+PHI:I3416	PHI:2849	Storage rots
+PHI:I3417	PHI:2849	Storage rots
+PHI:I3418	PHI:2849	Storage rots
+PHI:I3419	PHI:2849	Storage rots
+PHI:I3423	PHI:2857	Pneumonic plague
+PHI:I3451	PHI:2872	Pneumonia
+PHI:I3453	PHI:2874	Bean brown spot
+PHI:I3454	PHI:2875	Bean brown spot
+PHI:I3455	PHI:2876	Bean brown spot
+PHI:I3456	PHI:2877	Bean brown spot
+PHI:I3457	PHI:2878	Bean brown spot
+PHI:I3458	PHI:2879	Bacterial speck of tomato
+PHI:I3459	PHI:2879	Bacterial speck of tomato
+PHI:I3460	PHI:2879	Bacterial speck of tomato
+PHI:I3461	PHI:2880	Pharyngitis; Toxic shock syndrome; Sepsis
+PHI:I3462	PHI:2880	Pharyngitis; Toxic shock syndrome; Sepsis
+PHI:I3463	PHI:2881	Potato Cyst
+PHI:I3476	PHI:2890	Soybean stem and root rot
+PHI:I3477	PHI:2891	Soybean stem and root rot
+PHI:I3478	PHI:2890	Soybean stem and root rot
+PHI:I3479	PHI:2891	Soybean stem and root rot
+PHI:I3480	PHI:2890	Soybean stem and root rot
+PHI:I3481	PHI:2891	Soybean stem and root rot
+PHI:I3482	PHI:2890	Soybean stem and root rot
+PHI:I3483	PHI:2891	Soybean stem and root rot
+PHI:I3484	PHI:2890	Soybean stem and root rot
+PHI:I3485	PHI:2891	Soybean stem and root rot
+PHI:I3486	PHI:2890	Soybean stem and root rot
+PHI:I3487	PHI:2891	Soybean stem and root rot
+PHI:I3488	PHI:2892	Crown gall of grapes
+PHI:I3489	PHI:2893	Crown gall of grapes
+PHI:I3490	PHI:2894	Crown gall of grapes
+PHI:I3491	PHI:2895	Crown gall of grapes
+PHI:I3492	PHI:2896	Barley powdery mildew
+PHI:I3493	PHI:2897	Barley powdery mildew
+PHI:I3494	PHI:2898	Barley powdery mildew
+PHI:I3495	PHI:2899	Barley powdery mildew
+PHI:I3496	PHI:2900	Barley powdery mildew
+PHI:I3497	PHI:2901	Barley powdery mildew
+PHI:I3498	PHI:2902	Barley powdery mildew
+PHI:I3499	PHI:2903	Barley powdery mildew
+PHI:I3504	PHI:2906	Fire blight
+PHI:I3505	PHI:2906	Fire blight
+PHI:I3506	PHI:2907	Fusarium head blight
+PHI:I3507	PHI:2908	Fusarium head blight
+PHI:I3508	PHI:2909	Fusarium head blight
+PHI:I3509	PHI:2907	Fusarium head blight
+PHI:I3510	PHI:2908	Fusarium head blight
+PHI:I3511	PHI:2907	Fusarium head blight
+PHI:I3512	PHI:2908	Fusarium head blight
+PHI:I3513	PHI:2909	Fusarium head blight
+PHI:I3514	PHI:2907	Fusarium head blight
+PHI:I3515	PHI:2908	Fusarium head blight
+PHI:I3516	PHI:2907	Fusarium head blight
+PHI:I3517	PHI:2908	Fusarium head blight
+PHI:I3518	PHI:2909	Fusarium head blight
+PHI:I3519	PHI:2907	Fusarium head blight
+PHI:I3520	PHI:2908	Fusarium head blight
+PHI:I3521	PHI:2907	Fusarium head blight
+PHI:I3522	PHI:2908	Fusarium head blight
+PHI:I3523	PHI:2909	Fusarium head blight
+PHI:I3524	PHI:2907	Fusarium head blight
+PHI:I3525	PHI:2908	Fusarium head blight
+PHI:I3537	PHI:2918	Black rot disease
+PHI:I3538	PHI:2919	Stem canker
+PHI:I3542	PHI:2922	Bacterial wilt
+PHI:I3544	PHI:2924	Vascular wilt
+PHI:I3545	PHI:2925	Vascular wilt
+PHI:I3546	PHI:2926	Vascular wilt
+PHI:I3547	PHI:2927	Vascular wilt
+PHI:I3548	PHI:2928	Vascular wilt
+PHI:I3549	PHI:2929	Vascular wilt
+PHI:I3550	PHI:2930	Vascular wilt
+PHI:I3551	PHI:2929	Vascular wilt
+PHI:I3552	PHI:2930	Vascular wilt
+PHI:I3553	PHI:2931	Fire blight
+PHI:I3557	PHI:2934	Lettuce midrib rot
+PHI:I3558	PHI:2936	Pierce’s disease
+PHI:I3559	PHI:2937	Pierce’s disease
+PHI:I3560	PHI:2938	Pierce’s disease
+PHI:I3563	PHI:2941	Soybean stem and root rot
+PHI:I3564	PHI:2941	Soybean stem and root rot
+PHI:I3565	PHI:2943	Soybean stem and root rot
+PHI:I3566	PHI:2943	Soybean stem and root rot
+PHI:I3567	PHI:2944	Downy mildew
+PHI:I3568	PHI:2945	Downy mildew
+PHI:I3569	PHI:2946	Downy mildew
+PHI:I3570	PHI:2947	Downy mildew
+PHI:I3571	PHI:2948	Downy mildew
+PHI:I3572	PHI:2949	Wildfire disease
+PHI:I3573	PHI:2950	Wildfire disease
+PHI:I3574	PHI:2949	Wildfire disease
+PHI:I3575	PHI:2950	Wildfire disease
+PHI:I3576	PHI:2951	Bacterial wilt
+PHI:I3577	PHI:2952	Bacterial wilt
+PHI:I3578	PHI:2953	Bacterial wilt
+PHI:I3579	PHI:2952	Bacterial wilt
+PHI:I3582	PHI:2958	Enteric septicemia
+PHI:I3583	PHI:2959	Enteric septicemia
+PHI:I3584	PHI:2960	Enteric septicemia
+PHI:I3585	PHI:2961	Enteric septicemia
+PHI:I3586	PHI:2962	Enteric septicemia
+PHI:I3594	PHI:2965	Infections
+PHI:I3595	PHI:2965	Infections
+PHI:I3599	PHI:2971	Nosocomial infections
+PHI:I3600	PHI:2971	Nosocomial infections
+PHI:I3603	PHI:2974	Bacterial speck of tomato
+PHI:I3604	PHI:2974	Bacterial speck of tomato
+PHI:I3605	PHI:2975	Bacterial speck of tomato
+PHI:I3606	PHI:2975	Bacterial speck of tomato
+PHI:I3607	PHI:2976	Anthracnose
+PHI:I3613	PHI:2981	Vascular wilt
+PHI:I3627	PHI:2997	Nosocomial infections
+PHI:I3628	PHI:2998	Nosocomial infections
+PHI:I3629	PHI:2999	Nosocomial infections
+PHI:I3630	PHI:3000	Nosocomial infections
+PHI:I3633	PHI:3006	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3634	PHI:3007	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3635	PHI:3008	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3636	PHI:3009	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3637	PHI:3010	Pneumonia, Otitis media, Septicaemia, Meningitis
+PHI:I3638	PHI:3011	Food poisoning
+PHI:I3639	PHI:3012	Food poisoning
+PHI:I3640	PHI:3013	Food poisoning
+PHI:I3641	PHI:3011	Food poisoning
+PHI:I3643	PHI:3013	Stem rot of soybean
+PHI:I3645	PHI:3015	Streptococcal sore throat (strep throat) to necrotizing fasciitis (flesh-eating disease)
+PHI:I3646	PHI:3015	Streptococcal sore throat (strep throat) to necrotizing fasciitis (flesh-eating disease)
+PHI:I3652	PHI:3025	White root rot
+PHI:I3653	PHI:3026	septicemia
+PHI:I3654	PHI:3027	Wilt and canker disease of tomato
+PHI:I3655	PHI:3028	Wilt and canker disease of tomato
+PHI:I3662	PHI:3035	Fusarium head blight
+PHI:I3663	PHI:3037	Fusarium head blight
+PHI:I3666	PHI:3040	food poisoning
+PHI:I3667	PHI:3041	septicemia
+PHI:I3668	PHI:3042	septicemia
+PHI:I3669	PHI:3041	septicemia
+PHI:I3683	PHI:3055	Fatal septicemia
+PHI:I3684	PHI:3056	Fatal septicemia
+PHI:I3685	PHI:3057	Fatal septicemia
+PHI:I3686	PHI:3057	Fatal septicemia
+PHI:I3687	PHI:3058	Pneumonia, toxic shock syndrome, bacteremia, endocarditis
+PHI:I3705	PHI:3066	Pine Wilt Disease
+PHI:I3707	PHI:3068	white muscardine disease
+PHI:I3710	PHI:3071	Stem rot of soybean
+PHI:I3712	PHI:3073	nosocomial infections
+PHI:I3713	PHI:3073	nosocomial infections
+PHI:I3715	PHI:3075	Green mould
+PHI:I3716	PHI:3076	Mycosis
+PHI:I3717	PHI:3076	Mycosis
+PHI:I3720	PHI:3084	nosocomial infections
+PHI:I3721	PHI:3085	Periodontitis
+PHI:I3722	PHI:3086	immunosuppression, septicemia and the subsequent death
+PHI:I3723	PHI:3087	Fusarium head blight
+PHI:I3724	PHI:3088	Fusarium head blight
+PHI:I3725	PHI:3089	Fusarium head blight
+PHI:I3726	PHI:3087	Fusarium head blight
+PHI:I3727	PHI:3087	Fusarium head blight
+PHI:I3728	PHI:3088	Fusarium head blight
+PHI:I3729	PHI:3089	Fusarium head blight
+PHI:I3730	PHI:3087	Fusarium head blight
+PHI:I3731	PHI:3090	American Foulbrood
+PHI:I3735	PHI:3095	white muscardine disease
+PHI:I3736	PHI:3096	white muscardine disease
+PHI:I3737	PHI:3097	white muscardine disease
+PHI:I3739	PHI:3099	infections
+PHI:I3745	PHI:3106	Avian colibacillosis
+PHI:I3746	PHI:3107	black rot disease
+PHI:I3747	PHI:3108	black rot disease
+PHI:I3748	PHI:3109	Fusarium head blight
+PHI:I3749	PHI:3110	Fusarium head blight
+PHI:I3750	PHI:3111	Fusarium head blight
+PHI:I3751	PHI:3109	Fusarium head blight
+PHI:I3752	PHI:3111	Fusarium head blight
+PHI:I3753	PHI:3111	Fusarium head blight
+PHI:I3754	PHI:3112	black rot disease
+PHI:I3755	PHI:3113	Neonatal meningitis
+PHI:I3757	PHI:3115	bacterial speck of tomato
+PHI:I3758	PHI:3116	bacterial speck of tomato
+PHI:I3759	PHI:3117	bacterial speck of tomato
+PHI:I3760	PHI:3118	bacterial speck of tomato
+PHI:I3761	PHI:3119	bacterial speck of tomato
+PHI:I3762	PHI:3120	bacterial speck of tomato
+PHI:I3763	PHI:3121	bacterial speck of tomato
+PHI:I3764	PHI:3115	bacterial speck of tomato
+PHI:I3765	PHI:3116	bacterial speck of tomato
+PHI:I3766	PHI:3117	bacterial speck of tomato
+PHI:I3767	PHI:3118	bacterial speck of tomato
+PHI:I3768	PHI:3119	bacterial speck of tomato
+PHI:I3769	PHI:3120	bacterial speck of tomato
+PHI:I3770	PHI:3121	bacterial speck of tomato
+PHI:I3773	PHI:3123	Anthracnose of Cucurbitaceae
+PHI:I3774	PHI:3124	Wheat Stagonospora nodorum blotch
+PHI:I3775	PHI:3125	Enteric diseases
+PHI:I3776	PHI:3126	Fire blight
+PHI:I3777	PHI:3126	Fire blight
+PHI:I3778	PHI:3127	Witches’ broom disease
+PHI:I3779	PHI:3127	Witches’ broom disease
+PHI:I3780	PHI:3127	Witches’ broom disease
+PHI:I3781	PHI:3129	Bacterial leaf spot
+PHI:I3784	PHI:3131	Fusarium head blight
+PHI:I3786	PHI:3131	Fusarium head blight
+PHI:I3791	PHI:3136	Soybean stem and root rot
+PHI:I3792	PHI:3137	Infections
+PHI:I3793	PHI:3138	Fusarium head blight
+PHI:I3794	PHI:3139	American Foulbrood
+PHI:I3795	PHI:3140	Streptococcal toxic shock syndrome
+PHI:I3802	PHI:3147	Glasser’s disease
+PHI:I3803	PHI:3148	Pneumococcal pneumonia
+PHI:I3804	PHI:3149	Pneumococcal pneumonia
+PHI:I3805	PHI:3150	Pneumococcal pneumonia
+PHI:I3806	PHI:3151	Pneumococcal pneumonia
+PHI:I3807	PHI:3152	Pneumococcal pneumonia
+PHI:I3808	PHI:3153	Pneumococcal pneumonia
+PHI:I3809	PHI:3154	Pneumococcal pneumonia
+PHI:I3810	PHI:3155	Pneumococcal pneumonia
+PHI:I3811	PHI:3156	Pneumococcal pneumonia
+PHI:I3812	PHI:3157	Pneumococcal pneumonia
+PHI:I3813	PHI:3158	Pneumococcal pneumonia
+PHI:I3814	PHI:3159	Pneumococcal pneumonia
+PHI:I3815	PHI:3160	Pneumococcal pneumonia
+PHI:I3819	PHI:3164	Suppresses soilborne plant diseases caused by a number of fungi
+PHI:I3820	PHI:3164	Suppresses soilborne plant diseases caused by a number of fungi
+PHI:I3821	PHI:3165	Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+PHI:I3822	PHI:3165	Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+PHI:I3823	PHI:3165	Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+PHI:I3824	PHI:3165	Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+PHI:I3825	PHI:3165	Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+PHI:I3826	PHI:3165	Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+PHI:I3827	PHI:3165	Necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inChrysanthemum, and leaf spot in soybean.
+PHI:I3828	PHI:3166	nosocomial infections
+PHI:I3829	PHI:3166	nosocomial infections
+PHI:I3830	PHI:3167	canker stain disease
+PHI:I3831	PHI:3168	Fusarium wilt
+PHI:I3834	PHI:3164	Suppresses soilborne plant diseases caused by a number of fungi
+PHI:I3835	PHI:3164	Suppresses soilborne plant diseases caused by a number of fungi
+PHI:I3836	PHI:3165	nosocomial infections
+PHI:I3837	PHI:3167	nosocomial infections
+PHI:I3847	PHI:3178	Fusarium head blight
+PHI:I3849	PHI:3180	Fusarium wilt
+PHI:I3850	PHI:3180	Fusarium wilt
+PHI:I3851	PHI:3180	Fusarium wilt
+PHI:I3860	PHI:3208	vascular wilt
+PHI:I3861	PHI:3208	vascular wilt
+PHI:I3862	PHI:3209	plane canker stain
+PHI:I3864	PHI:3211	nosocomial infections
+PHI:I3865	PHI:3212	nosocomial infections
+PHI:I3877	PHI:3222	Legionnaires’ disease
+PHI:I3878	PHI:3222	Legionnaires’ disease
+PHI:I3880	PHI:3224	melioidosis
+PHI:I3881	PHI:3225	green mould rot
+PHI:I3882	PHI:3226	green mould rot
+PHI:I3903	PHI:3242	Pierce disease of grapes and citrus variegated chlorosis (CVC)
+PHI:I3904	PHI:3243	Opportunistic infections
+PHI:I3906	PHI:3258	leishmaniasis
+PHI:I3907	PHI:3259	black rot disease
+PHI:I3908	PHI:3260	black rot disease
+PHI:I3914	PHI:3266	Infections
+PHI:I3915	PHI:3267	Infections
+PHI:I3916	PHI:3268	enteric redmouth disease
+PHI:I3917	PHI:3269	Pneumonia and meningitis in neonates , mastitis in cows, and meningoencephalitis in fish
+PHI:I3918	PHI:3270	white muscardine disease
+PHI:I3919	PHI:3271	white muscardine disease
+PHI:I3920	PHI:3270	white muscardine disease
+PHI:I3921	PHI:3272	pneumonic plague
+PHI:I3922	PHI:3273	disseminated disease
+PHI:I3923	PHI:3274	American Foulbrood
+PHI:I3926	PHI:3278	cucumber anthracnose
+PHI:I3927	PHI:3279	cucumber anthracnose
+PHI:I3928	PHI:3280	cucumber anthracnose
+PHI:I3930	PHI:3282	black rot disease
+PHI:I3931	PHI:3283	black rot disease
+PHI:I3932	PHI:3284	nosocomial infections
+PHI:I3933	PHI:3284	nosocomial infections
+PHI:I3934	PHI:3284	nosocomial infections
+PHI:I3938	PHI:3289	Infections
+PHI:I3941	PHI:3292	Fruit rot
+PHI:I3944	PHI:3295	citrus canker
+PHI:I3947	PHI:3298	citrus canker
+PHI:I3948	PHI:3298	citrus canker
+PHI:I3949	PHI:3299	Blue mold
+PHI:I3950	PHI:3300	Blue mold
+PHI:I3951	PHI:3301	Blue mold
+PHI:I3967	PHI:3317	Glasser’s disease
+PHI:I3968	PHI:3319	Glasser’s disease
+PHI:I3969	PHI:3320	Glasser’s disease
+PHI:I3972	PHI:3324	Septoria nodorum blotch
+PHI:I3973	PHI:3325	Streptococcicosis
+PHI:I3975	PHI:3329	White mould
+PHI:I3976	PHI:3329	White mould
+PHI:I3977	PHI:3329	White mould
+PHI:I3978	PHI:3329	White mould
+PHI:I3979	PHI:3329	White mould
+PHI:I3980	PHI:3329	White mould
+PHI:I3985	PHI:3334	Fusarium wilt
+PHI:I3986	PHI:3335	Fusarium wilt
+PHI:I3987	PHI:3336	Fire blight
+PHI:I3988	PHI:3336	Fire blight
+PHI:I3989	PHI:3337	Salmonellosis
+PHI:I3990	PHI:3338	Salmonellosis
+PHI:I3991	PHI:3339	Salmonellosis
+PHI:I3992	PHI:3340	Salmonellosis
+PHI:I3993	PHI:3341	Salmonellosis
+PHI:I3994	PHI:3343	Bacterial wilt
+PHI:I3995	PHI:3344	listeriosis
+PHI:I3996	PHI:3345	listeriosis
+PHI:I3997	PHI:3347	early blight of potato
+PHI:I3998	PHI:3347	early blight of potato
+PHI:I3999	PHI:3347	early blight of potato
+PHI:I4001	PHI:3349	olive knot
+PHI:I4002	PHI:3350	bacterial speck
+PHI:I4004	PHI:3352	Vibriosis
+PHI:I4005	PHI:3353	soybean stem and root rot
+PHI:I4006	PHI:3354	Vibriosis
+PHI:I4017	PHI:3364	opportunistic infections
+PHI:I4018	PHI:3365	opportunistic infections
+PHI:I4020	PHI:3367	pneumonic plague
+PHI:I4023	PHI:3371	avian pathogenic causing systemic infections
+PHI:I4024	PHI:3372	bacterial blight of soybean
+PHI:I4025	PHI:3372	bacterial blight of soybean
+PHI:I4026	PHI:3373	Fusarium head blight
+PHI:I4027	PHI:3374	Fusarium head blight
+PHI:I4028	PHI:3375	Fusarium head blight
+PHI:I4029	PHI:3376	Fusarium head blight
+PHI:I4030	PHI:3377	Fusarium head blight
+PHI:I4031	PHI:3378	corky root rot of tomato
+PHI:I4044	PHI:3392	Fusarium wilt
+PHI:I4045	PHI:3394	Fusarium wilt
+PHI:I4046	PHI:3395	Fusarium wilt
+PHI:I4047	PHI:3396	Fusarium wilt
+PHI:I4048	PHI:3397	Fusarium wilt
+PHI:I4049	PHI:3398	Fusarium wilt
+PHI:I4050	PHI:3399	Fusarium wilt
+PHI:I4051	PHI:3400	Fusarium wilt
+PHI:I4052	PHI:3401	Fusarium wilt
+PHI:I4053	PHI:3402	Fusarium wilt
+PHI:I4054	PHI:3403	Fusarium wilt
+PHI:I4055	PHI:3404	pneumonic plague
+PHI:I4058	PHI:3409	nosocomial infections
+PHI:I4059	PHI:3410	nosocomial infections
+PHI:I4061	PHI:3412	citrus canker
+PHI:I4062	PHI:3412	citrus canker
+PHI:I4063	PHI:3413	furunculosis
+PHI:I4066	PHI:3417	white muscardine disease
+PHI:I4069	PHI:3419	Bacterial wilt
+PHI:I4070	PHI:3420	melioidosis
+PHI:I4071	PHI:3431	vibriosis
+PHI:I4072	PHI:3432	vibriosis
+PHI:I4073	PHI:3433	vibriosis
+PHI:I4074	PHI:3434	Pierce’s disease of grapevines
+PHI:I4075	PHI:3435	Skin lesions
+PHI:I4076	PHI:3436	Skin lesions
+PHI:I4077	PHI:3436	salmonellosis
+PHI:I4078	PHI:3437	Fusarium wilt
+PHI:I4079	PHI:3438	Fusarium wilt
+PHI:I4080	PHI:3437	Fusarium wilt
+PHI:I4081	PHI:3437	Fusarium wilt
+PHI:I4082	PHI:3438	Fusarium wilt
+PHI:I4083	PHI:3437	Fusarium wilt
+PHI:I4084	PHI:3437	Fusarium wilt
+PHI:I4085	PHI:3438	Fusarium wilt
+PHI:I4086	PHI:3437	Fusarium wilt
+PHI:I4087	PHI:3439	yersiniosis
+PHI:I4088	PHI:3439	yersiniosis
+PHI:I4089	PHI:3439	yersiniosis
+PHI:I4090	PHI:3440	Opportunistic infections
+PHI:I4091	PHI:3440	Opportunistic infections
+PHI:I4092	PHI:3440	Opportunistic infections
+PHI:I4093	PHI:3440	Opportunistic infections
+PHI:I4094	PHI:3441	nosocomial infections
+PHI:I4095	PHI:3442	bacterial blight of soybean
+PHI:I4096	PHI:3442	bacterial blight of soybean
+PHI:I4097	PHI:3442	bacterial blight of soybean
+PHI:I4098	PHI:3442	bacterial blight of soybean
+PHI:I4099	PHI:3443	grey mould fungus
+PHI:I4100	PHI:3444	grey mould fungus
+PHI:I4102	PHI:3447	streptococcal toxic shock syndrome
+PHI:I4103	PHI:3448	pneumonia
+PHI:I4105	PHI:3450	nosocomial infections
+PHI:I4106	PHI:3451	nosocomial infections
+PHI:I4108	PHI:3454	Bacterial speck
+PHI:I4115	PHI:3492	Bacterial speck
+PHI:I4116	PHI:3492	Bacterial speck
+PHI:I4117	PHI:3492	Bacterial speck
+PHI:I4118	PHI:3492	Bacterial speck
+PHI:I4119	PHI:3492	Bacterial speck
+PHI:I4120	PHI:3492	Bacterial speck
+PHI:I4121	PHI:3493	Bacterial speck
+PHI:I4122	PHI:3493	Bacterial speck
+PHI:I4123	PHI:3494	Bacterial speck
+PHI:I4124	PHI:3494	Bacterial speck
+PHI:I4125	PHI:3494	Bacterial speck
+PHI:I4126	PHI:3493	Bacterial speck
+PHI:I4127	PHI:3492	Bacterial speck
+PHI:I4128	PHI:3495	Bacterial speck
+PHI:I4129	PHI:3496	Bacterial speck
+PHI:I4130	PHI:3493	Bacterial speck
+PHI:I4131	PHI:3493	Bacterial speck
+PHI:I4132	PHI:3494	Bacterial speck
+PHI:I4133	PHI:3494	Bacterial speck
+PHI:I4134	PHI:3493	Bacterial speck
+PHI:I4135	PHI:3494	Bacterial speck
+PHI:I4136	PHI:3493	Bacterial speck
+PHI:I4137	PHI:3493	Bacterial speck
+PHI:I4138	PHI:3493	Bacterial speck
+PHI:I4139	PHI:3493	Bacterial speck
+PHI:I4140	PHI:3493	Bacterial speck
+PHI:I4141	PHI:3493	Bacterial speck
+PHI:I4142	PHI:3493	Bacterial speck
+PHI:I4143	PHI:3493	Bacterial speck
+PHI:I4144	PHI:3496	Bacterial speck
+PHI:I4145	PHI:3496	Bacterial speck
+PHI:I4146	PHI:3496	Bacterial speck
+PHI:I4147	PHI:3496	Bacterial speck
+PHI:I4148	PHI:3496	Bacterial speck
+PHI:I4149	PHI:3496	Bacterial speck
+PHI:I4150	PHI:3496	Bacterial speck
+PHI:I4151	PHI:3496	Bacterial speck
+PHI:I4152	PHI:3458	green mould
+PHI:I4153	PHI:3459	leishmaniasis
+PHI:I4154	PHI:3460	leishmaniasis
+PHI:I4155	PHI:3461	pneumonia; meningitis
+PHI:I4156	PHI:3461	pneumonia; meningitis
+PHI:I4157	PHI:3462	nosocomial infection
+PHI:I4158	PHI:3462	nosocomial infection
+PHI:I4159	PHI:3462	nosocomial infection
+PHI:I4160	PHI:3462	nosocomial infection
+PHI:I4165	PHI:3466	colibacillosis
+PHI:I4167	PHI:3468	Opportunistic Infections
+PHI:I4168	PHI:3471	Opportunistic Infections
+PHI:I4169	PHI:3472	Infections
+PHI:I4170	PHI:3473	Pneumococcal pneumonia
+PHI:I4171	PHI:3478	vascular wilt
+PHI:I4172	PHI:3479	vascular wilt
+PHI:I4178	PHI:3487	Infections
+PHI:I4179	PHI:3488	sexually transmitted diseases
+PHI:I4180	PHI:3488	sexually transmitted diseases
+PHI:I4182	PHI:3591	bacterial blight in pelargonium
+PHI:I4183	PHI:3593	opportunistic infections
+PHI:I4188	PHI:3597	colibacillosis
+PHI:I4191	PHI:3602	opportunistic infections
+PHI:I4192	PHI:3602	opportunistic infections
+PHI:I4193	PHI:3603	Skin lesions
+PHI:I4194	PHI:3604	Pneumococcal pneumonia
+PHI:I4197	PHI:3608	peritonitis
+PHI:I4198	PHI:3609	Salmonellosis
+PHI:I4199	PHI:3610	colibacillosis
+PHI:I4200	PHI:3611	colibacillosis
+PHI:I4238	PHI:3645	Ovine Brucellosis
+PHI:I4239	PHI:3646	Ovine Brucellosis
+PHI:I4240	PHI:3647	Ovine Brucellosis
+PHI:I4241	PHI:3648	Vibriosis
+PHI:I4242	PHI:3648	Vibriosis
+PHI:I4243	PHI:3648	Vibriosis
+PHI:I4244	PHI:3651	Salmonellosis
+PHI:I4245	PHI:3651	Salmonellosis
+PHI:I4246	PHI:3652	Listeriosis
+PHI:I4247	PHI:3653	Listeriosis
+PHI:I4248	PHI:3652	Listeriosis
+PHI:I4250	PHI:3655	hospital-acquired infections
