@@ -365,13 +365,14 @@ while (<TSV_FILE>) {
         }
 
 	# insert data into the pathogen_gene table,
-        # if it does not exist already (based on combination of taxon id and gene name)
-	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name) 
-			        SELECT $path_taxon_id,'$required_fields_annot{"gene_name"}'
+        # if it does not exist already (based on combination of taxon id, gene name, and uniprot_accession)
+	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name,uniprot_accession) 
+			        SELECT $path_taxon_id,'$required_fields_annot{"gene_name"}','$required_fields_annot{"accession"}'
                                 WHERE NOT EXISTS (
                                   SELECT 1 FROM pathogen_gene
                                   WHERE ncbi_taxon_id = $path_taxon_id
                                   AND gene_name = '$required_fields_annot{"gene_name"}'
+                                  AND uniprot_accession = '$required_fields_annot{"accession"}'
                                ));
 
 	my $sql_result2 = $db_conn->prepare($sql_statement2);
@@ -380,38 +381,37 @@ while (<TSV_FILE>) {
 	# get the unique identifier for the inserted pathogen_gene record
         my $sql_statement4 = qq(SELECT id FROM pathogen_gene
                                 WHERE ncbi_taxon_id = $path_taxon_id
-                                AND gene_name = '$required_fields_annot{"gene_name"}');
+                                AND gene_name = '$required_fields_annot{"gene_name"}'
+                                AND uniprot_accession = '$required_fields_annot{"accession"}'
+                               );
 
 	my $sql_result4 = $db_conn->prepare($sql_statement4);
 	$sql_result4->execute() or die $DBI::errstr;
 	my @row4 = $sql_result4->fetchrow_array();
 	my $pathogen_gene_id = shift @row4;
 
-        # insert data into pathogen_gene_mutant table, including foreign key to pathogen_gene table 
-	my $sql_statement3 = qq(INSERT INTO pathogen_gene_mutant (pathogen_gene_id,ncbi_taxon_id,uniprot_accession) 
-			         SELECT $pathogen_gene_id,$path_taxon_id,
-                                        '$required_fields_annot{"accession"}'
+        # insert data into pathogen_gene_allele table, including foreign key to pathogen_gene table
+        # NEED TO EXTENT TO INCLUDE ALLELE-SPECIFIC DATA 
+	my $sql_statement3 = qq(INSERT INTO pathogen_gene_allele (pathogen_gene_id) 
+			         SELECT $pathogen_gene_id
                                  WHERE NOT EXISTS (
-                                   SELECT 1 FROM pathogen_gene_mutant
+                                   SELECT 1 FROM pathogen_gene_allele
 			           WHERE pathogen_gene_id = $pathogen_gene_id
-                                   AND ncbi_taxon_id = $path_taxon_id
-                                   AND uniprot_accession = '$required_fields_annot{"accession"}'
                                  )
                                );
 
 	my $sql_result3 = $db_conn->prepare($sql_statement3);
 	$sql_result3->execute() or die $DBI::errstr;
 
-	# get the unique identifier for the inserted pathogen_gene_mutant record
-        my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
+	# get the unique identifier for the inserted pathogen_gene_allele record
+        my $sql_statement5 = qq(SELECT id FROM pathogen_gene_allele
 			        WHERE pathogen_gene_id = $pathogen_gene_id
-                                AND ncbi_taxon_id = $path_taxon_id
-                                AND uniprot_accession = '$required_fields_annot{"accession"}');
+                               );
 
 	my $sql_result5 = $db_conn->prepare($sql_statement5);
 	$sql_result5->execute() or die $DBI::errstr;
 	my @row5 = $sql_result5->fetchrow_array();
-	my $pathogen_gene_mutant_id = shift @row5;
+	my $pathogen_gene_allele_id = shift @row5;
 
         # before inserting a new interaction, we need to find out if the current PHI-base accession
         # should be part of an existing interaction (i.e. in a multiple mutation)
@@ -522,15 +522,16 @@ while (<TSV_FILE>) {
                     #print "HOSTS & PATHS MATCH\n";
                     $multiple_mutation = 1;
 
+                    # TODO: NEED TO ADD DETAILS OF THE ALLELE EXPRESSION, WHERE KNOWN
 		    my $inner_sql_statement = qq(
-						 INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
-						   VALUES ($first_mult_mut_partner_interaction_id,$pathogen_gene_mutant_id);
+						 INSERT INTO interaction_pathogen_gene_allele (interaction_id,pathogen_gene_allele_id) 
+						   VALUES ($first_mult_mut_partner_interaction_id,$pathogen_gene_allele_id);
 						 INSERT INTO obsolete (phi_base_accession,obsolete_accession)
 						   VALUES ('$first_mult_mut_partner_new_phi_acc','$required_fields_annot{"phi_base_acc"}')
 						);
 		    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
-		    #print "Multiple mutation interaction_pathogen_gene_mutant record inserted successfully\n";
+		    #print "Multiple mutation interaction_pathogen_gene_allele record inserted successfully\n";
 
 		    # TODO: NEED TO ADDITIONALLY FIND OUT IF HOST TAXONOMY IDs MATCH (AND POSSIBLY PUBMED IDs)
 		    last;
@@ -581,14 +582,15 @@ while (<TSV_FILE>) {
 	  my $sql_result6 = $db_conn->prepare($sql_statement6);
 	  $sql_result6->execute() or die $DBI::errstr;
 
-          if ( $interaction_id and $pathogen_gene_mutant_id ) {
-             # add records for the literature and pathogen gene mutant tables associated with the interaction,
+          if ( $interaction_id and $pathogen_gene_allele_id ) {
+             # add records for the literature and pathogen gene allele tables associated with the interaction,
              # using the interaction id as a foreign key to the interaction table
+             # TODO: NEED TO ADD DETAILS OF THE ALLELE EXPRESSION, WHERE KNOWN
 	     my $inner_sql_statement = qq(
 				          INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
 				            VALUES ($interaction_id,$required_fields_annot{"host_tax"});
-				          INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
-					    VALUES ($interaction_id,'$pathogen_gene_mutant_id');
+				          INSERT INTO interaction_pathogen_gene_allele (interaction_id,pathogen_gene_allele_id) 
+					    VALUES ($interaction_id,'$pathogen_gene_allele_id');
 				         );
 	     my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 

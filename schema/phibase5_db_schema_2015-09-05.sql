@@ -55,24 +55,21 @@ CREATE TABLE pathogen_gene (
     id SERIAL PRIMARY KEY,
     ncbi_taxon_id integer,
     gene_name varchar(100),
-    uniprot_accession varchar(50),
     uniparc_id varchar(50),
     genbank_locus_id varchar(50)
 );
 
-CREATE TABLE pathogen_gene_allele (
+CREATE TABLE pathogen_gene_mutant (
     id SERIAL PRIMARY KEY,
     pathogen_gene_id integer REFERENCES pathogen_gene,
-    allele_name varchar(100),
-    allele_type varchar(50),
-    allele_description varchar(50)
+    ncbi_taxon_id integer,
+    uniprot_accession varchar(50)
 );
 
-CREATE TABLE interaction_pathogen_gene_allele (
+CREATE TABLE interaction_pathogen_gene_mutant (
     interaction_id integer REFERENCES interaction,
-    pathogen_gene_allele_id integer REFERENCES pathogen_gene_allele,
-    allele_expression varchar(50),
-    PRIMARY KEY (interaction_id, pathogen_gene_allele_id)
+    pathogen_gene_mutant_id integer REFERENCES pathogen_gene_mutant,
+    PRIMARY KEY (interaction_id, pathogen_gene_mutant_id)
 );
 
 CREATE TABLE interaction_phi_interaction_phenotype (
@@ -100,10 +97,10 @@ CREATE TABLE pathogen_interacting_protein (
     PRIMARY KEY (interaction_id, uniprot_accession)
 );
 
-CREATE TABLE modification_within_allele (
-    pathogen_gene_allele_id integer REFERENCES pathogen_gene_allele,
+CREATE TABLE modification_within_mutant (
+    pathogen_gene_mutant_id integer REFERENCES pathogen_gene_mutant,
     psi_mod_id integer,
-    PRIMARY KEY (pathogen_gene_allele_id, psi_mod_id)
+    PRIMARY KEY (pathogen_gene_mutant_id, psi_mod_id)
 );
 
 CREATE TABLE go_evidence (
