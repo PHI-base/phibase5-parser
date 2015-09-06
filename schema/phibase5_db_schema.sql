@@ -60,6 +60,20 @@ CREATE TABLE pathogen_gene (
     genbank_locus_id varchar(50)
 );
 
+CREATE TABLE go_evidence (
+    code varchar(50) PRIMARY KEY,
+    category varchar(50),
+    description varchar (50)
+);
+
+CREATE TABLE pathogen_gene_go_annotation (
+    pathogen_gene_id integer REFERENCES pathogen_gene,
+    pubmed_id varchar(50),
+    go_id varchar(50),
+    go_evidence_code varchar(50) REFERENCES go_evidence,
+    PRIMARY KEY (pathogen_gene_id, pubmed_id, go_id)
+);
+
 CREATE TABLE pathogen_gene_allele (
     id SERIAL PRIMARY KEY,
     pathogen_gene_id integer REFERENCES pathogen_gene,
@@ -104,19 +118,6 @@ CREATE TABLE modification_within_allele (
     pathogen_gene_allele_id integer REFERENCES pathogen_gene_allele,
     psi_mod_id integer,
     PRIMARY KEY (pathogen_gene_allele_id, psi_mod_id)
-);
-
-CREATE TABLE go_evidence (
-    code varchar(50) PRIMARY KEY,
-    category varchar(50),
-    description varchar (50)
-);
-
-CREATE TABLE interaction_go_annotation (
-    interaction_id integer REFERENCES interaction,
-    go_id varchar(50),
-    go_evidence_code varchar(50) REFERENCES go_evidence,
-    PRIMARY KEY (interaction_id, go_id)
 );
 
 CREATE TABLE interaction_transient_assay (

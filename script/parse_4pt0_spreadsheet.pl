@@ -582,6 +582,9 @@ while (<TSV_FILE>) {
 	  my $sql_result6 = $db_conn->prepare($sql_statement6);
 	  $sql_result6->execute() or die $DBI::errstr;
 
+          # declare an array for the list of pubmed ids
+          my @pubmed_id_list;
+
           if ( $interaction_id and $pathogen_gene_allele_id ) {
              # add records for the literature and pathogen gene allele tables associated with the interaction,
              # using the interaction id as a foreign key to the interaction table
@@ -598,7 +601,7 @@ while (<TSV_FILE>) {
              # inserting a separate record for each PubMed ID, which are separated by semi-colon
 
              # separate list of PubMed IDs, based on semi-colon delimiter
-             my @pubmed_id_list = split (";",$required_fields_annot{"literature_id"});
+             @pubmed_id_list = split (";",$required_fields_annot{"literature_id"});
 
              # insert interaction_literature record for each PubMed ID
              foreach my $pubmed_id (@pubmed_id_list) {
@@ -850,13 +853,18 @@ while (<TSV_FILE>) {
 #                        print "INTERACTION ID:$interaction_id\n";
 #                        print "PHI-BASE ACC:$required_fields_annot{'phi_base_acc'}\n";
                          $pathogen_phenotype_count++;
+                         
+                         # since some spreadsheet columns, such as "Mating defect prior to penetration" and "Pre-penetration defect",
+                         # will match to the same PHI phenotype identifier, the SQL insert should check if the relevant values already exist
 		         $sql_statement = qq(INSERT INTO interaction_phi_pathogen_phenotype (interaction_id, phi_phenotype_id)
-		  			    VALUES ($interaction_id, '$phi_phenotype_id');
-					 );
-#                        print "SQL STATEMENT:$sql_statement\n";
+		  			     SELECT $interaction_id, '$phi_phenotype_id'
+                                             WHERE NOT EXISTS (
+                                               SELECT 1 FROM interaction_phi_pathogen_phenotype
+                                               WHERE interaction_id = $interaction_id
+                                               AND phi_phenotype_id = '$phi_phenotype_id'
+					    ));
 		         $sql_result = $db_conn->prepare($sql_statement);
-#		         $sql_result->execute() or die $DBI::errstr;
-		         $sql_result->execute();
+		         $sql_result->execute() or die $DBI::errstr;
                          print PATH_PHENOTYPE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$pathogen_phenotype_attribute\t$pathogen_phenotype_value\n";
                       }
 
@@ -910,23 +918,71 @@ while (<TSV_FILE>) {
 
                   # insert data into interaction_go_annotation table,
                   # with foreign keys to the interaction table and the go_evidence_code_table 
-	          $sql_statement = qq(INSERT INTO interaction_go_annotation (interaction_id, go_id, go_evidence_code)
-                                        VALUES ($interaction_id, '$go_id', '$go_evid_code');
-                                     );
-	          $sql_result = $db_conn->prepare($sql_statement);
+#	          $sql_statement = qq(INSERT INTO interaction_go_annotation (interaction_id, go_id, go_evidence_code)
+#                                        VALUES ($interaction_id, '$go_id', '$go_evid_code');
+#                                     );
 
-                  # execute SQL insert and, if successful, print to file
-	          if ( $sql_result->execute() ) {
-                     $go_with_evid_count++;
-                     print GO_WITH_EVID_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
-                  } else {  # SQL insert unsuccessful, then log error
-                     $invalid_go_count++;
-                     print STDERR "\nPHI-base ERROR: Evidence code $go_evid_code is not valid for $required_fields_annot{'phi_base_acc'}, $go_id\n\n";
-                     print INVALID_GO_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
-                  }
+                  # insert data into pathogen_gene_go_annotation table,
+                  # with foreign keys to the pathogen_gene table, PubMed, and the go_evidence_code_table
+                  # since there may be more than one PubMed ID, need to insert a record for each PubMed ID
+                  foreach my $pubmed_id (@pubmed_id_list) {
+
+                     $pubmed_id =~ s/^\s+//; # remove blank space from start of PubMed ID
+                     $pubmed_id =~ s/\s+$//; # remove blank space from end of PubMed ID
+
+                     # since we only want one GO annotation per gene, rather than per interaction,
+                     # it is necessary to check if the current GO annotation has already been inserted
+	             $sql_statement = qq(INSERT INTO pathogen_gene_go_annotation (pathogen_gene_id, pubmed_id, go_id, go_evidence_code)
+                                         SELECT $pathogen_gene_id, '$pubmed_id', '$go_id', '$go_evid_code'
+                                         WHERE NOT EXISTS (
+                                           SELECT 1 FROM pathogen_gene_go_annotation
+                                           WHERE pathogen_gene_id = $pathogen_gene_id
+                                           AND pubmed_id = '$pubmed_id'
+                                           AND go_id = '$go_id'
+                                        ));
+	             $sql_result = $db_conn->prepare($sql_statement);
+
+		     # execute SQL insert and, if successful, print to file
+		     if ( $sql_result->execute() ) {
+		        $go_with_evid_count++;
+		        print GO_WITH_EVID_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
+		     } else {  # SQL insert unsuccessful, then log error
+		       $invalid_go_count++;
+	               print STDERR "\nPHI-base ERROR: Evidence code $go_evid_code is not valid for $required_fields_annot{'phi_base_acc'}, $go_id\n\n";
+		       print INVALID_GO_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\t$go_evid_code\n";
+		     }
+
+		  } # end foreach PubMed ID
 
                } else { # GO evidence code not supplied
 
+                  # insert data into pathogen_gene_go_annotation table,
+                  # with foreign keys to the pathogen_gene table, PubMed, and the go_evidence_code_table
+                  # since there may be more than one PubMed ID, need to insert a record for each PubMed ID
+                  foreach my $pubmed_id (@pubmed_id_list) {
+
+                     $pubmed_id =~ s/^\s+//; # remove blank space from start of PubMed ID
+                     $pubmed_id =~ s/\s+$//; # remove blank space from end of PubMed ID
+
+                     # since we only want one GO annotation per gene, rather than per interaction,
+                     # it is necessary to check if the current GO annotation has already been inserted
+	             $sql_statement = qq(INSERT INTO pathogen_gene_go_annotation (pathogen_gene_id, pubmed_id, go_id)
+                                         SELECT $pathogen_gene_id, '$pubmed_id', '$go_id'
+                                         WHERE NOT EXISTS (
+                                           SELECT 1 FROM pathogen_gene_go_annotation
+                                           WHERE pathogen_gene_id = $pathogen_gene_id
+                                           AND pubmed_id = '$pubmed_id'
+                                           AND go_id = '$go_id'
+                                        ));
+	             $sql_result = $db_conn->prepare($sql_statement);
+	             $sql_result->execute() or die $DBI::errstr;
+
+                     $go_without_evid_count++;
+                     print GO_WITHOUT_EVID_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\n";
+    
+		  } # end foreach PubMed ID
+
+=pod
                   # insert data into interaction_go_annotation table,
                   # with foreign key to the interaction table, but without GO evidence code 
 	          $sql_statement = qq(INSERT INTO interaction_go_annotation (interaction_id, go_id)
@@ -938,12 +994,13 @@ while (<TSV_FILE>) {
 
                   $go_without_evid_count++;
                   print GO_WITHOUT_EVID_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$go_id\n";
+=cut
     
-               } # else GO evidence code
+               } # end else GO evidence code
               
              } # end foreach GO term
 
-          } # if GO terms supplied 
+          } # end if GO terms supplied 
 
           
           # anti-infective chemicals are given as CAS Registry IDs
