@@ -1,0 +1,567 @@
+{
+   "curation_sessions" : {
+      "828b4b8e6cb11961" : {
+         "alleles" : {
+            "Magnaporthe grisea Q0PND3:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe grisea Q0PND3",
+               "name" : "Q0PND3_MAGGR+",
+               "primary_identifier" : "Q0PND3:828b4b8e6cb11961-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9",
+               "name" : "G4MQZ9_MAGO7+",
+               "primary_identifier" : "G4MQZ9:828b4b8e6cb11961-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1",
+               "name" : "G4MZY1_MAGO7+",
+               "primary_identifier" : "G4MZY1:828b4b8e6cb11961-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "name" : "G4N492_MAGO7+",
+               "primary_identifier" : "G4N492:828b4b8e6cb11961-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6",
+               "name" : "G4NBI6_MAGO7+",
+               "primary_identifier" : "G4NBI6:828b4b8e6cb11961-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7",
+               "name" : "G4NBI7_MAGO7+",
+               "primary_identifier" : "G4NBI7:828b4b8e6cb11961-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6",
+               "name" : "G4NEK6_MAGO7+",
+               "primary_identifier" : "G4NEK6:828b4b8e6cb11961-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7",
+               "name" : "G4NGA7_MAGO7+",
+               "primary_identifier" : "G4NGA7:828b4b8e6cb11961-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1:828b4b8e6cb11961-1" : {
+               "allele_type" : "wild_type",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1",
+               "name" : "G4NJL1_MAGO7+",
+               "primary_identifier" : "G4NJL1:828b4b8e6cb11961-1"
+            }
+         },
+         "annotations" : [
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : "",
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : "",
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : "",
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : "",
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : "",
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe grisea Q0PND3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : "",
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : "",
+               "term" : "GO:0016557",
+               "type" : "biological_process"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : "",
+               "term" : "GO:0006635",
+               "type" : "biological_process"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "enzyme assay",
+               "genotype" : "828b4b8e6cb11961-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "PHIPO:0000011",
+               "type" : "phi_interaction_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "microscopy",
+               "genotype" : "828b4b8e6cb11961-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "PHIPO:0000034",
+               "type" : "phi_pathogen_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "microscopy",
+               "genotype" : "828b4b8e6cb11961-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "PHIPO:0000088",
+               "type" : "phi_pathogen_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "functional test in host organism",
+               "genotype" : "828b4b8e6cb11961-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "PHIPO:0000071",
+               "type" : "phi_host_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "enzyme assay",
+               "genotype" : "828b4b8e6cb11961-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_interaction_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "microscopy",
+               "genotype" : "828b4b8e6cb11961-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_pathogen_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "microscopy",
+               "genotype" : "828b4b8e6cb11961-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_pathogen_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "microscopy",
+               "genotype" : "828b4b8e6cb11961-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_pathogen_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "enzyme assay",
+               "genotype" : "828b4b8e6cb11961-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_interaction_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "functional test in host organism",
+               "genotype" : "828b4b8e6cb11961-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000071",
+               "type" : "phi_host_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "microscopy",
+               "genotype" : "828b4b8e6cb11961-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "PHIPO:0000059",
+               "type" : "phi_host_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "microscopy",
+               "genotype" : "828b4b8e6cb11961-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "PHIPO:0000088",
+               "type" : "phi_pathogen_phenotype"
+            },
+            {
+               "annotation_extension" : "pathogen_strain(NCBItaxon:1271791),causes_disease(PDO:0000031),experimental_host(NCBItaxon:4530),occurs_in(BTO:0001228)",
+               "conditions" : [],
+               "creation_date" : "2015-09-04",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "GO:0016757",
+               "type" : "molecular_function"
+            }
+         ],
+         "genes" : {
+            "Magnaporthe grisea Q0PND3" : {
+               "organism" : "Magnaporthe grisea",
+               "uniquename" : "Q0PND3"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4MQZ9"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4MZY1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4N492"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NBI6"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NBI7"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NEK6"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NGA7"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NJL1"
+            }
+         },
+         "genotypes" : {
+            "828b4b8e6cb11961-genotype-1" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:828b4b8e6cb11961-1"
+                  },
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe grisea Q0PND3:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-10" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe grisea Q0PND3:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-2" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-3" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-4" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-5" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-6" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-7" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-8" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7:828b4b8e6cb11961-1"
+                  }
+               ]
+            },
+            "828b4b8e6cb11961-genotype-9" : {
+               "alleles" : [
+                  {
+                     "expression" : "Overexpression",
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1:828b4b8e6cb11961-1"
+                  }
+               ]
+            }
+         },
+         "metadata" : {
+            "accepted_timestamp" : "2015-09-04 10:54:16",
+            "admin_session" : "1",
+            "annotation_status" : "APPROVED",
+            "annotation_status_datestamp" : "2015-09-04 12:47:27",
+            "approval_in_progress_timestamp" : "2015-09-04 12:47:19",
+            "approved_timestamp" : "2015-09-04 12:47:27",
+            "approver_email" : "alistair.irvine@rothamsted.ac.uk",
+            "approver_name" : "Alistair Irvine",
+            "canto_session" : "828b4b8e6cb11961",
+            "curation_in_progress_timestamp" : "2015-09-04 10:55:18",
+            "curation_pub_id" : "PMID:17506326",
+            "needs_approval_timestamp" : "2015-09-04 12:47:12",
+            "session_created_timestamp" : "2015-09-04 10:53:59",
+            "session_genes_count" : "9",
+            "session_term_suggestions_count" : "0",
+            "session_unknown_conditions_count" : "0",
+            "term_suggestion_count" : "0",
+            "unknown_conditions_count" : "0"
+         },
+         "organisms" : {
+            "148305" : {
+               "full_name" : "Magnaporthe grisea"
+            },
+            "242507" : {
+               "full_name" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)"
+            }
+         },
+         "publications" : {
+            "PMID:17506326" : {}
+         }
+      }
+   }
+}
+
