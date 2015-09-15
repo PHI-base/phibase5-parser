@@ -12,15 +12,10 @@ CREATE TABLE interaction_host (
     genbank_locus_id varchar(50)
 );
 
-CREATE TABLE phi_evidence (
-    id SERIAL PRIMARY KEY,
-    phi_evidence varchar(50)
-);
-
 CREATE TABLE interaction_phi_host_phenotype (
     interaction_host_id integer REFERENCES interaction_host,
     phi_phenotype_id varchar(50),
-    phi_evidence_id integer REFERENCES phi_evidence,
+    phi_evidence varchar(50),
     PRIMARY KEY (interaction_host_id, phi_phenotype_id)
 );
 
@@ -92,7 +87,7 @@ CREATE TABLE interaction_pathogen_gene_allele (
 CREATE TABLE interaction_phi_interaction_phenotype (
     interaction_id integer REFERENCES interaction,
     phi_phenotype_id varchar(50),
-    phi_evidence_id integer REFERENCES phi_evidence,
+    phi_evidence varchar(50),
     PRIMARY KEY (interaction_id, phi_phenotype_id)
 );
 
@@ -213,7 +208,7 @@ CREATE TABLE interaction_disease (
 CREATE TABLE interaction_phi_pathogen_phenotype (
     interaction_id integer REFERENCES interaction,
     phi_phenotype_id varchar(50),
-    phi_evidence_id integer REFERENCES phi_evidence,
+    phi_evidence varchar(50),
     PRIMARY KEY (interaction_id, phi_phenotype_id)
 );
 
