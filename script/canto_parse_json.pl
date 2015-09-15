@@ -2,7 +2,6 @@
 use strict;
 use warnings;
 
-#use LWP::Simple;
 use JSON;
 use DBI;
 use JSON::Parse 'json_file_to_perl';
@@ -12,15 +11,20 @@ use phibase_subroutines qw(connect_to_phibase);
 
 my $db_conn = connect_to_phibase();
 
-# counters to gather statistics
+# initialise counters to gather statistics
 my $annotation_count = 0;
 my $interaction_count = 0;
 my $go_annotation_count = 0;
 my $host_response_count = 0;
-my $phenotype_outcome_count = 0;
+my $phi_interaction_phenotype_count = 0;
+my $phi_pathogen_phenotype_count = 0;
+my $phi_host_phenotype_count = 0;
 my $disease_count = 0;
+my $go_mol_function_count = 0;
+my $go_biol_process_count = 0;
+my $go_cell_location_count = 0;
+my $allele_count = 0;
 # CURRENTLY UNUSED
-#my $defect_count = 0;
 #my $anti_infective_count = 0;
 #my $inducer_count = 0;
 #my $exp_spec_count = 0;
@@ -56,77 +60,11 @@ print "Pathogen Taxon ID: $pathogen_taxon_id\n";
 # get the pathogen genes for the session
 my %pathogen_genes = %{ $text_response->{'curation_sessions'}{$session_id}{'genes'} };
 
-=pod
-  # iterate through all annotations, to find out which ones
-  # are associated with the current interaction
-  foreach my $pathogen_gene_key (keys %pathogen_genes) {
-
-      print "Pathogen Gene Key:$pathogen_gene_key\n";
-
-      my $path_organism = $pathogen_genes{$pathogen_gene_key}{"organism"};
-      print "Pathogen Gene organism:$path_organism\n";
-
-      my $path_unique_name = $pathogen_genes{$pathogen_gene_key}{"uniquename"};
-      print "Pathogen Gene uniquename:$path_unique_name\n";
-
-  }
-=cut
-
 # get the pathogen alleles for the session
 my %pathogen_alleles = %{ $text_response->{'curation_sessions'}{$session_id}{'alleles'} };
 
-=pod
-  # iterate through all annotations, to find out which ones
-  # are associated with the current interaction
-  foreach my $pathogen_allele_key (keys %pathogen_alleles) {
-
-      print "Pathogen Allele Key:$pathogen_allele_key\n";
-
-      my $allele_identifier = $pathogen_alleles{$pathogen_allele_key}{"primary_identifier"};
-      print "Pathogen Allele Identifier:$allele_identifier\n";
-
-      my $allele_name = $pathogen_alleles{$pathogen_allele_key}{"name"};
-      print "Pathogen Allele Name:$allele_name\n";
-
-      my $allele_gene = $pathogen_alleles{$pathogen_allele_key}{"gene"};
-      print "Pathogen Allele Gene:$allele_gene\n";
-
-      my $allele_type = $pathogen_alleles{$pathogen_allele_key}{"allele_type"};
-      print "Pathogen Allele Type:$allele_type\n";
-
-      my $allele_desc = $pathogen_alleles{$pathogen_allele_key}{"description"};
-      print "Pathogen Allele Description:$allele_desc\n";
-
-  }
-=cut
-
 # get the pathogen genotypes for the session
 my %pathogen_genotypes = %{ $text_response->{'curation_sessions'}{$session_id}{'genotypes'} };
-
-=pod
-  # iterate through all annotations, to find out which ones
-  # are associated with the current interaction
-  foreach my $pathogen_genotype_key (keys %pathogen_genotypes) {
-
-      print "Pathogen Genotype Key:$pathogen_genotype_key\n";
-
-      my @genotype_alleles = @{ $pathogen_genotypes{$pathogen_genotype_key}{"alleles"} };
-
-      # iterate through the array of alleles in the genotype
-      foreach my $genotype_allele_index (0 .. $#genotype_alleles) {
-      
-        my %allele = %{ $genotype_alleles[$genotype_allele_index] };
-
-        my $allele_id = $allele{"id"};
-        print "Genotype allele id:$allele_id\n";
-
-        my $allele_expression = $allele{"expression"};
-        print "Genotype allele expression:$allele_expression\n";
-
-      }
-
-  }
-=cut
 
 # annotations are an array of hashes
 my @annotations = @{ $text_response->{'curation_sessions'}{$session_id}{'annotations'} };
@@ -154,22 +92,15 @@ foreach my $annot_index (0 .. $#annotations) {
 
    $annotation_count++;
 
-   # create temporary hash to identify the interaction to which the annotation should belong
+   # create temporary hash to identify the interaction to which the phenotype annotation should belong
+   # (GO annotations are associated directly with a pathogen gene, not an interaction)
    # this should include all the info that specifies the unqiue interaction,
-   # such as UniProt accessions, interaction partners, and annotation extensions
-# such as the genotype identifier and annotation extensions
+   # such as the genotype identifier and annotation extensions
    my %annotation_interaction_hash = ();
 
-   # array to hold all partner gene uniprot ids
-   # (for multiple gene interactions)
-#   my @interaction_partners;
-
+   # get the current annotation hash
    my %annotation = %{ $text_response->{'curation_sessions'}{$session_id}{'annotations'}[$annot_index] };
 
-#   my @gene_organism_list = keys $annotation{'genes'};
-#   my $gene_organism_name = $gene_organism_list[0];
-
-#   my $uniprot_acc = $annotation{'genes'}{$gene_organism_name}{'uniquename'};
    # GO annotation is annotated against a gene, whereas phenotypes are annotated against a genotype
    # so need to get correct annotation type for the identifier
    my $gene_or_genotype_id;
@@ -182,23 +113,21 @@ foreach my $annot_index (0 .. $#annotations) {
       print STDERR "Error: Invalid annotation type: $annot_type\n"; 
    }
 
-   # add uniprot accession to help identify the correct interaction
-#   $annotation_interaction_hash{'pathogen_uniprot_acc'} = $uniprot_acc;
+   # add gene or genotype to help identify the correct interaction
    $annotation_interaction_hash{'gene_or_genotype_id'} = $gene_or_genotype_id;
 
+   # get the annotation extensions for the current annotation,
+   # which are separated by commas
    my $annot_extension_list = $annotation{'annotation_extension'};
    my @annot_extensions = split(/,/,$annot_extension_list);
 
    my $host_taxon;
    my $tissue;
-   my $interaction_partner;
    my $disease;
    my $inducer;
    my $anti_infective;
    my $host_interacting_protein;
    my $pathogen_interacting_protein;
-   my $experiment_spec;
-   my $host_response_id;
    my $pathogen_strain_id;
 
    # identify each annotation extension in the list
@@ -227,17 +156,6 @@ foreach my $annot_index (0 .. $#annotations) {
 	# add annotation extension to help identify the correct interaction
 	$annotation_interaction_hash{'disease'} = $disease;
      }
-
-=pod
-# REPLACED WITH PHI PHENOTYPE ONTOLOGY FOR HOST PHENOTYPES
-     # if the annotation extension begins with 'host_responsee', then assign value between brackets to host_response
-     if ($annot_ext =~ /^host_response/) {
-	my @annot_ext = split(/[\(\)]/,$annot_ext);
-	$host_response_id = $annot_ext[1];
-	# add annotation extension to help identify the correct interaction
-	$annotation_interaction_hash{'host_response_id'} = $host_response_id;
-     }
-=cut
 
      # if the annotation extension begins with 'induced_by', then assign value between brackets to inducer
      if ($annot_ext =~ /^induced_by/) {
@@ -281,24 +199,6 @@ foreach my $annot_index (0 .. $#annotations) {
         $annotation_interaction_hash{'pathogen_strain_id'} = $pathogen_strain_id;
      }
 
-
-=pod
-# REPLACED WITH GENOTYPE DESCRIPTION BASED ON COMBINATION OF ALLELES
-     # if the annotation extension begins with 'interaction_partner',
-     # then assign value between brackets to interaction partner
-     # (note that there can be multiple interaction partners)
-     if ($annot_ext =~ /^interaction_partner/) {
-        my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $interaction_partner = $annot_ext[1];
-        # add current interaction partner to the array of partners
-        # (for cases where there are three are more genes involved in interaction)
-        push(@interaction_partners,$interaction_partner);
-        # add the interaction partners array to help identify the correct interaction
-        $annotation_interaction_hash{'interaction_partner'} = @interaction_partners;
-     }
-=cut
-
-
    } # end foreach annotation extension
 
 
@@ -306,13 +206,16 @@ foreach my $annot_index (0 .. $#annotations) {
    # the current annotation has been found
    my $interaction_found = 0;
 
+   # for a phenotype annotation,
    # iterate through each of the existing interactions to find out
    # if the current annotation profile matches an existing interaction
    # if so, then add the corresponding interaction id to the annotation
    # otherwise, create a new interaction profile for the annotation
+   #
+   # GO annotations are not linked to specific pathogen-host interactions,
+   # so for a GO annotation, simply add the annotation to the array of GO annotations
+   #
    if ($annot_type eq 'phi_interaction_phenotype' or $annot_type eq 'phi_pathogen_phenotype' or $annot_type eq 'phi_host_phenotype') {
-
-      print "ANNOTATION IS GENOTYPE - INTERACTION\n";
 
       foreach my $interaction_id (keys %interaction_profiles) {
 
@@ -342,8 +245,6 @@ foreach my $annot_index (0 .. $#annotations) {
 
    } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' ) {
 
-      print "ANNOTATION IS GENE - GO ANNOTATION\n";
-
       # add the current annotation to the array of GO annotations;
       push (@go_annotations, $annotations[$annot_index]);
 
@@ -365,23 +266,21 @@ foreach my $int_id (1 .. $interaction_count) {
   my $first_annot_of_int_flag = 1;
 
   # declare variables
-  my $uniprot_acc;
   my $pubmed_id;
   my $host_taxon;
   my $host_taxon_id;
   my $tissue;
-  my $interaction_partner;
   my $curator_name;
   my $curator_email;
   my $pathogen_species;
-  my $host_response_id;
   my $pathogen_taxon;
-  my $phenotype_outcome;
+  my $phi_interaction_phenotype;
+  my $phi_pathogen_phenotype;
+  my $phi_host_phenotype;
   my $disease;
   my $go_id;
   my $go_evid_code;
   my $interaction_id;
-  my $experiment_spec;
   my $inducer;
   my $anti_infective;
   my $host_interacting_protein;
@@ -391,13 +290,9 @@ foreach my $int_id (1 .. $interaction_count) {
 
   my $gene_or_genotype_id;
 
-  # declare array to hold all pathogen gene
+  # declare array to hold all pathogen genes
   # involved in the interaction
   my @pathogen_genes;
-
-  # declare array to hold all pathogen gene alleles
-  # involved in the interaction
-  my @pathogen_genes_alleles;
 
   # iterate through all annotations, to find out which ones
   # are associated with the current interaction
@@ -427,103 +322,35 @@ foreach my $int_id (1 .. $interaction_count) {
          my $annot_type = $annotation{'type'};
          $gene_or_genotype_id = $annotation{'genotype'};
 
+         # get the alleles for this interaction, as an array in the specified genotype
          my @genotype_alleles = @{ $pathogen_genotypes{$gene_or_genotype_id}{"alleles"} };
 
          # iterate through the array of alleles in the genotype
+         # to identify the list of pathogen genes involved in the
+         # current interaction
          foreach my $genotype_allele_index (0 .. $#genotype_alleles) {
-      
+
+           # get the allele hash from the genotype      
 	   my %allele = %{ $genotype_alleles[$genotype_allele_index] };
 
-           
-
-# array of pathogen_genes for the current interaction
-  # each element is a hash of pathogen_gene_alleles,
-  # with the key being the UniProt ID of the gene
-     # the hash is an array of allele details, with each element listing the name, type, & description of each allele
-# pathogen_genes [
-#      QSD4F: [
-#          {
-#              allele_name: QSD4F+
-#              allele_type: wild_type
-#              allele_desc: Wild type of ...
-#          },
-#          {
-#              allele_name: QSD4Fdelta
-#              allele_type: deletion
-#              allele_desc: deletion of ...
-#          },   
-#      ],
-#      QSD4T: [
-#          {
-#              allele_name: QSD4T+
-#              allele_type: wild_type
-#              allele_desc: Wild type of ...
-#          },
-#          {
-#              allele_name: QSD4Tdelta
-#              allele_type: deletion
-#              allele_desc: deletion of ...
-#          },   
-#      ],
-
-#  ]
-
-
-            # find the alleles relevant to the current gene
-            
-            # foreach allele in genotype
-              # retrieve the id
-              # use the id to get the allele hash from the full list of alleles
-              # get the gene identifier from the allele hash
-              # get the relevant gene hash from the full list of genes
-              # get the uniquename for the gene
-              # compare the uniquename with the uniprot identifier
-                 # if uniprot acc eq current uniprot id
-                   # retreive other allele details from the allele hash - name, allele_type, description
-                   # use allele details + gene id to insert a new pathogen_gene_allele record.
-
+           # retrieve the identifier for the allele
 	   my $allele_id = $allele{"id"};
-	   print "Genotype allele id for annot:$allele_id\n";
 
-	   my $allele_expression = $allele{"expression"};
-	   print "Genotype allele expression for annot:$allele_expression\n";
-
-	   my $allele_identifier = $pathogen_alleles{$allele_id}{"primary_identifier"};
-	   print "Pathogen Allele Identifier for annot:$allele_identifier\n";
-
-	   my $allele_name = $pathogen_alleles{$allele_id}{"name"};
-	   print "Pathogen Allele Name for annot:$allele_name\n";
-
+           # get the identifier for the gene to which the allele belongs
 	   my $allele_gene = $pathogen_alleles{$allele_id}{"gene"};
-	   print "Pathogen Allele Gene for annot:$allele_gene\n";
 
-	   my $allele_type = $pathogen_alleles{$allele_id}{"allele_type"};
-	   print "Pathogen Allele Type for annot:$allele_type\n";
-
-	   my $allele_desc = $pathogen_alleles{$allele_id}{"description"};
-	   print "Pathogen Allele Description for annot:$allele_desc\n";
-
-	   my $path_organism = $pathogen_genes{$allele_gene}{"organism"};
-	   print "Pathogen Gene organism for annot:$path_organism\n";
-
-	   #my $path_uniprot_acc = $allele{"uniquename"};
+           # use the gene identifer to get the UniProt accession of the gene
 	   my $path_uniprot_acc = $pathogen_genes{$allele_gene}{"uniquename"};
-	   print "Pathogen Gene UniProt accession for annot:$path_uniprot_acc\n";
-
-           # find if the current gene is already in the gene list,
-           # if it is, then add the allele details to the existing pathogen_gene element (add as a hash)
-           
-           # if not, then add the allele info to a new pathogen gene
 
 	   # add the uniprot accession for this gene to the array
-	   # of genes, which includes all interaction partner genes
-	   # (for multiple gene interaction) and the original gene
+	   # of genes, which includes all pathogen genes involved 
+	   # in the current interaction
 	   push(@pathogen_genes,$path_uniprot_acc);
 
 	 } # end foreach genotype allele
 
-         print "Genotype ID: $gene_or_genotype_id\n";
-
+         # get the annotation extensions for the current annotation,
+         # which are separated by commas
          my $annot_extension_list = $annotation{'annotation_extension'};
          my @annot_extensions = split(/,/,$annot_extension_list);
 
@@ -547,14 +374,6 @@ foreach my $int_id (1 .. $interaction_count) {
               my @annot_ext = split(/[\(\)]/,$annot_ext);
               $disease = $annot_ext[1];
             }
-
-=pod
-            # if the annotation extension begins with 'host_responsee', then assign value between brackets to host_response
-            if ($annot_ext =~ /^host_response/) {
-              my @annot_ext = split(/[\(\)]/,$annot_ext);
-              $host_response_id = $annot_ext[1];
-            }
-=cut
 
 	    # if the annotation extension begins with 'induced_by', then assign value between brackets to inducer
 	    if ($annot_ext =~ /^induced_by/) {
@@ -586,42 +405,19 @@ foreach my $int_id (1 .. $interaction_count) {
 	       $pathogen_interacting_protein = substr($pathogen_interacting_protein,8);
 	    }
 
-	    # if the annotation extension begins with 'pathogen_strain', then assign value between brackets to pathogen_strain_id
+	    # if the annotation extension begins with 'pathogen_strain',
+            # then assign value between brackets to pathogen_strain_id
 	    if ($annot_ext =~ /^pathogen_strain/) {
 	       my @annot_ext = split(/[\(\)]/,$annot_ext);
 	       $pathogen_strain_id = $annot_ext[1];
 	    }
 
-=pod
-            # if the annotation extension begins with 'interaction_partner',
-            # then assign value between brackets to interaction partner
-            # (note that there can multiple interaction partners)
-            if ($annot_ext =~ /^interaction_partner/) {
-
-              my @annot_ext = split(/[\(\)]/,$annot_ext);
-              $interaction_partner = $annot_ext[1];
-	      # UniProt accession is the interaction partner with 'UniProt:' prefix removed
-	      my $interaction_partner_id = substr($interaction_partner,8);
-
-	      # add the uniprot accession for this gene to the array
-	      # of genes, which includes all interaction partner genes
-	      # (for multiple gene interaction) and the original gene
-	      push(@pathogen_genes,$interaction_partner_id);
-
-            }
-=cut
-
          } # end foreach annotation extension
 
-
-         foreach my $pathogen_gene (@pathogen_genes) {
-           print "Pathogen Gene: $pathogen_gene\n";
-         }
 
          print "Host Taxon: $host_taxon\n";
          print "Tissue: $tissue\n" if defined $tissue;
          print "Disease: $disease\n" if defined $disease;
-#         print "Host Response: $host_response_id\n";
          print "Inducer: $inducer\n" if defined $inducer;
          print "Anti-infective: $anti_infective\n" if defined $anti_infective;
          print "Host Interaction protein: $host_interacting_protein\n" if defined $host_interacting_protein;
@@ -633,15 +429,9 @@ foreach my $int_id (1 .. $interaction_count) {
          print "Curator: $curator_name, $curator_email\n";
          print "Approver: $approver_name, $approver_email\n";
 
-#         $pathogen_species = $annotation{'genes'}{$gene_organism_name}{'organism'};
-#         print "Pathogen Species: $pathogen_species\n";
-
          $creation_date = $annotation{'creation_date'};
          print "Creation Date: $creation_date\n";
 
-
-         # declare array to hold the list of IDs from the pathogen_gene_mutant table 
-         my @pathogen_gene_mutant_ids;
 
          # if a pathogen strain taxon ID has been explicitly given in the annotation extension
          # then this taxon ID should be used for all interactions, otherwise use the taxon ID
@@ -655,6 +445,8 @@ foreach my $int_id (1 .. $interaction_count) {
 	 # insert data into the pathogen_gene table, for each pathogen gene
 	 # if it does not exist already (based on combination of taxon id and UniProt accession)
 	 foreach my $pathogen_gene_uniprot_acc (@pathogen_genes) {
+
+            print "Pathogen Gene: $pathogen_gene_uniprot_acc\n";
 
 	    my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
 				    SELECT $pathogen_taxon_id,'$pathogen_gene_uniprot_acc'
@@ -677,48 +469,37 @@ foreach my $int_id (1 .. $interaction_count) {
 	    my @row4 = $sql_result4->fetchrow_array();
 	    my $pathogen_gene_id = shift @row4;
 
-
-            # find the alleles relevant to the current gene
-            
-            # foreach allele in the full list of alleles
-              # retrieve the id
-              # get the gene identifier from the allele hash
-              # get the relevant gene hash from the full list of genes
-              # get the uniquename for the gene
-              # compare the uniquename with the uniprot identifier
-                 # if uniprot acc eq current uniprot id
-                   # retreive other allele details from the allele hash - name, allele_type, description
-                   # use allele details + gene id to insert a new pathogen_gene_allele record.
-
-
+            # iterate through the full list of alleles and identify those
+            # that belong to the current pathogen gene, based on comparison
+            # of the UniProt accessions
+            # when an allele belonging to the current pathogen gene is found,
+            # retrieve the relevant allele details, then insert a record into
+            # the pathogen_gene_allele table
             foreach my $allele_id (keys %pathogen_alleles) {
 
                # get the hash of allele details
                my %pathogen_allele = %{ $pathogen_alleles{$allele_id} };
 
+               # get the gene identifier that the allele belongs to
                my $pathogen_allele_gene_id = $pathogen_allele{"gene"};
-               print "Pathogen Allele Gene ID:$pathogen_allele_gene_id\n";
 
-               # get the hash of gene details from the pathogen_genes hash
+               # get the hash of gene details from the pathogen_genes hash, using the identifier
                my %pathogen_allele_gene = %{ $pathogen_genes{$pathogen_allele_gene_id} };
 
+               # get the UniProt accession of the gene from the gene details hash
                my $pathogen_allele_gene_uniprot_acc = $pathogen_allele_gene{"uniquename"};
-               print "Pathogen Allele Gene UniProt:$pathogen_allele_gene_uniprot_acc\n";
 
+               # compare the UniProt accessions of the allele's gene and the current pathogen gene
                if ($pathogen_allele_gene_uniprot_acc eq $pathogen_gene_uniprot_acc) {
-                    # now we know that this allele needs to be added as a pathogen_gene_allele record
-                    # for the current pathogen gene
 
-                   # retreive other allele details from the allele hash - name, allele_type, description
-                   # use allele details + gene id to insert a new pathogen_gene_allele record.
+                   # now we know that this allele needs to be added as
+                   # a pathogen_gene_allele record for the current pathogen gene
+		   $allele_count++;
 
+                   # retreive other allele details from the allele hash
                    my $gene_allele_name = $pathogen_allele{"name"};
                    my $gene_allele_type = $pathogen_allele{"allele_type"};
                    my $gene_allele_desc = $pathogen_allele{"description"};
-
-                   print "Allele name for current gene:$gene_allele_name\n";
-                   print "Allele type for current gene:$gene_allele_type\n";
-                   print "Allele desc for current gene:$gene_allele_desc\n";
 
 		   # insert data into pathogen_gene_allele table, including foreign key to pathogen_gene table
                    # where it does not already exist
@@ -735,34 +516,15 @@ foreach my $int_id (1 .. $interaction_count) {
 		   my $sql_result3 = $db_conn->prepare($sql_statement3);
 		   $sql_result3->execute() or die $DBI::errstr;
 
-               }
+               } # end if UniProt accessions match
 
             } # end foreach pathogen allele
 
-
-=pod
-
-	    # get the unique identifier for the inserted pathogen_gene_mutant record
-	    my $sql_statement5 = qq(SELECT id FROM pathogen_gene_mutant
-				    WHERE pathogen_gene_id = $pathogen_gene_id
-				    AND ncbi_taxon_id = $pathogen_taxon_id
-				    AND uniprot_accession = '$pathogen_gene_uniprot_acc');
-
-	    my $sql_result5 = $db_conn->prepare($sql_statement5);
-	    $sql_result5->execute() or die $DBI::errstr;
-	    my @row5 = $sql_result5->fetchrow_array();
-	    my $pathogen_gene_mutant_id = shift @row5;
-
-	    # add the current pathogen gene mutant ID to the list for all genes
-	    # (in case of multiple gene interaction)
-	    push(@pathogen_gene_mutant_ids,$pathogen_gene_mutant_id);
-=cut
          } # end foreach pathogen gene UniProt identifier
-=pod
+
 
 	 # get the largest available value for phi_base_accession,
 	 # so that we know to increment this number
-	 # (ACTUALLY, WE ONLY NEED TO DO THIS ONCE - AT VERY BEGINNING - NOT WITHIN THIS LOOP)
 	 my $sql_statement1 = qq(SELECT phi_base_accession FROM interaction
 				 WHERE id = 
 				   (SELECT MAX(id) FROM interaction)
@@ -783,6 +545,7 @@ foreach my $int_id (1 .. $interaction_count) {
 	 # insert a new record into the interaction table, returning the interaction identifier
 	 $sql_statement1 = qq(INSERT INTO interaction (phi_base_accession,curation_date) 
 				   VALUES ('$phi_base_accession','$creation_date') RETURNING id;);
+
 	 $sql_result1 = $db_conn->prepare($sql_statement1);
 	 $sql_result1->execute() or die $DBI::errstr;
 	 @row1 = $sql_result1->fetchrow_array();
@@ -793,9 +556,11 @@ foreach my $int_id (1 .. $interaction_count) {
 	 # PubMed id is the pubmed string with 'PMID:' prefix removed
 	 my $pubmed_id_num = substr($pubmed_id,5);
 
-	 # add records for the literature, host, and tissue tables associated with the interaction,
-	 # using the interaction id as a foreign key to the interaction table (where values exist)
+	 # add records for the all of the tables associated with the interaction,
+	 # using the interaction id as a foreign key to the interaction table
+
          if (defined $host_taxon_id) {
+
             # if the host interacting protein is defined, then this is also added to the interaction_host table,
             # otherwise, it is left out of the SQL insert statement
             my $inner_sql_statement;
@@ -811,14 +576,9 @@ foreach my $int_id (1 .. $interaction_count) {
 					);
             }
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+
          }
-         if (defined $tissue) {
-	    my $inner_sql_statement = qq(
-					 INSERT INTO interaction_tissue (interaction_id,brenda_tissue_id) 
-					   VALUES ($interaction_id,'$tissue');
-					);
-	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
-         }
+
          if (defined $disease) {
 	    my $inner_sql_statement = qq(
 					 INSERT INTO interaction_disease (interaction_id,disease_id) 
@@ -826,6 +586,7 @@ foreach my $int_id (1 .. $interaction_count) {
 					);
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
          }
+
 	 if (defined $pathogen_interacting_protein) {
 	    my $inner_sql_statement = qq(
 	                                 INSERT INTO pathogen_interacting_protein (interaction_id, uniprot_accession)
@@ -833,6 +594,7 @@ foreach my $int_id (1 .. $interaction_count) {
 					);
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 	 }
+
          if (defined $pubmed_id_num) {
 	    my $inner_sql_statement = qq(
 					 INSERT INTO interaction_literature (interaction_id, pubmed_id)
@@ -842,29 +604,28 @@ foreach my $int_id (1 .. $interaction_count) {
          }
 
 
-         if (defined $host_response_id) {
+         if (defined $tissue) {
 
-	    # before we can insert the host response,
+	    # before we can insert the host tissue table,
 	    # we need to get the identifier for the appropriate host
-	    my $sql_statement = qq(SELECT id FROM interaction_host
-				     WHERE interaction_id = $interaction_id
-				     AND ncbi_taxon_id = $host_taxon_id
+	    my $sql_statement = qq(select id from interaction_host
+				     where interaction_id = $interaction_id
+				     and ncbi_taxon_id = $host_taxon_id
 				  );
 
 	    my $sql_result = $db_conn->prepare($sql_statement);
-	    $sql_result->execute() or die $DBI::errstr;
+	    $sql_result->execute() or die $dbi::errstr;
 	    my @row = $sql_result->fetchrow_array();
 	    my $interaction_host_id = shift @row;
 
-	    # insert data into interaction_host_response table,
-	    # with foreign keys to the interaction table and the host_response ontology
-	    $host_response_count++;
-	    $sql_statement = qq(INSERT INTO interaction_host_response (interaction_host_id, host_response_id)
-				  VALUES ($interaction_id, '$host_response_id');
-			       );
-	    $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-
-         } # end if host response
+	    # insert data into interaction_host_tissue table,
+	    # with foreign keys to the interaction_host table and the BRENDA host tissue ontology
+	    my $inner_sql_statement = qq(
+					 INSERT INTO interaction_host_tissue (interaction_host_id,brenda_tissue_id) 
+					   VALUES ($interaction_host_id,'$tissue');
+					);
+	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
+         }
 
 
          if (defined $inducer) {
@@ -937,23 +698,51 @@ foreach my $int_id (1 .. $interaction_count) {
          } # end if anti-infective
 
 
- @genotype_alleles;
-	 # add records for each of the pathogen gene mutants associated with the interaction,
-	 # using the interaction id as a foreign key to the interaction table
-         # (in the case of a multiple gene interaction there will be multiple entries)
-         foreach my $pathogen_gene_mutant_id (@pathogen_gene_mutant_ids) {
+         # iterate through the array of alleles in the current genotype
+         # inserting a record in the interaction_pathogen_gene_allele table
+         foreach my $genotype_allele_index (0 .. $#genotype_alleles) {
+     
+            # get the allele hash available from the genotype 
+	    my %allele = %{ $genotype_alleles[$genotype_allele_index] };
+
+            # get the identifier for the allele 
+	    my $allele_id = $allele{"id"};
+
+            # get the allele expression used for the current interaction
+	    my $allele_expression = $allele{"expression"};
+
+            # get the allele name and type
+	    my $allele_name = $pathogen_alleles{$allele_id}{"name"};
+	    my $allele_type = $pathogen_alleles{$allele_id}{"allele_type"};
+
+	    # get the unique identifier for the relevant pathogen_gene_allele record
+            # based on allele name and allele type
+	    my $sql_statement5 = qq(SELECT id FROM pathogen_gene_allele
+				    WHERE allele_name = '$allele_name'
+				    AND allele_type = '$allele_type');
+
+	    my $sql_result5 = $db_conn->prepare($sql_statement5);
+	    $sql_result5->execute() or die $DBI::errstr;
+	    my @row5 = $sql_result5->fetchrow_array();
+	    my $pathogen_gene_allele_id = shift @row5;
+
+	    # add a record for each allele associated with the interaction,
+	    # using the interaction_id and pathogen_gene_allele_id as a foreign keys,
+	    # (in the case of a multiple allele interaction there will be multiple entries)
 	    my $inner_sql_statement = qq(
-					 INSERT INTO interaction_pathogen_gene_mutant (interaction_id,pathogen_gene_mutant_id) 
-					   VALUES ($interaction_id,$pathogen_gene_mutant_id);
+		  	                 INSERT INTO interaction_pathogen_gene_allele 
+                                           (interaction_id, pathogen_gene_allele_id, allele_expression) 
+					   VALUES ($interaction_id, $pathogen_gene_allele_id, '$allele_expression');
 					);
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
-         }
+
+	 } # end foreach genotype allele
 
 
          # Enter curator data into database
          # First, find out if the curator already exists, based on the email address
          # (the email will be a better identifier than the curator name)
-         # NOTE: curation organisation is not currently captured by Canto
+         # note: curation organisation is not currently captured by Canto
 	 my $sql_statement = qq(SELECT id FROM curator
 				  WHERE email = '$curator_email';
 			       );
@@ -1025,7 +814,9 @@ foreach my $int_id (1 .. $interaction_count) {
 	 $sql_result = $db_conn->prepare($sql_statement);
 	 $sql_result->execute() or die $DBI::errstr;
 
+
       } # end if first annotation
+
 
       # for each annotation, find the type of data being annotated
       # and the corresponding value and evidence code
@@ -1033,104 +824,60 @@ foreach my $int_id (1 .. $interaction_count) {
       my $annot_value = $annotations[$annot_index]{'term'};
       my $annot_evid_code = $annotations[$annot_index]{'evidence_code'};
 
-      # make appropriate assignment depending on the type of data
-=cut
-#      if ($annot_type eq 'pathogen_taxon') {
-#         $pathogen_taxon = $annot_value;
-#         print "Pathogen Taxon: $pathogen_taxon\n";
-#         # the pathogen taxon is split between the name and value, separated by colon
-#         # need to extract the taxon value
-#         my @pathogen_taxon_parts = split(/[:]/,$pathogen_taxon);
-#         $pathogen_taxon_id = $pathogen_taxon_parts[1];
-#         print "Pathogen Taxon ID: $pathogen_taxon_id\n";
-#      } elsif ($annot_type eq 'phenotype_outcome') {
-=pod
-      if ($annot_type eq 'phenotype_outcome') {
+      # insert the appropriate record for the annotation, depending on the type of data
+      if ($annot_type eq 'phi_interaction_phenotype') {
 
-         $phenotype_outcome = $annot_value;
-         print "Phenotype Outcome: $phenotype_outcome\n";
+         $phi_interaction_phenotype = $annot_value;
+         #print "PHI Interaction Phenotype: $phi_interaction_phenotype\n";
 
-	 # insert data into the appropriate interaction_phenotype_outcome table,
-	 # with for a foreign key to the phenotype_outcome ontology
-	 $phenotype_outcome_count++;
-	 my $sql_statement = qq(INSERT INTO interaction_phenotype_outcome
-			       (interaction_id, phenotype_outcome_id)
-			       VALUES ($interaction_id, '$phenotype_outcome');
+	 # insert data into the appropriate interaction_phi_interaction_phenotype table,
+	 # with for a foreign key to the phi_phenotype ontology
+	 $phi_interaction_phenotype_count++;
+	 my $sql_statement = qq(INSERT INTO interaction_phi_interaction_phenotype
+			       (interaction_id, phi_phenotype_id, phi_evidence)
+			       VALUES ($interaction_id, '$phi_interaction_phenotype', '$annot_evid_code');
 			    );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
+      } elsif ($annot_type eq 'phi_pathogen_phenotype') {
 
-         # get the experiment specification term associated with the phenotype outcome,
-         # which is given by the evidence code
-         # get the term ID from the ontology, based on the name
-         print "Evidence Code:$annot_evid_code\n";
-         my $exp_spec_id = $exp_spec_ontology->get_term_by_name($annot_evid_code)->id;
+         $phi_pathogen_phenotype = $annot_value;
+         #print "PHI Pathogen Phenotype: $phi_pathogen_phenotype\n";
 
-         if (defined $exp_spec_id) {
-            print "Experiment Specification ID:$exp_spec_id\n";
-	    my $inner_sql_statement = qq(
-					 INSERT INTO interaction_experiment_spec (interaction_id, experiment_spec_id) 
-					   VALUES ($interaction_id,'$exp_spec_id');
-					);
-	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
-         }
-
-      } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' ) {
-
-         $go_id = $annot_value;
-         $go_evid_code = $annot_evid_code;
-         print "GO Annotation: $go_id ($go_evid_code)\n";
-
-	 # insert data into interaction_go_annotation table,
-	 # with foreign keys to the interaction table and the go_evidence_code_table 
-	 my $sql_statement = qq(INSERT INTO interaction_go_annotation (interaction_id, go_id, go_evidence_code)
-			       VALUES ($interaction_id, '$go_id', '$go_evid_code');
+	 # insert data into the appropriate interaction_phi_interaction_pathogen table,
+	 # with for a foreign key to the phi_phenotype ontology
+	 $phi_pathogen_phenotype_count++;
+	 my $sql_statement = qq(INSERT INTO interaction_phi_pathogen_phenotype
+			       (interaction_id, phi_phenotype_id, phi_evidence)
+			       VALUES ($interaction_id, '$phi_pathogen_phenotype', '$annot_evid_code');
 			    );
 	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-	 $go_annotation_count++;
 
+      } elsif ($annot_type eq 'phi_host_phenotype') {
 
-      } elsif ($annot_type eq 'disease') {
+         $phi_host_phenotype = $annot_value;
+         #print "PHI Host Phenotype: $phi_host_phenotype\n";
 
-         $disease = $annot_value;
-         print "Disease: $disease\n";
-
-	 # insert data into interaction_disease table,
-	 # with foreign keys to the interaction table and the disease ontology
-	 $disease_count++;
-	 #$sql_statement = qq(INSERT INTO interaction_disease (interaction_id, disease_id, disease_severity_id)
-	 my $sql_statement = qq(INSERT INTO interaction_disease (interaction_id, disease_id)
-			       VALUES ($interaction_id, '$disease');
-			    );
-	 my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-=cut
-
-=pod
-      } elsif ($annot_type eq 'host_response') {
-
-         $host_response_id = $annot_value;
-         print "Host Response: $host_response_id\n";
-
-         # before we can insert the host response,
-         # we need to get the identifier for the appropriate host
+	 # before we can insert the host phenotype,
+	 # we need to get the identifier for the appropriate host
 	 my $sql_statement = qq(SELECT id FROM interaction_host
-				  WHERE interaction_id = $interaction_id
-				  AND ncbi_taxon_id = $host_taxon_id
+				WHERE interaction_id = $interaction_id
+				AND ncbi_taxon_id = $host_taxon_id
 			       );
 
 	 my $sql_result = $db_conn->prepare($sql_statement);
-	 $sql_result->execute() or die $DBI::errstr;
+	 $sql_result->execute() or die $dbi::errstr;
 	 my @row = $sql_result->fetchrow_array();
 	 my $interaction_host_id = shift @row;
 
-	 # insert data into interaction_host_response table,
-	 # with foreign keys to the interaction table and the host_response ontology
-	 $host_response_count++;
-	 $sql_statement = qq(INSERT INTO interaction_host_response (interaction_host_id, host_response_id)
-			       VALUES ($interaction_id, '$host_response_id');
-			    );
-	 $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-=cut
+	 # insert data into the appropriate interaction_phi_host_phenotype table,
+	 # with for a foreign key to the phi_phenotype ontology
+	 $phi_host_phenotype_count++;
+	 my $sql_statement2 = qq(INSERT INTO interaction_phi_host_phenotype
+			           (interaction_host_id, phi_phenotype_id, phi_evidence)
+			           VALUES ($interaction_host_id, '$phi_host_phenotype', '$annot_evid_code');
+			        );
+	 my $sql_result2 = $db_conn->do($sql_statement2) or die $DBI::errstr;
 
       } # end elsif annotation type
 
@@ -1141,11 +888,9 @@ foreach my $int_id (1 .. $interaction_count) {
 } # end foreach interaction
 
 
-my $go_mol_function_count = 0;
-my $go_biol_process_count = 0;
-my $go_cell_location_count = 0;
-
 # iterate through all GO annotations
+# inserting each into the database, associated with the
+# relevant pathogen gene and PubMed ID
 foreach my $go_annot_ref (@go_annotations) {
 
   # declare variables
@@ -1157,15 +902,17 @@ foreach my $go_annot_ref (@go_annotations) {
   my $go_evid_code;
   my $pathogen_strain_id;
 
+  # increment overall GO annotation count
   $go_annotation_count++;
  
-  print "IN GO ANNOTATION REF:$go_annot_ref\n";
-
   # get the hash of GO annotation details
   my %go_annotation = %{ $go_annot_ref };
 
+  # get the type of GO annotation
   my $annot_type = $go_annotation{'type'};
-  print "GO ANNOTATION TYPE:$annot_type\n";
+
+  # increment the relevant counter,
+  # depending on the type of GO annotation
   if ($annot_type eq 'molecular_function') {
     $go_mol_function_count++;
   } elsif ($annot_type eq 'biological_process') {
@@ -1174,25 +921,24 @@ foreach my $go_annot_ref (@go_annotations) {
     $go_cell_location_count++;
   }
 
+  # get the gene identifier
   my $gene_id = $go_annotation{'gene'};
 
-  #get the gene from the hash of pathogen genes, using the ID
+  # get the gene from the hash of pathogen genes, using the ID
   my %gene = %{ $pathogen_genes{$gene_id} };
            
-  my $path_organism = $gene{"organism"};
-  print "Pathogen Gene organism for annot:$path_organism\n";
-
+  # get the UniProt accession for the gene
   my $pathogen_gene_uniprot_acc = $gene{"uniquename"};
-  print "Pathogen Gene UniProt Acc for annot:$pathogen_gene_uniprot_acc\n";
 
+  # get the PubMed ID associated with the GO annotation
   $pubmed_id = $go_annotation{'publication'};
-  print "PubMed Article: $pubmed_id\n";
 
+  # get the annotation extensions for the GO annotation
   my $annot_extension_list = $go_annotation{'annotation_extension'};
   my @annot_extensions = split(/,/,$annot_extension_list);
 
-  # identify each annotation extension in the list
-  # and find out if a specific pathogen strain taxon ID has been given
+  # from the annotation extensions in the list
+  # find out if a specific pathogen strain taxon ID has been given
   foreach my $annot_ext (@annot_extensions) {
 
     # if the annotation extension begins with 'pathogen_strain', then assign value between brackets to pathogen_strain_id
@@ -1203,8 +949,6 @@ foreach my $go_annot_ref (@go_annotations) {
 
   } # end foreach annotation extension
 
-  print "Pathogen Strain ID: $pathogen_strain_id\n" if defined $pathogen_strain_id;
-
   # if a pathogen strain taxon ID has been explicitly given in the annotation extension
   # then this taxon ID should be used for all interactions, otherwise use the taxon ID
   # retrieved from the UniProt accessions supplied
@@ -1212,7 +956,6 @@ foreach my $go_annot_ref (@go_annotations) {
     # pathogen taxon id becomes the strain taxon with 'NCBItaxon:' prefix removed
     $pathogen_taxon_id = substr($pathogen_strain_id,10);
   }
-
 
   # insert data into the pathogen_gene table,
   # if it does not exist already (based on combination of taxon id and UniProt accession)
@@ -1240,8 +983,6 @@ foreach my $go_annot_ref (@go_annotations) {
   $go_id = $go_annotation{'term'};
   $go_evid_code = $go_annotation{'evidence_code'};
 
-  print "GO Annotation: $go_id ($go_evid_code)\n";
-
   # insert data into pathogen_gene_go_annotation table,
   # with foreign keys to the pathogen_gene table, the go_evidence_code_table, the GO ontology, and PubMed,
   # unless it already exists 
@@ -1259,14 +1000,15 @@ foreach my $go_annot_ref (@go_annotations) {
 
 
 print "\nTotal interactions:$interaction_count\n";
+print "Total alleles:$allele_count\n";
 print "Total annotations :$annotation_count\n";
-print "Total phenotype outcomes: $phenotype_outcome_count\n";
-#print "Total diseases: $disease_count\n";
+print "Total PHI interaction phenotypes: $phi_interaction_phenotype_count\n";
+print "Total PHI pathogen phenotypes: $phi_pathogen_phenotype_count\n";
+print "Total PHI host phenotypes: $phi_host_phenotype_count\n";
 print "Total GO annotations: $go_annotation_count\n";
 print "GO molecular function annotations: $go_mol_function_count\n";
 print "GO biological process annotations: $go_biol_process_count\n";
 print "GO cellular location annotations: $go_cell_location_count\n";
-#print "Total host responses: $host_response_count\n";
 
 #close (JSON_OUTPUT_FILE);
 
