@@ -1,0 +1,166 @@
+format-version: 1.2
+date: 03:08:2015 20:52
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: default_namespace
+
+[Term]
+id: ID:0000000
+name: evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:32:20Z
+
+[Term]
+id: ID:0000001
+name: cell growth assay
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:35:27Z
+
+[Term]
+id: ID:0000002
+name: chromatin immunoprecipitation
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:35:52Z
+
+[Term]
+id: ID:0000003
+name: epitope-tagged protein immunolocalization
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:41:23Z
+
+[Term]
+id: ID:0000004
+name: co-immunoprecipitation
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:37:03Z
+
+[Term]
+id: ID:0000005
+name: functional test in host organism
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:42:03Z
+
+[Term]
+id: ID:0000006
+name: count assay
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:38:28Z
+
+[Term]
+id: ID:0000007
+name: direct injection into host organism
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:38:44Z
+
+[Term]
+id: ID:0000008
+name: electrophoretic mobility shift assay
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:39:05Z
+
+[Term]
+id: ID:0000009
+name: enzyme assay
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:39:48Z
+
+[Term]
+id: ID:0000010
+name: gel electrophoresis
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:42:21Z
+
+[Term]
+id: ID:0000011
+name: immunolocalization
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:42:44Z
+
+[Term]
+id: ID:0000012
+name: microscopy
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:43:25Z
+
+[Term]
+id: ID:0000013
+name: other
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:43:44Z
+
+[Term]
+id: ID:0000014
+name: particle size
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:43:58Z
+
+[Term]
+id: ID:0000015
+name: plasmid maintenance assay
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:44:22Z
+
+[Term]
+id: ID:0000016
+name: quantitative PCR
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:44:37Z
+
+[Term]
+id: ID:0000017
+name: reporter gene assay
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:45:00Z
+
+[Term]
+id: ID:0000018
+name: substance quantification
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:46:08Z
+
+[Term]
+id: ID:0000019
+name: transcript expression level
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:46:26Z
+
+[Term]
+id: ID:0000020
+name: transient expression in host organism
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:47:05Z
+
+[Term]
+id: ID:0000021
+name: western blot assay
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T16:47:23Z
+
+[Term]
+id: ID:0000022
+name: sequence analysis
+is_a: ID:0000000 ! evidence
+created_by: irvinea
+creation_date: 2015-08-03T17:28:34Z
+
