@@ -31,7 +31,7 @@ $json_output{"interactions"} = \@interactions;
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tPathogen Interacting Proteins\tPathogen Taxon\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPhenotype Outcome\tDefects\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tHost Response\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -45,8 +45,9 @@ my $interaction_count = 0;
 print "Reading ontology files...\n";
 my $obo_parser = OBO::Parser::OBOParser->new;
 my $exp_spec_ontology = $obo_parser->work("../ontology/phibase/experiment_specification.obo");
-my $phen_outcome_ontology = $obo_parser->work("../ontology/phibase/phenotype_outcome.obo");
-my $host_response_ontology = $obo_parser->work("../ontology/phibase/host_response.obo");
+#my $phen_outcome_ontology = $obo_parser->work("../ontology/phibase/phenotype_outcome.obo");
+#my $host_response_ontology = $obo_parser->work("../ontology/phibase/host_response.obo");
+my $phi_phenotype_ontology = $obo_parser->work("../ontology/phibase/phi_phenotype.obo");
 my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/doid.obo");
 my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/PlantDisease/plant_disease_ontology.obo");
 my $brenda_tissue_ontology = $obo_parser->work("../ontology/Tissue/BrendaTissueOBO.obo");
@@ -108,17 +109,22 @@ while (my @row = $sql_result->fetchrow_array()) {
   }
 
   # get the pathogen gene related fields 
-  $sql_stmt2 = qq(SELECT uniprot_accession,
+  $sql_stmt2 = qq(SELECT pathogen_gene_id,
+                         uniprot_accession,
+                         ncbi_taxon_id,
                          gene_name,
-                         pathogen_gene.ncbi_taxon_id
+                         allele_name,
+                         allele_type,
+                         allele_description,
+                         allele_expression
                     FROM interaction,
-                         interaction_pathogen_gene_mutant, 
-                         pathogen_gene_mutant,
+                         interaction_pathogen_gene_allele, 
+                         pathogen_gene_allele,
                          pathogen_gene
                     WHERE interaction.id = $interaction_id
-                      AND interaction.id = interaction_pathogen_gene_mutant.interaction_id
-                      AND pathogen_gene_mutant.id = interaction_pathogen_gene_mutant.pathogen_gene_mutant_id
-                      AND pathogen_gene.id = pathogen_gene_mutant.pathogen_gene_id
+                      AND interaction.id = interaction_pathogen_gene_allele.interaction_id
+                      AND pathogen_gene_allele.id = interaction_pathogen_gene_allele.pathogen_gene_allele_id
+                      AND pathogen_gene.id = pathogen_gene_allele.pathogen_gene_id
                  ;);
 
   $sql_result2 = $db_conn->prepare($sql_stmt2);
@@ -127,6 +133,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   # declare variable to store field values
   my $uniprot_accessions = "";
   my $phibase_gene_names = "";
+  my $allele_details = "";
   my $uniprot_gene_names = "";
   my $uniprot_protein_names = "";
   my $uniprot_embl_accessions = "";
@@ -138,27 +145,53 @@ while (my @row = $sql_result->fetchrow_array()) {
   # (taxon ID array required to check if curator is species expert)
   my @path_taxon_id_array;
   my @path_taxon_array;
-  my @pathogen_gene_array;
+  my @pathogen_allele_array;
 
-  # since there may be multiple pathogen gene mutants in a single interaction
+
+
+  # initalise output string for GO terms and array for JSON output
+  my $go_output_string = "";
+  my @phibase_go_annotations;
+
+
+
+
+
+
+
+  # since there may be multiple pathogen gene alleles in a single interaction
   # (as in multiple gene interaction), need to retrieve all of them and construct
   # output string based on semi-colon delimiter
   while (my @row2 = $sql_result2->fetchrow_array()) {
 
+     my $pathogen_gene_id = shift @row2;
      my $uniprot_acc = shift @row2;
-     my $phibase_gene_name = shift @row2;
      my $path_taxon_id = shift @row2;
+     my $phibase_gene_name = shift @row2;
+     my $allele_name = shift @row2;
+     my $allele_type = shift @row2;
+     my $allele_description = shift @row2;
+     my $allele_expression = shift @row2;
 
      # create a new pathogen gene hash to store 
      # details of each pathogen gene for JSON output 
-     my %pathogen_gene_hash = ();
+     my %pathogen_allele_hash = ();
 
      # append UniProt accession and PHI-base gene name to lists
      # and add them to the pathogen gene hash
      $uniprot_accessions .= "$uniprot_acc;";
-     $phibase_gene_names .= "$phibase_gene_name;";
-     $pathogen_gene_hash{"uniprot_acc"} = $uniprot_acc;
-     $pathogen_gene_hash{"phibase_gene_name"} = $phibase_gene_name;
+     $phibase_gene_names .= "$phibase_gene_name;" if defined $phibase_gene_name;
+     $pathogen_allele_hash{"uniprot_acc"} = $uniprot_acc;
+     $pathogen_allele_hash{"phibase_gene_name"} = $phibase_gene_name;
+     $allele_details .= "$allele_name" if defined $allele_name;
+     $allele_details .= "($allele_type)" if defined $allele_type;
+     $allele_details .= ":$allele_description" if defined $allele_description;
+     $allele_details .= ":$allele_expression;" if defined $allele_expression;
+     $pathogen_allele_hash{"allele_name"} = $allele_name;
+     $pathogen_allele_hash{"allele_type"} = $allele_type;
+     $pathogen_allele_hash{"allele_description"} = $allele_description;
+     $pathogen_allele_hash{"allele_expression"} = $allele_expression;
+
 
      # get corresponding data from UniProt
 
@@ -180,7 +213,7 @@ while (my @row = $sql_result->fetchrow_array()) {
          $uniprot_gene_names .= "$gene_name;";
          push(@uniprot_gene_name_array, $gene_name);
        }
-       $pathogen_gene_hash{"uniprot_gene_names"} = \@uniprot_gene_name_array;
+       $pathogen_allele_hash{"uniprot_gene_names"} = \@uniprot_gene_name_array;
      }
 
      my $embl_ids_string = $uniprot_fields[1]; # the EMBL IDs string is the second element of the uniprot fields
@@ -193,7 +226,7 @@ while (my @row = $sql_result->fetchrow_array()) {
          $uniprot_embl_accessions .= "$embl_id;";
          push(@uniprot_embl_acc_array, $embl_id);
        }
-       $pathogen_gene_hash{"uniprot_embl_accessions"} = \@uniprot_embl_acc_array;
+       $pathogen_allele_hash{"uniprot_embl_accessions"} = \@uniprot_embl_acc_array;
      }
 
      my $protein_names_string = $uniprot_fields[2]; # the protein names string is the third element of the uniprot fields
@@ -206,7 +239,7 @@ while (my @row = $sql_result->fetchrow_array()) {
          $uniprot_protein_names .= "$protein_name;";
          push(@uniprot_protein_name_array,$protein_name);
        }
-       $pathogen_gene_hash{"uniprot_protein_names"} = \@uniprot_protein_name_array;
+       $pathogen_allele_hash{"uniprot_protein_names"} = \@uniprot_protein_name_array;
      }
 
      my $go_ids_string = $uniprot_fields[3]; # the GO IDs string is the fourth element of the uniprot fields
@@ -225,7 +258,7 @@ while (my @row = $sql_result->fetchrow_array()) {
          $go_hash{"go_name"} = $go_name;
          push(@uniprot_go_array,\%go_hash);
        }
-       $pathogen_gene_hash{"uniprot_go_annotations"} = \@uniprot_go_array;
+       $pathogen_allele_hash{"uniprot_go_annotations"} = \@uniprot_go_array;
      }
 
      # add the pathogen taxon id to the array,
@@ -265,15 +298,83 @@ while (my @row = $sql_result->fetchrow_array()) {
        }
      }
 
+
+
+
+
+  # get the PHI-base curated Gene Ontology annotation fields 
+  my $sql_stmt6 = qq(SELECT go_id,
+                            go_evidence_code
+                     FROM pathogen_gene,
+                          pathogen_gene_go_annotation
+                     WHERE pathogen_gene.id = $pathogen_gene_id
+                     AND pathogen_gene.id = pathogen_gene_go_annotation.pathogen_gene_id
+                    ;);
+  my $sql_result6 = $db_conn->prepare($sql_stmt6);
+  $sql_result6->execute() or die $DBI::errstr;
+
+  # since there may be multiple GO terms,
+  # need to retrieve all of them and construct output string 
+  # based on comma and semi-colon delimiters
+  while (my @row6 = $sql_result6->fetchrow_array()) {
+
+    # create a hash for the current go annotation
+    my %go_annotation;
+
+    my $go_id = shift @row6;
+    my $go_evid_code = shift @row6;
+    my $go_term = "";
+
+    # add ID and evidence to the hash
+    $go_annotation{"go_id"} = $go_id;
+    $go_annotation{"go_evidence_code"} = $go_evid_code;
+
+    # retrieve the name of the GO term, using the Quick REST web service
+    my $query = "http://www.ebi.ac.uk/QuickGO/GTerm?id=$go_id&format=oboxml";
+    my $xml_response = get $query;
+
+    # use XML twig to parse the XML data
+    my $xml_twig = XML::Twig->new();
+
+    if (defined $xml_response) {
+       # parse the XML data to get the GO term name
+       $xml_twig->parse($xml_response);
+       if (defined $xml_twig->root->first_child('term')) {
+         $go_term = $xml_twig->root->first_child('term')->field('name');
+       }
+    } else {
+       print STDERR "ERROR: Gene Ontology term not found for $go_id\n";
+    }
+
+    if (defined $go_evid_code) {  # GO term with evid code
+      $go_output_string .= "$go_id($go_evid_code):$go_term;";
+      $go_annotation{"go_term_name"} = $go_term;
+    } else {  # GO term without evid code
+      $go_output_string .= "$go_id:$go_term;";
+    }
+
+    # add the current GO annotation to the list of PHI-base curated GO annotation
+    push(@phibase_go_annotations, \%go_annotation);
+
+  }
+
+
+
+
+
+
+
+
+
      # add the current pathogen gene to the array of all pathogen genes
      # (there will be multiple genes for a multiple gene interaction)
-     push(@pathogen_gene_array,\%pathogen_gene_hash);
+     push(@pathogen_allele_array,\%pathogen_allele_hash);
 
-  } # end while pathogen_gene_mutant records
+  } # end while pathogen_gene_allele records
 
-  # add all of the gene data taxon data to the interaction_hash for JSON output
-  if (@pathogen_gene_array) {
-    $interaction_hash{"pathogen_genes"} = \@pathogen_gene_array;
+  # add all of the gene data and taxon data to the interaction_hash for JSON output
+  if (@pathogen_allele_array) {
+    $interaction_hash{"pathogen_alleles"} = \@pathogen_allele_array;
   }
   if (@path_taxon_array) {
     $interaction_hash{"pathogen_taxa"} = \@path_taxon_array;
@@ -283,10 +384,8 @@ while (my @row = $sql_result->fetchrow_array()) {
   # Note that the pathogen interacting protein is not directly connnected
   # to a pathogen gene, since the interacting protein may be the result
   # of a multiple gene interaction (thus is not associated with a single gene)
-  my $sql_stmt3 = qq(SELECT uniprot_accession
-                    FROM interaction,
-                         pathogen_interacting_protein
-                   WHERE interaction.id = $interaction_id
+  my $sql_stmt3 = qq(SELECT uniprot_accession FROM interaction, pathogen_interacting_protein
+                     WHERE interaction.id = $interaction_id
                      AND interaction.id = pathogen_interacting_protein.interaction_id
                  ;);
 
@@ -315,12 +414,13 @@ while (my @row = $sql_result->fetchrow_array()) {
   $uniprot_gene_names =~ s/;$//;
   $uniprot_protein_names =~ s/;$//;
   $uniprot_embl_accessions =~ s/;$//;
+  $allele_details =~ s/;$//;
   $uniprot_go_annotation =~ s/;$//;
   $pathogen_interacting_proteins =~ s/;$//;
   $path_taxa =~ s/;$//;
 
   # print to the output file
-  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$pathogen_interacting_proteins\t$path_taxa\t";
+  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$allele_details\t$pathogen_interacting_proteins\t$path_taxa\t";
 
 
   # get the disease related fields 
@@ -476,10 +576,10 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # get the tissue term identifiers
   $sql_stmt2 = qq(SELECT brenda_tissue_id
-                    FROM interaction,
-                         interaction_tissue
-                   WHERE interaction.id = $interaction_id
-                     AND interaction.id = interaction_tissue.interaction_id
+                    FROM interaction_host,
+                         interaction_host_tissue
+                   WHERE interaction_host.id = $interaction_host_id
+                     AND interaction_host.id = interaction_host_tissue.interaction_host_id
                  ;);
 
   $sql_result2 = $db_conn->prepare($sql_stmt2);
@@ -516,68 +616,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   }
 
 
-  # get the PHI-base curated Gene Ontology annotation fields 
-  $sql_stmt2 = qq(SELECT go_id,
-                         go_evidence_code
-                    FROM interaction,
-                         interaction_go_annotation
-                   WHERE interaction.id = $interaction_id
-                     AND interaction.id = interaction_go_annotation.interaction_id
-                 ;);
-
-  $sql_result2 = $db_conn->prepare($sql_stmt2);
-  $sql_result2->execute() or die $DBI::errstr;
-
-  # initalise output string for GO terms and array for JSON output
-  my $go_output_string = "";
-  my @phibase_go_annotations;
-
-  # since there may be multiple GO terms,
-  # need to retrieve all of them and construct output string 
-  # based on comma and semi-colon delimiters
-  while (@row2 = $sql_result2->fetchrow_array()) {
-
-    # create a hash for the current go annotation
-    my %go_annotation;
-
-    my $go_id = shift @row2;
-    my $go_evid_code = shift @row2;
-    my $go_term = "";
-
-    # add ID and evidence to the hash
-    $go_annotation{"go_id"} = $go_id;
-    $go_annotation{"go_evidence_code"} = $go_evid_code;
-
-    # retrieve the name of the GO term, using the Quick REST web service
-    my $query = "http://www.ebi.ac.uk/QuickGO/GTerm?id=$go_id&format=oboxml";
-    my $xml_response = get $query;
-
-    # use XML twig to parse the XML data
-    my $xml_twig = XML::Twig->new();
-
-    if (defined $xml_response) {
-       # parse the XML data to get the GO term name
-       $xml_twig->parse($xml_response);
-       if (defined $xml_twig->root->first_child('term')) {
-         $go_term = $xml_twig->root->first_child('term')->field('name');
-       }
-    } else {
-       print STDERR "ERROR: Gene Ontology term not found for $go_id\n";
-    }
-
-
-    if (defined $go_evid_code) {  # GO term with evid code
-      $go_output_string .= "$go_id($go_evid_code):$go_term;";
-      $go_annotation{"go_term_name"} = $go_term;
-    } else {  # GO term without evid code
-      $go_output_string .= "$go_id:$go_term;";
-    }
-
-    # add the current GO annotation to the list of PHI-base curated GO annotation
-    push(@phibase_go_annotations, \%go_annotation);
-
-  }
-
+  # display the GO terms retrieved earlier
   # remove the final semi-colon from end of the string
   $go_output_string =~ s/;$//;
   # print the list of GO terms to file
@@ -589,51 +628,145 @@ while (my @row = $sql_result->fetchrow_array()) {
   $interaction_hash{"phibase_go_annotations"} = \@phibase_go_annotations;
 
 
-  # initalise output string for phenotype outcomes and array for JSON output
-  my $phenotype_outcome_string = "";
-  my @phenotype_outcomes;
+  # initalise output string for PHI interaction phenotypes and array for JSON output
+  my $phi_interaction_phenotype_string = "";
+  my @phi_interaction_phenotypes;
 
-  # get the phenotype outcome term identifiers
-  $sql_stmt2 = qq(SELECT phenotype_outcome_id
+  # get the PHI interaction phenotype term identifiers
+  $sql_stmt2 = qq(SELECT phi_phenotype_id
                     FROM interaction,
-                         interaction_phenotype_outcome
+                         interaction_phi_interaction_phenotype
                    WHERE interaction.id = $interaction_id
-                     AND interaction.id = interaction_phenotype_outcome.interaction_id
+                     AND interaction.id = interaction_phi_interaction_phenotype.interaction_id
                  ;);
 
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
-  # since there may be multiple phenotype outcomes,
+  # since there may be multiple PHI interaction phenotypes,
   # need to retrieve all of them and construct output string 
   # based on comma and semi-colon delimiters
   while (@row2 = $sql_result2->fetchrow_array()) {
 
-    # create phenotype hash for JSON output
-    my %phenotype_hash;
+    # create interaction phenotype hash for JSON output
+    my %interaction_phenotype_hash;
 
-    my $phenotype_outcome_id = shift @row2;
+    my $phi_interaction_phenotype_id = shift @row2;
 
-    # use the phenotype outcome ontology to retrieve the term name, based on the identifier
-    my $phenotype_outcome_name = $phen_outcome_ontology->get_term_by_id($phenotype_outcome_id)->name;
-    $phenotype_outcome_string .= "$phenotype_outcome_id:$phenotype_outcome_name;";
-    $phenotype_hash{"phenotype_outcome_id"} = $phenotype_outcome_id;
-    $phenotype_hash{"phenotype_outcome_name"} = $phenotype_outcome_name;
+    # use the PHI phenotype ontology to retrieve the term name, based on the identifier
+    my $phi_interaction_phenotype_name = $phi_phenotype_ontology->get_term_by_id($phi_interaction_phenotype_id)->name;
+    $phi_interaction_phenotype_string .= "$phi_interaction_phenotype_id:$phi_interaction_phenotype_name;";
+    $interaction_phenotype_hash{"phi_interaction_phenotype_id"} = $phi_interaction_phenotype_id;
+    $interaction_phenotype_hash{"phi_interaction_phenotype_name"} = $phi_interaction_phenotype_name;
 
-    # add the current phenotype to the list of phenotypes
-    push(@phenotype_outcomes, \%phenotype_hash);
+    # add the current interaction phenotype to the list of interaction phenotypes
+    push(@phi_interaction_phenotypes, \%interaction_phenotype_hash);
 
   }
 
   # remove the final semi-colon from end of the string
-  $phenotype_outcome_string =~ s/;$//;
-  # output the Phenotype Outcomes
-  print DATABASE_DATA_FILE "$phenotype_outcome_string\t";
-  # add the phenotypes outcomes to the interaction hash for JSON output
-  if (@phenotype_outcomes) {
-    $interaction_hash{"phenotype_outcomes"} = \@phenotype_outcomes;
+  $phi_interaction_phenotype_string =~ s/;$//;
+  # output the PHI Interaction Phenotypes
+  print DATABASE_DATA_FILE "$phi_interaction_phenotype_string\t";
+  # add the interaction phenotypes to the interaction hash for JSON output
+  if (@phi_interaction_phenotypes) {
+    $interaction_hash{"phi_interaction_phenotypes"} = \@phi_interaction_phenotypes;
   }
- 
+
+
+  # initalise output string for PHI pathogen phenotypes and array for JSON output
+  my $phi_pathogen_phenotype_string = "";
+  my @phi_pathogen_phenotypes;
+
+  # get the PHI pathogen phenotype term identifiers
+  $sql_stmt2 = qq(SELECT phi_phenotype_id
+                    FROM interaction,
+                         interaction_phi_pathogen_phenotype
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_phi_pathogen_phenotype.interaction_id
+                 ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # since there may be multiple PHI pathogen phenotypes,
+  # need to retrieve all of them and construct output string 
+  # based on comma and semi-colon delimiters
+  while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create pathogen phenotype hash for JSON output
+    my %pathogen_phenotype_hash;
+
+    my $phi_pathogen_phenotype_id = shift @row2;
+
+    # use the PHI phenotype ontology to retrieve the term name, based on the identifier
+    my $phi_pathogen_phenotype_name = $phi_phenotype_ontology->get_term_by_id($phi_pathogen_phenotype_id)->name;
+    $phi_pathogen_phenotype_string .= "$phi_pathogen_phenotype_id:$phi_pathogen_phenotype_name;";
+    $pathogen_phenotype_hash{"phi_pathogen_phenotype_id"} = $phi_pathogen_phenotype_id;
+    $pathogen_phenotype_hash{"phi_pathogen_phenotype_name"} = $phi_pathogen_phenotype_name;
+
+    # add the current pathogen phenotype to the list of pathogen phenotypes
+    push(@phi_pathogen_phenotypes, \%pathogen_phenotype_hash);
+
+  }
+
+  # remove the final semi-colon from end of the string
+  $phi_pathogen_phenotype_string =~ s/;$//;
+  # output the PHI Interaction Phenotypes
+  print DATABASE_DATA_FILE "$phi_pathogen_phenotype_string\t";
+  # add the pathogen phenotypes to the interaction hash for JSON output
+  if (@phi_pathogen_phenotypes) {
+    $interaction_hash{"phi_pathogen_phenotypes"} = \@phi_pathogen_phenotypes;
+  }
+
+
+  # initalise output string for PHI host phenotypes and array for JSON output
+  my $phi_host_phenotype_string = "";
+  my @phi_host_phenotypes;
+
+  # get the PHI host phenotype term identifiers
+  $sql_stmt2 = qq(SELECT phi_phenotype_id
+                    FROM interaction_host,
+                         interaction_phi_host_phenotype
+                   WHERE interaction_host.id = $interaction_host_id
+                     AND interaction_host.id = interaction_phi_host_phenotype.interaction_host_id
+                 ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # since there may be multiple PHI host phenotypes,
+  # need to retrieve all of them and construct output string 
+  # based on comma and semi-colon delimiters
+  while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create host phenotype hash for JSON output
+    my %host_phenotype_hash;
+
+    my $phi_host_phenotype_id = shift @row2;
+
+    # use the PHI phenotype ontology to retrieve the term name, based on the identifier
+    my $phi_host_phenotype_name = $phi_phenotype_ontology->get_term_by_id($phi_host_phenotype_id)->name;
+    $phi_host_phenotype_string .= "$phi_host_phenotype_id:$phi_host_phenotype_name;";
+    $host_phenotype_hash{"phi_host_phenotype_id"} = $phi_host_phenotype_id;
+    $host_phenotype_hash{"phi_host_phenotype_name"} = $phi_host_phenotype_name;
+
+    # add the current host phenotype to the list of host phenotypes
+    push(@phi_host_phenotypes, \%host_phenotype_hash);
+
+  }
+
+  # remove the final semi-colon from end of the string
+  $phi_host_phenotype_string =~ s/;$//;
+  # output the PHI Interaction Phenotypes
+  print DATABASE_DATA_FILE "$phi_host_phenotype_string\t";
+  # add the host phenotypes to the interaction hash for JSON output
+  if (@phi_host_phenotypes) {
+    $interaction_hash{"phi_host_phenotypes"} = \@phi_host_phenotypes;
+  }
+
+
+=pod
 
   # get the Defect fields 
   $sql_stmt2 = qq(SELECT defect_attribute.attribute,
@@ -683,6 +816,7 @@ while (my @row = $sql_result->fetchrow_array()) {
     $interaction_hash{"defects"} = \@defects;
   }
 
+=cut
 
   # get the Inducer fields 
   $sql_stmt2 = qq(SELECT chemical.name,
@@ -925,6 +1059,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   }
 
 
+=pod
   # get the host responses associated with the host
   # initalise output string for host responses
   # and the host response array for JSON output
@@ -978,6 +1113,7 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # add the host hash to the interaction hash for JSON output
   $interaction_hash{"host"} = \%host_hash;
+=cut
 
 
   # get the Experiment Specification fields 
