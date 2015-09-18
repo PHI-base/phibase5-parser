@@ -45,8 +45,6 @@ my $interaction_count = 0;
 print "Reading ontology files...\n";
 my $obo_parser = OBO::Parser::OBOParser->new;
 my $exp_spec_ontology = $obo_parser->work("../ontology/phibase/experiment_specification.obo");
-#my $phen_outcome_ontology = $obo_parser->work("../ontology/phibase/phenotype_outcome.obo");
-#my $host_response_ontology = $obo_parser->work("../ontology/phibase/host_response.obo");
 my $phi_phenotype_ontology = $obo_parser->work("../ontology/phibase/phi_phenotype.obo");
 my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/doid.obo");
 my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/PlantDisease/plant_disease_ontology.obo");
@@ -633,7 +631,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   my @phi_interaction_phenotypes;
 
   # get the PHI interaction phenotype term identifiers
-  $sql_stmt2 = qq(SELECT phi_phenotype_id
+  $sql_stmt2 = qq(SELECT phi_phenotype_id, phi_evidence
                     FROM interaction,
                          interaction_phi_interaction_phenotype
                    WHERE interaction.id = $interaction_id
@@ -652,12 +650,21 @@ while (my @row = $sql_result->fetchrow_array()) {
     my %interaction_phenotype_hash;
 
     my $phi_interaction_phenotype_id = shift @row2;
+    my $phi_evidence = shift @row2;
 
     # use the PHI phenotype ontology to retrieve the term name, based on the identifier
     my $phi_interaction_phenotype_name = $phi_phenotype_ontology->get_term_by_id($phi_interaction_phenotype_id)->name;
-    $phi_interaction_phenotype_string .= "$phi_interaction_phenotype_id:$phi_interaction_phenotype_name;";
     $interaction_phenotype_hash{"phi_interaction_phenotype_id"} = $phi_interaction_phenotype_id;
     $interaction_phenotype_hash{"phi_interaction_phenotype_name"} = $phi_interaction_phenotype_name;
+
+    # if evidence is supplied, then output the PHI phenotype name with the evidence
+    # otherwise just output the PHI phenotype name
+    if (defined $phi_evidence) {
+       $interaction_phenotype_hash{"phi_evidence"} = $phi_evidence;
+       $phi_interaction_phenotype_string .= "$phi_interaction_phenotype_id:$phi_interaction_phenotype_name($phi_evidence);";
+    } else {
+       $phi_interaction_phenotype_string .= "$phi_interaction_phenotype_id:$phi_interaction_phenotype_name;";
+    }
 
     # add the current interaction phenotype to the list of interaction phenotypes
     push(@phi_interaction_phenotypes, \%interaction_phenotype_hash);
@@ -679,7 +686,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   my @phi_pathogen_phenotypes;
 
   # get the PHI pathogen phenotype term identifiers
-  $sql_stmt2 = qq(SELECT phi_phenotype_id
+  $sql_stmt2 = qq(SELECT phi_phenotype_id, phi_evidence
                     FROM interaction,
                          interaction_phi_pathogen_phenotype
                    WHERE interaction.id = $interaction_id
@@ -698,12 +705,21 @@ while (my @row = $sql_result->fetchrow_array()) {
     my %pathogen_phenotype_hash;
 
     my $phi_pathogen_phenotype_id = shift @row2;
+    my $phi_evidence = shift @row2;
 
     # use the PHI phenotype ontology to retrieve the term name, based on the identifier
     my $phi_pathogen_phenotype_name = $phi_phenotype_ontology->get_term_by_id($phi_pathogen_phenotype_id)->name;
-    $phi_pathogen_phenotype_string .= "$phi_pathogen_phenotype_id:$phi_pathogen_phenotype_name;";
     $pathogen_phenotype_hash{"phi_pathogen_phenotype_id"} = $phi_pathogen_phenotype_id;
     $pathogen_phenotype_hash{"phi_pathogen_phenotype_name"} = $phi_pathogen_phenotype_name;
+
+    # if evidence is supplied, then output the PHI phenotype name with the evidence
+    # otherwise just output the PHI phenotype name
+    if (defined $phi_evidence) {
+       $pathogen_phenotype_hash{"phi_evidence"} = $phi_evidence;
+       $phi_pathogen_phenotype_string .= "$phi_pathogen_phenotype_id:$phi_pathogen_phenotype_name($phi_evidence);";
+    } else {
+       $phi_pathogen_phenotype_string .= "$phi_pathogen_phenotype_id:$phi_pathogen_phenotype_name;";
+    }
 
     # add the current pathogen phenotype to the list of pathogen phenotypes
     push(@phi_pathogen_phenotypes, \%pathogen_phenotype_hash);
@@ -725,7 +741,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   my @phi_host_phenotypes;
 
   # get the PHI host phenotype term identifiers
-  $sql_stmt2 = qq(SELECT phi_phenotype_id
+  $sql_stmt2 = qq(SELECT phi_phenotype_id, phi_evidence
                     FROM interaction_host,
                          interaction_phi_host_phenotype
                    WHERE interaction_host.id = $interaction_host_id
@@ -744,12 +760,21 @@ while (my @row = $sql_result->fetchrow_array()) {
     my %host_phenotype_hash;
 
     my $phi_host_phenotype_id = shift @row2;
+    my $phi_evidence = shift @row2;
 
     # use the PHI phenotype ontology to retrieve the term name, based on the identifier
     my $phi_host_phenotype_name = $phi_phenotype_ontology->get_term_by_id($phi_host_phenotype_id)->name;
-    $phi_host_phenotype_string .= "$phi_host_phenotype_id:$phi_host_phenotype_name;";
     $host_phenotype_hash{"phi_host_phenotype_id"} = $phi_host_phenotype_id;
     $host_phenotype_hash{"phi_host_phenotype_name"} = $phi_host_phenotype_name;
+
+    # if evidence is supplied, then output the PHI phenotype name with the evidence
+    # otherwise just output the PHI phenotype name
+    if (defined $phi_evidence) {
+       $host_phenotype_hash{"phi_evidence"} = $phi_evidence;
+       $phi_host_phenotype_string .= "$phi_host_phenotype_id:$phi_host_phenotype_name($phi_evidence);";
+    } else {
+       $phi_host_phenotype_string .= "$phi_host_phenotype_id:$phi_host_phenotype_name;";
+    }
 
     # add the current host phenotype to the list of host phenotypes
     push(@phi_host_phenotypes, \%host_phenotype_hash);
@@ -765,58 +790,6 @@ while (my @row = $sql_result->fetchrow_array()) {
     $interaction_hash{"phi_host_phenotypes"} = \@phi_host_phenotypes;
   }
 
-
-=pod
-
-  # get the Defect fields 
-  $sql_stmt2 = qq(SELECT defect_attribute.attribute,
-                         defect_value.value
-                    FROM interaction,
-                         interaction_defect,
-                         defect_attribute,
-                         defect_value
-                   WHERE interaction.id = $interaction_id
-                     AND interaction.id = interaction_defect.interaction_id
-                     AND defect_attribute.id = interaction_defect.defect_attribute_id
-                     AND defect_value.id = interaction_defect.defect_value_id
-                 ;);
-
-  $sql_result2 = $db_conn->prepare($sql_stmt2);
-  $sql_result2->execute() or die $DBI::errstr;
-
-  # initalise output string and JSON array for defects
-  my $defect_output_string = "";
-  my @defects;
-
-  # since there may be multiple defects,
-  # need to retrieve all of them and construct output string 
-  # based on colon and semi-colon delimiters
-  while (@row2 = $sql_result2->fetchrow_array()) {
-
-    # create a defect hash for JSON output
-    my %defect_hash;
-
-    my $attribute = shift @row2;
-    my $value = shift @row2;
-    $defect_output_string .= "$attribute:$value;";
-    $defect_hash{"defect_attribute"} = $attribute;
-    $defect_hash{"defect_value"} = $value;
-
-    # add the current defect to the list of defects
-    push(@defects, \%defect_hash);
-
-  }
-
-  # remove the final semi-colon from end of the string
-  $defect_output_string =~ s/;$//;
-  # print the list of defects to file
-  print DATABASE_DATA_FILE "$defect_output_string\t";
-  # add the list of defects to the interaction hash for JSON output
-  if (@defects) {
-    $interaction_hash{"defects"} = \@defects;
-  }
-
-=cut
 
   # get the Inducer fields 
   $sql_stmt2 = qq(SELECT chemical.name,
@@ -1057,63 +1030,6 @@ while (my @row = $sql_result->fetchrow_array()) {
   if (@frac_array) {
     $interaction_hash{"frac_data"} = \@frac_array;
   }
-
-
-=pod
-  # get the host responses associated with the host
-  # initalise output string for host responses
-  # and the host response array for JSON output
-  my $host_response_string = "";
-  my @host_responses;
-
-  # get the host response term identifiers
-  $sql_stmt2 = qq(SELECT host_response_id
-                    FROM interaction_host,
-                         interaction_host_response
-                   WHERE interaction_host.id = $interaction_host_id
-                     AND interaction_host.id = interaction_host_response.interaction_host_id
-                 ;);
-
-  $sql_result2 = $db_conn->prepare($sql_stmt2);
-  $sql_result2->execute() or die $DBI::errstr;
-
-  # since there may be multiple host responses,
-  # need to retrieve all of them and construct output string 
-  # based on semi-colon delimiter
-  while (@row2 = $sql_result2->fetchrow_array()) {
-
-    # create hash for the host response
-    my %host_response_hash;
-
-    my $host_response_id = shift @row2;
-    $host_response_hash{"host_response_id"} = $host_response_id;
-
-    # use the host response ontology to retrieve the term name, based on the identifier
-    my $host_term = $host_response_ontology->get_term_by_id($host_response_id);
-    my $host_response_name = "";
-    if (defined $host_term) {
-      $host_response_name = $host_term->name;
-      $host_response_hash{"host_response_name"} = $host_response_name
-    }
-    $host_response_string .= "$host_response_id:$host_response_name;";
-  
-    # add the current host response to the array of responses
-    push(@host_responses, \%host_response_hash);
-
-  }
-
-  # remove the final semi-colon from end of the string
-  $host_response_string =~ s/;$//;
-  # print the list of host responses to file,
-  print DATABASE_DATA_FILE "$host_response_string\t";
-  # add the list of host responses to the host hash for JSON output
-  if (@host_responses) {
-    $host_hash{"host_responses"} = \@host_responses;
-  }
-
-  # add the host hash to the interaction hash for JSON output
-  $interaction_hash{"host"} = \%host_hash;
-=cut
 
 
   # get the Experiment Specification fields 
@@ -1475,7 +1391,6 @@ $db_conn->disconnect() or die "Failed to disconnect database\n";
 my $json_data = encode_json(\%json_output);
 open (JSON_DATA_FILE, "> $json_data_filename") or die "Error opening output file\n";
 print JSON_DATA_FILE $json_data;
-print $json_data."\n";
 
 # test if the JSON output produces proper hash string
 #use Data::Dumper;
@@ -1484,5 +1399,6 @@ print $json_data."\n";
 
 print "\nProcess completed successfully.\n";
 print "Total interactions:$interaction_count\n";
-print "Tab-separated file of all PHI-base data: $db_data_filename\n\n";
+print "Tab-separated file of all PHI-base data: $db_data_filename\n";
+print "JSON file of all PHI-base data: $db_data_filename\n\n";
 
