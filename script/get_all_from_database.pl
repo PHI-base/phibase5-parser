@@ -47,7 +47,8 @@ my $obo_parser = OBO::Parser::OBOParser->new;
 my $exp_spec_ontology = $obo_parser->work("../ontology/phibase/experiment_specification.obo");
 my $phi_phenotype_ontology = $obo_parser->work("../ontology/phibase/phi_phenotype.obo");
 my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/doid.obo");
-my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/PlantDisease/plant_disease_ontology.obo");
+#my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/PlantDisease/plant_disease_ontology.obo");
+my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/plant-stress-ontology/plant-disease-ontology.obo");
 my $brenda_tissue_ontology = $obo_parser->work("../ontology/Tissue/BrendaTissueOBO.obo");
 
 print "Parsing PHI-base data...\n";
