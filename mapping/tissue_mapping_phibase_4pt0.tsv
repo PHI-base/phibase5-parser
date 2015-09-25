@@ -2,8 +2,11 @@ A549 cells	BTO:0000018
 Abdomen; spleen; liver; pancreas	BTO:0000020;BTO:0001281;BTO:0000759;BTO:0000988
 Adult	BTO:0001043
 Air sacs	BTO:0000060
+Alimentary canal	BTO:0000058
+arm	BTO:0001435
 BALF	BTO:0000155
 BALF; lungs; spleens	BTO:0000155;BTO:0000763;BTO:0001281
+bark	BTO:0001301
 Bark	BTO:0001301
 berries	BTO:0000119
 Bladder	BTO:0000123
@@ -12,8 +15,11 @@ bladder; kidney	BTO:0000123;BTO:0000671
 bladder; kidneys	BTO:0000123;BTO:0000671
 bladder; kidneys; spleen	BTO:0000123;BTO:0000671;BTO:0001281
 blood	BTO:0000089
+Blood	BTO:0000089
 blood; bone marrow; spleen BTO:0000089;BTO:0000141;BTO:0001281
+blood; brain	BTO:0000089;BTO:0000142
 Blood; brain; spleen	BTO:0000089;BTO:0000142;BTO:0001281
+blood; brains; lungs; livers; spleens	BTO:0000089;BTO:0000142;BTO:0000763;BTO:0000759;BTO:0001281
 blood; brains; lungs; livers; spleens 	BTO:0000089;BTO:0000142;BTO:0000763;BTO:0000759;BTO:0001281
 blood; cerebrospinal fluid (CSF); brain	BTO:0000089;BTO:0000237;BTO:0000142
 blood; head kidney; liver; spleen; gills	BTO:0000089;BTO:0005189;BTO:0000759;BTO:0001281;BTO:0000518
@@ -32,18 +38,21 @@ Brain	BTO:0000142
 Brain; kidney; liver; spleen	BTO:0000142;BTO:0000671;BTO:0000759;BTO:0001281
 brain; kidneys	BTO:0000142;BTO:0000671
 brain; kidneys; liver; spleen	BTO:0000142;BTO:0000671;BTO:0000759;BTO:0001281
+brain; lungs	BTO:0000142;BTO:0000763
 brain; lungs; spleen	BTO:0000142;BTO:0000763;BTO:0001281
 bronchial epithelial cell lines were used: 16HBE14o cells and CFBE41o	BTO:0002734
 bulbs	BTO:0000159
 cardiac blood; liver; spleen; lungs; kidneys	BTO:0000089;BTO:0000759;BTO:0001281;BTO:0000763;BTO:0000671
 catheter lumen
 cecum	BTO:0000166
+Cecum	BTO:0000166
 Cecum; liver; spleen	BTO:0000166;BTO:0000759;BTO:0001281
 cells	BTO:0000214
 CNS; serosae; joints	BTO:0000227;BTO:0003687;BTO:0001686
 Cob	BTO:0000266
 coleoptile	BTO:0000268
 colon	BTO:0000269
+Colon	BTO:0000269
 Colon; liver; kidneys; lungs	BTO:0000269;BTO:0000759;BTO:0000671;BTO:0000763
 colon; spleens	BTO:0000269;BTO:0001281
 colonic lumen	BTO:0000269
@@ -63,8 +72,11 @@ embryos; adults	BTO:0000379;BTO:0001043
 epidermal cells of bulb scales	BTO:0005531;BTO:0000159
 epidermis	BTO:0000116
 epithelial cells	BTO:0000414
+Epithelial cells	BTO:0000414
 Etiolated seedlings	BTO:0003385;BTO:0001228
+eyes	BTO:0000439
 Eyes	BTO:0000439
+floret	BTO:0000468
 florets; ovaries	BTO:0000468;BTO:0000750
 flowering heads	BTO:0002243
 Flowering heads	BTO:0002243
@@ -87,6 +99,7 @@ head
 head kidneys	BTO:0005189
 head; stalk	BTO:0002244
 heads
+Heart	BTO:0000562
 heart	BTO:0000562
 heart, lung, kidney, thymus, spleen, hip joint, and tibia bone marrow	BTO:0000562;BTO:0000763;BTO:0000671;BTO:0001374;BTO:0001502;BTO:0001281;BTO:0000141
 heart; lungs; brain; blood	BTO:0000562;BTO:0000763;BTO:0000142;BTO:0000089
@@ -96,8 +109,11 @@ heart; spleens; Lungs	BTO:0000562;BTO:0001281;BTO:0000763
 heart; tibiotarsal joint; skin	BTO:0000562;BTO:0004706;BTO:0001253
 hemi-maxillae	BTO:0001749
 HEp-2 CELLS	BTO:0000976
+HepG2; HeLa; Vero	BTO:0000599;BTO:0000567;BTO:0001444
 human foreskin fibroblasts	BTO:0002245
+hypocotyl	BTO:0000613
 Ileum	BTO:0000620
+intestine	BTO:0000648
 Intestine	BTO:0000648
 intestines	BTO:0000648
 Intestines	BTO:0000648
@@ -119,6 +135,7 @@ Kidneys	BTO:0005189
 Kidneys; bladder	BTO:0005189;BTO:0000123
 kidneys; liver; spleen	BTO:0005189;BTO:0000759;BTO:0001281
 kidneys; spleen	BTO:0005189;BTO:0001281
+Kidneys; spleen	BTO:0005189;BTO:0001281
 L arvae	BTO:0000707
 larvae	BTO:0000707
 Larvae	BTO:0000707
@@ -142,6 +159,7 @@ leaves; stem	BTO:0000713;BTO:0001300
 leaves; trunk	BTO:0000713;BTO:0001300
 leaves; whole plant	BTO:0000713;BTO:0001461
 liver	BTO:0000759
+liver; brain	BTO:0000759;BTO:0000142
 liver; kidney; spleen	BTO:0000759;BTO:0005189;BTO:0001281
 liver; kidney; spleen; gills	BTO:0000759;BTO:0005189;BTO:0001281;BTO:0000518
 liver; kidneys	BTO:0000759;BTO:0005189
@@ -149,11 +167,14 @@ liver; kidneys; heart	BTO:0000759;BTO:0005189;BTO:0000562
 liver; kidneys; heart; lungs	BTO:0000759;BTO:0005189;BTO:0000562;BTO:0000763
 liver; lungs; spleen	BTO:0000759;BTO:0000763;BTO:0001281
 liver; spleen	BTO:0000759;BTO:0001281
+Liver; spleen	BTO:0000759;BTO:0001281
 liver; spleen; kidney	BTO:0000759;BTO:0001281;BTO:0005189
 Liver; spleen; kidneys; brain; blood	BTO:0000759;BTO:0001281;BTO:0005189;BTO:0000142;BTO:0000089
 liver; spleen; lung	BTO:0000759;BTO:0001281;BTO:0000763
+liver; spleen; lungs	BTO:0000759;BTO:0001281;BTO:0000763
 liver; spleen; lung; kidney	BTO:0000759;BTO:0001281;BTO:0000763;BTO:0005189
 liver; spleen; lung; kidney; heart	BTO:0000759;BTO:0001281;BTO:0000763;BTO:0005189;BTO:0000562
+liver; spleen; pancreas	BTO:0000759;BTO:0001281;BTO:0000988
 lumen
 Lung; liver	BTO:0000763;BTO:0000759
 lung; spleen; liver	BTO:0000763;BTO:0001281;BTO:0000759
@@ -174,15 +195,18 @@ Lungs; liver; kidneys	BTO:0000763;BTO:0000759;BTO:0005189
 lungs; liver; spleen	BTO:0000763;BTO:0000759;BTO:0001281
 Lungs; liver; spleen	BTO:0000763;BTO:0000759;BTO:0001281
 lungs; spleen	BTO:0000763;BTO:0001281
+lungs; spleen; liver	BTO:0000763;BTO:0001281;BTO:0000759
 Lungs; spleen; liver	BTO:0000763;BTO:0001281;BTO:0000759
 lungs; spleens	BTO:0000763;BTO:0001281
 lymph nodes; mammary glands	BTO:0000784;BTO:0000817
 lymph nodes; spleen	BTO:0000784;BTO:0001281
 macrophage cells	BTO:0002278
 macrophages	BTO:0000801
+Macrophages	BTO:0000801
 maize silk	BTO:0002854
 maize stalk	BTO:0002244
 mammary glands	BTO:0000817
+Mammary glands	BTO:0000817
 Mesenteric lymph nodes; spleen	BTO:0000767;BTO:0001281
 muscle; liver; intestine	BTO:0000887;BTO:0000759;BTO:0000648
 mushroom	BTO:0002167
@@ -258,12 +282,14 @@ spleen; liver; kidney	BTO:0001281;BTO:0000759;BTO:0005189
 spleen; liver; lymph nodes	BTO:0001281;BTO:0000759;BTO:0000784
 spleen; liver; mesenteric lymph nodes; intestine; colon	BTO:0001281;BTO:0000759;BTO:0000767;BTO:0000648;BTO:0000269
 spleen; lungs	BTO:0001281;BTO:0000763
+Spleen; lungs	BTO:0001281;BTO:0000763
 spleen; lungs; brain; kidneys; liver	BTO:0001281;BTO:0000763;BTO:0000142;BTO:0005189;BTO:0000759
 spleen; lungs; liver	BTO:0001281;BTO:0000763;BTO:0000759
 spleen; lungs; lymph nodes	BTO:0001281;BTO:0000763;BTO:0000784
 spleens	BTO:0001281
 stalk	BTO:0002244
 Stalk; leaves	BTO:0002244;BTO:0000713
+stalks	BTO:0002244
 Stalks	BTO:0002244
 stem	BTO:0001300
 Stem	BTO:0001300
@@ -277,6 +303,7 @@ Systemic infection	BTO:0001489
 THP-1 macrophage cells	BTO:0002278
 tibiotarsal joint	BTO:0004706
 tongue; hypoglossal tissue	BTO:0001385;BTO:0001386
+Tongue	BTO:0001385
 Tonsils; jejunum; ileum; cecum; colon; mesenteric lymph nodes; liver; kidneys; spleen	BTO:0004714;BTO:0000657;BTO:0000620;BTO:0000166;BTO:0000767;BTO:0000269;BTO:0000759;BTO:0005189;BTO:0001281
 tonsils; lymph nodes; Peyer ’s Patch; cecum	BTO:0004714;BTO:0000784;BTO:0001784;BTO:0000166
 trachea; lungs	BTO:0001388;BTO:0000763

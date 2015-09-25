@@ -163,7 +163,8 @@ close (TISSUE_MAPPINGS_FILE);
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_cols_with_record_id.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns_fixed_mult_mut.tsv';
-my $phibase_tsv_filename = '../input/phi4_2015-04-18_reduced_columns.tsv';
+#my $phibase_tsv_filename = '../input/phi4_2015-04-18_reduced_columns.tsv';
+my $phibase_tsv_filename = '../input/phi4_2015-09-24_PHI4pt0_reduced_columns.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid annotations into PHI-base v5 database...\n";
@@ -1610,10 +1611,10 @@ print "Invalid phenotype outcomes: $invalid_phenotype_outcome_count\n";
 print "Total disease names: $disease_count\n";
 print "Valid disease terms: $disease_term_count\n";
 print "Invalid disease terms: $invalid_disease_count\n";
+print "Annotations without disease terms: $without_disease_count\n";
 print "Total annotations with a tissue: $tissue_count\n";
 print "Total tissue terms: $tissue_term_count\n";
-print "Invalid tissues: $invalid_tissue_count\n";
-print "Annotations without disease terms: $without_disease_count\n\n";
+print "Invalid tissues: $invalid_tissue_count\n\n";
 
 print "Output file of accession string with an invalid PHI-base accession (if available): $invalid_accessions_filename\n\n";
 
@@ -1623,7 +1624,7 @@ print "Output file of annotations with invalid host taxon ID: $invalid_host_taxo
 print "Output file of annotations with invalid PubMed ID: $invalid_literature_filename\n";
 print "Output file of annotations with invalid UniProt accession: $invalid_uniprot_filename\n";
 print "Output file of annotations without a Gene Name: $invalid_gene_name_filename\n";
-print "Output file of annotations without a curator: $invalid_gene_name_filename\n\n";
+print "Output file of annotations without a curator: $invalid_curator_filename\n\n";
 
 print "Output file of valid pathogen phenotypes: $pathogen_phenotype_filename\n";
 print "Output file of invalid pathogen phenotypes: $invalid_pathogen_phenotype_filename\n";
