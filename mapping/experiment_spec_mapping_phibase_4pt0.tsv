@@ -20,6 +20,7 @@ biochemical analysis	ESO:0000005
 Biochemical analysis	ESO:0000005
 biochemical analysis; mutation: characterised	ESO:0000005;ESO:0000016
 biochemical analysis; mutation: characterised; complementation	ESO:0000005;ESO:0000016;ESO:0000007
+chemical complementation	ESO:0000007
 Chemical complementation	ESO:0000007
 complementation	ESO:0000007
 functional test in host	ESO:0000006
@@ -40,6 +41,7 @@ gene deletion; complementation; biochemical evidence	ESO:0000002;ESO:0000007;ESO
 gene deletion: full	ESO:0000002
 Gene deletion: full	ESO:0000002
 Gene deletion: Full	ESO:0000002
+gene deletion: full; chemical complementation	ESO:0000002;ESO:0000007
 Gene deletion: full; chemical complementation	ESO:0000002;ESO:0000007
 Gene deletion: full; complementation	ESO:0000002;ESO:0000007
 gene deletion: full; gene complementation	ESO:0000002;ESO:0000007
@@ -54,6 +56,7 @@ Gene deletion; Gene complementation	ESO:0000002;ESO:0000007
 Gene deletion; partial	ESO:0000002
 gene deletion: partial	ESO:0000002
 Gene deletion: partial	ESO:0000002
+gene deletion: partial; complementation	ESO:0000002;ESO:0000007
 Gene deletion: partial; complementation	ESO:0000002;ESO:0000007
 Gene deletion; partial; Gene complementation	ESO:0000002;ESO:0000007
 gene deletion: partial; gene complementation	ESO:0000002;ESO:0000007
@@ -90,6 +93,7 @@ Gene mutation: characterised;  Gene complementation	ESO:0000016;ESO:0000007
 Gene mutation: characterised; Gene complementation	ESO:0000016;ESO:0000007
 Gene mutation: characterised: Gene complementation	ESO:0000016;ESO:0000007
 Gene mutation: characterized	ESO:0000016
+gene mutation; gene complementation	ESO:0000019;ESO:0000007
 Gene mutation; gene complementation	ESO:0000019;ESO:0000007
 Gene mutation; Gene complementation	ESO:0000019;ESO:0000007
 Gene mutation; Gene deletion: full	ESO:0000019;ESO:0000002

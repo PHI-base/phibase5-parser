@@ -130,6 +130,28 @@ while (<DISEASE_MAPPINGS_FILE>) {
 close (DISEASE_MAPPINGS_FILE);
 
 
+# parse tab-separated file that maps tissue values of the spreadsheet
+# to identifiers in the BRENDA tissue ontology
+# saving the value and identifiers as key/value pairs in a hash
+open (TISSUE_MAPPINGS_FILE, "../mapping/tissue_mapping_phibase_4pt0.tsv") || die "Error opening input file\n";
+
+# hash to map tissue text to ontology identifiers
+my %tissue_mapping;
+
+# each row of the file contains a "valid spreadsheet value"
+# and corresponding "tissue ontology identifiers", separated by tab
+# mutliple ontology identifiers are separated by semi-colon
+# separate these fields and save as key/value pairs in a hash
+# where key becomes the valid value & value becomes ontology identifiers
+# (note that the identifiers themselves will be separated later)
+while (<TISSUE_MAPPINGS_FILE>) {
+  chomp;
+  my ($tissue_value,$tissue_ontology_id_list) = split(/\t/,$_);
+  $tissue_mapping{$tissue_value} = $tissue_ontology_id_list;
+}
+close (TISSUE_MAPPINGS_FILE);
+
+
 # open the tab separated values (TSV) version of the PHI-base spreadsheet
 #my $phibase_tsv_filename = '../input/phi-base-1_vs36_reduced_columns.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_to_v3_columns.tsv';
@@ -141,7 +163,8 @@ close (DISEASE_MAPPINGS_FILE);
 #my $phibase_tsv_filename = '../input/phi4_2014-12-11_reduced_cols_with_record_id.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns.tsv';
 #my $phibase_tsv_filename = '../input/phi4_2015-02-04_reduced_columns_fixed_mult_mut.tsv';
-my $phibase_tsv_filename = '../input/phi4_2015-04-18_reduced_columns.tsv';
+#my $phibase_tsv_filename = '../input/phi4_2015-04-18_reduced_columns.tsv';
+my $phibase_tsv_filename = '../input/phi4_2015-09-24_PHI4pt0_reduced_columns.tsv';
 open (TSV_FILE, $phibase_tsv_filename) || die "Error opening input file\n";
 print "Processing PHI-base data from $phibase_tsv_filename...\n";
 print "Inserting data for valid annotations into PHI-base v5 database...\n";
@@ -161,6 +184,8 @@ my $invalid_phen_outcome_filename = '../error/phibase_invalid_phenotype_outcomes
 my $disease_term_filename = '../output/phibase_disease_terms.tsv';
 my $invalid_disease_filename = '../error/phibase_invalid_diseases.tsv';
 my $without_disease_filename = '../error/phibase_without_diseases.tsv';
+my $tissue_term_filename = '../output/phibase_tissue_terms.tsv';
+my $invalid_tissue_filename = '../error/phibase_invalid_tissues.tsv';
 my $invalid_required_data_filename = '../error/phibase_invalid_required_data.tsv';
 my $invalid_path_taxon_filename = '../error/phibase_invalid_path_taxon_ids.tsv';
 my $invalid_host_taxon_filename = '../error/phibase_invalid_host_taxon_ids.tsv';
@@ -182,6 +207,8 @@ open (INVALID_PHEN_OUTCOME_FILE, "> $invalid_phen_outcome_filename") or die "Err
 open (DISEASE_TERM_FILE, "> $disease_term_filename") or die "Error opening output file\n";
 open (INVALID_DISEASE_FILE, "> $invalid_disease_filename") or die "Error opening output file\n";
 open (WITHOUT_DISEASE_FILE, "> $without_disease_filename") or die "Error opening output file\n";
+open (TISSUE_TERM_FILE, "> $tissue_term_filename") or die "Error opening output file\n";
+open (INVALID_TISSUE_FILE, "> $invalid_tissue_filename") or die "Error opening output file\n";
 open (INVALID_REQUIRED_DATA_FILE, "> $invalid_required_data_filename") or die "Error opening output file\n";
 open (INVALID_PATH_TAXON_FILE, "> $invalid_path_taxon_filename") or die "Error opening output file\n";
 open (INVALID_HOST_TAXON_FILE, "> $invalid_host_taxon_filename") or die "Error opening output file\n";
@@ -232,6 +259,9 @@ my $disease_count = 0;
 my $disease_term_count = 0;
 my $invalid_disease_count = 0;
 my $without_disease_count = 0;
+my $tissue_count = 0;
+my $tissue_term_count = 0;
+my $invalid_tissue_count = 0;
 my $invalid_required_data_count = 0;
 my $invalid_path_taxon_id_count = 0;
 my $invalid_host_taxon_id_count = 0;
@@ -1366,6 +1396,62 @@ NOW FINDING DISEASE BASED ON MAPPING FILE, RATHER THAN NAME SEARCH IN ONTOLOGY F
           }
 =cut          
 
+ 
+          # get the tissue
+          my $tissue = $phi_base_annotation{"tissue"};
+
+          # if the tissue string is empty, no tissue has been supplied
+          if (defined $tissue and $tissue ne "" and $tissue ne "no data found") {
+
+             $tissue_count++;
+
+             $tissue =~ s/^\s+//; # remove blank space from start of string
+             $tissue =~ s/\s+$//; # remove blank space from end of string
+
+             # using the tissue mappings,
+             # get the appropriate ontology identifiers associated with the tissue
+             my $tissue_id_list = $tissue_mapping{$tissue};
+
+             # if identifiers are present, then insert the appropriate
+             # records into the interaction_host_tissue table
+             if ($tissue_id_list) {
+
+                my $sql_statement = qq(SELECT id FROM interaction_host
+                                         WHERE interaction_id = $interaction_id
+                                         AND ncbi_taxon_id = $required_fields_annot{"host_tax"}
+                                      );
+
+	        my $sql_result = $db_conn->prepare($sql_statement);
+	        $sql_result->execute() or die $DBI::errstr;
+	        my @row = $sql_result->fetchrow_array();
+	        my $interaction_host_id = shift @row;
+
+                $tissue_id_list =~ s/^\s+//; # remove blank space from start of string
+                $tissue_id_list =~ s/\s+$//; # remove blank space from end of string
+
+                # need to split list based on semi-colon delimiter
+                my @tissue_ids = split(";",$tissue_id_list);
+
+                # for each tissue id, insert data into interaction_host_tissue table,
+                # with foreign keys to the interaction_host table and the BRENDA tissue ontology
+                foreach my $tissue_id (@tissue_ids) {
+                  $tissue_term_count++;
+	          $sql_statement = qq(INSERT INTO interaction_host_tissue (interaction_host_id, brenda_tissue_id)
+                                        VALUES ($interaction_host_id, '$tissue_id');
+                                     );
+	          $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+                  print TISSUE_TERM_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$tissue\t$tissue_id\n";
+                }
+
+             } else { # no tissue identifiers
+                $invalid_tissue_count++;
+                print STDERR "ERROR:Tissue $tissue given for $required_fields_annot{'phi_base_acc'} is not valid\n";
+                print INVALID_TISSUE_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\t$tissue\n";
+             }
+
+          } # end if tissue supplied 
+          
+          
         } # end else multiple mutation
 
      } else { # required data criteria not met, so find out which data are invalid 
@@ -1525,7 +1611,10 @@ print "Invalid phenotype outcomes: $invalid_phenotype_outcome_count\n";
 print "Total disease names: $disease_count\n";
 print "Valid disease terms: $disease_term_count\n";
 print "Invalid disease terms: $invalid_disease_count\n";
-print "Annotations without disease terms: $without_disease_count\n\n";
+print "Annotations without disease terms: $without_disease_count\n";
+print "Total annotations with a tissue: $tissue_count\n";
+print "Total tissue terms: $tissue_term_count\n";
+print "Invalid tissues: $invalid_tissue_count\n\n";
 
 print "Output file of accession string with an invalid PHI-base accession (if available): $invalid_accessions_filename\n\n";
 
@@ -1535,7 +1624,7 @@ print "Output file of annotations with invalid host taxon ID: $invalid_host_taxo
 print "Output file of annotations with invalid PubMed ID: $invalid_literature_filename\n";
 print "Output file of annotations with invalid UniProt accession: $invalid_uniprot_filename\n";
 print "Output file of annotations without a Gene Name: $invalid_gene_name_filename\n";
-print "Output file of annotations without a curator: $invalid_gene_name_filename\n\n";
+print "Output file of annotations without a curator: $invalid_curator_filename\n\n";
 
 print "Output file of valid pathogen phenotypes: $pathogen_phenotype_filename\n";
 print "Output file of invalid pathogen phenotypes: $invalid_pathogen_phenotype_filename\n";
@@ -1550,5 +1639,7 @@ print "Output file of phenotype outcome annotations: $phen_outcome_term_filename
 print "Output file of invalid phenotype outcomes: $invalid_phen_outcome_filename\n";
 print "Output file of disease annotations: $disease_term_filename\n";
 print "Output file of invalid diseases: $invalid_disease_filename\n";
-print "Output file of annotation without a diseases: $without_disease_filename\n\n";
+print "Output file of annotation without a diseases: $without_disease_filename\n";
+print "Output file of tissue annotations: $tissue_term_filename\n";
+print "Output file of invalid tissues: $invalid_tissue_filename\n\n";
 

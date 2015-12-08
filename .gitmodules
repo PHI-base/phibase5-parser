@@ -1,0 +1,3 @@
+[submodule "ontology/Disease/plant-stress-ontology"]
+	path = ontology/Disease/plant-stress-ontology
+	url = https://github.com/Planteome/plant-stress-ontology.git
