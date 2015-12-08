@@ -1,0 +1,1916 @@
+{
+   "curation_sessions" : {
+      "213032ed0912da83" : {
+         "alleles" : {
+            "Magnaporthe grisea Q0PND3:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe grisea Q0PND3",
+               "name" : "Q0PND3_MAGGRdelta",
+               "primary_identifier" : "Q0PND3:213032ed0912da83-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9",
+               "name" : "G4MQZ9_MAGO7delta",
+               "primary_identifier" : "G4MQZ9:213032ed0912da83-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1",
+               "name" : "G4MZY1_MAGO7delta",
+               "primary_identifier" : "G4MZY1:213032ed0912da83-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "name" : "G4N492_MAGO7delta",
+               "primary_identifier" : "G4N492:213032ed0912da83-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6",
+               "name" : "G4NBI6_MAGO7delta",
+               "primary_identifier" : "G4NBI6:213032ed0912da83-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7",
+               "name" : "G4NBI7_MAGO7delta",
+               "primary_identifier" : "G4NBI7:213032ed0912da83-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6",
+               "name" : "G4NEK6_MAGO7delta",
+               "primary_identifier" : "G4NEK6:213032ed0912da83-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7",
+               "name" : "G4NGA7_MAGO7delta",
+               "primary_identifier" : "G4NGA7:213032ed0912da83-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1:213032ed0912da83-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1",
+               "name" : "G4NJL1_MAGO7delta",
+               "primary_identifier" : "G4NJL1:213032ed0912da83-1"
+            }
+         },
+         "annotations" : [
+            {
+               "conditions" : [],
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe grisea Q0PND3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "GO:0016557",
+               "type" : "biological_process"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "GO:0006635",
+               "type" : "biological_process"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-5",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-5",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-5",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-11-30",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-8",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-8",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-8",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-5",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-8",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000003",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000001",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "POO:0000002",
+               "type" : "phenotype_outcome"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000007",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000098",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000039",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000097",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000020",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000041",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-10",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000008",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2015-12-01",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "co-immunoprecipitation",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "1271791",
+                     "relation" : "pathogen_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "malaria",
+                     "rangeValue" : "DOID:12365",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host"
+                  }
+               ],
+               "genotype" : "213032ed0912da83-genotype-10",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000068",
+               "type" : "phi_phenotype"
+            }
+         ],
+         "genes" : {
+            "Magnaporthe grisea Q0PND3" : {
+               "organism" : "Magnaporthe grisea",
+               "uniquename" : "Q0PND3"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4MQZ9"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4MZY1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4N492"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NBI6"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NBI7"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NEK6"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NGA7"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NJL1"
+            }
+         },
+         "genotypes" : {
+            "213032ed0912da83-genotype-1" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:213032ed0912da83-1"
+                  },
+                  {
+                     "id" : "Magnaporthe grisea Q0PND3:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-10" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-2" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-3" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-4" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-5" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-6" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-7" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe grisea Q0PND3:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-8" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7:213032ed0912da83-1"
+                  }
+               ]
+            },
+            "213032ed0912da83-genotype-9" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6:213032ed0912da83-1"
+                  }
+               ]
+            }
+         },
+         "metadata" : {
+            "accepted_timestamp" : "2015-11-30 18:16:42",
+            "admin_session" : "1",
+            "annotation_status" : "APPROVED",
+            "annotation_status_datestamp" : "2015-12-03 16:50:38",
+            "approval_in_progress_timestamp" : "2015-12-03 16:50:04",
+            "approved_timestamp" : "2015-12-03 16:50:38",
+            "approver_email" : "alistair.irvine@rothamsted.ac.uk",
+            "approver_name" : "Alistair Irvine",
+            "canto_session" : "213032ed0912da83",
+            "curation_in_progress_timestamp" : "2015-11-30 18:17:02",
+            "curation_pub_id" : "PMID:17506326",
+            "needs_approval_timestamp" : "2015-12-01 10:56:23",
+            "session_created_timestamp" : "2015-11-30 18:16:31",
+            "session_genes_count" : "9",
+            "session_term_suggestions_count" : "0",
+            "session_unknown_conditions_count" : "0",
+            "term_suggestion_count" : "0",
+            "unknown_conditions_count" : "0"
+         },
+         "organisms" : {
+            "148305" : {
+               "full_name" : "Magnaporthe grisea"
+            },
+            "242507" : {
+               "full_name" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)"
+            }
+         },
+         "publications" : {
+            "PMID:17506326" : {}
+         }
+      }
+   }
+}
+
