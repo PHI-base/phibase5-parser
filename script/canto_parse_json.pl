@@ -29,7 +29,8 @@ my $allele_count = 0;
 #my $inducer_count = 0;
 #my $exp_spec_count = 0;
 
-my $json_filename = '../input/canto/canto_using_alleles.json';
+my $json_filename = '../input/canto/canto_with_annot_ext.json';
+#my $json_filename = '../input/canto/canto_using_alleles.json';
 #my $json_filename = '../input/canto/paper_with_complex_annot_extension.json';
 #my $json_filename = '../input/canto/paper_with_double_triple_mutants.json';
 #my $json_filename = '../input/canto/canto_with_go.json';
@@ -105,7 +106,9 @@ foreach my $annot_index (0 .. $#annotations) {
    # so need to get correct annotation type for the identifier
    my $gene_or_genotype_id;
    my $annot_type = $annotation{'type'};
-   if ($annot_type eq 'phi_interaction_phenotype' or $annot_type eq 'phi_pathogen_phenotype' or $annot_type eq 'phi_host_phenotype') {
+   if ($annot_type eq 'phi_phenotype') {
+#   if ($annot_type eq 'phi_phenotype' or $annot_type eq 'phenotype_outcome') {
+#   if ($annot_type eq 'phi_interaction_phenotype' or $annot_type eq 'phi_pathogen_phenotype' or $annot_type eq 'phi_host_phenotype') {
       $gene_or_genotype_id = $annotation{'genotype'};
    } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' ) {
       $gene_or_genotype_id = $annotation{'gene'};
@@ -118,8 +121,13 @@ foreach my $annot_index (0 .. $#annotations) {
 
    # get the annotation extensions for the current annotation,
    # which are separated by commas
-   my $annot_extension_list = $annotation{'annotation_extension'};
-   my @annot_extensions = split(/,/,$annot_extension_list);
+#   my $annot_extension_list = $annotation{'annotation_extension'};
+#   my @annot_extensions = split(/,/,$annot_extension_list);
+
+   # get the annotation extensions for the current annotation,
+   # which is an array of hashes (one hash for each extension)
+   my @annot_extensions = @{ $annotation{'extension'} };
+
 
    my $host_taxon;
    my $tissue;
@@ -131,70 +139,73 @@ foreach my $annot_index (0 .. $#annotations) {
    my $pathogen_strain_id;
 
    # identify each annotation extension in the list
-   foreach my $annot_ext (@annot_extensions) {
+#   foreach my $annot_ext (@annot_extensions) {
+   foreach my $annot_ext_index (0 .. $#annot_extensions) {
 
-     # if the annotation extension begins with 'experimental_host', then assign value between brackets to host
-     if ($annot_ext =~ /^experimental_host/) {
-        my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $host_taxon = $annot_ext[1];
+     # get the hash for the annotation extension
+     my %annot_ext_hash = %{ $annot_extensions[$annot_ext_index] };
+     my $annot_ext_relation = $annot_ext_hash{'relation'}; 
+     my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
+#     # if the annotation extension begins with 'experimental_host', then assign value between brackets to host
+#     if ($annot_ext_relation =~ /^experimental_host/) {
+#        my @annot_ext_relation = split(/[\(\)]/,$annot_ext);
+#        $host_taxon = $annot_ext[1];
+#        # add annotation extension to help identify the correct interaction
+#        $annotation_interaction_hash{'host_taxon_id'} = $host_taxon;
+#     }
+
+     # if extension relation is 'experimental_host', then assign range value to host
+     if ($annot_ext_relation =~ /^experimental_host/) {
+        $host_taxon = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
         $annotation_interaction_hash{'host_taxon_id'} = $host_taxon;
      }
 
-     # if the annotation extension begins with 'occurs_in', then assign value between brackets to tissue
-     if ($annot_ext =~ /^occurs_in/) {
-        my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $tissue = $annot_ext[1];
+     # if extension relation is 'infects_tissue', then assign range value to tissue
+     if ($annot_ext_relation =~ /^infects_tissue/) {
+        $tissue = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
         $annotation_interaction_hash{'host_tissue'} = $tissue;
      }
 
-     # if the annotation extension begins with 'causes_disease', then assign value between brackets to disease
-     if ($annot_ext =~ /^causes_disease/) {
-	my @annot_ext = split(/[\(\)]/,$annot_ext);
-	$disease = $annot_ext[1];
+     # if extension relation is 'causes_disease', then assign range value to disease
+     if ($annot_ext_relation =~ /^causes_disease/) {
+        $disease = $annot_ext_value;
 	# add annotation extension to help identify the correct interaction
 	$annotation_interaction_hash{'disease'} = $disease;
      }
 
-     # if the annotation extension begins with 'induced_by', then assign value between brackets to inducer
-     if ($annot_ext =~ /^induced_by/) {
-        my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $inducer = $annot_ext[1];
+     # if extension relation is 'induced_by', then assign range value to inducer
+     if ($annot_ext_relation =~ /^induced_by/) {
+        $inducer = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
         $annotation_interaction_hash{'inducer'} = $inducer;
      }
 
-     # if the annotation extension begins with 'anti_infective', then assign value between brackets to anti_infective
-     if ($annot_ext =~ /^anti_infective/) {
-        my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $anti_infective = $annot_ext[1];
+     # if extension relation is 'anti_infective', then assign range value to anti_infective
+     if ($annot_ext_relation =~ /^anti_infective/) {
+        $anti_infective = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
         $annotation_interaction_hash{'anti_infective'} = $anti_infective;
      }
 
-     # if the annotation extension begins with 'host_interacting_protein',
-     # then assign value between brackets to host_interacting_protein
-     if ($annot_ext =~ /^host_interacting_protein/) {
-        my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $host_interacting_protein = $annot_ext[1];
+     # if extension relation is 'host_interacting_protein', then assign range value to host_interacting_protei
+     if ($annot_ext_relation =~ /^host_interacting_protein/) {
+        $host_interacting_protein = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
         $annotation_interaction_hash{'host_interacting_protein'} = $host_interacting_protein;
      }
 
-     # if the annotation extension begins with 'pathogen_interacting_protein',
-     # then assign value between brackets to pathogen_interacting_protein
-     if ($annot_ext =~ /^pathogen_interacting_protein/) {
-        my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $pathogen_interacting_protein = $annot_ext[1];
+     # if extension relation is 'pathogen_interacting_protein', then assign range value to pathogen_interacting_protein
+     if ($annot_ext_relation =~ /^pathogen_interacting_protein/) {
+        $pathogen_interacting_protein = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
         $annotation_interaction_hash{'pathogen_interacting_protein'} = $pathogen_interacting_protein;
      }
 
-     # if the annotation extension begins with 'pathogen_strain', then assign value between brackets to pathogen_strain_id
-     if ($annot_ext =~ /^pathogen_strain/) {
-        my @annot_ext = split(/[\(\)]/,$annot_ext);
-        $pathogen_strain_id = $annot_ext[1];
+     # if extension relation is 'pathogen_strain', then assign range value to pathogen_strain
+     if ($annot_ext_relation =~ /^pathogen_strain/) {
+        $pathogen_strain_id = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
         $annotation_interaction_hash{'pathogen_strain_id'} = $pathogen_strain_id;
      }
@@ -215,7 +226,9 @@ foreach my $annot_index (0 .. $#annotations) {
    # GO annotations are not linked to specific pathogen-host interactions,
    # so for a GO annotation, simply add the annotation to the array of GO annotations
    #
-   if ($annot_type eq 'phi_interaction_phenotype' or $annot_type eq 'phi_pathogen_phenotype' or $annot_type eq 'phi_host_phenotype') {
+   if ($annot_type eq 'phi_phenotype') {
+#if ($annot_type eq 'phi_phenotype' or $annot_type eq 'phenotype_outcome') {
+#if ($annot_type eq 'phi_interaction_phenotype' or $annot_type eq 'phi_pathogen_phenotype' or $annot_type eq 'phi_host_phenotype') {
 
       foreach my $interaction_id (keys %interaction_profiles) {
 
@@ -351,65 +364,70 @@ foreach my $int_id (1 .. $interaction_count) {
 
          # get the annotation extensions for the current annotation,
          # which are separated by commas
-         my $annot_extension_list = $annotation{'annotation_extension'};
-         my @annot_extensions = split(/,/,$annot_extension_list);
+#         my $annot_extension_list = $annotation{'annotation_extension'};
+#         my @annot_extensions = split(/,/,$annot_extension_list);
+
+   # get the annotation extensions for the current annotation,
+   # which is an array of hashes (one hash for each extension)
+   my @annot_extensions = @{ $annotation{'extension'} };
 
          # identify each annotation extension in the list
-         foreach my $annot_ext (@annot_extensions) {
+#         foreach my $annot_ext (@annot_extensions) {
+          foreach my $annot_ext_index (0 .. $#annot_extensions) {
 
-            # if the annotation extension begins with 'experimental_host', then assign value between brackets to host
-            if ($annot_ext =~ /^experimental_host/) {
-              my @annot_ext = split(/[\(\)]/,$annot_ext);
-              $host_taxon = $annot_ext[1];
-            }
+	    # get the hash for the annotation extension
+	    my %annot_ext_hash = %{ $annot_extensions[$annot_ext_index] };
+	    my $annot_ext_relation = $annot_ext_hash{'relation'}; 
+	    my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
 
-            # if the annotation extension begins with 'occurs_in', then assign value between brackets to tissue
-            if ($annot_ext =~ /^occurs_in/) {
-              my @annot_ext = split(/[\(\)]/,$annot_ext);
-              $tissue = $annot_ext[1];
-            }
-
-            # if the annotation extension begins with 'causes_disease', then assign value between brackets to disease
-            if ($annot_ext =~ /^causes_disease/) {
-              my @annot_ext = split(/[\(\)]/,$annot_ext);
-              $disease = $annot_ext[1];
-            }
-
-	    # if the annotation extension begins with 'induced_by', then assign value between brackets to inducer
-	    if ($annot_ext =~ /^induced_by/) {
-	       my @annot_ext = split(/[\(\)]/,$annot_ext);
-	       $inducer = $annot_ext[1];
+	    # if extension relation is 'experimental_host', then assign range value to host
+	    if ($annot_ext_relation =~ /^experimental_host/) {
+	      $host_taxon = $annot_ext_value;
 	    }
 
-	    # if the annotation extension begins with 'anti_infective', then assign value between brackets to anti_infective
-	    if ($annot_ext =~ /^anti_infective/) {
-	       my @annot_ext = split(/[\(\)]/,$annot_ext);
-	       $anti_infective = $annot_ext[1];
+#            # if the annotation extension begins with 'experimental_host', then assign value between brackets to host
+#            if ($annot_ext_relation =~ /^experimental_host/) {
+#              my @annot_ext_relation = split(/[\(\)]/,$annot_ext);
+#              $host_taxon = $annot_ext[1];
+#            }
+
+	    # if extension relation is 'infects_tissue', then assign range value to tissue
+            if ($annot_ext_relation =~ /^infects_tissue/) {
+	      $tissue = $annot_ext_value;
+            }
+
+	    # if extension relation is 'causes_disease', then assign range value to disease
+            if ($annot_ext_relation =~ /^causes_disease/) {
+	      $disease = $annot_ext_value;
+            }
+
+	    # if extension relation is 'induced_by', then assign range value to inducer
+	    if ($annot_ext_relation =~ /^induced_by/) {
+	      $inducer = $annot_ext_value;
 	    }
 
-	    # if the annotation extension begins with 'host_interacting_protein',
-	    # then assign value between brackets to host_interacting_protein
-	    if ($annot_ext =~ /^host_interacting_protein/) {
-	       my @annot_ext = split(/[\(\)]/,$annot_ext);
-	       $host_interacting_protein = $annot_ext[1];
+	    # if extension relation is 'anti_infective', then assign range value to anti_infective
+	    if ($annot_ext_relation =~ /^anti_infective/) {
+	      $anti_infective = $annot_ext_value;
+	    }
+
+	    # if extension relation is 'host_interacting_protein', then assign range value to host_interacting_protein
+	    if ($annot_ext_relation =~ /^host_interacting_protein/) {
+	       $host_interacting_protein = $annot_ext_value;
 	       # UniProt accession is the interacting protein with 'UniProt:' prefix removed
 	       $host_interacting_protein = substr($host_interacting_protein,8);
 	    }
 
-	    # if the annotation extension begins with 'pathogen_interacting_protein',
-	    # then assign value between brackets to pathogen_interacting_protein
-	    if ($annot_ext =~ /^pathogen_interacting_protein/) {
-	       my @annot_ext = split(/[\(\)]/,$annot_ext);
-	       $pathogen_interacting_protein = $annot_ext[1];
+	    # if extension relation is 'pathogen_interacting_protein', then assign range value to pathogen_interacting_protein
+	    if ($annot_ext_relation =~ /^pathogen_interacting_protein/) {
+	       $pathogen_interacting_protein = $annot_ext_value;
 	       # UniProt accession is the interacting protein with 'UniProt:' prefix removed
 	       $pathogen_interacting_protein = substr($pathogen_interacting_protein,8);
 	    }
 
-	    # if the annotation extension begins with 'pathogen_strain',
-            # then assign value between brackets to pathogen_strain_id
-	    if ($annot_ext =~ /^pathogen_strain/) {
-	       my @annot_ext = split(/[\(\)]/,$annot_ext);
-	       $pathogen_strain_id = $annot_ext[1];
+	    # if extension relation is 'pathogen_strain', then assign range value to pathogen_strain_id
+	    if ($annot_ext_relation =~ /^pathogen_strain/) {
+	       $pathogen_strain_id = $annot_ext_value;
 	    }
 
          } # end foreach annotation extension
@@ -437,8 +455,9 @@ foreach my $int_id (1 .. $interaction_count) {
          # then this taxon ID should be used for all interactions, otherwise use the taxon ID
          # retrieved from the UniProt accessions supplied
          if (defined $pathogen_strain_id) {
-	    # pathogen taxon id becomes the strain taxon with 'NCBItaxon:' prefix removed
-            $pathogen_taxon_id = substr($pathogen_strain_id,10);
+#	    # pathogen taxon id becomes the strain taxon with 'NCBItaxon:' prefix removed
+#            $pathogen_taxon_id = substr($pathogen_strain_id,10);
+            $pathogen_taxon_id = $pathogen_strain_id;
          }
 
 
@@ -552,7 +571,8 @@ foreach my $int_id (1 .. $interaction_count) {
 	 $interaction_id = shift @row1;
 
 	 # host taxon id is the taxon with 'NCBItaxon:' prefix removed
-	 $host_taxon_id = substr($host_taxon,10);
+#	 $host_taxon_id = substr($host_taxon,10);
+	 $host_taxon_id = $host_taxon;
 	 # PubMed id is the pubmed string with 'PMID:' prefix removed
 	 my $pubmed_id_num = substr($pubmed_id,5);
 
@@ -574,6 +594,7 @@ foreach my $int_id (1 .. $interaction_count) {
 					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
 					   VALUES ($interaction_id,$host_taxon_id);
 					);
+print "HOST INSERTED\n";
             }
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
@@ -701,7 +722,7 @@ foreach my $int_id (1 .. $interaction_count) {
          # iterate through the array of alleles in the current genotype
          # inserting a record in the interaction_pathogen_gene_allele table
          foreach my $genotype_allele_index (0 .. $#genotype_alleles) {
-     
+print("IN GENOTYPE ALLELE\n");     
             # get the allele hash available from the genotype 
 	    my %allele = %{ $genotype_alleles[$genotype_allele_index] };
 
@@ -729,11 +750,22 @@ foreach my $int_id (1 .. $interaction_count) {
 	    # add a record for each allele associated with the interaction,
 	    # using the interaction_id and pathogen_gene_allele_id as a foreign keys,
 	    # (in the case of a multiple allele interaction there will be multiple entries)
-	    my $inner_sql_statement = qq(
+
+            # USE DIFFERENT INSERT STATEMENTS, DEPENDING IF THE EXPRESSION WAS GIVEN
+	    my $inner_sql_statement;
+            if (defined $allele_expression) {
+	       $inner_sql_statement = qq(
 		  	                 INSERT INTO interaction_pathogen_gene_allele 
                                            (interaction_id, pathogen_gene_allele_id, allele_expression) 
 					   VALUES ($interaction_id, $pathogen_gene_allele_id, '$allele_expression');
 					);
+            } else {
+	       $inner_sql_statement = qq(
+		  	                 INSERT INTO interaction_pathogen_gene_allele 
+                                           (interaction_id, pathogen_gene_allele_id) 
+					   VALUES ($interaction_id, $pathogen_gene_allele_id);
+					);
+            }
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
 	 } # end foreach genotype allele
@@ -825,7 +857,8 @@ foreach my $int_id (1 .. $interaction_count) {
       my $annot_evid_code = $annotations[$annot_index]{'evidence_code'};
 
       # insert the appropriate record for the annotation, depending on the type of data
-      if ($annot_type eq 'phi_interaction_phenotype') {
+      if ($annot_type eq 'phi_phenotype') {
+#if ($annot_type eq 'phi_interaction_phenotype') {
 
          $phi_interaction_phenotype = $annot_value;
          #print "PHI Interaction Phenotype: $phi_interaction_phenotype\n";
@@ -934,17 +967,26 @@ foreach my $go_annot_ref (@go_annotations) {
   $pubmed_id = $go_annotation{'publication'};
 
   # get the annotation extensions for the GO annotation
-  my $annot_extension_list = $go_annotation{'annotation_extension'};
-  my @annot_extensions = split(/,/,$annot_extension_list);
+#  my $annot_extension_list = $go_annotation{'annotation_extension'};
+#  my @annot_extensions = split(/,/,$annot_extension_list);
+
+  # get the annotation extensions for the GO annotation
+  # which is an array of hashes (one hash for each extension)
+  my @annot_extensions = @{ $go_annotation{'extension'} };
+
 
   # from the annotation extensions in the list
   # find out if a specific pathogen strain taxon ID has been given
-  foreach my $annot_ext (@annot_extensions) {
+  foreach my $annot_ext_index (0 .. $#annot_extensions) {
 
-    # if the annotation extension begins with 'pathogen_strain', then assign value between brackets to pathogen_strain_id
-    if ($annot_ext =~ /^pathogen_strain/) {
-       my @annot_ext = split(/[\(\)]/,$annot_ext);
-       $pathogen_strain_id = $annot_ext[1];
+    # get the hash for the annotation extension
+    my %annot_ext_hash = %{ $annot_extensions[$annot_ext_index] };
+    my $annot_ext_relation = $annot_ext_hash{'relation'}; 
+    my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
+
+    # if extension relation is 'pathogen_strain', then assign range value to pathogen_strain_id
+    if ($annot_ext_relation =~ /^pathogen_strain/) {
+       $pathogen_strain_id = $annot_ext_value;
     }
 
   } # end foreach annotation extension
@@ -953,8 +995,9 @@ foreach my $go_annot_ref (@go_annotations) {
   # then this taxon ID should be used for all interactions, otherwise use the taxon ID
   # retrieved from the UniProt accessions supplied
   if (defined $pathogen_strain_id) {
-    # pathogen taxon id becomes the strain taxon with 'NCBItaxon:' prefix removed
-    $pathogen_taxon_id = substr($pathogen_strain_id,10);
+#    # pathogen taxon id becomes the strain taxon with 'NCBItaxon:' prefix removed
+#    $pathogen_taxon_id = substr($pathogen_strain_id,10);
+    $pathogen_taxon_id = $pathogen_strain_id;
   }
 
   # insert data into the pathogen_gene table,
