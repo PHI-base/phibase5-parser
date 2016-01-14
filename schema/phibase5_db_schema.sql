@@ -62,11 +62,19 @@ CREATE TABLE go_evidence (
 );
 
 CREATE TABLE pathogen_gene_go_annotation (
+    id SERIAL PRIMARY KEY,
     pathogen_gene_id integer REFERENCES pathogen_gene,
     pubmed_id varchar(50),
     go_id varchar(50),
-    go_evidence_code varchar(50) REFERENCES go_evidence,
-    PRIMARY KEY (pathogen_gene_id, pubmed_id, go_id)
+    go_evidence_code varchar(50) REFERENCES go_evidence
+    --PRIMARY KEY (pathogen_gene_id, pubmed_id, go_id)
+);
+
+CREATE TABLE pathogen_gene_go_annot_ext (
+    id SERIAL PRIMARY KEY,
+    pathogen_gene_go_annotation_id integer REFERENCES pathogen_gene_go_annotation,
+    go_annot_ext_relation varchar(50),
+    go_annot_ext_value varchar(50)
 );
 
 CREATE TABLE pathogen_gene_allele (

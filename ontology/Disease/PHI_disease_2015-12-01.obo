@@ -1,0 +1,680 @@
+format-version: 1.2
+date: 03:12:2015 12:18
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: PHI_disease
+
+[Term]
+id: PHID:0000000
+name: PHI_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:35:22Z
+
+[Term]
+id: PHID:0000001
+name: alternaria brown spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:40:45Z
+
+[Term]
+id: PHID:0000002
+name: alternaria leaf blotch
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:41:46Z
+
+[Term]
+id: PHID:0000003
+name: american foulbrood
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:42:00Z
+
+[Term]
+id: PHID:0000004
+name: anthracnose
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:42:22Z
+
+[Term]
+id: PHID:0000005
+name: apple scab
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:42:38Z
+
+[Term]
+id: PHID:0000006
+name: ascochyta blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:43:28Z
+
+[Term]
+id: PHID:0000007
+name: avian colibacillosis
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:44:05Z
+
+[Term]
+id: PHID:0000008
+name: bacterial blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:45:07Z
+
+[Term]
+id: PHID:0000009
+name: bacterial leaf spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:45:38Z
+
+[Term]
+id: PHID:0000010
+name: bacterial speck
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:45:51Z
+
+[Term]
+id: PHID:0000011
+name: bacterial spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:46:06Z
+
+[Term]
+id: PHID:0000012
+name: bacterial wilt
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:46:17Z
+
+[Term]
+id: PHID:0000013
+name: leaf scald
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:47:25Z
+
+[Term]
+id: PHID:0000014
+name: stem blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:50:09Z
+
+[Term]
+id: PHID:0000015
+name: black rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:50:55Z
+
+[Term]
+id: PHID:0000016
+name: black spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:51:08Z
+
+[Term]
+id: PHID:0000017
+name: blue mold
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:51:20Z
+
+[Term]
+id: PHID:0000018
+name: PHI_plant_disease
+is_a: PHID:0000000 ! PHI_disease
+created_by: irvinea
+creation_date: 2015-12-03T11:17:33Z
+
+[Term]
+id: PHID:0000019
+name: brown rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:51:57Z
+
+[Term]
+id: PHID:0000020
+name: candidemia
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:52:27Z
+
+[Term]
+id: PHID:0000021
+name: canker
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:52:51Z
+
+[Term]
+id: PHID:0000022
+name: chesnut blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:53:50Z
+
+[Term]
+id: PHID:0000023
+name: citrus black rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:54:53Z
+
+[Term]
+id: PHID:0000024
+name: citrus brown spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:55:05Z
+
+[Term]
+id: PHID:0000025
+name: citrus canker
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:55:16Z
+
+[Term]
+id: PHID:0000026
+name: colibacillosis
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:55:27Z
+
+[Term]
+id: PHID:0000027
+name: corky root rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:56:36Z
+
+[Term]
+id: PHID:0000028
+name: covered smut
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:56:57Z
+
+[Term]
+id: PHID:0000029
+name: crown gall
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:57:19Z
+
+[Term]
+id: PHID:0000030
+name: downy mildew
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:58:02Z
+
+[Term]
+id: PHID:0000031
+name: dry bubble
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:58:44Z
+
+[Term]
+id: PHID:0000032
+name: early blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T11:59:09Z
+
+[Term]
+id: PHID:0000033
+name: fire blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:30:58Z
+
+[Term]
+id: PHID:0000034
+name: enteric redmouth
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T12:00:17Z
+
+[Term]
+id: PHID:0000035
+name: ergot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T12:00:36Z
+
+[Term]
+id: PHID:0000036
+name: PHI_animal_disease
+is_a: PHID:0000000 ! PHI_disease
+created_by: irvinea
+creation_date: 2015-12-01T12:49:07Z
+
+[Term]
+id: PHID:0000037
+name: powdery mildew
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T14:51:17Z
+
+[Term]
+id: PHID:0000038
+name: brown spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T14:54:54Z
+
+[Term]
+id: PHID:0000039
+name: bordetellosis
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T14:59:32Z
+
+[Term]
+id: PHID:0000040
+name: potato scab
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:13:23Z
+
+[Term]
+id: PHID:0000041
+name: root rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:15:39Z
+
+[Term]
+id: PHID:0000042
+name: flax rust
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:32:08Z
+
+[Term]
+id: PHID:0000043
+name: frog-eye leaf spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:36:26Z
+
+[Term]
+id: PHID:0000044
+name: fruit rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:38:44Z
+
+[Term]
+id: PHID:0000045
+name: furunculosis
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:42:46Z
+
+[Term]
+id: PHID:0000046
+name: ear blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:44:04Z
+
+[Term]
+id: PHID:0000047
+name: head blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:44:38Z
+
+[Term]
+id: PHID:0000048
+name: fusarium wilt
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:45:56Z
+
+[Term]
+id: PHID:0000049
+name: vascular wilt
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:49:07Z
+
+[Term]
+id: PHID:0000050
+name: verticillium wilt
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:50:06Z
+
+[Term]
+id: PHID:0000051
+name: muskmelon wilt
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:51:03Z
+
+[Term]
+id: PHID:0000052
+name: pine wilt
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:51:49Z
+
+[Term]
+id: PHID:0000053
+name: tomato wilt
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:52:18Z
+
+[Term]
+id: PHID:0000054
+name: glasser's
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:55:48Z
+
+[Term]
+id: PHID:0000055
+name: glume blotch
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:57:36Z
+
+[Term]
+id: PHID:0000056
+name: green mould
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T15:58:54Z
+
+[Term]
+id: PHID:0000057
+name: green muscardine
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:02:20Z
+
+[Term]
+id: PHID:0000058
+name: white muscardine
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:03:40Z
+
+[Term]
+id: PHID:0000059
+name: grey mould
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:04:39Z
+
+[Term]
+id: PHID:0000060
+name: halo blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:06:38Z
+
+[Term]
+id: PHID:0000061
+name: nosocomial infection
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:08:58Z
+
+[Term]
+id: PHID:0000062
+name: leaf blotch
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:10:34Z
+
+[Term]
+id: PHID:0000063
+name: purple seed stain
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:12:18Z
+
+[Term]
+id: PHID:0000064
+name: leaf mould
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:13:24Z
+
+[Term]
+id: PHID:0000065
+name: midrib rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:19:22Z
+
+[Term]
+id: PHID:0000066
+name: light leaf spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:20:43Z
+
+[Term]
+id: PHID:0000067
+name: septicemia
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:28:52Z
+
+[Term]
+id: PHID:0000068
+name: stem rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:37:24Z
+
+[Term]
+id: PHID:0000069
+name: net blotch
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:45:08Z
+
+[Term]
+id: PHID:0000070
+name: olive knot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:48:55Z
+
+[Term]
+id: PHID:0000071
+name: ovine brucellosis
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T16:56:34Z
+
+[Term]
+id: PHID:0000072
+name: phoma stem canker
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T17:21:46Z
+
+[Term]
+id: PHID:0000073
+name: phytophthora blight
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T17:24:04Z
+
+[Term]
+id: PHID:0000074
+name: pierce disease
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T17:25:56Z
+
+[Term]
+id: PHID:0000075
+name: citrus variegated chlorosis
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T17:27:48Z
+
+[Term]
+id: PHID:0000076
+name: buckeye rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T17:35:23Z
+
+[Term]
+id: PHID:0000077
+name: tuber rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T17:56:26Z
+
+[Term]
+id: PHID:0000078
+name: soft rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:12:33Z
+
+[Term]
+id: PHID:0000079
+name: spot blotch
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:14:36Z
+
+[Term]
+id: PHID:0000080
+name: stem canker
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:16:33Z
+
+[Term]
+id: PHID:0000081
+name: storage rot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:19:12Z
+
+[Term]
+id: PHID:0000082
+name: streptococcosis
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:27:08Z
+
+[Term]
+id: PHID:0000083
+name: take-all
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:28:50Z
+
+[Term]
+id: PHID:0000084
+name: tan spot
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:32:05Z
+
+[Term]
+id: PHID:0000085
+name: yellow rust
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:40:12Z
+
+[Term]
+id: PHID:0000086
+name: white mould
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:40:54Z
+
+[Term]
+id: PHID:0000087
+name: wildfire
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:46:11Z
+
+[Term]
+id: PHID:0000088
+name: witches broom
+is_a: PHID:0000018 ! PHI_plant_disease
+created_by: irvinea
+creation_date: 2015-12-01T18:51:11Z
+
+[Term]
+id: PHID:0000089
+name: bacterial cold water disease
+def: "Wikidata:Q1722736" []
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-03T11:49:42Z
+
+[Term]
+id: PHID:0000090
+name: avian pneumovirus
+def: "Wikidata:Q4828563" []
+synonym: "swollen head syndrome" EXACT []
+synonym: "turkey rhinotracheitis virus" EXACT []
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-03T11:52:29Z
+
+[Term]
+id: PHID:0000091
+name: edwardsiella tarda
+def: "Wikidata:Q3048738" []
+synonym: "edwardsiellosis" RELATED []
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-03T11:56:41Z
+
+[Term]
+id: PHID:0000092
+name: enteric redmouth disease
+def: "Wikidata:Q606895" []
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-03T11:58:05Z
+
+[Term]
+id: PHID:0000093
+name: edwardsiella ictaluri
+def: "Wikidata:Q5346148" []
+synonym: "enteric septicemia" EXACT []
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-03T11:59:44Z
+
+[Term]
+id: PHID:0000094
+name: blackleg
+def: "Wikidata:Q699921" []
+is_a: PHID:0000036 ! PHI_animal_disease
+created_by: irvinea
+creation_date: 2015-12-03T12:03:07Z
+

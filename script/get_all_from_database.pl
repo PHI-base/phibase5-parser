@@ -31,7 +31,7 @@ $json_output{"interactions"} = \@interactions;
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -46,9 +46,11 @@ print "Reading ontology files...\n";
 my $obo_parser = OBO::Parser::OBOParser->new;
 my $exp_spec_ontology = $obo_parser->work("../ontology/phibase/experiment_specification.obo");
 my $phi_phenotype_ontology = $obo_parser->work("../ontology/phibase/phi_phenotype.obo");
-my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/doid.obo");
+#my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/doid.obo");
+my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/HumanDO.obo");
 #my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/PlantDisease/plant_disease_ontology.obo");
 my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/plant-stress-ontology/plant-disease-ontology.obo");
+my $phi_diseases = $obo_parser->work("../ontology/Disease/PHI_disease_2015-12-01.obo");
 my $brenda_tissue_ontology = $obo_parser->work("../ontology/Tissue/BrendaTissueOBO.obo");
 
 print "Parsing PHI-base data...\n";
@@ -148,9 +150,11 @@ while (my @row = $sql_result->fetchrow_array()) {
 
 
 
-  # initalise output string for GO terms and array for JSON output
+  # initalise output string for GO annotations and array for JSON output
   my $go_output_string = "";
   my @phibase_go_annotations;
+  # initalise output string for GO annotation extensions
+  my $go_annot_ext_output_string = "";
 
 
 
@@ -300,9 +304,12 @@ while (my @row = $sql_result->fetchrow_array()) {
 
 
 
+  # initalise output string for GO annotation extension array for JSON output
+  my @go_annot_extensions;
 
   # get the PHI-base curated Gene Ontology annotation fields 
-  my $sql_stmt6 = qq(SELECT go_id,
+  my $sql_stmt6 = qq(SELECT pathogen_gene_go_annotation.id,
+                            go_id,
                             go_evidence_code
                      FROM pathogen_gene,
                           pathogen_gene_go_annotation
@@ -312,7 +319,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $sql_result6 = $db_conn->prepare($sql_stmt6);
   $sql_result6->execute() or die $DBI::errstr;
 
-  # since there may be multiple GO terms,
+  # since there may be multiple GO annotation,
   # need to retrieve all of them and construct output string 
   # based on comma and semi-colon delimiters
   while (my @row6 = $sql_result6->fetchrow_array()) {
@@ -320,6 +327,7 @@ while (my @row = $sql_result->fetchrow_array()) {
     # create a hash for the current go annotation
     my %go_annotation;
 
+    my $path_gene_go_annot_id = shift @row6;
     my $go_id = shift @row6;
     my $go_evid_code = shift @row6;
     my $go_term = "";
@@ -352,10 +360,90 @@ while (my @row = $sql_result->fetchrow_array()) {
       $go_output_string .= "$go_id:$go_term;";
     }
 
+
+# FOREACH GO ANNOTATION, GET THE CORRESPONDING ANNOT EXTENSIONS,
+# BASED ON THE KNOWN ANNOT ID
+# SAVE DETAILS TO AN ANNOT EXT HASH - WHICH WILL THEN BE ADDED TO THE GO ANNOT HASH
+# AS WELL AS THE USUAL OUTPUT STRING
+
+    # get the annotation extensions associated with the current GO annotaton 
+    my $sql_stmt7 = qq(SELECT go_annot_ext_relation,
+			      go_annot_ext_value
+		       FROM pathogen_gene_go_annotation,
+			    pathogen_gene_go_annot_ext
+		       WHERE pathogen_gene_go_annotation.id = $path_gene_go_annot_id
+		       AND pathogen_gene_go_annotation.id = pathogen_gene_go_annot_ext.pathogen_gene_go_annotation_id
+		      ;);
+    my $sql_result7 = $db_conn->prepare($sql_stmt7);
+    $sql_result7->execute() or die $DBI::errstr;
+
+    # since there may be multiple GO annot extensions,
+    # need to retrieve all of them and construct output string 
+    # based on comma and semi-colon delimiters
+    while (my @row7 = $sql_result7->fetchrow_array()) {
+
+      # create a hash for the current go annotation extension
+      my %go_annot_extension;
+
+      my $go_annot_ext_relation = shift @row7;
+      my $go_annot_ext_value = shift @row7;
+      my $go_annot_ext = "";
+
+      # add relation and value to the hash
+      $go_annot_extension{"go_annot_ext_relation"} = $go_annot_ext_relation;
+      $go_annot_extension{"go_annot_ext_value"} = $go_annot_ext_value;
+
+
+
+      # NEED TO IDENTIFY THE TYPE OF ANNOT EXT VALUE (literal, GO, ChEBI etc),
+      # AND, IF AN ONTOLOGY TERM, GET THE RELEVANT NAME ASSOCIATED WITH THE IDENTIFIER
+      # SO FAR, ONLY TESTING IF ITS A GO ANNOTATION
+      my $go_annot_ext_term_name;
+      if ($go_annot_ext_value =~ /^GO/) {
+
+	# retrieve the name of the GO term, using the Quick REST web service
+	my $query = "http://www.ebi.ac.uk/QuickGO/GTerm?id=$go_annot_ext_value&format=oboxml";
+	my $xml_response = get $query;
+
+	# use XML twig to parse the XML data
+	my $xml_twig = XML::Twig->new();
+
+	if (defined $xml_response) {
+	   # parse the XML data to get the GO term name
+	   $xml_twig->parse($xml_response);
+	   if (defined $xml_twig->root->first_child('term')) {
+	     $go_annot_ext_term_name = $xml_twig->root->first_child('term')->field('name');
+	   }
+	} else {
+	   print STDERR "ERROR: Gene Ontology term not found for $go_annot_ext_value\n";
+	}
+
+      }
+
+
+
+
+
+      # add the annotation extension details to the output string
+      # with the term name of the ontology term, if appropriate
+      if (defined $go_annot_ext_term_name) {
+        $go_annot_ext_output_string .= "$go_annot_ext_relation($go_annot_ext_value:$go_annot_ext_term_name);";
+      } else {
+        $go_annot_ext_output_string .= "$go_annot_ext_relation($go_annot_ext_value);";
+      }
+
+      # add the current GO annotation extension to the list of annotation extensions
+      push(@go_annot_extensions, \%go_annot_extension);
+
+    }
+
+    # add the list of annotation extensions to the hash for the current GO annotation
+    $go_annotation{"go_annot_extensions"} = \@go_annot_extensions;
+
     # add the current GO annotation to the list of PHI-base curated GO annotation
     push(@phibase_go_annotations, \%go_annotation);
 
-  }
+  } # end while GO annotation
 
 
 
@@ -615,13 +703,16 @@ while (my @row = $sql_result->fetchrow_array()) {
   }
 
 
-  # display the GO terms retrieved earlier
-  # remove the final semi-colon from end of the string
+  # display the GO annotations retrieved earlier,
+  # along with the GO annotation extensions,
+  # removing the final semi-colon from end of the string
   $go_output_string =~ s/;$//;
+  $go_annot_ext_output_string =~ s/;$//;
   # print the list of GO terms to file
-  # first print the known GO terms from UniProt
-  # followed by the additional GO terms curated into PHI-base
-  print DATABASE_DATA_FILE "$uniprot_go_annotation\t$go_output_string\t";
+  # first print the known GO annotations from UniProt
+  # followed by the additional GO annotations curated into PHI-base
+  # followed by the annotation extensions for the PHI-base curated annotations
+  print DATABASE_DATA_FILE "$uniprot_go_annotation\t$go_output_string\t$go_annot_ext_output_string\t";
 
   # add the phibase GO annotation to the interaction hash
   $interaction_hash{"phibase_go_annotations"} = \@phibase_go_annotations;

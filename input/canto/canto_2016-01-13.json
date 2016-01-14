@@ -1,0 +1,2168 @@
+{
+   "curation_sessions" : {
+      "b9807385cde477ee" : {
+         "alleles" : {
+            "Magnaporthe grisea Q0PND3:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe grisea Q0PND3",
+               "name" : "Q0PND3_MAGGRdelta",
+               "primary_identifier" : "Q0PND3:b9807385cde477ee-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9",
+               "name" : "G4MQZ9_MAGO7delta",
+               "primary_identifier" : "G4MQZ9:b9807385cde477ee-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1",
+               "name" : "G4MZY1_MAGO7delta",
+               "primary_identifier" : "G4MZY1:b9807385cde477ee-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "name" : "G4N492_MAGO7delta",
+               "primary_identifier" : "G4N492:b9807385cde477ee-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6",
+               "name" : "G4NBI6_MAGO7delta",
+               "primary_identifier" : "G4NBI6:b9807385cde477ee-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7",
+               "name" : "G4NBI7_MAGO7delta",
+               "primary_identifier" : "G4NBI7:b9807385cde477ee-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6",
+               "name" : "G4NEK6_MAGO7delta",
+               "primary_identifier" : "G4NEK6:b9807385cde477ee-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7",
+               "name" : "G4NGA7_MAGO7delta",
+               "primary_identifier" : "G4NGA7:b9807385cde477ee-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1:b9807385cde477ee-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1",
+               "name" : "G4NJL1_MAGO7delta",
+               "primary_identifier" : "G4NJL1:b9807385cde477ee-1"
+            }
+         },
+         "annotations" : [
+            {
+               "conditions" : [],
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "intracellular lipid transport",
+                     "rangeValue" : "GO:0032365",
+                     "relation" : "happens_during"
+                  }
+               ],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000393",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-8",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-8",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-8",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000393",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-8",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "intracellular lipid transport",
+                     "rangeValue" : "GO:0032365",
+                     "relation" : "happens_during"
+                  }
+               ],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-5",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-5",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-5",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000393",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-5",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000393",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000393",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000393",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-9",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000393",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-10",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-10",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-10",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000393",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-10",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000088",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "intracellular lipid transport",
+                     "rangeValue" : "GO:0032365",
+                     "relation" : "happens_during"
+                  }
+               ],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "intracellular lipid transport",
+                     "rangeValue" : "GO:0032365",
+                     "relation" : "happens_during"
+                  }
+               ],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "intracellular lipid transport",
+                     "rangeValue" : "GO:0032365",
+                     "relation" : "happens_during"
+                  }
+               ],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "intracellular lipid transport",
+                     "rangeValue" : "GO:0032365",
+                     "relation" : "happens_during"
+                  }
+               ],
+               "gene" : "Magnaporthe grisea Q0PND3",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "intracellular lipid transport",
+                     "rangeValue" : "GO:0032365",
+                     "relation" : "happens_during"
+                  }
+               ],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "GO:0004806",
+               "type" : "molecular_function"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "GO:0016557",
+               "type" : "biological_process"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "term" : "GO:0006635",
+               "type" : "biological_process"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000098",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000099",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000097",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000394",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000020",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000111",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-4",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000041",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000011",
+               "type" : "phi_phenotype"
+            },
+            {
+               "creation_date" : "2016-01-13",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  }
+               ],
+               "genotype" : "b9807385cde477ee-genotype-2",
+               "publication" : "PMID:17506326",
+               "status" : "new",
+               "submitter_comment" : null,
+               "term" : "PHIPO:0000357",
+               "type" : "phi_phenotype"
+            }
+         ],
+         "genes" : {
+            "Magnaporthe grisea Q0PND3" : {
+               "organism" : "Magnaporthe grisea",
+               "uniquename" : "Q0PND3"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4MQZ9"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4MZY1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4N492"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NBI6"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NBI7"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NEK6"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NGA7"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4NJL1"
+            }
+         },
+         "genotypes" : {
+            "b9807385cde477ee-genotype-1" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MQZ9:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-10" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:b9807385cde477ee-1"
+                  },
+                  {
+                     "id" : "Magnaporthe grisea Q0PND3:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-2" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4MZY1:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-3" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-4" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI6:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-5" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NBI7:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-6" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NEK6:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-7" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NGA7:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-8" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4NJL1:b9807385cde477ee-1"
+                  }
+               ]
+            },
+            "b9807385cde477ee-genotype-9" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe grisea Q0PND3:b9807385cde477ee-1"
+                  }
+               ]
+            }
+         },
+         "metadata" : {
+            "accepted_timestamp" : "2016-01-13 11:33:50",
+            "admin_session" : "1",
+            "annotation_status" : "APPROVED",
+            "annotation_status_datestamp" : "2016-01-13 13:58:41",
+            "approval_in_progress_timestamp" : "2016-01-13 13:58:36",
+            "approved_timestamp" : "2016-01-13 13:58:41",
+            "approver_email" : "alistair.irvine@rothamsted.ac.uk",
+            "approver_name" : "Alistair Irvine",
+            "canto_session" : "b9807385cde477ee",
+            "curation_in_progress_timestamp" : "2016-01-13 13:40:12",
+            "curation_pub_id" : "PMID:17506326",
+            "needs_approval_timestamp" : "2016-01-13 13:58:31",
+            "session_created_timestamp" : "2016-01-13 11:33:40",
+            "session_genes_count" : "9",
+            "session_term_suggestions_count" : "0",
+            "session_unknown_conditions_count" : "0",
+            "term_suggestion_count" : "0",
+            "unknown_conditions_count" : "0"
+         },
+         "organisms" : {
+            "148305" : {
+               "full_name" : "Magnaporthe grisea"
+            },
+            "242507" : {
+               "full_name" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)"
+            }
+         },
+         "publications" : {
+            "PMID:17506326" : {}
+         }
+      }
+   }
+}
+
