@@ -31,7 +31,7 @@ $json_output{"interactions"} = \@interactions;
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -113,6 +113,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_stmt2 = qq(SELECT pathogen_gene_id,
                          uniprot_accession,
                          ncbi_taxon_id,
+                         pathogen_strain_name,
                          gene_name,
                          allele_name,
                          allele_type,
@@ -140,6 +141,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $uniprot_embl_accessions = "";
   my $uniprot_go_annotation = "";
   my $path_taxa = "";
+  my $pathogen_strain_names = "";
   my $pathogen_interacting_proteins = "";
 
   # declare arrays for JSON output
@@ -170,6 +172,7 @@ while (my @row = $sql_result->fetchrow_array()) {
      my $pathogen_gene_id = shift @row2;
      my $uniprot_acc = shift @row2;
      my $path_taxon_id = shift @row2;
+     my $pathogen_strain_name = shift @row2;
      my $phibase_gene_name = shift @row2;
      my $allele_name = shift @row2;
      my $allele_type = shift @row2;
@@ -183,6 +186,7 @@ while (my @row = $sql_result->fetchrow_array()) {
      # append UniProt accession and PHI-base gene name to lists
      # and add them to the pathogen gene hash
      $uniprot_accessions .= "$uniprot_acc;";
+     $pathogen_strain_names .= "$pathogen_strain_name;" if defined $pathogen_strain_name;
      $phibase_gene_names .= "$phibase_gene_name;" if defined $phibase_gene_name;
      $pathogen_allele_hash{"uniprot_acc"} = $uniprot_acc;
      $pathogen_allele_hash{"phibase_gene_name"} = $phibase_gene_name;
@@ -505,9 +509,16 @@ while (my @row = $sql_result->fetchrow_array()) {
   $uniprot_go_annotation =~ s/;$//;
   $pathogen_interacting_proteins =~ s/;$//;
   $path_taxa =~ s/;$//;
+  $pathogen_strain_names =~ s/;$//;
+
+  # for allele details, also want to remove
+  # the final colon from end of the strings,
+  # which may occur if no description or expression
+  # details are given
+  $allele_details =~ s/:$//;
 
   # print to the output file
-  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$allele_details\t$pathogen_interacting_proteins\t$path_taxa\t";
+  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$allele_details\t$pathogen_interacting_proteins\t$path_taxa\t$pathogen_strain_names\t";
 
 
   # get the disease related fields 

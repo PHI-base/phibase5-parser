@@ -8,6 +8,7 @@ CREATE TABLE interaction_host (
     id SERIAL PRIMARY KEY,
     interaction_id integer REFERENCES interaction,
     ncbi_taxon_id integer,
+    host_strain_name varchar(50),
     first_target_uniprot_accession varchar(50),
     genbank_locus_id varchar(50)
 );
@@ -49,6 +50,7 @@ CREATE TABLE usda_natural_host (
 CREATE TABLE pathogen_gene (
     id SERIAL PRIMARY KEY,
     ncbi_taxon_id integer,
+    pathogen_strain_name varchar(50),
     gene_name varchar(100),
     uniprot_accession varchar(50),
     uniparc_id varchar(50),

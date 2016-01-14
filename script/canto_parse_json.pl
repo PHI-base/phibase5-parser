@@ -158,11 +158,18 @@ foreach my $annot_index (0 .. $#annotations) {
 #        $annotation_interaction_hash{'host_taxon_id'} = $host_taxon_id;
 #     }
 
-     # if extension relation is 'experimental_host_id', then assign range value to host
+     # if extension relation is 'experimental_host_id', then assign range value to host taxon id
      if ($annot_ext_relation =~ /^experimental_host_id/) {
         $host_taxon_id = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
         $annotation_interaction_hash{'host_taxon_id'} = $host_taxon_id;
+     }
+
+     # if extension relation is 'experimental_host_strain', then assign range value to host strain name
+     if ($annot_ext_relation =~ /^experimental_host_strain/) {
+        $host_strain_name = $annot_ext_value;
+        # add annotation extension to help identify the correct interaction
+        $annotation_interaction_hash{'host_strain_name'} = $host_strain_name;
      }
 
      # if extension relation is 'infects_tissue', then assign range value to tissue
@@ -293,6 +300,7 @@ foreach my $int_id (1 .. $interaction_count) {
   my $pubmed_id;
   #my $host_taxon;
   my $host_taxon_id;
+  my $host_strain_name;
   my $tissue;
   my $curator_name;
   my $curator_email;
@@ -392,16 +400,15 @@ foreach my $int_id (1 .. $interaction_count) {
 	    my $annot_ext_relation = $annot_ext_hash{'relation'}; 
 	    my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
 
-	    # if extension relation is 'experimental_host_id', then assign range value to host
+	    # if extension relation is 'experimental_host_id', then assign range value to host taxon id
 	    if ($annot_ext_relation =~ /^experimental_host_id/) {
 	      $host_taxon_id = $annot_ext_value;
 	    }
 
-#            # if the annotation extension begins with 'experimental_host_id', then assign value between brackets to host
-#            if ($annot_ext_relation =~ /^experimental_host_id/) {
-#              my @annot_ext_relation = split(/[\(\)]/,$annot_ext);
-#              $host_taxon_id = $annot_ext[1];
-#            }
+	    # if extension relation is 'experimental_host_strain', then assign range value to host strain name
+	    if ($annot_ext_relation =~ /^experimental_host_strain/) {
+	      $host_strain_name = $annot_ext_value;
+	    }
 
 	    # if extension relation is 'infects_tissue', then assign range value to tissue
             if ($annot_ext_relation =~ /^infects_tissue/) {
@@ -451,6 +458,7 @@ foreach my $int_id (1 .. $interaction_count) {
 
 
          print "Host Taxon: $host_taxon_id\n";
+         print "Host Strain Name: $host_strain_name\n" if defined $host_strain_name;
          print "Tissue: $tissue\n" if defined $tissue;
          print "Disease: $disease\n" if defined $disease;
          print "Inducer: $inducer\n" if defined $inducer;
@@ -480,18 +488,31 @@ foreach my $int_id (1 .. $interaction_count) {
 
 
 	 # insert data into the pathogen_gene table, for each pathogen gene
-	 # if it does not exist already (based on combination of taxon id and UniProt accession)
+	 # if it does not exist already
+         # (based on combination of taxon id, UniProt accession, and where available the pathogen strain name)
 	 foreach my $pathogen_gene_uniprot_acc (@pathogen_genes) {
 
             print "Pathogen Gene: $pathogen_gene_uniprot_acc\n";
 
-	    my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
+            my $sql_statement2;
+            if (defined $pathogen_strain_name) {
+	       $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, pathogen_strain_name, uniprot_accession) 
+				    SELECT $pathogen_taxon_id,'$pathogen_strain_name','$pathogen_gene_uniprot_acc'
+				    WHERE NOT EXISTS (
+				      SELECT 1 FROM pathogen_gene
+				      WHERE ncbi_taxon_id = $pathogen_taxon_id
+				      AND pathogen_strain_name = '$pathogen_strain_name'
+				      AND uniprot_accession = '$pathogen_gene_uniprot_acc'
+				   ));
+            } else {
+	       $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
 				    SELECT $pathogen_taxon_id,'$pathogen_gene_uniprot_acc'
 				    WHERE NOT EXISTS (
 				      SELECT 1 FROM pathogen_gene
 				      WHERE ncbi_taxon_id = $pathogen_taxon_id
 				      AND uniprot_accession = '$pathogen_gene_uniprot_acc'
 				   ));
+            }
 
 	    my $sql_result2 = $db_conn->prepare($sql_statement2);
 	    $sql_result2->execute() or die $DBI::errstr;
@@ -612,7 +633,6 @@ foreach my $int_id (1 .. $interaction_count) {
 					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
 					   VALUES ($interaction_id,$host_taxon_id);
 					);
-print "HOST INSERTED\n";
             }
 	    my $inner_sql_result = $db_conn->do($inner_sql_statement) or die $DBI::errstr;
 
@@ -740,7 +760,7 @@ print "HOST INSERTED\n";
          # iterate through the array of alleles in the current genotype
          # inserting a record in the interaction_pathogen_gene_allele table
          foreach my $genotype_allele_index (0 .. $#genotype_alleles) {
-print("IN GENOTYPE ALLELE\n");     
+
             # get the allele hash available from the genotype 
 	    my %allele = %{ $genotype_alleles[$genotype_allele_index] };
 
@@ -952,6 +972,7 @@ foreach my $go_annot_ref (@go_annotations) {
   my $go_id;
   my $go_evid_code;
   my $pathogen_strain_id;
+  my $pathogen_strain_name;
 
   # increment overall GO annotation count
   $go_annotation_count++;
@@ -995,6 +1016,7 @@ foreach my $go_annot_ref (@go_annotations) {
 
   # from the annotation extensions in the list
   # find out if a specific pathogen strain taxon ID has been given
+  # and/or a specific pathogen strain name
   foreach my $annot_ext_index (0 .. $#annot_extensions) {
 
     # get the hash for the annotation extension
@@ -1005,6 +1027,12 @@ foreach my $go_annot_ref (@go_annotations) {
     # if extension relation is 'pathogen_strain_id', then assign range value to pathogen_strain_id
     if ($annot_ext_relation =~ /^pathogen_strain_id/) {
        $pathogen_strain_id = $annot_ext_value;
+    }
+
+    # if extension relation is 'pathogen_strain_name', then assign range value to pathogen_strain_name
+    if ($annot_ext_relation =~ /^pathogen_strain_name/) {
+       $pathogen_strain_name = $annot_ext_value;
+print "path strain (in GO) at 1025:$pathogen_strain_name\n";
     }
 
   } # end foreach annotation extension
@@ -1019,14 +1047,27 @@ foreach my $go_annot_ref (@go_annotations) {
   }
 
   # insert data into the pathogen_gene table,
-  # if it does not exist already (based on combination of taxon id and UniProt accession)
-  my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
+  # if it does not exist already
+  # (based on combination of taxon id, UniProt accession, and where available the pathogen strain name)
+  my $sql_statement2;
+  if (defined $pathogen_strain_name) {
+     $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
+			  SELECT $pathogen_taxon_id,'$pathogen_strain_name','$pathogen_gene_uniprot_acc'
+			  WHERE NOT EXISTS (
+			    SELECT 1 FROM pathogen_gene
+			    WHERE ncbi_taxon_id = $pathogen_taxon_id
+			    AND pathogen_strain_name = '$pathogen_strain_name'
+			    AND uniprot_accession = '$pathogen_gene_uniprot_acc'
+			 ));
+  } else {
+     $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
 			  SELECT $pathogen_taxon_id,'$pathogen_gene_uniprot_acc'
 			  WHERE NOT EXISTS (
 			    SELECT 1 FROM pathogen_gene
 			    WHERE ncbi_taxon_id = $pathogen_taxon_id
 			    AND uniprot_accession = '$pathogen_gene_uniprot_acc'
 			 ));
+  }
 
   my $sql_result2 = $db_conn->prepare($sql_statement2);
   $sql_result2->execute() or die $DBI::errstr;
@@ -1061,15 +1102,15 @@ foreach my $go_annot_ref (@go_annotations) {
 
 
   # get the unique identifier for the inserted pathogen_gene_go_annotation record
-  my $sql_statement4 = qq(SELECT id FROM pathogen_gene_go_annotation
+  $sql_statement4 = qq(SELECT id FROM pathogen_gene_go_annotation
 			  WHERE pathogen_gene_id = $pathogen_gene_id
                           AND pubmed_id = '$pubmed_id'
                           AND go_id = '$go_id'
 		         );
 
-  my $sql_result4 = $db_conn->prepare($sql_statement4);
+  $sql_result4 = $db_conn->prepare($sql_statement4);
   $sql_result4->execute() or die $DBI::errstr;
-  my @row4 = $sql_result4->fetchrow_array();
+  @row4 = $sql_result4->fetchrow_array();
   my $pathogen_gene_go_annotation_id = shift @row4;
 
   # for each annotation extension in the list
