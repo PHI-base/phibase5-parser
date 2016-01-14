@@ -29,7 +29,8 @@ my $allele_count = 0;
 #my $inducer_count = 0;
 #my $exp_spec_count = 0;
 
-my $json_filename = '../input/canto/canto_2016-01-13.json';
+my $json_filename = '../input/canto/canto_2016-01-14.json';
+#my $json_filename = '../input/canto/canto_2016-01-13.json';
 #my $json_filename = '../input/canto/canto_with_annot_ext.json';
 #my $json_filename = '../input/canto/canto_using_alleles.json';
 #my $json_filename = '../input/canto/paper_with_complex_annot_extension.json';
@@ -134,7 +135,9 @@ foreach my $annot_index (0 .. $#annotations) {
    my $host_strain_name;
    my $tissue;
    my $disease;
-   my $inducer;
+   my $inducer_chebi_id;
+   my $inducer_cas_num;
+   my $inducer_gene;
    my $anti_infective;
    my $host_interacting_protein;
    my $pathogen_interacting_protein;
@@ -149,14 +152,6 @@ foreach my $annot_index (0 .. $#annotations) {
      my %annot_ext_hash = %{ $annot_extensions[$annot_ext_index] };
      my $annot_ext_relation = $annot_ext_hash{'relation'}; 
      my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
-
-#     # if the annotation extension begins with 'experimental_host_id', then assign value between brackets to host
-#     if ($annot_ext_relation =~ /^experimental_host_id/) {
-#        my @annot_ext_relation = split(/[\(\)]/,$annot_ext);
-#        $host_taxon_id = $annot_ext[1];
-#        # add annotation extension to help identify the correct interaction
-#        $annotation_interaction_hash{'host_taxon_id'} = $host_taxon_id;
-#     }
 
      # if extension relation is 'experimental_host_id', then assign range value to host taxon id
      if ($annot_ext_relation =~ /^experimental_host_id/) {
@@ -186,11 +181,28 @@ foreach my $annot_index (0 .. $#annotations) {
 	$annotation_interaction_hash{'disease'} = $disease;
      }
 
-     # if extension relation is 'induced_by', then assign range value to inducer
-     if ($annot_ext_relation =~ /^induced_by/) {
-        $inducer = $annot_ext_value;
+     # if extension relation is 'induced_by_chemical', then assign range value to inducer_chemical
+     if ($annot_ext_relation =~ /^induced_by_chemical/) {
+
+        # Need to find out if the chemical input is a ChEBI ID or a CAS Registry Number.
+        # If the value begins with 'CHEBI', then it is a ChEBI ID,
+        # otherwise, assume that it is a CAS Registry Number.
+	# Add an appropriate annotation extension, depending on the identifier
+        if ($annot_ext_value =~ /^CHEBI/) {
+	   $inducer_chebi_id = $annot_ext_value;
+	   $annotation_interaction_hash{'inducer_chemical_chebi_id'} = $inducer_chebi_id;
+        } else {
+	   $inducer_cas_num = $annot_ext_value;
+	   $annotation_interaction_hash{'inducer_chemical_cas_num'} = $inducer_cas_num;
+        }
+
+     }
+
+     # if extension relation is 'induced_by_gene', then assign range value to inducer_gene
+     if ($annot_ext_relation =~ /^induced_by_gene/) {
+        $inducer_gene = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
-        $annotation_interaction_hash{'inducer'} = $inducer;
+        $annotation_interaction_hash{'inducer_gene'} = $inducer_gene;
      }
 
      # if extension relation is 'anti_infective', then assign range value to anti_infective
@@ -200,7 +212,7 @@ foreach my $annot_index (0 .. $#annotations) {
         $annotation_interaction_hash{'anti_infective'} = $anti_infective;
      }
 
-     # if extension relation is 'host_interacting_protein', then assign range value to host_interacting_protei
+     # if extension relation is 'host_interacting_protein', then assign range value to host_interacting_protein
      if ($annot_ext_relation =~ /^host_interacting_protein/) {
         $host_interacting_protein = $annot_ext_value;
         # add annotation extension to help identify the correct interaction
@@ -313,7 +325,9 @@ foreach my $int_id (1 .. $interaction_count) {
   my $go_id;
   my $go_evid_code;
   my $interaction_id;
-  my $inducer;
+  my $inducer_chebi_id;
+  my $inducer_cas_num;
+  my $inducer_gene;
   my $anti_infective;
   my $host_interacting_protein;
   my $pathogen_interacting_protein;
@@ -420,9 +434,28 @@ foreach my $int_id (1 .. $interaction_count) {
 	      $disease = $annot_ext_value;
             }
 
-	    # if extension relation is 'induced_by', then assign range value to inducer
-	    if ($annot_ext_relation =~ /^induced_by/) {
-	      $inducer = $annot_ext_value;
+#	    # if extension relation is 'induced_by_chemical', then assign range value to inducer
+#	    if ($annot_ext_relation =~ /^induced_by_chemical/) {
+#	      $inducer_chebi_id = $annot_ext_value;
+#	    }
+
+	    # if extension relation is 'induced_by_chemical', then assign range value to inducer_chemical
+	    if ($annot_ext_relation =~ /^induced_by_chemical/) {
+
+	       # Need to find out if the chemical input is a ChEBI ID or a CAS Registry Number.
+	       # If the value begins with 'CHEBI', then it is a ChEBI ID,
+	       # otherwise, assume that it is a CAS Registry Number.
+	       if ($annot_ext_value =~ /^CHEBI/) {
+		  $inducer_chebi_id = $annot_ext_value;
+	       } else {
+		  $inducer_cas_num = $annot_ext_value;
+	       }
+
+	    }
+
+	    # if extension relation is 'induced_by_gene', then assign range value to inducer
+	    if ($annot_ext_relation =~ /^induced_by_gene/) {
+	      $inducer_gene = $annot_ext_value;
 	    }
 
 	    # if extension relation is 'anti_infective', then assign range value to anti_infective
@@ -433,15 +466,11 @@ foreach my $int_id (1 .. $interaction_count) {
 	    # if extension relation is 'host_interacting_protein', then assign range value to host_interacting_protein
 	    if ($annot_ext_relation =~ /^host_interacting_protein/) {
 	       $host_interacting_protein = $annot_ext_value;
-	       # UniProt accession is the interacting protein with 'UniProt:' prefix removed
-	       $host_interacting_protein = substr($host_interacting_protein,8);
 	    }
 
 	    # if extension relation is 'pathogen_interacting_protein', then assign range value to pathogen_interacting_protein
 	    if ($annot_ext_relation =~ /^pathogen_interacting_protein/) {
 	       $pathogen_interacting_protein = $annot_ext_value;
-	       # UniProt accession is the interacting protein with 'UniProt:' prefix removed
-	       $pathogen_interacting_protein = substr($pathogen_interacting_protein,8);
 	    }
 
 	    # if extension relation is 'pathogen_strain_id', then assign range value to pathogen_strain_id
@@ -461,7 +490,9 @@ foreach my $int_id (1 .. $interaction_count) {
          print "Host Strain Name: $host_strain_name\n" if defined $host_strain_name;
          print "Tissue: $tissue\n" if defined $tissue;
          print "Disease: $disease\n" if defined $disease;
-         print "Inducer: $inducer\n" if defined $inducer;
+         print "Inducer Chemical: $inducer_chebi_id\n" if defined $inducer_chebi_id;
+         print "Inducer Chemical: $inducer_cas_num\n" if defined $inducer_cas_num;
+         print "Inducer Gene: $inducer_gene\n" if defined $inducer_gene;
          print "Anti-infective: $anti_infective\n" if defined $anti_infective;
          print "Host Interaction protein: $host_interacting_protein\n" if defined $host_interacting_protein;
          print "Pathogen Interaction protein: $pathogen_interacting_protein\n" if defined $pathogen_interacting_protein;
@@ -609,9 +640,6 @@ foreach my $int_id (1 .. $interaction_count) {
 	 @row1 = $sql_result1->fetchrow_array();
 	 $interaction_id = shift @row1;
 
-	 # host taxon id is the taxon with 'NCBItaxon:' prefix removed
-#	 $host_taxon_id = substr($host_taxon,10);
-#	 $host_taxon_id = $host_taxon;
 	 # PubMed id is the pubmed string with 'PMID:' prefix removed
 	 my $pubmed_id_num = substr($pubmed_id,5);
 
@@ -620,15 +648,27 @@ foreach my $int_id (1 .. $interaction_count) {
 
          if (defined $host_taxon_id) {
 
-            # if the host interacting protein is defined, then this is also added to the interaction_host table,
-            # otherwise, it is left out of the SQL insert statement
+            # if the host strain and/or host interacting protein are defined, then these are also added to the interaction_host table,
+            # otherwise, they are left out of the SQL insert statement
             my $inner_sql_statement;
-            if (defined $host_interacting_protein) {
+            if (defined $host_strain_name and defined $host_interacting_protein) { # both are defined
+	       $inner_sql_statement = qq(
+					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id,host_strain_name,first_target_uniprot_accession) 
+					   VALUES ($interaction_id,$host_taxon_id,'$host_strain_name','$host_interacting_protein');
+					);
+            }
+            elsif (defined $host_strain_name) { # only host strain defined
+	       $inner_sql_statement = qq(
+					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id,host_strain_name) 
+					   VALUES ($interaction_id,$host_taxon_id,'$host_strain_name');
+					);
+            }
+            elsif (defined $host_interacting_protein) { # only interacting protein defined
 	       $inner_sql_statement = qq(
 					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id,first_target_uniprot_accession) 
 					   VALUES ($interaction_id,$host_taxon_id,'$host_interacting_protein');
 					);
-            } else {
+            } else { # neither defined
 	       $inner_sql_statement = qq(
 					 INSERT INTO interaction_host (interaction_id,ncbi_taxon_id) 
 					   VALUES ($interaction_id,$host_taxon_id);
@@ -667,9 +707,9 @@ foreach my $int_id (1 .. $interaction_count) {
 
 	    # before we can insert the host tissue table,
 	    # we need to get the identifier for the appropriate host
-	    my $sql_statement = qq(select id from interaction_host
-				     where interaction_id = $interaction_id
-				     and ncbi_taxon_id = $host_taxon_id
+	    my $sql_statement = qq(SELECT id FROM interaction_host
+				   WHERE interaction_id = $interaction_id
+				   AND ncbi_taxon_id = $host_taxon_id
 				  );
 
 	    my $sql_result = $db_conn->prepare($sql_statement);
@@ -687,15 +727,15 @@ foreach my $int_id (1 .. $interaction_count) {
          }
 
 
-         if (defined $inducer) {
+         if (defined $inducer_chebi_id) {
 
 	    # insert data into the chemical_table,
 	    # if it does not exist already (based on the ChEBI ID)
 	    my $sql_statement = qq(INSERT INTO chemical (chebi_id) 
-				      SELECT '$inducer'
+				      SELECT '$inducer_chebi_id'
 				    WHERE NOT EXISTS (
 				      SELECT 1 FROM chemical
-				      WHERE chebi_id = '$inducer'
+				      WHERE chebi_id = '$inducer_chebi_id'
 				    )
 				  );
 
@@ -705,7 +745,7 @@ foreach my $int_id (1 .. $interaction_count) {
 	    # before we can insert the inducer chemical,
 	    # we need to get the identifier for the chemical
 	    $sql_statement = qq(SELECT id FROM chemical
-				     WHERE chebi_id = '$inducer'
+				     WHERE chebi_id = '$inducer_chebi_id'
 				  );
 	    $sql_result = $db_conn->prepare($sql_statement);
 	    $sql_result->execute() or die $DBI::errstr;
@@ -719,7 +759,56 @@ foreach my $int_id (1 .. $interaction_count) {
                                );
 	    $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
-         } # end if inducer
+         } # end if inducer chemical ChEBI ID
+
+
+         if (defined $inducer_cas_num) {
+
+	    # insert data into the chemical_table,
+	    # if it does not exist already (based on the CAS number)
+	    my $sql_statement = qq(INSERT INTO chemical (cas_registry) 
+				      SELECT '$inducer_cas_num'
+				    WHERE NOT EXISTS (
+				      SELECT 1 FROM chemical
+				      WHERE cas_registry = '$inducer_cas_num'
+				    )
+				  );
+
+	    my $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+
+	    # before we can insert the inducer chemical,
+	    # we need to get the identifier for the chemical
+	    $sql_statement = qq(SELECT id FROM chemical
+				     WHERE cas_registry = '$inducer_cas_num'
+				  );
+	    $sql_result = $db_conn->prepare($sql_statement);
+	    $sql_result->execute() or die $DBI::errstr;
+	    my @row = $sql_result->fetchrow_array();
+	    my $chemical_id = shift @row;
+
+            # insert data into interaction_inducer_chemical table,
+            # with foreign keys to the interaction table and the chemical table 
+	    $sql_statement = qq(INSERT INTO interaction_inducer_chemical (interaction_id, chemical_id)
+                                  VALUES ($interaction_id, $chemical_id);
+                               );
+	    $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+         } # end if inducer chemical CAS number
+
+
+         if (defined $inducer_gene) {
+
+            # MAY WANT TO CHECK IF THE UNIPROT ACCESSION IS VALID UNIPROT FORMAT
+
+            # insert data into interaction_inducer_gene table,
+            # with foreign keys to the interaction table and UniProt 
+	    my $sql_statement = qq(INSERT INTO interaction_inducer_gene (interaction_id, uniprot_accession)
+                                     VALUES ($interaction_id, '$inducer_gene');
+                                  );
+	    my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+         } # end if inducer gene
 
 
          if (defined $anti_infective) {
@@ -1122,9 +1211,6 @@ print "path strain (in GO) at 1025:$pathogen_strain_name\n";
     my %annot_ext_hash = %{ $annot_extensions[$annot_ext_index] };
     my $annot_ext_relation = $annot_ext_hash{'relation'}; 
     my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
-
-print "GO Annot Ext Relation:$annot_ext_relation\n";
-print "GO Annot Ext Value:$annot_ext_value\n";
 
   my $sql_statement = qq(INSERT INTO pathogen_gene_go_annot_ext (pathogen_gene_go_annotation_id, go_annot_ext_relation, go_annot_ext_value)
 			 VALUES ($pathogen_gene_go_annotation_id, '$annot_ext_relation', '$annot_ext_value');

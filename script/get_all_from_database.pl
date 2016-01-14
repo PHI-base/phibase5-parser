@@ -31,7 +31,7 @@ $json_output{"interactions"} = \@interactions;
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducers\tInducer CAS IDs\tInducer ChEBI IDs\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Strain\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducer Chemical Names\tInducer CAS IDs\tInducer ChEBI IDs\tInducer Genes\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -576,6 +576,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   # get the host related fields 
   $sql_stmt2 = qq(SELECT interaction_host.id,
                          interaction_host.ncbi_taxon_id,
+                         interaction_host.host_strain_name,
                          interaction_host.first_target_uniprot_accession
                     FROM interaction,
                          interaction_host
@@ -590,7 +591,17 @@ while (my @row = $sql_result->fetchrow_array()) {
   my $interaction_host_id = shift @row2;
   my $host_taxon_id = shift @row2;
   my $host_taxon_string = $host_taxon_id;
+  my $host_strain_name = shift @row2;
   my $host_target_protein = shift @row2;
+
+  # save host strain name to output
+  my $host_strain_name_string;
+  if (defined $host_strain_name) {
+     $host_strain_name_string = $host_strain_name;
+     $host_hash{"host_strain_name"} = $host_strain_name;
+  } else {
+     $host_strain_name = '';
+  }
 
   # save host target protein to output
   my $host_target_string;
@@ -665,7 +676,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   }
 
   # print the host taxon details
-  print DATABASE_DATA_FILE "$host_taxon_string\t$host_target_string\t$cotyledon_output_string\t";
+  print DATABASE_DATA_FILE "$host_taxon_string\t$host_strain_name\t$host_target_string\t$cotyledon_output_string\t";
 
 
   # initalise output string and array for tissues
@@ -894,7 +905,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   }
 
 
-  # get the Inducer fields 
+  # get the inducer chemical fields 
   $sql_stmt2 = qq(SELECT chemical.name,
                          cas_registry,
                          chebi_id 
@@ -909,53 +920,104 @@ while (my @row = $sql_result->fetchrow_array()) {
   $sql_result2 = $db_conn->prepare($sql_stmt2);
   $sql_result2->execute() or die $DBI::errstr;
 
-  # create an array of inducers for JSON output
-  my @inducers;
+  # create an array of inducer chemicals for JSON output
+  my @inducer_chemicals;
 
-  # initalise output string for Inducer names, CAS IDs, and ChEBI IDs
-  my $inducer_output_string = "";
+  # initalise output string for inducer chemical names, CAS IDs, and ChEBI IDs
+  my $inducer_chemical_output_string = "";
   my $inducer_cas_output_string = "";
   my $inducer_chebi_output_string = "";
 
-  # since there may be multiple inducers,
+  # since there may be multiple inducer chemicals,
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
 
-    # create hash for the inducer
-    my %inducer_hash;
+    # create hash for the inducer chemicals
+    my %inducer_chemical_hash;
 
     my $chemical = shift @row2;
     my $cas_registry = shift @row2; 
     my $chebi_id = shift @row2;
 
     if (defined $chemical) {
-      $inducer_output_string .= "$chemical;";
-      $inducer_hash{"chemical_name"} = $chemical;
+      $inducer_chemical_output_string .= "$chemical;";
+      $inducer_chemical_hash{"chemical_name"} = $chemical;
     }
     if (defined $cas_registry) {
       $inducer_cas_output_string .= "$cas_registry;";
-      $inducer_hash{"cas_registry_id"} = $cas_registry;
+      $inducer_chemical_hash{"cas_registry_id"} = $cas_registry;
     }
     if (defined $chebi_id ) {
       $inducer_chebi_output_string .= "$chebi_id;";
-      $inducer_hash{"chebi_id"} = $chebi_id;
+      $inducer_chemical_hash{"chebi_id"} = $chebi_id;
     }
 
-    # add current inducer chemical to the list of inducers
-    push(@inducers, \%inducer_hash);
+    # add current inducer chemical to the list of inducer chemicals
+    push(@inducer_chemicals, \%inducer_chemical_hash);
 
   }
 
   # remove the final semi-colon from end of the strings
-  $inducer_output_string =~ s/;$//;
+  $inducer_chemical_output_string =~ s/;$//;
   $inducer_cas_output_string =~ s/;$//;
   $inducer_chebi_output_string =~ s/;$//;
-  # print the list of inducers to file
-  print DATABASE_DATA_FILE "$inducer_output_string\t$inducer_cas_output_string\t$inducer_chebi_output_string\t";
-  # add the list of inducers to the interaction hash for JSON output
-  if (@inducers) {
-    $interaction_hash{"inducers"} = \@inducers
+
+  # print the list of inducer chemicals to file
+  print DATABASE_DATA_FILE "$inducer_chemical_output_string\t$inducer_cas_output_string\t$inducer_chebi_output_string\t";
+
+  # add the list of inducer chemicals to the interaction hash for JSON output
+  if (@inducer_chemicals) {
+    $interaction_hash{"inducer_chemicals"} = \@inducer_chemicals
+  }
+
+
+  # get the inducer gene fields 
+  $sql_stmt2 = qq(SELECT uniprot_accession
+                    FROM interaction,
+                         interaction_inducer_gene
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_inducer_gene.interaction_id
+                 ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # create an array of inducer genes for JSON output
+  my @inducer_genes;
+
+  # initalise output string for inducer gene names
+  my $inducer_gene_output_string = "";
+
+  # since there may be multiple inducer genes,
+  # need to retrieve all of them and construct output string 
+  # based on semi-colon delimiter
+  while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create hash for the inducer genes
+    my %inducer_gene_hash;
+
+    my $gene_uniprot_acc = shift @row2;
+
+    if (defined $gene_uniprot_acc) {
+      $inducer_gene_output_string .= "$gene_uniprot_acc;";
+      $inducer_gene_hash{"gene_uniprot_acc"} = $gene_uniprot_acc;
+    }
+
+    # add current inducer gene to the list of inducer genes
+    push(@inducer_genes, \%inducer_gene_hash);
+
+  }
+
+  # remove the final semi-colon from end of the strings
+  $inducer_gene_output_string =~ s/;$//;
+
+  # print the list of inducer genes to file
+  print DATABASE_DATA_FILE "$inducer_gene_output_string\t";
+
+  # add the list of inducer genes to the interaction hash for JSON output
+  if (@inducer_genes) {
+    $interaction_hash{"inducer_genes"} = \@inducer_genes
   }
 
 

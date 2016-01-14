@@ -203,6 +203,12 @@ CREATE TABLE interaction_inducer_chemical (
     PRIMARY KEY (interaction_id, chemical_id)    
 );
 
+CREATE TABLE interaction_inducer_gene (
+    interaction_id integer REFERENCES interaction,
+    uniprot_accession varchar(50),
+    PRIMARY KEY (interaction_id, uniprot_accession)    
+);
+
 CREATE TABLE disease_severity (
     id SERIAL PRIMARY KEY,
     severity varchar(50)    
