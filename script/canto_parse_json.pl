@@ -15,6 +15,7 @@ my $db_conn = connect_to_phibase();
 my $annotation_count = 0;
 my $interaction_count = 0;
 my $go_annotation_count = 0;
+my $effector_annotation_count = 0;
 my $host_response_count = 0;
 my $phi_interaction_phenotype_count = 0;
 my $phi_pathogen_phenotype_count = 0;
@@ -81,8 +82,20 @@ my %interaction_profiles;
 # create a separate hash of hashes to store the GO annotations
 # (which are not part of the pathogen-host interaction, but a direct property of the pathogen gene)
 # where the key will be an identifier for each GO annotation
-# and the value will be a hash of the values that identify each unique interaction
+# and the value will be a hash of the values for each annotation
 my @go_annotations;
+
+# create a separate hash of hashes to store the effector gene annotations
+# (which are not part of the pathogen-host interaction, but a direct property of the pathogen gene)
+# where the key will be an identifier for each effector annotation
+# and the value will be a hash of the values for each annotation
+my @effector_annotations;
+
+# create a separate hash of hashes to store the GO annotations
+# (which are not part of the pathogen-host interaction, but a direct property of the pathogen gene)
+# where the key will be an identifier for each GO annotation
+# and the value will be a hash of the values for each annotation
+my @post_trans_mod_annotations;
 
 # Read in the experiment specification ontology
 # so that the identifier can be matched from the
@@ -287,10 +300,20 @@ foreach my $annot_index (0 .. $#annotations) {
 	 $annotations[$annot_index]{"interaction_id"} = $interaction_count;
       }
 
-   } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' or $annot_type eq 'effector' or $annot_type eq 'post_translational_modification') {
+   } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component') {
 
       # add the current annotation to the array of GO annotations;
       push (@go_annotations, $annotations[$annot_index]);
+
+   } elsif ($annot_type eq 'effector') {
+
+      # add the current annotation to the array of effector annotations;
+      push (@effector_annotations, $annotations[$annot_index]);
+
+   } elsif ($annot_type eq 'post_translational_modification') {
+
+      # add the current annotation to the array of post translational modification annotations;
+      push (@post_trans_mod_annotations, $annotations[$annot_index]);
 
    } else {
       print STDERR "Error: Invalid annotation type: $annot_type\n"; 
@@ -1096,13 +1119,8 @@ foreach my $go_annot_ref (@go_annotations) {
   $pubmed_id = $go_annotation{'publication'};
 
   # get the annotation extensions for the GO annotation
-#  my $annot_extension_list = $go_annotation{'annotation_extension'};
-#  my @annot_extensions = split(/,/,$annot_extension_list);
-
-  # get the annotation extensions for the GO annotation
   # which is an array of hashes (one hash for each extension)
   my @annot_extensions = @{ $go_annotation{'extension'} };
-
 
   # from the annotation extensions in the list
   # find out if a specific pathogen strain taxon ID has been given
@@ -1122,7 +1140,6 @@ foreach my $go_annot_ref (@go_annotations) {
     # if extension relation is 'pathogen_strain_name', then assign range value to pathogen_strain_name
     if ($annot_ext_relation =~ /^pathogen_strain_name/) {
        $pathogen_strain_name = $annot_ext_value;
-print "path strain (in GO) at 1025:$pathogen_strain_name\n";
     }
 
   } # end foreach annotation extension
@@ -1131,8 +1148,6 @@ print "path strain (in GO) at 1025:$pathogen_strain_name\n";
   # then this taxon ID should be used for all interactions, otherwise use the taxon ID
   # retrieved from the UniProt accessions supplied
   if (defined $pathogen_strain_id) {
-#    # pathogen taxon id becomes the strain taxon with 'NCBItaxon:' prefix removed
-#    $pathogen_taxon_id = substr($pathogen_strain_id,10);
     $pathogen_taxon_id = $pathogen_strain_id;
   }
 
@@ -1188,9 +1203,6 @@ print "path strain (in GO) at 1025:$pathogen_strain_name\n";
 			));
   my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
-
-
-
   # get the unique identifier for the inserted pathogen_gene_go_annotation record
   $sql_statement4 = qq(SELECT id FROM pathogen_gene_go_annotation
 			  WHERE pathogen_gene_id = $pathogen_gene_id
@@ -1213,21 +1225,165 @@ print "path strain (in GO) at 1025:$pathogen_strain_name\n";
     my $annot_ext_relation = $annot_ext_hash{'relation'}; 
     my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
 
-  my $sql_statement = qq(INSERT INTO pathogen_gene_go_annot_ext (pathogen_gene_go_annotation_id, go_annot_ext_relation, go_annot_ext_value)
+    my $sql_statement = qq(INSERT INTO pathogen_gene_go_annot_ext (pathogen_gene_go_annotation_id, go_annot_ext_relation, go_annot_ext_value)
 			 VALUES ($pathogen_gene_go_annotation_id, '$annot_ext_relation', '$annot_ext_value');
 			);
-  my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
-
-
-
-
+    my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
   } # end foreach annotation extension
 
-
-
-
 } # end foreach GO annotation
+
+
+
+
+# iterate through all effector annotations
+# inserting each into the database, associated with the
+# relevant pathogen gene and PubMed ID
+foreach my $effector_annot_ref (@effector_annotations) {
+
+  # declare variables
+  my $pubmed_id;
+  my $pathogen_species;
+  my $pathogen_taxon;
+  my $pathogen_strain_id;
+  my $pathogen_strain_name;
+  my $effector_id;
+  my $effector_evid_code;
+  my $location_in_host_go_id;
+  my $host_target_uniprot_acc;
+
+  # increment effector annotation count
+  $effector_annotation_count++;
+ 
+  # get the hash of effector annotation details
+  my %effector_annotation = %{ $effector_annot_ref };
+
+  # get the type of effector annotation
+  #my $annot_type = $effector_annotation{'type'};
+
+  # get the pathogen gene identifier
+  my $gene_id = $effector_annotation{'gene'};
+
+  # get the gene from the hash of pathogen genes, using the ID
+  my %gene = %{ $pathogen_genes{$gene_id} };
+           
+  # get the UniProt accession for the gene
+  my $pathogen_gene_uniprot_acc = $gene{"uniquename"};
+
+  # get the PubMed ID associated with the effector annotation
+  $pubmed_id = $effector_annotation{'publication'};
+
+  # get the annotation extensions for the effector annotation
+  # which is an array of hashes (one hash for each extension)
+  my @annot_extensions = @{ $effector_annotation{'extension'} };
+
+  # from the annotation extensions in the list
+  # find out if a specific pathogen strain taxon ID has been given
+  # and/or a specific pathogen strain name
+  # as well as identifying the other effector gene extensions
+  foreach my $annot_ext_index (0 .. $#annot_extensions) {
+
+    # get the hash for the annotation extension
+    my %annot_ext_hash = %{ $annot_extensions[$annot_ext_index] };
+    my $annot_ext_relation = $annot_ext_hash{'relation'}; 
+    my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
+
+    # if extension relation is 'pathogen_strain_id', then assign range value to pathogen_strain_id
+    if ($annot_ext_relation =~ /^pathogen_strain_id/) {
+       $pathogen_strain_id = $annot_ext_value;
+    }
+
+    # if extension relation is 'pathogen_strain_name', then assign range value to pathogen_strain_name
+    if ($annot_ext_relation =~ /^pathogen_strain_name/) {
+       $pathogen_strain_name = $annot_ext_value;
+    }
+
+    # if extension relation is 'location_in_host', then assign range value to location_in_host_go_id
+    if ($annot_ext_relation =~ /^location_in_host/) {
+       $location_in_host_go_id = $annot_ext_value;
+    }
+
+    # if extension relation is 'target_in_host', then assign range value to host_target_uniprot_acc
+    if ($annot_ext_relation =~ /^target_in_host/) {
+       $host_target_uniprot_acc = $annot_ext_value;
+    }
+
+  } # end foreach annotation extension
+
+  # if a pathogen strain taxon ID has been explicitly given in the annotation extension
+  # then this taxon ID should be used for all interactions, otherwise use the taxon ID
+  # retrieved from the UniProt accessions supplied
+  if (defined $pathogen_strain_id) {
+    $pathogen_taxon_id = $pathogen_strain_id;
+  }
+
+  # insert data into the pathogen_gene table,
+  # if it does not exist already
+  # (based on combination of taxon id, UniProt accession, and where available the pathogen strain name)
+  my $sql_statement2;
+  if (defined $pathogen_strain_name) {
+     $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
+			  SELECT $pathogen_taxon_id,'$pathogen_strain_name','$pathogen_gene_uniprot_acc'
+			  WHERE NOT EXISTS (
+			    SELECT 1 FROM pathogen_gene
+			    WHERE ncbi_taxon_id = $pathogen_taxon_id
+			    AND pathogen_strain_name = '$pathogen_strain_name'
+			    AND uniprot_accession = '$pathogen_gene_uniprot_acc'
+			 ));
+  } else {
+     $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
+			  SELECT $pathogen_taxon_id,'$pathogen_gene_uniprot_acc'
+			  WHERE NOT EXISTS (
+			    SELECT 1 FROM pathogen_gene
+			    WHERE ncbi_taxon_id = $pathogen_taxon_id
+			    AND uniprot_accession = '$pathogen_gene_uniprot_acc'
+			 ));
+  }
+
+  my $sql_result2 = $db_conn->prepare($sql_statement2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # get the unique identifier for the inserted pathogen_gene record
+  my $sql_statement4 = qq(SELECT id FROM pathogen_gene
+		          WHERE ncbi_taxon_id = $pathogen_taxon_id
+		          AND uniprot_accession = '$pathogen_gene_uniprot_acc');
+
+  my $sql_result4 = $db_conn->prepare($sql_statement4);
+  $sql_result4->execute() or die $DBI::errstr;
+  my @row4 = $sql_result4->fetchrow_array();
+  my $pathogen_gene_id = shift @row4;
+
+  $effector_id = $effector_annotation{'term'};
+  $effector_evid_code = $effector_annotation{'evidence_code'};
+
+  # insert data into effector_gene table,
+  # with foreign keys to the pathogen_gene table, PubMed, the GO ontology, and UniProt,
+  # depending on which values have been defined
+  my $sql_statement; 
+  if (defined $location_in_host_go_id and defined $host_target_uniprot_acc) {
+     $sql_statement = qq(INSERT INTO effector_gene (pathogen_gene_id, pubmed_id, phi_effector_id, phi_effector_evidence_code, location_in_host_go_id, host_target_uniprot_acc)
+			 VALUES ($pathogen_gene_id, '$pubmed_id', '$effector_id', '$effector_evid_code', '$location_in_host_go_id', '$host_target_uniprot_acc')
+                        );
+  } elsif (defined $location_in_host_go_id) {
+     $sql_statement = qq(INSERT INTO effector_gene (pathogen_gene_id, pubmed_id, phi_effector_id, phi_effector_evidence_code, location_in_host_go_id)
+			 VALUES ($pathogen_gene_id, '$pubmed_id', '$effector_id', '$effector_evid_code', '$location_in_host_go_id')
+                        );
+  } elsif (defined $host_target_uniprot_acc) {
+     $sql_statement = qq(INSERT INTO effector_gene (pathogen_gene_id, pubmed_id, phi_effector_id, phi_effector_evidence_code, host_target_uniprot_acc)
+			 VALUES ($pathogen_gene_id, '$pubmed_id', '$effector_id', '$effector_evid_code', '$host_target_uniprot_acc')
+                        );
+  } else { # neither location_in_host nor host_target defined
+     $sql_statement = qq(INSERT INTO effector_gene (pathogen_gene_id, pubmed_id, effector_id, effector_evidence_code)
+			 VALUES ($pathogen_gene_id, '$pubmed_id', '$effector_id', '$effector_evid_code')
+			);
+  }
+
+  my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+} # end foreach effector annotation
+
+
 
 
 print "\nTotal interactions:$interaction_count\n";
@@ -1237,6 +1393,7 @@ print "Total PHI interaction phenotypes: $phi_interaction_phenotype_count\n";
 print "Total PHI pathogen phenotypes: $phi_pathogen_phenotype_count\n";
 print "Total PHI host phenotypes: $phi_host_phenotype_count\n";
 print "Total GO annotations: $go_annotation_count\n";
+print "Total effector annotations: $effector_annotation_count\n";
 print "GO molecular function annotations: $go_mol_function_count\n";
 print "GO biological process annotations: $go_biol_process_count\n";
 print "GO cellular location annotations: $go_cell_location_count\n";

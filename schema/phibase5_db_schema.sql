@@ -72,6 +72,16 @@ CREATE TABLE pathogen_gene_go_annotation (
     --PRIMARY KEY (pathogen_gene_id, pubmed_id, go_id)
 );
 
+CREATE TABLE effector_gene (
+    id SERIAL PRIMARY KEY,
+    pathogen_gene_id integer REFERENCES pathogen_gene,
+    pubmed_id varchar(50),
+    phi_effector_id varchar(50),
+    phi_effector_evidence_code varchar(50),
+    location_in_host_go_id varchar(50),
+    host_target_uniprot_acc varchar(50)
+);
+
 CREATE TABLE pathogen_gene_go_annot_ext (
     id SERIAL PRIMARY KEY,
     pathogen_gene_go_annotation_id integer REFERENCES pathogen_gene_go_annotation,

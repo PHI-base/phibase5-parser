@@ -1,0 +1,38 @@
+format-version: 1.2
+date: 16:01:2016 12:57
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: phi_effector
+remark: Filtered by Any text field contains "effector"
+
+[Term]
+id: PHIEO:0000001
+name: effector
+created_by: irvinea
+creation_date: 2015-07-15T16:18:55Z
+
+[Term]
+id: PHIEO:0000003
+name: plant avirulence determinant effector
+def: "Some effector genes are required to cause disease on susceptible hosts but most are not. A plant pathogen-specific term which was previously referred to as a corresponding avirulence (Avr) gene. An effector gene is formally identified because its presence leads to the direct or indirect recognition of a pathogen in resistant host genotypes which possess the corresponding disease resistance (R) gene. Positive recognition leads to activation of plant defense and the pathogen either fails to cause disease or causes less disease. In the absence of the pathogen, effector delivery into a healthy plant possessing the corresponding R gene activates plant defense responses." []
+is_a: PHIEO:0000325 ! avirulence effector
+created_by: irvinea
+creation_date: 2015-07-15T16:19:43Z
+
+[Term]
+id: PHIEO:0000325
+name: avirulence effector
+def: "An effector that is recognized by a corresponding plant resistance (R) protein, triggering the hypersensitive response and rendering pathogen strains expressing these effectors unable to infect host genotypes expressing the R protein." [DOI:10.1038/nrmicro3119]
+synonym: "AVR effector" EXACT []
+is_a: PHIEO:0000001 ! effector
+created_by: irvinea
+creation_date: 2015-08-17T11:53:04Z
+
+[Term]
+id: PHIEO:0000388
+name: putative effector
+synonym: "candidate effector" EXACT []
+is_a: PHIEO:0000001 ! effector
+created_by: irvinea
+creation_date: 2015-11-27T11:03:34Z
+
