@@ -1,16 +1,8 @@
 format-version: 1.2
-date: 13:01:2016 13:57
+date: 15:01:2016 19:02
 saved-by: irvinea
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: phi_phenotype
-
-[Term]
-id: ID:0000040
-name: GEO-CELLULAR COMPONENT FROM EXTENSION
-namespace: phi_effector
-is_a: PHIPO:0000131 ! effector target in host
-created_by: irvinea
-creation_date: 2015-11-25T13:21:47Z
 
 [Term]
 id: ID:0000050
@@ -20,37 +12,11 @@ created_by: irvinea
 creation_date: 2015-11-25T13:38:05Z
 
 [Term]
-id: PHIPO:0000000
-name: apoplastic effector
-namespace: phi_effector
-def: "An effector that is secreted into and functions in the plant extracellular space." [DOI:10.1038/nrmicro3119]
-is_a: PHIPO:0000132 ! effector location in host
-created_by: irvinea
-creation_date: 2015-08-17T11:51:58Z
-
-[Term]
-id: PHIPO:0000001
-name: effector
-namespace: phi_effector
-is_a: PHIPO:0000012 ! PHI phenotype
-created_by: irvinea
-creation_date: 2015-07-15T16:18:55Z
-
-[Term]
 id: PHIPO:0000002
 name: PHI pathogen phenotype
 is_a: PHIPO:0000012 ! PHI phenotype
 created_by: irvinea
 creation_date: 2015-07-15T16:15:45Z
-
-[Term]
-id: PHIPO:0000003
-name: plant avirulence determinant effector
-namespace: phi_effector
-def: "Some effector genes are required to cause disease on susceptible hosts but most are not. A plant pathogen-specific term which was previously referred to as a corresponding avirulence (Avr) gene. An effector gene is formally identified because its presence leads to the direct or indirect recognition of a pathogen in resistant host genotypes which possess the corresponding disease resistance (R) gene. Positive recognition leads to activation of plant defense and the pathogen either fails to cause disease or causes less disease. In the absence of the pathogen, effector delivery into a healthy plant possessing the corresponding R gene activates plant defense responses." []
-is_a: PHIPO:0000325 ! avirulence effector
-created_by: irvinea
-creation_date: 2015-07-15T16:19:43Z
 
 [Term]
 id: PHIPO:0000004
@@ -1037,22 +1003,6 @@ name: mating defect
 is_a: PHIPO:0000126 ! variant host entry
 created_by: irvinea
 creation_date: 2015-11-27T10:53:40Z
-
-[Term]
-id: PHIPO:0000131
-name: effector target in host
-namespace: phi_effector
-is_a: PHIPO:0000001 ! effector
-created_by: irvinea
-creation_date: 2015-07-27T11:48:17Z
-
-[Term]
-id: PHIPO:0000132
-name: effector location in host
-namespace: phi_effector
-is_a: PHIPO:0000001 ! effector
-created_by: irvinea
-creation_date: 2015-07-27T11:48:46Z
 
 [Term]
 id: PHIPO:0000133
@@ -2416,16 +2366,6 @@ created_by: irvinea
 creation_date: 2015-07-31T15:06:52Z
 
 [Term]
-id: PHIPO:0000325
-name: avirulence effector
-namespace: phi_effector
-def: "An effector that is recognized by a corresponding plant resistance (R) protein, triggering the hypersensitive response and rendering pathogen strains expressing these effectors unable to infect host genotypes expressing the R protein." [DOI:10.1038/nrmicro3119]
-synonym: "AVR effector" EXACT []
-is_a: PHIPO:0000001 ! effector
-created_by: irvinea
-creation_date: 2015-08-17T11:53:04Z
-
-[Term]
 id: PHIPO:0000326
 name: buff colony
 def: "Buff/tan pigmentation." []
@@ -2442,15 +2382,6 @@ synonym: "albino colony" RELATED []
 is_a: PHIPO:0000303 ! variant colony color
 created_by: irvinea
 creation_date: 2015-08-17T11:56:11Z
-
-[Term]
-id: PHIPO:0000328
-name: cytoplasmic effector
-namespace: phi_effector
-def: "An effector that is secreted and translocated across the plant membrane into the host cytoplasm, where it targets different subcellular compartments." [DOI:10.1038/nrmicro3119]
-is_a: PHIPO:0000132 ! effector location in host
-created_by: irvinea
-creation_date: 2015-08-17T11:57:25Z
 
 [Term]
 id: PHIPO:0000329
@@ -2864,23 +2795,6 @@ name: necrosis with altered appearance
 is_a: PHIPO:0000359 ! altered necrosis
 created_by: irvinea
 creation_date: 2015-11-27T11:01:50Z
-
-[Term]
-id: PHIPO:0000387
-name: nuclear effector
-namespace: phi_effector
-is_a: PHIPO:0000132 ! effector location in host
-created_by: irvinea
-creation_date: 2015-11-27T11:03:13Z
-
-[Term]
-id: PHIPO:0000388
-name: putative effector
-namespace: phi_effector
-synonym: "candidate effector" EXACT []
-is_a: PHIPO:0000001 ! effector
-created_by: irvinea
-creation_date: 2015-11-27T11:03:34Z
 
 [Term]
 id: PHIPO:0000389

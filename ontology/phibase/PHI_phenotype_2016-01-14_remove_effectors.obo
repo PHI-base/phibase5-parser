@@ -1,0 +1,2849 @@
+format-version: 1.2
+date: 15:01:2016 19:02
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: phi_phenotype
+
+[Term]
+id: ID:0000050
+name: POST HOST ENTRY GROWTH AND DEVELOPMENT
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-11-25T13:38:05Z
+
+[Term]
+id: PHIPO:0000002
+name: PHI pathogen phenotype
+is_a: PHIPO:0000012 ! PHI phenotype
+created_by: irvinea
+creation_date: 2015-07-15T16:15:45Z
+
+[Term]
+id: PHIPO:0000004
+name: enhanced antagonism
+def: "The transgenic strain shows greater endophytic biomass in the host and/or the formation of visible disease symptoms." []
+is_a: PHIPO:0000135 ! increased disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:22:13Z
+
+[Term]
+id: PHIPO:0000005
+name: increased virulence
+def: "The transgenic strain causes greater incidence or severity of disease than the wild-type strain." []
+is_a: PHIPO:0000135 ! increased disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:23:44Z
+
+[Term]
+id: PHIPO:0000006
+name: level of disease formation
+is_a: PHIPO:0000161 ! disease formation
+created_by: irvinea
+creation_date: 2015-12-07T15:51:04Z
+
+[Term]
+id: PHIPO:0000007
+name: loss of pathogenicity
+def: "The transgenic strain fails to cause disease that is observed in the wild type (i.e. qualitative effect)." []
+is_a: PHIPO:0000136 ! reduced disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:25:39Z
+
+[Term]
+id: PHIPO:0000008
+name: reduced virulence
+def: "The transgenic strain still causes some disease formation but fewer symptoms than the wild-type strain (i.e. a quantitative effect)." []
+is_a: PHIPO:0000136 ! reduced disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:26:23Z
+
+[Term]
+id: PHIPO:0000009
+name: resistant to chemical
+def: "The transgenic strain grows and/or develops normally when exposed to chemistry concentrations that are detrimental to the wild-type strain." []
+is_a: PHIPO:0000137 ! response to chemistry
+is_a: PHIPO:0000161 ! disease formation
+is_a: PHIPO:0000223 ! resistance to stress
+created_by: irvinea
+creation_date: 2015-07-15T16:26:50Z
+
+[Term]
+id: PHIPO:0000010
+name: sensitive to chemical
+def: "The transgenic strain which expresses either no or reduced levels of a specific gene product(s) or possesses a specific gene mutation(s), has the same ability as the wild-type strain to grow and develop when exposed to detrimental chemistry concentrations." []
+is_a: PHIPO:0000137 ! response to chemistry
+is_a: PHIPO:0000161 ! disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:27:14Z
+
+[Term]
+id: PHIPO:0000011
+name: unaltered pathogenicity
+def: "The transgenic strain which expresses altered levels of a specific gene product(s) causes the same level of disease compared to the wild-type reference strain." []
+synonym: "control pathogenicity" RELATED []
+synonym: "unaffected pathogenicity" EXACT []
+synonym: "wild type pathogenicity" RELATED []
+synonym: "wild-type pathogenicity" RELATED []
+is_a: PHIPO:0000032 ! unaltered pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-15T16:27:39Z
+
+[Term]
+id: PHIPO:0000012
+name: PHI phenotype
+created_by: irvinea
+creation_date: 2015-07-15T17:09:19Z
+
+[Term]
+id: PHIPO:0000013
+name: variant host penetration
+synonym: "abnormal host penetration" RELATED []
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-15T17:14:10Z
+
+[Term]
+id: PHIPO:0000014
+name: DEFECT IN OTHER HOST PENETRATION (OTHER THAN APPRESSORIUM)
+is_a: PHIPO:0000017 ! defect in host penetration
+created_by: irvinea
+creation_date: 2015-07-22T15:13:24Z
+
+[Term]
+id: PHIPO:0000015
+name: unaltered host entry
+is_a: PHIPO:0000016 ! host entry
+created_by: irvinea
+creation_date: 2015-11-27T10:52:14Z
+
+[Term]
+id: PHIPO:0000016
+name: host entry
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-11-27T10:39:24Z
+
+[Term]
+id: PHIPO:0000017
+name: defect in host penetration
+def: "A defect in the penetration of a host cell (IDO:00000085)." []
+is_a: PHIPO:0000013 ! variant host penetration
+created_by: irvinea
+creation_date: 2015-07-15T17:18:39Z
+
+[Term]
+id: PHIPO:0000018
+name: variant vegetative spores
+synonym: "abnormal vegetative spores" RELATED []
+is_a: PHIPO:0000095 ! variant spores
+is_a: PHIPO:0000146 ! vegetative spores
+created_by: irvinea
+creation_date: 2015-07-15T17:19:15Z
+
+[Term]
+id: PHIPO:0000019
+name: increased vegetative spores
+is_a: PHIPO:0000018 ! variant vegetative spores
+created_by: irvinea
+creation_date: 2015-07-15T17:19:34Z
+
+[Term]
+id: PHIPO:0000020
+name: reduced vegetative spores
+is_a: PHIPO:0000018 ! variant vegetative spores
+created_by: irvinea
+creation_date: 2015-07-15T17:20:34Z
+
+[Term]
+id: PHIPO:0000021
+name: defective vegetative spores
+is_a: PHIPO:0000018 ! variant vegetative spores
+created_by: irvinea
+creation_date: 2015-07-15T17:27:48Z
+
+[Term]
+id: PHIPO:0000022
+name: SPECIFIC VEGETATIVE SPORE DEFECTS
+is_a: PHIPO:0000021 ! defective vegetative spores
+created_by: irvinea
+creation_date: 2015-07-15T17:28:32Z
+
+[Term]
+id: PHIPO:0000023
+name: variant sexual spores
+synonym: "abnormal sexual spores" RELATED []
+is_a: PHIPO:0000095 ! variant spores
+is_a: PHIPO:0000145 ! sexual spores
+created_by: irvinea
+creation_date: 2015-07-15T17:29:18Z
+
+[Term]
+id: PHIPO:0000024
+name: increased sexual spores
+is_a: PHIPO:0000023 ! variant sexual spores
+created_by: irvinea
+creation_date: 2015-07-15T17:29:47Z
+
+[Term]
+id: PHIPO:0000025
+name: reduced sexual spores
+is_a: PHIPO:0000023 ! variant sexual spores
+created_by: irvinea
+creation_date: 2015-07-15T17:30:09Z
+
+[Term]
+id: PHIPO:0000026
+name: defective sexual spores
+is_a: PHIPO:0000023 ! variant sexual spores
+created_by: irvinea
+creation_date: 2015-07-15T17:30:27Z
+
+[Term]
+id: PHIPO:0000027
+name: SPECIFIC SEXUAL SPORE DEFECTS
+is_a: PHIPO:0000026 ! defective sexual spores
+created_by: irvinea
+creation_date: 2015-07-15T17:31:00Z
+
+[Term]
+id: PHIPO:0000028
+name: variant vegetative spore germination
+synonym: "abnormal vegetative spore germination" RELATED []
+is_a: PHIPO:0000018 ! variant vegetative spores
+created_by: irvinea
+creation_date: 2015-07-15T17:34:06Z
+
+[Term]
+id: PHIPO:0000029
+name: reduced sexual spore germination
+is_a: PHIPO:0000094 ! variant sexual spore germination
+created_by: irvinea
+creation_date: 2015-07-15T17:34:52Z
+
+[Term]
+id: PHIPO:0000030
+name: defective sexual spore germination
+is_a: PHIPO:0000094 ! variant sexual spore germination
+created_by: irvinea
+creation_date: 2015-07-15T17:35:22Z
+
+[Term]
+id: PHIPO:0000031
+name: SPECIFIC SEXUAL SPORE GERMINATION DEFECTS
+is_a: PHIPO:0000030 ! defective sexual spore germination
+created_by: irvinea
+creation_date: 2015-07-22T16:30:04Z
+
+[Term]
+id: PHIPO:0000032
+name: unaltered pathogen phenotype
+synonym: "control pathogen phenotype" EXACT []
+synonym: "normal pathogen phenotype" RELATED []
+synonym: "wild type pathogen phenotype" RELATED []
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-15T17:36:22Z
+
+[Term]
+id: PHIPO:0000033
+name: unaltered host penetration
+synonym: "control host penetration" EXACT []
+synonym: "normal host penetration" RELATED []
+synonym: "wild type host penetration" RELATED []
+is_a: PHIPO:0000032 ! unaltered pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-15T17:37:08Z
+
+[Term]
+id: PHIPO:0000034
+name: unaltered vegetative spores
+synonym: "control vegetative spores" RELATED []
+synonym: "normal vegetative spores" RELATED []
+synonym: "wild type vegetative spores" RELATED []
+is_a: PHIPO:0000102 ! unaltered spores
+is_a: PHIPO:0000146 ! vegetative spores
+created_by: irvinea
+creation_date: 2015-07-15T17:38:12Z
+
+[Term]
+id: PHIPO:0000035
+name: unaltered sexual spores
+synonym: "control sexual spores" EXACT []
+synonym: "normal sexual spores" RELATED []
+synonym: "wild type sexual spores" RELATED []
+is_a: PHIPO:0000102 ! unaltered spores
+is_a: PHIPO:0000145 ! sexual spores
+created_by: irvinea
+creation_date: 2015-07-15T17:38:35Z
+
+[Term]
+id: PHIPO:0000036
+name: unaltered sexual spore germination
+synonym: "control sexual spore germination" EXACT []
+synonym: "normal sexual spore germination" RELATED []
+synonym: "wild type sexual spore germination" RELATED []
+is_a: PHIPO:0000035 ! unaltered sexual spores
+is_a: PHIPO:0000213 ! spore germination
+created_by: irvinea
+creation_date: 2015-07-15T17:39:00Z
+
+[Term]
+id: PHIPO:0000037
+name: OTHER APPRESSORIUM DEFECTS (OTHER THAN MATING DEFECT)
+is_a: PHIPO:0000039 ! defect in appressorium
+created_by: irvinea
+creation_date: 2015-07-16T15:28:54Z
+
+[Term]
+id: PHIPO:0000038
+name: defective vegetative spore germination
+is_a: PHIPO:0000028 ! variant vegetative spore germination
+created_by: irvinea
+creation_date: 2015-07-22T15:42:26Z
+
+[Term]
+id: PHIPO:0000039
+name: defect in appressorium
+def: "A defect in the appressorium (BTO:0000085) of a pathogen (EFO:0000643)." []
+is_a: PHIPO:0000017 ! defect in host penetration
+created_by: irvinea
+creation_date: 2015-07-16T16:09:02Z
+
+[Term]
+id: PHIPO:0000040
+name: SPECIFIC VEGETATIVE SPORE GERMINATION DEFECTS
+is_a: PHIPO:0000038 ! defective vegetative spore germination
+created_by: irvinea
+creation_date: 2015-07-22T15:42:39Z
+
+[Term]
+id: PHIPO:0000041
+name: reduced vegetative spore germination
+is_a: PHIPO:0000028 ! variant vegetative spore germination
+created_by: irvinea
+creation_date: 2015-07-22T15:43:41Z
+
+[Term]
+id: PHIPO:0000042
+name: PHI host phenotype
+is_a: PHIPO:0000012 ! PHI phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:37:59Z
+
+[Term]
+id: PHIPO:0000043
+name: callose deposition
+is_a: PHIPO:0000112 ! host chemical phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:40:41Z
+
+[Term]
+id: PHIPO:0000044
+name: phytoalexin production
+is_a: PHIPO:0000112 ! host chemical phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:47:44Z
+
+[Term]
+id: PHIPO:0000045
+name: chlorosis
+is_a: PHIPO:0000106 ! host tissue phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:41:38Z
+
+[Term]
+id: PHIPO:0000046
+name: host response strength
+is_a: PHIPO:0000042 ! PHI host phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:43:04Z
+
+[Term]
+id: PHIPO:0000047
+name: inflammation
+is_a: PHIPO:0000106 ! host tissue phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:43:08Z
+
+[Term]
+id: PHIPO:0000048
+name: lesions
+is_a: PHIPO:0000106 ! host tissue phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:43:13Z
+
+[Term]
+id: PHIPO:0000049
+name: necrosis
+is_a: PHIPO:0000106 ! host tissue phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:43:16Z
+
+[Term]
+id: PHIPO:0000050
+name: host protein expression
+is_a: PHIPO:0000115 ! host gene phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:43:21Z
+
+[Term]
+id: PHIPO:0000051
+name: radical length
+is_a: PHIPO:0000108 ! organ size
+created_by: irvinea
+creation_date: 2015-07-16T20:43:28Z
+
+[Term]
+id: PHIPO:0000052
+name: resistance to infection
+is_a: PHIPO:0000106 ! host tissue phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:43:35Z
+
+[Term]
+id: PHIPO:0000053
+name: unaltered callose deposition
+synonym: "control callose deposition" EXACT []
+synonym: "wild type callose deposition" RELATED []
+synonym: "wild-type callose deposition" RELATED []
+is_a: PHIPO:0000043 ! callose deposition
+created_by: irvinea
+creation_date: 2015-07-16T20:51:56Z
+
+[Term]
+id: PHIPO:0000054
+name: reduced callose deposition
+is_a: PHIPO:0000043 ! callose deposition
+created_by: irvinea
+creation_date: 2015-07-16T20:51:56Z
+
+[Term]
+id: PHIPO:0000055
+name: increased callose deposition
+is_a: PHIPO:0000043 ! callose deposition
+created_by: irvinea
+creation_date: 2015-07-16T20:51:56Z
+
+[Term]
+id: PHIPO:0000056
+name: production of phenolic compounds
+is_a: PHIPO:0000112 ! host chemical phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:52:59Z
+
+[Term]
+id: PHIPO:0000057
+name: oxidative burst
+synonym: "accumulation of hydrogen peroxide" EXACT []
+synonym: "increased production of reactive oxygen species" EXACT []
+synonym: "increased production of ROS" EXACT []
+is_a: PHIPO:0000112 ! host chemical phenotype
+created_by: irvinea
+creation_date: 2015-07-16T20:52:59Z
+
+[Term]
+id: PHIPO:0000058
+name: unaltered chlorosis
+synonym: "control chlorosis" RELATED []
+synonym: "wild type chlorosis" RELATED []
+synonym: "wild-type chlorosis" RELATED []
+is_a: PHIPO:0000045 ! chlorosis
+created_by: irvinea
+creation_date: 2015-07-16T20:53:06Z
+
+[Term]
+id: PHIPO:0000059
+name: reduced chlorosis
+is_a: PHIPO:0000362 ! level of chlorosis
+created_by: irvinea
+creation_date: 2015-07-16T20:53:06Z
+
+[Term]
+id: PHIPO:0000060
+name: increased chlorosis
+is_a: PHIPO:0000362 ! level of chlorosis
+created_by: irvinea
+creation_date: 2015-07-16T20:53:06Z
+
+[Term]
+id: PHIPO:0000061
+name: unaltered host response
+synonym: "control host response" EXACT []
+synonym: "wild type host response" RELATED []
+synonym: "wild-type host response" RELATED []
+is_a: PHIPO:0000046 ! host response strength
+created_by: irvinea
+creation_date: 2015-07-16T20:53:12Z
+
+[Term]
+id: PHIPO:0000062
+name: increased host response
+is_a: PHIPO:0000046 ! host response strength
+created_by: irvinea
+creation_date: 2015-07-16T20:53:12Z
+
+[Term]
+id: PHIPO:0000063
+name: no host response
+is_a: PHIPO:0000046 ! host response strength
+created_by: irvinea
+creation_date: 2015-07-16T20:53:12Z
+
+[Term]
+id: PHIPO:0000064
+name: reduced host response
+is_a: PHIPO:0000046 ! host response strength
+created_by: irvinea
+creation_date: 2015-07-16T20:53:12Z
+
+[Term]
+id: PHIPO:0000065
+name: systemic host phenotype
+is_a: PHIPO:0000042 ! PHI host phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:16:41Z
+
+[Term]
+id: PHIPO:0000066
+name: increased inflammation
+is_a: PHIPO:0000343 ! altered level of inflammation
+created_by: irvinea
+creation_date: 2015-07-16T20:53:16Z
+
+[Term]
+id: PHIPO:0000067
+name: unaltered lesions
+synonym: "control lesions" EXACT []
+synonym: "wild type lesions" RELATED []
+synonym: "wild-type lesions" RELATED []
+is_a: PHIPO:0000048 ! lesions
+created_by: irvinea
+creation_date: 2015-07-16T20:53:23Z
+
+[Term]
+id: PHIPO:0000068
+name: increased rate of lesion formation
+is_a: PHIPO:0000069 ! rate of lesion formation
+created_by: irvinea
+creation_date: 2015-11-26T18:07:42Z
+
+[Term]
+id: PHIPO:0000069
+name: rate of lesion formation
+is_a: PHIPO:0000104 ! variant lesions
+created_by: irvinea
+creation_date: 2015-11-26T17:38:21Z
+
+[Term]
+id: PHIPO:0000070
+name: unaltered necrosis
+synonym: "control necrosis" EXACT []
+synonym: "wild type necrosis" RELATED []
+synonym: "wild-type necrosis" RELATED []
+is_a: PHIPO:0000049 ! necrosis
+created_by: irvinea
+creation_date: 2015-07-16T20:53:39Z
+
+[Term]
+id: PHIPO:0000071
+name: reduced necrosis
+is_a: PHIPO:0000354 ! level of necrosis
+created_by: irvinea
+creation_date: 2015-07-16T20:53:39Z
+
+[Term]
+id: PHIPO:0000072
+name: increased necrosis
+is_a: PHIPO:0000354 ! level of necrosis
+created_by: irvinea
+creation_date: 2015-07-16T20:53:39Z
+
+[Term]
+id: PHIPO:0000073
+name: target host protein expression
+is_a: PHIPO:0000050 ! host protein expression
+created_by: irvinea
+creation_date: 2015-07-16T20:53:50Z
+
+[Term]
+id: PHIPO:0000074
+name: defensive host protein expression
+is_a: PHIPO:0000050 ! host protein expression
+created_by: irvinea
+creation_date: 2015-07-16T20:53:50Z
+
+[Term]
+id: PHIPO:0000075
+name: unaltered radical length
+synonym: "control radical length" EXACT []
+synonym: "wild type radical length" RELATED []
+synonym: "wild-type radical length" RELATED []
+is_a: PHIPO:0000051 ! radical length
+created_by: irvinea
+creation_date: 2015-07-16T20:53:56Z
+
+[Term]
+id: PHIPO:0000076
+name: increased radical length
+is_a: PHIPO:0000051 ! radical length
+created_by: irvinea
+creation_date: 2015-07-16T20:53:56Z
+
+[Term]
+id: PHIPO:0000077
+name: decreased radical length
+is_a: PHIPO:0000051 ! radical length
+created_by: irvinea
+creation_date: 2015-07-16T20:53:56Z
+
+[Term]
+id: PHIPO:0000078
+name: unaltered resistance to infection
+synonym: "control resistance to infection" EXACT []
+synonym: "wild type resistance to infection" RELATED []
+synonym: "wild-type resistance to infection" RELATED []
+is_a: PHIPO:0000052 ! resistance to infection
+created_by: irvinea
+creation_date: 2015-07-16T20:54:05Z
+
+[Term]
+id: PHIPO:0000079
+name: reduced resistance to infection
+is_a: PHIPO:0000052 ! resistance to infection
+created_by: irvinea
+creation_date: 2015-07-16T20:54:05Z
+
+[Term]
+id: PHIPO:0000080
+name: increased resistance to infection
+is_a: PHIPO:0000052 ! resistance to infection
+created_by: irvinea
+creation_date: 2015-07-16T20:54:05Z
+
+[Term]
+id: PHIPO:0000081
+name: oxidative burst in adjacent uninfected cells
+is_a: PHIPO:0000057 ! oxidative burst
+created_by: irvinea
+creation_date: 2015-07-16T21:13:56Z
+
+[Term]
+id: PHIPO:0000082
+name: decreased defensive host protein expression
+is_a: PHIPO:0000074 ! defensive host protein expression
+created_by: irvinea
+creation_date: 2015-07-16T21:17:39Z
+
+[Term]
+id: PHIPO:0000083
+name: increased defensive host protein expression
+is_a: PHIPO:0000074 ! defensive host protein expression
+created_by: irvinea
+creation_date: 2015-07-16T21:18:02Z
+
+[Term]
+id: PHIPO:0000084
+name: unaltered defensive host protein expression
+synonym: "control defensive host protein expression" EXACT []
+synonym: "wild type defensive host protein expression" RELATED []
+synonym: "wild-type defensive host protein expression" RELATED []
+is_a: PHIPO:0000074 ! defensive host protein expression
+created_by: irvinea
+creation_date: 2015-07-16T21:18:21Z
+
+[Term]
+id: PHIPO:0000085
+name: decreased target host protein expression
+is_a: PHIPO:0000073 ! target host protein expression
+created_by: irvinea
+creation_date: 2015-07-16T21:18:51Z
+
+[Term]
+id: PHIPO:0000086
+name: increased target host protein expression
+is_a: PHIPO:0000073 ! target host protein expression
+created_by: irvinea
+creation_date: 2015-07-16T21:19:12Z
+
+[Term]
+id: PHIPO:0000087
+name: unaltered target host protein expression
+synonym: "control target host protein expression" EXACT []
+synonym: "wild type target host protein expression" RELATED []
+synonym: "wild-type target host protein expression" RELATED []
+is_a: PHIPO:0000073 ! target host protein expression
+created_by: irvinea
+creation_date: 2015-07-16T21:19:28Z
+
+[Term]
+id: PHIPO:0000088
+name: unaltered vegetative spore germination
+synonym: "control vegetative spore germination" EXACT []
+synonym: "normal vegetative spore germination" RELATED []
+synonym: "wild type vegetative spore germination" RELATED []
+is_a: PHIPO:0000034 ! unaltered vegetative spores
+created_by: irvinea
+creation_date: 2015-07-22T13:44:02Z
+
+[Term]
+id: PHIPO:0000089
+name: unaltered vegetative spore production
+synonym: "control vegetative spore production" RELATED []
+synonym: "normal vegetative spore production" RELATED []
+synonym: "wild type vegetative spore production" RELATED []
+is_a: PHIPO:0000034 ! unaltered vegetative spores
+created_by: irvinea
+creation_date: 2015-07-22T14:13:58Z
+
+[Term]
+id: PHIPO:0000090
+name: variant pathogen phenotype
+synonym: "abnormal pathogen phenotype" RELATED []
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-22T14:17:20Z
+
+[Term]
+id: PHIPO:0000091
+name: no vegetative spores
+is_a: PHIPO:0000018 ! variant vegetative spores
+created_by: irvinea
+creation_date: 2015-07-22T14:21:18Z
+
+[Term]
+id: PHIPO:0000092
+name: no sexual spore germination
+synonym: "sexual spore germination absent" EXACT []
+is_a: PHIPO:0000094 ! variant sexual spore germination
+created_by: irvinea
+creation_date: 2015-07-22T14:36:32Z
+
+[Term]
+id: PHIPO:0000093
+name: increased sexual spore germination
+is_a: PHIPO:0000094 ! variant sexual spore germination
+created_by: irvinea
+creation_date: 2015-07-22T14:37:56Z
+
+[Term]
+id: PHIPO:0000094
+name: variant sexual spore germination
+synonym: "abnormal sexual spore germination" RELATED []
+is_a: PHIPO:0000023 ! variant sexual spores
+is_a: PHIPO:0000213 ! spore germination
+created_by: irvinea
+creation_date: 2015-07-22T14:43:30Z
+
+[Term]
+id: PHIPO:0000095
+name: variant spores
+synonym: "abnormal spores" RELATED []
+is_a: PHIPO:0000090 ! variant pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-22T14:50:54Z
+
+[Term]
+id: PHIPO:0000096
+name: time of host penetration defect
+is_a: PHIPO:0000013 ! variant host penetration
+created_by: irvinea
+creation_date: 2015-07-22T14:55:41Z
+
+[Term]
+id: PHIPO:0000097
+name: host penetration defect after penetration
+is_a: PHIPO:0000096 ! time of host penetration defect
+created_by: irvinea
+creation_date: 2015-07-22T14:56:23Z
+
+[Term]
+id: PHIPO:0000098
+name: host penetration defect prior to penetration
+is_a: PHIPO:0000096 ! time of host penetration defect
+created_by: irvinea
+creation_date: 2015-07-22T15:00:18Z
+
+[Term]
+id: PHIPO:0000099
+name: host penetration defect at point of penetration
+is_a: PHIPO:0000096 ! time of host penetration defect
+created_by: irvinea
+creation_date: 2015-07-22T15:00:42Z
+
+[Term]
+id: PHIPO:0000100
+name: no vegetative spore germination
+is_a: PHIPO:0000028 ! variant vegetative spore germination
+created_by: irvinea
+creation_date: 2015-07-22T15:43:41Z
+
+[Term]
+id: PHIPO:0000101
+name: increased vegetative spore germination
+is_a: PHIPO:0000028 ! variant vegetative spore germination
+created_by: irvinea
+creation_date: 2015-07-22T15:43:41Z
+
+[Term]
+id: PHIPO:0000102
+name: unaltered spores
+synonym: "control spores" EXACT []
+synonym: "normal spores" RELATED []
+synonym: "wild type spores" RELATED []
+is_a: PHIPO:0000032 ! unaltered pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-22T17:17:21Z
+
+[Term]
+id: PHIPO:0000103
+name: unaltered sexual spore production
+synonym: "control sexual spore production" EXACT []
+synonym: "normal sexual spore production" RELATED []
+synonym: "wild type sexual spore production" RELATED []
+is_a: PHIPO:0000035 ! unaltered sexual spores
+created_by: irvinea
+creation_date: 2015-07-22T17:19:26Z
+
+[Term]
+id: PHIPO:0000104
+name: variant lesions
+synonym: "abnormal lesions" RELATED []
+is_a: PHIPO:0000048 ! lesions
+created_by: irvinea
+creation_date: 2015-07-27T10:13:06Z
+
+[Term]
+id: PHIPO:0000105
+name: host death
+is_a: PHIPO:0000065 ! systemic host phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:19:37Z
+
+[Term]
+id: PHIPO:0000106
+name: host tissue phenotype
+is_a: PHIPO:0000042 ! PHI host phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:21:26Z
+
+[Term]
+id: PHIPO:0000107
+name: hypersensitive response
+is_a: PHIPO:0000106 ! host tissue phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:23:17Z
+
+[Term]
+id: PHIPO:0000108
+name: organ size
+is_a: PHIPO:0000106 ! host tissue phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:28:27Z
+
+[Term]
+id: PHIPO:0000109
+name: in vitro growth
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-11-30T15:11:06Z
+
+[Term]
+id: PHIPO:0000110
+name: increased in vitro growth
+is_a: PHIPO:0000109 ! in vitro growth
+created_by: irvinea
+creation_date: 2015-11-30T15:11:24Z
+
+[Term]
+id: PHIPO:0000111
+name: decreased in vitro growth
+is_a: PHIPO:0000109 ! in vitro growth
+created_by: irvinea
+creation_date: 2015-11-30T15:11:46Z
+
+[Term]
+id: PHIPO:0000112
+name: host chemical phenotype
+is_a: PHIPO:0000042 ! PHI host phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:37:20Z
+
+[Term]
+id: PHIPO:0000113
+name: ion flux
+is_a: PHIPO:0000112 ! host chemical phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:48:14Z
+
+[Term]
+id: PHIPO:0000114
+name: detoxification of a microbial compound
+is_a: PHIPO:0000112 ! host chemical phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:50:42Z
+
+[Term]
+id: PHIPO:0000115
+name: host gene phenotype
+is_a: PHIPO:0000042 ! PHI host phenotype
+created_by: irvinea
+creation_date: 2015-07-27T10:51:29Z
+
+[Term]
+id: PHIPO:0000116
+name: host gene expression
+is_a: PHIPO:0000115 ! host gene phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:00:25Z
+
+[Term]
+id: PHIPO:0000117
+name: host gene modification
+is_a: PHIPO:0000115 ! host gene phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:00:52Z
+
+[Term]
+id: PHIPO:0000118
+name: host protein modification
+is_a: PHIPO:0000115 ! host gene phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:01:39Z
+
+[Term]
+id: PHIPO:0000119
+name: epigenetic host gene expression
+is_a: PHIPO:0000115 ! host gene phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:03:56Z
+
+[Term]
+id: PHIPO:0000120
+name: MICROSCOPY OBSERVATIONS
+is_a: PHIPO:0000115 ! host gene phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:10:04Z
+
+[Term]
+id: PHIPO:0000121
+name: papillae formation
+is_a: PHIPO:0000112 ! host chemical phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:14:36Z
+
+[Term]
+id: PHIPO:0000122
+name: pathogen death
+synonym: "lethal to pathogen" RELATED []
+is_a: PHIPO:0000090 ! variant pathogen phenotype
+is_a: PHIPO:0000135 ! increased disease formation
+created_by: irvinea
+creation_date: 2015-07-27T11:27:03Z
+
+[Term]
+id: PHIPO:0000123
+name: altered hypersensitive response
+is_a: PHIPO:0000107 ! hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T16:42:00Z
+
+[Term]
+id: PHIPO:0000124
+name: unaltered disease formation
+synonym: "control disease formation" EXACT []
+synonym: "wild type disease formation" RELATED []
+synonym: "wild-type disease formation" RELATED []
+is_a: PHIPO:0000032 ! unaltered pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:34:35Z
+
+[Term]
+id: PHIPO:0000125
+name: unaltered virulence
+synonym: "control virulence" EXACT []
+synonym: "wild type virulence" RELATED []
+synonym: "wild-type virulence" RELATED []
+is_a: PHIPO:0000032 ! unaltered pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:35:12Z
+
+[Term]
+id: PHIPO:0000126
+name: variant host entry
+synonym: "abnormal host entry" RELATED []
+is_a: PHIPO:0000016 ! host entry
+created_by: irvinea
+creation_date: 2015-07-27T11:44:27Z
+
+[Term]
+id: PHIPO:0000127
+name: defect in macrophage engulfment
+is_a: PHIPO:0000126 ! variant host entry
+created_by: irvinea
+creation_date: 2015-11-27T10:52:50Z
+
+[Term]
+id: PHIPO:0000128
+name: defect in stomatal entry
+is_a: PHIPO:0000126 ! variant host entry
+created_by: irvinea
+creation_date: 2015-11-27T10:53:09Z
+
+[Term]
+id: PHIPO:0000129
+name: variant aerial hyphae formation
+synonym: "altered aerial hyphae formation" EXACT []
+is_a: PHIPO:0000329 ! aerial hyphae formation
+created_by: irvinea
+creation_date: 2015-09-17T16:32:11Z
+
+[Term]
+id: PHIPO:0000130
+name: mating defect
+is_a: PHIPO:0000126 ! variant host entry
+created_by: irvinea
+creation_date: 2015-11-27T10:53:40Z
+
+[Term]
+id: PHIPO:0000133
+name: altered level of hypersensitive response
+is_a: PHIPO:0000123 ! altered hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T16:43:53Z
+
+[Term]
+id: PHIPO:0000134
+name: altered rate of hypersensitive response
+is_a: PHIPO:0000123 ! altered hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T16:44:33Z
+
+[Term]
+id: PHIPO:0000135
+name: increased disease formation
+is_a: PHIPO:0000006 ! level of disease formation
+created_by: irvinea
+creation_date: 2015-07-27T11:50:29Z
+
+[Term]
+id: PHIPO:0000136
+name: reduced disease formation
+is_a: PHIPO:0000006 ! level of disease formation
+created_by: irvinea
+creation_date: 2015-07-27T11:53:00Z
+
+[Term]
+id: PHIPO:0000137
+name: response to chemistry
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-27T11:59:21Z
+
+[Term]
+id: PHIPO:0000138
+name: increased resistance to chemical
+is_a: PHIPO:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:27:14Z
+
+[Term]
+id: PHIPO:0000139
+name: decreased resistance to chemical
+is_a: PHIPO:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:27:42Z
+
+[Term]
+id: PHIPO:0000140
+name: unaltered resistance to chemical
+synonym: "control resistance to chemical" EXACT []
+synonym: "wild type resistance to chemical" RELATED []
+synonym: "wild-type resistance to chemical" RELATED []
+is_a: PHIPO:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:28:00Z
+
+[Term]
+id: PHIPO:0000141
+name: increased sensitivity to chemical
+is_a: PHIPO:0000010 ! sensitive to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:28:37Z
+
+[Term]
+id: PHIPO:0000142
+name: decreased sensitivity to chemical
+is_a: PHIPO:0000010 ! sensitive to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:28:55Z
+
+[Term]
+id: PHIPO:0000143
+name: unaltered sensitivity to chemical
+synonym: "control sensitivity to chemical" EXACT []
+synonym: "wild type sensitivity to chemical" RELATED []
+synonym: "wild-type sensitivity to chemical" RELATED []
+is_a: PHIPO:0000010 ! sensitive to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:29:20Z
+
+[Term]
+id: PHIPO:0000144
+name: pathogen spores
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-27T16:49:58Z
+
+[Term]
+id: PHIPO:0000145
+name: sexual spores
+is_a: PHIPO:0000144 ! pathogen spores
+created_by: irvinea
+creation_date: 2015-07-27T16:50:22Z
+
+[Term]
+id: PHIPO:0000146
+name: vegetative spores
+is_a: PHIPO:0000144 ! pathogen spores
+created_by: irvinea
+creation_date: 2015-07-27T16:56:31Z
+
+[Term]
+id: PHIPO:0000147
+name: hypervirulence
+is_a: PHIPO:0000005 ! increased virulence
+created_by: irvinea
+creation_date: 2015-07-29T15:49:35Z
+
+[Term]
+id: PHIPO:0000148
+name: pathogen adhesion to host
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-29T15:57:59Z
+
+[Term]
+id: PHIPO:0000149
+name: increased pathogen adhesion to host
+is_a: PHIPO:0000381 ! level of pathogen adhesion to host
+created_by: irvinea
+creation_date: 2015-07-29T15:58:44Z
+
+[Term]
+id: PHIPO:0000150
+name: decreased pathogen adhesion to host
+is_a: PHIPO:0000381 ! level of pathogen adhesion to host
+created_by: irvinea
+creation_date: 2015-07-29T15:59:01Z
+
+[Term]
+id: PHIPO:0000151
+name: unaltered pathogen adhesion to host
+is_a: PHIPO:0000148 ! pathogen adhesion to host
+created_by: irvinea
+creation_date: 2015-07-29T15:59:40Z
+
+[Term]
+id: PHIPO:0000152
+name: resistance to death by host
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-29T16:29:26Z
+
+[Term]
+id: PHIPO:0000153
+name: increased resistance to death by host
+is_a: PHIPO:0000152 ! resistance to death by host
+created_by: irvinea
+creation_date: 2015-07-29T16:30:51Z
+
+[Term]
+id: PHIPO:0000154
+name: decreased resistance to death by host
+is_a: PHIPO:0000152 ! resistance to death by host
+created_by: irvinea
+creation_date: 2015-07-29T16:31:13Z
+
+[Term]
+id: PHIPO:0000155
+name: unaltered resistance to death by host
+is_a: PHIPO:0000152 ! resistance to death by host
+created_by: irvinea
+creation_date: 2015-07-29T16:31:28Z
+
+[Term]
+id: PHIPO:0000156
+name: resistance to phagocytosis
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-29T16:32:52Z
+
+[Term]
+id: PHIPO:0000157
+name: increased resistance to phagocytosis
+is_a: PHIPO:0000156 ! resistance to phagocytosis
+created_by: irvinea
+creation_date: 2015-07-29T16:36:02Z
+
+[Term]
+id: PHIPO:0000158
+name: decreased resistance to phagocytosis
+is_a: PHIPO:0000156 ! resistance to phagocytosis
+created_by: irvinea
+creation_date: 2015-07-29T16:36:15Z
+
+[Term]
+id: PHIPO:0000159
+name: unaltered resistance to phagocytosis
+is_a: PHIPO:0000156 ! resistance to phagocytosis
+created_by: irvinea
+creation_date: 2015-07-29T16:36:33Z
+
+[Term]
+id: PHIPO:0000160
+name: response to light
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-29T16:39:10Z
+
+[Term]
+id: PHIPO:0000161
+name: disease formation
+is_a: PHIPO:0000012 ! PHI phenotype
+created_by: irvinea
+creation_date: 2015-07-29T16:40:23Z
+
+[Term]
+id: PHIPO:0000162
+name: increased response to light
+is_a: PHIPO:0000160 ! response to light
+created_by: irvinea
+creation_date: 2015-07-29T16:42:33Z
+
+[Term]
+id: PHIPO:0000163
+name: decreased response to light
+is_a: PHIPO:0000160 ! response to light
+created_by: irvinea
+creation_date: 2015-07-29T16:42:59Z
+
+[Term]
+id: PHIPO:0000164
+name: unaltered response to light
+is_a: PHIPO:0000160 ! response to light
+created_by: irvinea
+creation_date: 2015-07-29T16:43:14Z
+
+[Term]
+id: PHIPO:0000165
+name: pathogen development
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-29T17:05:20Z
+
+[Term]
+id: PHIPO:0000166
+name: conidiation
+is_a: PHIPO:0000165 ! pathogen development
+created_by: irvinea
+creation_date: 2015-07-29T17:05:49Z
+
+[Term]
+id: PHIPO:0000167
+name: increased conidiation
+is_a: PHIPO:0000166 ! conidiation
+created_by: irvinea
+creation_date: 2015-07-29T17:07:28Z
+
+[Term]
+id: PHIPO:0000168
+name: decreased conidiation
+is_a: PHIPO:0000166 ! conidiation
+created_by: irvinea
+creation_date: 2015-07-29T17:07:55Z
+
+[Term]
+id: PHIPO:0000169
+name: unaltered conidiation
+is_a: PHIPO:0000166 ! conidiation
+created_by: irvinea
+creation_date: 2015-07-29T17:08:08Z
+
+[Term]
+id: PHIPO:0000170
+name: variant conidiation
+is_a: PHIPO:0000166 ! conidiation
+created_by: irvinea
+creation_date: 2015-07-29T17:08:29Z
+
+[Term]
+id: PHIPO:0000171
+name: conidiation absent
+is_a: PHIPO:0000166 ! conidiation
+created_by: irvinea
+creation_date: 2015-07-29T17:09:17Z
+
+[Term]
+id: PHIPO:0000172
+name: conidial germination
+is_a: PHIPO:0000166 ! conidiation
+created_by: irvinea
+creation_date: 2015-07-29T17:12:42Z
+
+[Term]
+id: PHIPO:0000173
+name: increased conidial germination
+is_a: PHIPO:0000172 ! conidial germination
+created_by: irvinea
+creation_date: 2015-07-29T17:13:15Z
+
+[Term]
+id: PHIPO:0000174
+name: decreased conidial germination
+is_a: PHIPO:0000172 ! conidial germination
+created_by: irvinea
+creation_date: 2015-07-29T17:13:28Z
+
+[Term]
+id: PHIPO:0000175
+name: unaltered conidial germination
+is_a: PHIPO:0000172 ! conidial germination
+created_by: irvinea
+creation_date: 2015-07-29T17:13:43Z
+
+[Term]
+id: PHIPO:0000176
+name: delayed conidial germination
+is_a: PHIPO:0000172 ! conidial germination
+created_by: irvinea
+creation_date: 2015-07-29T17:14:05Z
+
+[Term]
+id: PHIPO:0000177
+name: conidial germination absent
+is_a: PHIPO:0000172 ! conidial germination
+created_by: irvinea
+creation_date: 2015-07-29T17:14:27Z
+
+[Term]
+id: PHIPO:0000178
+name: conidial germination arrested
+is_a: PHIPO:0000172 ! conidial germination
+created_by: irvinea
+creation_date: 2015-07-29T17:15:31Z
+
+[Term]
+id: PHIPO:0000179
+name: filamentous growth
+is_a: PHIPO:0000165 ! pathogen development
+created_by: irvinea
+creation_date: 2015-07-29T17:19:56Z
+
+[Term]
+id: PHIPO:0000180
+name: hyphal growth
+is_a: PHIPO:0000179 ! filamentous growth
+created_by: irvinea
+creation_date: 2015-07-29T17:21:58Z
+
+[Term]
+id: PHIPO:0000181
+name: formation of anatomical structure
+is_a: PHIPO:0000165 ! pathogen development
+created_by: irvinea
+creation_date: 2015-07-29T17:41:26Z
+
+[Term]
+id: PHIPO:0000182
+name: increased hyphal growth
+is_a: PHIPO:0000180 ! hyphal growth
+created_by: irvinea
+creation_date: 2015-07-29T17:23:01Z
+
+[Term]
+id: PHIPO:0000183
+name: decreased hyphal growth
+is_a: PHIPO:0000180 ! hyphal growth
+created_by: irvinea
+creation_date: 2015-07-29T17:23:32Z
+
+[Term]
+id: PHIPO:0000184
+name: unaltered hyphal growth
+is_a: PHIPO:0000180 ! hyphal growth
+created_by: irvinea
+creation_date: 2015-07-29T17:23:47Z
+
+[Term]
+id: PHIPO:0000185
+name: variant hyphal growth
+is_a: PHIPO:0000180 ! hyphal growth
+created_by: irvinea
+creation_date: 2015-07-29T17:25:22Z
+
+[Term]
+id: PHIPO:0000186
+name: delayed hyphal growth
+is_a: PHIPO:0000180 ! hyphal growth
+created_by: irvinea
+creation_date: 2015-07-29T17:25:37Z
+
+[Term]
+id: PHIPO:0000187
+name: anatomical structure absent
+is_a: PHIPO:0000181 ! formation of anatomical structure
+created_by: irvinea
+creation_date: 2015-07-29T17:42:46Z
+
+[Term]
+id: PHIPO:0000188
+name: formation of anatomical structure arrested
+is_a: PHIPO:0000181 ! formation of anatomical structure
+created_by: irvinea
+creation_date: 2015-07-29T17:44:06Z
+
+[Term]
+id: PHIPO:0000189
+name: anatomical structure decreased
+is_a: PHIPO:0000181 ! formation of anatomical structure
+created_by: irvinea
+creation_date: 2015-07-29T17:44:25Z
+
+[Term]
+id: PHIPO:0000190
+name: anatomical structure increased
+is_a: PHIPO:0000181 ! formation of anatomical structure
+created_by: irvinea
+creation_date: 2015-07-29T17:45:40Z
+
+[Term]
+id: PHIPO:0000191
+name: formation of anatomical structure delayed
+is_a: PHIPO:0000181 ! formation of anatomical structure
+created_by: irvinea
+creation_date: 2015-07-29T17:46:05Z
+
+[Term]
+id: PHIPO:0000192
+name: unaltered anatomical structure
+is_a: PHIPO:0000181 ! formation of anatomical structure
+created_by: irvinea
+creation_date: 2015-07-29T17:46:55Z
+
+[Term]
+id: PHIPO:0000193
+name: sexual cycle
+is_a: PHIPO:0000165 ! pathogen development
+created_by: irvinea
+creation_date: 2015-07-29T19:08:02Z
+
+[Term]
+id: PHIPO:0000194
+name: variant sexual cycle
+is_a: PHIPO:0000193 ! sexual cycle
+created_by: irvinea
+creation_date: 2015-07-29T19:10:52Z
+
+[Term]
+id: PHIPO:0000195
+name: sexual cycle absent
+is_a: PHIPO:0000193 ! sexual cycle
+created_by: irvinea
+creation_date: 2015-07-29T19:11:20Z
+
+[Term]
+id: PHIPO:0000196
+name: meiosis
+is_a: PHIPO:0000193 ! sexual cycle
+created_by: irvinea
+creation_date: 2015-07-29T19:13:45Z
+
+[Term]
+id: PHIPO:0000197
+name: unaltered meiosis
+is_a: PHIPO:0000196 ! meiosis
+created_by: irvinea
+creation_date: 2015-07-29T19:14:21Z
+
+[Term]
+id: PHIPO:0000198
+name: variant meiosis
+is_a: PHIPO:0000196 ! meiosis
+created_by: irvinea
+creation_date: 2015-07-29T19:14:49Z
+
+[Term]
+id: PHIPO:0000199
+name: meiosis absent
+is_a: PHIPO:0000196 ! meiosis
+created_by: irvinea
+creation_date: 2015-07-29T19:15:07Z
+
+[Term]
+id: PHIPO:0000200
+name: meiosis arrested
+is_a: PHIPO:0000196 ! meiosis
+created_by: irvinea
+creation_date: 2015-07-29T19:15:40Z
+
+[Term]
+id: PHIPO:0000201
+name: meiotic recombination
+is_a: PHIPO:0000196 ! meiosis
+created_by: irvinea
+creation_date: 2015-07-29T19:16:05Z
+
+[Term]
+id: PHIPO:0000202
+name: increased meiotic recombination
+is_a: PHIPO:0000201 ! meiotic recombination
+created_by: irvinea
+creation_date: 2015-07-29T19:16:40Z
+
+[Term]
+id: PHIPO:0000203
+name: decreased meiotic recombination
+is_a: PHIPO:0000201 ! meiotic recombination
+created_by: irvinea
+creation_date: 2015-07-29T19:17:27Z
+
+[Term]
+id: PHIPO:0000204
+name: unaltered meiotic recombination
+is_a: PHIPO:0000201 ! meiotic recombination
+created_by: irvinea
+creation_date: 2015-07-29T19:17:45Z
+
+[Term]
+id: PHIPO:0000205
+name: sporulation
+is_a: PHIPO:0000144 ! pathogen spores
+is_a: PHIPO:0000193 ! sexual cycle
+created_by: irvinea
+creation_date: 2015-07-29T19:21:47Z
+
+[Term]
+id: PHIPO:0000206
+name: increased sporulation
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:23:34Z
+
+[Term]
+id: PHIPO:0000207
+name: decreased sporulation
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:23:55Z
+
+[Term]
+id: PHIPO:0000208
+name: unaltered sporulation
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:24:15Z
+
+[Term]
+id: PHIPO:0000209
+name: variant sporulation
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:26:28Z
+
+[Term]
+id: PHIPO:0000210
+name: sporulation absent
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:26:50Z
+
+[Term]
+id: PHIPO:0000211
+name: delayed sporulation
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:27:07Z
+
+[Term]
+id: PHIPO:0000212
+name: premature sporulation
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:28:39Z
+
+[Term]
+id: PHIPO:0000213
+name: spore germination
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:31:17Z
+
+[Term]
+id: PHIPO:0000214
+name: spore wall formation
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:47:31Z
+
+[Term]
+id: PHIPO:0000215
+name: unaltered spore wall formation
+is_a: PHIPO:0000214 ! spore wall formation
+created_by: irvinea
+creation_date: 2015-07-29T19:48:09Z
+
+[Term]
+id: PHIPO:0000216
+name: variant spore wall formation
+is_a: PHIPO:0000214 ! spore wall formation
+created_by: irvinea
+creation_date: 2015-07-29T19:48:37Z
+
+[Term]
+id: PHIPO:0000217
+name: sporulation efficiency
+is_a: PHIPO:0000205 ! sporulation
+created_by: irvinea
+creation_date: 2015-07-29T19:57:54Z
+
+[Term]
+id: PHIPO:0000218
+name: increased sporulation efficiency
+is_a: PHIPO:0000221 ! variant sporulation efficiency
+created_by: irvinea
+creation_date: 2015-07-29T19:58:35Z
+
+[Term]
+id: PHIPO:0000219
+name: decreased sporulation efficiency
+is_a: PHIPO:0000221 ! variant sporulation efficiency
+created_by: irvinea
+creation_date: 2015-07-29T19:58:54Z
+
+[Term]
+id: PHIPO:0000220
+name: increased organ size
+is_a: PHIPO:0000108 ! organ size
+created_by: irvinea
+creation_date: 2015-11-27T19:04:29Z
+
+[Term]
+id: PHIPO:0000221
+name: variant sporulation efficiency
+is_a: PHIPO:0000209 ! variant sporulation
+is_a: PHIPO:0000217 ! sporulation efficiency
+created_by: irvinea
+creation_date: 2015-07-29T19:59:29Z
+
+[Term]
+id: PHIPO:0000222
+name: sterile pathogen
+is_a: PHIPO:0000193 ! sexual cycle
+created_by: irvinea
+creation_date: 2015-07-29T20:00:40Z
+
+[Term]
+id: PHIPO:0000223
+name: resistance to stress
+synonym: "stress resistance" EXACT []
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-31T12:04:01Z
+
+[Term]
+id: PHIPO:0000224
+name: increased stress resistance
+is_a: PHIPO:0000223 ! resistance to stress
+created_by: irvinea
+creation_date: 2015-07-31T12:05:00Z
+
+[Term]
+id: PHIPO:0000225
+name: decreased stress resistance
+is_a: PHIPO:0000223 ! resistance to stress
+created_by: irvinea
+creation_date: 2015-07-31T12:07:06Z
+
+[Term]
+id: PHIPO:0000226
+name: unaltered stress resistance
+is_a: PHIPO:0000223 ! resistance to stress
+created_by: irvinea
+creation_date: 2015-07-31T12:07:28Z
+
+[Term]
+id: PHIPO:0000227
+name: freeze-thaw resistance
+is_a: PHIPO:0000223 ! resistance to stress
+created_by: irvinea
+creation_date: 2015-07-31T12:09:01Z
+
+[Term]
+id: PHIPO:0000228
+name: increased freeze-thaw resistance
+is_a: PHIPO:0000227 ! freeze-thaw resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:09:26Z
+
+[Term]
+id: PHIPO:0000229
+name: decreased freeze-thaw resistance
+is_a: PHIPO:0000227 ! freeze-thaw resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:09:40Z
+
+[Term]
+id: PHIPO:0000230
+name: unaltered freeze-thaw resistance
+is_a: PHIPO:0000227 ! freeze-thaw resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:09:57Z
+
+[Term]
+id: PHIPO:0000231
+name: radiation resistance
+is_a: PHIPO:0000223 ! resistance to stress
+created_by: irvinea
+creation_date: 2015-07-31T12:10:42Z
+
+[Term]
+id: PHIPO:0000232
+name: ionizing radiation resistance
+is_a: PHIPO:0000231 ! radiation resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:10:58Z
+
+[Term]
+id: PHIPO:0000233
+name: gamma ray resistance
+is_a: PHIPO:0000232 ! ionizing radiation resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:11:20Z
+
+[Term]
+id: PHIPO:0000234
+name: increased gamma ray resistance
+is_a: PHIPO:0000233 ! gamma ray resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:11:49Z
+
+[Term]
+id: PHIPO:0000235
+name: decreased gamma ray resistance
+is_a: PHIPO:0000233 ! gamma ray resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:12:02Z
+
+[Term]
+id: PHIPO:0000236
+name: unaltered gamma ray resistance
+is_a: PHIPO:0000233 ! gamma ray resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:12:13Z
+
+[Term]
+id: PHIPO:0000237
+name: X-ray resistance
+is_a: PHIPO:0000232 ! ionizing radiation resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:12:38Z
+
+[Term]
+id: PHIPO:0000238
+name: increased X-ray resistance
+is_a: PHIPO:0000237 ! X-ray resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:13:00Z
+
+[Term]
+id: PHIPO:0000239
+name: decreased X-ray resistance
+is_a: PHIPO:0000237 ! X-ray resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:13:24Z
+
+[Term]
+id: PHIPO:0000240
+name: unaltered X-ray resistance
+is_a: PHIPO:0000237 ! X-ray resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:13:37Z
+
+[Term]
+id: PHIPO:0000241
+name: UV resistance
+synonym: "ultraviolet resistance" EXACT []
+is_a: PHIPO:0000231 ! radiation resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:14:02Z
+
+[Term]
+id: PHIPO:0000242
+name: increased UV resistance
+is_a: PHIPO:0000241 ! UV resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:15:04Z
+
+[Term]
+id: PHIPO:0000243
+name: decreased UV resistance
+is_a: PHIPO:0000241 ! UV resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:15:21Z
+
+[Term]
+id: PHIPO:0000244
+name: unaltered UV resistance
+is_a: PHIPO:0000241 ! UV resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:15:30Z
+
+[Term]
+id: PHIPO:0000245
+name: acid pH resistance
+is_a: PHIPO:0000249 ! pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:17:51Z
+
+[Term]
+id: PHIPO:0000246
+name: increased acid pH resistance
+is_a: PHIPO:0000245 ! acid pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:18:29Z
+
+[Term]
+id: PHIPO:0000247
+name: decreased acid pH resistance
+is_a: PHIPO:0000245 ! acid pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:18:40Z
+
+[Term]
+id: PHIPO:0000248
+name: unaltered acid pH resistance
+is_a: PHIPO:0000245 ! acid pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:18:56Z
+
+[Term]
+id: PHIPO:0000249
+name: pH resistance
+is_a: PHIPO:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:20:00Z
+
+[Term]
+id: PHIPO:0000250
+name: alkaline pH resistance
+is_a: PHIPO:0000249 ! pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:20:35Z
+
+[Term]
+id: PHIPO:0000251
+name: increased alkaline pH resistance
+is_a: PHIPO:0000250 ! alkaline pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:20:59Z
+
+[Term]
+id: PHIPO:0000252
+name: decreased alkaline pH resistance
+is_a: PHIPO:0000250 ! alkaline pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:21:10Z
+
+[Term]
+id: PHIPO:0000253
+name: unaltered alkaline pH resistance
+is_a: PHIPO:0000250 ! alkaline pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:21:21Z
+
+[Term]
+id: PHIPO:0000254
+name: ionic stress resistance
+is_a: PHIPO:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:21:55Z
+
+[Term]
+id: PHIPO:0000255
+name: increased ionic stress resistance
+is_a: PHIPO:0000254 ! ionic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:22:10Z
+
+[Term]
+id: PHIPO:0000256
+name: decreased ionic stress resistance
+is_a: PHIPO:0000254 ! ionic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:22:21Z
+
+[Term]
+id: PHIPO:0000257
+name: unaltered ionic stress resistance
+is_a: PHIPO:0000254 ! ionic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:22:32Z
+
+[Term]
+id: PHIPO:0000258
+name: metal resistance
+is_a: PHIPO:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:23:23Z
+
+[Term]
+id: PHIPO:0000259
+name: increased metal resistance
+is_a: PHIPO:0000258 ! metal resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:23:47Z
+
+[Term]
+id: PHIPO:0000260
+name: decreased metal resistance
+is_a: PHIPO:0000258 ! metal resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:24:00Z
+
+[Term]
+id: PHIPO:0000261
+name: unaltered metal resistance
+is_a: PHIPO:0000258 ! metal resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:24:11Z
+
+[Term]
+id: PHIPO:0000262
+name: osmotic stress resistance
+is_a: PHIPO:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:35:02Z
+
+[Term]
+id: PHIPO:0000263
+name: increased osmotic stress resistance
+is_a: PHIPO:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:35:28Z
+
+[Term]
+id: PHIPO:0000264
+name: decreased osmotic stress resistance
+is_a: PHIPO:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:35:58Z
+
+[Term]
+id: PHIPO:0000265
+name: unaltered osmotic stress resistance
+is_a: PHIPO:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:36:15Z
+
+[Term]
+id: PHIPO:0000266
+name: hyperosmotic stress resistance
+is_a: PHIPO:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:36:30Z
+
+[Term]
+id: PHIPO:0000267
+name: increased hyperosmotic stress resistance
+is_a: PHIPO:0000266 ! hyperosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:36:58Z
+
+[Term]
+id: PHIPO:0000268
+name: decreased hyperosmotic stress resistance
+is_a: PHIPO:0000266 ! hyperosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:37:18Z
+
+[Term]
+id: PHIPO:0000269
+name: unaltered hyperosmotic stress resistance
+is_a: PHIPO:0000266 ! hyperosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:37:50Z
+
+[Term]
+id: PHIPO:0000270
+name: hypoosmotic stress resistance
+is_a: PHIPO:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:38:07Z
+
+[Term]
+id: PHIPO:0000271
+name: increased hypoosmotic stress resistance
+is_a: PHIPO:0000270 ! hypoosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:39:00Z
+
+[Term]
+id: PHIPO:0000272
+name: decreased hypoosmotic stress resistance
+is_a: PHIPO:0000270 ! hypoosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:39:17Z
+
+[Term]
+id: PHIPO:0000273
+name: unaltered hypoosmotic stress resistance
+is_a: PHIPO:0000270 ! hypoosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:39:29Z
+
+[Term]
+id: PHIPO:0000274
+name: oxidative stress resistance
+is_a: PHIPO:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:41:27Z
+
+[Term]
+id: PHIPO:0000275
+name: increased oxidative stress resistance
+is_a: PHIPO:0000274 ! oxidative stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:41:48Z
+
+[Term]
+id: PHIPO:0000276
+name: decreased oxidative stress resistance
+is_a: PHIPO:0000274 ! oxidative stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:41:57Z
+
+[Term]
+id: PHIPO:0000277
+name: unaltered oxidative stress resistance
+is_a: PHIPO:0000274 ! oxidative stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:42:07Z
+
+[Term]
+id: PHIPO:0000278
+name: temperature sensitive growth
+synonym: "temperature sensitivity" RELATED []
+is_a: PHIPO:0000223 ! resistance to stress
+created_by: irvinea
+creation_date: 2015-07-31T12:42:56Z
+
+[Term]
+id: PHIPO:0000279
+name: cold sensitivity
+synonym: "cold sensitive growth" EXACT []
+is_a: PHIPO:0000278 ! temperature sensitive growth
+created_by: irvinea
+creation_date: 2015-07-31T12:44:46Z
+
+[Term]
+id: PHIPO:0000280
+name: increased cold sensitivity
+is_a: PHIPO:0000279 ! cold sensitivity
+created_by: irvinea
+creation_date: 2015-07-31T12:46:52Z
+
+[Term]
+id: PHIPO:0000281
+name: decreased cold sensitivity
+is_a: PHIPO:0000279 ! cold sensitivity
+created_by: irvinea
+creation_date: 2015-07-31T12:47:06Z
+
+[Term]
+id: PHIPO:0000282
+name: unaltered cold sensitivity
+is_a: PHIPO:0000279 ! cold sensitivity
+created_by: irvinea
+creation_date: 2015-07-31T12:47:16Z
+
+[Term]
+id: PHIPO:0000283
+name: pathogen morphology
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-31T13:47:58Z
+
+[Term]
+id: PHIPO:0000284
+name: cellular morphology
+is_a: PHIPO:0000283 ! pathogen morphology
+created_by: irvinea
+creation_date: 2015-07-31T13:48:13Z
+
+[Term]
+id: PHIPO:0000285
+name: cell shape
+is_a: PHIPO:0000284 ! cellular morphology
+created_by: irvinea
+creation_date: 2015-07-31T13:48:36Z
+
+[Term]
+id: PHIPO:0000286
+name: unaltered cell shape
+is_a: PHIPO:0000285 ! cell shape
+created_by: irvinea
+creation_date: 2015-07-31T13:49:02Z
+
+[Term]
+id: PHIPO:0000287
+name: variant cell shape
+synonym: "altered cell shape" EXACT []
+is_a: PHIPO:0000285 ! cell shape
+created_by: irvinea
+creation_date: 2015-07-31T13:49:15Z
+
+[Term]
+id: PHIPO:0000288
+name: cell size
+is_a: PHIPO:0000284 ! cellular morphology
+created_by: irvinea
+creation_date: 2015-07-31T13:49:31Z
+
+[Term]
+id: PHIPO:0000289
+name: increased cell size
+is_a: PHIPO:0000288 ! cell size
+created_by: irvinea
+creation_date: 2015-07-31T13:49:54Z
+
+[Term]
+id: PHIPO:0000290
+name: decreased cell size
+is_a: PHIPO:0000288 ! cell size
+created_by: irvinea
+creation_date: 2015-07-31T13:50:15Z
+
+[Term]
+id: PHIPO:0000291
+name: unaltered cell size
+is_a: PHIPO:0000288 ! cell size
+created_by: irvinea
+creation_date: 2015-07-31T13:50:36Z
+
+[Term]
+id: PHIPO:0000292
+name: pathogen culture
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-31T13:51:53Z
+
+[Term]
+id: PHIPO:0000293
+name: culture appearance
+is_a: PHIPO:0000292 ! pathogen culture
+created_by: irvinea
+creation_date: 2015-07-31T13:52:11Z
+
+[Term]
+id: PHIPO:0000294
+name: biofilm formation
+is_a: PHIPO:0000293 ! culture appearance
+created_by: irvinea
+creation_date: 2015-07-31T13:52:31Z
+
+[Term]
+id: PHIPO:0000295
+name: increased biofilm formation
+is_a: PHIPO:0000294 ! biofilm formation
+created_by: irvinea
+creation_date: 2015-07-31T14:28:21Z
+
+[Term]
+id: PHIPO:0000296
+name: decreased biofilm formation
+is_a: PHIPO:0000294 ! biofilm formation
+created_by: irvinea
+creation_date: 2015-07-31T14:28:32Z
+
+[Term]
+id: PHIPO:0000297
+name: unaltered biofilm formation
+is_a: PHIPO:0000294 ! biofilm formation
+created_by: irvinea
+creation_date: 2015-07-31T14:28:48Z
+
+[Term]
+id: PHIPO:0000298
+name: colony color
+synonym: "colony colour" EXACT []
+is_a: PHIPO:0000299 ! colony appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:29:59Z
+
+[Term]
+id: PHIPO:0000299
+name: colony appearance
+is_a: PHIPO:0000293 ! culture appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:31:14Z
+
+[Term]
+id: PHIPO:0000300
+name: unaltered colony appearance
+is_a: PHIPO:0000299 ! colony appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:34:36Z
+
+[Term]
+id: PHIPO:0000301
+name: variant colony appearance
+synonym: "altered colony appearance" EXACT []
+is_a: PHIPO:0000299 ! colony appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:36:00Z
+
+[Term]
+id: PHIPO:0000302
+name: unaltered colony color
+is_a: PHIPO:0000298 ! colony color
+created_by: irvinea
+creation_date: 2015-07-31T14:37:26Z
+
+[Term]
+id: PHIPO:0000303
+name: variant colony color
+synonym: "altered colony color" EXACT []
+is_a: PHIPO:0000298 ! colony color
+created_by: irvinea
+creation_date: 2015-07-31T14:37:46Z
+
+[Term]
+id: PHIPO:0000304
+name: colony sectoring
+is_a: PHIPO:0000299 ! colony appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:38:22Z
+
+[Term]
+id: PHIPO:0000305
+name: increased colony sectoring
+is_a: PHIPO:0000304 ! colony sectoring
+created_by: irvinea
+creation_date: 2015-07-31T14:38:40Z
+
+[Term]
+id: PHIPO:0000306
+name: decreased colony sectoring
+is_a: PHIPO:0000304 ! colony sectoring
+created_by: irvinea
+creation_date: 2015-07-31T14:39:10Z
+
+[Term]
+id: PHIPO:0000307
+name: unaltered colony sectoring
+is_a: PHIPO:0000304 ! colony sectoring
+created_by: irvinea
+creation_date: 2015-07-31T14:39:22Z
+
+[Term]
+id: PHIPO:0000308
+name: colony shape
+is_a: PHIPO:0000299 ! colony appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:39:46Z
+
+[Term]
+id: PHIPO:0000309
+name: unaltered colony shape
+is_a: PHIPO:0000308 ! colony shape
+created_by: irvinea
+creation_date: 2015-07-31T14:40:02Z
+
+[Term]
+id: PHIPO:0000310
+name: variant colony shape
+is_a: PHIPO:0000308 ! colony shape
+created_by: irvinea
+creation_date: 2015-07-31T14:40:30Z
+
+[Term]
+id: PHIPO:0000311
+name: colony size
+is_a: PHIPO:0000299 ! colony appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:40:50Z
+
+[Term]
+id: PHIPO:0000312
+name: increased colony size
+is_a: PHIPO:0000311 ! colony size
+created_by: irvinea
+creation_date: 2015-07-31T14:41:03Z
+
+[Term]
+id: PHIPO:0000313
+name: decreased colony size
+is_a: PHIPO:0000311 ! colony size
+created_by: irvinea
+creation_date: 2015-07-31T14:41:14Z
+
+[Term]
+id: PHIPO:0000314
+name: unaltered colony size
+is_a: PHIPO:0000311 ! colony size
+created_by: irvinea
+creation_date: 2015-07-31T14:41:38Z
+
+[Term]
+id: PHIPO:0000315
+name: liquid culture appearance
+is_a: PHIPO:0000293 ! culture appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:42:57Z
+
+[Term]
+id: PHIPO:0000316
+name: unaltered liquid culture appearance
+is_a: PHIPO:0000315 ! liquid culture appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:43:17Z
+
+[Term]
+id: PHIPO:0000317
+name: variant liquid culture appearance
+is_a: PHIPO:0000315 ! liquid culture appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:43:33Z
+
+[Term]
+id: PHIPO:0000318
+name: flocculation
+is_a: PHIPO:0000315 ! liquid culture appearance
+created_by: irvinea
+creation_date: 2015-07-31T14:44:00Z
+
+[Term]
+id: PHIPO:0000319
+name: unaltered flocculation
+is_a: PHIPO:0000318 ! flocculation
+created_by: irvinea
+creation_date: 2015-07-31T14:44:12Z
+
+[Term]
+id: PHIPO:0000320
+name: variant flocculation
+is_a: PHIPO:0000318 ! flocculation
+created_by: irvinea
+creation_date: 2015-07-31T14:44:52Z
+
+[Term]
+id: PHIPO:0000321
+name: nutrient utilization
+synonym: "nutrient utilisation" EXACT []
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: irvinea
+creation_date: 2015-07-31T14:50:58Z
+
+[Term]
+id: PHIPO:0000322
+name: increased nutrient utilization
+is_a: PHIPO:0000378 ! level of nutrient utilization
+created_by: irvinea
+creation_date: 2015-07-31T14:53:28Z
+
+[Term]
+id: PHIPO:0000323
+name: decreased nutrient utilization
+is_a: PHIPO:0000378 ! level of nutrient utilization
+created_by: irvinea
+creation_date: 2015-07-31T14:53:41Z
+
+[Term]
+id: PHIPO:0000324
+name: unaltered nutrient utilization
+is_a: PHIPO:0000378 ! level of nutrient utilization
+created_by: irvinea
+creation_date: 2015-07-31T15:06:52Z
+
+[Term]
+id: PHIPO:0000326
+name: buff colony
+def: "Buff/tan pigmentation." []
+synonym: "tan colony" RELATED []
+is_a: PHIPO:0000303 ! variant colony color
+created_by: irvinea
+creation_date: 2015-08-17T11:54:37Z
+
+[Term]
+id: PHIPO:0000327
+name: white colony
+def: "White pigmentation." []
+synonym: "albino colony" RELATED []
+is_a: PHIPO:0000303 ! variant colony color
+created_by: irvinea
+creation_date: 2015-08-17T11:56:11Z
+
+[Term]
+id: PHIPO:0000329
+name: aerial hyphae formation
+def: "Long, branching filamentous structure." []
+is_a: PHIPO:0000002 ! PHI pathogen phenotype
+created_by: urbanm
+creation_date: 2015-09-17T11:24:08Z
+
+[Term]
+id: PHIPO:0000330
+name: unaltered aerial hyphae formation
+is_a: PHIPO:0000329 ! aerial hyphae formation
+created_by: urbanm
+creation_date: 2015-09-17T11:28:36Z
+
+[Term]
+id: PHIPO:0000331
+name: reduced aerial hyphae formation
+is_a: PHIPO:0000129 ! variant aerial hyphae formation
+created_by: urbanm
+creation_date: 2015-09-17T11:29:02Z
+
+[Term]
+id: PHIPO:0000332
+name: increased aerial hyphae formation
+is_a: PHIPO:0000129 ! variant aerial hyphae formation
+created_by: urbanm
+creation_date: 2015-09-17T11:29:28Z
+
+[Term]
+id: PHIPO:0000333
+name: delayed aerial hyphae formation
+is_a: PHIPO:0000129 ! variant aerial hyphae formation
+created_by: urbanm
+creation_date: 2015-09-17T11:31:52Z
+
+[Term]
+id: PHIPO:0000334
+name: less than 25% aerial hyphae formed
+is_a: PHIPO:0000331 ! reduced aerial hyphae formation
+created_by: urbanm
+creation_date: 2015-09-17T11:38:21Z
+
+[Term]
+id: PHIPO:0000335
+name: less than 50% aerial hyphae formed
+is_a: PHIPO:0000331 ! reduced aerial hyphae formation
+created_by: urbanm
+creation_date: 2015-09-17T11:39:24Z
+
+[Term]
+id: PHIPO:0000336
+name: less than 75% aerial hyphae formed
+is_a: PHIPO:0000331 ! reduced aerial hyphae formation
+created_by: urbanm
+creation_date: 2015-09-17T11:39:57Z
+
+[Term]
+id: PHIPO:0000337
+name: decreased hypersensitive response
+is_a: PHIPO:0000133 ! altered level of hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T16:58:19Z
+
+[Term]
+id: PHIPO:0000338
+name: increased hypersensitive response
+is_a: PHIPO:0000133 ! altered level of hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T16:58:26Z
+
+[Term]
+id: PHIPO:0000339
+name: runaway hypersensitive response
+synonym: "creeping hypersensitive response" RELATED []
+is_a: PHIPO:0000133 ! altered level of hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T16:58:29Z
+
+[Term]
+id: PHIPO:0000340
+name: slower hypersensitive response
+is_a: PHIPO:0000134 ! altered rate of hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T17:05:23Z
+
+[Term]
+id: PHIPO:0000341
+name: faster hypersensitive response
+is_a: PHIPO:0000134 ! altered rate of hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T17:05:23Z
+
+[Term]
+id: PHIPO:0000342
+name: altered inflammation
+is_a: PHIPO:0000047 ! inflammation
+created_by: irvinea
+creation_date: 2015-11-26T17:06:55Z
+
+[Term]
+id: PHIPO:0000343
+name: altered level of inflammation
+is_a: PHIPO:0000342 ! altered inflammation
+created_by: irvinea
+creation_date: 2015-11-26T17:07:43Z
+
+[Term]
+id: PHIPO:0000344
+name: altered rate of inflammation
+is_a: PHIPO:0000342 ! altered inflammation
+created_by: irvinea
+creation_date: 2015-11-26T17:08:00Z
+
+[Term]
+id: PHIPO:0000345
+name: unaltered hypersensitive response
+is_a: PHIPO:0000107 ! hypersensitive response
+created_by: irvinea
+creation_date: 2015-11-26T17:08:50Z
+
+[Term]
+id: PHIPO:0000346
+name: unaltered inflammation
+is_a: PHIPO:0000047 ! inflammation
+created_by: irvinea
+creation_date: 2015-11-26T17:09:50Z
+
+[Term]
+id: PHIPO:0000347
+name: faster inflammation
+is_a: PHIPO:0000344 ! altered rate of inflammation
+created_by: irvinea
+creation_date: 2015-11-26T17:09:50Z
+
+[Term]
+id: PHIPO:0000348
+name: slower inflammation
+is_a: PHIPO:0000344 ! altered rate of inflammation
+created_by: irvinea
+creation_date: 2015-11-26T17:09:50Z
+
+[Term]
+id: PHIPO:0000349
+name: decreased inflammation
+is_a: PHIPO:0000343 ! altered level of inflammation
+created_by: irvinea
+creation_date: 2015-11-26T17:09:50Z
+
+[Term]
+id: PHIPO:0000350
+name: lesion size
+is_a: PHIPO:0000104 ! variant lesions
+created_by: irvinea
+creation_date: 2015-11-26T17:33:25Z
+
+[Term]
+id: PHIPO:0000351
+name: increased lesion size
+is_a: PHIPO:0000350 ! lesion size
+created_by: irvinea
+creation_date: 2015-11-26T17:33:53Z
+
+[Term]
+id: PHIPO:0000352
+name: number of lesions
+is_a: PHIPO:0000104 ! variant lesions
+created_by: irvinea
+creation_date: 2015-11-26T17:34:50Z
+
+[Term]
+id: PHIPO:0000353
+name: increased number of lesions
+is_a: PHIPO:0000352 ! number of lesions
+created_by: irvinea
+creation_date: 2015-11-26T17:35:06Z
+
+[Term]
+id: PHIPO:0000354
+name: level of necrosis
+is_a: PHIPO:0000359 ! altered necrosis
+created_by: irvinea
+creation_date: 2015-11-26T18:15:21Z
+
+[Term]
+id: PHIPO:0000355
+name: reduced number of lesions
+is_a: PHIPO:0000352 ! number of lesions
+created_by: irvinea
+creation_date: 2015-11-26T18:03:12Z
+
+[Term]
+id: PHIPO:0000356
+name: reduced lesion size
+is_a: PHIPO:0000350 ! lesion size
+created_by: irvinea
+creation_date: 2015-11-26T18:03:12Z
+
+[Term]
+id: PHIPO:0000357
+name: reduced rate of lesion formation
+is_a: PHIPO:0000069 ! rate of lesion formation
+created_by: irvinea
+creation_date: 2015-11-26T18:08:06Z
+
+[Term]
+id: PHIPO:0000358
+name: runaway necrosis
+synonym: "creeping necrosis" EXACT []
+is_a: PHIPO:0000354 ! level of necrosis
+created_by: irvinea
+creation_date: 2015-11-26T18:17:13Z
+
+[Term]
+id: PHIPO:0000359
+name: altered necrosis
+is_a: PHIPO:0000049 ! necrosis
+created_by: irvinea
+creation_date: 2015-11-26T18:17:53Z
+
+[Term]
+id: PHIPO:0000360
+name: unaltered sporulation efficiency
+is_a: PHIPO:0000208 ! unaltered sporulation
+is_a: PHIPO:0000217 ! sporulation efficiency
+created_by: irvinea
+creation_date: 2015-11-26T18:20:51Z
+
+[Term]
+id: PHIPO:0000361
+name: rate of chlorosis
+is_a: PHIPO:0000045 ! chlorosis
+created_by: irvinea
+creation_date: 2015-11-26T17:56:41Z
+
+[Term]
+id: PHIPO:0000362
+name: level of chlorosis
+is_a: PHIPO:0000045 ! chlorosis
+created_by: irvinea
+creation_date: 2015-11-26T17:56:57Z
+
+[Term]
+id: PHIPO:0000363
+name: faster chlorosis
+synonym: "control chlorosis" RELATED []
+synonym: "wild type chlorosis" RELATED []
+synonym: "wild-type chlorosis" RELATED []
+is_a: PHIPO:0000361 ! rate of chlorosis
+created_by: irvinea
+creation_date: 2015-11-26T17:58:09Z
+
+[Term]
+id: PHIPO:0000364
+name: slower chlorosis
+is_a: PHIPO:0000361 ! rate of chlorosis
+created_by: irvinea
+creation_date: 2015-11-26T17:58:17Z
+
+[Term]
+id: PHIPO:0000365
+name: smaller spores
+is_a: PHIPO:0000209 ! variant sporulation
+created_by: irvinea
+creation_date: 2015-11-26T18:22:34Z
+
+[Term]
+id: PHIPO:0000366
+name: increased septation of spores
+is_a: PHIPO:0000209 ! variant sporulation
+created_by: irvinea
+creation_date: 2015-11-26T18:22:34Z
+
+[Term]
+id: PHIPO:0000367
+name: larger spores
+is_a: PHIPO:0000209 ! variant sporulation
+created_by: irvinea
+creation_date: 2015-11-26T18:22:34Z
+
+[Term]
+id: PHIPO:0000368
+name: decreased septation of spores
+is_a: PHIPO:0000209 ! variant sporulation
+created_by: irvinea
+creation_date: 2015-11-26T18:22:34Z
+
+[Term]
+id: PHIPO:0000369
+name: slower host response
+is_a: PHIPO:0000370 ! host response rate
+created_by: irvinea
+creation_date: 2015-11-26T18:27:50Z
+
+[Term]
+id: PHIPO:0000370
+name: host response rate
+is_a: PHIPO:0000042 ! PHI host phenotype
+created_by: irvinea
+creation_date: 2015-11-26T18:25:55Z
+
+[Term]
+id: PHIPO:0000371
+name: faster host response
+is_a: PHIPO:0000370 ! host response rate
+created_by: irvinea
+creation_date: 2015-11-26T18:27:50Z
+
+[Term]
+id: PHIPO:0000372
+name: slower necrosis
+is_a: PHIPO:0000374 ! rate of necrosis
+created_by: irvinea
+creation_date: 2015-11-26T18:30:25Z
+
+[Term]
+id: PHIPO:0000373
+name: faster necrosis
+is_a: PHIPO:0000374 ! rate of necrosis
+created_by: irvinea
+creation_date: 2015-11-26T18:30:25Z
+
+[Term]
+id: PHIPO:0000374
+name: rate of necrosis
+is_a: PHIPO:0000359 ! altered necrosis
+created_by: irvinea
+creation_date: 2015-11-26T18:30:53Z
+
+[Term]
+id: PHIPO:0000375
+name: faster nutrient utilization
+is_a: PHIPO:0000379 ! rate of nutrient utilization
+created_by: irvinea
+creation_date: 2015-11-26T18:32:23Z
+
+[Term]
+id: PHIPO:0000376
+name: slower nutrient utilization
+is_a: PHIPO:0000379 ! rate of nutrient utilization
+created_by: irvinea
+creation_date: 2015-11-26T18:32:36Z
+
+[Term]
+id: PHIPO:0000377
+name: variant nutrient utilization
+is_a: PHIPO:0000321 ! nutrient utilization
+created_by: irvinea
+creation_date: 2015-11-26T18:32:43Z
+
+[Term]
+id: PHIPO:0000378
+name: level of nutrient utilization
+is_a: PHIPO:0000321 ! nutrient utilization
+created_by: irvinea
+creation_date: 2015-11-26T18:33:57Z
+
+[Term]
+id: PHIPO:0000379
+name: rate of nutrient utilization
+is_a: PHIPO:0000321 ! nutrient utilization
+created_by: irvinea
+creation_date: 2015-11-26T18:34:42Z
+
+[Term]
+id: PHIPO:0000380
+name: rate of pathogen adhesion to host
+is_a: PHIPO:0000390 ! variant pathogen adhesion to host
+created_by: irvinea
+creation_date: 2015-11-26T18:40:04Z
+
+[Term]
+id: PHIPO:0000381
+name: level of pathogen adhesion to host
+is_a: PHIPO:0000390 ! variant pathogen adhesion to host
+created_by: irvinea
+creation_date: 2015-11-26T18:40:24Z
+
+[Term]
+id: PHIPO:0000382
+name: slower pathogen adhesion to host
+is_a: PHIPO:0000380 ! rate of pathogen adhesion to host
+created_by: irvinea
+creation_date: 2015-11-27T10:33:29Z
+
+[Term]
+id: PHIPO:0000383
+name: faster pathogen adhesion to host
+is_a: PHIPO:0000380 ! rate of pathogen adhesion to host
+created_by: irvinea
+creation_date: 2015-11-27T10:33:29Z
+
+[Term]
+id: PHIPO:0000384
+name: hypertrophy
+is_a: PHIPO:0000220 ! increased organ size
+created_by: irvinea
+creation_date: 2015-11-27T10:59:13Z
+
+[Term]
+id: PHIPO:0000385
+name: hyperplasia
+is_a: PHIPO:0000220 ! increased organ size
+created_by: irvinea
+creation_date: 2015-11-27T10:59:13Z
+
+[Term]
+id: PHIPO:0000386
+name: necrosis with altered appearance
+is_a: PHIPO:0000359 ! altered necrosis
+created_by: irvinea
+creation_date: 2015-11-27T11:01:50Z
+
+[Term]
+id: PHIPO:0000389
+name: variant lesion appearance
+is_a: PHIPO:0000104 ! variant lesions
+created_by: irvinea
+creation_date: 2015-11-27T11:05:09Z
+
+[Term]
+id: PHIPO:0000390
+name: variant pathogen adhesion to host
+is_a: PHIPO:0000148 ! pathogen adhesion to host
+created_by: irvinea
+creation_date: 2015-11-27T11:07:24Z
+
+[Term]
+id: PHIPO:0000391
+name: decreased organ size
+is_a: PHIPO:0000108 ! organ size
+created_by: irvinea
+creation_date: 2015-11-27T19:05:06Z
+
+[Term]
+id: PHIPO:0000392
+name: abberant in vitro growth
+is_a: PHIPO:0000109 ! in vitro growth
+created_by: irvinea
+creation_date: 2015-11-30T15:12:08Z
+
+[Term]
+id: PHIPO:0000393
+name: unaltered in vitro growth
+is_a: PHIPO:0000032 ! unaltered pathogen phenotype
+is_a: PHIPO:0000109 ! in vitro growth
+created_by: irvinea
+creation_date: 2015-11-30T15:12:35Z
+
+[Term]
+id: PHIPO:0000394
+name: no lesions
+is_a: PHIPO:0000352 ! number of lesions
+created_by: irvinea
+creation_date: 2015-12-01T10:49:31Z
+
+[Term]
+id: PHIPO:0000395
+name: unaltered disease formation
+synonym: "unaltered pathogenicity" EXACT []
+is_a: PHIPO:0000161 ! disease formation
+created_by: irvinea
+creation_date: 2015-12-07T15:51:20Z
+

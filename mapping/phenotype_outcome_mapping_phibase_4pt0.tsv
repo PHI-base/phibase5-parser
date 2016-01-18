@@ -1,30 +1,29 @@
-chemistry target - phenotype unknown
-chemistry target: resistance to chemical	POO:0000008
-chemistry target: sensitivity to chemical	POO:0000009
-Dicarboximide resistant isolate unaffected pathogenicity in single inoculation, but less aggressive in mixed inoculation with wildtype
-Effector (plant avirulence determinant)	POO:0000005
-effector (plant avirulence determinant)	POO:0000005
-enhanced antagonism	POO:0000007
-Enhanced antagonism	POO:0000007
-essential	POO:0000006
-increased virulence	POO:0000004
-Increased virulence	POO:0000004
-increased virulence (hypervirulence)	POO:0000004
-Increased virulence (hypervirulence)	POO:0000004
-Increased virulence (Hypervirulence)	POO:0000004
-lethal	POO:0000006
-Lethal	POO:0000006
-loss of pathogenicity	POO:0000001
-Loss of pathogenicity	POO:0000001
+chemistry target - phenotype unknown	PHIPO:0000137
+chemistry target: resistance to chemical	PHIPO:0000138
+chemistry target: sensitivity to chemical	PHIPO:0000141
+Dicarboximide resistant isolate unaffected pathogenicity in single inoculation, but less aggressive in mixed inoculation with wildtype	PHIPO:0000011
+effector (plant avirulence determinant)	PHIEO:0000003
+Effector (plant avirulence determinant)	PHIEO:0000003
+enhanced antagonism	PHIPO:0000004
+Enhanced antagonism	PHIPO:0000004
+essential	PHIPO:0000122
+increased virulence	PHIPO:0000005
+Increased virulence	PHIPO:0000005
+increased virulence (hypervirulence)	PHIPO:0000147
+Increased virulence (hypervirulence)	PHIPO:0000147
+Increased virulence (Hypervirulence)	PHIPO:0000147
+lethal	PHIPO:0000122
+Lethal	PHIPO:0000122
+loss of pathogenicity	PHIPO:0000007
+Loss of pathogenicity	PHIPO:0000007
 no data found
 Partially lost Ax21 (synonym: AvrXa21) activity
 Partially lostAx21 (synonym: AvrXa21) activity/affected bacterial pathogenicity
-reduced virulence	POO:0000002
-Reduced virulence	POO:0000002
-Resistant to chemical	POO:0000008
-Sensitive to chemical	POO:0000009
-Unaffected pathogenicity	POO:0000003
-unaffected pathogenicity	POO:0000003
-wildtype	POO:0000004
-wild-type mutualism
+reduced virulence	PHIPO:0000008
+Reduced virulence	PHIPO:0000008
+Resistant to chemical	PHIPO:0000138
+Sensitive to chemical	PHIPO:0000141
+Unaffected pathogenicity	PHIPO:0000011
+unaffected pathogenicity	PHIPO:0000011
+wildtype	PHIPO:0000011
 Wild-type mutualism

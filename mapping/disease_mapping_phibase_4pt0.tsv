@@ -1,139 +1,139 @@
 african trypanosomiasis	DOID:10113
-alternaria brown spot
-alternaria leaf blotch
-american foulbrood
-anthracnose
-anthracnose of cucurbitaceae
+alternaria brown spot	PHID:0000001
+alternaria leaf blotch	PHID:0000002
+american foulbrood	PHID:0000003
+anthracnose	PHID:0000004
+anthracnose of cucurbitaceae	PHID:0000004
 anthracnose stalk rot and leaf blight of maize	PDO:0000176;PDO:0000177
 anthrax	DOID:7427
-apple scab
-ascochyta blight of chickpea
+apple scab	PHID:0000005
+ascochyta blight of chickpea	PHID:0000006
 aspergillosis	DOID:13564
-avian colibacillosis
+avian colibacillosis	PHID:0000007
 avian pathogenic causing systemic infections
 bacterial blight	PDO:0000014
-bacterial blight in pelargonium
+bacterial blight in pelargonium	PDO:0000014
 bacterial blight of rice	PDO:0000014
-bacterial blight of soybean
-bacterial cold-water disease
+bacterial blight of soybean	PDO:0000014
+bacterial cold-water disease	PHID:0000089
 bacterial grain rot	PDO:0000023
 bacterial leaf blight	PDO:0000014
-bacterial leaf spot
+bacterial leaf spot	PHID:0000009
 bacterial leaf streak	PDO:0000019
-bacterial speck
-bacterial speck of tomato
-bacterial spot disease
-bacterial wilt
+bacterial speck	PHID:0000010
+bacterial speck of tomato	PHID:0000010
+bacterial spot disease	PHID:0000011
+bacterial wilt	PHID:0000012
 bakanae disease	PDO:0000168
-barley leaf scald
-barley powdery mildew
-barley smut
-barley stem blight
-bean brown spot
-black rot disease
-black rot of crucifers
-black spot
-black spot of pear
-blue mold
-bordetellosis
-brown rot
-brown rot of stone fruit
+barley leaf scald	PHID:0000013
+barley powdery mildew	PHID:0000037
+barley smut	PDO:0000182
+barley stem blight	PHID:0000014
+bean brown spot	PHID:0000038
+black rot disease	PHID:0000015
+black rot of crucifers	PHID:0000015
+black spot	PHID:0000016
+black spot of pear	PHID:0000016
+blue mold	PHID:0000017
+bordetellosis	PHID:0000039
+brown rot	PHID:0000019
+brown rot of stone fruit	PHID:0000019
 brown spot	PDO:0000033
 brucellosis	DOID:11077
-candidemia
+candidemia	PHID:0000020
 candidiasis	DOID:1508
-canker stain disease
-cassava bacterial blight
+canker stain disease	PHID:0000021
+cassava bacterial blight	PHID:0000008
 chagas disease	DOID:12140
-chesnut blight
+chesnut blight	PHID:0000022
 cholera	DOID:1498
-citrus black rot
-citrus brown spot
-citrus canker
+citrus black rot	PHID:0000023
+citrus brown spot	PHID:0000024
+citrus canker	PHID:0000025
 coccidioidomycosis	DOID:13450
-colibacillosis
-colibacillosis, cellulitis and swollen head syndrome	DOID:3488
+colibacillosis	PHID:0000026
+colibacillosis, cellulitis and swollen head syndrome	PHID:0000026;DOID:3488;PHID:0000090
 colitis	DOID:0060180
-common scab of potato
+common scab of potato	PHID:0000040
 community-associated and nosocomial infections
-corky root rot of tomato
+corky root rot of tomato	PHID:0000027
 corn smut	PDO:0000182
-covered smut
+covered smut	PHID:0000028
 crohn’s disease	DOID:8778
-crown gall disease
-crown gall of grapes
+crown gall disease	PHID:0000029
+crown gall of grapes	PHID:0000029
 cryptococcal meningoencephalitis	DOID:10554
 cryptococcosis	DOID:12053
-cucumber anthracnose
+cucumber anthracnose	PHID:0000004
 cystic fibrosis-like conditions	DOID:1485
 dermatophytosis	DOID:8913
 diarrhea	DOID:13250
 diarrhea, pseudomembranous colitis, and toxic megacolon	DOID:13250;DOID:0060180;DOID:1770
 diseases of the skeletal system in children and infective endocarditis	DOID:17;DOID:0060000
 disseminated candidiasis	DOID:1508
-disseminated disease
-downy mildew
-dry bubble disease
+disseminated disease	DOID:65
+downy mildew	PHID:0000030
+dry bubble disease	PHID:0000031
 ear and stalk rot of maize	PDO:0000180;PDO:0000177
-early blight of potato
-edwardsiellosis
-enteric diseases
-enteric redmouth disease
-enteric septicemia
-ergot
-fatal septicemia
+early blight of potato	PHID:0000032
+edwardsiellosis	PHID:0000091
+enteric diseases	DOID:5295
+enteric redmouth disease	PHID:0000092
+enteric septicemia	PHID:0000093
+ergot	PHID:0000035
+fatal septicemia	PHID:0000067
 fibrinous serositis, sometimes with caseous salpingitis and vegetative disorder	DOID:5733
-fire blight
-flax rust
+fire blight	PHID:0000033
+flax rust	PHID:0000042
 food poisoning
 foolish seedling
-frog-eye leafspot
-fruit rot
+frog-eye leafspot	PHID:0000043
+fruit rot	PHID:0000044
 fungal meningitis	DOID:11608
-furunculosis
-fusarium ear blight
-fusarium head blight
-fusarium wilt
+furunculosis	PHID:0000045
+fusarium ear blight	PHID:0000046
+fusarium head blight	PHID:0000047
+fusarium wilt	PHID:0000048
 gas pharyngitis, nf,  stss	DOID:2275
 gastric infections	DOID:77
 gastroenteritis	DOID:2326
 gastrointestinal diseases and local and systemic infections	DOID:77
 gastrointestinal disease yersiniosis	DOID:77
-glasser’s disease
-glume blotch
-green mould
-green mould rot
-green muscardine disease
-grey mould
-grey mould fungus
+glasser’s disease	PHID:0000054
+glume blotch	PHID:0000055
+green mould	PHID:0000056
+green mould rot	PHID:0000056
+green muscardine disease	PHID:0000057
+grey mould	PHID:0000059
+grey mould fungus	PHID:0000059
 gut-associated diseases, such as diarrhoea, enteritis and colitis	DOID:13250;DOID:2326;DOID:0060180
-halo blight
+halo blight	PHID:0000060
 hemorrhagic  septicemia	DOID:2213
 histoplasmosis	DOID:1731
 histoplasmosis (pulmonary disease)	DOID:1731
-hospital-acquired infections
+hospital-acquired infections	PHID:0000061
 human african trypanosomiasis	DOID:10113
-immunosuppression, septicemia and the subsequent death
+immunosuppression, septicemia and the subsequent death	PHID:0000067;PHID:0000067
 infections
 infectious bronchitis	DOID:6132
 infectious coryza	DOID:4483
 infective endocarditis	DOID:0060000
 invasive pulmonary aspergillosis	DOID:0050153
 late blight	PDO:0000184
-leaf and glume blotch disease of wheat
+leaf and glume blotch disease of wheat	PHID:0000062;PHID:0000055
 leaf blight	PDO:0000014
-leaf blight and purple seed stain
-leaf blotch
-leaf blotch of barley
-leaf mould
+leaf blight and purple seed stain	PDO:0000014;PHID:0000063
+leaf blotch	PHID:0000062
+leaf blotch of barley	PHID:0000062
+leaf mould	PHID:0000064
 leaf spot	PDO:0000183
-leaf spot/blight
-legionnaires’ disease
-leishmaniasis
-lettuce midrib rot
-light leaf spot
-listeriosis
-lyme disease
+leaf spot/blight	PDO:0000183;PDO:0000014
+legionnaires’ disease	DOID:10457
+leishmaniasis	DOID:9065
+lettuce midrib rot	PHID:0000065
+light leaf spot	PHID:0000066
+listeriosis	DOID:11573
+lyme disease	DOID:11729
 maize anthracnose	PDO:0000176
 maize ear rot	PDO:0000180
 maize grey leaf spot	PDO:0000174
@@ -141,52 +141,51 @@ maize leaf anthracnose / stalk rot	PDO:0000177
 maize smut disease	PDO:0000182
 maize stalk rot	PDO:0000179
 malaria	DOID:12365
-melioidosis
+melioidosis	DOID:5052
 meningitis	DOID:9471
-meningitis; arthritis; endocarditis; septicemia	DOID:9471;DOID:848;DOID:10314
-meningitis, septicemia, arthritis, pneumonia in pigs	DOID:9471;DOID:848;DOID:552
+meningitis; arthritis; endocarditis; septicemia	DOID:9471;DOID:848;DOID:10314;PHID:0000067
+meningitis, septicemia, arthritis, pneumonia in pigs	DOID:9471;PHID:0000067;DOID:848;DOID:552
 meningoencephalitis	DOID:10554
-muskmelon wilt disease
+muskmelon wilt disease	PHID:0000051
 mycopathogen
-mycosis
-necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inchrysanthemum, and leaf spot in soybean.
-neonatal meningitis
-net blotch
-no data found
-northern leaf blight
-nosocomial infection
-nosocomial infections
-olive knot
+mycosis	DOID:1564
+necrotic leaf spots in celery, eggplant, and sweet pepper, wilt and stem rot on muskmelon, stem necrosis inchrysanthemum, and leaf spot in soybean.	PDO:0000183;PHID:0000051
+neonatal meningitis	DOID:9471
+net blotch	PHID:0000069
+northern leaf blight	PDO:0000186
+nosocomial infection	PHID:0000061
+nosocomial infections	PHID:0000061
+olive knot	PHID:0000070
 opportunistic infections
-oral candidiasis
-ovine brucellosis
+oral candidiasis	DOID:14262
+ovine brucellosis	PHID:0000071
 panicle blight	PDO:0000167
-periodontitis
-peritonitis
+periodontitis	DOID:824
+peritonitis	DOID:8283
 phaeohyphomycosis	DOID:14049
-pharyngitis; toxic shock syndrome; sepsis
-phoma stem canker
-phytophthora blight
-pierce disease of grapes and citrus variegated chlorosis (cvc)
-pierce’s disease
-pierce’s disease of grapevines
-pine wilt disease
-plane canker stain
-pneumococcal pneumonia
-pneumonia
-pneumonia and meningitis in neonates , mastitis in cows, and meningoencephalitis in fish
-pneumonia, endocarditis, meningitis, arthritis
-pneumonia; meningitis
-pneumonia, meningitis, sepsis
-pneumonia, otitis media, septicaemia, meningitis
-pneumonia, toxic shock syndrome, bacteremia, endocarditis
-pneumonic plague
-potato buckeye rot
+pharyngitis; toxic shock syndrome; sepsis	DOID:2275;DOID:14115;PHID:0000067
+phoma stem canker	PHID:0000072
+phytophthora blight	PHID:0000073
+pierce disease of grapes and citrus variegated chlorosis (cvc)	PHID:0000074;PHID:0000075
+pierce’s disease	PHID:0000074
+pierce’s disease of grapevines	PHID:0000074
+pine wilt disease	PHID:0000052
+plane canker stain	PHID:0000021
+pneumococcal pneumonia	DOID:10531
+pneumonia	DOID:552
+pneumonia and meningitis in neonates , mastitis in cows, and meningoencephalitis in fish	DOID:552
+pneumonia, endocarditis, meningitis, arthritis	DOID:552
+pneumonia; meningitis	DOID:552
+pneumonia, meningitis, sepsis	DOID:552;;PHID:0000067
+pneumonia, otitis media, septicaemia, meningitis	DOID:552;;PHID:0000067;
+pneumonia, toxic shock syndrome, bacteremia, endocarditis	DOID:552;DOID:14115;;
+pneumonic plague	DOID:10398
+potato buckeye rot	PHID:0000076
 potato cyst
-potato rot
-potato scab
-powdery mildew
-pseudomembranous colitis
+potato rot	PHID:0000077
+potato scab	PHID:0000040
+powdery mildew	PHID:0000037
+pseudomembranous colitis	DOID:0060185
 pulmonary aspergillosis	DOID:0050153
 pulmonary cryptococcosis (lung infection), basal meningitis, cerebral cryptococcomas	DOID:12053;DOID:9471
 q fever	DOID:11100
@@ -194,59 +193,59 @@ respiratory disease	DOID:1579
 rice bacterial blight	PDO:0000014
 rice blast	PDO:0000031
 rice blast fungus	PDO:0000031
-root rot
-rotting of tubers; blackleg disease of the plant stem
-salmonellosis
-scald/leaf blotch
-septicemia
-septoria leaf blotch
-septoria nodorum blotch
+root rot	PHID:0000041
+rotting of tubers; blackleg disease of the plant stem	PHID:0000077;PHID:0000094
+salmonellosis	DOID:11092
+scald/leaf blotch	PHID:0000013;PHID:0000062
+septicemia	PHID:0000067
+septoria leaf blotch	PHID:0000062
+septoria nodorum blotch	PHID:0000062
 sexually transmitted diseases
-sheath brown rot disease
+sheath brown rot disease	PHID:0000019
 shigellosis	DOID:12385
 sinusitis in turkeys, and air sacculitis/ tracheitis in chickens	DOID:0050127;DOID:9392
 skin infections; food poisoning; respiratory diseases	DOID:37;DOID:1579
 skin lesions
 smut disease	PDO:0000182
 smut disease of maize	PDO:0000182
-soft rot
+soft rot	PHID:0000078
 southern corn leaf blight	PDO:0000184
-soybean stem and root rot
-spot blotch disease
-stem canker
-stem rot of soybean
+soybean stem and root rot	PHID:0000068;PHID:0000041
+spot blotch disease	PHID:0000079
+stem canker	PHID:0000080
+stem rot of soybean	PHID:0000068
 stewart’s bacterial wilt and leaf blight	PDO:0000155;PDO:0000184
 stewart’s wilt	PDO:0000155
 stewart’s wilt of sweet corn	PDO:0000155
-storage rots
-streptococcal sore throat (strep throat) to necrotizing fasciitis (flesh-eating disease)
-streptococcal toxic shock syndrome
-streptococcicosis
+storage rots	PHID:0000081
+streptococcal sore throat (strep throat) to necrotizing fasciitis (flesh-eating disease)	DOID:12115;DOID:9602
+streptococcal toxic shock syndrome	DOID:14115
+streptococcicosis	PHID:0000082
 suppresses soilborne plant diseases caused by a number of fungi
-take-all
-tan spot
-tomato leaf mould
-tomato wilt
+take-all	PHID:0000083
+tan spot	PHID:0000084
+tomato leaf mould	PHID:0000064
+tomato wilt	PHID:0000053
 toxic shock syndrome	DOID:14115
 toxoplasmic encephalitis	DOID:9588
 traveler’s diarrhea, foodborne outbreaks and sporadic diarrhea.	DOID:13250
 tuberculosis	DOID:399
-tularemia	tularemia
+tularemia	DOID:2123
 tumors, galls or knots
 urinary tract infections	DOID:18
 urinary tract infections, nosocomial pneumonia, intra-abdominal infections	DOID:18;DOID:552
-vascular wilt
-verticillium wilt
-vibriosis
-wheat glume blotch disease
-wheat powdery mildew
-wheat stagonospora nodorum blotch
-wheat stripe rust fungus
-white mould
-white mould/stem rot
-white muscardine disease
-white root rot
-wildfire disease
-wilt and canker disease of tomato
-witches’ broom disease
-yersiniosis
+vascular wilt	PHID:0000049
+verticillium wilt	PHID:0000050
+vibriosis	DOID:1499
+wheat glume blotch disease	PHID:0000055
+wheat powdery mildew	PHID:0000037
+wheat stagonospora nodorum blotch	PHID:0000062
+wheat stripe rust fungus	PHID:0000085
+white mould	PHID:0000086
+white mould/stem rot	PHID:0000086;PHID:0000068
+white muscardine disease	PHID:0000058
+white root rot	PHID:0000041
+wildfire disease	PHID:0000087
+wilt and canker disease of tomato	PHID:0000053;PHID:0000021
+witches’ broom disease	PHID:0000088
+yersiniosis	DOID:3300

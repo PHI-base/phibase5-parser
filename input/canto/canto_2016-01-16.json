@@ -1,0 +1,193 @@
+{
+   "curation_sessions" : {
+      "b092d81fb3f468c9" : {
+         "alleles" : {
+            "Magnaporthe grisea Q0PND3:b092d81fb3f468c9-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe grisea Q0PND3",
+               "name" : "Q0PND3_MAGGRdelta",
+               "primary_identifier" : "Q0PND3:b092d81fb3f468c9-1"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:b092d81fb3f468c9-1" : {
+               "allele_type" : "deletion",
+               "description" : "",
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "name" : "G4N492_MAGO7delta",
+               "primary_identifier" : "G4N492:b092d81fb3f468c9-1"
+            }
+         },
+         "annotations" : [
+            {
+               "conditions" : [],
+               "creation_date" : "2016-01-15",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "other",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Guy11",
+                     "relation" : "pathogen_strain_name"
+                  },
+                  {
+                     "rangeDisplayName" : "seedling",
+                     "rangeValue" : "BTO:0001228",
+                     "relation" : "infects_tissue"
+                  },
+                  {
+                     "rangeDisplayName" : "rice blast fungal disease",
+                     "rangeValue" : "PDO:0000031",
+                     "relation" : "causes_disease"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "4530",
+                     "relation" : "experimental_host_id"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "CO39",
+                     "relation" : "experimental_host_strain"
+                  },
+                  {
+                     "rangeDisplayName" : "unaltered disease formation",
+                     "rangeValue" : "PHIDF:0000395",
+                     "relation" : "disease_formation"
+                  }
+               ],
+               "genotype" : "b092d81fb3f468c9-genotype-1",
+               "publication" : "PMID:654321",
+               "status" : "new",
+               "term" : "PHIPO:0000034",
+               "type" : "phi_phenotype"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2016-01-16",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IMP",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "apoplast",
+                     "rangeValue" : "GO:0048046",
+                     "relation" : "location_in_host"
+                  },
+                  {
+                     "rangeDisplayName" : "",
+                     "rangeValue" : "Q7Y0V9",
+                     "relation" : "target_in_host"
+                  }
+               ],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "publication" : "PMID:654321",
+               "status" : "new",
+               "term" : "PHIEO:0000003",
+               "type" : "effector"
+            },
+            {
+               "conditions" : [],
+               "creation_date" : "2016-01-16",
+               "curator" : {
+                  "community_curated" : false,
+                  "email" : "alistair.irvine@rothamsted.ac.uk",
+                  "name" : "Alistair Irvine"
+               },
+               "evidence_code" : "IDA",
+               "extension" : [
+                  {
+                     "rangeDisplayName" : "Q0PND3_MAGGR",
+                     "rangeValue" : "Q0PND3",
+                     "relation" : "added_by"
+                  },
+                  {
+                     "rangeDisplayName" : "granulysin production",
+                     "rangeValue" : "GO:0036262",
+                     "relation" : "present_during"
+                  }
+               ],
+               "gene" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492",
+               "publication" : "PMID:654321",
+               "status" : "new",
+               "term" : "MOD:01131",
+               "type" : "post_translational_modification"
+            }
+         ],
+         "genes" : {
+            "Magnaporthe grisea Q0PND3" : {
+               "organism" : "Magnaporthe grisea",
+               "uniquename" : "Q0PND3"
+            },
+            "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492" : {
+               "organism" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)",
+               "uniquename" : "G4N492"
+            }
+         },
+         "genotypes" : {
+            "b092d81fb3f468c9-genotype-1" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:b092d81fb3f468c9-1"
+                  }
+               ]
+            },
+            "b092d81fb3f468c9-genotype-2" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe grisea Q0PND3:b092d81fb3f468c9-1"
+                  }
+               ]
+            },
+            "b092d81fb3f468c9-genotype-3" : {
+               "alleles" : [
+                  {
+                     "id" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) G4N492:b092d81fb3f468c9-1"
+                  },
+                  {
+                     "id" : "Magnaporthe grisea Q0PND3:b092d81fb3f468c9-1"
+                  }
+               ]
+            }
+         },
+         "metadata" : {
+            "accepted_timestamp" : "2016-01-15 18:10:50",
+            "admin_session" : "1",
+            "annotation_status" : "APPROVED",
+            "annotation_status_datestamp" : "2016-01-16 16:31:28",
+            "approval_in_progress_timestamp" : "2016-01-16 16:31:17",
+            "approved_timestamp" : "2016-01-16 16:31:28",
+            "approver_email" : "alistair.irvine@rothamsted.ac.uk",
+            "approver_name" : "Alistair Irvine",
+            "canto_session" : "b092d81fb3f468c9",
+            "curation_in_progress_timestamp" : "2016-01-15 18:13:16",
+            "curation_pub_id" : "PMID:654321",
+            "needs_approval_timestamp" : "2016-01-16 16:31:11",
+            "session_created_timestamp" : "2016-01-15 18:10:38",
+            "session_genes_count" : "2",
+            "session_term_suggestions_count" : "0",
+            "session_unknown_conditions_count" : "0",
+            "term_suggestion_count" : "0",
+            "unknown_conditions_count" : "0"
+         },
+         "organisms" : {
+            "148305" : {
+               "full_name" : "Magnaporthe grisea"
+            },
+            "242507" : {
+               "full_name" : "Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)"
+            }
+         },
+         "publications" : {
+            "PMID:654321" : {}
+         }
+      }
+   }
+}
+

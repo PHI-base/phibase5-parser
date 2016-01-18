@@ -552,6 +552,8 @@ while (my @row = $sql_result->fetchrow_array()) {
       $disease_name = $disease_term->name;
     } else { # if not defined, then look up human disease ontology
       $disease_term = $human_disease_ontology->get_term_by_id($disease_id);
+print "Disease ID:$disease_id\n";
+print "Disease Term:$disease_term\n";
       $disease_name = $disease_term->name;
     }
 
@@ -1484,6 +1486,7 @@ while (my @row = $sql_result->fetchrow_array()) {
     $pubmed_hash{"pubmed_id"} = $pubmed_id;
 
     # run REST query and get JSON response
+print "PubMed ID:$pubmed_id\n";
     my $url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search/query=EXT_ID:$pubmed_id&format=json";
     my $json_response = get $url;
     my $text_response = decode_json($json_response);

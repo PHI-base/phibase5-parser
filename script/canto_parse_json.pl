@@ -29,7 +29,8 @@ my $allele_count = 0;
 #my $inducer_count = 0;
 #my $exp_spec_count = 0;
 
-my $json_filename = '../input/canto/canto_2016-01-14.json';
+my $json_filename = '../input/canto/canto_2016-01-16.json';
+#my $json_filename = '../input/canto/canto_2016-01-14.json';
 #my $json_filename = '../input/canto/canto_2016-01-13.json';
 #my $json_filename = '../input/canto/canto_with_annot_ext.json';
 #my $json_filename = '../input/canto/canto_using_alleles.json';
@@ -112,7 +113,7 @@ foreach my $annot_index (0 .. $#annotations) {
 #   if ($annot_type eq 'phi_phenotype' or $annot_type eq 'phenotype_outcome') {
 #   if ($annot_type eq 'phi_interaction_phenotype' or $annot_type eq 'phi_pathogen_phenotype' or $annot_type eq 'phi_host_phenotype') {
       $gene_or_genotype_id = $annotation{'genotype'};
-   } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' ) {
+   } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' or $annot_type eq 'effector' or $annot_type eq 'post_translational_modification') {
       $gene_or_genotype_id = $annotation{'gene'};
    } else {
       print STDERR "Error: Invalid annotation type: $annot_type\n"; 
@@ -286,7 +287,7 @@ foreach my $annot_index (0 .. $#annotations) {
 	 $annotations[$annot_index]{"interaction_id"} = $interaction_count;
       }
 
-   } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' ) {
+   } elsif ($annot_type eq 'molecular_function' or $annot_type eq 'biological_process' or $annot_type eq 'cellular_component' or $annot_type eq 'effector' or $annot_type eq 'post_translational_modification') {
 
       # add the current annotation to the array of GO annotations;
       push (@go_annotations, $annotations[$annot_index]);
