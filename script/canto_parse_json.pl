@@ -15,7 +15,8 @@ my $db_conn = connect_to_phibase();
 my $annotation_count = 0;
 my $interaction_count = 0;
 my $go_annotation_count = 0;
-my $effector_annotation_count = 0;
+my $effector_gene_count = 0;
+my $post_trans_mod_count = 0;
 my $host_response_count = 0;
 my $phi_interaction_phenotype_count = 0;
 my $phi_pathogen_phenotype_count = 0;
@@ -87,15 +88,15 @@ my @go_annotations;
 
 # create a separate hash of hashes to store the effector gene annotations
 # (which are not part of the pathogen-host interaction, but a direct property of the pathogen gene)
-# where the key will be an identifier for each effector annotation
-# and the value will be a hash of the values for each annotation
-my @effector_annotations;
+# where the key will be an identifier for each effector gene
+# and the value will be a hash of the values for each effector gene
+my @effector_genes;
 
-# create a separate hash of hashes to store the GO annotations
+# create a separate hash of hashes to store the post-translational modifications
 # (which are not part of the pathogen-host interaction, but a direct property of the pathogen gene)
-# where the key will be an identifier for each GO annotation
-# and the value will be a hash of the values for each annotation
-my @post_trans_mod_annotations;
+# where the key will be an identifier for each modification
+# and the value will be a hash of the values for each modification
+my @post_trans_modifications;
 
 # Read in the experiment specification ontology
 # so that the identifier can be matched from the
@@ -307,13 +308,13 @@ foreach my $annot_index (0 .. $#annotations) {
 
    } elsif ($annot_type eq 'effector') {
 
-      # add the current annotation to the array of effector annotations;
-      push (@effector_annotations, $annotations[$annot_index]);
+      # add the current annotation to the array of effector genes;
+      push (@effector_genes, $annotations[$annot_index]);
 
    } elsif ($annot_type eq 'post_translational_modification') {
 
       # add the current annotation to the array of post translational modification annotations;
-      push (@post_trans_mod_annotations, $annotations[$annot_index]);
+      push (@post_trans_modifications, $annotations[$annot_index]);
 
    } else {
       print STDERR "Error: Invalid annotation type: $annot_type\n"; 
@@ -1237,10 +1238,10 @@ foreach my $go_annot_ref (@go_annotations) {
 
 
 
-# iterate through all effector annotations
+# iterate through all effector genes
 # inserting each into the database, associated with the
 # relevant pathogen gene and PubMed ID
-foreach my $effector_annot_ref (@effector_annotations) {
+foreach my $effector_gene_ref (@effector_genes) {
 
   # declare variables
   my $pubmed_id;
@@ -1253,17 +1254,17 @@ foreach my $effector_annot_ref (@effector_annotations) {
   my $location_in_host_go_id;
   my $host_target_uniprot_acc;
 
-  # increment effector annotation count
-  $effector_annotation_count++;
+  # increment effector gene count
+  $effector_gene_count++;
  
-  # get the hash of effector annotation details
-  my %effector_annotation = %{ $effector_annot_ref };
+  # get the hash of effector gene details
+  my %effector_gene = %{ $effector_gene_ref };
 
-  # get the type of effector annotation
-  #my $annot_type = $effector_annotation{'type'};
+  # get the type of effector gene
+  #my $annot_type = $effector_gene{'type'};
 
   # get the pathogen gene identifier
-  my $gene_id = $effector_annotation{'gene'};
+  my $gene_id = $effector_gene{'gene'};
 
   # get the gene from the hash of pathogen genes, using the ID
   my %gene = %{ $pathogen_genes{$gene_id} };
@@ -1271,12 +1272,12 @@ foreach my $effector_annot_ref (@effector_annotations) {
   # get the UniProt accession for the gene
   my $pathogen_gene_uniprot_acc = $gene{"uniquename"};
 
-  # get the PubMed ID associated with the effector annotation
-  $pubmed_id = $effector_annotation{'publication'};
+  # get the PubMed ID associated with the effector gene
+  $pubmed_id = $effector_gene{'publication'};
 
-  # get the annotation extensions for the effector annotation
+  # get the annotation extensions for the effector gene
   # which is an array of hashes (one hash for each extension)
-  my @annot_extensions = @{ $effector_annotation{'extension'} };
+  my @annot_extensions = @{ $effector_gene{'extension'} };
 
   # from the annotation extensions in the list
   # find out if a specific pathogen strain taxon ID has been given
@@ -1354,8 +1355,8 @@ foreach my $effector_annot_ref (@effector_annotations) {
   my @row4 = $sql_result4->fetchrow_array();
   my $pathogen_gene_id = shift @row4;
 
-  $effector_id = $effector_annotation{'term'};
-  $effector_evid_code = $effector_annotation{'evidence_code'};
+  $effector_id = $effector_gene{'term'};
+  $effector_evid_code = $effector_gene{'evidence_code'};
 
   # insert data into effector_gene table,
   # with foreign keys to the pathogen_gene table, PubMed, the GO ontology, and UniProt,
@@ -1374,14 +1375,160 @@ foreach my $effector_annot_ref (@effector_annotations) {
 			 VALUES ($pathogen_gene_id, '$pubmed_id', '$effector_id', '$effector_evid_code', '$host_target_uniprot_acc')
                         );
   } else { # neither location_in_host nor host_target defined
-     $sql_statement = qq(INSERT INTO effector_gene (pathogen_gene_id, pubmed_id, effector_id, effector_evidence_code)
+     $sql_statement = qq(INSERT INTO effector_gene (pathogen_gene_id, pubmed_id, phi_effector_id, phi_effector_evidence_code)
 			 VALUES ($pathogen_gene_id, '$pubmed_id', '$effector_id', '$effector_evid_code')
 			);
   }
 
   my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
-} # end foreach effector annotation
+} # end foreach effector gene
+
+
+
+
+# iterate through all post-translational modifications
+# inserting each into the database, associated with the
+# relevant pathogen gene and PubMed ID
+foreach my $post_trans_mod_ref (@post_trans_modifications) {
+
+  # declare variables
+  my $pubmed_id;
+  my $pathogen_species;
+  my $pathogen_taxon;
+  my $pathogen_strain_id;
+  my $pathogen_strain_name;
+  my $psi_mod_id;
+  my $psi_mod_evid_code;
+
+  # increment post trans modification count
+  $post_trans_mod_count++;
+ 
+  # get the hash of post trans modification details
+  my %post_trans_mod = %{ $post_trans_mod_ref };
+
+  # get the pathogen gene identifier
+  my $gene_id = $post_trans_mod{'gene'};
+
+  # get the gene from the hash of pathogen genes, using the ID
+  my %gene = %{ $pathogen_genes{$gene_id} };
+           
+  # get the UniProt accession for the gene
+  my $pathogen_gene_uniprot_acc = $gene{"uniquename"};
+
+  # get the PubMed ID associated with the post trans modification
+  $pubmed_id = $post_trans_mod{'publication'};
+
+  # get the annotation extensions for the post trans modification
+  # which is an array of hashes (one hash for each extension)
+  my @annot_extensions = @{ $post_trans_mod{'extension'} };
+
+  # from the annotation extensions in the list
+  # find out if a specific pathogen strain taxon ID has been given
+  # and/or a specific pathogen strain name
+  foreach my $annot_ext_index (0 .. $#annot_extensions) {
+
+    # get the hash for the annotation extension
+    my %annot_ext_hash = %{ $annot_extensions[$annot_ext_index] };
+    my $annot_ext_relation = $annot_ext_hash{'relation'}; 
+    my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
+
+    # if extension relation is 'pathogen_strain_id', then assign range value to pathogen_strain_id
+    if ($annot_ext_relation =~ /^pathogen_strain_id/) {
+       $pathogen_strain_id = $annot_ext_value;
+    }
+
+    # if extension relation is 'pathogen_strain_name', then assign range value to pathogen_strain_name
+    if ($annot_ext_relation =~ /^pathogen_strain_name/) {
+       $pathogen_strain_name = $annot_ext_value;
+    }
+
+  } # end foreach annotation extension
+
+  # if a pathogen strain taxon ID has been explicitly given in the annotation extension
+  # then this taxon ID should be used for all interactions, otherwise use the taxon ID
+  # retrieved from the UniProt accessions supplied
+  if (defined $pathogen_strain_id) {
+    $pathogen_taxon_id = $pathogen_strain_id;
+  }
+
+  # insert data into the pathogen_gene table,
+  # if it does not exist already
+  # (based on combination of taxon id, UniProt accession, and where available the pathogen strain name)
+  my $sql_statement2;
+  if (defined $pathogen_strain_name) {
+     $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
+			  SELECT $pathogen_taxon_id,'$pathogen_strain_name','$pathogen_gene_uniprot_acc'
+			  WHERE NOT EXISTS (
+			    SELECT 1 FROM pathogen_gene
+			    WHERE ncbi_taxon_id = $pathogen_taxon_id
+			    AND pathogen_strain_name = '$pathogen_strain_name'
+			    AND uniprot_accession = '$pathogen_gene_uniprot_acc'
+			 ));
+  } else {
+     $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id, uniprot_accession) 
+			  SELECT $pathogen_taxon_id,'$pathogen_gene_uniprot_acc'
+			  WHERE NOT EXISTS (
+			    SELECT 1 FROM pathogen_gene
+			    WHERE ncbi_taxon_id = $pathogen_taxon_id
+			    AND uniprot_accession = '$pathogen_gene_uniprot_acc'
+			 ));
+  }
+
+  my $sql_result2 = $db_conn->prepare($sql_statement2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # get the unique identifier for the inserted pathogen_gene record
+  my $sql_statement4 = qq(SELECT id FROM pathogen_gene
+		          WHERE ncbi_taxon_id = $pathogen_taxon_id
+		          AND uniprot_accession = '$pathogen_gene_uniprot_acc');
+
+  my $sql_result4 = $db_conn->prepare($sql_statement4);
+  $sql_result4->execute() or die $DBI::errstr;
+  my @row4 = $sql_result4->fetchrow_array();
+  my $pathogen_gene_id = shift @row4;
+
+  $psi_mod_id = $post_trans_mod{'term'};
+  $psi_mod_evid_code = $post_trans_mod{'evidence_code'};
+
+  # insert data into post_trans_mod table,
+  # with foreign keys to the pathogen_gene and PubMed tables
+  my $sql_statement = qq(INSERT INTO gene_post_trans_mod (pathogen_gene_id, pubmed_id, psi_mod_id, psi_mod_evid_code)
+			 VALUES ($pathogen_gene_id, '$pubmed_id', '$psi_mod_id', '$psi_mod_evid_code')
+                        );
+  my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+
+  # get the unique identifier for the inserted gene_post_trans_mod record
+  $sql_statement4 = qq(SELECT id FROM gene_post_trans_mod
+			  WHERE pathogen_gene_id = $pathogen_gene_id
+                          AND pubmed_id = '$pubmed_id'
+                          AND psi_mod_id = '$psi_mod_id'
+		         );
+
+  $sql_result4 = $db_conn->prepare($sql_statement4);
+  $sql_result4->execute() or die $DBI::errstr;
+  @row4 = $sql_result4->fetchrow_array();
+  my $gene_post_trans_mod_id = shift @row4;
+
+  # for each annotation extension in the list
+  # add a pathogen_gene_go_annot_ext record,
+  # with the relevant foreign key to the gene_post_trans_mod table
+  foreach my $annot_ext_index (0 .. $#annot_extensions) {
+
+    # get the hash for the annotation extension
+    my %annot_ext_hash = %{ $annot_extensions[$annot_ext_index] };
+    my $annot_ext_relation = $annot_ext_hash{'relation'}; 
+    my $annot_ext_value = $annot_ext_hash{'rangeValue'}; 
+
+    my $sql_statement = qq(INSERT INTO post_trans_mod_annot_ext (gene_post_trans_mod_id, post_trans_mod_annot_ext_relation, post_trans_mod_annot_ext_value)
+			 VALUES ($gene_post_trans_mod_id, '$annot_ext_relation', '$annot_ext_value');
+			);
+    my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+  } # end foreach annotation extension
+
+} # end foreach post trans modification
 
 
 
@@ -1393,7 +1540,8 @@ print "Total PHI interaction phenotypes: $phi_interaction_phenotype_count\n";
 print "Total PHI pathogen phenotypes: $phi_pathogen_phenotype_count\n";
 print "Total PHI host phenotypes: $phi_host_phenotype_count\n";
 print "Total GO annotations: $go_annotation_count\n";
-print "Total effector annotations: $effector_annotation_count\n";
+print "Total effector genes: $effector_gene_count\n";
+print "Total post-trans modifications: $post_trans_mod_count\n";
 print "GO molecular function annotations: $go_mol_function_count\n";
 print "GO biological process annotations: $go_biol_process_count\n";
 print "GO cellular location annotations: $go_cell_location_count\n";

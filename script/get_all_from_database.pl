@@ -31,7 +31,7 @@ $json_output{"interactions"} = \@interactions;
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Strain\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tEffector Gene\tEffector Location in Host\tEffector Host Target\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducer Chemical Names\tInducer CAS IDs\tInducer ChEBI IDs\tInducer Genes\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Strain\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPost-Trans Modifications\tPost-Trans Mod Annot Extensions\tEffector Gene\tEffector Location in Host\tEffector Host Target\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducer Chemical Names\tInducer CAS IDs\tInducer ChEBI IDs\tInducer Genes\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -47,6 +47,7 @@ my $obo_parser = OBO::Parser::OBOParser->new;
 my $exp_spec_ontology = $obo_parser->work("../ontology/phibase/experiment_specification.obo");
 my $phi_phenotype_ontology = $obo_parser->work("../ontology/phibase/phi_phenotype.obo");
 my $effector_ontology = $obo_parser->work("../ontology/phibase/phi_effector.obo");
+my $psi_mod_ontology = $obo_parser->work("../ontology/Modifications/PSI-MOD.obo");
 #my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/doid.obo");
 my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/HumanDO.obo");
 #my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/PlantDisease/plant_disease_ontology.obo");
@@ -158,6 +159,12 @@ while (my @row = $sql_result->fetchrow_array()) {
   my @phibase_go_annotations;
   # initalise output string for GO annotation extensions
   my $go_annot_ext_output_string = "";
+
+  # initalise output string for post translational modifications and array for JSON output
+  my $post_trans_mod_output_string = "";
+  my @post_trans_modifications;
+  # initalise output string for post translational modification annotation extensions
+  my $post_trans_mod_annot_ext_string = "";
 
   # initalise output string for effector genes and array for JSON output
   my @effector_genes;
@@ -448,16 +455,136 @@ while (my @row = $sql_result->fetchrow_array()) {
      } # end while GO annotations
 
 
+     # initalise output string for post translational modification extension array for JSON output
+     my @post_trans_mod_annot_exts;
+
+     # get the post translational modifications for the current gene 
+     $sql_stmt6 = qq(SELECT gene_post_trans_mod.id,
+ 	                    psi_mod_id,
+			    psi_mod_evid_code
+		     FROM pathogen_gene,
+			  gene_post_trans_mod
+		     WHERE pathogen_gene.id = $pathogen_gene_id
+	             AND pathogen_gene.id = gene_post_trans_mod.pathogen_gene_id
+		   ;);
+     $sql_result6 = $db_conn->prepare($sql_stmt6);
+     $sql_result6->execute() or die $DBI::errstr;
+
+     # since there may be multiple post translational modification,
+     # need to retrieve all of them and construct output string 
+     # based on comma and semi-colon delimiters
+     while (my @row6 = $sql_result6->fetchrow_array()) {
+
+       # create a hash for the current post translational modification
+       my %post_trans_modification;
+
+       my $gene_post_trans_mod_id = shift @row6;
+       my $psi_mod_term_id = shift @row6;
+       my $psi_mod_evid_code = shift @row6;
+       my $psi_mod_term_name = "";
+
+       # add ID and evidence to the hash
+       $post_trans_modification{"psi_mod_term_id"} = $psi_mod_term_id;
+       $post_trans_modification{"psi_mod_evid_code"} = $psi_mod_evid_code;
+
+print "Post trans mod PSI-MOD ID:$psi_mod_term_id\n";
+print "Post trans mod PSI-MOD Evid Code:$psi_mod_evid_code\n";
+       # use the PSI-MOD ontology to retrieve the term name, based on the identifier
+       $psi_mod_term_name = $psi_mod_ontology->get_term_by_id($psi_mod_term_id)->name;
+       $post_trans_modification{"psi_mod_term_id"} = $psi_mod_term_id;
+       $post_trans_modification{"psi_mod_term_name"} = $psi_mod_term_name;
+
+       $post_trans_mod_output_string .= "$psi_mod_term_id($psi_mod_evid_code):$psi_mod_term_name;";
+
+       # FOREACH POST TRANS MODIFICATION, GET THE CORRESPONDING ANNOT EXTENSIONS,
+       # BASED ON THE KNOWN ANNOT ID
+       # SAVE DETAILS TO AN ANNOT EXT HASH - WHICH WILL THEN BE ADDED TO THE POST TRANS ANNOT HASH
+       # AS WELL AS THE USUAL OUTPUT STRING
+
+       # get the annotation extensions associated with the post translational modification
+       my $sql_stmt7 = qq(SELECT post_trans_mod_annot_ext_relation,
+				 post_trans_mod_annot_ext_value
+			  FROM gene_post_trans_mod,
+			       post_trans_mod_annot_ext
+			  WHERE gene_post_trans_mod.id = $gene_post_trans_mod_id
+			  AND gene_post_trans_mod.id = post_trans_mod_annot_ext.gene_post_trans_mod_id
+			 ;);
+       my $sql_result7 = $db_conn->prepare($sql_stmt7);
+       $sql_result7->execute() or die $DBI::errstr;
+
+       # since there may be multiple post trans modification annot extensions,
+       # need to retrieve all of them and construct output string 
+       # based on comma and semi-colon delimiters
+       while (my @row7 = $sql_result7->fetchrow_array()) {
+
+	 # create a hash for the current post translational modification annotation extension
+	 my %post_trans_mod_annot_ext;
+
+	 my $post_trans_mod_annot_ext_relation = shift @row7;
+	 my $post_trans_mod_annot_ext_value = shift @row7;
+	 my $post_trans_mod_annot_ext = "";
+
+	 # add relation and value to the hash
+	 $post_trans_mod_annot_ext{"post_trans_mod_annot_ext_relation"} = $post_trans_mod_annot_ext_relation;
+	 $post_trans_mod_annot_ext{"post_trans_mod_annot_ext_value"} = $post_trans_mod_annot_ext_value;
+
+	 # NEED TO IDENTIFY THE TYPE OF ANNOT EXT VALUE (literal, GO, ChEBI etc),
+	 # AND, IF AN ONTOLOGY TERM, GET THE RELEVANT NAME ASSOCIATED WITH THE IDENTIFIER
+	 # SO FAR, ONLY TESTING IF ITS A GO ANNOTATION
+	 my $post_trans_mod_annot_ext_term_name;
+	 if ($post_trans_mod_annot_ext_value =~ /^GO/) {
+
+	   # retrieve the name of the GO term, using the Quick REST web service
+	   my $query = "http://www.ebi.ac.uk/QuickGO/GTerm?id=$post_trans_mod_annot_ext_value&format=oboxml";
+	   my $xml_response = get $query;
+
+	   # use XML twig to parse the XML data
+	   my $xml_twig = XML::Twig->new();
+
+	   if (defined $xml_response) {
+	      # parse the XML data to get the GO term name
+	      $xml_twig->parse($xml_response);
+	      if (defined $xml_twig->root->first_child('term')) {
+		$post_trans_mod_annot_ext_term_name = $xml_twig->root->first_child('term')->field('name');
+	      }
+	   } else {
+	      print STDERR "ERROR: Gene Ontology term not found for $post_trans_mod_annot_ext_value\n";
+	   }
+
+	 }
+
+	 # add the annotation extension details to the output string
+	 # with the term name of the ontology term, if appropriate
+	 if (defined $post_trans_mod_annot_ext_term_name) {
+	   $post_trans_mod_annot_ext_string .= "$post_trans_mod_annot_ext_relation($post_trans_mod_annot_ext_value:$post_trans_mod_annot_ext_term_name);";
+	 } else {
+	   $post_trans_mod_annot_ext_string .= "$post_trans_mod_annot_ext_relation($post_trans_mod_annot_ext_value);";
+	 }
+
+	 # add the current post translational modification annotation extension to the list of annotation extensions
+	 push(@post_trans_mod_annot_exts, \%post_trans_mod_annot_ext);
+
+       } # end while post translational modification annotation extensions
+
+       # add the list of annotation extensions to the hash for the current post translational modification
+       $post_trans_modification{"post_trans_mod_annot_exts"} = \@post_trans_mod_annot_exts;
+
+       # add the current post translational modification to the list of post translational modifications
+       push(@post_trans_modifications, \%post_trans_modification);
+
+     } # end while post translational modifications
+
+
      # get the effector gene details
      $sql_stmt6 = qq(SELECT phi_effector_id,
-			       phi_effector_evidence_code,
-                               location_in_host_go_id,
-                               host_target_uniprot_acc
-			FROM pathogen_gene,
-			     effector_gene
-			WHERE pathogen_gene.id = $pathogen_gene_id
-			AND pathogen_gene.id = effector_gene.pathogen_gene_id
-		       ;);
+			    phi_effector_evidence_code,
+                            location_in_host_go_id,
+                            host_target_uniprot_acc
+		     FROM pathogen_gene,
+			  effector_gene
+		     WHERE pathogen_gene.id = $pathogen_gene_id
+		     AND pathogen_gene.id = effector_gene.pathogen_gene_id
+		   ;);
      $sql_result6 = $db_conn->prepare($sql_stmt6);
      $sql_result6->execute() or die $DBI::errstr;
 
@@ -634,7 +761,6 @@ while (my @row = $sql_result->fetchrow_array()) {
     } else { # if not defined, then look up human disease ontology
       $disease_term = $human_disease_ontology->get_term_by_id($disease_id);
 print "Disease ID:$disease_id\n";
-print "Disease Term:$disease_term\n";
       $disease_name = $disease_term->name;
     }
 
@@ -813,6 +939,8 @@ print "Disease Term:$disease_term\n";
   # removing the final semi-colon from end of the string
   $go_output_string =~ s/;$//;
   $go_annot_ext_output_string =~ s/;$//;
+  $post_trans_mod_output_string =~ s/;$//;
+  $post_trans_mod_annot_ext_string =~ s/;$//;
   $effector_gene_output_string =~ s/;$//;
   $effector_location_string =~ s/;$//;
   $effector_host_target_string =~ s/;$//;
@@ -822,7 +950,7 @@ print "Disease Term:$disease_term\n";
   # followed by the additional GO annotations curated into PHI-base
   # followed by the annotation extensions for the PHI-base curated annotations
   # followed by effector gene type, location in host, and host target uniprot accession
-  print DATABASE_DATA_FILE "$uniprot_go_annotation\t$go_output_string\t$go_annot_ext_output_string\t$effector_gene_output_string\t$effector_location_string\t$effector_host_target_string\t";
+  print DATABASE_DATA_FILE "$uniprot_go_annotation\t$go_output_string\t$go_annot_ext_output_string\t$post_trans_mod_output_string\t$post_trans_mod_annot_ext_string\t$effector_gene_output_string\t$effector_location_string\t$effector_host_target_string\t";
 
   # add the phibase GO annotation and effector gene to the interaction hash
   $interaction_hash{"phibase_go_annotations"} = \@phibase_go_annotations;
@@ -855,8 +983,15 @@ print "Disease Term:$disease_term\n";
     my $phi_interaction_phenotype_id = shift @row2;
     my $phi_evidence = shift @row2;
 
-    # use the PHI phenotype ontology to retrieve the term name, based on the identifier
-    my $phi_interaction_phenotype_name = $phi_phenotype_ontology->get_term_by_id($phi_interaction_phenotype_id)->name;
+print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
+    my $phi_interaction_phenotype_name;
+    if ($phi_interaction_phenotype_id =~ /^PHIPO/) {
+      # use the PHI phenotype ontology to retrieve the term name, based on the identifier
+      $phi_interaction_phenotype_name = $phi_phenotype_ontology->get_term_by_id($phi_interaction_phenotype_id)->name;
+    } elsif ($phi_interaction_phenotype_id =~ /^PHIEO/) {
+      # use the PHI effector ontology to retrieve the term name, based on the identifier
+      $phi_interaction_phenotype_name = $effector_ontology->get_term_by_id($phi_interaction_phenotype_id)->name;
+    }
     $interaction_phenotype_hash{"phi_interaction_phenotype_id"} = $phi_interaction_phenotype_id;
     $interaction_phenotype_hash{"phi_interaction_phenotype_name"} = $phi_interaction_phenotype_name;
 

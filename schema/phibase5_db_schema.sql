@@ -72,6 +72,13 @@ CREATE TABLE pathogen_gene_go_annotation (
     --PRIMARY KEY (pathogen_gene_id, pubmed_id, go_id)
 );
 
+CREATE TABLE pathogen_gene_go_annot_ext (
+    id SERIAL PRIMARY KEY,
+    pathogen_gene_go_annotation_id integer REFERENCES pathogen_gene_go_annotation,
+    go_annot_ext_relation varchar(50),
+    go_annot_ext_value varchar(50)
+);
+
 CREATE TABLE effector_gene (
     id SERIAL PRIMARY KEY,
     pathogen_gene_id integer REFERENCES pathogen_gene,
@@ -80,13 +87,6 @@ CREATE TABLE effector_gene (
     phi_effector_evidence_code varchar(50),
     location_in_host_go_id varchar(50),
     host_target_uniprot_acc varchar(50)
-);
-
-CREATE TABLE pathogen_gene_go_annot_ext (
-    id SERIAL PRIMARY KEY,
-    pathogen_gene_go_annotation_id integer REFERENCES pathogen_gene_go_annotation,
-    go_annot_ext_relation varchar(50),
-    go_annot_ext_value varchar(50)
 );
 
 CREATE TABLE pathogen_gene_allele (
@@ -129,10 +129,19 @@ CREATE TABLE pathogen_interacting_protein (
     PRIMARY KEY (interaction_id, uniprot_accession)
 );
 
-CREATE TABLE modification_within_allele (
-    pathogen_gene_allele_id integer REFERENCES pathogen_gene_allele,
-    psi_mod_id integer,
-    PRIMARY KEY (pathogen_gene_allele_id, psi_mod_id)
+CREATE TABLE gene_post_trans_mod (
+    id SERIAL PRIMARY KEY,
+    pathogen_gene_id integer REFERENCES pathogen_gene,
+    pubmed_id varchar(50),
+    psi_mod_id varchar(50),
+    psi_mod_evid_code varchar(50)
+);
+
+CREATE TABLE post_trans_mod_annot_ext (
+    id SERIAL PRIMARY KEY,
+    gene_post_trans_mod_id integer REFERENCES gene_post_trans_mod,
+    post_trans_mod_annot_ext_relation varchar(50),
+    post_trans_mod_annot_ext_value varchar(50)
 );
 
 CREATE TABLE interaction_transient_assay (
