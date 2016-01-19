@@ -1,0 +1,383 @@
+format-version: 1.2
+date: 15:01:2016 16:22
+saved-by: irvinea
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: phi_phenotype
+
+[Term]
+id: PHIDF:0000004
+name: enhanced antagonism
+def: "The transgenic strain shows greater endophytic biomass in the host and/or the formation of visible disease symptoms." []
+is_a: PHIDF:0000135 ! increased disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:22:13Z
+
+[Term]
+id: PHIDF:0000005
+name: increased virulence
+def: "The transgenic strain causes greater incidence or severity of disease than the wild-type strain." []
+is_a: PHIDF:0000135 ! increased disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:23:44Z
+
+[Term]
+id: PHIDF:0000006
+name: level of disease formation
+is_a: PHIDF:0000161 ! disease formation
+created_by: irvinea
+creation_date: 2015-12-07T15:51:04Z
+
+[Term]
+id: PHIDF:0000007
+name: loss of pathogenicity
+def: "The transgenic strain fails to cause disease that is observed in the wild type (i.e. qualitative effect)." []
+is_a: PHIDF:0000136 ! reduced disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:25:39Z
+
+[Term]
+id: PHIDF:0000008
+name: reduced virulence
+def: "The transgenic strain still causes some disease formation but fewer symptoms than the wild-type strain (i.e. a quantitative effect)." []
+is_a: PHIDF:0000136 ! reduced disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:26:23Z
+
+[Term]
+id: PHIDF:0000009
+name: resistant to chemical
+def: "The transgenic strain grows and/or develops normally when exposed to chemistry concentrations that are detrimental to the wild-type strain." []
+is_a: PHIDF:0000161 ! disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:26:50Z
+
+[Term]
+id: PHIDF:0000010
+name: sensitive to chemical
+def: "The transgenic strain which expresses either no or reduced levels of a specific gene product(s) or possesses a specific gene mutation(s), has the same ability as the wild-type strain to grow and develop when exposed to detrimental chemistry concentrations." []
+is_a: PHIDF:0000161 ! disease formation
+created_by: irvinea
+creation_date: 2015-07-15T16:27:14Z
+
+[Term]
+id: PHIDF:0000122
+name: pathogen death
+synonym: "lethal to pathogen" RELATED []
+is_a: PHIDF:0000135 ! increased disease formation
+created_by: irvinea
+creation_date: 2015-07-27T11:27:03Z
+
+[Term]
+id: PHIDF:0000135
+name: increased disease formation
+is_a: PHIDF:0000006 ! level of disease formation
+created_by: irvinea
+creation_date: 2015-07-27T11:50:29Z
+
+[Term]
+id: PHIDF:0000136
+name: reduced disease formation
+is_a: PHIDF:0000006 ! level of disease formation
+created_by: irvinea
+creation_date: 2015-07-27T11:53:00Z
+
+[Term]
+id: PHIDF:0000138
+name: increased resistance to chemical
+is_a: PHIDF:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:27:14Z
+
+[Term]
+id: PHIDF:0000139
+name: decreased resistance to chemical
+is_a: PHIDF:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:27:42Z
+
+[Term]
+id: PHIDF:0000140
+name: unaltered resistance to chemical
+synonym: "control resistance to chemical" EXACT []
+synonym: "wild type resistance to chemical" RELATED []
+synonym: "wild-type resistance to chemical" RELATED []
+is_a: PHIDF:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:28:00Z
+
+[Term]
+id: PHIDF:0000141
+name: increased sensitivity to chemical
+is_a: PHIDF:0000010 ! sensitive to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:28:37Z
+
+[Term]
+id: PHIDF:0000142
+name: decreased sensitivity to chemical
+is_a: PHIDF:0000010 ! sensitive to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:28:55Z
+
+[Term]
+id: PHIDF:0000143
+name: unaltered sensitivity to chemical
+synonym: "control sensitivity to chemical" EXACT []
+synonym: "wild type sensitivity to chemical" RELATED []
+synonym: "wild-type sensitivity to chemical" RELATED []
+is_a: PHIDF:0000010 ! sensitive to chemical
+created_by: irvinea
+creation_date: 2015-07-27T12:29:20Z
+
+[Term]
+id: PHIDF:0000147
+name: hypervirulence
+is_a: PHIDF:0000005 ! increased virulence
+created_by: irvinea
+creation_date: 2015-07-29T15:49:35Z
+
+[Term]
+id: PHIDF:0000161
+name: disease formation
+created_by: irvinea
+creation_date: 2015-07-29T16:40:23Z
+
+[Term]
+id: PHIDF:0000245
+name: acid pH resistance
+is_a: PHIDF:0000249 ! pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:17:51Z
+
+[Term]
+id: PHIDF:0000246
+name: increased acid pH resistance
+is_a: PHIDF:0000245 ! acid pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:18:29Z
+
+[Term]
+id: PHIDF:0000247
+name: decreased acid pH resistance
+is_a: PHIDF:0000245 ! acid pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:18:40Z
+
+[Term]
+id: PHIDF:0000248
+name: unaltered acid pH resistance
+is_a: PHIDF:0000245 ! acid pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:18:56Z
+
+[Term]
+id: PHIDF:0000249
+name: pH resistance
+is_a: PHIDF:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:20:00Z
+
+[Term]
+id: PHIDF:0000250
+name: alkaline pH resistance
+is_a: PHIDF:0000249 ! pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:20:35Z
+
+[Term]
+id: PHIDF:0000251
+name: increased alkaline pH resistance
+is_a: PHIDF:0000250 ! alkaline pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:20:59Z
+
+[Term]
+id: PHIDF:0000252
+name: decreased alkaline pH resistance
+is_a: PHIDF:0000250 ! alkaline pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:21:10Z
+
+[Term]
+id: PHIDF:0000253
+name: unaltered alkaline pH resistance
+is_a: PHIDF:0000250 ! alkaline pH resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:21:21Z
+
+[Term]
+id: PHIDF:0000254
+name: ionic stress resistance
+is_a: PHIDF:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:21:55Z
+
+[Term]
+id: PHIDF:0000255
+name: increased ionic stress resistance
+is_a: PHIDF:0000254 ! ionic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:22:10Z
+
+[Term]
+id: PHIDF:0000256
+name: decreased ionic stress resistance
+is_a: PHIDF:0000254 ! ionic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:22:21Z
+
+[Term]
+id: PHIDF:0000257
+name: unaltered ionic stress resistance
+is_a: PHIDF:0000254 ! ionic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:22:32Z
+
+[Term]
+id: PHIDF:0000258
+name: metal resistance
+is_a: PHIDF:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:23:23Z
+
+[Term]
+id: PHIDF:0000259
+name: increased metal resistance
+is_a: PHIDF:0000258 ! metal resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:23:47Z
+
+[Term]
+id: PHIDF:0000260
+name: decreased metal resistance
+is_a: PHIDF:0000258 ! metal resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:24:00Z
+
+[Term]
+id: PHIDF:0000261
+name: unaltered metal resistance
+is_a: PHIDF:0000258 ! metal resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:24:11Z
+
+[Term]
+id: PHIDF:0000262
+name: osmotic stress resistance
+is_a: PHIDF:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:35:02Z
+
+[Term]
+id: PHIDF:0000263
+name: increased osmotic stress resistance
+is_a: PHIDF:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:35:28Z
+
+[Term]
+id: PHIDF:0000264
+name: decreased osmotic stress resistance
+is_a: PHIDF:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:35:58Z
+
+[Term]
+id: PHIDF:0000265
+name: unaltered osmotic stress resistance
+is_a: PHIDF:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:36:15Z
+
+[Term]
+id: PHIDF:0000266
+name: hyperosmotic stress resistance
+is_a: PHIDF:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:36:30Z
+
+[Term]
+id: PHIDF:0000267
+name: increased hyperosmotic stress resistance
+is_a: PHIDF:0000266 ! hyperosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:36:58Z
+
+[Term]
+id: PHIDF:0000268
+name: decreased hyperosmotic stress resistance
+is_a: PHIDF:0000266 ! hyperosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:37:18Z
+
+[Term]
+id: PHIDF:0000269
+name: unaltered hyperosmotic stress resistance
+is_a: PHIDF:0000266 ! hyperosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:37:50Z
+
+[Term]
+id: PHIDF:0000270
+name: hypoosmotic stress resistance
+is_a: PHIDF:0000262 ! osmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:38:07Z
+
+[Term]
+id: PHIDF:0000271
+name: increased hypoosmotic stress resistance
+is_a: PHIDF:0000270 ! hypoosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:39:00Z
+
+[Term]
+id: PHIDF:0000272
+name: decreased hypoosmotic stress resistance
+is_a: PHIDF:0000270 ! hypoosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:39:17Z
+
+[Term]
+id: PHIDF:0000273
+name: unaltered hypoosmotic stress resistance
+is_a: PHIDF:0000270 ! hypoosmotic stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:39:29Z
+
+[Term]
+id: PHIDF:0000274
+name: oxidative stress resistance
+is_a: PHIDF:0000009 ! resistant to chemical
+created_by: irvinea
+creation_date: 2015-07-31T12:41:27Z
+
+[Term]
+id: PHIDF:0000275
+name: increased oxidative stress resistance
+is_a: PHIDF:0000274 ! oxidative stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:41:48Z
+
+[Term]
+id: PHIDF:0000276
+name: decreased oxidative stress resistance
+is_a: PHIDF:0000274 ! oxidative stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:41:57Z
+
+[Term]
+id: PHIDF:0000277
+name: unaltered oxidative stress resistance
+is_a: PHIDF:0000274 ! oxidative stress resistance
+created_by: irvinea
+creation_date: 2015-07-31T12:42:07Z
+
+[Term]
+id: PHIDF:0000395
+name: unaltered disease formation
+synonym: "unaltered pathogenicity" EXACT []
+is_a: PHIDF:0000161 ! disease formation
+created_by: irvinea
+creation_date: 2015-12-07T15:51:20Z
+

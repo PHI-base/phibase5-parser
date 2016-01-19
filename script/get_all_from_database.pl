@@ -31,7 +31,7 @@ $json_output{"interactions"} = \@interactions;
 
 # print the headers for the output file
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Strain\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPost-Trans Modifications\tPost-Trans Mod Annot Extensions\tEffector Gene\tEffector Location in Host\tEffector Host Target\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tInducer Chemical Names\tInducer CAS IDs\tInducer ChEBI IDs\tInducer Genes\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Strain\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPost-Trans Modifications\tPost-Trans Mod Annot Extensions\tEffector Gene\tEffector Location in Host\tEffector Host Target\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tDisease Formation Annotations\tInducer Chemical Names\tInducer CAS IDs\tInducer ChEBI IDs\tInducer Genes\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -46,6 +46,7 @@ print "Reading ontology files...\n";
 my $obo_parser = OBO::Parser::OBOParser->new;
 my $exp_spec_ontology = $obo_parser->work("../ontology/phibase/experiment_specification.obo");
 my $phi_phenotype_ontology = $obo_parser->work("../ontology/phibase/phi_phenotype.obo");
+my $phi_disease_formation_ontology = $obo_parser->work("../ontology/phibase/phi_disease_formation.obo");
 my $effector_ontology = $obo_parser->work("../ontology/phibase/phi_effector.obo");
 my $psi_mod_ontology = $obo_parser->work("../ontology/Modifications/PSI-MOD.obo");
 #my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/doid.obo");
@@ -1126,6 +1127,54 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
   # add the host phenotypes to the interaction hash for JSON output
   if (@phi_host_phenotypes) {
     $interaction_hash{"phi_host_phenotypes"} = \@phi_host_phenotypes;
+  }
+
+
+  # initalise output string for disease formations and array for JSON output
+  my $disease_formation_string = "";
+  my @disease_formations;
+
+  # get the disease formation term identifiers
+  $sql_stmt2 = qq(SELECT disease_formation_id
+                    FROM interaction,
+                         interaction_disease_formation
+                   WHERE interaction.id = $interaction_id
+                     AND interaction.id = interaction_disease_formation.interaction_id
+                 ;);
+
+  $sql_result2 = $db_conn->prepare($sql_stmt2);
+  $sql_result2->execute() or die $DBI::errstr;
+
+  # since there may be multiple disease formations,
+  # need to retrieve all of them and construct output string 
+  # based on comma and semi-colon delimiters
+  while (@row2 = $sql_result2->fetchrow_array()) {
+
+    # create disease formation hash for JSON output
+    my %disease_formation_hash;
+
+    my $disease_formation_id = shift @row2;
+
+    # use the PHI disease formation ontology to retrieve the term name, based on the identifier
+    my $disease_formation_name = $phi_disease_formation_ontology->get_term_by_id($disease_formation_id)->name;
+    $disease_formation_hash{"disease_formation_id"} = $disease_formation_id;
+    $disease_formation_hash{"disease_formation_name"} = $disease_formation_name;
+
+    # add the disease formation term to the output string
+    $disease_formation_string .= "$disease_formation_id:$disease_formation_name;";
+
+    # add the current disease formation to the list of disease formations
+    push(@disease_formations, \%disease_formation_hash);
+
+  }
+
+  # remove the final semi-colon from end of the string
+  $disease_formation_string =~ s/;$//;
+  # output the disease formation annotations
+  print DATABASE_DATA_FILE "$disease_formation_string\t";
+  # add the disease formations to the interaction hash for JSON output
+  if (@disease_formations) {
+    $interaction_hash{"disease_formations"} = \@disease_formations;
   }
 
 

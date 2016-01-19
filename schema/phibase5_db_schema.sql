@@ -247,3 +247,9 @@ CREATE TABLE interaction_phi_pathogen_phenotype (
     PRIMARY KEY (interaction_id, phi_phenotype_id)
 );
 
+CREATE TABLE interaction_disease_formation (
+    interaction_id integer REFERENCES interaction,
+    disease_formation_id varchar(50),
+    PRIMARY KEY (interaction_id, disease_formation_id)
+);
+

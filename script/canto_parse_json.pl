@@ -22,6 +22,7 @@ my $phi_interaction_phenotype_count = 0;
 my $phi_pathogen_phenotype_count = 0;
 my $phi_host_phenotype_count = 0;
 my $disease_count = 0;
+my $disease_formation_count = 0;
 my $go_mol_function_count = 0;
 my $go_biol_process_count = 0;
 my $go_cell_location_count = 0;
@@ -347,6 +348,7 @@ foreach my $int_id (1 .. $interaction_count) {
   my $phi_pathogen_phenotype;
   my $phi_host_phenotype;
   my $disease;
+  my $disease_formation_id;
   my $go_id;
   my $go_evid_code;
   my $interaction_id;
@@ -508,6 +510,11 @@ foreach my $int_id (1 .. $interaction_count) {
 	       $pathogen_strain_name = $annot_ext_value;
 	    }
 
+	    # if extension relation is 'disease_formation', then assign range value to disease_formation_id
+	    if ($annot_ext_relation =~ /^disease_formation/) {
+	       $disease_formation_id = $annot_ext_value;
+	    }
+
          } # end foreach annotation extension
 
 
@@ -515,6 +522,7 @@ foreach my $int_id (1 .. $interaction_count) {
          print "Host Strain Name: $host_strain_name\n" if defined $host_strain_name;
          print "Tissue: $tissue\n" if defined $tissue;
          print "Disease: $disease\n" if defined $disease;
+         print "Disease Formation ID: $disease_formation_id\n" if defined $disease_formation_id;
          print "Inducer Chemical: $inducer_chebi_id\n" if defined $inducer_chebi_id;
          print "Inducer Chemical: $inducer_cas_num\n" if defined $inducer_cas_num;
          print "Inducer Gene: $inducer_gene\n" if defined $inducer_gene;
@@ -869,6 +877,21 @@ foreach my $int_id (1 .. $interaction_count) {
 	    $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
 
          } # end if anti-infective
+
+
+         if (defined $disease_formation_id) {
+
+	    # insert data into the interaction_disease_formation table,
+            # with foreign keys to the interaction table and phi_phenotype ontology 
+	    my $sql_statement = qq(INSERT INTO interaction_disease_formation (interaction_id, disease_formation_id)
+                                     VALUES ($interaction_id, '$disease_formation_id');
+                                  );
+	    my $sql_result = $db_conn->do($sql_statement) or die $DBI::errstr;
+
+            # increment counter of disease formation annotations
+            $disease_formation_count++;
+
+         } # end if disease formation
 
 
          # iterate through the array of alleles in the current genotype
@@ -1539,6 +1562,7 @@ print "Total annotations :$annotation_count\n";
 print "Total PHI interaction phenotypes: $phi_interaction_phenotype_count\n";
 print "Total PHI pathogen phenotypes: $phi_pathogen_phenotype_count\n";
 print "Total PHI host phenotypes: $phi_host_phenotype_count\n";
+print "Total Disease Formation annotations: $disease_formation_count\n";
 print "Total GO annotations: $go_annotation_count\n";
 print "Total effector genes: $effector_gene_count\n";
 print "Total post-trans modifications: $post_trans_mod_count\n";
