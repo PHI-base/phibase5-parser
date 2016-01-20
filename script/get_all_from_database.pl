@@ -53,6 +53,7 @@ my $psi_mod_ontology = $obo_parser->work("../ontology/Modifications/PSI-MOD.obo"
 my $human_disease_ontology = $obo_parser->work("../ontology/Disease/HumanDisease/HumanDO.obo");
 #my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/PlantDisease/plant_disease_ontology.obo");
 my $plant_disease_ontology = $obo_parser->work("../ontology/Disease/plant-stress-ontology/plant-disease-ontology.obo");
+# Temporary controlled vocabulary of PHI-base curated diseases to cope with lack of terms in other disease ontologies
 my $phi_diseases = $obo_parser->work("../ontology/Disease/PHI_disease_2015-12-01.obo");
 my $brenda_tissue_ontology = $obo_parser->work("../ontology/Tissue/BrendaTissueOBO.obo");
 
@@ -758,11 +759,18 @@ print "Post trans mod PSI-MOD Evid Code:$psi_mod_evid_code\n";
  
     if (defined $disease_term) {
       # if found, then look up name
+print "Plant Disease ID:$disease_id\n";
       $disease_name = $disease_term->name;
     } else { # if not defined, then look up human disease ontology
-      $disease_term = $human_disease_ontology->get_term_by_id($disease_id);
-print "Disease ID:$disease_id\n";
-      $disease_name = $disease_term->name;
+       $disease_term = $human_disease_ontology->get_term_by_id($disease_id);
+       if (defined $disease_term) { # if found, then look up name
+print "Human Disease ID:$disease_id\n";
+	 $disease_name = $disease_term->name;
+       } else { # if not defined, then look up PHI disease controlled vocabulary
+	 $disease_term = $phi_diseases->get_term_by_id($disease_id);
+print "PHI Disease ID:$disease_id\n";
+	 $disease_name = $disease_term->name;
+       }
     }
 
     # now print the disease id and name 
@@ -1760,7 +1768,9 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
 print "PubMed ID:$pubmed_id\n";
     my $url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search/query=EXT_ID:$pubmed_id&format=json";
     my $json_response = get $url;
-    my $text_response = decode_json($json_response);
+    # check if a valid JSON response is able to be decoded
+    # if so, output details, otherwise display error message
+    if ( my $text_response = decode_json($json_response) ) {
 
     # parse each of the relevant parameters from the JSON text
     my $authors = $text_response->{'resultList'}{'result'}[0]{'authorString'};
@@ -1792,6 +1802,9 @@ print "PubMed ID:$pubmed_id\n";
        
     } else { # article not found
        $pubmed_output_string .= "$pubmed_id: Not Found;";
+    }
+    } else {
+       print STDERR "Error retrieving JSON output from PubMed for PubMed ID: $pubmed_id\n";
     }
 
     # add current pubmed record to the list of pubmed articles for this interaction
@@ -1830,6 +1843,7 @@ $db_conn->disconnect() or die "Failed to disconnect database\n";
 my $json_data = encode_json(\%json_output);
 open (JSON_DATA_FILE, "> $json_data_filename") or die "Error opening output file\n";
 print JSON_DATA_FILE $json_data;
+close (JSON_DATA_FILE);
 
 # test if the JSON output produces proper hash string
 #use Data::Dumper;

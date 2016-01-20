@@ -111,7 +111,7 @@ my %combined_disease_mapping = (
 # parse tab-separated file that maps disease values of the spreadsheet
 # to identifiers in the [Human] Disease Ontology or Plant Disease Ontology
 # saving the value and identifiers as key/value pairs in a hash
-open (DISEASE_MAPPINGS_FILE, "../mapping/disease_mapping_phibase_4pt0_2015-09-03.tsv") || die "Error opening input file\n";
+open (DISEASE_MAPPINGS_FILE, "../mapping/disease_mapping_phibase_4pt0.tsv") || die "Error opening input file\n";
 
 # hash to map disease to ontology identifiers
 my %disease_mapping;
