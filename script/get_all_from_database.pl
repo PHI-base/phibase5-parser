@@ -19,6 +19,10 @@ my $db_conn = connect_to_phibase(); # connect to PHI-base database
 my $db_data_filename = '../output/all_database_data.tsv';  
 open (DATABASE_DATA_FILE, "> $db_data_filename") or die "Error opening output file\n";
 
+# open output file for data to export to phytopath
+my $phytopath_data_filename = '../output/phytopath_import_data.tsv';  
+open (PHYTOPATH_DATA_FILE, "> $phytopath_data_filename") or die "Error opening output file\n";
+
 # open output file for JSON encoded data
 my $json_data_filename = '../output/all_database_data.json';  
 open (JSON_DATA_FILE, "> $json_data_filename") or die "Error opening output file\n";
@@ -29,9 +33,11 @@ my %json_output = ();
 my @interactions = ();
 $json_output{"interactions"} = \@interactions;
 
-# print the headers for the output file
+# print the headers for the output files
 print DATABASE_DATA_FILE 
-"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Strain\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPost-Trans Modifications\tPost-Trans Mod Annot Extensions\tEffector Gene\tEffector Location in Host\tEffector Host Target\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tDisease Formation Annotations\tInducer Chemical Names\tInducer CAS IDs\tInducer ChEBI IDs\tInducer Genes\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tCuration Date\n";
+"New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tGene Locus IDs\tGene Locus ID types\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Strain\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPost-Trans Modifications\tPost-Trans Mod Annot Extensions\tEffector Gene\tEffector Location in Host\tEffector Host Target\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tDisease Formation Annotations\tInducer Chemical Names\tInducer CAS IDs\tInducer ChEBI IDs\tInducer Genes\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tDOIs\tCuration Date\n";
+print PHYTOPATH_DATA_FILE 
+"new_phibase_acc\told_phibase_acc\tuniprot_acc\tgene_name_phibase\tgene_locus_id\tgene_locus_id_type\tpathogen_species_taxon_id\tpathogen_taxon_id\tpathogen_taxon_name_ncbi\thost_species_taxon_id\thost_species_name_ncbi\tphi_disease_phenotype_id\tphi_disease_phenotype_name\texperiment_specification_ids\texperiment_specification_names\tpubmed_ids\tdois\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -78,6 +84,7 @@ while (my @row = $sql_result->fetchrow_array()) {
 
   # output PHI-base accession to file and hash
   print DATABASE_DATA_FILE "$phibase_accession\t";
+  print PHYTOPATH_DATA_FILE "$phibase_accession\t";
   $interaction_hash{"phibase_accession"} = $phibase_accession;
 
   # get the obsolete PHI-base accession(s)
@@ -109,6 +116,7 @@ while (my @row = $sql_result->fetchrow_array()) {
   # print the list of obsolete PHI accessions to file
   # and add array to the interaction hash
   print DATABASE_DATA_FILE "$obsolete_acc_output_string\t";
+  print PHYTOPATH_DATA_FILE "$obsolete_acc_output_string\t";
   if (@obsolete_acc_array) {
     $interaction_hash{"obsolete_accessions"} = \@obsolete_acc_array;
   }
@@ -116,9 +124,12 @@ while (my @row = $sql_result->fetchrow_array()) {
   # get the pathogen gene related fields 
   $sql_stmt2 = qq(SELECT pathogen_gene_id,
                          uniprot_accession,
+                         ncbi_species_taxon_id,
                          ncbi_taxon_id,
                          pathogen_strain_name,
                          gene_name,
+                         gene_locus_id,
+                         gene_locus_id_type,
                          allele_name,
                          allele_type,
                          allele_description,
@@ -139,12 +150,17 @@ while (my @row = $sql_result->fetchrow_array()) {
   # declare variable to store field values
   my $uniprot_accessions = "";
   my $phibase_gene_names = "";
+  my $path_gene_loci_ids = "";
+  my $path_gene_loci_id_types = "";
   my $allele_details = "";
   my $uniprot_gene_names = "";
   my $uniprot_protein_names = "";
   my $uniprot_embl_accessions = "";
   my $uniprot_go_annotation = "";
+  my $path_species_taxa_ids = "";
   my $path_taxa = "";
+  my $path_taxa_ids = "";
+  my $path_taxa_names = "";
   my $pathogen_strain_names = "";
   my $pathogen_interacting_proteins = "";
 
@@ -187,9 +203,12 @@ while (my @row = $sql_result->fetchrow_array()) {
 
      my $pathogen_gene_id = shift @row2;
      my $uniprot_acc = shift @row2;
+     my $path_species_taxon_id = shift @row2;
      my $path_taxon_id = shift @row2;
      my $pathogen_strain_name = shift @row2;
      my $phibase_gene_name = shift @row2;
+     my $path_gene_locus_id = shift @row2;
+     my $path_gene_locus_id_type = shift @row2;
      my $allele_name = shift @row2;
      my $allele_type = shift @row2;
      my $allele_description = shift @row2;
@@ -204,8 +223,12 @@ while (my @row = $sql_result->fetchrow_array()) {
      $uniprot_accessions .= "$uniprot_acc;";
      $pathogen_strain_names .= "$pathogen_strain_name;" if defined $pathogen_strain_name;
      $phibase_gene_names .= "$phibase_gene_name;" if defined $phibase_gene_name;
+     $path_gene_loci_ids .= "$path_gene_locus_id;" if defined $path_gene_locus_id;
+     $path_gene_loci_id_types .= "$path_gene_locus_id_type;" if defined $path_gene_locus_id_type;
      $pathogen_allele_hash{"uniprot_acc"} = $uniprot_acc;
      $pathogen_allele_hash{"phibase_gene_name"} = $phibase_gene_name;
+     $pathogen_allele_hash{"path_gene_locus_id"} = $path_gene_locus_id if defined $path_gene_locus_id;
+     $pathogen_allele_hash{"path_gene_locus_id_type"} = $path_gene_locus_id_type if defined $path_gene_locus_id_type;
      $allele_details .= "$allele_name" if defined $allele_name;
      $allele_details .= "($allele_type)" if defined $allele_type;
      $allele_details .= ":$allele_description" if defined $allele_description;
@@ -290,6 +313,8 @@ while (my @row = $sql_result->fetchrow_array()) {
      my $path_taxon_already_displayed = 0;
      if (not $path_taxon_id ~~ @path_taxon_id_array ) {
        push(@path_taxon_id_array, $path_taxon_id);
+       $path_taxa_ids .= "$path_taxon_id;";
+       $path_species_taxa_ids .= "$path_species_taxon_id;";
      } else {
        $path_taxon_already_displayed = 1;
      }
@@ -310,14 +335,16 @@ while (my @row = $sql_result->fetchrow_array()) {
      # (if the current taxon has not already been displayed)
      # and add the taxon details to the relevant array for JSON output
      if (not $path_taxon_already_displayed) {
+       my %path_taxon;
+       $path_taxon{"pathogen_species_taxon_id"} = $path_taxon_id;
+       $path_taxon{"pathogen_taxon_id"} = $path_taxon_id;
        if (defined $path_taxon_name) {
-	   $path_taxa .= "$path_taxon_id:$path_taxon_name;";
-           my %path_taxon;
-           $path_taxon{"pathogen_taxon_id"} = $path_taxon_id;
-           $path_taxon{"pathogen_taxon_name"} = $path_taxon_name;
-           push (@path_taxon_array, \%path_taxon);
+	  $path_taxa .= "$path_taxon_id:$path_taxon_name;";
+          $path_taxon{"pathogen_taxon_name"} = $path_taxon_name;
+          $path_taxa_names .= "$path_taxon_name;";
+          push (@path_taxon_array, \%path_taxon);
        } else { # just print id
-	   $path_taxa .= "$path_taxon_id;";
+	  $path_taxa .= "$path_taxon_id;";
        }
      }
 
@@ -712,13 +739,18 @@ print "Post trans mod PSI-MOD Evid Code:$psi_mod_evid_code\n";
   # remove the final semi-colon from end of the strings
   $uniprot_accessions =~ s/;$//;
   $phibase_gene_names =~ s/;$//;
+  $path_gene_loci_ids =~ s/;$//;
+  $path_gene_loci_id_types =~ s/;$//;
   $uniprot_gene_names =~ s/;$//;
   $uniprot_protein_names =~ s/;$//;
   $uniprot_embl_accessions =~ s/;$//;
   $allele_details =~ s/;$//;
   $uniprot_go_annotation =~ s/;$//;
   $pathogen_interacting_proteins =~ s/;$//;
+  $path_species_taxa_ids =~ s/;$//;
   $path_taxa =~ s/;$//;
+  $path_taxa_ids =~ s/;$//;
+  $path_taxa_names =~ s/;$//;
   $pathogen_strain_names =~ s/;$//;
 
   # for allele details, also want to remove
@@ -728,7 +760,8 @@ print "Post trans mod PSI-MOD Evid Code:$psi_mod_evid_code\n";
   $allele_details =~ s/:$//;
 
   # print to the output file
-  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$allele_details\t$pathogen_interacting_proteins\t$path_taxa\t$pathogen_strain_names\t";
+  print DATABASE_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$uniprot_gene_names\t$uniprot_protein_names\t$uniprot_embl_accessions\t$path_gene_loci_ids\t$path_gene_loci_id_types\t$allele_details\t$pathogen_interacting_proteins\t$path_taxa\t$pathogen_strain_names\t";
+  print PHYTOPATH_DATA_FILE "$uniprot_accessions\t$phibase_gene_names\t$path_gene_loci_ids\t$path_gene_loci_id_types\t$path_species_taxa_ids\t$path_taxa_ids\t$path_taxa_names\t";
 
 
   # get the disease related fields 
@@ -895,6 +928,7 @@ print "PHI Disease ID:$disease_id\n";
 
   # print the host taxon details
   print DATABASE_DATA_FILE "$host_taxon_string\t$host_strain_name\t$host_target_string\t$cotyledon_output_string\t";
+  print PHYTOPATH_DATA_FILE "$host_taxon_id\t$host_taxon_name\t";
 
 
   # initalise output string and array for tissues
@@ -968,6 +1002,8 @@ print "PHI Disease ID:$disease_id\n";
 
   # initalise output string for PHI interaction phenotypes and array for JSON output
   my $phi_interaction_phenotype_string = "";
+  my $phi_interaction_phenotype_ids = "";
+  my $phi_interaction_phenotype_names = "";
   my @phi_interaction_phenotypes;
 
   # get the PHI interaction phenotype term identifiers
@@ -1003,6 +1039,8 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
     }
     $interaction_phenotype_hash{"phi_interaction_phenotype_id"} = $phi_interaction_phenotype_id;
     $interaction_phenotype_hash{"phi_interaction_phenotype_name"} = $phi_interaction_phenotype_name;
+    $phi_interaction_phenotype_ids .= "$phi_interaction_phenotype_id;";
+    $phi_interaction_phenotype_names .= "$phi_interaction_phenotype_name;";
 
     # if evidence is supplied, then output the PHI phenotype name with the evidence
     # otherwise just output the PHI phenotype name
@@ -1020,8 +1058,11 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
 
   # remove the final semi-colon from end of the string
   $phi_interaction_phenotype_string =~ s/;$//;
+  $phi_interaction_phenotype_ids =~ s/;$//;
+  $phi_interaction_phenotype_names =~ s/;$//;
   # output the PHI Interaction Phenotypes
   print DATABASE_DATA_FILE "$phi_interaction_phenotype_string\t";
+  print PHYTOPATH_DATA_FILE "$phi_interaction_phenotype_ids\t$phi_interaction_phenotype_names\t";
   # add the interaction phenotypes to the interaction hash for JSON output
   if (@phi_interaction_phenotypes) {
     $interaction_hash{"phi_interaction_phenotypes"} = \@phi_interaction_phenotypes;
@@ -1492,6 +1533,8 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
   # initalise output string for exp spec
   # and array of experiments for JSON output
   my $exp_spec_output_string = "";
+  my $exp_spec_output_ids = "";
+  my $exp_spec_output_names = "";
   my @exp_spec_array;
 
   # since there may be multiple experiment specifications
@@ -1508,6 +1551,8 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
     my $exp_spec_name = $exp_spec_ontology->get_term_by_id($exp_spec_id)->name;
 
     $exp_spec_output_string .= "$exp_spec_id:$exp_spec_name;";
+    $exp_spec_output_ids .= "$exp_spec_id;";
+    $exp_spec_output_names .= "$exp_spec_name;";
     $exp_spec_hash{"experimental_spec_id"} = $exp_spec_id;
     $exp_spec_hash{"experimental_spec_name"} = $exp_spec_name;
 
@@ -1518,8 +1563,11 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
 
   # remove the final semi-colon from end of the string
   $exp_spec_output_string =~ s/;$//;
+  $exp_spec_output_ids =~ s/;$//;
+  $exp_spec_output_names =~ s/;$//;
   # print the list of experimental evidence to file
   print DATABASE_DATA_FILE "$exp_spec_output_string\t";
+  print PHYTOPATH_DATA_FILE "$exp_spec_output_ids\t$exp_spec_output_names\t";
   # add the experiemental spec data to the interaction hash for JSON output
   if (@exp_spec_array) {
     $interaction_hash{"experimental_specs"} = \@exp_spec_array;
@@ -1739,7 +1787,8 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
 
 
   # get the literature fields 
-  $sql_stmt2 = qq(SELECT interaction_literature.pubmed_id
+  $sql_stmt2 = qq(SELECT interaction_literature.pubmed_id,
+                         interaction_literature.doi
                     FROM interaction,
                          interaction_literature
                    WHERE interaction.id = $interaction_id
@@ -1751,73 +1800,90 @@ print "PHI interaction phenotype ID:$phi_interaction_phenotype_id\n";
 
   # initalise output string and JSON array for literature
   my $pubmed_output_string = "";
-  my @pubmed_articles;
+  my $pubmed_id_output_string = "";
+  my $doi_output_string = "";
+  my @lit_articles;
 
-  # since there may be multiple PubMed articles,
+  # since there may be multiple literature articles,
   # need to retrieve all of them and construct output string 
   # based on semi-colon delimiter
   while (@row2 = $sql_result2->fetchrow_array()) {
 
-    # create pubmed hash for JSON output
-    my %pubmed_hash;
+    # create literature hash for JSON output
+    my %lit_hash;
 
     my $pubmed_id = shift @row2;
-    $pubmed_hash{"pubmed_id"} = $pubmed_id;
+    my $doi = shift @row2;
 
-    # run REST query and get JSON response
+    if (defined $pubmed_id) {
+
+       $pubmed_id_output_string .= "$pubmed_id;";
+       $lit_hash{"pubmed_id"} = $pubmed_id;
+
+       # run REST query and get JSON response
 print "PubMed ID:$pubmed_id\n";
-    my $url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search/query=EXT_ID:$pubmed_id&format=json";
-    my $json_response = get $url;
-    # check if a valid JSON response is able to be decoded
-    # if so, output details, otherwise display error message
-    if ( my $text_response = decode_json($json_response) ) {
+       my $url = "http://www.ebi.ac.uk/europepmc/webservices/rest/search/query=EXT_ID:$pubmed_id&format=json";
+       my $json_response = get $url;
+       # check if a valid JSON response is able to be decoded
+       # if so, output details, otherwise display error message
+       if ( my $text_response = decode_json($json_response) ) {
 
-    # parse each of the relevant parameters from the JSON text
-    my $authors = $text_response->{'resultList'}{'result'}[0]{'authorString'};
-    my $year    = $text_response->{'resultList'}{'result'}[0]{'pubYear'};
-    my $title   = $text_response->{'resultList'}{'result'}[0]{'title'};
-    my $journal = $text_response->{'resultList'}{'result'}[0]{'journalTitle'};
-    my $volume  = $text_response->{'resultList'}{'result'}[0]{'journalVolume'};
-    my $issue   = $text_response->{'resultList'}{'result'}[0]{'issue'};
-    my $pages   = $text_response->{'resultList'}{'result'}[0]{'pageInfo'};
-    my $doi     = $text_response->{'resultList'}{'result'}[0]{'doi'};
+       # parse each of the relevant parameters from the JSON text
+       my $authors = $text_response->{'resultList'}{'result'}[0]{'authorString'};
+       my $year    = $text_response->{'resultList'}{'result'}[0]{'pubYear'};
+       my $title   = $text_response->{'resultList'}{'result'}[0]{'title'};
+       my $journal = $text_response->{'resultList'}{'result'}[0]{'journalTitle'};
+       my $volume  = $text_response->{'resultList'}{'result'}[0]{'journalVolume'};
+       my $issue   = $text_response->{'resultList'}{'result'}[0]{'issue'};
+       my $pages   = $text_response->{'resultList'}{'result'}[0]{'pageInfo'};
+       my $doi     = $text_response->{'resultList'}{'result'}[0]{'doi'};
 
-    # if title is empty or undefined, then assume the article has not been found
-    if (defined $title and $title ne "") {
+       # if title is empty or undefined, then assume the article has not been found
+       if (defined $title and $title ne "") {
 
-       # print article details in citation format
-       # note that warnings about non-ascii characters is suppressed,
-       # but these characters may not display as desired.
-       { no warnings; $pubmed_output_string .= "$pubmed_id: $authors ($year). \"$title\" $journal $volume($issue): $pages. $doi.;" };
+	  # print article details in citation format
+	  # note that warnings about non-ascii characters is suppressed,
+	  # but these characters may not display as desired.
+	  { no warnings; $pubmed_output_string .= "$pubmed_id: $authors ($year). \"$title\" $journal $volume($issue): $pages. $doi.;" };
 
-       # add each of the details to the pubmed hash
-       $pubmed_hash{"pubmed_authors"} = $authors;
-       $pubmed_hash{"pubmed_year"} = $year;
-       $pubmed_hash{"pubmed_title"} = $title;
-       $pubmed_hash{"pubmed_journal"} = $journal;
-       $pubmed_hash{"pubmed_volume"} = $volume;
-       $pubmed_hash{"pubmed_issue"} = $issue;
-       $pubmed_hash{"pubmed_pages"} = $pages;
-       $pubmed_hash{"pubmed_doi"} = $doi;
-       
-    } else { # article not found
-       $pubmed_output_string .= "$pubmed_id: Not Found;";
-    }
-    } else {
-       print STDERR "Error retrieving JSON output from PubMed for PubMed ID: $pubmed_id\n";
-    }
+	  # add each of the details to the pubmed hash
+	  $lit_hash{"pubmed_authors"} = $authors;
+	  $lit_hash{"pubmed_year"} = $year;
+	  $lit_hash{"pubmed_title"} = $title;
+	  $lit_hash{"pubmed_journal"} = $journal;
+	  $lit_hash{"pubmed_volume"} = $volume;
+	  $lit_hash{"pubmed_issue"} = $issue;
+	  $lit_hash{"pubmed_pages"} = $pages;
+	  $lit_hash{"pubmed_doi"} = $doi;
+	  
+       } else { # article not found
+	  $pubmed_output_string .= "$pubmed_id: Not Found;";
+       }
+       } else {
+	  print STDERR "Error retrieving JSON output from PubMed for PubMed ID: $pubmed_id\n";
+       }
 
-    # add current pubmed record to the list of pubmed articles for this interaction
-    push(@pubmed_articles, \%pubmed_hash);
+    } # end if defined pubmed id
 
-  } # end while pubmed articles
+    if (defined $doi) {
+       $doi_output_string .= "$doi;";
+       $lit_hash{"doi"} = $doi;
+    } 
+
+    # add current literature record to the list of liturature articles for this interaction
+    push(@lit_articles, \%lit_hash);
+
+  } # end while literature articles
 
   # remove the final semi-colon from end of the string
   $pubmed_output_string =~ s/;$//;
+  $pubmed_id_output_string =~ s/;$//;
+  $doi_output_string =~ s/;$//;
   # print the list of pubmed ids to file
-  print DATABASE_DATA_FILE "$pubmed_output_string\t";
+  print DATABASE_DATA_FILE "$pubmed_output_string\t$doi_output_string\t";
+  print PHYTOPATH_DATA_FILE "$pubmed_id_output_string\t$doi_output_string\n";
   # add the list of pubmed ids to the interaction hash for JSON output
-  $interaction_hash{"pubmed_articles"} = \@pubmed_articles;
+  $interaction_hash{"literature_articles"} = \@lit_articles;
 
   # finally, output curation date
   print DATABASE_DATA_FILE "$curation_date\n";
@@ -1833,6 +1899,7 @@ print "PubMed ID:$pubmed_id\n";
 }
 
 close (DATABASE_DATA_FILE);
+close (PHYTOPATH_DATA_FILE);
 
 $sql_result->finish() or die "Failed to finish SQL statement\n";
 $db_conn->disconnect() or die "Failed to disconnect database\n";
@@ -1853,5 +1920,6 @@ close (JSON_DATA_FILE);
 print "\nProcess completed successfully.\n";
 print "Total interactions:$interaction_count\n";
 print "Tab-separated file of all PHI-base data: $db_data_filename\n";
+print "Tab-separated file for PhytoPath: $phytopath_data_filename\n";
 print "JSON file of all PHI-base data: $db_data_filename\n\n";
 

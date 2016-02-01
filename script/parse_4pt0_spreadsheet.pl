@@ -365,7 +365,7 @@ while (<TSV_FILE>) {
           and $required_fields_annot{"literature_id"} ne "no data found"
           and $required_fields_annot{"entered_by"} ne ""
           and lc $required_fields_annot{"db_type"} eq "uniprot"
-          and lc $required_fields_annot{"literature_source"} eq "pubmed"
+          #and lc $required_fields_annot{"literature_source"} eq "pubmed" # now we accept interactions from other sources
           and $required_fields_annot{"patho_tax"} =~ /^\d+$/  # taxon ID must be an integer
           #and $required_fields_annot{"patho_tax"} == 5518  # taxon ID for Fusarium gram
           #and $required_fields_annot{"patho_tax"} == 148305  # taxon ID for Magnaporthe oryzae
@@ -397,14 +397,27 @@ while (<TSV_FILE>) {
 
 	# insert data into the pathogen_gene table,
         # if it does not exist already (based on combination of taxon id, gene name, and uniprot_accession)
-	my $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_taxon_id,gene_name,uniprot_accession) 
-			        SELECT $path_taxon_id,'$required_fields_annot{"gene_name"}','$required_fields_annot{"accession"}'
-                                WHERE NOT EXISTS (
-                                  SELECT 1 FROM pathogen_gene
-                                  WHERE ncbi_taxon_id = $path_taxon_id
-                                  AND gene_name = '$required_fields_annot{"gene_name"}'
-                                  AND uniprot_accession = '$required_fields_annot{"accession"}'
-                               ));
+        # if Gene Locus Identifier has been supplied, then this should also be inserted
+	my $sql_statement2; 
+        if (defined $phi_base_annotation{"gene_locus_id"} and $phi_base_annotation{"gene_locus_id"} ne "") {
+	   $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_species_taxon_id, ncbi_taxon_id, gene_name, uniprot_accession, gene_locus_id, gene_locus_id_type) 
+				SELECT $phi_base_annotation{"patho_tax"}, $path_taxon_id, '$required_fields_annot{"gene_name"}', '$required_fields_annot{"accession"}', '$phi_base_annotation{"gene_locus_id"}', '$phi_base_annotation{"gene_locus_id_type"}'
+				WHERE NOT EXISTS (
+				  SELECT 1 FROM pathogen_gene
+				  WHERE ncbi_taxon_id = $path_taxon_id
+				  AND gene_name = '$required_fields_annot{"gene_name"}'
+				  AND uniprot_accession = '$required_fields_annot{"accession"}'
+			       ));
+        } else { # gene locus data not supplied
+	   $sql_statement2 = qq(INSERT INTO pathogen_gene (ncbi_species_taxon_id, ncbi_taxon_id,gene_name,uniprot_accession) 
+				SELECT $phi_base_annotation{"patho_tax"}, $path_taxon_id,'$required_fields_annot{"gene_name"}','$required_fields_annot{"accession"}'
+				WHERE NOT EXISTS (
+				  SELECT 1 FROM pathogen_gene
+				  WHERE ncbi_taxon_id = $path_taxon_id
+				  AND gene_name = '$required_fields_annot{"gene_name"}'
+				  AND uniprot_accession = '$required_fields_annot{"accession"}'
+			       ));
+        }
 
 	my $sql_result2 = $db_conn->prepare($sql_statement2);
 	$sql_result2->execute() or die $DBI::errstr;
@@ -613,8 +626,9 @@ while (<TSV_FILE>) {
 	  my $sql_result6 = $db_conn->prepare($sql_statement6);
 	  $sql_result6->execute() or die $DBI::errstr;
 
-          # declare an array for the list of pubmed ids
+          # declare an array for the list of pubmed ids and digital object identifiers (DOIs)
           my @pubmed_id_list;
+          my @doi_list;
 
           if ( $interaction_id and $pathogen_gene_allele_id ) {
              # add records for the literature and pathogen gene allele tables associated with the interaction,
@@ -631,24 +645,59 @@ while (<TSV_FILE>) {
              # Add the PubMed literature to the interaction_literature table,
              # inserting a separate record for each PubMed ID, which are separated by semi-colon
 
-             # separate list of PubMed IDs, based on semi-colon delimiter
-             @pubmed_id_list = split (";",$required_fields_annot{"literature_id"});
+             if (lc $required_fields_annot{"literature_source"} eq "pubmed") {
+		# separate list of PubMed IDs, based on semi-colon delimiter
+		@pubmed_id_list = split (";",$phi_base_annotation{"literature_id"});
+             }
 
-             # insert interaction_literature record for each PubMed ID
-             foreach my $pubmed_id (@pubmed_id_list) {
+             if (defined $phi_base_annotation{"doi"} and $phi_base_annotation{"doi"} ne "" and $phi_base_annotation{"doi"} ne "no data found") {
+		# separate list of DOIs, based on semi-colon delimiter
+		@doi_list = split (";",$phi_base_annotation{"doi"});
+             }
 
-                $pubmed_id =~ s/^\s+//; # remove blank space from start of PubMed ID
-                $pubmed_id =~ s/\s+$//; # remove blank space from end of PubMed ID
+             if (@pubmed_id_list) {
+		# insert interaction_lite:serature record for each PubMed ID
+		foreach my $pubmed_id (@pubmed_id_list) {
 
-		# insert the PubMed ID into interaction_literature table,
-		# using the interaction id and as a foreign key
-		$inner_sql_statement = qq(INSERT INTO interaction_literature (interaction_id, pubmed_id)
-				      VALUES ($interaction_id, $pubmed_id);
-				   );
-		$inner_sql_result = $db_conn->prepare($inner_sql_statement);
-		#$inner_sql_result->execute() or die $DBI::errstr;
-		$inner_sql_result->execute(); # ignore errors due to possible duplication in spreadsheet
+		   $pubmed_id =~ s/^\s+//; # remove blank space from start of PubMed ID
+		   $pubmed_id =~ s/\s+$//; # remove blank space from end of PubMed ID
 
+		   # insert the PubMed ID into interaction_literature table,
+		   # using the interaction id and as a foreign key
+                   # and include a DOI, if available
+                   if ( my $doi = pop(@doi_list) ) {
+		      $inner_sql_statement = qq(INSERT INTO interaction_literature (interaction_id, pubmed_id, doi)
+					        VALUES ($interaction_id, '$pubmed_id', '$doi');
+					       );
+                   } else {
+		      $inner_sql_statement = qq(INSERT INTO interaction_literature (interaction_id, pubmed_id)
+					        VALUES ($interaction_id, '$pubmed_id');
+					       );
+                   }
+		   $inner_sql_result = $db_conn->prepare($inner_sql_statement);
+		   #$inner_sql_result->execute() or die $DBI::errstr;
+		   $inner_sql_result->execute(); # ignore errors due to possible duplication in spreadsheet
+
+		}
+             } elsif (@doi_list) { # DOIs available, but no PubMed IDs
+print "DOI provided, but no PubMed ID for $required_fields_annot{'phi_base_acc'}\n";
+		foreach my $doi (@doi_list) {
+
+		   $doi =~ s/^\s+//; # remove blank space from start of PubMed ID
+		   $doi =~ s/\s+$//; # remove blank space from end of PubMed ID
+
+		   $inner_sql_statement = qq(INSERT INTO interaction_literature (interaction_id, doi)
+		   	                     VALUES ($interaction_id, '$doi');
+					    );
+		   $inner_sql_result = $db_conn->prepare($inner_sql_statement);
+		   #$inner_sql_result->execute() or die $DBI::errstr;
+		   $inner_sql_result->execute(); # ignore errors due to possible duplication in spreadsheet
+
+		}
+             } else {
+#		$invalid_literature_count++;
+		print STDERR "PHI-base ERROR: No PubMed ID or DOI provided for $required_fields_annot{'phi_base_acc'}\n";
+#		print INVALID_LIT_FILE "$phi_base_accession\t$required_fields_annot{'phi_base_acc'}\n";
              }
 
 	  }

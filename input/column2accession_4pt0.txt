@@ -2,8 +2,8 @@ Record ID	record_id
 PHI_MolConn_ID	phi_base_acc
 IdentifierTypeOfProteinID	db_type
 ProteinID	accession
-IdentifierTypeOfGeneLocusID	none
-GeneLocusID	none
+IdentifierTypeOfGeneLocusID	gene_locus_id_type
+GeneLocusID	gene_locus_id
 Genomic sequence providing strain	assoc_strain
 Gene_name	gene_name
 Genome location	none

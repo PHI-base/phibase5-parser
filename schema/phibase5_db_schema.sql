@@ -49,12 +49,14 @@ CREATE TABLE usda_natural_host (
 
 CREATE TABLE pathogen_gene (
     id SERIAL PRIMARY KEY,
+    ncbi_species_taxon_id integer,
     ncbi_taxon_id integer,
     pathogen_strain_name varchar(50),
     gene_name varchar(100),
     uniprot_accession varchar(50),
     uniparc_id varchar(50),
-    genbank_locus_id varchar(50)
+    gene_locus_id varchar(50),
+    gene_locus_id_type varchar(130)
 );
 
 CREATE TABLE go_evidence (
@@ -120,7 +122,7 @@ CREATE TABLE obsolete (
 CREATE TABLE interaction_literature (
     interaction_id integer REFERENCES interaction,
     pubmed_id varchar(50),
-    PRIMARY KEY (interaction_id, pubmed_id)
+    doi varchar(50)
 );
 
 CREATE TABLE pathogen_interacting_protein (
