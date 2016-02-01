@@ -37,7 +37,7 @@ $json_output{"interactions"} = \@interactions;
 print DATABASE_DATA_FILE 
 "New PHI-base Acc\tOld PHI-base Acc\tUniProt Acc\tGene Name (PHI-base)\tGene Names (UniProt)\tProtein Names (UniProt)\tEMBL Accessions (UniProt)\tGene Locus IDs\tGene Locus ID types\tAlleles\tPathogen Interacting Proteins\tPathogen Taxon\tPathogen Strain\tDisease\tHost Taxon\tHost Strain\tHost Target Protein\tCotyledons\tTissue\tGO Annotations (UniProt)\tGO Annotations (PHI-base)\tGO Annotation Extensions (PHI-base)\tPost-Trans Modifications\tPost-Trans Mod Annot Extensions\tEffector Gene\tEffector Location in Host\tEffector Host Target\tPHI Interaction Phenotypes\tPHI Pathogen Phenotypes\tPHI Host Phenotypes\tDisease Formation Annotations\tInducer Chemical Names\tInducer CAS IDs\tInducer ChEBI IDs\tInducer Genes\tAnti-Infectives\tAnti-Infective CAS IDs\tAnti-Infective ChEBI IDs\tFRAC Codes\tFRAC Mode of Action\tFRAC Target Site\tFRAC Group\tFRAC Chemical Group\tFRAC Common Name\tFRAC Resistance Risk\tFRAC Comment\tExperiment Specifications\tCurators\tApprover\tSpecies Experts\tPubMed IDs\tDOIs\tCuration Date\n";
 print PHYTOPATH_DATA_FILE 
-"new_phibase_acc\told_phibase_acc\tuniprot_acc\tgene_name_phibase\tgene_locus_id\tgene_locus_id_type\tpathogen_species_taxon_id\tpathogen_taxon_id\tpathogen_taxon_name_ncbi\thost_species_taxon_id\thost_species_name_ncbi\tphi_disease_phenotype_id\tphi_disease_phenotype_name\texperiment_specification_ids\texperiment_specification_names\tpubmed_ids\tdois\n";
+"new_phibase_acc\told_phibase_acc\tuniprot_acc\tgene_name_phibase\tgene_locus_id\tgene_locus_id_type\tpathogen_species_taxon_id\tpathogen_taxon_id\tpathogen_taxon_name_ncbi\thost_species_taxon_id\thost_species_name_ncbi\tphi_disease_phenotype_id\tphi_disease_phenotype_name\texperiment_specification_ids\texperiment_specification_names\tpubmed_id\tdoi\n";
 
 # first, get details of all interactions from the interaction table
 my $sql_stmt = qq(SELECT id,phi_base_accession,curation_date FROM interaction);
@@ -1875,13 +1875,22 @@ print "PubMed ID:$pubmed_id\n";
 
   } # end while literature articles
 
+  # TEMP: TO AVOID COMPLICATIONS WITH HAVING MULTIPLE PUBMED IDs PER INTERACTION,
+  # JUST OUTPUT THE FIRST PubMed ID & FIRST DOI FOR THE PHYTOPATH OUTPUT 
+  my $first_pubmed_id = substr( $pubmed_id_output_string, 0, index($pubmed_id_output_string, ';') );
+  my $first_doi = substr( $doi_output_string, 0, index($doi_output_string, ';') );
+
   # remove the final semi-colon from end of the string
   $pubmed_output_string =~ s/;$//;
   $pubmed_id_output_string =~ s/;$//;
   $doi_output_string =~ s/;$//;
+
   # print the list of pubmed ids to file
   print DATABASE_DATA_FILE "$pubmed_output_string\t$doi_output_string\t";
-  print PHYTOPATH_DATA_FILE "$pubmed_id_output_string\t$doi_output_string\n";
+  # TEMP: TO AVOID COMPLICATIONS WITH HAVING MULTIPLE PUBMED IDs PER INTERACTION,
+  # JUST OUTPUT THE FIRST PubMed ID & FIRST DOI FOR THE PHYTOPATH OUTPUT 
+  #print PHYTOPATH_DATA_FILE "$pubmed_id_output_string\t$doi_output_string\n";
+  print PHYTOPATH_DATA_FILE "$first_pubmed_id\t$first_doi\n";
   # add the list of pubmed ids to the interaction hash for JSON output
   $interaction_hash{"literature_articles"} = \@lit_articles;
 
