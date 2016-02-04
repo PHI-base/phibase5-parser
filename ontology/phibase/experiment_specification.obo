@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:12:2014 15:24
+date: 20:01:2016 23:01
 saved-by: irvinea
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: default_namespace
@@ -40,6 +40,7 @@ creation_date: 2014-12-02T10:31:59Z
 id: ESO:0000004
 name: altered gene expression
 namespace: experiment_specification_ontology
+synonym: "gene regulation" RELATED []
 is_a: ESO:0000000 ! experiment specification
 created_by: irvinea
 creation_date: 2014-12-02T10:31:59Z
@@ -236,4 +237,20 @@ namespace: experiment_specification_ontology
 is_a: ESO:0000000 ! experiment specification
 created_by: irvinea
 creation_date: 2014-12-02T15:22:02Z
+
+[Term]
+id: ESO:0000027
+name: natural sequence variation
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2015-11-06T17:14:38Z
+
+[Term]
+id: ESO:0000028
+name: association genetics
+namespace: experiment_specification_ontology
+is_a: ESO:0000000 ! experiment specification
+created_by: irvinea
+creation_date: 2016-01-20T23:00:30Z
 

@@ -103,8 +103,10 @@ Insertional mutagenesis screen for pathogenicity mutants of Magnaporthe grisea o
 mutation	ESO:0000019
 mutation: characterised	ESO:0000016
 mutation: characterised; complementation	ESO:0000016;ESO:0000007
+natural sequence variation	ESO:0000027
 no data found
 other evidence	ESO:0000010
+Other evidence: association genetics	ESO:0000028
 Promoter mutation
 promotor mutation; gene complementation
 sequence analysis of sensitive and resistant strains	ESO:0000017
